@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSAccountManagementReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSAccountManagementReadOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2021-09-30 23:29:53+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4FJMX42HLT
+  PolicyName: AWSAccountManagementReadOnlyAccess
+  UpdateDate: 2021-09-30 23:29:53+00:00
+...
+

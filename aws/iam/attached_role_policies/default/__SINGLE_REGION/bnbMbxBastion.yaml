@@ -1,0 +1,11 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: bnbMbxBastion
+  single_region: true
+specifics:
+  AttachedPolicies: []
+...
+

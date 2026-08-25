@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: K8s-AutoScaling-Policy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/K8s-AutoScaling-Policy
+  AttachmentCount: 2
+  CreateDate: 2018-09-28 08:59:03+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIRGDCHZDZKYOSNMVC
+  PolicyName: K8s-AutoScaling-Policy
+  UpdateDate: 2018-09-28 08:59:03+00:00
+...
+

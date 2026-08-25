@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-051349a7f671aeaba
+specifics:
+  Description: Allow TCP traffic from jmeter SG on port 5490
+  FromPort: 5490
+  GroupId: sg-02231a30ac1cb65ea
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-026692aa9064fbcf6
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-051349a7f671aeaba
+  Tags: []
+  ToPort: 5490
+...
+

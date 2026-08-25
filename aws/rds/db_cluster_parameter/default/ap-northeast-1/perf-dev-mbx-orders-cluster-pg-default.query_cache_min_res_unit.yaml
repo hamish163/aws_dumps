@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-orders-cluster-pg-default.query_cache_min_res_unit
+specifics:
+  AllowedValues: 512-18446744073709547520
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: The minimum size (in bytes) for blocks allocated by the query cache.
+  IsModifiable: true
+  ParameterName: query_cache_min_res_unit
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

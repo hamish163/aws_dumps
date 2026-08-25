@@ -1,0 +1,29 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: bnb-prod-mbx-portal
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/bnb-prod-mbx-portal
+  CreateDate: 2023-11-28 12:01:56+00:00
+  InstanceProfileId: AIPA4RYUCHN5QGNIS3N54
+  InstanceProfileName: bnb-prod-mbx-portal
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/bnb-prod-mbx-portal
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+        Sid: ''
+      Version: '2012-10-17'
+    CreateDate: 2023-11-28 12:01:53+00:00
+    Path: /
+    RoleId: AROA4RYUCHN57FJDT7FHX
+    RoleName: bnb-prod-mbx-portal
+...
+

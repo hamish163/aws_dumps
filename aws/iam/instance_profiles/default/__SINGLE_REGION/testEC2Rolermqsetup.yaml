@@ -1,0 +1,29 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: testEC2Rolermqsetup
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/testEC2Rolermqsetup
+  CreateDate: 2019-07-01 06:23:33+00:00
+  InstanceProfileId: AIPA4RYUCHN56W46HS7DI
+  InstanceProfileName: testEC2Rolermqsetup
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/testEC2Rolermqsetup
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+        Sid: ''
+      Version: '2012-10-17'
+    CreateDate: 2019-07-01 06:23:31+00:00
+    Path: /
+    RoleId: AROA4RYUCHN5TQ7GOP7GE
+    RoleName: testEC2Rolermqsetup
+...
+

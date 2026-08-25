@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-050526ad18d3dd97a
+specifics:
+  CidrIpv4: 10.198.0.0/16
+  Description: Allow GlobalProtect access to pool manager - managed by bnb/sre/eks/emu/cluster
+  FromPort: 30090
+  GroupId: sg-09bf903f5851bcb74
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-050526ad18d3dd97a
+  Tags: []
+  ToPort: 30090
+...
+

@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0c3523dcf88535a0d
+specifics:
+  Description: Allow TCP traffic from ws-api SG on port 5480
+  FromPort: 5480
+  GroupId: sg-0bab9de95a8a557fe
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0ff429e86e0e6e570
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0c3523dcf88535a0d
+  Tags: []
+  ToPort: 5480
+...
+

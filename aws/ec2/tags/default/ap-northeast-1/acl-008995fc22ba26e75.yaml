@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: acl-008995fc22ba26e75
+specifics:
+  Name: prod-tracky-internal
+...
+

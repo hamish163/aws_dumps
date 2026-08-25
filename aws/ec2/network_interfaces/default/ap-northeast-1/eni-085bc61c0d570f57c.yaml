@@ -1,0 +1,196 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-085bc61c0d570f57c
+specifics:
+  Attachment:
+    AttachTime: 2026-07-09 22:56:29+00:00
+    AttachmentId: eni-attach-0cb6013e63356099f
+    DeleteOnTermination: true
+    DeviceIndex: 2
+    InstanceId: i-0fb0fc53166e0ad72
+    InstanceOwnerId: '862793644923'
+    NetworkCardIndex: 0
+    Status: attached
+  AvailabilityZone: ap-northeast-1a
+  Description: aws-K8S-i-0fb0fc53166e0ad72
+  Groups:
+  - GroupId: sg-009df548cfc588704
+    GroupName: mbx-bnb-sre-emu-shared
+  InterfaceType: interface
+  Ipv6Addresses: []
+  MacAddress: 06:01:97:0d:bb:8b
+  NetworkInterfaceId: eni-085bc61c0d570f57c
+  OwnerId: '862793644923'
+  PrivateDnsName: ip-100-64-17-65.ap-northeast-1.compute.internal
+  PrivateIpAddress: 100.64.17.65
+  PrivateIpAddresses:
+  - Primary: true
+    PrivateDnsName: ip-100-64-17-65.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.17.65
+  - Primary: false
+    PrivateDnsName: ip-100-64-17-193.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.17.193
+  - Primary: false
+    PrivateDnsName: ip-100-64-30-196.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.30.196
+  - Primary: false
+    PrivateDnsName: ip-100-64-25-197.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.25.197
+  - Primary: false
+    PrivateDnsName: ip-100-64-27-200.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.27.200
+  - Primary: false
+    PrivateDnsName: ip-100-64-23-201.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.23.201
+  - Primary: false
+    PrivateDnsName: ip-100-64-22-73.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.22.73
+  - Primary: false
+    PrivateDnsName: ip-100-64-23-78.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.23.78
+  - Primary: false
+    PrivateDnsName: ip-100-64-18-206.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.18.206
+  - Primary: false
+    PrivateDnsName: ip-100-64-21-206.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.21.206
+  - Primary: false
+    PrivateDnsName: ip-100-64-21-207.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.21.207
+  - Primary: false
+    PrivateDnsName: ip-100-64-23-209.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.23.209
+  - Primary: false
+    PrivateDnsName: ip-100-64-24-82.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.24.82
+  - Primary: false
+    PrivateDnsName: ip-100-64-30-213.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.30.213
+  - Primary: false
+    PrivateDnsName: ip-100-64-16-215.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.16.215
+  - Primary: false
+    PrivateDnsName: ip-100-64-17-90.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.17.90
+  - Primary: false
+    PrivateDnsName: ip-100-64-17-221.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.17.221
+  - Primary: false
+    PrivateDnsName: ip-100-64-23-94.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.23.94
+  - Primary: false
+    PrivateDnsName: ip-100-64-16-225.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.16.225
+  - Primary: false
+    PrivateDnsName: ip-100-64-22-97.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.22.97
+  - Primary: false
+    PrivateDnsName: ip-100-64-23-97.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.23.97
+  - Primary: false
+    PrivateDnsName: ip-100-64-28-98.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.28.98
+  - Primary: false
+    PrivateDnsName: ip-100-64-25-228.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.25.228
+  - Primary: false
+    PrivateDnsName: ip-100-64-22-103.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.22.103
+  - Primary: false
+    PrivateDnsName: ip-100-64-27-233.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.27.233
+  - Primary: false
+    PrivateDnsName: ip-100-64-29-235.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.29.235
+  - Primary: false
+    PrivateDnsName: ip-100-64-26-236.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.26.236
+  - Primary: false
+    PrivateDnsName: ip-100-64-20-109.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.20.109
+  - Primary: false
+    PrivateDnsName: ip-100-64-22-241.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.22.241
+  - Primary: false
+    PrivateDnsName: ip-100-64-23-248.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.23.248
+  - Primary: false
+    PrivateDnsName: ip-100-64-22-120.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.22.120
+  - Primary: false
+    PrivateDnsName: ip-100-64-19-0.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.19.0
+  - Primary: false
+    PrivateDnsName: ip-100-64-28-130.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.28.130
+  - Primary: false
+    PrivateDnsName: ip-100-64-31-10.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.31.10
+  - Primary: false
+    PrivateDnsName: ip-100-64-29-138.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.29.138
+  - Primary: false
+    PrivateDnsName: ip-100-64-19-13.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.19.13
+  - Primary: false
+    PrivateDnsName: ip-100-64-29-14.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.29.14
+  - Primary: false
+    PrivateDnsName: ip-100-64-27-142.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.27.142
+  - Primary: false
+    PrivateDnsName: ip-100-64-23-18.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.23.18
+  - Primary: false
+    PrivateDnsName: ip-100-64-28-149.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.28.149
+  - Primary: false
+    PrivateDnsName: ip-100-64-28-157.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.28.157
+  - Primary: false
+    PrivateDnsName: ip-100-64-29-162.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.29.162
+  - Primary: false
+    PrivateDnsName: ip-100-64-29-164.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.29.164
+  - Primary: false
+    PrivateDnsName: ip-100-64-31-38.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.31.38
+  - Primary: false
+    PrivateDnsName: ip-100-64-28-45.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.28.45
+  - Primary: false
+    PrivateDnsName: ip-100-64-25-180.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.25.180
+  - Primary: false
+    PrivateDnsName: ip-100-64-31-180.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.31.180
+  - Primary: false
+    PrivateDnsName: ip-100-64-25-181.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.25.181
+  - Primary: false
+    PrivateDnsName: ip-100-64-25-185.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.25.185
+  - Primary: false
+    PrivateDnsName: ip-100-64-25-190.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.25.190
+  RequesterId: AROA4RYUCHN54VUIU3UD4:1783637779639568131
+  RequesterManaged: false
+  SourceDestCheck: true
+  Status: in-use
+  SubnetId: subnet-025f3b07d8f774d99
+  TagSet:
+  - Key: node.k8s.amazonaws.com/instance_id
+    Value: i-0fb0fc53166e0ad72
+  - Key: node.k8s.amazonaws.com/createdAt
+    Value: '2026-07-09T22:56:28Z'
+  - Key: cluster.k8s.amazonaws.com/name
+    Value: mbx-bnb-sre-emu
+  - Key: eks:eni:owner
+    Value: amazon-vpc-cni
+  VpcId: vpc-0ba76150fc7799f94
+...
+

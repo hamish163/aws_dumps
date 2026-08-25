@@ -1,0 +1,17 @@
+---
+datatype: aws.route53.hosted_zones
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: perf.bnb.mbx.
+  single_region: true
+specifics:
+  CallerReference: terraform-20240621123211212300000001
+  Config:
+    Comment: Managed by Terraform
+    PrivateZone: true
+  Id: /hostedzone/Z038834823ZUJ0C8LCHUG
+  Name: perf.bnb.mbx.
+  ResourceRecordSetCount: 202
+...
+

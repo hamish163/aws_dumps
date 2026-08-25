@@ -1,0 +1,20 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0cc09bbfd8fe607c5
+specifics:
+  Description: '[k8s] Managed SecurityGroup for LoadBalancer'
+  GroupId: sg-0cc09bbfd8fe607c5
+  GroupName: k8s-golempub-7e0c83f860
+  Tags:
+  - Key: ingress.k8s.aws/cluster
+    Value: ap2.bitdj.com
+  - Key: ingress.k8s.aws/resource
+    Value: ManagedLBSecurityGroup
+  - Key: ingress.k8s.aws/stack
+    Value: golempub
+  VpcId: vpc-07652e77a8fa0e0c2
+...
+

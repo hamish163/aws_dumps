@@ -1,0 +1,16 @@
+---
+datatype: aws.elbv2.target_health
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/prod-portal-mbxvpn-tg/7f21dad0a8a2eaed
+specifics:
+  TargetHealthDescriptions:
+    i-056c6ef1cb1152283/8000:
+      HealthCheckPort: '8000'
+      Target:
+        Id: i-056c6ef1cb1152283
+        Port: 8000
+  _arn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/prod-portal-mbxvpn-tg/7f21dad0a8a2eaed
+...
+

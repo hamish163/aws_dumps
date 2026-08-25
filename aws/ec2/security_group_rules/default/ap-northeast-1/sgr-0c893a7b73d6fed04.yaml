@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0c893a7b73d6fed04
+specifics:
+  Description: Allow TCP traffic from kline-push SG on port 9810
+  FromPort: 9810
+  GroupId: sg-0c1e14a6f0066176d
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0e0aa9e5ecc1aa6e5
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0c893a7b73d6fed04
+  Tags: []
+  ToPort: 9810
+...
+

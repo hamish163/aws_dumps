@@ -1,0 +1,28 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: EC2SessionManagerTest
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/EC2SessionManagerTest
+  CreateDate: 2019-05-13 01:58:48+00:00
+  InstanceProfileId: AIPA4RYUCHN5Q4RQT5GFK
+  InstanceProfileName: EC2SessionManagerTest
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/EC2SessionManagerTest
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+      Version: '2012-10-17'
+    CreateDate: 2019-05-13 01:58:48+00:00
+    Path: /
+    RoleId: AROA4RYUCHN5QPN2QDJ5T
+    RoleName: EC2SessionManagerTest
+...
+

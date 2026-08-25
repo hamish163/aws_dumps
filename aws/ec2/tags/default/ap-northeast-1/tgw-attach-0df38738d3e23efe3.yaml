@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: tgw-attach-0df38738d3e23efe3
+specifics:
+  Name: mbx-velocity-chaos
+...
+

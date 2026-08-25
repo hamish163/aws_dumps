@@ -1,0 +1,26 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0a0a0c1db0748960b
+specifics:
+  Description: Security group for mgmt-api-sapi ALB
+  GroupId: sg-0a0a0c1db0748960b
+  GroupName: mbx-bnb-devops-mgmt-api-sapi-alb
+  Tags:
+  - Key: mbx_env_name
+    Value: devops
+  - Key: Name
+    Value: mbx-bnb-devops-mgmt-api-sapi-alb
+  - Key: biz
+    Value: mbx
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_secret_store
+    Value: none
+  - Key: team
+    Value: mbx
+  VpcId: vpc-07519eb63f1d932ac
+...
+

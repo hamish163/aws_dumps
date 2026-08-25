@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSTransformCustomFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSTransformCustomFullAccess
+  AttachmentCount: 0
+  CreateDate: 2025-12-05 15:19:07+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4NMNUIWFPK
+  PolicyName: AWSTransformCustomFullAccess
+  UpdateDate: 2026-04-07 21:27:14+00:00
+...
+

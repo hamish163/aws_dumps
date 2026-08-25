@@ -1,0 +1,23 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-devops-common-cluster-pg.binlog_row_value_options
+specifics:
+  AllowedValues: 'PARTIAL_JSON, '
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: When set to PARTIAL_JSON, this option enables a space-efficient row-based
+    binary log format for UPDATE statements that modify a JSON value using only the
+    functions JSON_SET, JSON_REPLACE, and JSON_REMOVE. For such updates, only the
+    modified parts of the JSON document are included in the binary log, so small changes
+    of big documents may need significantly less space.
+  IsModifiable: true
+  ParameterName: binlog_row_value_options
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

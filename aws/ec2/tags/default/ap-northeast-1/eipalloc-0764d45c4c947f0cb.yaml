@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eipalloc-0764d45c4c947f0cb
+specifics:
+  Name: tracky-jp-slave19
+  biz: mbx
+  team: mbx
+...
+

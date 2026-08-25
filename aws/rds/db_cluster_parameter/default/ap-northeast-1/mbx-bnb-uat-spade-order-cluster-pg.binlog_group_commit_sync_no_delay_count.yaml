@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-spade-order-cluster-pg.binlog_group_commit_sync_no_delay_count
+specifics:
+  AllowedValues: 0-100000
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: The maximum number of transactions to wait for before aborting the
+    current delay as specified by binlog_group_commit_sync_delay.
+  IsModifiable: true
+  ParameterName: binlog_group_commit_sync_no_delay_count
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

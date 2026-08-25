@@ -1,0 +1,60 @@
+---
+datatype: aws.iam.account_authorization_details
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: matthieu
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/matthieu
+  AttachedManagedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/matthieu_ec2_start_stop
+    PolicyName: matthieu_ec2_start_stop
+  CreateDate: 2020-08-04 09:24:45+00:00
+  GroupList:
+  - developer
+  - mbx_bedrock
+  Path: /
+  Tags:
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  - Key: mbx_iam
+    Value: matthieu
+  - Key: mbx_team
+    Value: dev
+  UserId: AIDA4RYUCHN5V4GUUX72W
+  UserName: matthieu
+  UserPolicyList:
+  - PolicyDocument:
+      Statement:
+      - Action:
+        - s3:ListAccessPointsForObjectLambda
+        - s3:GetAccessPoint
+        - s3:PutAccountPublicAccessBlock
+        - s3:ListAccessPoints
+        - s3:CreateStorageLensGroup
+        - s3:ListJobs
+        - s3:PutStorageLensConfiguration
+        - s3:ListMultiRegionAccessPoints
+        - s3:ListStorageLensGroups
+        - s3:ListStorageLensConfigurations
+        - s3:GetAccountPublicAccessBlock
+        - s3:ListAllMyBuckets
+        - s3:ListAccessGrantsInstances
+        - s3:PutAccessPointPublicAccessBlock
+        - s3:CreateJob
+        Effect: Allow
+        Resource: '*'
+        Sid: VisualEditor0
+      - Action: s3:*
+        Effect: Allow
+        Resource:
+        - arn:aws:s3:::lumber-setup
+        - arn:aws:s3:::lumber-setup/*
+        Sid: VisualEditor1
+      Version: '2012-10-17'
+    PolicyName: allow-write-lumber-setup
+...
+

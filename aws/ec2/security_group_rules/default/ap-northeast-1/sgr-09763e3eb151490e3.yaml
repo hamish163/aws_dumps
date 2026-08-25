@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-09763e3eb151490e3
+specifics:
+  CidrIpv4: 10.12.0.0/16
+  Description: Allow SSH from MBX Hub Client VPN
+  FromPort: 22
+  GroupId: sg-02d1a556ca2fb7c9b
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-09763e3eb151490e3
+  Tags: []
+  ToPort: 22
+...
+

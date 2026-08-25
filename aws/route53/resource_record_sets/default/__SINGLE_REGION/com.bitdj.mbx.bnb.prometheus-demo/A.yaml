@@ -1,0 +1,16 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: com.bitdj.mbx.bnb.prometheus-demo/A
+  single_region: true
+specifics:
+  AliasTarget:
+    DNSName: dualstack.internal-mbx-bnb-demo-prometheus-alb-1344887948.ap-northeast-1.elb.amazonaws.com.
+    EvaluateTargetHealth: false
+    HostedZoneId: Z14GRHDCWA56QT
+  Name: prometheus-demo.bnb.mbx.bitdj.com.
+  Type: A
+...
+

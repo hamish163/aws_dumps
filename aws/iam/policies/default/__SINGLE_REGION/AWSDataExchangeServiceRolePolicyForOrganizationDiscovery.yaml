@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSDataExchangeServiceRolePolicyForOrganizationDiscovery
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AWSDataExchangeServiceRolePolicyForOrganizationDiscovery
+  AttachmentCount: 0
+  CreateDate: 2024-10-10 14:33:13+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4PY2X5VZ6E
+  PolicyName: AWSDataExchangeServiceRolePolicyForOrganizationDiscovery
+  UpdateDate: 2024-10-10 14:33:13+00:00
+...
+

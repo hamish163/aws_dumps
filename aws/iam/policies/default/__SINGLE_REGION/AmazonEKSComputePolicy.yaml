@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonEKSComputePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonEKSComputePolicy
+  AttachmentCount: 0
+  CreateDate: 2024-11-01 21:46:52+00:00
+  DefaultVersionId: v7
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4HYRJHGSOQ
+  PolicyName: AmazonEKSComputePolicy
+  UpdateDate: 2026-05-18 21:12:10+00:00
+...
+

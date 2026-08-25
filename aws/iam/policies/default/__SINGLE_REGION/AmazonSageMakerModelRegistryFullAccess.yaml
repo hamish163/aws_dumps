@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonSageMakerModelRegistryFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonSageMakerModelRegistryFullAccess
+  AttachmentCount: 0
+  CreateDate: 2023-04-13 05:20:48+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4AQTREA5Z7
+  PolicyName: AmazonSageMakerModelRegistryFullAccess
+  UpdateDate: 2024-06-06 18:48:51+00:00
+...
+

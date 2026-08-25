@@ -1,0 +1,23 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-mysql8.0.binlog_group_commit_sync_delay
+specifics:
+  AllowedValues: 0-1000000
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Controls how many microseconds the binary log commit waits before synchronizing
+    the binary log file to storage. Setting binlog_group_commit_sync_delay can increase
+    the number of parallel committing transactions on any server that has (or might
+    have after a failover) a replica, and therefore can increase parallel execution
+    on the replicas.
+  IsModifiable: true
+  ParameterName: binlog_group_commit_sync_delay
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

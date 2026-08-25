@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-02be15aec34bebdfe
+specifics:
+  Description: rest-api 4567
+  FromPort: 4567
+  GroupId: sg-026692aa9064fbcf6
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-04b3f510e93357e8a
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-02be15aec34bebdfe
+  Tags: []
+  ToPort: 4567
+...
+

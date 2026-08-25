@@ -1,0 +1,20 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0bf2665c6fe47c7ce
+specifics:
+  Description: SSH Access
+  GroupId: sg-0bf2665c6fe47c7ce
+  GroupName: BitdjNetwork-SplitClientVPN-LN5RWSESLCM5-VpnSecurityGroup-RQWLPNVU94PC
+  Tags:
+  - Key: aws:cloudformation:stack-id
+    Value: arn:aws:cloudformation:ap-northeast-1:862793644923:stack/BitdjNetwork-SplitClientVPN-LN5RWSESLCM5/b8eb7710-b043-11ed-8447-06c4f690c71d
+  - Key: aws:cloudformation:stack-name
+    Value: BitdjNetwork-SplitClientVPN-LN5RWSESLCM5
+  - Key: aws:cloudformation:logical-id
+    Value: VpnSecurityGroup
+  VpcId: vpc-0beab044be33d1617
+...
+

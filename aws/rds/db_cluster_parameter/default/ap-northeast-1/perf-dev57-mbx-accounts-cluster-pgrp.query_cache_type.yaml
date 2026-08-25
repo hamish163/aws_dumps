@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev57-mbx-accounts-cluster-pgrp.query_cache_type
+specifics:
+  AllowedValues: 0-2
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: For query results either don't cache (=OFF), cache except for NO_CACHE
+    (=ON), or only CACHE (=DEMAND)
+  IsModifiable: true
+  ParameterName: query_cache_type
+  ParameterValue: '1'
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,29 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: tracky-prod-spooky
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/tracky-prod-spooky
+  CreateDate: 2022-09-07 22:09:03+00:00
+  InstanceProfileId: AIPA4RYUCHN5WNSPVC6L6
+  InstanceProfileName: tracky-prod-spooky
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/tracky-prod-spooky
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+        Sid: ''
+      Version: '2012-10-17'
+    CreateDate: 2022-09-07 22:09:00+00:00
+    Path: /
+    RoleId: AROA4RYUCHN55N445HG4I
+    RoleName: tracky-prod-spooky
+...
+

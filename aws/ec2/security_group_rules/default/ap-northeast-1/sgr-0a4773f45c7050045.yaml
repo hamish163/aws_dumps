@@ -1,0 +1,24 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0a4773f45c7050045
+specifics:
+  Description: From Prod Prometheus
+  FromPort: 9256
+  GroupId: sg-05e60d20221e31e45
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0f84355eac37184a8
+    PeeringStatus: active
+    UserId: '369096419186'
+    VpcId: vpc-03fb06428b00e7768
+    VpcPeeringConnectionId: pcx-0805b5b3852708808
+  SecurityGroupRuleId: sgr-0a4773f45c7050045
+  Tags: []
+  ToPort: 9256
+...
+

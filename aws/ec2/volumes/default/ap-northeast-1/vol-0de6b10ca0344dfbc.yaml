@@ -1,0 +1,48 @@
+---
+datatype: aws.ec2.volumes
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-0de6b10ca0344dfbc
+specifics:
+  Attachments:
+  - AttachTime: 2022-09-07 22:09:46+00:00
+    DeleteOnTermination: false
+    Device: /dev/sdf
+    InstanceId: i-04a7854a5a0fba71a
+    State: attached
+    VolumeId: vol-0de6b10ca0344dfbc
+  AvailabilityZone: ap-northeast-1a
+  CreateTime: 2022-09-07 21:58:07.483000+00:00
+  Encrypted: false
+  Iops: 3000
+  MultiAttachEnabled: false
+  Size: 40
+  SnapshotId: ''
+  State: in-use
+  Tags:
+  - Key: env
+    Value: prod
+  - Key: Name
+    Value: tracky_prod_mbx_spooky1_ec2
+  - Key: sre-component
+    Value: spooky
+  - Key: biz
+    Value: mbx
+  - Key: role
+    Value: spooky
+  - Key: sre-env
+    Value: prod
+  - Key: sre-app
+    Value: spooky
+  - Key: project
+    Value: spooky
+  - Key: team
+    Value: sre
+  - Key: exchange_id
+    Value: tracky
+  Throughput: 125
+  VolumeId: vol-0de6b10ca0344dfbc
+  VolumeType: gp3
+...
+

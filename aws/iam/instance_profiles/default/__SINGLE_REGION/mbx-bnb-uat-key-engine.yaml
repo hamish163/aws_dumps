@@ -1,0 +1,28 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-uat-key-engine
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/mbx-bnb-uat-key-engine
+  CreateDate: 2024-10-01 03:00:19+00:00
+  InstanceProfileId: AIPA4RYUCHN54GTTY3PG3
+  InstanceProfileName: mbx-bnb-uat-key-engine
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/mbx-bnb-uat-key-engine
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+      Version: '2012-10-17'
+    CreateDate: 2024-10-01 03:00:18+00:00
+    Path: /
+    RoleId: AROA4RYUCHN56HJZVCGHK
+    RoleName: mbx-bnb-uat-key-engine
+...
+

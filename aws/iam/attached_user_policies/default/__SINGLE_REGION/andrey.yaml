@@ -1,0 +1,16 @@
+---
+datatype: aws.iam.attached_user_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: andrey
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/QaTungstenInvocationPolicy
+    PolicyName: QaTungstenInvocationPolicy
+  - PolicyArn: arn:aws:iam::862793644923:policy/mbx_bedrock_keys_individual_list_reset
+    PolicyName: mbx_bedrock_keys_individual_list_reset
+  _UserName: andrey
+...
+

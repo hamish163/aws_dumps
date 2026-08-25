@@ -1,0 +1,28 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: nodes.mbxtools.bitdj.com
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/nodes.mbxtools.bitdj.com
+  CreateDate: 2020-08-20 09:27:11+00:00
+  InstanceProfileId: AIPA4RYUCHN5SLA4ZFWRN
+  InstanceProfileName: nodes.mbxtools.bitdj.com
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/nodes.mbxtools.bitdj.com
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+      Version: '2012-10-17'
+    CreateDate: 2020-08-20 09:27:01+00:00
+    Path: /
+    RoleId: AROA4RYUCHN5SH3SO3GH5
+    RoleName: nodes.mbxtools.bitdj.com
+...
+

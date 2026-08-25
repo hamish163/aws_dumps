@@ -1,0 +1,29 @@
+---
+datatype: aws.elbv2.load_balancers
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-solutions-eks1-nlb-int
+specifics:
+  AvailabilityZones:
+  - LoadBalancerAddresses: []
+    SubnetId: subnet-0ee65d490450b10fa
+    ZoneName: ap-northeast-1a
+  - LoadBalancerAddresses: []
+    SubnetId: subnet-0de7db28255d2a13f
+    ZoneName: ap-northeast-1c
+  CanonicalHostedZoneId: Z31USIVHYNEOWT
+  CreatedTime: 2026-02-27 13:38:04.262000+00:00
+  DNSName: mbx-bnb-solutions-eks1-nlb-int-46c1e8000728bf76.elb.ap-northeast-1.amazonaws.com
+  IpAddressType: ipv4
+  LoadBalancerArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:loadbalancer/net/mbx-bnb-solutions-eks1-nlb-int/46c1e8000728bf76
+  LoadBalancerName: mbx-bnb-solutions-eks1-nlb-int
+  Scheme: internal
+  SecurityGroups:
+  - sg-0329426bce4670a31
+  State:
+    Code: active
+  Type: network
+  VpcId: vpc-0218545ff4351ce04
+...
+

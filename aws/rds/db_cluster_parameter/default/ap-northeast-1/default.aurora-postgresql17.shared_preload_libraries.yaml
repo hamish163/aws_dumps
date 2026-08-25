@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql17.shared_preload_libraries
+specifics:
+  AllowedValues: auto_explain,orafce,pgaudit,pg_ad_mapping,pg_bigm,pg_similarity,pg_stat_statements,pg_tle,pg_hint_plan,pg_prewarm,plprofiler,pglogical,pg_cron
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: list
+  Description: Lists shared libraries to preload into server.
+  IsModifiable: true
+  ParameterName: shared_preload_libraries
+  ParameterValue: pg_stat_statements
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0f56d293d226a141f
+specifics:
+  CidrIpv4: 10.200.16.0/20
+  Description: Allow tcp for port range 9080 to 9080
+  FromPort: 9080
+  GroupId: sg-0da43ff58cfa89cdd
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-0f56d293d226a141f
+  Tags: []
+  ToPort: 9080
+...
+

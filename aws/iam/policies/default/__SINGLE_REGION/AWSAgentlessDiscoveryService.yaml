@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSAgentlessDiscoveryService
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSAgentlessDiscoveryService
+  AttachmentCount: 0
+  CreateDate: 2016-08-02 01:35:11+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIA3DIL7BYQ35ISM4K
+  PolicyName: AWSAgentlessDiscoveryService
+  UpdateDate: 2020-02-24 23:08:23+00:00
+...
+

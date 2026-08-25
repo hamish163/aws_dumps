@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.key_pairs
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: key-04a0adb096c0be086
+specifics:
+  CreateTime: 2018-06-27 07:19:59+00:00
+  KeyFingerprint: f9:88:70:c1:a9:1e:a6:eb:2d:d1:20:ae:63:18:e9:e6:71:62:37:17
+  KeyName: bnbk8s
+  KeyPairId: key-04a0adb096c0be086
+  KeyType: rsa
+  Tags: []
+...
+

@@ -1,0 +1,18 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql17.rds.allowed_delegated_extensions
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Comma-delimited list of extensions that rds_extension may install.
+  IsModifiable: true
+  ParameterName: rds.allowed_delegated_extensions
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

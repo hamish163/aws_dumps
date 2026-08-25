@@ -1,0 +1,27 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: snap-07b028687ef42e4eb
+specifics:
+  biz: mbx
+  git_author: stanislawkk <159903927+stanislawkk@users.noreply.github.com>
+  git_branch: main
+  git_committer: GitHub <noreply@github.com>
+  git_hash: ba42717f03f77fec608ab78ee1b1074a99e6013e
+  git_message: 'Merge pull request #49 from BitDJ/fedora-ami
+
+
+    Fedora ami with Podman for Jenkins'
+  git_timestamp: '2026-05-05T13:56:40Z'
+  managed: packer
+  project: mbx
+  role: ami-oci-builder
+  source_al2023_kernel: '6.1'
+  source_al2023_version: 2023.11.20260505.0
+  source_ami_id: ami-099ee4a7976778efe
+  source_ami_name: al2023-ami-minimal-2023.11.20260505.0-kernel-6.1-x86_64
+  team: mbx
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-devops-salt-cluster-pg.max_sync_workers_per_subscription
+specifics:
+  AllowedValues: 0-262143
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Maximum number of synchronization workers per subscription
+  IsModifiable: true
+  ParameterName: max_sync_workers_per_subscription
+  ParameterValue: '2'
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

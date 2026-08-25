@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-perf-commission-attribution-cluster-pg.source_verify_checksum
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Enabling this variable causes the source to examine checksums when
+    reading from the binary log.
+  IsModifiable: true
+  ParameterName: source_verify_checksum
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

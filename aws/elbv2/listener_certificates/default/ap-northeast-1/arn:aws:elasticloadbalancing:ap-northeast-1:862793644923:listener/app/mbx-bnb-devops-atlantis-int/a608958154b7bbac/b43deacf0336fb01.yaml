@@ -1,0 +1,11 @@
+---
+datatype: aws.elbv2.listener_certificates
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener/app/mbx-bnb-devops-atlantis-int/a608958154b7bbac/b43deacf0336fb01
+specifics:
+- CertificateArn: arn:aws:acm:ap-northeast-1:862793644923:certificate/30ef323c-02d0-4584-89ff-048f0910f105
+  IsDefault: true
+...
+

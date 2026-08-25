@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-accounts-cluster-pg-57.preload_buffer_size
+specifics:
+  AllowedValues: 1024-1073741824
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: The size of the buffer that is allocated when preloading indexes.
+  IsModifiable: true
+  ParameterName: preload_buffer_size
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

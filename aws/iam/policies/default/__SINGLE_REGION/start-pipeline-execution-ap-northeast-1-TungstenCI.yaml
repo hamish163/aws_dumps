@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: start-pipeline-execution-ap-northeast-1-TungstenCI
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/service-role/start-pipeline-execution-ap-northeast-1-TungstenCI
+  AttachmentCount: 2
+  CreateDate: 2022-04-22 03:35:16+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN52EI7M3F3A
+  PolicyName: start-pipeline-execution-ap-northeast-1-TungstenCI
+  UpdateDate: 2022-04-22 03:35:17+00:00
+...
+

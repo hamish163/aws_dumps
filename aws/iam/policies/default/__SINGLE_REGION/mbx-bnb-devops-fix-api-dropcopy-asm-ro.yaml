@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-devops-fix-api-dropcopy-asm-ro
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/mbx-bnb-devops-fix-api-dropcopy-asm-ro
+  AttachmentCount: 1
+  CreateDate: 2025-09-23 12:43:32+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5Z22X5KOMP
+  PolicyName: mbx-bnb-devops-fix-api-dropcopy-asm-ro
+  UpdateDate: 2025-09-23 12:43:32+00:00
+...
+

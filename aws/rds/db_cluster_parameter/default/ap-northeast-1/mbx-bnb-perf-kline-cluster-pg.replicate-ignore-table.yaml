@@ -1,0 +1,18 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-perf-kline-cluster-pg.replicate-ignore-table
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: list
+  Description: Creates a replication ignore filter using the name of a table
+  IsModifiable: true
+  ParameterName: replicate-ignore-table
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

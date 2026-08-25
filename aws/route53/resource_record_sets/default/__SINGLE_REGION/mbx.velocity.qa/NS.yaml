@@ -1,0 +1,18 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx.velocity.qa/NS
+  single_region: true
+specifics:
+  Name: qa.velocity.mbx.
+  ResourceRecords:
+  - Value: ns-493.awsdns-61.com.
+  - Value: ns-599.awsdns-10.net.
+  - Value: ns-1452.awsdns-53.org.
+  - Value: ns-1991.awsdns-56.co.uk.
+  TTL: 172800
+  Type: NS
+...
+

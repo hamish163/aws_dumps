@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: pcx-03e37489a6b6026ad
+specifics:
+  Name: tracky_to_forum
+...
+

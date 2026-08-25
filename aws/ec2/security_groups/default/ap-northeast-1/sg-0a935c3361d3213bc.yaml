@@ -1,0 +1,26 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0a935c3361d3213bc
+specifics:
+  Description: Managed by Terraform
+  GroupId: sg-0a935c3361d3213bc
+  GroupName: mbx-bnb-perf-prometheus
+  Tags:
+  - Key: mbx_env_name
+    Value: perf
+  - Key: biz
+    Value: mbx
+  - Key: Name
+    Value: mbx-bnb-perf-prometheus
+  - Key: mbx_secret_store
+    Value: none
+  - Key: team
+    Value: mbx
+  - Key: mbx_exchange_name
+    Value: bnb
+  VpcId: vpc-013930e589c469574
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonOpenSearchDirectQueryGlueCreateAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonOpenSearchDirectQueryGlueCreateAccess
+  AttachmentCount: 0
+  CreateDate: 2024-05-06 12:24:38+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4BPM5MHBU2
+  PolicyName: AmazonOpenSearchDirectQueryGlueCreateAccess
+  UpdateDate: 2024-05-06 12:24:38+00:00
+...
+

@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-perf-spade-trade-cluster-pg.max_insert_delayed_threads
+specifics:
+  AllowedValues: 0-16384
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Synonym for max_delayed_threads
+  IsModifiable: true
+  ParameterName: max_insert_delayed_threads
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

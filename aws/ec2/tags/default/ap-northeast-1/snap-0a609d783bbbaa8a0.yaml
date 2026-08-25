@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: snap-0a609d783bbbaa8a0
+specifics:
+  Name: 20200811-spinnaker-test-ebs
+  env: test
+  project: mbx
+...
+

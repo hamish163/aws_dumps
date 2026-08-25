@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSDeadlineCloud-UserAccessJobs
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSDeadlineCloud-UserAccessJobs
+  AttachmentCount: 0
+  CreateDate: 2024-04-01 17:05:38+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4EX3W2YLFT
+  PolicyName: AWSDeadlineCloud-UserAccessJobs
+  UpdateDate: 2024-10-07 18:24:52+00:00
+...
+

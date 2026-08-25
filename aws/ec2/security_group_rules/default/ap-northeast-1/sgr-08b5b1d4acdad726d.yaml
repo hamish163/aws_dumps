@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-08b5b1d4acdad726d
+specifics:
+  CidrIpv4: 54.238.64.231/32
+  Description: From New VPN EIPs
+  FromPort: 22
+  GroupId: sg-05e60d20221e31e45
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-08b5b1d4acdad726d
+  Tags: []
+  ToPort: 22
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: Ec2ImageBuilderCrossAccountDistributionAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/Ec2ImageBuilderCrossAccountDistributionAccess
+  AttachmentCount: 0
+  CreateDate: 2020-09-30 19:22:54+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4PHZOLIXKT
+  PolicyName: Ec2ImageBuilderCrossAccountDistributionAccess
+  UpdateDate: 2020-09-30 19:22:54+00:00
+...
+

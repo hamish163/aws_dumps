@@ -1,0 +1,17 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-0bb2665aad731fba1
+specifics:
+  Name: mbx-bnb-perf-kafka-pipe1
+  biz: mbx
+  mbx_application_name: kafka-pipe
+  mbx_env_name: perf
+  mbx_exchange_name: bnb
+  mbx_host_index: '1'
+  mbx_secret_store: none
+  team: mbx
+...
+

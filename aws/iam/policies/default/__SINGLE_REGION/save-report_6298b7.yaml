@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: save-report_6298b7
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/service-role/save-report_6298b7
+  AttachmentCount: 1
+  CreateDate: 2026-04-09 05:52:21+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5SAAY6PQ5O
+  PolicyName: save-report_6298b7
+  UpdateDate: 2026-04-09 05:52:21+00:00
+...
+

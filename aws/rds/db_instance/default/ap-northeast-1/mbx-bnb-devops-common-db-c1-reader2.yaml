@@ -1,0 +1,98 @@
+---
+datatype: aws.rds.db_instance
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-devops-common-db-c1-reader2
+specifics:
+  AllocatedStorage: 1
+  AssociatedRoles: []
+  AutoMinorVersionUpgrade: false
+  AvailabilityZone: ap-northeast-1a
+  BackupRetentionPeriod: 7
+  BackupTarget: region
+  CACertificateIdentifier: rds-ca-ecc384-g1
+  CertificateDetails:
+    CAIdentifier: rds-ca-ecc384-g1
+    ValidTill: 2027-05-26 17:20:02+00:00
+  CopyTagsToSnapshot: false
+  CustomerOwnedIpEnabled: false
+  DBClusterIdentifier: mbx-bnb-devops-common-db-c1
+  DBInstanceArn: arn:aws:rds:ap-northeast-1:862793644923:db:mbx-bnb-devops-common-db-c1-reader2
+  DBInstanceClass: db.t3.large
+  DBInstanceIdentifier: mbx-bnb-devops-common-db-c1-reader2
+  DBInstanceStatus: available
+  DBParameterGroups:
+  - DBParameterGroupName: mbx-bnb-devops-common-instance-pg
+    ParameterApplyStatus: in-sync
+  DBSecurityGroups: []
+  DBSubnetGroup:
+    DBSubnetGroupDescription: Subnet Group for DevOps VPC RDS
+    DBSubnetGroupName: mbx-bnb-devops-db
+    SubnetGroupStatus: Complete
+    Subnets:
+    - SubnetAvailabilityZone:
+        Name: ap-northeast-1c
+      SubnetIdentifier: subnet-053eb11a4c68d7ff5
+      SubnetOutpost: {}
+      SubnetStatus: Active
+    - SubnetAvailabilityZone:
+        Name: ap-northeast-1a
+      SubnetIdentifier: subnet-0292a6bf1cfcbc7cf
+      SubnetOutpost: {}
+      SubnetStatus: Active
+    VpcId: vpc-07519eb63f1d932ac
+  DbInstancePort: 0
+  DbiResourceId: db-KDPJHT6I5C2BA76CIKE64PZ2WQ
+  DedicatedLogVolume: false
+  DeletionProtection: false
+  DomainMemberships: []
+  Endpoint:
+    Address: mbx-bnb-devops-common-db-c1-reader2.cvmjht5arg7h.ap-northeast-1.rds.amazonaws.com
+    HostedZoneId: Z24O6O9L7SGTNB
+    Port: 3306
+  Engine: aurora-mysql
+  EngineVersion: 8.0.mysql_aurora.3.10.4
+  EnhancedMonitoringResourceArn: arn:aws:logs:ap-northeast-1:862793644923:log-group:RDSOSMetrics:log-stream:db-KDPJHT6I5C2BA76CIKE64PZ2WQ
+  IAMDatabaseAuthenticationEnabled: false
+  InstanceCreateTime: 2025-05-20 12:57:16.943000+00:00
+  KmsKeyId: arn:aws:kms:ap-northeast-1:862793644923:key/4d70afbb-e9b9-4bb7-83f2-8de31f8a5460
+  LicenseModel: general-public-license
+  MasterUsername: mbxprd
+  MonitoringInterval: 60
+  MonitoringRoleArn: arn:aws:iam::862793644923:role/rds-monitoring-role
+  MultiAZ: false
+  NetworkType: IPV4
+  OptionGroupMemberships:
+  - OptionGroupName: default:aurora-mysql-8-0
+    Status: in-sync
+  PendingModifiedValues: {}
+  PerformanceInsightsEnabled: false
+  PreferredBackupWindow: 14:50-15:20
+  PreferredMaintenanceWindow: tue:17:20-tue:17:50
+  PromotionTier: 1
+  PubliclyAccessible: false
+  ReadReplicaDBInstanceIdentifiers: []
+  StorageEncrypted: true
+  StorageThroughput: 0
+  StorageType: aurora
+  TagList:
+  - Key: biz
+    Value: mbx
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_secret_store
+    Value: none
+  - Key: cluster_group
+    Value: common_c1
+  - Key: mbx_env_name
+    Value: devops
+  - Key: team
+    Value: mbx
+  - Key: Name
+    Value: mbx-bnb-devops-common-db-c1-reader2
+  VpcSecurityGroups:
+  - Status: active
+    VpcSecurityGroupId: sg-0790d3b7ad2e79230
+...
+

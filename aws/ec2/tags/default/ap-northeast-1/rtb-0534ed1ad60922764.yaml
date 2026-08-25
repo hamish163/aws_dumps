@@ -1,0 +1,14 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rtb-0534ed1ad60922764
+specifics:
+  Name: mbx-bnb-devops-rtb-eksnodes2
+  biz: mbx
+  mbx_env_name: devops
+  mbx_exchange_name: bnb
+  team: mbx
+...
+

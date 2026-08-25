@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSTrustedAdvisorReportingServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AWSTrustedAdvisorReportingServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2019-11-19 17:41:13+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4NCBYW5OGK
+  PolicyName: AWSTrustedAdvisorReportingServiceRolePolicy
+  UpdateDate: 2023-02-28 23:23:45+00:00
+...
+

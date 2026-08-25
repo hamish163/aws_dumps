@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonElasticFileSystemsUtils
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonElasticFileSystemsUtils
+  AttachmentCount: 0
+  CreateDate: 2020-09-29 15:16:47+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4KVOAQRKXW
+  PolicyName: AmazonElasticFileSystemsUtils
+  UpdateDate: 2026-04-07 13:12:14+00:00
+...
+

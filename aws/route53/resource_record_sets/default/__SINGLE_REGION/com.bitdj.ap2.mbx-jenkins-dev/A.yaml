@@ -1,0 +1,16 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: com.bitdj.ap2.mbx-jenkins-dev/A
+  single_region: true
+specifics:
+  AliasTarget:
+    DNSName: internal-mbx-bnb-devops-jenkins-dev-int-506231031.ap-northeast-1.elb.amazonaws.com.
+    EvaluateTargetHealth: true
+    HostedZoneId: Z14GRHDCWA56QT
+  Name: mbx-jenkins-dev.ap2.bitdj.com.
+  Type: A
+...
+

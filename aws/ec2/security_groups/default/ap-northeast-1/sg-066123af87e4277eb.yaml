@@ -1,0 +1,30 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-066123af87e4277eb
+specifics:
+  Description: Managed by Terraform
+  GroupId: sg-066123af87e4277eb
+  GroupName: mbx-bnb-uat-nginx-shim-api
+  Tags:
+  - Key: mbx_env_name
+    Value: uat
+  - Key: biz
+    Value: mbx
+  - Key: mbx_env_type
+    Value: multi-node
+  - Key: Name
+    Value: mbx-bnb-uat-nginx-shim-api
+  - Key: mbx_clustered_application
+    Value: 'false'
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  - Key: mbx_secret_store
+    Value: asm
+  VpcId: vpc-0b3ce57b4c748893b
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonEC2SpotFleetTaggingRole
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AmazonEC2SpotFleetTaggingRole
+  AttachmentCount: 1
+  CreateDate: 2017-06-29 18:19:29+00:00
+  DefaultVersionId: v5
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJ5U6UMLCEYLX5OLC4
+  PolicyName: AmazonEC2SpotFleetTaggingRole
+  UpdateDate: 2020-04-23 19:30:49+00:00
+...
+

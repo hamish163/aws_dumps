@@ -1,0 +1,13 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0cfaed53c7936928e
+specifics:
+  Description: allow github
+  GroupId: sg-0cfaed53c7936928e
+  GroupName: test-atlantis-alb
+  VpcId: vpc-097095a8b70ef6727
+...
+

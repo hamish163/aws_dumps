@@ -1,0 +1,11 @@
+---
+datatype: aws.iam.mfa_devices
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: ses-smtp-user.20210121-141350
+  single_region: true
+specifics:
+  MFADevices: []
+...
+

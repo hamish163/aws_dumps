@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSElasticDisasterRecoveryReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSElasticDisasterRecoveryReadOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2021-11-17 10:50:05+00:00
+  DefaultVersionId: v6
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4AACAUJE3T
+  PolicyName: AWSElasticDisasterRecoveryReadOnlyAccess
+  UpdateDate: 2026-08-18 14:47:15+00:00
+...
+

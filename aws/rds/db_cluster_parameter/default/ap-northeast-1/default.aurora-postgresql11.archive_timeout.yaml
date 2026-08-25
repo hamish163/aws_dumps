@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql11.archive_timeout
+specifics:
+  AllowedValues: 0-2147483647
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: (s) Forces a switch to the next xlog file if a new file has not been
+    started within N seconds.
+  IsModifiable: false
+  ParameterName: archive_timeout
+  ParameterValue: '300'
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

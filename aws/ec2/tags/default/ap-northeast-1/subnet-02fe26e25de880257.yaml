@@ -1,0 +1,13 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: subnet-02fe26e25de880257
+specifics:
+  Name: TestRocketChat Subnet 3
+  aws:cloudformation:logical-id: Subnet3
+  aws:cloudformation:stack-id: arn:aws:cloudformation:ap-northeast-1:862793644923:stack/rocketchat-test/b73446e0-d1d1-11ed-8457-0e76f1c22281
+  aws:cloudformation:stack-name: rocketchat-test
+...
+

@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0dade93de4ec21802
+specifics:
+  Name: redis.ap2.bitdj.com
+...
+

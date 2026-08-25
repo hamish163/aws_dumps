@@ -1,0 +1,17 @@
+---
+datatype: aws.route53.hosted_zones
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: devops.bnb.mbx.
+  single_region: true
+specifics:
+  CallerReference: terraform-20240917103650775600000001
+  Config:
+    Comment: Managed by Terraform
+    PrivateZone: true
+  Id: /hostedzone/Z064784433C3RR141AMIT
+  Name: devops.bnb.mbx.
+  ResourceRecordSetCount: 88
+...
+

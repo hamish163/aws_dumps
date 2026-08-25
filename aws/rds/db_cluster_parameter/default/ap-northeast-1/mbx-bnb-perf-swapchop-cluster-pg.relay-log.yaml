@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-perf-swapchop-cluster-pg.relay-log
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: The basename for the relay log.
+  IsModifiable: false
+  ParameterName: relay-log
+  ParameterValue: /rdsdbdata/log/relaylog/relaylog
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

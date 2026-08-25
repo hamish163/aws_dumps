@@ -1,0 +1,17 @@
+---
+datatype: aws.route53.hosted_zones
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: blsdkrgjf.io.
+  single_region: true
+specifics:
+  CallerReference: cabdee7d-4f4c-465f-9e30-bb70312919b4
+  Config:
+    Comment: ''
+    PrivateZone: true
+  Id: /hostedzone/Z01342331SKMUX3VFTVX3
+  Name: blsdkrgjf.io.
+  ResourceRecordSetCount: 10
+...
+

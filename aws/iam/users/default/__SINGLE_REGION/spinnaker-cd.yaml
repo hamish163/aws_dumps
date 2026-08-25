@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.users
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: spinnaker-cd
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/spinnaker-cd
+  CreateDate: 2018-07-11 08:08:18+00:00
+  Path: /
+  UserId: AIDAJVY3RE7RQFUFRF6H6
+  UserName: spinnaker-cd
+...
+

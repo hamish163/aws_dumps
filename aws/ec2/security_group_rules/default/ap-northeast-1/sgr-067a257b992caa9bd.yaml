@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-067a257b992caa9bd
+specifics:
+  Description: Allow TCP traffic from wsp-sbe-alb SG on port 9080
+  FromPort: 9080
+  GroupId: sg-01a5d8d1a577b6b30
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0518e319d3540f921
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-067a257b992caa9bd
+  Tags: []
+  ToPort: 9080
+...
+

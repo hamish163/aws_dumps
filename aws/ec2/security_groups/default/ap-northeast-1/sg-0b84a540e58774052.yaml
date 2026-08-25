@@ -1,0 +1,24 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0b84a540e58774052
+specifics:
+  Description: Security group for ws-shim-api ALB
+  GroupId: sg-0b84a540e58774052
+  GroupName: mbx-bnb-devops-ws-shim-api-alb
+  Tags:
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  - Key: mbx_env_name
+    Value: devops
+  - Key: Name
+    Value: mbx-bnb-devops-ws-shim-api-alb
+  - Key: biz
+    Value: mbx
+  VpcId: vpc-07519eb63f1d932ac
+...
+

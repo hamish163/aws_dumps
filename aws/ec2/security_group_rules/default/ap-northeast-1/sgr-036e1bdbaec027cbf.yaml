@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-036e1bdbaec027cbf
+specifics:
+  CidrIpv4: 54.238.64.231/32
+  Description: New VPN NAT1 (nat-0c91647aa758b9d84)
+  FromPort: 22
+  GroupId: sg-0894dd67addab589e
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-036e1bdbaec027cbf
+  Tags: []
+  ToPort: 22
+...
+

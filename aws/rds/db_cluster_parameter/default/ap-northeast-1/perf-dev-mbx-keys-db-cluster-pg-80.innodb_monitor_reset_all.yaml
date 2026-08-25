@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-keys-db-cluster-pg-80.innodb_monitor_reset_all
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Resets all values (minimum, maximum, and so on) for one or more counters
+    in the information_schema.innodb_metrics table.
+  IsModifiable: true
+  ParameterName: innodb_monitor_reset_all
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

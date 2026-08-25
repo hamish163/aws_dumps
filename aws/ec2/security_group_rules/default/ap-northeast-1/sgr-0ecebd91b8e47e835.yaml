@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0ecebd91b8e47e835
+specifics:
+  Description: Allow TCP traffic from privatestream-normal SG to Redis
+  FromPort: 6379
+  GroupId: sg-059fac9dfcd7cbd07
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0fca4b848587cd96b
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0ecebd91b8e47e835
+  Tags: []
+  ToPort: 6379
+...
+

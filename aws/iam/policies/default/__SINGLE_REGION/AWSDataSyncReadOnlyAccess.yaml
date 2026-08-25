@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSDataSyncReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSDataSyncReadOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2019-01-18 19:18:44+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJRYVEZEDR7ZEAGYLY
+  PolicyName: AWSDataSyncReadOnlyAccess
+  UpdateDate: 2020-06-30 17:59:22+00:00
+...
+

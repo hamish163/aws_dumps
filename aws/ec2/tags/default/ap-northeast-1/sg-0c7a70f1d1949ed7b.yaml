@@ -1,0 +1,20 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0c7a70f1d1949ed7b
+specifics:
+  Name: crunchy-prod-bnb.com
+  app: crunchy
+  biz: mbx
+  env: prod
+  exchange_id: bnb
+  project: crunchy
+  sre-app: crunchy
+  sre-build: crunchy
+  sre-component: crunchy
+  sre-env: prod
+  team: sre
+...
+

@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0fa16a4f347f73be1
+specifics:
+  Name: zookeeper.clickhouse.prod.tracky.mbx
+  biz: mbx
+  mbx_env_name: prod
+  mbx_exchange_name: bnb
+  sre-env: prod
+  team: sre
+...
+

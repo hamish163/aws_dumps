@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: nip-0ed404ce5f9111506
+specifics:
+  Name: old-vpn-to-clickhouse2
+...
+

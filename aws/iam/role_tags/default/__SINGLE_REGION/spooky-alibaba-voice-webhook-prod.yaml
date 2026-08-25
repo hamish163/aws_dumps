@@ -1,0 +1,19 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: spooky-alibaba-voice-webhook-prod
+  single_region: true
+specifics:
+  biz: mbx
+  env: prod
+  exchange_id: tracky
+  project: tracky
+  role: spooky
+  sre-app: spooky
+  sre-component: spooky
+  sre-env: prod
+  team: mbx
+...
+

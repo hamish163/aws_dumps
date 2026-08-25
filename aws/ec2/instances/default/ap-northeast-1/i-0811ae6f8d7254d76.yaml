@@ -1,0 +1,178 @@
+---
+datatype: aws.ec2.instances
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-0811ae6f8d7254d76
+specifics:
+  AmiLaunchIndex: 0
+  Architecture: arm64
+  BlockDeviceMappings:
+  - DeviceName: /dev/xvda
+    Ebs:
+      AttachTime: 2026-01-12 23:07:30+00:00
+      DeleteOnTermination: true
+      Status: attached
+      VolumeId: vol-09c6f3ccb8522d958
+  BootMode: uefi
+  CapacityReservationSpecification:
+    CapacityReservationPreference: open
+  ClientToken: fleet-ec173ea7-21a5-66b6-a410-878aa36318a3-0
+  CpuOptions:
+    CoreCount: 48
+    ThreadsPerCore: 1
+  CurrentInstanceBootMode: uefi
+  EbsOptimized: false
+  EnaSupport: true
+  EnclaveOptions:
+    Enabled: false
+  HibernationOptions:
+    Configured: false
+  Hypervisor: xen
+  IamInstanceProfile:
+    Arn: arn:aws:iam::862793644923:instance-profile/eks-acc9901c-966a-6e47-0815-1eb758c028af
+    Id: AIPA4RYUCHN56KGPP64B5
+  ImageId: ami-0c58415c2b8cfe0ba
+  InstanceId: i-0811ae6f8d7254d76
+  InstanceType: r7g.12xlarge
+  KeyName: devops_ec2-id_ed25519
+  LaunchTime: 2026-01-12 23:07:29+00:00
+  MaintenanceOptions:
+    AutoRecovery: default
+  MetadataOptions:
+    HttpEndpoint: enabled
+    HttpProtocolIpv6: disabled
+    HttpPutResponseHopLimit: 2
+    HttpTokens: required
+    InstanceMetadataTags: disabled
+    State: applied
+  Monitoring:
+    State: disabled
+  NetworkInterfaces:
+  - Attachment:
+      AttachTime: 2026-01-12 23:07:29+00:00
+      AttachmentId: eni-attach-0194e7227e06c8afe
+      DeleteOnTermination: true
+      DeviceIndex: 0
+      NetworkCardIndex: 0
+      Status: attached
+    Description: ''
+    Groups:
+    - GroupId: sg-06d8aeb750f984392
+      GroupName: mbx-bnb-devops-jenkins_eks
+    - GroupId: sg-0dcd16e585060d06c
+      GroupName: mbx-bnb-devops-monitoring
+    - GroupId: sg-0021bf00906cbb632
+      GroupName: mbx-bnb-devops-default
+    - GroupId: sg-0f6999d5ca7b5eaa2
+      GroupName: mbx-bnb-devops-jenkins_eks-builder-node
+    InterfaceType: interface
+    Ipv6Addresses: []
+    MacAddress: 06:5b:27:c1:ec:0b
+    NetworkInterfaceId: eni-09f16a3373ee05319
+    OwnerId: '862793644923'
+    PrivateDnsName: ip-10-200-19-181.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.200.19.181
+    PrivateIpAddresses:
+    - Primary: true
+      PrivateDnsName: ip-10-200-19-181.ap-northeast-1.compute.internal
+      PrivateIpAddress: 10.200.19.181
+    - Primary: false
+      PrivateDnsName: ip-10-200-19-8.ap-northeast-1.compute.internal
+      PrivateIpAddress: 10.200.19.8
+    - Primary: false
+      PrivateDnsName: ip-10-200-19-90.ap-northeast-1.compute.internal
+      PrivateIpAddress: 10.200.19.90
+    - Primary: false
+      PrivateDnsName: ip-10-200-19-117.ap-northeast-1.compute.internal
+      PrivateIpAddress: 10.200.19.117
+    - Primary: false
+      PrivateDnsName: ip-10-200-19-198.ap-northeast-1.compute.internal
+      PrivateIpAddress: 10.200.19.198
+    - Primary: false
+      PrivateDnsName: ip-10-200-19-205.ap-northeast-1.compute.internal
+      PrivateIpAddress: 10.200.19.205
+    - Primary: false
+      PrivateDnsName: ip-10-200-19-110.ap-northeast-1.compute.internal
+      PrivateIpAddress: 10.200.19.110
+    - Primary: false
+      PrivateDnsName: ip-10-200-19-239.ap-northeast-1.compute.internal
+      PrivateIpAddress: 10.200.19.239
+    - Primary: false
+      PrivateDnsName: ip-10-200-19-15.ap-northeast-1.compute.internal
+      PrivateIpAddress: 10.200.19.15
+    - Primary: false
+      PrivateDnsName: ip-10-200-19-144.ap-northeast-1.compute.internal
+      PrivateIpAddress: 10.200.19.144
+    - Primary: false
+      PrivateDnsName: ip-10-200-19-201.ap-northeast-1.compute.internal
+      PrivateIpAddress: 10.200.19.201
+    SourceDestCheck: true
+    Status: in-use
+    SubnetId: subnet-0c188e95cfba03f63
+    VpcId: vpc-07519eb63f1d932ac
+  Placement:
+    AvailabilityZone: ap-northeast-1a
+    GroupName: ''
+    Tenancy: default
+  PlatformDetails: Linux/UNIX
+  PrivateDnsName: ip-10-200-19-181.ap-northeast-1.compute.internal
+  PrivateDnsNameOptions:
+    EnableResourceNameDnsAAAARecord: false
+    EnableResourceNameDnsARecord: false
+    HostnameType: ip-name
+  PrivateIpAddress: 10.200.19.181
+  ProductCodes: []
+  PublicDnsName: ''
+  RootDeviceName: /dev/xvda
+  RootDeviceType: ebs
+  SecurityGroups:
+  - GroupId: sg-06d8aeb750f984392
+    GroupName: mbx-bnb-devops-jenkins_eks
+  - GroupId: sg-0dcd16e585060d06c
+    GroupName: mbx-bnb-devops-monitoring
+  - GroupId: sg-0021bf00906cbb632
+    GroupName: mbx-bnb-devops-default
+  - GroupId: sg-0f6999d5ca7b5eaa2
+    GroupName: mbx-bnb-devops-jenkins_eks-builder-node
+  SourceDestCheck: true
+  State:
+    Code: 16
+    Name: running
+  StateTransitionReason: ''
+  SubnetId: subnet-0c188e95cfba03f63
+  Tags:
+  - Key: Name
+    Value: mbx-bnb-devops-jenkins_eks-builder-builder_al2023_arm64_standard
+  - Key: aws:autoscaling:groupName
+    Value: eks-mbx-bnb-devops-jenkins_eks-builder_al2023_arm64_standard-acc9901c-966a-6e47-0815-1eb758c028af
+  - Key: aws:ec2:fleet-id
+    Value: fleet-ec173ea7-21a5-66b6-a410-878aa36318a3
+  - Key: aws:ec2launchtemplate:id
+    Value: lt-0859f65e5a12fb129
+  - Key: aws:ec2launchtemplate:version
+    Value: '6'
+  - Key: aws:eks:cluster-name
+    Value: mbx-bnb-devops-jenkins_eks-cluster
+  - Key: eks:cluster-name
+    Value: mbx-bnb-devops-jenkins_eks-cluster
+  - Key: eks:nodegroup-name
+    Value: mbx-bnb-devops-jenkins_eks-builder_al2023_arm64_standard
+  - Key: k8s.io/cluster-autoscaler/enabled
+    Value: 'true'
+  - Key: k8s.io/cluster-autoscaler/mbx-bnb-devops-jenkins_eks-cluster
+    Value: owned
+  - Key: kubernetes.io/cluster/mbx-bnb-devops-jenkins_eks-cluster
+    Value: owned
+  - Key: mbx_env_name
+    Value: devops
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  UsageOperation: RunInstances
+  UsageOperationUpdateTime: 2026-01-12 23:07:29+00:00
+  VirtualizationType: hvm
+  VpcId: vpc-07519eb63f1d932ac
+...
+

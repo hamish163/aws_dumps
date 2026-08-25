@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-solutions-telegrambot-postgres-cluster-pg.rds_aurora.limitless_distributed_deadlock_timeout
+specifics:
+  AllowedValues: 1-2147483647
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: (ms) Sets the time to wait on a lock before checking for a distributed
+    deadlock.
+  IsModifiable: true
+  ParameterName: rds_aurora.limitless_distributed_deadlock_timeout
+  ParameterValue: '1000'
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

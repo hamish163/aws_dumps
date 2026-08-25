@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.key_pairs
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: key-06dc5a432eeb59faa
+specifics:
+  CreateTime: 2021-01-18 07:54:58+00:00
+  KeyFingerprint: 21:74:77:5e:65:a7:5d:2c:c1:96:df:0c:fe:93:7d:54
+  KeyName: deployer-key
+  KeyPairId: key-06dc5a432eeb59faa
+  KeyType: rsa
+  Tags: []
+...
+

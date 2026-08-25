@@ -1,0 +1,13 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: subnet-0d04bde442f72b37b
+specifics:
+  Name: SharedServicesVPC Attachment Subnet 3
+  aws:cloudformation:logical-id: AttachmentSubnet3
+  aws:cloudformation:stack-id: arn:aws:cloudformation:ap-northeast-1:862793644923:stack/BitdjNetwork-SharedServicesVPC-13KWU8EL2JJT0/850b36f0-abad-11ed-b16a-0eadc952e02f
+  aws:cloudformation:stack-name: BitdjNetwork-SharedServicesVPC-13KWU8EL2JJT0
+...
+

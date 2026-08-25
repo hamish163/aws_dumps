@@ -1,0 +1,16 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-tools-prod-salt-master
+  single_region: true
+specifics:
+  Name: mbx-tools-prod-salt-master
+  biz: mbx
+  mbx_env_name: prod
+  mbx_exchange_name: tools
+  mbx_secret_store: ''
+  team: mbx
+...
+

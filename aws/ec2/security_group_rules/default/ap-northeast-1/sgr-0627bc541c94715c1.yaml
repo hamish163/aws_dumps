@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0627bc541c94715c1
+specifics:
+  Description: Allow TCP traffic from ws-api SG on port 8350
+  FromPort: 8350
+  GroupId: sg-0617c1f819752d01c
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0dd43a387e5b86c83
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0627bc541c94715c1
+  Tags: []
+  ToPort: 8350
+...
+

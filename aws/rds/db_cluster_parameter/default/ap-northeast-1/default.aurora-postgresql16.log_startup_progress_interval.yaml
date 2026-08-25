@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql16.log_startup_progress_interval
+specifics:
+  AllowedValues: 0-2147483647
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Time between progress updates for long-running startup operations
+  IsModifiable: true
+  ParameterName: log_startup_progress_interval
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

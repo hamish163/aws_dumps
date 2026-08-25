@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-010d8a827a6a6dc06
+specifics:
+  CidrIpv4: 10.111.0.0/16
+  Description: mbx_bnb_stage_vpc
+  FromPort: 4505
+  GroupId: sg-0e1897f11e747200f
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-010d8a827a6a6dc06
+  Tags: []
+  ToPort: 4506
+...
+

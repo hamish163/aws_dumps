@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-03e1ba70dc1a4440e
+specifics:
+  Description: Allow TCP traffic from shim-api SG on port 5483
+  FromPort: 5483
+  GroupId: sg-0ccc4162a5b581c8c
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-00828691984f7f908
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-03e1ba70dc1a4440e
+  Tags: []
+  ToPort: 5483
+...
+

@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-devops-salt-cluster-pg.hba_file
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: Sets the servers hba configuration file.
+  IsModifiable: false
+  ParameterName: hba_file
+  ParameterValue: /rdsdbdata/config/pg_hba.conf
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

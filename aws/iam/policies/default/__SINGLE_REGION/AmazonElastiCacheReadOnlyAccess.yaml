@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonElastiCacheReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonElastiCacheReadOnlyAccess
+  AttachmentCount: 2
+  CreateDate: 2015-02-06 18:40:21+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIPDACSNQHSENWAKM2
+  PolicyName: AmazonElastiCacheReadOnlyAccess
+  UpdateDate: 2015-02-06 18:40:21+00:00
+...
+

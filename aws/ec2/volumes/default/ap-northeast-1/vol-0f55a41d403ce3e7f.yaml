@@ -1,0 +1,40 @@
+---
+datatype: aws.ec2.volumes
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-0f55a41d403ce3e7f
+specifics:
+  Attachments:
+  - AttachTime: 2026-03-18 10:31:07+00:00
+    DeleteOnTermination: false
+    Device: /dev/sdf
+    InstanceId: i-0cabed7fee4b1240a
+    State: attached
+    VolumeId: vol-0f55a41d403ce3e7f
+  AvailabilityZone: ap-northeast-1a
+  CreateTime: 2026-03-18 10:30:46.585000+00:00
+  Encrypted: false
+  Iops: 3000
+  MultiAttachEnabled: false
+  Size: 500
+  SnapshotId: ''
+  State: in-use
+  Tags:
+  - Key: Name
+    Value: mbx-bnb-solutions-orderbook-visualizer1
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  - Key: mbx_secret_store
+    Value: none
+  - Key: mbx_env_name
+    Value: solutions
+  Throughput: 125
+  VolumeId: vol-0f55a41d403ce3e7f
+  VolumeType: gp3
+...
+

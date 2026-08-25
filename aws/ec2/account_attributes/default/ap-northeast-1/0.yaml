@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.account_attributes
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: '0'
+specifics:
+  default-vpc: none
+  max-elastic-ips: '5'
+  max-instances: '500'
+  supported-platforms: VPC
+  vpc-max-elastic-ips: '105'
+  vpc-max-security-groups-per-interface: '5'
+...
+

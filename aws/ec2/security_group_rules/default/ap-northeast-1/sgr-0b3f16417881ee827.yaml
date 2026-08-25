@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0b3f16417881ee827
+specifics:
+  Description: Allow TCP traffic from rest-api-int SG to Memcache
+  FromPort: 11211
+  GroupId: sg-030807dcbbe3f20f0
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0b0d77c1500a495d1
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0b3f16417881ee827
+  Tags: []
+  ToPort: 11211
+...
+

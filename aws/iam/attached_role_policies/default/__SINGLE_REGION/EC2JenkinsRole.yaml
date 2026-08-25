@@ -1,0 +1,21 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: EC2JenkinsRole
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonEC2FullAccess
+    PolicyName: AmazonEC2FullAccess
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonRDSFullAccess
+    PolicyName: AmazonRDSFullAccess
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonVPCFullAccess
+    PolicyName: AmazonVPCFullAccess
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonElastiCacheFullAccess
+    PolicyName: AmazonElastiCacheFullAccess
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonS3FullAccess
+    PolicyName: AmazonS3FullAccess
+...
+

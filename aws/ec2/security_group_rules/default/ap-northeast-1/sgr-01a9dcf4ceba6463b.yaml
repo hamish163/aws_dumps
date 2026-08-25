@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-01a9dcf4ceba6463b
+specifics:
+  Description: Allow TCP traffic from ops SG on port 4906
+  FromPort: 4906
+  GroupId: sg-02688499a41955d56
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-057b3e40d34d01d46
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-01a9dcf4ceba6463b
+  Tags: []
+  ToPort: 4906
+...
+

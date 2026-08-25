@@ -1,0 +1,12 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AllowBigDataS3
+  single_region: true
+specifics:
+  team: mbx
+  team.mbx: devops
+...
+

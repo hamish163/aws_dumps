@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eipalloc-0e78532e1523e84c7
+specifics:
+  aws:cloudformation:logical-id: NatEIP
+  aws:cloudformation:stack-id: arn:aws:cloudformation:ap-northeast-1:862793644923:stack/sandbox-base/b2bfd6c0-21fe-11ed-94e8-0e625d277967
+  aws:cloudformation:stack-name: sandbox-base
+  biz: mbx
+  project: mbx
+  team: mbx
+...
+

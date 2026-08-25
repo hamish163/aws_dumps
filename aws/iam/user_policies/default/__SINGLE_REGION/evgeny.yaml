@@ -1,0 +1,11 @@
+---
+datatype: aws.iam.user_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: evgeny
+  single_region: true
+specifics:
+  PolicyNames: []
+...
+

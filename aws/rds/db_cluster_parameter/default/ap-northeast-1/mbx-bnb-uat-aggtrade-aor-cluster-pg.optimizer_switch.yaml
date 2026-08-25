@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-aggtrade-aor-cluster-pg.optimizer_switch
+specifics:
+  AllowedValues: default,batched_key_access=on,batched_key_access=off,block_nested_loop=on,block_nested_loop=off,condition_fanout_filter=on,condition_fanout_filter=off,derived_condition_pushdown=on,derived_condition_pushdown=off,derived_merge=on,derived_merge=off,duplicateweedout=on,duplicateweedout=off,engine_condition_pushdown=on,engine_condition_pushdown=off,firstmatch=on,firstmatch=off,hash_join=on,hash_join=off,index_condition_pushdown=on,index_condition_pushdown=off,index_merge=on,index_merge=off,index_merge_intersection=on,index_merge_intersection=off,index_merge_sort_union=on,index_merge_sort_union=off,index_merge_union=on,index_merge_union=off,loosescan=on,loosescan=off,materialization=on,materialization=off,mrr=on,mrr=off,mrr_cost_based=on,mrr_cost_based=off,prefer_ordering_index=on,prefer_ordering_index=off,semijoin=on,semijoin=off,skip_scan=on,skip_scan=off,subquery_materialization_cost_based=on,subquery_materialization_cost_based=off,use_index_extensions=on,use_index_extensions=off,use_invisible_indexes=on,use_invisible_indexes=off
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: list
+  Description: 'Controls optimizer behavior. '
+  IsModifiable: true
+  ParameterName: optimizer_switch
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

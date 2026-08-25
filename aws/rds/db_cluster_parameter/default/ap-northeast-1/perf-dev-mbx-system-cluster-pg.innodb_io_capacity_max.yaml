@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-system-cluster-pg.innodb_io_capacity_max
+specifics:
+  AllowedValues: 2000-18446744073709547520
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: The limit up to which InnoDB is allowed to extend the innodb_io_capacity
+    setting in case of emergency.
+  IsModifiable: false
+  ParameterName: innodb_io_capacity_max
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

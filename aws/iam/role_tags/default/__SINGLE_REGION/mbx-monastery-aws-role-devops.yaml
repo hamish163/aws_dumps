@@ -1,0 +1,12 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-monastery-aws-role-devops
+  single_region: true
+specifics:
+  biz: mbx
+  team: mbx
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSDataExchangeServiceRolePolicyForLicenseManagement
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AWSDataExchangeServiceRolePolicyForLicenseManagement
+  AttachmentCount: 0
+  CreateDate: 2024-10-10 14:54:27+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4KJOXEA5CK
+  PolicyName: AWSDataExchangeServiceRolePolicyForLicenseManagement
+  UpdateDate: 2024-10-10 14:54:27+00:00
+...
+

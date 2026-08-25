@@ -1,0 +1,18 @@
+---
+datatype: aws.eks.access_entry
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:eks:ap-northeast-1:862793644923:access-entry/mbx-bnb-devops-jenkins_eks-cluster/user/862793644923/ilammy/40cdde8e-6b9b-6cb7-1543-6a0a5d081249
+specifics:
+  accessEntryArn: arn:aws:eks:ap-northeast-1:862793644923:access-entry/mbx-bnb-devops-jenkins_eks-cluster/user/862793644923/ilammy/40cdde8e-6b9b-6cb7-1543-6a0a5d081249
+  clusterName: mbx-bnb-devops-jenkins_eks-cluster
+  createdAt: 2026-01-15 02:25:42.645000+11:00
+  kubernetesGroups: []
+  modifiedAt: 2026-01-15 02:25:42.645000+11:00
+  principalArn: arn:aws:iam::862793644923:user/ilammy
+  tags: {}
+  type: STANDARD
+  username: arn:aws:iam::862793644923:user/ilammy
+...
+

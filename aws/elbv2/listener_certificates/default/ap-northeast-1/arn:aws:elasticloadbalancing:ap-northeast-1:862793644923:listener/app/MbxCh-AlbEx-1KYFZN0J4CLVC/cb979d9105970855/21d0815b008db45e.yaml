@@ -1,0 +1,11 @@
+---
+datatype: aws.elbv2.listener_certificates
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener/app/MbxCh-AlbEx-1KYFZN0J4CLVC/cb979d9105970855/21d0815b008db45e
+specifics:
+- CertificateArn: arn:aws:acm:ap-northeast-1:862793644923:certificate/09ecada3-01f5-40de-94f8-111807202b5a
+  IsDefault: true
+...
+

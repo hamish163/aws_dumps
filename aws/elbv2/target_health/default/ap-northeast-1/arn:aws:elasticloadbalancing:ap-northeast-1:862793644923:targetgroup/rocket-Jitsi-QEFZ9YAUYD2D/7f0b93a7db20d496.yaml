@@ -1,0 +1,11 @@
+---
+datatype: aws.elbv2.target_health
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/rocket-Jitsi-QEFZ9YAUYD2D/7f0b93a7db20d496
+specifics:
+  TargetHealthDescriptions: {}
+  _arn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/rocket-Jitsi-QEFZ9YAUYD2D/7f0b93a7db20d496
+...
+

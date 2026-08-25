@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-045c31481b66a2ffe
+specifics:
+  CidrIpv4: 10.170.32.0/21
+  Description: From colo-perf VPC
+  FromPort: 9000
+  GroupId: sg-0080c4977d01217bd
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-045c31481b66a2ffe
+  Tags: []
+  ToPort: 9000
+...
+

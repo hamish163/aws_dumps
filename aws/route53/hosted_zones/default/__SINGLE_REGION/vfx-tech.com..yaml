@@ -1,0 +1,17 @@
+---
+datatype: aws.route53.hosted_zones
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: vfx-tech.com.
+  single_region: true
+specifics:
+  CallerReference: RISWorkflow-fb26dfa89abf8fe79b88de724dfccb8e
+  Config:
+    Comment: HostedZone created by Route53 Registrar
+    PrivateZone: false
+  Id: /hostedzone/Z15TJ82MJO10WN
+  Name: vfx-tech.com.
+  ResourceRecordSetCount: 2
+...
+

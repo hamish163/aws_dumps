@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: igw-0e80c477b68fbaf0c
+specifics:
+  Name: sandbox
+...
+

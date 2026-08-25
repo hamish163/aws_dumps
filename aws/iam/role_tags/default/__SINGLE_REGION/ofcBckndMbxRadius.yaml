@@ -1,0 +1,13 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: ofcBckndMbxRadius
+  single_region: true
+specifics:
+  Name: ofcBckndMbxRadius
+  env: bitdj
+  project: mbx
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-swapchop-cluster-pg.eq_range_index_dive_limit
+specifics:
+  AllowedValues: 0-4294967295
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Number of equality ranges when the optimizer should switch from using
+    index dives to index statistics.
+  IsModifiable: true
+  ParameterName: eq_range_index_dive_limit
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

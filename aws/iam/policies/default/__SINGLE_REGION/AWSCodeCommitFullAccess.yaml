@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSCodeCommitFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSCodeCommitFullAccess
+  AttachmentCount: 1
+  CreateDate: 2015-07-09 17:02:19+00:00
+  DefaultVersionId: v13
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAI4VCZ3XPIZLQ5NZV2
+  PolicyName: AWSCodeCommitFullAccess
+  UpdateDate: 2026-02-12 18:00:23+00:00
+...
+

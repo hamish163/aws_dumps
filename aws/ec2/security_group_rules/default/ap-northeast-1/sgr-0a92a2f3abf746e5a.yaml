@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0a92a2f3abf746e5a
+specifics:
+  CidrIpv4: 10.80.2.0/24
+  Description: from prometheus in testnet
+  FromPort: 9256
+  GroupId: sg-0e1897f11e747200f
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-0a92a2f3abf746e5a
+  Tags: []
+  ToPort: 9256
+...
+

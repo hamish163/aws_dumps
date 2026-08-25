@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: nip-0d83931326a7c3cc7
+specifics:
+  Name: dev-aws-ops-to-bitdj-saltmaster
+...
+

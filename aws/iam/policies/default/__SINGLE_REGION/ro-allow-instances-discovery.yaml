@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: ro-allow-instances-discovery
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/ro-allow-instances-discovery
+  AttachmentCount: 1
+  CreateDate: 2026-05-21 11:07:04+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN54PWLI3C34
+  PolicyName: ro-allow-instances-discovery
+  UpdateDate: 2026-05-21 11:07:04+00:00
+...
+

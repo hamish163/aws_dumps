@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.key_pairs
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: key-07eff8b9512da28f8
+specifics:
+  CreateTime: 2018-10-22 02:28:33+00:00
+  KeyFingerprint: 60:c5:f3:5c:bc:33:cc:f9:8e:19:99:20:2f:c2:c5:e3:e3:80:4b:36
+  KeyName: omarbuildserver
+  KeyPairId: key-07eff8b9512da28f8
+  KeyType: rsa
+  Tags: []
+...
+

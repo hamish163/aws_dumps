@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: test-jenkins-artifacts-upload
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/test-jenkins-artifacts-upload
+  AttachmentCount: 1
+  CreateDate: 2023-09-06 19:12:47+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5QTUDHSJRW
+  PolicyName: test-jenkins-artifacts-upload
+  UpdateDate: 2023-09-06 19:30:50+00:00
+...
+

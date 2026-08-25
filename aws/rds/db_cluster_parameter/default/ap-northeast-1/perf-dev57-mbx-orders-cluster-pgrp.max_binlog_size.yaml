@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev57-mbx-orders-cluster-pgrp.max_binlog_size
+specifics:
+  AllowedValues: 4096-1073741824
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Server rotates the binlog once it reaches this size
+  IsModifiable: false
+  ParameterName: max_binlog_size
+  ParameterValue: '134217728'
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

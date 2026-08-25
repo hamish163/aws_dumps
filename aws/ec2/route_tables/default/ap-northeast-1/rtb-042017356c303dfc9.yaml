@@ -1,0 +1,38 @@
+---
+datatype: aws.ec2.route_tables
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rtb-042017356c303dfc9
+specifics:
+  Associations:
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-00d9794f3101f920b
+    RouteTableId: rtb-042017356c303dfc9
+    SubnetId: subnet-0fbe18278de6ef179
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-0a734a79c54504689
+    RouteTableId: rtb-042017356c303dfc9
+    SubnetId: subnet-01dea052cccdea5d6
+  OwnerId: '862793644923'
+  PropagatingVgws: []
+  RouteTableId: rtb-042017356c303dfc9
+  Routes:
+  - DestinationCidrBlock: 10.139.0.0/16
+    GatewayId: local
+    Origin: CreateRouteTable
+    State: active
+  Tags:
+  - Key: Name
+    Value: tky_stage_mbx_backend_rt
+  - Key: env
+    Value: stage
+  - Key: project
+    Value: mbx
+  VpcId: vpc-0c91879d6f0ffa921
+...
+

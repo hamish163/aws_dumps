@@ -1,0 +1,13 @@
+---
+datatype: aws.iam.user_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: weixing
+  single_region: true
+specifics:
+  PolicyNames:
+  - AWSRevokeOlderSessions
+  - delete-me-tmp-rds-modification
+...
+

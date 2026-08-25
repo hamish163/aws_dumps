@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql11.rds.global_db_rpo
+specifics:
+  AllowedValues: 20-2147483647
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: (s) Recovery point objective threshold, in seconds, that blocks user
+    commits when it is violated.
+  IsModifiable: true
+  MinimumEngineVersion: '11.7'
+  ParameterName: rds.global_db_rpo
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,50 @@
+---
+datatype: aws.ec2.subnets
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: subnet-0bc214c6dfb25c0a2
+specifics:
+  AssignIpv6AddressOnCreation: false
+  AvailabilityZone: ap-northeast-1c
+  AvailabilityZoneId: apne1-az1
+  AvailableIpAddressCount: 115
+  CidrBlock: 172.30.0.128/25
+  DefaultForAz: false
+  EnableDns64: false
+  Ipv6CidrBlockAssociationSet: []
+  Ipv6Native: false
+  MapCustomerOwnedIpOnLaunch: false
+  MapPublicIpOnLaunch: false
+  OwnerId: '862793644923'
+  PrivateDnsNameOptionsOnLaunch:
+    EnableResourceNameDnsAAAARecord: false
+    EnableResourceNameDnsARecord: false
+    HostnameType: ip-name
+  State: available
+  SubnetArn: arn:aws:ec2:ap-northeast-1:862793644923:subnet/subnet-0bc214c6dfb25c0a2
+  SubnetId: subnet-0bc214c6dfb25c0a2
+  Tags:
+  - Key: Name
+    Value: tungsten-cicd
+  - Key: aws:cloudformation:logical-id
+    Value: PrivateSubnet
+  - Key: aws:cloudformation:stack-id
+    Value: arn:aws:cloudformation:ap-northeast-1:862793644923:stack/tungsten-cicd-base/a15c8df0-d5bf-11ec-9b81-0ed508706001
+  - Key: aws:cloudformation:stack-name
+    Value: tungsten-cicd-base
+  - Key: biz
+    Value: mbx
+  - Key: mbx.managed_by
+    Value: mbx.devops
+  - Key: mbx.owner
+    Value: devops
+  - Key: mbx.service
+    Value: tungsten-cicd
+  - Key: project
+    Value: mbx
+  - Key: team
+    Value: mbx
+  VpcId: vpc-0602642b581cc4039
+...
+

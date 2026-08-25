@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSCloudFormationFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSCloudFormationFullAccess
+  AttachmentCount: 2
+  CreateDate: 2019-07-26 21:50:35+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4CRR3ZS723
+  PolicyName: AWSCloudFormationFullAccess
+  UpdateDate: 2019-07-26 21:50:35+00:00
+...
+

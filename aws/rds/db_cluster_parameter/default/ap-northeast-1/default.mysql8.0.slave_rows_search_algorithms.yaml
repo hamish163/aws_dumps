@@ -1,0 +1,22 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.slave_rows_search_algorithms
+specifics:
+  AllowedValues: TABLE_SCAN,INDEX_SCAN,HASH_SCAN
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: list
+  Description: When preparing batches of rows for row-based logging and replication,
+    this variable controls how the rows are searched for matches???that is, whether
+    or not hashing is used for searches using a primary or unique key, using some
+    other key, or using no key at all.
+  IsModifiable: true
+  ParameterName: slave_rows_search_algorithms
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

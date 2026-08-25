@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: snap-0f450156a2865dbb8
+specifics:
+  Name: 20191115-01-bnb_prod_mbx_eng1_rust_engine_test_ebs
+...
+

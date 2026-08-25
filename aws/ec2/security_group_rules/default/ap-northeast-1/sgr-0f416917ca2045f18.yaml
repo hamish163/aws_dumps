@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0f416917ca2045f18
+specifics:
+  Description: Allow TCP traffic from kline-push SG to spade-trade-db database
+  FromPort: 3306
+  GroupId: sg-0502cf5c584f204de
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0838e78c2bafef26e
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0f416917ca2045f18
+  Tags: []
+  ToPort: 3306
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonRekognitionFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonRekognitionFullAccess
+  AttachmentCount: 0
+  CreateDate: 2016-11-30 14:40:44+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIWDAOK6AIFDVX6TT6
+  PolicyName: AmazonRekognitionFullAccess
+  UpdateDate: 2016-11-30 14:40:44+00:00
+...
+

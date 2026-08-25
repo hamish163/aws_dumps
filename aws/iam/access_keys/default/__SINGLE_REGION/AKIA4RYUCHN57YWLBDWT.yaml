@@ -1,0 +1,14 @@
+---
+datatype: aws.iam.access_keys
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AKIA4RYUCHN57YWLBDWT
+  single_region: true
+specifics:
+  AccessKeyId: AKIA4RYUCHN57YWLBDWT
+  CreateDate: 2020-08-20 07:00:44+00:00
+  Status: Active
+  UserName: mbxtools-k8s-user
+...
+

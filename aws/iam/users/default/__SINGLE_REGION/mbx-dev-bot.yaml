@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.users
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-dev-bot
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/mbx-dev-bot
+  CreateDate: 2026-04-27 09:38:26+00:00
+  Path: /
+  UserId: AIDA4RYUCHN53ZW3UMOM5
+  UserName: mbx-dev-bot
+...
+

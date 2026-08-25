@@ -1,0 +1,24 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-08ffb82f4b926486f
+specifics:
+  Description: Security group for userstream ALB
+  GroupId: sg-08ffb82f4b926486f
+  GroupName: mbx-bnb-uat-userstream-alb
+  Tags:
+  - Key: biz
+    Value: mbx
+  - Key: mbx_env_name
+    Value: uat
+  - Key: team
+    Value: mbx
+  - Key: Name
+    Value: mbx-bnb-uat-userstream-alb
+  - Key: mbx_exchange_name
+    Value: bnb
+  VpcId: vpc-0b3ce57b4c748893b
+...
+

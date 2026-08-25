@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: lumber-lambda-start-query-execution
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/lumber-lambda-start-query-execution
+  AttachmentCount: 1
+  CreateDate: 2018-08-27 02:43:21+00:00
+  DefaultVersionId: v19
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIDFFVVGQQU36VTMW6
+  PolicyName: lumber-lambda-start-query-execution
+  UpdateDate: 2018-08-27 05:38:03+00:00
+...
+

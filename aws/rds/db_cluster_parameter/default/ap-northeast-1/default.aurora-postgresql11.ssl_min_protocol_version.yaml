@@ -1,0 +1,22 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql11.ssl_min_protocol_version
+specifics:
+  AllowedValues: TLSv1,TLSv1.1,TLSv1.2,TLSv1.3
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Sets the minimum SSL/TLS protocol version allowed
+  IsModifiable: true
+  MinimumEngineVersion: '11.8'
+  ParameterName: ssl_min_protocol_version
+  ParameterValue: TLSv1.2
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+  - serverless
+...
+

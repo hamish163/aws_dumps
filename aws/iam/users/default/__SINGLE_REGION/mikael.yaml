@@ -1,0 +1,16 @@
+---
+datatype: aws.iam.users
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mikael
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/mikael
+  CreateDate: 2024-06-27 06:30:50+00:00
+  PasswordLastUsed: 2026-07-04 05:44:45+00:00
+  Path: /
+  UserId: AIDA4RYUCHN5XUS6HW33W
+  UserName: mikael
+...
+

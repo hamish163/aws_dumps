@@ -1,0 +1,14 @@
+---
+datatype: aws.iam.access_keys
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AKIA4RYUCHN5TNDDKW6E
+  single_region: true
+specifics:
+  AccessKeyId: AKIA4RYUCHN5TNDDKW6E
+  CreateDate: 2019-08-16 08:15:39+00:00
+  Status: Inactive
+  UserName: spinnaker-cd
+...
+

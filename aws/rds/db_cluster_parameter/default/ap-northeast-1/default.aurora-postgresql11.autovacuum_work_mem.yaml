@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql11.autovacuum_work_mem
+specifics:
+  AllowedValues: -1-2147483647
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: (kB) Sets the maximum memory to be used by each autovacuum worker process.
+  IsModifiable: true
+  ParameterName: autovacuum_work_mem
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

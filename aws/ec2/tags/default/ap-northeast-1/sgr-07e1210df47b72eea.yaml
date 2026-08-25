@@ -1,0 +1,13 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-07e1210df47b72eea
+specifics:
+  biz: mbx
+  mbx_env_name: devops
+  mbx_exchange_name: bnb
+  team: mbx
+...
+

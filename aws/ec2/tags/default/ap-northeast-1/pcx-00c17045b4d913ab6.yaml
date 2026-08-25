@@ -1,0 +1,14 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: pcx-00c17045b4d913ab6
+specifics:
+  Name: tracky_to_usa
+  biz: mbx
+  project: smacky
+  role: smacky
+  team: sre
+...
+

@@ -1,0 +1,35 @@
+---
+datatype: aws.ec2.internet_gateways
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: igw-09b19453019350649
+specifics:
+  Attachments:
+  - State: available
+    VpcId: vpc-0602642b581cc4039
+  InternetGatewayId: igw-09b19453019350649
+  OwnerId: '862793644923'
+  Tags:
+  - Key: biz
+    Value: mbx
+  - Key: Name
+    Value: tungsten-cicd
+  - Key: aws:cloudformation:logical-id
+    Value: IGW
+  - Key: project
+    Value: mbx
+  - Key: mbx.owner
+    Value: devops
+  - Key: mbx.service
+    Value: tungsten-cicd
+  - Key: mbx.managed_by
+    Value: mbx.devops
+  - Key: team
+    Value: mbx
+  - Key: aws:cloudformation:stack-name
+    Value: tungsten-cicd-base
+  - Key: aws:cloudformation:stack-id
+    Value: arn:aws:cloudformation:ap-northeast-1:862793644923:stack/tungsten-cicd-base/a15c8df0-d5bf-11ec-9b81-0ed508706001
+...
+

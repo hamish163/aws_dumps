@@ -1,0 +1,36 @@
+---
+datatype: aws.ec2.subnets
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: subnet-017ec9e731308dd5d
+specifics:
+  AssignIpv6AddressOnCreation: false
+  AvailabilityZone: ap-northeast-1d
+  AvailabilityZoneId: apne1-az2
+  AvailableIpAddressCount: 2035
+  CidrBlock: 172.27.16.0/21
+  DefaultForAz: false
+  EnableDns64: false
+  Ipv6CidrBlockAssociationSet: []
+  Ipv6Native: false
+  MapCustomerOwnedIpOnLaunch: false
+  MapPublicIpOnLaunch: false
+  OwnerId: '862793644923'
+  PrivateDnsNameOptionsOnLaunch:
+    EnableResourceNameDnsAAAARecord: false
+    EnableResourceNameDnsARecord: false
+    HostnameType: ip-name
+  State: available
+  SubnetArn: arn:aws:ec2:ap-northeast-1:862793644923:subnet/subnet-017ec9e731308dd5d
+  SubnetId: subnet-017ec9e731308dd5d
+  Tags:
+  - Key: KubernetesCluster
+    Value: tracky.bitdj.com
+  - Key: Name
+    Value: prod-tracky-external-2
+  - Key: kubernetes.io/role/elb
+    Value: ''
+  VpcId: vpc-03f5d2495fd8d95a3
+...
+

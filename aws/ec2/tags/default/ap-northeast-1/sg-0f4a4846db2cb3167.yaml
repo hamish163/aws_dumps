@@ -1,0 +1,14 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0f4a4846db2cb3167
+specifics:
+  Name: mbx-bnb-devops-aquduect_monthly_reports-lambda
+  biz: mbx
+  mbx_env_name: devops
+  mbx_exchange_name: bnb
+  team: mbx
+...
+

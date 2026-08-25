@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonCodeGuruSecurityFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonCodeGuruSecurityFullAccess
+  AttachmentCount: 0
+  CreateDate: 2023-05-09 21:03:38+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4JMRCCPHY3
+  PolicyName: AmazonCodeGuruSecurityFullAccess
+  UpdateDate: 2023-05-09 21:03:38+00:00
+...
+

@@ -1,0 +1,15 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: com.bitdj.allure/A
+  single_region: true
+specifics:
+  Name: allure.bitdj.com.
+  ResourceRecords:
+  - Value: 172.30.0.158
+  TTL: 300
+  Type: A
+...
+

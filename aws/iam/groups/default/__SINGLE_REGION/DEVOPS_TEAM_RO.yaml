@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.groups
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: DEVOPS_TEAM_RO
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:group/DEVOPS_TEAM_RO
+  CreateDate: 2022-02-02 05:26:12+00:00
+  GroupId: AGPA4RYUCHN5UMZLRU6XR
+  GroupName: DEVOPS_TEAM_RO
+  Path: /
+...
+

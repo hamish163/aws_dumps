@@ -1,0 +1,253 @@
+---
+datatype: aws.ec2.network_acls
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: acl-0819e070a4d143110
+specifics:
+  Associations:
+  - NetworkAclAssociationId: aclassoc-0a019131be1196e02
+    NetworkAclId: acl-0819e070a4d143110
+    SubnetId: subnet-017ec9e731308dd5d
+  - NetworkAclAssociationId: aclassoc-060b33486e754e090
+    NetworkAclId: acl-0819e070a4d143110
+    SubnetId: subnet-05c725ad0285e7296
+  - NetworkAclAssociationId: aclassoc-07825de6dd7278832
+    NetworkAclId: acl-0819e070a4d143110
+    SubnetId: subnet-09d026f6e1a1cd1f7
+  Entries:
+  - CidrBlock: 172.27.0.0/21
+    Egress: true
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 5
+  - CidrBlock: 172.27.0.0/21
+    Egress: false
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 5
+  - CidrBlock: 172.27.8.0/21
+    Egress: true
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 6
+  - CidrBlock: 172.27.8.0/21
+    Egress: false
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 6
+  - CidrBlock: 172.27.16.0/21
+    Egress: true
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 7
+  - CidrBlock: 172.27.16.0/21
+    Egress: false
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 7
+  - CidrBlock: 172.27.24.0/21
+    Egress: true
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 10
+  - CidrBlock: 172.27.24.0/21
+    Egress: false
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 10
+  - CidrBlock: 172.27.32.0/21
+    Egress: true
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 11
+  - CidrBlock: 172.27.32.0/21
+    Egress: false
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 11
+  - CidrBlock: 172.27.40.0/21
+    Egress: true
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 12
+  - CidrBlock: 172.27.40.0/21
+    Egress: false
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 12
+  - CidrBlock: 0.0.0.0/0
+    Egress: true
+    PortRange:
+      From: 0
+      To: 65535
+    Protocol: '6'
+    RuleAction: allow
+    RuleNumber: 30
+  - CidrBlock: 0.0.0.0/0
+    Egress: false
+    PortRange:
+      From: 80
+      To: 80
+    Protocol: '6'
+    RuleAction: allow
+    RuleNumber: 30
+  - CidrBlock: 0.0.0.0/0
+    Egress: true
+    PortRange:
+      From: 123
+      To: 123
+    Protocol: '17'
+    RuleAction: allow
+    RuleNumber: 40
+  - CidrBlock: 0.0.0.0/0
+    Egress: false
+    PortRange:
+      From: 443
+      To: 443
+    Protocol: '6'
+    RuleAction: allow
+    RuleNumber: 40
+  - CidrBlock: 0.0.0.0/0
+    Egress: true
+    IcmpTypeCode:
+      Code: -1
+      Type: -1
+    Protocol: '1'
+    RuleAction: allow
+    RuleNumber: 50
+  - CidrBlock: 39.110.202.219/32
+    Egress: false
+    PortRange:
+      From: 22
+      To: 22
+    Protocol: '6'
+    RuleAction: allow
+    RuleNumber: 50
+  - CidrBlock: 172.18.22.78/32
+    Egress: false
+    PortRange:
+      From: 22
+      To: 22
+    Protocol: '6'
+    RuleAction: allow
+    RuleNumber: 52
+  - CidrBlock: 172.18.56.78/32
+    Egress: false
+    PortRange:
+      From: 22
+      To: 22
+    Protocol: '6'
+    RuleAction: allow
+    RuleNumber: 53
+  - CidrBlock: 0.0.0.0/0
+    Egress: true
+    PortRange:
+      From: 53
+      To: 53
+    Protocol: '17'
+    RuleAction: allow
+    RuleNumber: 60
+  - CidrBlock: 0.0.0.0/0
+    Egress: false
+    PortRange:
+      From: 1024
+      To: 65535
+    Protocol: '6'
+    RuleAction: allow
+    RuleNumber: 60
+  - CidrBlock: 0.0.0.0/0
+    Egress: true
+    PortRange:
+      From: 53
+      To: 53
+    Protocol: '6'
+    RuleAction: allow
+    RuleNumber: 61
+  - CidrBlock: 0.0.0.0/0
+    Egress: true
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 62
+  - CidrBlock: 0.0.0.0/0
+    Egress: false
+    PortRange:
+      From: 123
+      To: 65535
+    Protocol: '17'
+    RuleAction: allow
+    RuleNumber: 70
+  - CidrBlock: 182.170.238.86/32
+    Egress: false
+    PortRange:
+      From: 22
+      To: 22
+    Protocol: '6'
+    RuleAction: allow
+    RuleNumber: 80
+  - CidrBlock: 0.0.0.0/0
+    Egress: false
+    IcmpTypeCode:
+      Code: -1
+      Type: -1
+    Protocol: '1'
+    RuleAction: allow
+    RuleNumber: 90
+  - CidrBlock: 10.21.0.0/16
+    Egress: false
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 200
+  - CidrBlock: 0.0.0.0/0
+    Egress: true
+    PortRange:
+      From: 1024
+      To: 65535
+    Protocol: '17'
+    RuleAction: allow
+    RuleNumber: 1000
+  - CidrBlock: 3.112.141.211/32
+    Egress: false
+    PortRange:
+      From: 22
+      To: 22
+    Protocol: '6'
+    RuleAction: allow
+    RuleNumber: 2000
+  - CidrBlock: 10.10.0.0/16
+    Egress: false
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 3000
+  - CidrBlock: 10.80.0.0/16
+    Egress: false
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 3001
+  - CidrBlock: 10.0.0.0/8
+    Egress: false
+    PortRange:
+      From: 22
+      To: 22
+    Protocol: '6'
+    RuleAction: allow
+    RuleNumber: 3002
+  - CidrBlock: 0.0.0.0/0
+    Egress: true
+    Protocol: '-1'
+    RuleAction: deny
+    RuleNumber: 32767
+  - CidrBlock: 0.0.0.0/0
+    Egress: false
+    Protocol: '-1'
+    RuleAction: deny
+    RuleNumber: 32767
+  IsDefault: false
+  NetworkAclId: acl-0819e070a4d143110
+  OwnerId: '862793644923'
+  Tags:
+  - Key: Name
+    Value: prod-tracky-external
+  VpcId: vpc-03f5d2495fd8d95a3
+...
+

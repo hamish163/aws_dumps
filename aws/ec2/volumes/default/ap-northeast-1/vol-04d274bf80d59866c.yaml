@@ -1,0 +1,40 @@
+---
+datatype: aws.ec2.volumes
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-04d274bf80d59866c
+specifics:
+  Attachments:
+  - AttachTime: 2024-10-25 23:08:10+00:00
+    DeleteOnTermination: false
+    Device: /dev/sdf
+    InstanceId: i-0b87584f55c9af340
+    State: attached
+    VolumeId: vol-04d274bf80d59866c
+  AvailabilityZone: ap-northeast-1a
+  CreateTime: 2024-10-25 23:07:48.426000+00:00
+  Encrypted: false
+  Iops: 3000
+  MultiAttachEnabled: false
+  Size: 80
+  SnapshotId: ''
+  State: in-use
+  Tags:
+  - Key: mbx_secret_store
+    Value: ''
+  - Key: team
+    Value: mbx
+  - Key: mbx_env_name
+    Value: devops
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: biz
+    Value: mbx
+  - Key: Name
+    Value: mbx-bnb-devops-salt-master1
+  Throughput: 125
+  VolumeId: vol-04d274bf80d59866c
+  VolumeType: gp3
+...
+

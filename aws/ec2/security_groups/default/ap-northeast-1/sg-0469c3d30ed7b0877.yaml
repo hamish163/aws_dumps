@@ -1,0 +1,24 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0469c3d30ed7b0877
+specifics:
+  Description: Security Group for hexa VPC Endpoint
+  GroupId: sg-0469c3d30ed7b0877
+  GroupName: mbx-bnb-clientvpn-hexa-vpce
+  Tags:
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  - Key: mbx_env_name
+    Value: clientvpn
+  - Key: Name
+    Value: mbx-bnb-clientvpn-hexa-vpce
+  - Key: mbx_exchange_name
+    Value: bnb
+  VpcId: vpc-0218545ff4351ce04
+...
+

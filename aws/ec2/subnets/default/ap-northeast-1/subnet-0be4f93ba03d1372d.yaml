@@ -1,0 +1,42 @@
+---
+datatype: aws.ec2.subnets
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: subnet-0be4f93ba03d1372d
+specifics:
+  AssignIpv6AddressOnCreation: false
+  AvailabilityZone: ap-northeast-1a
+  AvailabilityZoneId: apne1-az4
+  AvailableIpAddressCount: 8187
+  CidrBlock: 10.139.64.0/19
+  DefaultForAz: false
+  EnableDns64: false
+  Ipv6CidrBlockAssociationSet: []
+  Ipv6Native: false
+  MapCustomerOwnedIpOnLaunch: false
+  MapPublicIpOnLaunch: false
+  OwnerId: '862793644923'
+  PrivateDnsNameOptionsOnLaunch:
+    EnableResourceNameDnsAAAARecord: false
+    EnableResourceNameDnsARecord: false
+    HostnameType: ip-name
+  State: available
+  SubnetArn: arn:aws:ec2:ap-northeast-1:862793644923:subnet/subnet-0be4f93ba03d1372d
+  SubnetId: subnet-0be4f93ba03d1372d
+  Tags:
+  - Key: KubernetesCluster
+    Value: mbxtools.bitdj.com
+  - Key: Name
+    Value: tky_stage_mbx_internal0_net
+  - Key: env
+    Value: stage
+  - Key: kubernetes.io/role/alb-ingress
+    Value: ''
+  - Key: kubernetes.io/role/internal-elb
+    Value: ''
+  - Key: project
+    Value: mbx
+  VpcId: vpc-0c91879d6f0ffa921
+...
+

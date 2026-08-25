@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-system-cluster-pg-80.performance_schema_max_mutex_instances
+specifics:
+  AllowedValues: -1-104857600
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: The maximum number of instrumented mutex objects.
+  IsModifiable: true
+  ParameterName: performance_schema_max_mutex_instances
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

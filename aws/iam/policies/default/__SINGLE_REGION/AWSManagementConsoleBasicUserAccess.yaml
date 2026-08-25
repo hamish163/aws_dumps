@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSManagementConsoleBasicUserAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSManagementConsoleBasicUserAccess
+  AttachmentCount: 0
+  CreateDate: 2025-08-14 20:34:08+00:00
+  DefaultVersionId: v7
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4K3UBVPMI3
+  PolicyName: AWSManagementConsoleBasicUserAccess
+  UpdateDate: 2026-03-17 22:12:09+00:00
+...
+

@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-05d81473021e9b769
+specifics:
+  Description: Allow TCP traffic from account-cache SG on port 9810
+  FromPort: 9810
+  GroupId: sg-0b3bd8fb20ed3cff5
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0a07c34521b4a1f61
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-05d81473021e9b769
+  Tags: []
+  ToPort: 9810
+...
+

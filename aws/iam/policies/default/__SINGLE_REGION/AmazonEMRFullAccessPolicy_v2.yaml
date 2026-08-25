@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonEMRFullAccessPolicy_v2
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonEMRFullAccessPolicy_v2
+  AttachmentCount: 1
+  CreateDate: 2021-03-12 01:50:29+00:00
+  DefaultVersionId: v7
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4BK4MMWW4W
+  PolicyName: AmazonEMRFullAccessPolicy_v2
+  UpdateDate: 2026-02-12 17:58:52+00:00
+...
+

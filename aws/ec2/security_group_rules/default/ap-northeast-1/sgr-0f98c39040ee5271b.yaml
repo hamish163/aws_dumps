@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0f98c39040ee5271b
+specifics:
+  CidrIpv4: 10.21.64.0/19
+  Description: kubernetes.io/rule/nlb/mtu=a0a6093825ee711ea96970651db21d43
+  FromPort: 3
+  GroupId: sg-010a5ae3337da1364
+  GroupOwnerId: '862793644923'
+  IpProtocol: icmp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-0f98c39040ee5271b
+  Tags: []
+  ToPort: 4
+...
+

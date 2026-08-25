@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: ROSAKMSProviderPolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/ROSAKMSProviderPolicy
+  AttachmentCount: 0
+  CreateDate: 2023-04-27 20:10:20+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4PLOZJX4SX
+  PolicyName: ROSAKMSProviderPolicy
+  UpdateDate: 2023-04-27 20:10:20+00:00
+...
+

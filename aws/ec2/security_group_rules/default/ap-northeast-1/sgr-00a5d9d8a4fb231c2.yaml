@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-00a5d9d8a4fb231c2
+specifics:
+  CidrIpv4: 182.170.238.86/32
+  Description: New Office Secondary IP
+  FromPort: 80
+  GroupId: sg-08150df41fd13b560
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-00a5d9d8a4fb231c2
+  Tags: []
+  ToPort: 80
+...
+

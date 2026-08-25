@@ -1,0 +1,36 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0c7a70f1d1949ed7b
+specifics:
+  Description: crunchy Prod Managed by Terraform
+  GroupId: sg-0c7a70f1d1949ed7b
+  GroupName: crunchy-prod-bnb.com
+  Tags:
+  - Key: team
+    Value: sre
+  - Key: sre-component
+    Value: crunchy
+  - Key: env
+    Value: prod
+  - Key: exchange_id
+    Value: bnb
+  - Key: Name
+    Value: crunchy-prod-bnb.com
+  - Key: sre-app
+    Value: crunchy
+  - Key: sre-build
+    Value: crunchy
+  - Key: app
+    Value: crunchy
+  - Key: biz
+    Value: mbx
+  - Key: sre-env
+    Value: prod
+  - Key: project
+    Value: crunchy
+  VpcId: vpc-03f5d2495fd8d95a3
+...
+

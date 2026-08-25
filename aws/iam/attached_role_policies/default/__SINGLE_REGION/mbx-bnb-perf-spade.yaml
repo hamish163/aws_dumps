@@ -1,0 +1,19 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-perf-spade
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/mbx-bnb-perf-spade-asm-ro
+    PolicyName: mbx-bnb-perf-spade-asm-ro
+  - PolicyArn: arn:aws:iam::862793644923:policy/ro-s3-jenkins
+    PolicyName: ro-s3-jenkins
+  - PolicyArn: arn:aws:iam::862793644923:policy/rw-asm-bnb-perf-default
+    PolicyName: rw-asm-bnb-perf-default
+  - PolicyArn: arn:aws:iam::862793644923:policy/vizzy-ingest-bnb-perf
+    PolicyName: vizzy-ingest-bnb-perf
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonAugmentedAIFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonAugmentedAIFullAccess
+  AttachmentCount: 0
+  CreateDate: 2019-12-03 16:21:56+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4HJOEBWQWI
+  PolicyName: AmazonAugmentedAIFullAccess
+  UpdateDate: 2019-12-03 16:21:56+00:00
+...
+

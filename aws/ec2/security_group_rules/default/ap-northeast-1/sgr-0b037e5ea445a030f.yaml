@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0b037e5ea445a030f
+specifics:
+  Description: Allow TCP traffic from fix-api-orderentry SG on port 5493
+  FromPort: 5493
+  GroupId: sg-05ee59d929635267a
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-06d5fb3eb2744525f
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0b037e5ea445a030f
+  Tags: []
+  ToPort: 5493
+...
+

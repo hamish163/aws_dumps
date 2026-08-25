@@ -1,0 +1,17 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vpce-00c952865b4d72cca
+specifics:
+  Name: SH_All_Services
+  biz: mbx
+  service4: doc
+  services1: Terraform Enterprise
+  services2: Datawind
+  services3: apaas
+  services4: Keter
+  team: mbx
+...
+

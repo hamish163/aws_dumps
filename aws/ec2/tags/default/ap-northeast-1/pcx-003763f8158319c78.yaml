@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: pcx-003763f8158319c78
+specifics:
+  Name: ap2_to_tracky_jey
+...
+

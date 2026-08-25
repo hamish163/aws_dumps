@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonPollyReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonPollyReadOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2016-11-30 18:59:24+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJ5FENL3CVPL2FPDLA
+  PolicyName: AmazonPollyReadOnlyAccess
+  UpdateDate: 2026-04-01 08:12:15+00:00
+...
+

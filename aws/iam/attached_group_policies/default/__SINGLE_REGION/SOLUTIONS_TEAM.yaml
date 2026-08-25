@@ -1,0 +1,19 @@
+---
+datatype: aws.iam.attached_group_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: SOLUTIONS_TEAM
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/allow-access-to-prod-for-solution
+    PolicyName: allow-access-to-prod-for-solution
+  - PolicyArn: arn:aws:iam::862793644923:policy/solutions_team_policy
+    PolicyName: solutions_team_policy
+  - PolicyArn: arn:aws:iam::862793644923:policy/AllowUserManagedOwnAccount
+    PolicyName: AllowUserManagedOwnAccount
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonKinesisReadOnlyAccess
+    PolicyName: AmazonKinesisReadOnlyAccess
+...
+

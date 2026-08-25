@@ -1,0 +1,14 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: test-vault-aws-auth
+  single_region: true
+specifics:
+  biz: mbx
+  env: devops
+  project: mbx
+  team: mbx
+...
+

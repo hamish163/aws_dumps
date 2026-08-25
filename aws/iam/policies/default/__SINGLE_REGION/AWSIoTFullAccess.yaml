@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSIoTFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSIoTFullAccess
+  AttachmentCount: 0
+  CreateDate: 2015-10-08 15:19:49+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJU2FPGG6PQWN72V2G
+  PolicyName: AWSIoTFullAccess
+  UpdateDate: 2022-05-19 21:39:11+00:00
+...
+

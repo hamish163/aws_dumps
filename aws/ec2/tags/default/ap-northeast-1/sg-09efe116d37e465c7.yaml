@@ -1,0 +1,14 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-09efe116d37e465c7
+specifics:
+  Name: mbx-tools-dev-monitoring
+  biz: mbx
+  mbx_env_name: dev
+  mbx_exchange_name: tools
+  team: mbx
+...
+

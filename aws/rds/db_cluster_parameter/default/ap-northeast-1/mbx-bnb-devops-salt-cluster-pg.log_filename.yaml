@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-devops-salt-cluster-pg.log_filename
+specifics:
+  AllowedValues: postgresql.log.%Y-%m-%d,postgresql.log.%Y-%m-%d-%H,postgresql.log.%Y-%m-%d-%H%M
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Sets the file name pattern for log files.
+  IsModifiable: false
+  ParameterName: log_filename
+  ParameterValue: postgresql.log.%Y-%m-%d-%H%M
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

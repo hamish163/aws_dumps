@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bitdj-salt-master-policy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/mbx-bitdj-salt-master-policy
+  AttachmentCount: 1
+  CreateDate: 2026-02-07 00:37:45+00:00
+  DefaultVersionId: v5
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5ROXE3YOHS
+  PolicyName: mbx-bitdj-salt-master-policy
+  UpdateDate: 2026-04-20 20:13:24+00:00
+...
+

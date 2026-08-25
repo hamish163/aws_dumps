@@ -1,0 +1,28 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-perf-sobs
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/mbx-bnb-perf-sobs
+  CreateDate: 2026-07-16 10:06:13+00:00
+  InstanceProfileId: AIPA4RYUCHN57K37UBMZM
+  InstanceProfileName: mbx-bnb-perf-sobs
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/mbx-bnb-perf-sobs
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+      Version: '2012-10-17'
+    CreateDate: 2026-07-16 10:06:11+00:00
+    Path: /
+    RoleId: AROA4RYUCHN5ZCWPS4KVY
+    RoleName: mbx-bnb-perf-sobs
+...
+

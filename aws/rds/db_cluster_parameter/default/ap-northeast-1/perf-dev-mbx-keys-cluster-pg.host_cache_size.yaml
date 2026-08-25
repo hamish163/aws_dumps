@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-keys-cluster-pg.host_cache_size
+specifics:
+  AllowedValues: 0-65536
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: The size of the internal host cache.
+  IsModifiable: true
+  ParameterName: host_cache_size
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

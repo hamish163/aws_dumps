@@ -1,0 +1,16 @@
+---
+datatype: aws.iam.users
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: theo
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/theo
+  CreateDate: 2026-04-06 02:51:53+00:00
+  PasswordLastUsed: 2026-08-17 03:10:09+00:00
+  Path: /
+  UserId: AIDA4RYUCHN5REQNNAERJ
+  UserName: theo
+...
+

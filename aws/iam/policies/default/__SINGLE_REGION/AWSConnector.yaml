@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSConnector
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSConnector
+  AttachmentCount: 0
+  CreateDate: 2015-02-11 17:14:31+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJ6YATONJHICG3DJ3U
+  PolicyName: AWSConnector
+  UpdateDate: 2015-09-28 19:50:38+00:00
+...
+

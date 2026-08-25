@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonPrometheusScraperServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AmazonPrometheusScraperServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2023-11-26 14:19:52+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4MXDZTGPJI
+  PolicyName: AmazonPrometheusScraperServiceRolePolicy
+  UpdateDate: 2026-07-17 08:27:27+00:00
+...
+

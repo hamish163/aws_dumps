@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.neptune1.4.neptune_enable_slow_query_log
+specifics:
+  AllowedValues: disabled,info,debug
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Enable Slow query logs for Neptune
+  IsModifiable: true
+  ParameterName: neptune_enable_slow_query_log
+  ParameterValue: disabled
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

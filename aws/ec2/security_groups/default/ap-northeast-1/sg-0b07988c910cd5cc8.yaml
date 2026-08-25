@@ -1,0 +1,13 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0b07988c910cd5cc8
+specifics:
+  Description: mbx_bnb_devops_jenkins
+  GroupId: sg-0b07988c910cd5cc8
+  GroupName: mbx_bnb_devops_jenkins
+  VpcId: vpc-097095a8b70ef6727
+...
+

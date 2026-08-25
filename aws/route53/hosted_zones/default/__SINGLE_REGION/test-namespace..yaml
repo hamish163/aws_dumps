@@ -1,0 +1,20 @@
+---
+datatype: aws.route53.hosted_zones
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: test-namespace.
+  single_region: true
+specifics:
+  CallerReference: i7fyjtwflwfpqanflysucnudotfl6avx-6nk9z71i-def33rexxppuyfumwtpb3rqzp7qavwjixlqaljyeedkzwog5nxgq====
+  Config:
+    Comment: Created by AWS Cloud Map namespace with ARN arn:aws:servicediscovery:ap-northeast-1:862793644923:namespace/ns-hiyukxzymyk7tgsf
+    PrivateZone: true
+  Id: /hostedzone/Z06747483U9DEBWC8YFX1
+  LinkedService:
+    Description: arn:aws:servicediscovery:ap-northeast-1:862793644923:namespace/ns-hiyukxzymyk7tgsf
+    ServicePrincipal: servicediscovery.amazonaws.com
+  Name: test-namespace.
+  ResourceRecordSetCount: 2
+...
+

@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.key_pairs
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: key-09e44f4cbf2b4b313
+specifics:
+  CreateTime: 2019-07-17 00:15:28+00:00
+  KeyFingerprint: 9e:a8:cd:2b:92:80:51:cf:24:ac:a4:90:40:d4:62:8e:80:9a:0a:21
+  KeyName: Ninj0r-SS
+  KeyPairId: key-09e44f4cbf2b4b313
+  KeyType: rsa
+  Tags: []
+...
+

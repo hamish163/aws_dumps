@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-00cd390703b2d0870
+specifics:
+  Name: tky-test-slave-tracky-bitdj.com
+...
+

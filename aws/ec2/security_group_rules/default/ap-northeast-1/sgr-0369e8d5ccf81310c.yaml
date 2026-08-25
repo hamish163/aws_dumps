@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0369e8d5ccf81310c
+specifics:
+  Description: audit-order SG on port 5483
+  FromPort: 5483
+  GroupId: sg-0245d0e0615396ed5
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0617c1f819752d01c
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0369e8d5ccf81310c
+  Tags: []
+  ToPort: 5483
+...
+

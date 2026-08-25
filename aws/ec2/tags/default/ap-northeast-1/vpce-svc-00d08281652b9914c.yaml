@@ -1,0 +1,14 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vpce-svc-00d08281652b9914c
+specifics:
+  Name: mbx-bnb-perf-ws-api-endpoint-service
+  biz: mbx
+  mbx_env_name: perf
+  mbx_exchange_name: bnb
+  team: mbx
+...
+

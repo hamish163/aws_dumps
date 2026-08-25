@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: SageMakerStudioBedrockFunctionExecutionRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/SageMakerStudioBedrockFunctionExecutionRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2025-02-25 03:52:07+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4IKCKWR5W2
+  PolicyName: SageMakerStudioBedrockFunctionExecutionRolePolicy
+  UpdateDate: 2026-02-12 17:58:27+00:00
+...
+

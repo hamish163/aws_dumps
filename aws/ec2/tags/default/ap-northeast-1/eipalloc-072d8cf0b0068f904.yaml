@@ -1,0 +1,14 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eipalloc-072d8cf0b0068f904
+specifics:
+  Name: mbx-bnb-devops-eip-az1
+  biz: mbx
+  mbx_env_name: devops
+  mbx_exchange_name: bnb
+  team: mbx
+...
+

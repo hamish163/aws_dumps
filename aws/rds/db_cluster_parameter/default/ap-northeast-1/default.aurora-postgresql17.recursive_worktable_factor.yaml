@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql17.recursive_worktable_factor
+specifics:
+  AllowedValues: 0.001-1000000
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: float
+  Description: Sets the planner estimate of the average size of a recursive query
+    working table
+  IsModifiable: true
+  ParameterName: recursive_worktable_factor
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

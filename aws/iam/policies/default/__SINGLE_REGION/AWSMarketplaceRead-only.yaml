@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSMarketplaceRead-only
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSMarketplaceRead-only
+  AttachmentCount: 0
+  CreateDate: 2015-02-06 18:40:31+00:00
+  DefaultVersionId: v13
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJOOM6LETKURTJ3XZ2
+  PolicyName: AWSMarketplaceRead-only
+  UpdateDate: 2026-05-07 17:12:10+00:00
+...
+

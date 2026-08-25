@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: rw-s3-prometheus-backup-solutions
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/rw-s3-prometheus-backup-solutions
+  AttachmentCount: 1
+  CreateDate: 2025-06-05 09:46:01+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5Y3QYK5BZ4
+  PolicyName: rw-s3-prometheus-backup-solutions
+  UpdateDate: 2025-06-05 09:46:01+00:00
+...
+

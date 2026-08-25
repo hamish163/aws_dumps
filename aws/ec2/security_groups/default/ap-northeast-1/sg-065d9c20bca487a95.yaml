@@ -1,0 +1,16 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-065d9c20bca487a95
+specifics:
+  Description: Master group for Elastic MapReduce created on 2023-03-03T20:51:02.034Z
+  GroupId: sg-065d9c20bca487a95
+  GroupName: ElasticMapReduce-master
+  Tags:
+  - Key: for-use-with-amazon-emr-managed-policies
+    Value: 'true'
+  VpcId: vpc-001ab708836aeeb75
+...
+

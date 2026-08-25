@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vpce-096043c9ff258ebea
+specifics:
+  Name: ClientVpn-TransferSH
+...
+

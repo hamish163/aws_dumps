@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-00af9e35ca488d283
+specifics:
+  AmazonFSx.FileSystemId: fs-054ac366b21caa353
+...
+

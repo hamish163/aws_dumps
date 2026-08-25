@@ -1,0 +1,62 @@
+---
+datatype: aws.ec2.route_tables
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rtb-017a6937450f65c2d
+specifics:
+  Associations:
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-04e1bcc2c406d416b
+    RouteTableId: rtb-017a6937450f65c2d
+    SubnetId: subnet-0acaddce878579935
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-0b68d5bbfbfc48559
+    RouteTableId: rtb-017a6937450f65c2d
+    SubnetId: subnet-0655844db6406040e
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-0de72192c7d8a8764
+    RouteTableId: rtb-017a6937450f65c2d
+    SubnetId: subnet-0c806d0ff29fb4a1f
+  OwnerId: '862793644923'
+  PropagatingVgws: []
+  RouteTableId: rtb-017a6937450f65c2d
+  Routes:
+  - DestinationCidrBlock: 10.12.2.0/24
+    GatewayId: local
+    Origin: CreateRouteTable
+    State: active
+  - DestinationCidrBlock: 10.10.0.0/16
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-03ac8e434311a2c78
+  - DestinationCidrBlock: 10.51.0.0/16
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-04834c02acb2e145f
+  - DestinationCidrBlock: 10.0.0.0/8
+    Origin: CreateRoute
+    State: active
+    TransitGatewayId: tgw-094ec8a8749ab72d4
+  - DestinationCidrBlock: 0.0.0.0/0
+    Origin: CreateRoute
+    State: active
+    TransitGatewayId: tgw-094ec8a8749ab72d4
+  Tags:
+  - Key: aws:cloudformation:logical-id
+    Value: RouteTable
+  - Key: Name
+    Value: ProdGatewayVPC Main RouteTable
+  - Key: aws:cloudformation:stack-id
+    Value: arn:aws:cloudformation:ap-northeast-1:862793644923:stack/BitdjNetwork-ProdGatewayVPC-1PZSWRWOLEH8E/4abb5a50-6cca-11ee-a1b9-0e55d09e0867
+  - Key: aws:cloudformation:stack-name
+    Value: BitdjNetwork-ProdGatewayVPC-1PZSWRWOLEH8E
+  VpcId: vpc-041f1adf86f81b9e1
+...
+

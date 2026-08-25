@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev57-mbx-aggtrades-cluster-pgrp.back_log
+specifics:
+  AllowedValues: 1-65535
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: The number of outstanding connection requests MySQL can have
+  IsModifiable: true
+  ParameterName: back_log
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

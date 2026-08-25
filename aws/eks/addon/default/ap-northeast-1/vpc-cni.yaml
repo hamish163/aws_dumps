@@ -1,0 +1,27 @@
+---
+datatype: aws.eks.addon
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vpc-cni
+specifics:
+  addonArn: arn:aws:eks:ap-northeast-1:862793644923:addon/mbx-bnb-sre-emu/vpc-cni/82cf54b3-ef15-a12f-c2ef-27c8d85323b9
+  addonName: vpc-cni
+  addonVersion: v1.22.3-eksbuild.1
+  clusterName: mbx-bnb-sre-emu
+  configurationValues: '{"env":{"AWS_VPC_K8S_CNI_CUSTOM_NETWORK_CFG":"true","ENI_CONFIG_LABEL_DEF":"topology.kubernetes.io/zone"}}'
+  createdAt: 2026-06-09 08:43:37.532000+10:00
+  health:
+    issues: []
+  modifiedAt: 2026-07-07 18:43:54.942000+10:00
+  serviceAccountRoleArn: arn:aws:iam::862793644923:role/mbx-bnb-sre-emu-vpc-cni
+  status: ACTIVE
+  tags:
+    biz: mbx
+    mbx_env_name: sre
+    mbx_exchange_name: bnb
+    mbx_secret_store: none
+    stack_path: bnb/sre/eks/emu/extras
+    team: mbx
+...
+

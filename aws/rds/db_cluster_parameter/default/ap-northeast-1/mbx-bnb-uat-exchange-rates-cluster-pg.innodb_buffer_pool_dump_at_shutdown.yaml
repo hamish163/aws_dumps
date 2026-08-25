@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-exchange-rates-cluster-pg.innodb_buffer_pool_dump_at_shutdown
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Specifies whether to record the pages cached in the InnoDB buffer pool
+    when the MySQL server is shut down.
+  IsModifiable: false
+  ParameterName: innodb_buffer_pool_dump_at_shutdown
+  ParameterValue: '0'
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

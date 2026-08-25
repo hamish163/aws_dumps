@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: CloudSearchReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/CloudSearchReadOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2015-02-06 18:39:57+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJWPLX7N7BCC3RZLHW
+  PolicyName: CloudSearchReadOnlyAccess
+  UpdateDate: 2015-02-06 18:39:57+00:00
+...
+

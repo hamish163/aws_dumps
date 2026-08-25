@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSStepFunctionsConsoleFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSStepFunctionsConsoleFullAccess
+  AttachmentCount: 0
+  CreateDate: 2017-01-11 21:54:31+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJIYC52YWRX6OSMJWK
+  PolicyName: AWSStepFunctionsConsoleFullAccess
+  UpdateDate: 2017-01-12 00:19:34+00:00
+...
+

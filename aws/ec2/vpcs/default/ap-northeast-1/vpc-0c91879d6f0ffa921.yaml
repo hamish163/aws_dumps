@@ -1,0 +1,28 @@
+---
+datatype: aws.ec2.vpcs
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vpc-0c91879d6f0ffa921
+specifics:
+  CidrBlock: 10.139.0.0/16
+  CidrBlockAssociationSet:
+  - AssociationId: vpc-cidr-assoc-09c10fa2f1dfb9727
+    CidrBlock: 10.139.0.0/16
+    CidrBlockState:
+      State: associated
+  DhcpOptionsId: dopt-6f8f960d
+  InstanceTenancy: default
+  IsDefault: false
+  OwnerId: '862793644923'
+  State: available
+  Tags:
+  - Key: env
+    Value: stage
+  - Key: project
+    Value: mbx
+  - Key: Name
+    Value: tky_stage_mbx_vpc
+  VpcId: vpc-0c91879d6f0ffa921
+...
+

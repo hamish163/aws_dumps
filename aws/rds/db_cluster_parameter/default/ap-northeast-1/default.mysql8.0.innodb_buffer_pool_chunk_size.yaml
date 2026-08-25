@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.innodb_buffer_pool_chunk_size
+specifics:
+  AllowedValues: 1048576-4294967295
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: Defines the chunk size for online InnoDB buffer pool resizing operations.
+  IsModifiable: true
+  ParameterName: innodb_buffer_pool_chunk_size
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

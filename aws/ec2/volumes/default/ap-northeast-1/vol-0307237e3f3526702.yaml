@@ -1,0 +1,27 @@
+---
+datatype: aws.ec2.volumes
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-0307237e3f3526702
+specifics:
+  Attachments:
+  - AttachTime: 2026-02-27 09:05:11+00:00
+    DeleteOnTermination: true
+    Device: /dev/xvda
+    InstanceId: i-05c22a11549d51701
+    State: attached
+    VolumeId: vol-0307237e3f3526702
+  AvailabilityZone: ap-northeast-1a
+  CreateTime: 2026-02-27 09:05:11.953000+00:00
+  Encrypted: false
+  Iops: 3000
+  MultiAttachEnabled: false
+  Size: 40
+  SnapshotId: snap-07b6ad77fbe457ef6
+  State: in-use
+  Throughput: 125
+  VolumeId: vol-0307237e3f3526702
+  VolumeType: gp3
+...
+

@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: tgw-attach-01b66f9722a62a3c4
+specifics:
+  Name: TungstenCIVPC
+...
+

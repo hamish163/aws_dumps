@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonEventBridgeSchemasReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonEventBridgeSchemasReadOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2019-11-28 23:05:57+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4JK7CLVFIU
+  PolicyName: AmazonEventBridgeSchemasReadOnlyAccess
+  UpdateDate: 2020-05-01 00:50:53+00:00
+...
+

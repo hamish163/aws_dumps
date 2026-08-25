@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: EC2ApplicationStatusChecksServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/EC2ApplicationStatusChecksServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2026-04-27 23:42:19+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4GRZA2WAIB
+  PolicyName: EC2ApplicationStatusChecksServiceRolePolicy
+  UpdateDate: 2026-07-15 17:12:31+00:00
+...
+

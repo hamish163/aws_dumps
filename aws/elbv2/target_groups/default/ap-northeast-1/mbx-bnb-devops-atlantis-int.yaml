@@ -1,0 +1,29 @@
+---
+datatype: aws.elbv2.target_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-devops-atlantis-int
+specifics:
+  HealthCheckEnabled: true
+  HealthCheckIntervalSeconds: 30
+  HealthCheckPath: /healthz
+  HealthCheckPort: traffic-port
+  HealthCheckProtocol: HTTP
+  HealthCheckTimeoutSeconds: 5
+  HealthyThresholdCount: 5
+  IpAddressType: ipv4
+  LoadBalancerArns:
+  - arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:loadbalancer/app/mbx-bnb-devops-atlantis-int/a608958154b7bbac
+  Matcher:
+    HttpCode: '200'
+  Port: 8080
+  Protocol: HTTP
+  ProtocolVersion: HTTP1
+  TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-devops-atlantis-int/9daeb524e0404b0a
+  TargetGroupName: mbx-bnb-devops-atlantis-int
+  TargetType: instance
+  UnhealthyThresholdCount: 2
+  VpcId: vpc-097095a8b70ef6727
+...
+

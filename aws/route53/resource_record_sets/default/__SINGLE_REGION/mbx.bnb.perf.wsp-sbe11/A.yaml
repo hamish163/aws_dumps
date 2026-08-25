@@ -1,0 +1,15 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx.bnb.perf.wsp-sbe11/A
+  single_region: true
+specifics:
+  Name: wsp-sbe11.perf.bnb.mbx.
+  ResourceRecords:
+  - Value: 10.170.20.42
+  TTL: 300
+  Type: A
+...
+

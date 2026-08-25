@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonElasticTranscoder_FullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonElasticTranscoder_FullAccess
+  AttachmentCount: 0
+  CreateDate: 2018-04-27 18:59:35+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAICFT6XVF3RSR4E7JG
+  PolicyName: AmazonElasticTranscoder_FullAccess
+  UpdateDate: 2019-06-10 22:51:51+00:00
+...
+

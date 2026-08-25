@@ -1,0 +1,137 @@
+---
+datatype: aws.ec2.instances
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-0582d7c20c4efbb32
+specifics:
+  AmiLaunchIndex: 0
+  Architecture: x86_64
+  BlockDeviceMappings:
+  - DeviceName: /dev/xvda
+    Ebs:
+      AttachTime: 2026-07-22 07:42:50+00:00
+      DeleteOnTermination: true
+      Status: attached
+      VolumeId: vol-006cf3180e0af9c27
+  - DeviceName: /dev/sdf
+    Ebs:
+      AttachTime: 2026-07-22 07:43:11.703000+00:00
+      DeleteOnTermination: false
+      Status: attached
+      VolumeId: vol-0f973030b174b2e96
+  BootMode: uefi-preferred
+  CapacityReservationSpecification:
+    CapacityReservationPreference: open
+  ClientToken: terraform-5qPPjyRJ8nQ63leRvOkcGxhuW0
+  CpuOptions:
+    CoreCount: 1
+    ThreadsPerCore: 2
+  CurrentInstanceBootMode: uefi
+  EbsOptimized: true
+  EnaSupport: true
+  EnclaveOptions:
+    Enabled: false
+  HibernationOptions:
+    Configured: false
+  Hypervisor: xen
+  IamInstanceProfile:
+    Arn: arn:aws:iam::862793644923:instance-profile/mbx-bnb-uat-sequencer
+    Id: AIPA4RYUCHN5SHAUQDTRA
+  ImageId: ami-06903006eaf547859
+  InstanceId: i-0582d7c20c4efbb32
+  InstanceType: t3.medium
+  LaunchTime: 2026-07-22 07:42:49+00:00
+  MaintenanceOptions:
+    AutoRecovery: default
+  MetadataOptions:
+    HttpEndpoint: enabled
+    HttpProtocolIpv6: disabled
+    HttpPutResponseHopLimit: 2
+    HttpTokens: required
+    InstanceMetadataTags: enabled
+    State: applied
+  Monitoring:
+    State: disabled
+  NetworkInterfaces:
+  - Attachment:
+      AttachTime: 2026-07-22 07:42:49+00:00
+      AttachmentId: eni-attach-01668f3d6b3ccb7c7
+      DeleteOnTermination: true
+      DeviceIndex: 0
+      NetworkCardIndex: 0
+      Status: attached
+    Description: ''
+    Groups:
+    - GroupId: sg-0f951059aa7eec828
+      GroupName: mbx-bnb-uat-default
+    - GroupId: sg-0e7d02cdfcb3b6e81
+      GroupName: mbx-bnb-uat-monitoring
+    - GroupId: sg-03dd196a152427350
+      GroupName: mbx-bnb-uat-sequencer
+    InterfaceType: interface
+    Ipv6Addresses: []
+    MacAddress: 06:e5:66:3c:52:09
+    NetworkInterfaceId: eni-0cd3429d768857c2a
+    OwnerId: '862793644923'
+    PrivateDnsName: ip-10-190-19-246.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.190.19.246
+    PrivateIpAddresses:
+    - Primary: true
+      PrivateDnsName: ip-10-190-19-246.ap-northeast-1.compute.internal
+      PrivateIpAddress: 10.190.19.246
+    SourceDestCheck: true
+    Status: in-use
+    SubnetId: subnet-0406f0295a5b5145e
+    VpcId: vpc-0b3ce57b4c748893b
+  Placement:
+    AvailabilityZone: ap-northeast-1a
+    GroupName: ''
+    Tenancy: default
+  PlatformDetails: Linux/UNIX
+  PrivateDnsName: ip-10-190-19-246.ap-northeast-1.compute.internal
+  PrivateDnsNameOptions:
+    EnableResourceNameDnsAAAARecord: false
+    EnableResourceNameDnsARecord: false
+    HostnameType: ip-name
+  PrivateIpAddress: 10.190.19.246
+  ProductCodes: []
+  PublicDnsName: ''
+  RootDeviceName: /dev/xvda
+  RootDeviceType: ebs
+  SecurityGroups:
+  - GroupId: sg-0f951059aa7eec828
+    GroupName: mbx-bnb-uat-default
+  - GroupId: sg-0e7d02cdfcb3b6e81
+    GroupName: mbx-bnb-uat-monitoring
+  - GroupId: sg-03dd196a152427350
+    GroupName: mbx-bnb-uat-sequencer
+  SourceDestCheck: true
+  State:
+    Code: 16
+    Name: running
+  StateTransitionReason: ''
+  SubnetId: subnet-0406f0295a5b5145e
+  Tags:
+  - Key: Name
+    Value: mbx-bnb-uat-sequencer2
+  - Key: biz
+    Value: mbx
+  - Key: mbx_application_name
+    Value: mbx-core-sequencer
+  - Key: mbx_env_name
+    Value: uat
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_host_index
+    Value: '2'
+  - Key: mbx_secret_store
+    Value: asm
+  - Key: team
+    Value: mbx
+  UsageOperation: RunInstances
+  UsageOperationUpdateTime: 2026-07-22 07:42:49+00:00
+  VirtualizationType: hvm
+  VpcId: vpc-0b3ce57b4c748893b
+...
+

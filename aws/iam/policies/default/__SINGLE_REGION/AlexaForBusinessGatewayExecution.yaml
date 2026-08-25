@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AlexaForBusinessGatewayExecution
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AlexaForBusinessGatewayExecution
+  AttachmentCount: 0
+  CreateDate: 2017-11-30 16:47:19+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAI3LZ7YP7KHLG4DT2Q
+  PolicyName: AlexaForBusinessGatewayExecution
+  UpdateDate: 2017-11-30 16:47:19+00:00
+...
+

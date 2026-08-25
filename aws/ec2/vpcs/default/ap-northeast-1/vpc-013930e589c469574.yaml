@@ -1,0 +1,32 @@
+---
+datatype: aws.ec2.vpcs
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vpc-013930e589c469574
+specifics:
+  CidrBlock: 10.170.16.0/20
+  CidrBlockAssociationSet:
+  - AssociationId: vpc-cidr-assoc-015bd92f9b08fa1ce
+    CidrBlock: 10.170.16.0/20
+    CidrBlockState:
+      State: associated
+  DhcpOptionsId: dopt-6f8f960d
+  InstanceTenancy: default
+  IsDefault: false
+  OwnerId: '862793644923'
+  State: available
+  Tags:
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  - Key: mbx_env_name
+    Value: perf
+  - Key: Name
+    Value: mbx-bnb-perf
+  VpcId: vpc-013930e589c469574
+...
+

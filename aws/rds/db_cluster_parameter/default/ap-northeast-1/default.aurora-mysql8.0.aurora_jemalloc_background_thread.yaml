@@ -1,0 +1,22 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-mysql8.0.aurora_jemalloc_background_thread
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: By default, the memory purging is performed by the thread that is performing
+    a memory operation. Using background threads can reduce tail latencies as cleanup
+    is asynchronous
+  IsModifiable: true
+  MinimumEngineVersion: 8.0.mysql_aurora.3.09.0
+  ParameterName: aurora_jemalloc_background_thread
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

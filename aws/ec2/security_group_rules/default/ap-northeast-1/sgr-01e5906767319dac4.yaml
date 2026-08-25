@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-01e5906767319dac4
+specifics:
+  CidrIpv4: 10.198.0.0/16
+  Description: MANUAL - Allow GlobalProtect
+  FromPort: 443
+  GroupId: sg-009df548cfc588704
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-01e5906767319dac4
+  Tags: []
+  ToPort: 443
+...
+

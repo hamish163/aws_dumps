@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-perf-spade-trade-cluster-pg.transaction_isolation
+specifics:
+  AllowedValues: READ-UNCOMMITTED,READ-COMMITTED,REPEATABLE-READ,SERIALIZABLE
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Sets the default isolation level.
+  IsModifiable: true
+  ParameterName: transaction_isolation
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-swapchop-cluster-pg.slow_query_log
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: immediate
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Enable or disable the slow query log
+  IsModifiable: true
+  ParameterName: slow_query_log
+  ParameterValue: '1'
+  Source: user
+  SupportedEngineModes:
+  - provisioned
+...
+

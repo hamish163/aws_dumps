@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: nip-0d4bbc179373cb8b3
+specifics:
+  Name: test-tracky-internal-to-prvops
+...
+

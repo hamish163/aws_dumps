@@ -1,0 +1,17 @@
+---
+datatype: aws.route53.hosted_zones
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: devfdg.net.
+  single_region: true
+specifics:
+  CallerReference: f79915d6-51e4-4fd4-b801-1b13a96ba6a4
+  Config:
+    Comment: Binance Documentation domain for only MBX Hub(New VPN)
+    PrivateZone: true
+  Id: /hostedzone/Z02971263DBTNRYR4G8WV
+  Name: devfdg.net.
+  ResourceRecordSetCount: 10
+...
+

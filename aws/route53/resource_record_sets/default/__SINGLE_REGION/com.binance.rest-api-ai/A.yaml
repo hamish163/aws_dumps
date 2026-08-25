@@ -1,0 +1,16 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: com.binance.rest-api-ai/A
+  single_region: true
+specifics:
+  AliasTarget:
+    DNSName: vpce-0a24a8df06ff9b918-witg732f.vpce-svc-053984ae65a76baf5.ap-northeast-1.vpce.amazonaws.com.
+    EvaluateTargetHealth: false
+    HostedZoneId: Z2E726K9Y6RL4W
+  Name: rest-api-ai.binance.com.
+  Type: A
+...
+

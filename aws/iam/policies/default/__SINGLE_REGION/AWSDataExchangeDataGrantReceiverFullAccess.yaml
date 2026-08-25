@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSDataExchangeDataGrantReceiverFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSDataExchangeDataGrantReceiverFullAccess
+  AttachmentCount: 0
+  CreateDate: 2024-10-24 14:45:58+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4CQHKPMDQI
+  PolicyName: AWSDataExchangeDataGrantReceiverFullAccess
+  UpdateDate: 2024-10-24 14:45:58+00:00
+...
+

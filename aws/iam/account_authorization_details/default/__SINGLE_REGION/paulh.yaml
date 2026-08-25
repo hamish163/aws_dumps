@@ -1,0 +1,44 @@
+---
+datatype: aws.iam.account_authorization_details
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: paulh
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/paulh
+  AttachedManagedPolicies: []
+  CreateDate: 2024-06-18 06:32:24+00:00
+  GroupList:
+  - developer
+  - mbx_bedrock
+  Path: /
+  Tags:
+  - Key: team
+    Value: ''
+  - Key: biz
+    Value: ''
+  - Key: mbx_team
+    Value: dev
+  - Key: mbx_iam
+    Value: paulh
+  UserId: AIDA4RYUCHN57K5YE3SSH
+  UserName: paulh
+  UserPolicyList:
+  - PolicyDocument:
+      Statement:
+      - Action: secretsmanager:*
+        Effect: Allow
+        Resource: arn:aws:secretsmanager:ap-northeast-1:862793644923:secret:mbx-dev-testing-Hwz1Mq
+        Sid: AllowFullAccessToSpecificSecret
+      Version: '2012-10-17'
+    PolicyName: AllowASMaccess
+  - PolicyDocument:
+      Statement:
+      - Action: secretsmanager:*
+        Effect: Allow
+        Resource: arn:aws:secretsmanager:ap-northeast-1:862793644923:secret:mbx/bnb/perf/test-asm-iIdkiW
+      Version: '2012-10-17'
+    PolicyName: mbx-bnb-perf-test-asm-secret-full-access
+...
+

@@ -1,0 +1,84 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-043bd0876a0910afa
+specifics:
+  Attachment:
+    AttachTime: 2026-01-29 16:36:54+00:00
+    AttachmentId: eni-attach-036a6bdca9fc697f2
+    DeleteOnTermination: true
+    DeviceIndex: 0
+    InstanceId: i-06fd959f270c1915a
+    InstanceOwnerId: '862793644923'
+    NetworkCardIndex: 0
+    Status: attached
+  AvailabilityZone: ap-northeast-1c
+  Description: ''
+  Groups:
+  - GroupId: sg-06d8aeb750f984392
+    GroupName: mbx-bnb-devops-jenkins_eks
+  - GroupId: sg-0dcd16e585060d06c
+    GroupName: mbx-bnb-devops-monitoring
+  - GroupId: sg-0021bf00906cbb632
+    GroupName: mbx-bnb-devops-default
+  - GroupId: sg-0f6999d5ca7b5eaa2
+    GroupName: mbx-bnb-devops-jenkins_eks-builder-node
+  InterfaceType: interface
+  Ipv6Addresses: []
+  MacAddress: 0a:7a:fb:2c:83:85
+  NetworkInterfaceId: eni-043bd0876a0910afa
+  OwnerId: '862793644923'
+  PrivateDnsName: ip-10-200-20-221.ap-northeast-1.compute.internal
+  PrivateIpAddress: 10.200.20.221
+  PrivateIpAddresses:
+  - Primary: true
+    PrivateDnsName: ip-10-200-20-221.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.200.20.221
+  - Primary: false
+    PrivateDnsName: ip-10-200-20-172.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.200.20.172
+  - Primary: false
+    PrivateDnsName: ip-10-200-20-78.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.200.20.78
+  - Primary: false
+    PrivateDnsName: ip-10-200-20-64.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.200.20.64
+  - Primary: false
+    PrivateDnsName: ip-10-200-20-241.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.200.20.241
+  - Primary: false
+    PrivateDnsName: ip-10-200-20-198.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.200.20.198
+  - Primary: false
+    PrivateDnsName: ip-10-200-20-234.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.200.20.234
+  - Primary: false
+    PrivateDnsName: ip-10-200-20-92.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.200.20.92
+  - Primary: false
+    PrivateDnsName: ip-10-200-20-177.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.200.20.177
+  - Primary: false
+    PrivateDnsName: ip-10-200-20-137.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.200.20.137
+  - Primary: false
+    PrivateDnsName: ip-10-200-20-104.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.200.20.104
+  RequesterManaged: false
+  SourceDestCheck: true
+  Status: in-use
+  SubnetId: subnet-0b46f1b63e4b55f14
+  TagSet:
+  - Key: eks:nodegroup-name
+    Value: mbx-bnb-devops-jenkins_eks-builder_al2023_arm64_standard
+  - Key: cluster.k8s.amazonaws.com/name
+    Value: mbx-bnb-devops-jenkins_eks-cluster
+  - Key: eks:cluster-name
+    Value: mbx-bnb-devops-jenkins_eks-cluster
+  - Key: node.k8s.amazonaws.com/instance_id
+    Value: i-06fd959f270c1915a
+  VpcId: vpc-07519eb63f1d932ac
+...
+

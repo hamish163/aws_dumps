@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql16.rds_aurora.limitless_maximum_adaptive_fetch_size
+specifics:
+  AllowedValues: 0-2147483647
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Sets upper limit for self adjusting fetch size in a limitless cluster
+  IsModifiable: true
+  MinimumEngineVersion: 16.4-limitless
+  ParameterName: rds_aurora.limitless_maximum_adaptive_fetch_size
+  ParameterValue: '1000'
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSDataExchangeFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSDataExchangeFullAccess
+  AttachmentCount: 0
+  CreateDate: 2019-11-13 19:27:59+00:00
+  DefaultVersionId: v8
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4MPDTDB3FH
+  PolicyName: AWSDataExchangeFullAccess
+  UpdateDate: 2024-06-24 19:54:18+00:00
+...
+

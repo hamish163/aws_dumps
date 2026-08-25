@@ -1,0 +1,28 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: snap-0a6ba1fb04ece5e00
+specifics:
+  biz: mbx
+  git_author: Nicola Feltrin <190716056+nicola-feltrin@users.noreply.github.com>
+  git_committer: Nicola Feltrin <190716056+nicola-feltrin@users.noreply.github.com>
+  git_hash: c3e153669033f50582fe9aa6d697659472cc1043
+  git_message: 'Uninstall livepatch repo
+
+
+    Livepatch is already disabled by default in AL2023; trying to uninstall
+
+    it results only in extra errors.
+
+    '
+  git_timestamp: '2025-07-04T14:53:48Z'
+  managed: packer
+  project: mbx
+  role: ami-oci-builder
+  source_al2023_kernel: '6.1'
+  source_al2023_version: 2023.7.20250623.1
+  team: mbx
+...
+

@@ -1,0 +1,14 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: tracky-dev-tracky
+  single_region: true
+specifics:
+  biz: mbx
+  env: dev
+  project: mbx
+  team: mbx
+...
+

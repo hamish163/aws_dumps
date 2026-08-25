@@ -1,0 +1,16 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-079e45ecad29f2abc
+specifics:
+  Name: mbx-bnb-devops-commission-attribution1
+  biz: mbx
+  mbx_application_name: mbx-data-commission-attribution
+  mbx_env_name: devops
+  mbx_exchange_name: bnb
+  mbx_secret_store: asm
+  team: mbx
+...
+

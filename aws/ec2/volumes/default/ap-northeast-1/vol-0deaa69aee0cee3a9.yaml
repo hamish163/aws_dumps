@@ -1,0 +1,28 @@
+---
+datatype: aws.ec2.volumes
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-0deaa69aee0cee3a9
+specifics:
+  Attachments:
+  - AttachTime: 2024-03-28 10:32:16+00:00
+    DeleteOnTermination: true
+    Device: /dev/xvda
+    InstanceId: i-0aaea30b839bf2ab9
+    State: attached
+    VolumeId: vol-0deaa69aee0cee3a9
+  AvailabilityZone: ap-northeast-1c
+  CreateTime: 2024-03-28 10:32:16.579000+00:00
+  Encrypted: true
+  Iops: 3000
+  KmsKeyId: arn:aws:kms:ap-northeast-1:862793644923:key/2378c264-398e-46a7-a121-aecc068e84fc
+  MultiAttachEnabled: false
+  Size: 30
+  SnapshotId: snap-04009711d86ee0cb0
+  State: in-use
+  Throughput: 125
+  VolumeId: vol-0deaa69aee0cee3a9
+  VolumeType: gp3
+...
+

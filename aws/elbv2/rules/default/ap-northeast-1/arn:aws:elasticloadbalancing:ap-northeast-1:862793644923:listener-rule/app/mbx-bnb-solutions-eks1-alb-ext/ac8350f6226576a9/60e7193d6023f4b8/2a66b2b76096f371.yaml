@@ -1,0 +1,27 @@
+---
+datatype: aws.elbv2.rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener-rule/app/mbx-bnb-solutions-eks1-alb-ext/ac8350f6226576a9/60e7193d6023f4b8/2a66b2b76096f371
+specifics:
+  Actions:
+  - FixedResponseConfig:
+      ContentType: text/plain
+      MessageBody: Forbidden
+      StatusCode: '403'
+    Order: 1
+    Type: fixed-response
+  Conditions:
+  - Field: path-pattern
+    PathPatternConfig:
+      Values:
+      - /metrics
+    Values:
+    - /metrics
+  IsDefault: false
+  Priority: '1'
+  RuleArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener-rule/app/mbx-bnb-solutions-eks1-alb-ext/ac8350f6226576a9/60e7193d6023f4b8/2a66b2b76096f371
+  _listener_arn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener/app/mbx-bnb-solutions-eks1-alb-ext/ac8350f6226576a9/60e7193d6023f4b8
+...
+

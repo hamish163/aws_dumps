@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonOpenSearchIngestionServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AmazonOpenSearchIngestionServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2022-11-18 16:49:50+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4LJIG2P2JF
+  PolicyName: AmazonOpenSearchIngestionServiceRolePolicy
+  UpdateDate: 2025-08-28 18:19:07+00:00
+...
+

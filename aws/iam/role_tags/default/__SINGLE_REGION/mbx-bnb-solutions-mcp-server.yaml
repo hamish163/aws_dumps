@@ -1,0 +1,16 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-solutions-mcp-server
+  single_region: true
+specifics:
+  Name: mbx-bnb-solutions-mcp-server
+  biz: mbx
+  mbx_env_name: solutions
+  mbx_exchange_name: bnb
+  mbx_secret_store: none
+  team: mbx
+...
+

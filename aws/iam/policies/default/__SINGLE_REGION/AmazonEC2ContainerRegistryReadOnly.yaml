@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonEC2ContainerRegistryReadOnly
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonEC2ContainerRegistryReadOnly
+  AttachmentCount: 5
+  CreateDate: 2015-12-21 17:04:15+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIFYZPA37OOHVIH7KQ
+  PolicyName: AmazonEC2ContainerRegistryReadOnly
+  UpdateDate: 2019-12-10 20:56:32+00:00
+...
+

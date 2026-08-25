@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-0f0504afbfcccf9b6
+specifics:
+  Name: bnb_prod_mbx_tracky-jp-slave12_ec2
+  biz: mbx
+  mbx_env_name: prod
+  mbx_exchange_name: bnb
+  mbx_host_index: '12'
+  role: tracky
+  sre-app: tracky-slave
+  sre-component: tracky-slave
+  sre-env: prod
+  team: sre
+...
+

@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: tgw-attach-0123d0c5b2664fa5b
+specifics:
+  Name: TGWClientVpn-SH
+...
+

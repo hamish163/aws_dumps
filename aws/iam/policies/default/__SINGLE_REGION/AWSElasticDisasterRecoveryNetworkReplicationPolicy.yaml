@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSElasticDisasterRecoveryNetworkReplicationPolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AWSElasticDisasterRecoveryNetworkReplicationPolicy
+  AttachmentCount: 0
+  CreateDate: 2023-06-11 12:36:48+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4OACCBBQLR
+  PolicyName: AWSElasticDisasterRecoveryNetworkReplicationPolicy
+  UpdateDate: 2024-01-02 13:25:23+00:00
+...
+

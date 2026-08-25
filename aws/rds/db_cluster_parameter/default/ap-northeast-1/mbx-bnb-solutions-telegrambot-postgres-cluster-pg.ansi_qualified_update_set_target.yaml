@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-solutions-telegrambot-postgres-cluster-pg.ansi_qualified_update_set_target
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Support table and schema qualifiers in UPDATE ... SET statements.
+  IsModifiable: true
+  ParameterName: ansi_qualified_update_set_target
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

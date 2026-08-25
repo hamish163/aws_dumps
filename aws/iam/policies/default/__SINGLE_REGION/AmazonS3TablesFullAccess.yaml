@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonS3TablesFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonS3TablesFullAccess
+  AttachmentCount: 0
+  CreateDate: 2024-12-03 15:21:07+00:00
+  DefaultVersionId: v6
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4OUBBEQLZN
+  PolicyName: AmazonS3TablesFullAccess
+  UpdateDate: 2026-02-12 18:00:31+00:00
+...
+

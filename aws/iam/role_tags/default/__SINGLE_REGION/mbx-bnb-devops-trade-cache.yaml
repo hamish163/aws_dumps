@@ -1,0 +1,17 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-devops-trade-cache
+  single_region: true
+specifics:
+  Name: mbx-bnb-devops-trade-cache
+  biz: mbx
+  mbx_application_name: mbx-data-trade-cache
+  mbx_env_name: devops
+  mbx_exchange_name: bnb
+  mbx_secret_store: asm
+  team: mbx
+...
+

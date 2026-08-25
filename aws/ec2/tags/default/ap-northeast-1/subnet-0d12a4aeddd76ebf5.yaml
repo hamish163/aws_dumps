@@ -1,0 +1,13 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: subnet-0d12a4aeddd76ebf5
+specifics:
+  Name: DevOpsSandboxSheaf Subnet 1
+  aws:cloudformation:logical-id: Subnet1
+  aws:cloudformation:stack-id: arn:aws:cloudformation:ap-northeast-1:862793644923:stack/DevOpsSandboxSheaf/6fae1670-b37c-11ed-82b5-062d7de098bb
+  aws:cloudformation:stack-name: DevOpsSandboxSheaf
+...
+

@@ -1,0 +1,13 @@
+---
+datatype: aws.iam.user_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: monastery-michael
+  single_region: true
+specifics:
+  biz: mbx
+  monastery-team: devops
+  team: mbx
+...
+

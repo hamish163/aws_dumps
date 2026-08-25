@@ -1,0 +1,17 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-uat-kafka
+  single_region: true
+specifics:
+  Name: mbx-bnb-uat-kafka
+  biz: mbx
+  mbx_application_name: kafka
+  mbx_env_name: uat
+  mbx_exchange_name: bnb
+  mbx_secret_store: asm
+  team: mbx
+...
+

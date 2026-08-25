@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSElasticBeanstalkWorkerTier
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSElasticBeanstalkWorkerTier
+  AttachmentCount: 0
+  CreateDate: 2016-02-08 23:12:02+00:00
+  DefaultVersionId: v8
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJQDLBRSJVKVF4JMSK
+  PolicyName: AWSElasticBeanstalkWorkerTier
+  UpdateDate: 2026-04-29 19:27:06+00:00
+...
+

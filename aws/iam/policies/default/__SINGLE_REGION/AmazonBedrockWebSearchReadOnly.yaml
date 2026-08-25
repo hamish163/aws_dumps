@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonBedrockWebSearchReadOnly
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonBedrockWebSearchReadOnly
+  AttachmentCount: 0
+  CreateDate: 2026-08-03 16:57:25+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4KBSRU3SNC
+  PolicyName: AmazonBedrockWebSearchReadOnly
+  UpdateDate: 2026-08-03 16:57:25+00:00
+...
+

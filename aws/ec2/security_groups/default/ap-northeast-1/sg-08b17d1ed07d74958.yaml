@@ -1,0 +1,26 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-08b17d1ed07d74958
+specifics:
+  Description: Security group for account rds
+  GroupId: sg-08b17d1ed07d74958
+  GroupName: mbx-bnb-perf-spade-trade-db
+  Tags:
+  - Key: Name
+    Value: mbx-bnb-perf-spade-trade-db
+  - Key: mbx_env_name
+    Value: perf
+  - Key: biz
+    Value: mbx
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_secret_store
+    Value: asm
+  - Key: team
+    Value: mbx
+  VpcId: vpc-013930e589c469574
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSQuickSightS3Policy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/service-role/AWSQuickSightS3Policy
+  AttachmentCount: 0
+  CreateDate: 2018-04-10 08:48:15+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIPBHSFQRBSL5XJFBK
+  PolicyName: AWSQuickSightS3Policy
+  UpdateDate: 2023-05-15 05:02:12+00:00
+...
+

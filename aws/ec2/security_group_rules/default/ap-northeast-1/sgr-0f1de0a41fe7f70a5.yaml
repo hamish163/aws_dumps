@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0f1de0a41fe7f70a5
+specifics:
+  Description: shim-api
+  FromPort: 3306
+  GroupId: sg-09b26bdad9ccf6050
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-00828691984f7f908
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0f1de0a41fe7f70a5
+  Tags: []
+  ToPort: 3306
+...
+

@@ -1,0 +1,22 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.replication_sender_observe_commit_only
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: If enabled, limit callbacks to improve performance for semisynchronous
+    replication
+  IsModifiable: true
+  MinimumEngineVersion: 8.0.23
+  ParameterName: replication_sender_observe_commit_only
+  ParameterValue: '0'
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

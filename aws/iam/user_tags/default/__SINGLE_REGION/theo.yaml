@@ -1,0 +1,12 @@
+---
+datatype: aws.iam.user_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: theo
+  single_region: true
+specifics:
+  mbx_iam: theo
+  mbx_team: solutions
+...
+

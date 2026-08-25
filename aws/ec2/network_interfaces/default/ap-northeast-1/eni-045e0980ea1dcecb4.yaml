@@ -1,0 +1,44 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-045e0980ea1dcecb4
+specifics:
+  Attachment:
+    AttachTime: 2026-08-20 14:14:48+00:00
+    AttachmentId: eni-attach-02b9c5e922c68236d
+    DeleteOnTermination: true
+    DeviceIndex: 0
+    InstanceId: i-009de9171b3b32767
+    InstanceOwnerId: '862793644923'
+    NetworkCardIndex: 0
+    Status: attached
+  AvailabilityZone: ap-northeast-1a
+  Description: ''
+  Groups:
+  - GroupId: sg-07da4f76c36556ca2
+    GroupName: mbx-bnb-colo-perf-default
+  - GroupId: sg-08e06c2fcca39d99b
+    GroupName: mbx-bnb-colo-perf-monitoring
+  - GroupId: sg-08e11fd2a63dc4af9
+    GroupName: mbx-bnb-colo-perf-tproxy-splicer
+  InterfaceType: interface
+  Ipv6Addresses: []
+  MacAddress: 06:29:06:44:b8:c9
+  NetworkInterfaceId: eni-045e0980ea1dcecb4
+  OwnerId: '862793644923'
+  PrivateDnsName: ip-10-170-39-22.ap-northeast-1.compute.internal
+  PrivateIpAddress: 10.170.39.22
+  PrivateIpAddresses:
+  - Primary: true
+    PrivateDnsName: ip-10-170-39-22.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.170.39.22
+  RequesterManaged: false
+  SourceDestCheck: false
+  Status: in-use
+  SubnetId: subnet-06da21a4c8d209643
+  TagSet: []
+  VpcId: vpc-0e8d78d562c500d57
+...
+

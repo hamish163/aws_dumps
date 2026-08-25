@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: bnb_mbx_dev_vizzy_config_batch_ingest_iam
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/bnb_mbx_dev_vizzy_config_batch_ingest_iam
+  AttachmentCount: 1
+  CreateDate: 2024-07-30 13:19:24+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN56UXQGWHQF
+  PolicyName: bnb_mbx_dev_vizzy_config_batch_ingest_iam
+  UpdateDate: 2024-07-30 13:30:32+00:00
+...
+

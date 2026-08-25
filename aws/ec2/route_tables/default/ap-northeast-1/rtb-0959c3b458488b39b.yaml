@@ -1,0 +1,78 @@
+---
+datatype: aws.ec2.route_tables
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rtb-0959c3b458488b39b
+specifics:
+  Associations:
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-08a2986ba07dde1e7
+    RouteTableId: rtb-0959c3b458488b39b
+    SubnetId: subnet-01c4c6e011db110e8
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-0f81acf13cba65fc1
+    RouteTableId: rtb-0959c3b458488b39b
+    SubnetId: subnet-06876eaba3d338653
+  OwnerId: '862793644923'
+  PropagatingVgws: []
+  RouteTableId: rtb-0959c3b458488b39b
+  Routes:
+  - DestinationCidrBlock: 10.140.41.0/24
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-0f6ca8e3a943a0f47
+  - DestinationCidrBlock: 10.21.64.0/19
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-06b496ec50c22c748
+  - DestinationCidrBlock: 172.20.0.0/16
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-018192a6b12ebfe36
+  - DestinationCidrBlock: 172.25.0.0/16
+    GatewayId: local
+    Origin: CreateRouteTable
+    State: active
+  - DestinationCidrBlock: 172.27.0.0/16
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-0fc0d3a50878efc4a
+  - DestinationCidrBlock: 172.28.0.0/16
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-003763f8158319c78
+  - DestinationCidrBlock: 172.29.0.0/16
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-071e042510b9317a9
+  - DestinationCidrBlock: 172.30.0.0/16
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-08fb48516ef8d1fe6
+  - DestinationCidrBlock: 172.31.0.0/16
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-07ddf26e2df21ef0e
+  - DestinationCidrBlock: 10.135.0.0/16
+    Origin: CreateRoute
+    State: blackhole
+    VpcPeeringConnectionId: pcx-00ecd9dcd41bc0625
+  - DestinationCidrBlock: 0.0.0.0/0
+    NatGatewayId: nat-0233fd1e106c06c0f
+    Origin: CreateRoute
+    State: active
+  Tags:
+  - Key: env
+    Value: ap2
+  - Key: Name
+    Value: ap2-bitdj-internal
+  - Key: project
+    Value: bitdj
+  VpcId: vpc-07652e77a8fa0e0c2
+...
+

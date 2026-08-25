@@ -1,0 +1,13 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0e25ccc0ac2e3f81f
+specifics:
+  Description: Allow prometheus dashboard
+  GroupId: sg-0e25ccc0ac2e3f81f
+  GroupName: mbx-testnet-prometheus
+  VpcId: vpc-0beab044be33d1617
+...
+

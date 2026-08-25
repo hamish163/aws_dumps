@@ -1,0 +1,16 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: com.bitdj.tracky/A
+  single_region: true
+specifics:
+  AliasTarget:
+    DNSName: internal-mbx-bnb-prod-tracky-23211862.ap-northeast-1.elb.amazonaws.com.
+    EvaluateTargetHealth: true
+    HostedZoneId: Z14GRHDCWA56QT
+  Name: tracky.bitdj.com.
+  Type: A
+...
+

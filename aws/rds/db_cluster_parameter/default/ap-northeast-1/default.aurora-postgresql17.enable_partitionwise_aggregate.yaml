@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql17.enable_partitionwise_aggregate
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Enables partitionwise aggregation and grouping.
+  IsModifiable: true
+  ParameterName: enable_partitionwise_aggregate
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

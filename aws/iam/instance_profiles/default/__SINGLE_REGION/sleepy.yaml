@@ -1,0 +1,28 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: sleepy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/sleepy
+  CreateDate: 2021-08-10 10:18:41+00:00
+  InstanceProfileId: AIPA4RYUCHN5UWCT65HD2
+  InstanceProfileName: sleepy
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/sleepy
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+      Version: '2012-10-17'
+    CreateDate: 2021-08-10 10:18:39+00:00
+    Path: /
+    RoleId: AROA4RYUCHN546KNXHRSK
+    RoleName: sleepy
+...
+

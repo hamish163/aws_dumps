@@ -1,0 +1,41 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-0e02957a6e6bab356
+specifics:
+  Attachment:
+    AttachTime: 2025-09-03 21:07:54+00:00
+    AttachmentId: eni-attach-0a8268b436ce88715
+    DeleteOnTermination: false
+    DeviceIndex: 1
+    InstanceOwnerId: '747640272230'
+    NetworkCardIndex: 0
+    Status: attached
+  AvailabilityZone: ap-northeast-1c
+  DenyAllIgwTraffic: true
+  Description: RDSNetworkInterface
+  Groups:
+  - GroupId: sg-0993f267fbe52d160
+    GroupName: mbx-bnb-sre-vizzy-neptune
+  InterfaceType: interface
+  Ipv6Addresses: []
+  MacAddress: 0a:49:5b:dd:95:07
+  NetworkInterfaceId: eni-0e02957a6e6bab356
+  OwnerId: '862793644923'
+  PrivateDnsName: ip-10-240-10-222.ap-northeast-1.compute.internal
+  PrivateIpAddress: 10.240.10.222
+  PrivateIpAddresses:
+  - Primary: true
+    PrivateDnsName: ip-10-240-10-222.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.240.10.222
+  RequesterId: '747640272230'
+  RequesterManaged: true
+  SourceDestCheck: true
+  Status: in-use
+  SubnetId: subnet-087722e2881b48d12
+  TagSet: []
+  VpcId: vpc-0ba76150fc7799f94
+...
+

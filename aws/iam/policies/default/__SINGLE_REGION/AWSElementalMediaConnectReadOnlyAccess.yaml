@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSElementalMediaConnectReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSElementalMediaConnectReadOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2025-02-12 20:07:07+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4CLPWBLG6Y
+  PolicyName: AWSElementalMediaConnectReadOnlyAccess
+  UpdateDate: 2026-02-12 17:58:48+00:00
+...
+

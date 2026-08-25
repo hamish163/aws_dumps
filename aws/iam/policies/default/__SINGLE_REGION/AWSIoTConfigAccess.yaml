@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSIoTConfigAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSIoTConfigAccess
+  AttachmentCount: 0
+  CreateDate: 2015-10-27 21:52:07+00:00
+  DefaultVersionId: v9
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIWWGD4LM4EMXNRL7I
+  PolicyName: AWSIoTConfigAccess
+  UpdateDate: 2019-09-27 20:48:00+00:00
+...
+

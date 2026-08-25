@@ -1,0 +1,23 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-demo-common-cluster-pg.temptable_max_mmap
+specifics:
+  AllowedValues: 0-18446744073709551615
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Defines the maximum amount of memory (in bytes) the TempTable storage
+    engine is permitted to allocate from memory-mapped temporary files before it starts
+    storing data to InnoDB internal temporary tables on disk. A setting of 0 disables
+    allocation of memory from memory-mapped temporary files.
+  IsModifiable: true
+  ParameterName: temptable_max_mmap
+  ParameterValue: '1073741824'
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

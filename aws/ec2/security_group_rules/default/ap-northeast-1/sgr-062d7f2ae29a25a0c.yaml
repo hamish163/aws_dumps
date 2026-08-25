@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-062d7f2ae29a25a0c
+specifics:
+  Description: Allow TCP traffic from publicstream SG on port 5483
+  FromPort: 5483
+  GroupId: sg-08f55a26e7f6279e8
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0008c7793a7fc79d3
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-062d7f2ae29a25a0c
+  Tags: []
+  ToPort: 5483
+...
+

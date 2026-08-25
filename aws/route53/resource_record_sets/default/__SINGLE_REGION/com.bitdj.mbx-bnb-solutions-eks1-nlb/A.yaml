@@ -1,0 +1,16 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: com.bitdj.mbx-bnb-solutions-eks1-nlb/A
+  single_region: true
+specifics:
+  AliasTarget:
+    DNSName: mbx-bnb-solutions-eks1-nlb-int-46c1e8000728bf76.elb.ap-northeast-1.amazonaws.com.
+    EvaluateTargetHealth: false
+    HostedZoneId: Z31USIVHYNEOWT
+  Name: mbx-bnb-solutions-eks1-nlb.bitdj.com.
+  Type: A
+...
+

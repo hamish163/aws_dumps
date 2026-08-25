@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSApplicationMigrationConversionServerPolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AWSApplicationMigrationConversionServerPolicy
+  AttachmentCount: 0
+  CreateDate: 2021-04-07 06:48:58+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4OPUSQRTYL
+  PolicyName: AWSApplicationMigrationConversionServerPolicy
+  UpdateDate: 2021-04-07 06:48:58+00:00
+...
+

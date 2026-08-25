@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-klines-cluster-pg.slave-skip-errors
+specifics:
+  AllowedValues: OFF,all,ddl_exist_errors,<integer>
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: list
+  Description: This variable causes the slave SQL thread to continue replication when
+    a statement returns any of the errors listed in the variable value.
+  IsModifiable: true
+  ParameterName: slave-skip-errors
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

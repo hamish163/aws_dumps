@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSGlueConsoleFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSGlueConsoleFullAccess
+  AttachmentCount: 3
+  CreateDate: 2017-08-14 13:37:39+00:00
+  DefaultVersionId: v14
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJNZGDEOD7MISOVSVI
+  PolicyName: AWSGlueConsoleFullAccess
+  UpdateDate: 2023-07-14 14:37:54+00:00
+...
+

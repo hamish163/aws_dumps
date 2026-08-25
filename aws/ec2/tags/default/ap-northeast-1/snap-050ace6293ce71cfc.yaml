@@ -1,0 +1,26 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: snap-050ace6293ce71cfc
+specifics:
+  biz: mbx
+  git_author: Tom L. <234121729+thomas-lll@users.noreply.github.com>
+  git_committer: GitHub <noreply@github.com>
+  git_hash: 3758e351ae04abd36236624fab77b4a3c4a79294
+  git_message: 'Merge pull request #32 from BitDJ/redmine-16606-revert-umask-to-0022
+
+
+    [Redmine-16606] Change UMASK value to 022 (same as AL2)'
+  git_timestamp: '2025-10-16T08:07:58Z'
+  managed: packer
+  project: mbx
+  role: ami-oci-builder
+  source_al2023_kernel: '6.1'
+  source_al2023_version: 2023.9.20251014.0
+  source_ami_id: ami-02b202d0762b80c37
+  source_ami_name: al2023-ami-minimal-2023.9.20251014.0-kernel-6.1-x86_64
+  team: mbx
+...
+

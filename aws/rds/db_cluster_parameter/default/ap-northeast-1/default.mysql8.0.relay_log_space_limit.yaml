@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.relay_log_space_limit
+specifics:
+  AllowedValues: 0,1073741824-18446744073709551615
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: The maximum amount of space to use for each replication channel's relay
+    logs. A value of 0 (the default) means unlimited.
+  IsModifiable: true
+  ParameterName: relay_log_space_limit
+  ParameterValue: '0'
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

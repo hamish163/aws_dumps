@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-trades-cluster-pg-default.max_sort_length
+specifics:
+  AllowedValues: 4-8388608
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: The number of bytes to use when sorting BLOB or TEXT values.
+  IsModifiable: true
+  ParameterName: max_sort_length
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

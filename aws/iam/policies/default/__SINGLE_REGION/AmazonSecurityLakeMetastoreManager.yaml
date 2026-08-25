@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonSecurityLakeMetastoreManager
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AmazonSecurityLakeMetastoreManager
+  AttachmentCount: 0
+  CreateDate: 2024-01-23 15:26:57+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4H76LFAUPQ
+  PolicyName: AmazonSecurityLakeMetastoreManager
+  UpdateDate: 2024-04-01 20:04:24+00:00
+...
+

@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql17.deadlock_timeout
+specifics:
+  AllowedValues: 1-2147483647
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: (ms) Sets the time to wait on a lock before checking for deadlock.
+  IsModifiable: true
+  ParameterName: deadlock_timeout
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

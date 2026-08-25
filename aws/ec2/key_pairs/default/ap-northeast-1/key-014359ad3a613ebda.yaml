@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.key_pairs
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: key-014359ad3a613ebda
+specifics:
+  CreateTime: 2018-01-09 06:33:54+00:00
+  KeyFingerprint: 65:8d:cc:30:56:ba:b6:80:8e:f8:b1:1e:4e:67:cf:4c:f0:d8:65:ce
+  KeyName: matchbox-qa-key
+  KeyPairId: key-014359ad3a613ebda
+  KeyType: rsa
+  Tags: []
+...
+

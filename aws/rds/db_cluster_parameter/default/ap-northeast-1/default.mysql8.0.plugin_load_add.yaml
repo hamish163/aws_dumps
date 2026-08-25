@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.plugin_load_add
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: Plugins to load on startup
+  IsModifiable: false
+  ParameterName: plugin_load_add
+  ParameterValue: semisync_master.so;semisync_slave.so
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

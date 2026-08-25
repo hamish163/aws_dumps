@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-keys-cluster-pg.internal_tmp_disk_storage_engine
+specifics:
+  AllowedValues: MYISAM,INNODB
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: The storage engine for on-disk internal temporary tables
+  IsModifiable: true
+  ParameterName: internal_tmp_disk_storage_engine
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

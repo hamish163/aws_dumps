@@ -1,0 +1,38 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-0e15a548d8856bec6
+specifics:
+  Attachment:
+    AttachmentId: ela-attach-07ebfb8c6a87a3b09
+    DeleteOnTermination: false
+    DeviceIndex: 1
+    InstanceOwnerId: amazon-aws
+    Status: attached
+  AvailabilityZone: ap-northeast-1a
+  Description: S3 Files mount target for fs-0344d4d94526e22d4 (fsmt-09f215c78e8387aad)
+  Groups:
+  - GroupId: sg-03767a1d6c60b31f0
+    GroupName: default
+  InterfaceType: efs
+  Ipv6Addresses: []
+  MacAddress: 06:5d:60:4c:cc:57
+  NetworkInterfaceId: eni-0e15a548d8856bec6
+  OwnerId: '862793644923'
+  PrivateDnsName: ip-10-200-17-166.ap-northeast-1.compute.internal
+  PrivateIpAddress: 10.200.17.166
+  PrivateIpAddresses:
+  - Primary: true
+    PrivateDnsName: ip-10-200-17-166.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.200.17.166
+  RequesterId: '901134347902'
+  RequesterManaged: true
+  SourceDestCheck: true
+  Status: in-use
+  SubnetId: subnet-0f0515dbef43dc104
+  TagSet: []
+  VpcId: vpc-07519eb63f1d932ac
+...
+

@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0949533e08e5f427b
+specifics:
+  CidrIpv4: 10.190.16.0/20
+  Description: Allow salt minion communication from mbx-bnb-uat VPC
+  FromPort: 4505
+  GroupId: sg-03481e07085f86732
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-0949533e08e5f427b
+  Tags: []
+  ToPort: 4506
+...
+

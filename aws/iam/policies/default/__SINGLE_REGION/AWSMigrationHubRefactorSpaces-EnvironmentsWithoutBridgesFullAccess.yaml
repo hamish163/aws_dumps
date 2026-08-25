@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSMigrationHubRefactorSpaces-EnvironmentsWithoutBridgesFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSMigrationHubRefactorSpaces-EnvironmentsWithoutBridgesFullAccess
+  AttachmentCount: 0
+  CreateDate: 2023-04-03 20:09:48+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4G56CGGW2F
+  PolicyName: AWSMigrationHubRefactorSpaces-EnvironmentsWithoutBridgesFullAccess
+  UpdateDate: 2024-04-11 18:16:48+00:00
+...
+

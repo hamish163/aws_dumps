@@ -1,0 +1,138 @@
+---
+datatype: aws.ec2.network_acls
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: acl-0daff6e31451ec133
+specifics:
+  Associations:
+  - NetworkAclAssociationId: aclassoc-0080a36822dc71ae6
+    NetworkAclId: acl-0daff6e31451ec133
+    SubnetId: subnet-0d599351143ac9bac
+  - NetworkAclAssociationId: aclassoc-02b3f41a99a3c3929
+    NetworkAclId: acl-0daff6e31451ec133
+    SubnetId: subnet-00fa2396026290a6f
+  Entries:
+  - CidrBlock: 172.25.128.0/19
+    Egress: true
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 5
+  - CidrBlock: 172.25.128.0/19
+    Egress: false
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 5
+  - CidrBlock: 172.25.160.0/19
+    Egress: true
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 6
+  - CidrBlock: 172.25.160.0/19
+    Egress: false
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 6
+  - CidrBlock: 172.25.64.0/19
+    Egress: true
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 10
+  - CidrBlock: 172.25.64.0/19
+    Egress: false
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 10
+  - CidrBlock: 172.25.96.0/19
+    Egress: true
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 11
+  - CidrBlock: 172.25.96.0/19
+    Egress: false
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 11
+  - CidrBlock: 172.25.32.0/19
+    Egress: true
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 100
+  - CidrBlock: 172.25.0.0/19
+    Egress: false
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 100
+  - CidrBlock: 172.25.0.0/19
+    Egress: true
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 200
+  - CidrBlock: 172.25.32.0/19
+    Egress: false
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 200
+  - CidrBlock: 0.0.0.0/0
+    Egress: true
+    PortRange:
+      From: 0
+      To: 65535
+    Protocol: '6'
+    RuleAction: allow
+    RuleNumber: 1000
+  - CidrBlock: 39.110.202.219/32
+    Egress: false
+    PortRange:
+      From: 3306
+      To: 3306
+    Protocol: '6'
+    RuleAction: allow
+    RuleNumber: 1000
+  - CidrBlock: 182.170.238.86/32
+    Egress: false
+    PortRange:
+      From: 3306
+      To: 3306
+    Protocol: '6'
+    RuleAction: allow
+    RuleNumber: 1001
+  - CidrBlock: 126.72.78.215/32
+    Egress: false
+    PortRange:
+      From: 3306
+      To: 3306
+    Protocol: '6'
+    RuleAction: allow
+    RuleNumber: 2000
+  - CidrBlock: 52.198.87.182/32
+    Egress: false
+    PortRange:
+      From: 3306
+      To: 3306
+    Protocol: '6'
+    RuleAction: allow
+    RuleNumber: 4000
+  - CidrBlock: 0.0.0.0/0
+    Egress: true
+    Protocol: '-1'
+    RuleAction: deny
+    RuleNumber: 32767
+  - CidrBlock: 0.0.0.0/0
+    Egress: false
+    Protocol: '-1'
+    RuleAction: deny
+    RuleNumber: 32767
+  IsDefault: false
+  NetworkAclId: acl-0daff6e31451ec133
+  OwnerId: '862793644923'
+  Tags:
+  - Key: Name
+    Value: ap2-bitdj-backend
+  - Key: env
+    Value: ap2
+  - Key: project
+    Value: bitdj
+  VpcId: vpc-07652e77a8fa0e0c2
+...
+

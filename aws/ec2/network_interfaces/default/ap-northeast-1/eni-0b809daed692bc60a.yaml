@@ -1,0 +1,48 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-0b809daed692bc60a
+specifics:
+  Association:
+    AllocationId: eipalloc-0c73e827e33d1578a
+    AssociationId: eipassoc-0bf68fa5412ab4da6
+    IpOwnerId: '862793644923'
+    PublicDnsName: ec2-13-196-49-192.ap-northeast-1.compute.amazonaws.com
+    PublicIp: 13.196.49.192
+  Attachment:
+    AttachmentId: ela-attach-02492d31801eb737a
+    DeleteOnTermination: false
+    DeviceIndex: 1
+    InstanceOwnerId: amazon-aws
+    Status: attached
+  AvailabilityZone: ap-northeast-1c
+  Description: Interface for NAT Gateway nat-0053fd9cce948910f
+  Groups: []
+  InterfaceType: nat_gateway
+  Ipv6Addresses: []
+  MacAddress: 0a:6f:63:8f:4a:57
+  NetworkInterfaceId: eni-0b809daed692bc60a
+  OwnerId: '862793644923'
+  PrivateDnsName: ip-10-220-18-159.ap-northeast-1.compute.internal
+  PrivateIpAddress: 10.220.18.159
+  PrivateIpAddresses:
+  - Association:
+      AllocationId: eipalloc-0c73e827e33d1578a
+      AssociationId: eipassoc-0bf68fa5412ab4da6
+      IpOwnerId: '862793644923'
+      PublicDnsName: ec2-13-196-49-192.ap-northeast-1.compute.amazonaws.com
+      PublicIp: 13.196.49.192
+    Primary: true
+    PrivateDnsName: ip-10-220-18-159.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.220.18.159
+  RequesterId: '580449023457'
+  RequesterManaged: true
+  SourceDestCheck: false
+  Status: in-use
+  SubnetId: subnet-0ddd3811e8cb13560
+  TagSet: []
+  VpcId: vpc-0f055c381f89cb200
+...
+

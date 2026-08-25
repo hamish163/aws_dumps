@@ -1,0 +1,29 @@
+---
+datatype: aws.elbv2.listeners
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener/app/prod-mbx-portal-mbxvpn-lb/6f0bdd09372016ca/5c5fbf1e062c9bb7
+specifics:
+  Certificates:
+  - CertificateArn: arn:aws:acm:ap-northeast-1:862793644923:certificate/1acebbab-519e-4b9f-b663-514ba5e22d81
+  DefaultActions:
+  - ForwardConfig:
+      TargetGroupStickinessConfig:
+        DurationSeconds: 3600
+        Enabled: false
+      TargetGroups:
+      - TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/prod-portal-mbxvpn-tg/7f21dad0a8a2eaed
+        Weight: 1
+    Order: 1
+    TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/prod-portal-mbxvpn-tg/7f21dad0a8a2eaed
+    Type: forward
+  ListenerArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener/app/prod-mbx-portal-mbxvpn-lb/6f0bdd09372016ca/5c5fbf1e062c9bb7
+  LoadBalancerArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:loadbalancer/app/prod-mbx-portal-mbxvpn-lb/6f0bdd09372016ca
+  MutualAuthentication:
+    Mode: 'off'
+  Port: 443
+  Protocol: HTTPS
+  SslPolicy: ELBSecurityPolicy-2016-08
+...
+

@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: tgw-attach-06108ec0bffbea75c
+specifics:
+  Name: ClientVpnVPC Attachment
+...
+

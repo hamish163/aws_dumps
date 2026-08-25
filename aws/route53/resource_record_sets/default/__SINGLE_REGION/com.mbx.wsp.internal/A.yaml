@@ -1,0 +1,18 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: com.mbx.wsp.internal/A
+  single_region: true
+specifics:
+  Name: internal.wsp.mbx.com.
+  ResourceRecords:
+  - Value: 10.51.242.87
+  - Value: 10.51.240.14
+  - Value: 10.51.242.177
+  - Value: 10.51.240.156
+  TTL: 60
+  Type: A
+...
+

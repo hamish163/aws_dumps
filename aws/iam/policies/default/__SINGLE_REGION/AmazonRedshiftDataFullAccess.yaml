@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonRedshiftDataFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonRedshiftDataFullAccess
+  AttachmentCount: 0
+  CreateDate: 2020-09-09 19:23:55+00:00
+  DefaultVersionId: v5
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4PX5LA5SG6
+  PolicyName: AmazonRedshiftDataFullAccess
+  UpdateDate: 2023-04-07 18:18:32+00:00
+...
+

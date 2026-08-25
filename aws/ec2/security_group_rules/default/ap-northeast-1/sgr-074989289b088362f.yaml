@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-074989289b088362f
+specifics:
+  Description: Allow TCP traffic from prometheus SG on port 9113
+  FromPort: 9113
+  GroupId: sg-07cd947958d3b3d16
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0fa52d7310719edaa
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-074989289b088362f
+  Tags: []
+  ToPort: 9113
+...
+

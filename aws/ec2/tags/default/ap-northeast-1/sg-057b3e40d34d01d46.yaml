@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-057b3e40d34d01d46
+specifics:
+  Name: mbx-bnb-uat-ops
+  biz: mbx
+  mbx_env_name: uat
+  mbx_exchange_name: bnb
+  mbx_secret_store: none
+  team: mbx
+...
+

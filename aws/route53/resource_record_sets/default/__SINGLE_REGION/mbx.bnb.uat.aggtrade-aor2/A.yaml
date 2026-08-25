@@ -1,0 +1,15 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx.bnb.uat.aggtrade-aor2/A
+  single_region: true
+specifics:
+  Name: aggtrade-aor2.uat.bnb.mbx.
+  ResourceRecords:
+  - Value: 10.190.19.191
+  TTL: 300
+  Type: A
+...
+

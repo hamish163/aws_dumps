@@ -1,0 +1,11 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vpce-09fe74139f863f9e8
+specifics:
+  Name: new-vpn-to-keter
+  team: mbx
+...
+

@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.docdb5.0.profiler_threshold_ms
+specifics:
+  AllowedValues: 50-2147483646
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Operations longer than profiler_threshold_ms will be logged
+  IsModifiable: true
+  MinimumEngineVersion: 5.0.0
+  ParameterName: profiler_threshold_ms
+  ParameterValue: '100'
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

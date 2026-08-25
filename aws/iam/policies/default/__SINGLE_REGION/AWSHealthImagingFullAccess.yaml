@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSHealthImagingFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSHealthImagingFullAccess
+  AttachmentCount: 0
+  CreateDate: 2023-07-25 23:39:40+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4EOBD7JPDT
+  PolicyName: AWSHealthImagingFullAccess
+  UpdateDate: 2023-07-25 23:39:40+00:00
+...
+

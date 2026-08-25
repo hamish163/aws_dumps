@@ -1,0 +1,16 @@
+---
+datatype: aws.iam.users
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: test_qa
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/test_qa
+  CreateDate: 2020-03-12 03:16:14+00:00
+  PasswordLastUsed: 2020-03-12 03:16:54+00:00
+  Path: /
+  UserId: AIDA4RYUCHN52PHYHSLMM
+  UserName: test_qa
+...
+

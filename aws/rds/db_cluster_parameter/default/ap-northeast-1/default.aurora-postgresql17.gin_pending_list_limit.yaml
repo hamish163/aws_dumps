@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql17.gin_pending_list_limit
+specifics:
+  AllowedValues: 64-2147483647
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: (kB) Sets the maximum size of the pending list for GIN index.
+  IsModifiable: true
+  ParameterName: gin_pending_list_limit
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

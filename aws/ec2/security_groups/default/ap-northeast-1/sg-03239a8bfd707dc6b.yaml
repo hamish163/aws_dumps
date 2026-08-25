@@ -1,0 +1,26 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-03239a8bfd707dc6b
+specifics:
+  Description: Managed by Terraform
+  GroupId: sg-03239a8bfd707dc6b
+  GroupName: tky-prod-slave-tracky-bitdj.com
+  Tags:
+  - Key: biz
+    Value: mbx
+  - Key: team
+    Value: sre
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: sre-env
+    Value: prod
+  - Key: mbx_env_name
+    Value: prod
+  - Key: Name
+    Value: tky-prod-slave-tracky-bitdj.com
+  VpcId: vpc-03f5d2495fd8d95a3
+...
+

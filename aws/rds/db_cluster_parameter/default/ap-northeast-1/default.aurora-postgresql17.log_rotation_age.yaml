@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql17.log_rotation_age
+specifics:
+  AllowedValues: 10-1440
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: (min) Automatic log file rotation will occur after N minutes.
+  IsModifiable: true
+  ParameterName: log_rotation_age
+  ParameterValue: '60'
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

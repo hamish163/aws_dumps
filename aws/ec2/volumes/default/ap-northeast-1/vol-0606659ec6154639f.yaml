@@ -1,0 +1,42 @@
+---
+datatype: aws.ec2.volumes
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-0606659ec6154639f
+specifics:
+  Attachments:
+  - AttachTime: 2024-10-01 03:09:32+00:00
+    DeleteOnTermination: false
+    Device: /dev/sdh
+    InstanceId: i-0a3b95d4c1903cb03
+    State: attached
+    VolumeId: vol-0606659ec6154639f
+  AvailabilityZone: ap-northeast-1a
+  CreateTime: 2024-10-01 03:09:12.365000+00:00
+  Encrypted: false
+  Iops: 3000
+  MultiAttachEnabled: false
+  Size: 500
+  SnapshotId: ''
+  State: in-use
+  Tags:
+  - Key: mbx_secret_store
+    Value: asm
+  - Key: Name
+    Value: mbx-bnb-uat-prometheus1
+  - Key: mbx_env_name
+    Value: uat
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  - Key: mbx_application_name
+    Value: prometheus
+  Throughput: 125
+  VolumeId: vol-0606659ec6154639f
+  VolumeType: gp3
+...
+

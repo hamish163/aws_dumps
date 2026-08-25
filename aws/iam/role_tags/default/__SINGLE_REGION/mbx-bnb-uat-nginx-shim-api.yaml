@@ -1,0 +1,18 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-uat-nginx-shim-api
+  single_region: true
+specifics:
+  Name: mbx-bnb-uat-nginx-shim-api
+  biz: mbx
+  mbx_clustered_application: 'false'
+  mbx_env_name: uat
+  mbx_env_type: multi-node
+  mbx_exchange_name: bnb
+  mbx_secret_store: asm
+  team: mbx
+...
+

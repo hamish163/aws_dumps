@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-sre-vizzy-lambda-event
+  single_region: true
+specifics:
+  Name: mbx-bnb-sre-vizzy
+  biz: mbx
+  mbx_env_name: sre
+  mbx_exchange_name: bnb
+  team: mbx
+...
+

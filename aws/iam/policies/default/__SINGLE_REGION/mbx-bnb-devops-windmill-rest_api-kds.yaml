@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-devops-windmill-rest_api-kds
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/mbx-bnb-devops-windmill-rest_api-kds
+  AttachmentCount: 1
+  CreateDate: 2025-09-02 07:46:31+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN53ENVSMGL3
+  PolicyName: mbx-bnb-devops-windmill-rest_api-kds
+  UpdateDate: 2025-09-02 07:46:31+00:00
+...
+

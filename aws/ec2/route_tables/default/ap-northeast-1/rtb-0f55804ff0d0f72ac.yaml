@@ -1,0 +1,50 @@
+---
+datatype: aws.ec2.route_tables
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rtb-0f55804ff0d0f72ac
+specifics:
+  Associations:
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-00e8a781e2e55c7c9
+    RouteTableId: rtb-0f55804ff0d0f72ac
+    SubnetId: subnet-0e7c342ba6dce5a82
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-03d561dcecbfa5ab9
+    RouteTableId: rtb-0f55804ff0d0f72ac
+    SubnetId: subnet-053cc34d24e97f1f3
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-077f9a9227793efd8
+    RouteTableId: rtb-0f55804ff0d0f72ac
+    SubnetId: subnet-036c1d164fc3b862c
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-0e2b8932b6b67e4d8
+    RouteTableId: rtb-0f55804ff0d0f72ac
+    SubnetId: subnet-0573188232ca9bc11
+  OwnerId: '862793644923'
+  PropagatingVgws: []
+  RouteTableId: rtb-0f55804ff0d0f72ac
+  Routes:
+  - DestinationCidrBlock: 10.143.0.0/16
+    GatewayId: local
+    Origin: CreateRouteTable
+    State: active
+  - DestinationCidrBlock: 0.0.0.0/0
+    GatewayId: igw-08a350f13edbc7ac9
+    Origin: CreateRoute
+    State: active
+  Tags:
+  - Key: Name
+    Value: saltmaster-vpc-public
+  VpcId: vpc-097095a8b70ef6727
+...
+

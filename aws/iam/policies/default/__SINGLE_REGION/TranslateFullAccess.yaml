@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: TranslateFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/TranslateFullAccess
+  AttachmentCount: 0
+  CreateDate: 2018-11-27 23:36:20+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIAPOAEI2VFQYUK5RY
+  PolicyName: TranslateFullAccess
+  UpdateDate: 2020-01-08 21:22:27+00:00
+...
+

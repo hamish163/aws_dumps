@@ -1,0 +1,54 @@
+---
+datatype: aws.eks.cluster
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-devops-eks1
+specifics:
+  accessConfig:
+    authenticationMode: API_AND_CONFIG_MAP
+  arn: arn:aws:eks:ap-northeast-1:862793644923:cluster/mbx-bnb-devops-eks1
+  certificateAuthority:
+    data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJYzhjbWNBNmNkcDh3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TmpBeE1qQXhNREEzTXpCYUZ3MHpOakF4TVRneE1ERXlNekJhTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUUNiZlZ2MkNDVHc1UmJ6blRENlFsQXdQSDJIWWF6WThiWDEzd2JxQ0lCS0ZQM24xU056ZjFEUEhzeFcKeUdJNXRVVklGM1ErOVZDVEROMFIyZmpPQk5zcGEzNkVlbzNkd3VxblFCTE93YStFUUt3a3lBRzM1dnFOWkpMLwpxL3UxbFNScXN6dUs5QzliSVBwMnlCelY5K0llclN1Q3VBVFllR21SdTF6UnZHS083RDBIZEdmTXFQUU14czlJCldzelpZOUZIWnY5TmxMbHBwSElmNTFBRmlmRGVKNzR2Z0k2Nm0vY0tmTjVKSFhTMDFnWklodTVIMlJtTWVqT2MKSUQzNWgybUhlUU1BRlA2M1hZaFdJMWJBRzB3Z3RhakVnMlRiK2VrbUdvQTJ6amNQay9WSDhjSU1wdWJCQWZzNgp0dENQTmNQU0ZrSFVlOHZtUHN3VEhsNVdWMlZ2QWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJSTVg2S0EzNW9IZHFabzVxZ1Q0WldDOWdMaTd6QVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQndkVVVRUE8vMQpiUi9ETjhkc094Yzd1eUV2RUhwb1BEYlE5c3Z6V0MzWThIU2dVQkErOGVrZGd1V0xuZkFwL3BVdkQ4aSswNDQrCjNRejVUVTY0WENKalcyZWZKYWU0UnFETnRGTFZrUHBrU1lxZGo3anlCQUNsaGI0bWlNMjRWdkxPemhWWWlaZzAKNldhT3J4c0o3Sk9PdHNLYkptSUp5U0ZzdjhIVURwRHBOVGhVNXdja2xub0RteWd6MFBHUU84c1JuUlBsWW1Kcwp3T0lCNlJtMjNadmg3a0ErSDJ3ZG1hWVpQUGVENG1KZWo3bnUwSmpCWEdvQTZmWEsvcjBzM21oMHJnT3ZEcEs5CjEvQlYxMTh2UW1HNUUreDEza3RkNDVRVFRKc3diRHpZeEVZc2Z1SGgrQWpJdlovYzU4M0dxSkdqcEw1YXV4NFIKUU82Uzl5aG9HdFFuCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+  createdAt: 2026-01-20 21:08:08.618000+11:00
+  endpoint: https://EA4297964C408C60BAE45813E3E555E9.gr7.ap-northeast-1.eks.amazonaws.com
+  identity:
+    oidc:
+      issuer: https://oidc.eks.ap-northeast-1.amazonaws.com/id/EA4297964C408C60BAE45813E3E555E9
+  kubernetesNetworkConfig:
+    ipFamily: ipv4
+    serviceIpv4Cidr: 10.1.0.0/16
+  logging:
+    clusterLogging:
+    - enabled: true
+      types:
+      - api
+      - audit
+      - authenticator
+      - controllerManager
+      - scheduler
+  name: mbx-bnb-devops-eks1
+  platformVersion: eks.9
+  resourcesVpcConfig:
+    clusterSecurityGroupId: sg-01e785a092e09c617
+    endpointPrivateAccess: true
+    endpointPublicAccess: false
+    publicAccessCidrs: []
+    securityGroupIds:
+    - sg-05844058fce311685
+    subnetIds:
+    - subnet-0b28dbbbe71d77caa
+    - subnet-0938165f3974597e0
+    vpcId: vpc-07519eb63f1d932ac
+  roleArn: arn:aws:iam::862793644923:role/mbx-bnb-devops-eks1-cluster
+  status: ACTIVE
+  tags:
+    biz: mbx
+    mbx_env_name: devops
+    mbx_exchange_name: bnb
+    mbx_secret_store: none
+    stack_path: bnb/devops/eks1/cluster
+    team: mbx
+  version: '1.36'
+...
+

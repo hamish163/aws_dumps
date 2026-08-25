@@ -1,0 +1,17 @@
+---
+datatype: aws.iam.mfa_devices
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: ilammy
+  single_region: true
+specifics:
+  MFADevices:
+  - EnableDate: 2026-04-24 10:19:08+00:00
+    SerialNumber: arn:aws:iam::862793644923:mfa/work_phone_authenticator
+    UserName: ilammy
+  - EnableDate: 2026-04-24 10:07:39+00:00
+    SerialNumber: arn:aws:iam::862793644923:u2f/user/ilammy/Yubikey-U4UYP4XYBJEURPFKZ5PYASBGTE
+    UserName: ilammy
+...
+

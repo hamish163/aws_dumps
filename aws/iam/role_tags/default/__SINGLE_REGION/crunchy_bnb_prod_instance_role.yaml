@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: crunchy_bnb_prod_instance_role
+  single_region: true
+specifics:
+  app: crunchy
+  biz: mbx
+  env: prod
+  exchange_id: bnb
+  project: crunchy
+  sre-app: crunchy
+  sre-build: crunchy
+  sre-component: crunchy
+  sre-env: prod
+  team: sre
+...
+

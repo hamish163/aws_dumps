@@ -1,0 +1,16 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx.tracky.prod.clickhouse/A
+  single_region: true
+specifics:
+  AliasTarget:
+    DNSName: internal-clickhouse-tracky-1743205647.ap-northeast-1.elb.amazonaws.com.
+    EvaluateTargetHealth: true
+    HostedZoneId: Z14GRHDCWA56QT
+  Name: clickhouse.prod.tracky.mbx.
+  Type: A
+...
+

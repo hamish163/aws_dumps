@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: lithium-regressions-20260727-rw
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/lithium-regressions-20260727-rw
+  AttachmentCount: 1
+  CreateDate: 2026-07-30 20:34:21+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN54UJKXIQJQ
+  PolicyName: lithium-regressions-20260727-rw
+  UpdateDate: 2026-07-30 20:34:21+00:00
+...
+

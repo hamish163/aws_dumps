@@ -1,0 +1,18 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-devops-salt-cluster-pg.search_path
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Sets the schema search order for names that are not schema-qualified.
+  IsModifiable: true
+  ParameterName: search_path
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

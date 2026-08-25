@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0bec27a3101ce4ace
+specifics:
+  Description: Allow TCP traffic from journal-archive SG on port 9090
+  FromPort: 9090
+  GroupId: sg-0c1e14a6f0066176d
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0b3bd8fb20ed3cff5
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0bec27a3101ce4ace
+  Tags: []
+  ToPort: 9090
+...
+

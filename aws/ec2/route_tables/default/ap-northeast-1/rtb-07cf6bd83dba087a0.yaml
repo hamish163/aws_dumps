@@ -1,0 +1,62 @@
+---
+datatype: aws.ec2.route_tables
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rtb-07cf6bd83dba087a0
+specifics:
+  Associations:
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-00bdaa620901eaf46
+    RouteTableId: rtb-07cf6bd83dba087a0
+    SubnetId: subnet-048d566dc7f5a8c17
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-0b65aaf33a2cfbf74
+    RouteTableId: rtb-07cf6bd83dba087a0
+    SubnetId: subnet-0f3fa0906d5a2549b
+  OwnerId: '862793644923'
+  PropagatingVgws: []
+  RouteTableId: rtb-07cf6bd83dba087a0
+  Routes:
+  - DestinationCidrBlock: 172.20.0.0/16
+    GatewayId: local
+    Origin: CreateRouteTable
+    State: active
+  - DestinationCidrBlock: 172.25.0.0/16
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-018192a6b12ebfe36
+  - DestinationCidrBlock: 10.139.0.0/16
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-08d28979b1e5a87e3
+  - DestinationCidrBlock: 10.143.0.0/16
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-065843cbe2336f289
+  - DestinationCidrBlock: 10.0.0.0/8
+    Origin: CreateRoute
+    State: active
+    TransitGatewayId: tgw-094ec8a8749ab72d4
+  - DestinationCidrBlock: 0.0.0.0/0
+    NatGatewayId: nat-0f6a51d7292bac03d
+    Origin: CreateRoute
+    State: active
+  - DestinationPrefixListId: pl-61a54008
+    GatewayId: vpce-06c7ded13e937deea
+    Origin: CreateRoute
+    State: active
+  Tags:
+  - Key: project
+    Value: mbx
+  - Key: env
+    Value: dev
+  - Key: Name
+    Value: core_1a_rt
+  VpcId: vpc-0a7d9bfaa80b951d9
+...
+

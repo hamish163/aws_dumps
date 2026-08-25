@@ -1,0 +1,18 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-aggtrade-aor-cluster-pg.binlog-do-db
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: list
+  Description: Creates a replication filter using the name of a database
+  IsModifiable: true
+  ParameterName: binlog-do-db
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

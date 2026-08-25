@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql11.seq_page_cost
+specifics:
+  AllowedValues: 0-1.79769e+308
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: float
+  Description: Sets the planners estimate of the cost of a sequentially fetched disk
+    page.
+  IsModifiable: true
+  ParameterName: seq_page_cost
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+  - serverless
+...
+

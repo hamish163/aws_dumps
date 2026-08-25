@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-solutions-telegrambot-postgres-cluster-pg.apg_enable_correlated_scalar_index_transform
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Transform the subquery if the correlated column in the inner table
+    has either a simple index, or is the leading column in a composite index.
+  IsModifiable: true
+  MinimumEngineVersion: '17.5'
+  ParameterName: apg_enable_correlated_scalar_index_transform
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

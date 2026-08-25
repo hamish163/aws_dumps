@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev57-mbx-trades-cluster-pgrp.innodb_checksums
+specifics:
+  AllowedValues: '0'
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: boolean
+  Description: InnoDB checksums serve no purpose in Oscar
+  IsModifiable: false
+  ParameterName: innodb_checksums
+  ParameterValue: '0'
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

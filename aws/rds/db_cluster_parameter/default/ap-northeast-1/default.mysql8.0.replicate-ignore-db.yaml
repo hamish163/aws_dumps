@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.replicate-ignore-db
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: list
+  Description: Creates a replication ignore filter using the name of a database
+  IsModifiable: false
+  MinimumEngineVersion: 8.0.17
+  ParameterName: replicate-ignore-db
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

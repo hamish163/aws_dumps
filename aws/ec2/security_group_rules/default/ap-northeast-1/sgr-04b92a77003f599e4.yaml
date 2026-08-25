@@ -1,0 +1,24 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-04b92a77003f599e4
+specifics:
+  Description: clickhouse prometheus exporter, monitor from prod prometheus
+  FromPort: 8100
+  GroupId: sg-08b5f2b18621ff553
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0f84355eac37184a8
+    PeeringStatus: active
+    UserId: '369096419186'
+    VpcId: vpc-03fb06428b00e7768
+    VpcPeeringConnectionId: pcx-0805b5b3852708808
+  SecurityGroupRuleId: sgr-04b92a77003f599e4
+  Tags: []
+  ToPort: 8100
+...
+

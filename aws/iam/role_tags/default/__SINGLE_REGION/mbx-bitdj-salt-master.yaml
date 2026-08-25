@@ -1,0 +1,16 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bitdj-salt-master
+  single_region: true
+specifics:
+  Name: mbx-bitdj-salt-master
+  biz: mbx
+  mbx_env_name: bitdj
+  mbx_exchange_name: bitdj
+  mbx_secret_store: ''
+  team: mbx
+...
+

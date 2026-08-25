@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.key_pairs
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: key-0c8f6c74c580e9bf8
+specifics:
+  CreateTime: 2020-02-29 10:29:04+00:00
+  KeyFingerprint: 08:19:57:35:13:c9:64:df:8d:17:65:ef:0c:a2:93:f6:48:e2:c3:ef
+  KeyName: bitdj-centos-base
+  KeyPairId: key-0c8f6c74c580e9bf8
+  KeyType: rsa
+  Tags: []
+...
+

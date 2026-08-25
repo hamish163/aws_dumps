@@ -1,0 +1,54 @@
+---
+datatype: aws.eks.cluster
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-sre-emu
+specifics:
+  accessConfig:
+    authenticationMode: API_AND_CONFIG_MAP
+  arn: arn:aws:eks:ap-northeast-1:862793644923:cluster/mbx-bnb-sre-emu
+  certificateAuthority:
+    data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJVzd3bXJYNjV3RG93RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TmpBMk1EZ3hNekkxTVRWYUZ3MHpOakEyTURVeE16TXdNVFZhTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUUM3ay9vVUc0Qm4yRHYwZ0RMcW9BYVRqQ2J5clc2b21iUFVUVTdyWXgrd2JvaTRxWlF4T1FmVjVLcWkKcW9HdGxZZmZtcHZrbDZyazE3bXQ1OVpYdGJWV2kzRG1mMGxqODhpeUxabDNocHVXYkpkbjJ2UjI2alIxaXZUbwoydmNqVWpSTWlBMVo1bFFtNDFtQlAwMjlaMUYra1VmQ1h6a0MyY1Rrd082a1ZhY0hFcHhlSGYyMVpFMzY5RzBwCjZVZXFFTEF5cVRDNVRxWDNpYmtvclZLSFdHSGtRSTcyak5RM21ZR2pxSmVMbUpPZGhGNEtvSWZJL3F1MW9EYjUKNjgzWEtGTGNTQ3dkbEdydUZRT2VlckJaZ3o5NEZFT0FoT1RLc2lBNWw3SEJHcDcxc3BZemhSREpzdExZSUVycAo1Y3ZJNlJ1YVNIaGVmMndSeklHbnhYZDlGVGhEQWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJRQ25XZHlOSUZsQmg0Y3BJRzRUb0FzN2JQeFFUQVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQk05Rk0rWXZIMwpXRitkUUhBQ3h3V2EyOEgwT1BPL0hpRHhkUkNUZnhjYnZMYVpFUCtEUWR6bzcrYkNJY3JyUU5uY1lLQVc2QmY0CkpXZHh5ZGVLUE1RY1I4YmRGVExkMVFtN3BSZnF0d0oyM013L1FVem0yc2FkbnVyVm1kaWVSVWpzR3FTbmpKUXkKNU1NTUNGR2JwbXQvNFZKRTJGSzBQVU16WTlKeDBNVkxKbllOV256NzlPSk5sSzdWTks1T3pVY1dWUEU5NUVTSwpoTWc3K2RXRUNmaXVWQTZhdVlxVUZsSG1ZQ1FmNm5jSVdEckZqQVkvVzBVQzY3Q2U1TXNITk5Vd25rYWNWRzY0CnNKWFRMNFJMRS9uNlpDcWpPYVpSSllCYW94WCtZR1krV0Y3TXBRdWY0d1RudkcrZjkreUZaMld4cVo1Q0JrWDYKY2N6bjExRXgvMWpDCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+  createdAt: 2026-06-08 23:25:57.871000+10:00
+  endpoint: https://76EDB5A4BAE529967D6A8E9DE7D5C1C0.gr7.ap-northeast-1.eks.amazonaws.com
+  identity:
+    oidc:
+      issuer: https://oidc.eks.ap-northeast-1.amazonaws.com/id/76EDB5A4BAE529967D6A8E9DE7D5C1C0
+  kubernetesNetworkConfig:
+    ipFamily: ipv4
+    serviceIpv4Cidr: 10.1.0.0/16
+  logging:
+    clusterLogging:
+    - enabled: true
+      types:
+      - api
+      - audit
+      - authenticator
+      - controllerManager
+      - scheduler
+  name: mbx-bnb-sre-emu
+  platformVersion: eks.9
+  resourcesVpcConfig:
+    clusterSecurityGroupId: sg-0c75fc346d9cdc0cf
+    endpointPrivateAccess: true
+    endpointPublicAccess: false
+    publicAccessCidrs: []
+    securityGroupIds:
+    - sg-009df548cfc588704
+    subnetIds:
+    - subnet-056bdbf07fe76a057
+    - subnet-06d37542eac765265
+    vpcId: vpc-0ba76150fc7799f94
+  roleArn: arn:aws:iam::862793644923:role/mbx-bnb-sre-emu-cluster
+  status: ACTIVE
+  tags:
+    biz: mbx
+    mbx_env_name: sre
+    mbx_exchange_name: bnb
+    mbx_secret_store: none
+    stack_path: bnb/sre/eks/emu/cluster
+    team: mbx
+  version: '1.36'
+...
+

@@ -1,0 +1,18 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-08b2a60e4fffb2dac
+specifics:
+  Name: mongo1.chat.bitdj.com
+  aws:cloudformation:logical-id: App1
+  aws:cloudformation:stack-id: arn:aws:cloudformation:ap-northeast-1:862793644923:stack/MbxChat-Mongo-19FEZSTWMJZQR/df250780-de96-11ed-ae5c-06c5754c9893
+  aws:cloudformation:stack-name: MbxChat-Mongo-19FEZSTWMJZQR
+  aws:ec2launchtemplate:id: lt-0bb5970664c20ada2
+  aws:ec2launchtemplate:version: '1'
+  reflect:hostname: mongo1.chat.bitdj.com
+  reflect:parent_stack_name: MbxChat
+  reflect:stack_name: MbxChat-Mongo-19FEZSTWMJZQR
+...
+

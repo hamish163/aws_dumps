@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0fc320d69929d72b5
+specifics:
+  CidrIpv4: 10.21.0.0/16
+  Description: Allow endpoint connection from thanos-query Prod
+  FromPort: 29090
+  GroupId: sg-097601635a6fa0eef
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-0fc320d69929d72b5
+  Tags: []
+  ToPort: 29090
+...
+

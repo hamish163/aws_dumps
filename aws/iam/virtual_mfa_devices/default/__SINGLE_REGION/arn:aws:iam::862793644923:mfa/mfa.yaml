@@ -1,0 +1,11 @@
+---
+datatype: aws.iam.virtual_mfa_devices
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: arn:aws:iam::862793644923:mfa/mfa
+  single_region: true
+specifics:
+  SerialNumber: arn:aws:iam::862793644923:mfa/mfa
+...
+

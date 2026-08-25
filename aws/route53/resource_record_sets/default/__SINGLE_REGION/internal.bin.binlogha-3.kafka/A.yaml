@@ -1,0 +1,16 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: internal.bin.binlogha-3.kafka/A
+  single_region: true
+specifics:
+  AliasTarget:
+    DNSName: vpce-0697c5a1c36bf91f4-4znrx5y8.vpce-svc-0a9307d7c76172523.ap-northeast-1.vpce.amazonaws.com.
+    EvaluateTargetHealth: false
+    HostedZoneId: Z2E726K9Y6RL4W
+  Name: kafka.binlogha-3.bin.internal.
+  Type: A
+...
+

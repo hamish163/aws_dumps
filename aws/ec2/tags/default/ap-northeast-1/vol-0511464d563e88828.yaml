@@ -1,0 +1,16 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-0511464d563e88828
+specifics:
+  Name: mbx-bnb-devops-atlantis1
+  biz: mbx
+  env: devops
+  exchange_id: bnb
+  project: mbx
+  role: atlantis
+  team: mbx
+...
+

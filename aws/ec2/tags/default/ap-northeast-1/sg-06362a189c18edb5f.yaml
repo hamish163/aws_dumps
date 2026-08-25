@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-06362a189c18edb5f
+specifics:
+  Name: mbx-bnb-perf-ws-api-alb
+  biz: mbx
+  mbx_env_name: perf
+  mbx_exchange_name: bnb
+  mbx_secret_store: asm
+  team: mbx
+...
+

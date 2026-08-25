@@ -1,0 +1,13 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: Amazon_EventBridge_Invoke_Event_Bus_917689096
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/service-role/Amazon_EventBridge_Invoke_Event_Bus_917689096
+    PolicyName: Amazon_EventBridge_Invoke_Event_Bus_917689096
+...
+

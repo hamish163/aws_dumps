@@ -1,0 +1,13 @@
+---
+datatype: aws.iam.user_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: kenneth
+  single_region: true
+specifics:
+  mbx_iam: kenneth
+  mbx_team: sre
+  team: mbx
+...
+

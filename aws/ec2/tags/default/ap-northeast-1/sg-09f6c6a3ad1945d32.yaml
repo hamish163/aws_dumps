@@ -1,0 +1,16 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-09f6c6a3ad1945d32
+specifics:
+  Name: mbx-bnb-sre-emu-resolver-inbound
+  biz: mbx
+  mbx_env_name: sre
+  mbx_exchange_name: bnb
+  mbx_secret_store: none
+  stack_path: bnb/sre/eks/emu/extras
+  team: mbx
+...
+

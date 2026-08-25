@@ -1,0 +1,30 @@
+---
+datatype: aws.iam.account_authorization_details
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: alexis
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/alexis
+  AttachedManagedPolicies:
+  - PolicyArn: arn:aws:iam::aws:policy/IAMUserChangePassword
+    PolicyName: IAMUserChangePassword
+  CreateDate: 2018-08-13 03:25:40+00:00
+  GroupList:
+  - mbx_bedrock
+  - qa
+  Path: /
+  Tags:
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  - Key: mbx_iam
+    Value: alexis
+  - Key: mbx_team
+    Value: qa
+  UserId: AIDAIGNCLUPIL4NCCFQ42
+  UserName: alexis
+...
+

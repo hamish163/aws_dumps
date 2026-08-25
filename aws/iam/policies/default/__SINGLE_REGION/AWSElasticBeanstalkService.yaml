@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSElasticBeanstalkService
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkService
+  AttachmentCount: 0
+  CreateDate: 2016-04-11 20:27:23+00:00
+  DefaultVersionId: v17
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJKQ5SN74ZQ4WASXBM
+  PolicyName: AWSElasticBeanstalkService
+  UpdateDate: 2023-05-10 19:29:34+00:00
+...
+

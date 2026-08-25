@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonRoute53DomainsFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonRoute53DomainsFullAccess
+  AttachmentCount: 0
+  CreateDate: 2015-02-06 18:40:56+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIPAFBMIYUILMOKL6G
+  PolicyName: AmazonRoute53DomainsFullAccess
+  UpdateDate: 2015-02-06 18:40:56+00:00
+...
+

@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-02d4019b206d948d9
+specifics:
+  Name: nginx-ingress.mbxtools.bitdj.com
+  env: stage
+  project: mbx
+...
+

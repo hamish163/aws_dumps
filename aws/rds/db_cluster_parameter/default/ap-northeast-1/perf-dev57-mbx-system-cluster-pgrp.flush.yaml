@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev57-mbx-system-cluster-pgrp.flush
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: If ON, the server flushes all changes to disk after each SQL statement.
+  IsModifiable: false
+  ParameterName: flush
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

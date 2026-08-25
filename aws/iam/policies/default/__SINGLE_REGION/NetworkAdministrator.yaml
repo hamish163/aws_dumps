@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: NetworkAdministrator
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/job-function/NetworkAdministrator
+  AttachmentCount: 0
+  CreateDate: 2016-11-10 17:31:35+00:00
+  DefaultVersionId: v16
+  IsAttachable: true
+  Path: /job-function/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJPNMADZFJCVPJVZA2
+  PolicyName: NetworkAdministrator
+  UpdateDate: 2026-07-09 14:42:15+00:00
+...
+

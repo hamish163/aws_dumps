@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonWorkMailMessageFlowFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonWorkMailMessageFlowFullAccess
+  AttachmentCount: 0
+  CreateDate: 2021-02-11 11:08:35+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4ORQUVJL66
+  PolicyName: AmazonWorkMailMessageFlowFullAccess
+  UpdateDate: 2021-02-11 11:08:35+00:00
+...
+

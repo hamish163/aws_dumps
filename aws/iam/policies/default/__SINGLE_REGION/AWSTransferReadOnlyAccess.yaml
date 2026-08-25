@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSTransferReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSTransferReadOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2020-08-27 17:54:51+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4ITRAALBSI
+  PolicyName: AWSTransferReadOnlyAccess
+  UpdateDate: 2020-08-27 17:54:51+00:00
+...
+

@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-keys-db-cluster-pg-80.ssl_session_cache_mode
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Controls whether to enable the session cache in memory on the server
+    side and session-ticket generation by the server.
+  IsModifiable: true
+  MinimumEngineVersion: 8.0.mysql_aurora.3.05.0
+  ParameterName: ssl_session_cache_mode
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

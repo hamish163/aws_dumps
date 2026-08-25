@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSCodeStarNotificationsServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AWSCodeStarNotificationsServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2019-11-05 16:10:21+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4BGRXOB2GH
+  PolicyName: AWSCodeStarNotificationsServiceRolePolicy
+  UpdateDate: 2020-03-19 16:01:55+00:00
+...
+

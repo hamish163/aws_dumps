@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql17.enable_parallel_append
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Enables the planners use of parallel append plans.
+  IsModifiable: true
+  ParameterName: enable_parallel_append
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

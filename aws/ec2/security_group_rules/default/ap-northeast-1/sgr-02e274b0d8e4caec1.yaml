@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-02e274b0d8e4caec1
+specifics:
+  CidrIpv4: 10.12.0.0/16
+  Description: Allow SSH from VPN
+  FromPort: 22
+  GroupId: sg-03481e07085f86732
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-02e274b0d8e4caec1
+  Tags: []
+  ToPort: 22
+...
+

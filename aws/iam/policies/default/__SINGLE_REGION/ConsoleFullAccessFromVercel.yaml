@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: ConsoleFullAccessFromVercel
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/ConsoleFullAccessFromVercel
+  AttachmentCount: 0
+  CreateDate: 2025-12-11 16:49:10+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4CSYHH4JUN
+  PolicyName: ConsoleFullAccessFromVercel
+  UpdateDate: 2026-04-09 18:57:11+00:00
+...
+

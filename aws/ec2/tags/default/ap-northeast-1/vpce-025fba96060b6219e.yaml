@@ -1,0 +1,13 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vpce-025fba96060b6219e
+specifics:
+  Name: prometheus-bnb-prod
+  biz: mbx
+  env: prod
+  team: mbx
+...
+

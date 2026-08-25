@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonMQApiReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonMQApiReadOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2018-12-18 20:31:13+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIKI5JRHKAFHXQJKMO
+  PolicyName: AmazonMQApiReadOnlyAccess
+  UpdateDate: 2018-12-18 20:31:13+00:00
+...
+

@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.groups
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: SRE_TEAM_TAGGING
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:group/SRE_TEAM_TAGGING
+  CreateDate: 2023-10-04 13:58:31+00:00
+  GroupId: AGPA4RYUCHN5YAZ246LPV
+  GroupName: SRE_TEAM_TAGGING
+  Path: /
+...
+

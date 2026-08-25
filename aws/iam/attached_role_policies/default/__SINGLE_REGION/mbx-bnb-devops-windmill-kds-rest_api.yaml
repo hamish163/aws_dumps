@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-devops-windmill-kds-rest_api
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/mbx-bnb-devops-windmill-rest_api-kds
+    PolicyName: mbx-bnb-devops-windmill-rest_api-kds
+  - PolicyArn: arn:aws:iam::aws:policy/AWSLambdaExecute
+    PolicyName: AWSLambdaExecute
+...
+

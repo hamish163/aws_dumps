@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eipalloc-0cefcd2a5c45fc1a6
+specifics:
+  Name: tracky-slave-3
+...
+

@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0e860051a2aff9e81
+specifics:
+  Name: mbx-bnb-prod-tracky-default
+  biz: mbx
+  mbx_env_name: prod
+  mbx_exchange_name: bnb
+  sre-env: prod
+  team: sre
+...
+

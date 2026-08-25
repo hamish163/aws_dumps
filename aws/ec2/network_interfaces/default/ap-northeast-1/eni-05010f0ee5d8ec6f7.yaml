@@ -1,0 +1,41 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-05010f0ee5d8ec6f7
+specifics:
+  Attachment:
+    AttachTime: 2024-12-17 09:51:26+00:00
+    AttachmentId: eni-attach-0e8b4afc6c32db8c6
+    DeleteOnTermination: false
+    DeviceIndex: 1
+    InstanceOwnerId: 049300578640
+    NetworkCardIndex: 0
+    Status: attached
+  AvailabilityZone: ap-northeast-1a
+  DenyAllIgwTraffic: true
+  Description: RDSNetworkInterface
+  Groups:
+  - GroupId: sg-0e035bdb3fb1db2f2
+    GroupName: mbx-bnb-perf-aggtrade-db
+  InterfaceType: interface
+  Ipv6Addresses: []
+  MacAddress: 06:29:d4:d8:6f:8d
+  NetworkInterfaceId: eni-05010f0ee5d8ec6f7
+  OwnerId: '862793644923'
+  PrivateDnsName: ip-10-170-17-248.ap-northeast-1.compute.internal
+  PrivateIpAddress: 10.170.17.248
+  PrivateIpAddresses:
+  - Primary: true
+    PrivateDnsName: ip-10-170-17-248.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.170.17.248
+  RequesterId: 049300578640
+  RequesterManaged: true
+  SourceDestCheck: true
+  Status: in-use
+  SubnetId: subnet-06de5fba9900135d8
+  TagSet: []
+  VpcId: vpc-013930e589c469574
+...
+

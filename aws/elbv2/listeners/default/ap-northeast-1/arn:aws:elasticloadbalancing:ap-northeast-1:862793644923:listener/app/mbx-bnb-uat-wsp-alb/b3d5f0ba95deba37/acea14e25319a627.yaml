@@ -1,0 +1,23 @@
+---
+datatype: aws.elbv2.listeners
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener/app/mbx-bnb-uat-wsp-alb/b3d5f0ba95deba37/acea14e25319a627
+specifics:
+  DefaultActions:
+  - ForwardConfig:
+      TargetGroupStickinessConfig:
+        Enabled: false
+      TargetGroups:
+      - TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-uat-wsp-tg/5354bb78bf77ae92
+        Weight: 1
+    Order: 1
+    TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-uat-wsp-tg/5354bb78bf77ae92
+    Type: forward
+  ListenerArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener/app/mbx-bnb-uat-wsp-alb/b3d5f0ba95deba37/acea14e25319a627
+  LoadBalancerArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:loadbalancer/app/mbx-bnb-uat-wsp-alb/b3d5f0ba95deba37
+  Port: 9080
+  Protocol: HTTP
+...
+

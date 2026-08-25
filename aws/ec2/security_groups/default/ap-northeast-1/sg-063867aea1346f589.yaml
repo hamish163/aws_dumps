@@ -1,0 +1,30 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-063867aea1346f589
+specifics:
+  Description: Security group for memcache
+  GroupId: sg-063867aea1346f589
+  GroupName: mbx-bnb-uat-memcache
+  Tags:
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  - Key: mbx_env_name
+    Value: uat
+  - Key: mbx_env_type
+    Value: multi-node
+  - Key: Name
+    Value: mbx-bnb-uat-memcache
+  - Key: mbx_secret_store
+    Value: asm
+  - Key: mbx_clustered_application
+    Value: 'false'
+  VpcId: vpc-0b3ce57b4c748893b
+...
+

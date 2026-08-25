@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.users
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: lumber
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/lumber
+  CreateDate: 2018-06-13 02:16:37+00:00
+  Path: /
+  UserId: AIDAJLZ2DR56LZ2AJMWBA
+  UserName: lumber
+...
+

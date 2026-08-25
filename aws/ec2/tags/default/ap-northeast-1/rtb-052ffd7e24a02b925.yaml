@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rtb-052ffd7e24a02b925
+specifics:
+  Name: saltmaster_default_route_table
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonMachineLearningManageRealTimeEndpointOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonMachineLearningManageRealTimeEndpointOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2015-04-09 17:32:41+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJJL3PC3VCSVZP6OCI
+  PolicyName: AmazonMachineLearningManageRealTimeEndpointOnlyAccess
+  UpdateDate: 2015-04-09 17:32:41+00:00
+...
+

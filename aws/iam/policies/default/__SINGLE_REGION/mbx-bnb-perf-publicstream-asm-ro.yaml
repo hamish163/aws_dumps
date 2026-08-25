@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-perf-publicstream-asm-ro
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/mbx-bnb-perf-publicstream-asm-ro
+  AttachmentCount: 1
+  CreateDate: 2025-07-18 08:16:58+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5SXWI4P2E5
+  PolicyName: mbx-bnb-perf-publicstream-asm-ro
+  UpdateDate: 2025-07-18 08:16:58+00:00
+...
+

@@ -1,0 +1,13 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0f0e0b13decca11a8
+specifics:
+  Description: risk-team-prod-prv-alb-endpoint
+  GroupId: sg-0f0e0b13decca11a8
+  GroupName: risk-team-prod-prv-alb-endpoint
+  VpcId: vpc-03f5d2495fd8d95a3
+...
+

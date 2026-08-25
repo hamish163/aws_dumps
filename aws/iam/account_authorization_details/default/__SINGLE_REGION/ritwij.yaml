@@ -1,0 +1,37 @@
+---
+datatype: aws.iam.account_authorization_details
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: ritwij
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/ritwij
+  AttachedManagedPolicies: []
+  CreateDate: 2022-07-21 05:26:12+00:00
+  GroupList:
+  - DEVOPS_TEAM_DEPLOYMENT_MGMT
+  - mbx_bedrock
+  - AQUEDUCT_TEAM_REPORTS
+  - DEVOPS_TEAM_INFRA_MGMT
+  - DEVOPS_TEAM_RO
+  - DEVOPS_TEAM_IAM_MGMT
+  - DEVOPS_TEAM
+  - devops
+  - MBX_EVERYONE_TEAM
+  Path: /
+  Tags:
+  - Key: AKIA4RYUCHN5RUFA57FL
+    Value: ritwij_2026
+  - Key: biz
+    Value: mbx
+  - Key: team
+    Value: mbx
+  - Key: mbx_team
+    Value: devops
+  - Key: mbx_iam
+    Value: ritwij
+  UserId: AIDA4RYUCHN5556TFNTG4
+  UserName: ritwij
+...
+

@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-kline-aor-cluster-pg.max_digest_length
+specifics:
+  AllowedValues: 0-1048576
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: The maximum number of bytes available for computing statement digests.
+  IsModifiable: true
+  ParameterName: max_digest_length
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

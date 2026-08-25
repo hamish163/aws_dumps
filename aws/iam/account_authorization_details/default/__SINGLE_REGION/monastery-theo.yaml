@@ -1,0 +1,25 @@
+---
+datatype: aws.iam.account_authorization_details
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: monastery-theo
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/monastery-theo
+  AttachedManagedPolicies: []
+  CreateDate: 2026-08-17 05:39:24+00:00
+  GroupList:
+  - mbx-monastery-aws-group-solutions
+  Path: /
+  Tags:
+  - Key: biz
+    Value: mbx
+  - Key: team
+    Value: mbx
+  - Key: monastery-team
+    Value: solutions
+  UserId: AIDA4RYUCHN5TKH4DXJWR
+  UserName: monastery-theo
+...
+

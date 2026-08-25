@@ -1,0 +1,39 @@
+---
+datatype: aws.iam.account_authorization_details
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: jenkins-build-ci
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/jenkins-build-ci
+  AttachedManagedPolicies: []
+  CreateDate: 2018-07-24 07:03:31+00:00
+  GroupList: []
+  Path: /
+  Tags: []
+  UserId: AIDAJZNWB3IXF7VGSSH4A
+  UserName: jenkins-build-ci
+  UserPolicyList:
+  - PolicyDocument:
+      Statement:
+      - Action:
+        - ecr:List*
+        - ecr:GetDownloadUrlForLayer
+        - ecr:BatchGetImage
+        - ecr:CompleteLayerUpload
+        - ecr:DescribeImages
+        - ecr:GetAuthorizationToken
+        - ecr:DescribeRepositories
+        - ecr:UploadLayerPart
+        - ecr:InitiateLayerUpload
+        - ecr:BatchCheckLayerAvailability
+        - ecr:GetRepositoryPolicy
+        - ecr:PutImage
+        Effect: Allow
+        Resource: '*'
+        Sid: VisualEditor0
+      Version: '2012-10-17'
+    PolicyName: AccessToECR
+...
+

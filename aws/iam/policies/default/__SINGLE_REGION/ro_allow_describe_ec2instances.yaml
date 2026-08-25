@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: ro_allow_describe_ec2instances
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/ro_allow_describe_ec2instances
+  AttachmentCount: 1
+  CreateDate: 2024-02-12 10:54:07+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5W7HWRFOLZ
+  PolicyName: ro_allow_describe_ec2instances
+  UpdateDate: 2024-02-12 10:54:07+00:00
+...
+

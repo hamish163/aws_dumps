@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSServiceRoleForMonitronPolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForMonitronPolicy
+  AttachmentCount: 0
+  CreateDate: 2020-12-02 19:06:08+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4NYRIH2RCH
+  PolicyName: AWSServiceRoleForMonitronPolicy
+  UpdateDate: 2026-01-07 09:34:09+00:00
+...
+

@@ -1,0 +1,15 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx.bnb.sre.emu.a-pool-manager/TXT
+  single_region: true
+specifics:
+  Name: a-pool-manager.emu.sre.bnb.mbx.
+  ResourceRecords:
+  - Value: '"heritage=external-dns,external-dns/owner=mbx-bnb-sre-emu,external-dns/resource=service/emulator-system/pool-manager"'
+  TTL: 300
+  Type: TXT
+...
+

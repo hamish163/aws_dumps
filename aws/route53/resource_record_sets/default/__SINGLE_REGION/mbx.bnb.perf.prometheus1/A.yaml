@@ -1,0 +1,15 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx.bnb.perf.prometheus1/A
+  single_region: true
+specifics:
+  Name: prometheus1.perf.bnb.mbx.
+  ResourceRecords:
+  - Value: 10.170.19.129
+  TTL: 300
+  Type: A
+...
+

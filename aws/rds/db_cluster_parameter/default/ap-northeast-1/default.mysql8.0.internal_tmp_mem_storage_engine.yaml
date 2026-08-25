@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.internal_tmp_mem_storage_engine
+specifics:
+  AllowedValues: TempTable,MEMORY
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: list
+  Description: The default storage engine for in-memory internal temporary tables.
+  IsModifiable: true
+  ParameterName: internal_tmp_mem_storage_engine
+  ParameterValue: TempTable
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

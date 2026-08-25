@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSProtonCodeBuildProvisioningServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AWSProtonCodeBuildProvisioningServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2022-11-09 21:32:06+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4CY5VKNVD7
+  PolicyName: AWSProtonCodeBuildProvisioningServiceRolePolicy
+  UpdateDate: 2023-05-17 16:11:40+00:00
+...
+

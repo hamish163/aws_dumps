@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSPrivateMarketplaceRequests
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSPrivateMarketplaceRequests
+  AttachmentCount: 0
+  CreateDate: 2019-10-28 21:44:03+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4AV6W3DAIW
+  PolicyName: AWSPrivateMarketplaceRequests
+  UpdateDate: 2026-02-12 17:57:10+00:00
+...
+

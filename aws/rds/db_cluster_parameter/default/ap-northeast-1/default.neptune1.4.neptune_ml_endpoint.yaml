@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.neptune1.4.neptune_ml_endpoint
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: Default SageMaker endpoint for Neptune ML feature
+  IsModifiable: true
+  ParameterName: neptune_ml_endpoint
+  ParameterValue: ''
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

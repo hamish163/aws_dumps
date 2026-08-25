@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-trades-cluster-pg.delayed_insert_timeout
+specifics:
+  AllowedValues: 1-31536000
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: How many seconds an INSERT DELAYED handler thread should wait for INSERT
+    statements before terminating.
+  IsModifiable: true
+  ParameterName: delayed_insert_timeout
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

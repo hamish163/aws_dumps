@@ -1,0 +1,17 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-0016b7d8b6b93b8f8
+specifics:
+  Name: tky_prod_tracky_prx1
+  biz: mbx
+  env: prod
+  project: tracky
+  sre-app: tracky
+  sre-component: tracky
+  sre-env: prod
+  team: sre
+...
+

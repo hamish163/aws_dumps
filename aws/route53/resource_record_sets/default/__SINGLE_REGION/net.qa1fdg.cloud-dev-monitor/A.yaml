@@ -1,0 +1,16 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: net.qa1fdg.cloud-dev-monitor/A
+  single_region: true
+specifics:
+  AliasTarget:
+    DNSName: vpce-06fb4b2738bd8f1d7-hl4rubym.vpce-svc-02f1c803a8f98c10d.ap-northeast-1.vpce.amazonaws.com.
+    EvaluateTargetHealth: true
+    HostedZoneId: Z2E726K9Y6RL4W
+  Name: cloud-dev-monitor.qa1fdg.net.
+  Type: A
+...
+

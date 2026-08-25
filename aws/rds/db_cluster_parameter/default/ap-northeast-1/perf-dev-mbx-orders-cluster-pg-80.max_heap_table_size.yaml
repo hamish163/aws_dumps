@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-orders-cluster-pg-80.max_heap_table_size
+specifics:
+  AllowedValues: 16384-1844674407370954752
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Maximum size to which MEMORY tables are allowed to grow.
+  IsModifiable: true
+  ParameterName: max_heap_table_size
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

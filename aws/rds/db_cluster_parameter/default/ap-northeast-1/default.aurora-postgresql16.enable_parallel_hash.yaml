@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql16.enable_parallel_hash
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Enables the planners user of parallel hash plans.
+  IsModifiable: true
+  ParameterName: enable_parallel_hash
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

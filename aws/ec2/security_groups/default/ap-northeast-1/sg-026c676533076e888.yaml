@@ -1,0 +1,13 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-026c676533076e888
+specifics:
+  Description: launch-wizard-16 created 2023-05-23T10:25:35.595Z
+  GroupId: sg-026c676533076e888
+  GroupName: launch-wizard-16
+  VpcId: vpc-097095a8b70ef6727
+...
+

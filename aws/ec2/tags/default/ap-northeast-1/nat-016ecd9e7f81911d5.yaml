@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: nat-016ecd9e7f81911d5
+specifics:
+  Name: saltmaster-vpc-ap-northeast-1a
+...
+

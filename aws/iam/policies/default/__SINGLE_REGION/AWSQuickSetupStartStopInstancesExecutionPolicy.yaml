@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSQuickSetupStartStopInstancesExecutionPolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSQuickSetupStartStopInstancesExecutionPolicy
+  AttachmentCount: 0
+  CreateDate: 2025-08-08 12:04:07+00:00
+  DefaultVersionId: v6
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4GE4A2SUDO
+  PolicyName: AWSQuickSetupStartStopInstancesExecutionPolicy
+  UpdateDate: 2026-02-12 17:57:46+00:00
+...
+

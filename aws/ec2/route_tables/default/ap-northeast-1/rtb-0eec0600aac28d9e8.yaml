@@ -1,0 +1,54 @@
+---
+datatype: aws.ec2.route_tables
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rtb-0eec0600aac28d9e8
+specifics:
+  Associations:
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-018696820c1a66556
+    RouteTableId: rtb-0eec0600aac28d9e8
+    SubnetId: subnet-098cbcb13b26d7281
+  OwnerId: '862793644923'
+  PropagatingVgws: []
+  RouteTableId: rtb-0eec0600aac28d9e8
+  Routes:
+  - DestinationCidrBlock: 172.30.0.0/24
+    GatewayId: local
+    Origin: CreateRouteTable
+    State: active
+  - DestinationCidrBlock: 10.0.0.0/8
+    Origin: CreateRoute
+    State: active
+    TransitGatewayId: tgw-094ec8a8749ab72d4
+  - DestinationCidrBlock: 0.0.0.0/0
+    GatewayId: igw-09b19453019350649
+    Origin: CreateRoute
+    State: active
+  Tags:
+  - Key: Name
+    Value: tungsten-cicd
+  - Key: mbx.managed_by
+    Value: mbx.devops
+  - Key: team
+    Value: mbx
+  - Key: mbx.service
+    Value: tungsten-cicd
+  - Key: aws:cloudformation:stack-id
+    Value: arn:aws:cloudformation:ap-northeast-1:862793644923:stack/tungsten-cicd-base/a15c8df0-d5bf-11ec-9b81-0ed508706001
+  - Key: aws:cloudformation:logical-id
+    Value: PublicRouteTable
+  - Key: aws:cloudformation:stack-name
+    Value: tungsten-cicd-base
+  - Key: mbx.owner
+    Value: devops
+  - Key: project
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  VpcId: vpc-0602642b581cc4039
+...
+

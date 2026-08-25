@@ -1,0 +1,13 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-07dd467af18fd5318
+specifics:
+  Description: Placeholder security group with no access to anything
+  GroupId: sg-07dd467af18fd5318
+  GroupName: mbx-bnb-devops-no-access-placeholder
+  VpcId: vpc-097095a8b70ef6727
+...
+

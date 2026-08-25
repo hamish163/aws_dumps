@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: ami-06d41a9e63f536555
+specifics:
+  Name: mbx-golden-ami-v0.1
+...
+

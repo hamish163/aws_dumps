@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-kline-aor-cluster-pg.replica_pending_jobs_size_max
+specifics:
+  AllowedValues: 1024-18446744073709547520
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: For multithreaded replicas, this option sets the maximum amount of
+    memory (in bytes) available to replica worker queues holding events not yet applied.
+  IsModifiable: true
+  ParameterName: replica_pending_jobs_size_max
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

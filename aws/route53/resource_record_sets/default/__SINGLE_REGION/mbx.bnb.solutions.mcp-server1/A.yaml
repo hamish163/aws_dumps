@@ -1,0 +1,15 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx.bnb.solutions.mcp-server1/A
+  single_region: true
+specifics:
+  Name: mcp-server1.solutions.bnb.mbx.
+  ResourceRecords:
+  - Value: 10.230.3.129
+  TTL: 300
+  Type: A
+...
+

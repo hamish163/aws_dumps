@@ -1,0 +1,17 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-perf-rds-scheduler
+  single_region: true
+specifics:
+  biz: mbx
+  environment: perf
+  exchange_id: bnb
+  managed_by: devops
+  managed_with: terraform
+  project: mbx
+  team: mbx
+...
+

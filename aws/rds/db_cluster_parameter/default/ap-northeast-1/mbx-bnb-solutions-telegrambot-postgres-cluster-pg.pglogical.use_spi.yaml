@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-solutions-telegrambot-postgres-cluster-pg.pglogical.use_spi
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: boolean
+  Description: Use SPI instead of low-level API for applying changes
+  IsModifiable: true
+  ParameterName: pglogical.use_spi
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

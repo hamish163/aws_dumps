@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: CloudWatchInternetMonitorFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/CloudWatchInternetMonitorFullAccess
+  AttachmentCount: 0
+  CreateDate: 2024-10-22 21:02:59+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4N6RFI4MLR
+  PolicyName: CloudWatchInternetMonitorFullAccess
+  UpdateDate: 2024-10-22 21:02:59+00:00
+...
+

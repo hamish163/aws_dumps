@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSDirectConnectReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSDirectConnectReadOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2015-02-06 18:40:08+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAI23HZ27SI6FQMGNQ2
+  PolicyName: AWSDirectConnectReadOnlyAccess
+  UpdateDate: 2020-05-18 18:48:22+00:00
+...
+

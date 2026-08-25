@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-devops-salt-cluster-pg.min_parallel_index_scan_size
+specifics:
+  AllowedValues: 0-715827882
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: (8kB) Sets the minimum amount of index data for a parallel scan.
+  IsModifiable: true
+  ParameterName: min_parallel_index_scan_size
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

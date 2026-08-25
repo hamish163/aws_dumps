@@ -1,0 +1,16 @@
+---
+datatype: aws.iam.users
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: Ninj0r
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/Ninj0r
+  CreateDate: 2020-09-28 09:04:01+00:00
+  PasswordLastUsed: 2025-02-20 15:17:13+00:00
+  Path: /
+  UserId: AIDA4RYUCHN57KQGEWO2O
+  UserName: Ninj0r
+...
+

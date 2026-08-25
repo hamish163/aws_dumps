@@ -1,0 +1,133 @@
+---
+datatype: aws.ec2.instances
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-096167e07d26b01e5
+specifics:
+  AmiLaunchIndex: 0
+  Architecture: arm64
+  BlockDeviceMappings:
+  - DeviceName: /dev/xvda
+    Ebs:
+      AttachTime: 2026-02-16 10:37:56+00:00
+      DeleteOnTermination: true
+      Status: attached
+      VolumeId: vol-0fa1d76d8aaeb9503
+  - DeviceName: /dev/sdf
+    Ebs:
+      AttachTime: 2026-02-16 10:38:35.596000+00:00
+      DeleteOnTermination: false
+      Status: attached
+      VolumeId: vol-0241b458a20ea63f1
+  BootMode: uefi
+  CapacityReservationSpecification:
+    CapacityReservationPreference: open
+  ClientToken: terraform-20260216103754560300000002
+  CpuOptions:
+    CoreCount: 4
+    ThreadsPerCore: 1
+  CurrentInstanceBootMode: uefi
+  EbsOptimized: true
+  EnaSupport: true
+  EnclaveOptions:
+    Enabled: false
+  HibernationOptions:
+    Configured: false
+  Hypervisor: xen
+  IamInstanceProfile:
+    Arn: arn:aws:iam::862793644923:instance-profile/mbx-bnb-devops-redshirts-al2023-graviton
+    Id: AIPA4RYUCHN54A6PQXBWJ
+  ImageId: ami-0dc9a80339092cdb1
+  InstanceId: i-096167e07d26b01e5
+  InstanceType: t4g.xlarge
+  LaunchTime: 2026-02-16 10:37:55+00:00
+  MaintenanceOptions:
+    AutoRecovery: default
+  MetadataOptions:
+    HttpEndpoint: enabled
+    HttpProtocolIpv6: disabled
+    HttpPutResponseHopLimit: 2
+    HttpTokens: required
+    InstanceMetadataTags: enabled
+    State: applied
+  Monitoring:
+    State: disabled
+  NetworkInterfaces:
+  - Attachment:
+      AttachTime: 2026-02-16 10:37:55+00:00
+      AttachmentId: eni-attach-0b93ae9f01bcf7025
+      DeleteOnTermination: true
+      DeviceIndex: 0
+      NetworkCardIndex: 0
+      Status: attached
+    Description: ''
+    Groups:
+    - GroupId: sg-00afc81753ee4fd2d
+      GroupName: mbx-bnb-devops-redshirts-al2023-graviton
+    - GroupId: sg-0dcd16e585060d06c
+      GroupName: mbx-bnb-devops-monitoring
+    - GroupId: sg-0021bf00906cbb632
+      GroupName: mbx-bnb-devops-default
+    InterfaceType: interface
+    Ipv6Addresses: []
+    MacAddress: 06:78:50:4f:1b:d1
+    NetworkInterfaceId: eni-03123be86ccb566ea
+    OwnerId: '862793644923'
+    PrivateDnsName: ip-10-200-19-34.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.200.19.34
+    PrivateIpAddresses:
+    - Primary: true
+      PrivateDnsName: ip-10-200-19-34.ap-northeast-1.compute.internal
+      PrivateIpAddress: 10.200.19.34
+    SourceDestCheck: true
+    Status: in-use
+    SubnetId: subnet-0c188e95cfba03f63
+    VpcId: vpc-07519eb63f1d932ac
+  Placement:
+    AvailabilityZone: ap-northeast-1a
+    GroupName: ''
+    Tenancy: default
+  PlatformDetails: Linux/UNIX
+  PrivateDnsName: ip-10-200-19-34.ap-northeast-1.compute.internal
+  PrivateDnsNameOptions:
+    EnableResourceNameDnsAAAARecord: false
+    EnableResourceNameDnsARecord: false
+    HostnameType: ip-name
+  PrivateIpAddress: 10.200.19.34
+  ProductCodes: []
+  PublicDnsName: ''
+  RootDeviceName: /dev/xvda
+  RootDeviceType: ebs
+  SecurityGroups:
+  - GroupId: sg-00afc81753ee4fd2d
+    GroupName: mbx-bnb-devops-redshirts-al2023-graviton
+  - GroupId: sg-0dcd16e585060d06c
+    GroupName: mbx-bnb-devops-monitoring
+  - GroupId: sg-0021bf00906cbb632
+    GroupName: mbx-bnb-devops-default
+  SourceDestCheck: true
+  State:
+    Code: 16
+    Name: running
+  StateTransitionReason: ''
+  SubnetId: subnet-0c188e95cfba03f63
+  Tags:
+  - Key: Name
+    Value: mbx-bnb-devops-redshirts-al2023-graviton1
+  - Key: biz
+    Value: mbx
+  - Key: mbx_env_name
+    Value: devops
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_host_index
+    Value: '1'
+  - Key: team
+    Value: mbx
+  UsageOperation: RunInstances
+  UsageOperationUpdateTime: 2026-02-16 10:37:55+00:00
+  VirtualizationType: hvm
+  VpcId: vpc-07519eb63f1d932ac
+...
+

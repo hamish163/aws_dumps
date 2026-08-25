@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.innodb_log_write_ahead_size
+specifics:
+  AllowedValues: 512-16384
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: The write-ahead block size for the redo log, in bytes.
+  IsModifiable: true
+  ParameterName: innodb_log_write_ahead_size
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

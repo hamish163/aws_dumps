@@ -1,0 +1,28 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-solutions-prometheus
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/mbx-bnb-solutions-prometheus
+  CreateDate: 2025-03-28 07:51:10+00:00
+  InstanceProfileId: AIPA4RYUCHN5ZNP56GYTS
+  InstanceProfileName: mbx-bnb-solutions-prometheus
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/mbx-bnb-solutions-prometheus
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+      Version: '2012-10-17'
+    CreateDate: 2025-03-28 07:51:09+00:00
+    Path: /
+    RoleId: AROA4RYUCHN5XIR4RIRXU
+    RoleName: mbx-bnb-solutions-prometheus
+...
+

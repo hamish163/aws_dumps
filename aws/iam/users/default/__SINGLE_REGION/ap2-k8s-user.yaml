@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.users
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: ap2-k8s-user
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/ap2-k8s-user
+  CreateDate: 2018-12-21 14:13:29+00:00
+  Path: /
+  UserId: AIDAJYVRAP7O5DUNHWIXQ
+  UserName: ap2-k8s-user
+...
+

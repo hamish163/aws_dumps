@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSSupplyChainFederationAdminAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AWSSupplyChainFederationAdminAccess
+  AttachmentCount: 0
+  CreateDate: 2023-03-01 18:54:25+00:00
+  DefaultVersionId: v10
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4ILSYMTZA7
+  PolicyName: AWSSupplyChainFederationAdminAccess
+  UpdateDate: 2026-08-14 21:07:21+00:00
+...
+

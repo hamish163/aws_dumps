@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: QA_ECR_ACCESS
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/QA_ECR_ACCESS
+  AttachmentCount: 1
+  CreateDate: 2022-02-04 07:17:58+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5R36KHOIMY
+  PolicyName: QA_ECR_ACCESS
+  UpdateDate: 2026-08-04 07:31:40+00:00
+...
+

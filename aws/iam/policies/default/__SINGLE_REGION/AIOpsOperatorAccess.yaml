@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AIOpsOperatorAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AIOpsOperatorAccess
+  AttachmentCount: 0
+  CreateDate: 2024-12-02 23:51:07+00:00
+  DefaultVersionId: v12
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4F7RFA2ZXQ
+  PolicyName: AIOpsOperatorAccess
+  UpdateDate: 2026-02-12 17:57:25+00:00
+...
+

@@ -1,0 +1,13 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0cd86f0a6f3883af5
+specifics:
+  Description: default VPC security group
+  GroupId: sg-0cd86f0a6f3883af5
+  GroupName: default
+  VpcId: vpc-02e50a328c4ab1393
+...
+

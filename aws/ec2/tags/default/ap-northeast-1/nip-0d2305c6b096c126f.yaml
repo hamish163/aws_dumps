@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: nip-0d2305c6b096c126f
+specifics:
+  Name: new-old-vpn-to-new-vpn
+...
+

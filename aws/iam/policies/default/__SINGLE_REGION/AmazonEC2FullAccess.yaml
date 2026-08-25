@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonEC2FullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonEC2FullAccess
+  AttachmentCount: 10
+  CreateDate: 2015-02-06 18:40:15+00:00
+  DefaultVersionId: v5
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAI3VAJF5ZCRZ7MCQE6
+  PolicyName: AmazonEC2FullAccess
+  UpdateDate: 2018-11-27 02:16:56+00:00
+...
+

@@ -1,0 +1,28 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-008a9e3ebbbfa11d8
+specifics:
+  Description: Managed by Terraform
+  GroupId: sg-008a9e3ebbbfa11d8
+  GroupName: mbx-bnb-devops-regifter
+  Tags:
+  - Key: biz
+    Value: mbx
+  - Key: Name
+    Value: mbx-bnb-devops-regifter
+  - Key: team
+    Value: mbx
+  - Key: mbx_application_name
+    Value: mbx-api-regifter
+  - Key: mbx_secret_store
+    Value: none
+  - Key: mbx_env_name
+    Value: devops
+  - Key: mbx_exchange_name
+    Value: bnb
+  VpcId: vpc-07519eb63f1d932ac
+...
+

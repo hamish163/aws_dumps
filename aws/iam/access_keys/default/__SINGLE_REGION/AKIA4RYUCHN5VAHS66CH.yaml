@@ -1,0 +1,14 @@
+---
+datatype: aws.iam.access_keys
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AKIA4RYUCHN5VAHS66CH
+  single_region: true
+specifics:
+  AccessKeyId: AKIA4RYUCHN5VAHS66CH
+  CreateDate: 2026-07-24 09:29:32+00:00
+  Status: Active
+  UserName: al
+...
+

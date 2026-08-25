@@ -1,0 +1,13 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vpc-041f1adf86f81b9e1
+specifics:
+  Name: ProdGatewayVPC Attachment VPC
+  aws:cloudformation:logical-id: VPC
+  aws:cloudformation:stack-id: arn:aws:cloudformation:ap-northeast-1:862793644923:stack/BitdjNetwork-ProdGatewayVPC-1PZSWRWOLEH8E/4abb5a50-6cca-11ee-a1b9-0e55d09e0867
+  aws:cloudformation:stack-name: BitdjNetwork-ProdGatewayVPC-1PZSWRWOLEH8E
+...
+

@@ -1,0 +1,24 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-01f8b4416cab41f3d
+specifics:
+  Description: Security group for wsp ALB
+  GroupId: sg-01f8b4416cab41f3d
+  GroupName: mbx-bnb-uat-wsp-alb
+  Tags:
+  - Key: Name
+    Value: mbx-bnb-uat-wsp-alb
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  - Key: mbx_env_name
+    Value: uat
+  - Key: biz
+    Value: mbx
+  VpcId: vpc-0b3ce57b4c748893b
+...
+

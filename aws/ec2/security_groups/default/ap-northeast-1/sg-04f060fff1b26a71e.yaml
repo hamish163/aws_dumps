@@ -1,0 +1,24 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-04f060fff1b26a71e
+specifics:
+  Description: mbx-bitdj-bitdj-default
+  GroupId: sg-04f060fff1b26a71e
+  GroupName: mbx-bitdj-bitdj-default
+  Tags:
+  - Key: biz
+    Value: mbx
+  - Key: mbx_notes
+    Value: Empty placeholder SG - mandatory for Tofu EC2 Module
+  - Key: team
+    Value: mbx
+  - Key: mbx_env_name
+    Value: bitdj
+  - Key: mbx_exchange_name
+    Value: bitdj
+  VpcId: vpc-097095a8b70ef6727
+...
+

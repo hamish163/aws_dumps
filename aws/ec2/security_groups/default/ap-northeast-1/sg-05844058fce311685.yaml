@@ -1,0 +1,29 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-05844058fce311685
+specifics:
+  Description: Shared security group, applied to the EKS Control Plane and the EKS
+    Worker Nodes.
+  GroupId: sg-05844058fce311685
+  GroupName: mbx-bnb-devops-eks1-shared
+  Tags:
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  - Key: Name
+    Value: mbx-bnb-devops-eks1-shared
+  - Key: mbx_secret_store
+    Value: none
+  - Key: stack_path
+    Value: bnb/devops/eks1/cluster
+  - Key: mbx_env_name
+    Value: devops
+  - Key: mbx_exchange_name
+    Value: bnb
+  VpcId: vpc-07519eb63f1d932ac
+...
+

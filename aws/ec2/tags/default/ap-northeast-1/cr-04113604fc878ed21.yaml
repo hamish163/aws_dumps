@@ -1,0 +1,11 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: cr-04113604fc878ed21
+specifics:
+  aws:ec2capacityreservation:createdBy: AWS Assisted
+  aws:ec2capacityreservation:incrementalRequestedQuantity: '2'
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-devops-jenkins_eks-nodegroup
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/mbx-bnb-devops-jenkins_eks-nodegroup
+  AttachmentCount: 2
+  CreateDate: 2026-01-12 15:43:48+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5VNDLTUNO6
+  PolicyName: mbx-bnb-devops-jenkins_eks-nodegroup
+  UpdateDate: 2026-01-19 15:53:46+00:00
+...
+

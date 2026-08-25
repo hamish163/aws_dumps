@@ -1,0 +1,13 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-055b3ea4ab5eea34a
+specifics:
+  Name: bitdj_prod_vision_stats1_ec2
+  env: prod
+  project: vision
+  team: solutions
+...
+

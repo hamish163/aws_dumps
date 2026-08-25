@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonMachineLearningCreateOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonMachineLearningCreateOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2015-04-09 17:18:09+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJDRUNIC2RYAMAT3CK
+  PolicyName: AmazonMachineLearningCreateOnlyAccess
+  UpdateDate: 2016-06-29 20:55:03+00:00
+...
+

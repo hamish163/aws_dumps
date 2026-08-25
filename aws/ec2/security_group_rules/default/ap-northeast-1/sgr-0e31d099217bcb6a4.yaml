@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0e31d099217bcb6a4
+specifics:
+  Description: Allow TCP traffic from publicstream SG on port 9810
+  FromPort: 9810
+  GroupId: sg-0b3bd8fb20ed3cff5
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-01df7bbea5f68d951
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0e31d099217bcb6a4
+  Tags: []
+  ToPort: 9810
+...
+

@@ -1,0 +1,29 @@
+---
+datatype: aws.ec2.route_tables
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rtb-0e74a20a69a657752
+specifics:
+  Associations:
+  - AssociationState:
+      State: associated
+    Main: true
+    RouteTableAssociationId: rtbassoc-08186e1eaea2010dc
+    RouteTableId: rtb-0e74a20a69a657752
+  OwnerId: '862793644923'
+  PropagatingVgws: []
+  RouteTableId: rtb-0e74a20a69a657752
+  Routes:
+  - DestinationCidrBlock: 10.230.0.0/20
+    GatewayId: local
+    Origin: CreateRouteTable
+    State: active
+  - DestinationCidrBlock: 100.64.0.0/16
+    GatewayId: local
+    Origin: CreateRouteTable
+    State: active
+  Tags: []
+  VpcId: vpc-0218545ff4351ce04
+...
+

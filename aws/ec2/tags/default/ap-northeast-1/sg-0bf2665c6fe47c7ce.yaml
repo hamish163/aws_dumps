@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0bf2665c6fe47c7ce
+specifics:
+  aws:cloudformation:logical-id: VpnSecurityGroup
+  aws:cloudformation:stack-id: arn:aws:cloudformation:ap-northeast-1:862793644923:stack/BitdjNetwork-SplitClientVPN-LN5RWSESLCM5/b8eb7710-b043-11ed-8447-06c4f690c71d
+  aws:cloudformation:stack-name: BitdjNetwork-SplitClientVPN-LN5RWSESLCM5
+...
+

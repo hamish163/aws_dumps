@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: ROSAManageSubscription
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/ROSAManageSubscription
+  AttachmentCount: 0
+  CreateDate: 2022-04-11 20:58:08+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4HMYAT5EMA
+  PolicyName: ROSAManageSubscription
+  UpdateDate: 2023-08-04 19:59:14+00:00
+...
+

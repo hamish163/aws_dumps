@@ -1,0 +1,13 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rtb-09d66428e3c239455
+specifics:
+  Name: DevOpsVPC Main RouteTable
+  aws:cloudformation:logical-id: RouteTable
+  aws:cloudformation:stack-id: arn:aws:cloudformation:ap-northeast-1:862793644923:stack/BitdjNetwork-DevOpsVPC-1X0P4XEMTNI7L/7255fc60-ae83-11ed-8db9-0a9bb1588b87
+  aws:cloudformation:stack-name: BitdjNetwork-DevOpsVPC-1X0P4XEMTNI7L
+...
+

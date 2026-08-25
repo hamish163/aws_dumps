@@ -1,0 +1,23 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-devops-jenkins-dev-master
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/FsxSnapshot
+    PolicyName: FsxSnapshot
+  - PolicyArn: arn:aws:iam::862793644923:policy/FsxSnapshotList
+    PolicyName: FsxSnapshotList
+  - PolicyArn: arn:aws:iam::862793644923:policy/ro-s3-jenkins
+    PolicyName: ro-s3-jenkins
+  - PolicyArn: arn:aws:iam::862793644923:policy/EC2DynamicNodes
+    PolicyName: EC2DynamicNodes
+  - PolicyArn: arn:aws:iam::862793644923:policy/AccessS3Artifacts
+    PolicyName: AccessS3Artifacts
+  - PolicyArn: arn:aws:iam::862793644923:policy/AccessEKS
+    PolicyName: AccessEKS
+...
+

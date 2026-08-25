@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSServiceCatalogAdminFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSServiceCatalogAdminFullAccess
+  AttachmentCount: 0
+  CreateDate: 2018-02-15 17:19:40+00:00
+  DefaultVersionId: v9
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJWLJU4BZ7AQUJSBVM
+  PolicyName: AWSServiceCatalogAdminFullAccess
+  UpdateDate: 2026-08-04 18:12:22+00:00
+...
+

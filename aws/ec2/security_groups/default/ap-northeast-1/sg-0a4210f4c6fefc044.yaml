@@ -1,0 +1,26 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0a4210f4c6fefc044
+specifics:
+  Description: Security group for account rds
+  GroupId: sg-0a4210f4c6fefc044
+  GroupName: mbx-bnb-perf-key-db
+  Tags:
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: biz
+    Value: mbx
+  - Key: Name
+    Value: mbx-bnb-perf-key-db
+  - Key: team
+    Value: mbx
+  - Key: mbx_secret_store
+    Value: asm
+  - Key: mbx_env_name
+    Value: perf
+  VpcId: vpc-013930e589c469574
+...
+

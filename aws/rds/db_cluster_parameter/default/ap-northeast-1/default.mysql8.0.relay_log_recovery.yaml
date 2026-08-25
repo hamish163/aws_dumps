@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.relay_log_recovery
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Enables automatic relay log recovery immediately following server startup.
+  IsModifiable: false
+  ParameterName: relay_log_recovery
+  ParameterValue: '1'
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

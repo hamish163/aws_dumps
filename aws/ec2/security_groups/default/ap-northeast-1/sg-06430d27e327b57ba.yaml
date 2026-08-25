@@ -1,0 +1,30 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-06430d27e327b57ba
+specifics:
+  Description: redmine-dev Security Group
+  GroupId: sg-06430d27e327b57ba
+  GroupName: bnb_devops-sandbox_mbx_redmine-dev
+  Tags:
+  - Key: mbx_clustered_application
+    Value: 'false'
+  - Key: mbx_application_name
+    Value: redmine-dev
+  - Key: team
+    Value: devops
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: Name
+    Value: bnb_devops-sandbox_mbx_redmine-dev_sg
+  - Key: biz
+    Value: mbx
+  - Key: mbx_env_name
+    Value: devops-sandbox
+  - Key: mbx_env_type
+    Value: na
+  VpcId: vpc-097095a8b70ef6727
+...
+

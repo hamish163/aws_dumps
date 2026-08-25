@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql16.authentication_timeout
+specifics:
+  AllowedValues: 1-600
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: (s) Sets the maximum allowed time to complete client authentication.
+  IsModifiable: true
+  ParameterName: authentication_timeout
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

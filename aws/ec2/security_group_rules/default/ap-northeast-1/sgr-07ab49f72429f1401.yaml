@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-07ab49f72429f1401
+specifics:
+  Description: Allow mbx-bnb-solutions-eks1-shared to reach ElastiCache
+  FromPort: 6379
+  GroupId: sg-038c009206f31a395
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-08c86b45efe5da751
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-07ab49f72429f1401
+  Tags: []
+  ToPort: 6379
+...
+

@@ -1,0 +1,23 @@
+---
+datatype: aws.ec2.internet_gateways
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: igw-00d76b0cb9af39c0d
+specifics:
+  Attachments:
+  - State: available
+    VpcId: vpc-001ab708836aeeb75
+  InternetGatewayId: igw-00d76b0cb9af39c0d
+  OwnerId: '862793644923'
+  Tags:
+  - Key: aws:cloudformation:stack-id
+    Value: arn:aws:cloudformation:ap-northeast-1:862793644923:stack/BitdjNetwork-ExitVPC-WC4249ZZPWOY/c3a0fef0-aec2-11ed-83f3-0a7e71c04499
+  - Key: aws:cloudformation:stack-name
+    Value: BitdjNetwork-ExitVPC-WC4249ZZPWOY
+  - Key: aws:cloudformation:logical-id
+    Value: InternetGateway
+  - Key: Name
+    Value: ExitVPC Attachment Internet Gateway
+...
+

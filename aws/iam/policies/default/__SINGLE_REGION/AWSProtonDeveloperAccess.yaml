@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSProtonDeveloperAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSProtonDeveloperAccess
+  AttachmentCount: 0
+  CreateDate: 2021-02-17 19:02:08+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4FWOFPRNSU
+  PolicyName: AWSProtonDeveloperAccess
+  UpdateDate: 2024-06-06 18:26:38+00:00
+...
+

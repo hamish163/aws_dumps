@@ -1,0 +1,15 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx.tracky.prod.zookeeper2/A
+  single_region: true
+specifics:
+  Name: zookeeper2.prod.tracky.mbx.
+  ResourceRecords:
+  - Value: 172.27.38.202
+  TTL: 3600
+  Type: A
+...
+

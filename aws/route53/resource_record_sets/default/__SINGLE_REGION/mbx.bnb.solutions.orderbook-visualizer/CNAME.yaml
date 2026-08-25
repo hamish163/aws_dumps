@@ -1,0 +1,15 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx.bnb.solutions.orderbook-visualizer/CNAME
+  single_region: true
+specifics:
+  Name: orderbook-visualizer.solutions.bnb.mbx.
+  ResourceRecords:
+  - Value: orderbook-visualizer1.solutions.bnb.mbx
+  TTL: 300
+  Type: CNAME
+...
+

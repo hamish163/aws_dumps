@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: snap-015d91a3ba39a782b
+specifics:
+  biz: mbx
+  redmine: redmine.bitdj.com/issues/13247
+  team: mbx
+...
+

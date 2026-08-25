@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: CloudWatchNetworkFlowMonitorServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/CloudWatchNetworkFlowMonitorServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2024-12-01 22:36:07+00:00
+  DefaultVersionId: v6
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4KN3KL52FD
+  PolicyName: CloudWatchNetworkFlowMonitorServiceRolePolicy
+  UpdateDate: 2026-02-12 18:01:39+00:00
+...
+

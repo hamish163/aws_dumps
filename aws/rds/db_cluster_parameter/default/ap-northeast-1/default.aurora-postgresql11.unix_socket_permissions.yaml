@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql11.unix_socket_permissions
+specifics:
+  AllowedValues: 0-511
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: Sets the access permissions of the Unix-domain socket.
+  IsModifiable: false
+  ParameterName: unix_socket_permissions
+  ParameterValue: '0700'
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

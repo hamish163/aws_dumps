@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSCodePipelineFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSCodePipelineFullAccess
+  AttachmentCount: 2
+  CreateDate: 2015-07-09 16:58:07+00:00
+  DefaultVersionId: v10
+  IsAttachable: false
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJP5LH77KSAT2KHQGG
+  PolicyName: AWSCodePipelineFullAccess
+  UpdateDate: 2020-05-21 22:03:13+00:00
+...
+

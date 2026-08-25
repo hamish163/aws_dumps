@@ -1,0 +1,42 @@
+---
+datatype: aws.ec2.volumes
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-0511464d563e88828
+specifics:
+  Attachments:
+  - AttachTime: 2023-03-31 07:58:19+00:00
+    DeleteOnTermination: true
+    Device: /dev/xvda
+    InstanceId: i-09212db836d2fba8e
+    State: attached
+    VolumeId: vol-0511464d563e88828
+  AvailabilityZone: ap-northeast-1a
+  CreateTime: 2023-03-31 07:58:19.429000+00:00
+  Encrypted: false
+  Iops: 3000
+  MultiAttachEnabled: false
+  Size: 200
+  SnapshotId: snap-0a6e7b694c65fa6a7
+  State: in-use
+  Tags:
+  - Key: Name
+    Value: mbx-bnb-devops-atlantis1
+  - Key: exchange_id
+    Value: bnb
+  - Key: team
+    Value: mbx
+  - Key: role
+    Value: atlantis
+  - Key: env
+    Value: devops
+  - Key: project
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  Throughput: 125
+  VolumeId: vol-0511464d563e88828
+  VolumeType: gp3
+...
+

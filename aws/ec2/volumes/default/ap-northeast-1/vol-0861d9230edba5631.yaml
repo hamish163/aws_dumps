@@ -1,0 +1,38 @@
+---
+datatype: aws.ec2.volumes
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-0861d9230edba5631
+specifics:
+  Attachments:
+  - AttachTime: 2024-09-24 10:18:44+00:00
+    DeleteOnTermination: false
+    Device: /dev/sdf
+    InstanceId: i-05f5bdee0746513ef
+    State: attached
+    VolumeId: vol-0861d9230edba5631
+  AvailabilityZone: ap-northeast-1a
+  CreateTime: 2024-09-24 10:18:23.930000+00:00
+  Encrypted: false
+  Iops: 3000
+  MultiAttachEnabled: false
+  Size: 100
+  SnapshotId: ''
+  State: in-use
+  Tags:
+  - Key: team
+    Value: mbx
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_env_name
+    Value: devops
+  - Key: biz
+    Value: mbx
+  - Key: Name
+    Value: mbx-bnb-devops-jenkins-dev-master1
+  Throughput: 125
+  VolumeId: vol-0861d9230edba5631
+  VolumeType: gp3
+...
+

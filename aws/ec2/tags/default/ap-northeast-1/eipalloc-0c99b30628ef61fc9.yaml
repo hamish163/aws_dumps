@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eipalloc-0c99b30628ef61fc9
+specifics:
+  Name: perf_dev_mbx_1d_natgw-eip
+  env: dev
+  project: mbx
+...
+

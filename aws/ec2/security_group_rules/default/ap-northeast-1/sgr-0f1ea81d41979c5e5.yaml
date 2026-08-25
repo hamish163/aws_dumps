@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0f1ea81d41979c5e5
+specifics:
+  Description: allow self inbound tcp 5483
+  FromPort: 5483
+  GroupId: sg-09557bbd9561c1e3b
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-09557bbd9561c1e3b
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0f1ea81d41979c5e5
+  Tags: []
+  ToPort: 5483
+...
+

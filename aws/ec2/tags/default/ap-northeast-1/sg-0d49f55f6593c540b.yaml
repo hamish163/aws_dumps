@@ -1,0 +1,11 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0d49f55f6593c540b
+specifics:
+  KubernetesCluster: ap2.bitdj.com
+  kubernetes.io/cluster/ap2.bitdj.com: owned
+...
+

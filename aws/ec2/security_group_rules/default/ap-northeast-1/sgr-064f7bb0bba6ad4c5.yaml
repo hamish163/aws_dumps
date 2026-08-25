@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-064f7bb0bba6ad4c5
+specifics:
+  Description: Allow Atlantis From VPN
+  FromPort: 4141
+  GroupId: sg-04a67cae74868d986
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0f4af1c792e9fb528
+    VpcId: vpc-0aba11d56d0a3d516
+  SecurityGroupRuleId: sgr-064f7bb0bba6ad4c5
+  Tags: []
+  ToPort: 4141
+...
+

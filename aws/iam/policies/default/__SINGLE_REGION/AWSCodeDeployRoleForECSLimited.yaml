@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSCodeDeployRoleForECSLimited
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSCodeDeployRoleForECSLimited
+  AttachmentCount: 0
+  CreateDate: 2018-11-27 20:42:42+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJ6Z7L2IOXEFFOGD2M
+  PolicyName: AWSCodeDeployRoleForECSLimited
+  UpdateDate: 2019-09-23 22:10:29+00:00
+...
+

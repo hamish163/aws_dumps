@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-perf-spade-system-cluster-pg.low_priority_updates
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: INSERT, UPDATE, DELETE, and LOCK TABLE WRITE wait until no pending
+    SELECT. Affects only storage engines that use only table-level locking (MyISAM,
+    MEMORY, MERGE).
+  IsModifiable: true
+  ParameterName: low_priority_updates
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

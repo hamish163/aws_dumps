@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSBackupServiceRolePolicyForIndexing
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSBackupServiceRolePolicyForIndexing
+  AttachmentCount: 0
+  CreateDate: 2024-12-17 18:37:06+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4LFHUOSAHN
+  PolicyName: AWSBackupServiceRolePolicyForIndexing
+  UpdateDate: 2026-02-12 18:02:44+00:00
+...
+

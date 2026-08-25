@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-perf-key-cluster-pg.binlog_order_commits
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: If this variable is enabled (the default), transactions are committed
+    in the same order they are written to the binary log. If disabled, transactions
+    may be committed in parallel.
+  IsModifiable: true
+  ParameterName: binlog_order_commits
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-devops-common-cluster-pg.sql_generate_invisible_primary_key
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Whether this server adds a generated invisible primary key to any InnoDB
+    table that is created without one.
+  IsModifiable: true
+  MinimumEngineVersion: 8.0.mysql_aurora.3.05.0
+  ParameterName: sql_generate_invisible_primary_key
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

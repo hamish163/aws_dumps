@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: nat-07983beaf0d1ed664
+specifics:
+  Name: perf_dev_mbx_1d_natgw
+  env: dev
+  project: mbx
+...
+

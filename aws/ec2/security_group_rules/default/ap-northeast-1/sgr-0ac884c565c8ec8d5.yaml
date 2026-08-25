@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0ac884c565c8ec8d5
+specifics:
+  Description: Tracky Perf
+  FromPort: 5001
+  GroupId: sg-0cd48f746579d8165
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-095c55ea64a4f1f8b
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0ac884c565c8ec8d5
+  Tags: []
+  ToPort: 5001
+...
+

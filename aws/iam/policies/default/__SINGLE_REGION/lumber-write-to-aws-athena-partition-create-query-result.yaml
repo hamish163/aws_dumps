@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: lumber-write-to-aws-athena-partition-create-query-result
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/lumber-write-to-aws-athena-partition-create-query-result
+  AttachmentCount: 1
+  CreateDate: 2018-08-27 03:42:26+00:00
+  DefaultVersionId: v7
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIJNKJKL7CHAL55NXQ
+  PolicyName: lumber-write-to-aws-athena-partition-create-query-result
+  UpdateDate: 2018-08-27 05:18:07+00:00
+...
+

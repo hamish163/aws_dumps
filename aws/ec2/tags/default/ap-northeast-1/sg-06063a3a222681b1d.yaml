@@ -1,0 +1,16 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-06063a3a222681b1d
+specifics:
+  Name: bnb_prod_mbx_bastion_sg
+  biz: mbx
+  env: prod
+  exchange_id: bnb
+  project: mbx
+  role: bastion
+  team: mbx
+...
+

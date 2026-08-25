@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: ResourceGroupsTaggingAPITagUntagSupportedResources
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/ResourceGroupsTaggingAPITagUntagSupportedResources
+  AttachmentCount: 0
+  CreateDate: 2024-10-11 11:11:14+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4MQKHGY2IF
+  PolicyName: ResourceGroupsTaggingAPITagUntagSupportedResources
+  UpdateDate: 2026-02-12 18:00:08+00:00
+...
+

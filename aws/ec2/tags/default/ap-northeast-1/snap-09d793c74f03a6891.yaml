@@ -1,0 +1,23 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: snap-09d793c74f03a6891
+specifics:
+  biz: mbx
+  git_author: Mike 'Traff' Traffanstead <michael.t@binance.com>
+  git_committer: Mike 'Traff' Traffanstead <michael.t@binance.com>
+  git_hash: 29e5f23540176e3fda554673af479a90b7940cf7
+  git_message: 'fix speeling errors
+
+    '
+  git_timestamp: '2024-09-24T09:01:24Z'
+  managed: packer
+  project: mbx
+  role: ami-oci-builder
+  source_al2023_kernel: '6.1'
+  source_al2023_version: 2023.5.20240916.0
+  team: mbx
+...
+

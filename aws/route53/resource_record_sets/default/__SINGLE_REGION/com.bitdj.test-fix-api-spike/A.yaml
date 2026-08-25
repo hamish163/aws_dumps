@@ -1,0 +1,16 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: com.bitdj.test-fix-api-spike/A
+  single_region: true
+specifics:
+  AliasTarget:
+    DNSName: bnb-perf-mbx-test-fix-api-spike-5904a7d1d38ab5a1.elb.ap-northeast-1.amazonaws.com.
+    EvaluateTargetHealth: true
+    HostedZoneId: Z31USIVHYNEOWT
+  Name: test-fix-api-spike.bitdj.com.
+  Type: A
+...
+

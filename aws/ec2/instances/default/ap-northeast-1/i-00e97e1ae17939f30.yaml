@@ -1,0 +1,129 @@
+---
+datatype: aws.ec2.instances
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-00e97e1ae17939f30
+specifics:
+  AmiLaunchIndex: 0
+  Architecture: x86_64
+  BlockDeviceMappings:
+  - DeviceName: /dev/xvda
+    Ebs:
+      AttachTime: 2023-04-19 11:21:41+00:00
+      DeleteOnTermination: true
+      Status: attached
+      VolumeId: vol-0a71df9bcdcd3eab6
+  CapacityReservationSpecification:
+    CapacityReservationPreference: open
+  ClientToken: MbxCha-App1-ARXKB2776JSW
+  CpuOptions:
+    CoreCount: 2
+    ThreadsPerCore: 1
+  CurrentInstanceBootMode: legacy-bios
+  EbsOptimized: false
+  EnaSupport: true
+  EnclaveOptions:
+    Enabled: false
+  HibernationOptions:
+    Configured: false
+  Hypervisor: xen
+  IamInstanceProfile:
+    Arn: arn:aws:iam::862793644923:instance-profile/MbxChat-Chat-1SMO9IIYF334W-AppProfile-mfBx6lERDnu2
+    Id: AIPA4RYUCHN5ZSXWLSRSE
+  ImageId: ami-0ffac3e16de16665e
+  InstanceId: i-00e97e1ae17939f30
+  InstanceType: t2.medium
+  KeyName: jeff
+  LaunchTime: 2023-04-19 11:21:40+00:00
+  MaintenanceOptions:
+    AutoRecovery: default
+  MetadataOptions:
+    HttpEndpoint: enabled
+    HttpProtocolIpv6: disabled
+    HttpPutResponseHopLimit: 1
+    HttpTokens: optional
+    InstanceMetadataTags: enabled
+    State: applied
+  Monitoring:
+    State: disabled
+  NetworkInterfaces:
+  - Attachment:
+      AttachTime: 2023-04-19 11:21:40+00:00
+      AttachmentId: eni-attach-0e4f4169241a70b83
+      DeleteOnTermination: true
+      DeviceIndex: 0
+      NetworkCardIndex: 0
+      Status: attached
+    Description: ''
+    Groups:
+    - GroupId: sg-0e9272cfdb1ce81be
+      GroupName: MbxChat-SshSecurityGroup-IKAYE1T8KQ3Z
+    - GroupId: sg-004e9b2b55386d472
+      GroupName: MbxChat-Chat-1SMO9IIYF334W-AppSecurityGroup-1WQLQVIA58XII
+    InterfaceType: interface
+    Ipv6Addresses: []
+    MacAddress: 06:e2:c8:a9:09:0b
+    NetworkInterfaceId: eni-0edb53186511ccaa9
+    OwnerId: '862793644923'
+    PrivateDnsName: ip-10-12-4-141.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.12.4.141
+    PrivateIpAddresses:
+    - Primary: true
+      PrivateDnsName: ip-10-12-4-141.ap-northeast-1.compute.internal
+      PrivateIpAddress: 10.12.4.141
+    SourceDestCheck: true
+    Status: in-use
+    SubnetId: subnet-0c18b47dfa558ef99
+    VpcId: vpc-050b727e89fac853e
+  Placement:
+    AvailabilityZone: ap-northeast-1a
+    GroupName: ''
+    Tenancy: default
+  PlatformDetails: Linux/UNIX
+  PrivateDnsName: ip-10-12-4-141.ap-northeast-1.compute.internal
+  PrivateDnsNameOptions:
+    EnableResourceNameDnsAAAARecord: false
+    EnableResourceNameDnsARecord: false
+    HostnameType: ip-name
+  PrivateIpAddress: 10.12.4.141
+  ProductCodes: []
+  PublicDnsName: ''
+  RootDeviceName: /dev/xvda
+  RootDeviceType: ebs
+  SecurityGroups:
+  - GroupId: sg-0e9272cfdb1ce81be
+    GroupName: MbxChat-SshSecurityGroup-IKAYE1T8KQ3Z
+  - GroupId: sg-004e9b2b55386d472
+    GroupName: MbxChat-Chat-1SMO9IIYF334W-AppSecurityGroup-1WQLQVIA58XII
+  SourceDestCheck: true
+  State:
+    Code: 16
+    Name: running
+  StateTransitionReason: ''
+  SubnetId: subnet-0c18b47dfa558ef99
+  Tags:
+  - Key: Name
+    Value: chat1.chat.bitdj.com
+  - Key: aws:cloudformation:logical-id
+    Value: App1
+  - Key: aws:cloudformation:stack-id
+    Value: arn:aws:cloudformation:ap-northeast-1:862793644923:stack/MbxChat-Chat-1SMO9IIYF334W/0676b880-dea4-11ed-a749-0626c85655e5
+  - Key: aws:cloudformation:stack-name
+    Value: MbxChat-Chat-1SMO9IIYF334W
+  - Key: aws:ec2launchtemplate:id
+    Value: lt-00bf97fcd376c3077
+  - Key: aws:ec2launchtemplate:version
+    Value: '1'
+  - Key: reflect:hostname
+    Value: chat1.chat.bitdj.com
+  - Key: reflect:parent_stack_name
+    Value: MbxChat
+  - Key: reflect:stack_name
+    Value: MbxChat-Chat-1SMO9IIYF334W
+  UsageOperation: RunInstances
+  UsageOperationUpdateTime: 2023-04-19 11:21:40+00:00
+  VirtualizationType: hvm
+  VpcId: vpc-050b727e89fac853e
+...
+

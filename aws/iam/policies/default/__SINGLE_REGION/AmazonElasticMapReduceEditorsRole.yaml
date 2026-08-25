@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonElasticMapReduceEditorsRole
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AmazonElasticMapReduceEditorsRole
+  AttachmentCount: 0
+  CreateDate: 2018-11-16 21:55:25+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIBI5CIE6OHUIGLYVG
+  PolicyName: AmazonElasticMapReduceEditorsRole
+  UpdateDate: 2023-02-09 22:39:29+00:00
+...
+

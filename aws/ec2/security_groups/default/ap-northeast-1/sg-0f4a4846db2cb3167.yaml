@@ -1,0 +1,24 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0f4a4846db2cb3167
+specifics:
+  Description: Security group for aquduect monthly report Lambda function
+  GroupId: sg-0f4a4846db2cb3167
+  GroupName: mbx-bnb-devops-aquduect_monthly_reports-lambda
+  Tags:
+  - Key: Name
+    Value: mbx-bnb-devops-aquduect_monthly_reports-lambda
+  - Key: mbx_env_name
+    Value: devops
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: biz
+    Value: mbx
+  - Key: team
+    Value: mbx
+  VpcId: vpc-07519eb63f1d932ac
+...
+

@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bitdj-salt-master
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/ro-s3-jenkins-devops
+    PolicyName: ro-s3-jenkins-devops
+  - PolicyArn: arn:aws:iam::862793644923:policy/mbx-bitdj-salt-master-policy
+    PolicyName: mbx-bitdj-salt-master-policy
+...
+

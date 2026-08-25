@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.launch_templates
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: lt-0bb5970664c20ada2
+specifics:
+  CreateTime: 2023-04-19 09:45:26+00:00
+  CreatedBy: arn:aws:iam::862793644923:user/jeff
+  DefaultVersionNumber: 1
+  LatestVersionNumber: 1
+  LaunchTemplateId: lt-0bb5970664c20ada2
+  LaunchTemplateName: AppLaunchTemplate_pBzH5eOLFVRT
+...
+

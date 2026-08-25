@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: bnb_mbx_dev_vizzy_status_publish_iam
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/bnb_mbx_dev_vizzy_status_publish_iam
+  AttachmentCount: 1
+  CreateDate: 2024-08-30 08:10:13+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5RJ2WAMNXB
+  PolicyName: bnb_mbx_dev_vizzy_status_publish_iam
+  UpdateDate: 2024-08-30 08:10:13+00:00
+...
+

@@ -1,0 +1,15 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx.bnb.perf.fix-api-orderentry11/A
+  single_region: true
+specifics:
+  Name: fix-api-orderentry11.perf.bnb.mbx.
+  ResourceRecords:
+  - Value: 10.170.20.11
+  TTL: 300
+  Type: A
+...
+

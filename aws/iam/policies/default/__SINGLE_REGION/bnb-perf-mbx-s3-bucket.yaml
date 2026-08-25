@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: bnb-perf-mbx-s3-bucket
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/bnb-perf-mbx-s3-bucket
+  AttachmentCount: 1
+  CreateDate: 2022-08-28 15:43:17+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN52BGGV3ODU
+  PolicyName: bnb-perf-mbx-s3-bucket
+  UpdateDate: 2022-08-28 15:46:44+00:00
+...
+

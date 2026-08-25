@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSApplicationMigrationFSxProxyPolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AWSApplicationMigrationFSxProxyPolicy
+  AttachmentCount: 0
+  CreateDate: 2026-05-31 13:12:14+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4NQPHG73TS
+  PolicyName: AWSApplicationMigrationFSxProxyPolicy
+  UpdateDate: 2026-08-09 12:17:24+00:00
+...
+

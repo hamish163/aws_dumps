@@ -1,0 +1,15 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: com.bitdj.mbx.bnb.alerts/CNAME
+  single_region: true
+specifics:
+  Name: alerts.bnb.mbx.bitdj.com.
+  ResourceRecords:
+  - Value: dualstack.bnb-prod-mbx-monitoring-alb-1063078945.ap-northeast-1.elb.amazonaws.com
+  TTL: 300
+  Type: CNAME
+...
+

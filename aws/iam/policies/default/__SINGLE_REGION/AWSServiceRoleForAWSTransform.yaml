@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSServiceRoleForAWSTransform
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForAWSTransform
+  AttachmentCount: 0
+  CreateDate: 2025-05-15 13:37:07+00:00
+  DefaultVersionId: v12
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4MY6VRFQPB
+  PolicyName: AWSServiceRoleForAWSTransform
+  UpdateDate: 2026-02-12 18:03:10+00:00
+...
+

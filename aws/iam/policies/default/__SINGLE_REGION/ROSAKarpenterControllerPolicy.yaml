@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: ROSAKarpenterControllerPolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/ROSAKarpenterControllerPolicy
+  AttachmentCount: 0
+  CreateDate: 2026-07-27 16:42:18+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4B2BQBU263
+  PolicyName: ROSAKarpenterControllerPolicy
+  UpdateDate: 2026-07-27 16:42:18+00:00
+...
+

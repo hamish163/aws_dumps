@@ -1,0 +1,16 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vpce-0a56f6cdd53c2edbc
+specifics:
+  Name: mbx-bnb-solutions-to-sh-kafka-binlogha-2
+  biz: mbx
+  mbx_env_name: solutions
+  mbx_exchange_name: bnb
+  mbx_secret_store: none
+  sh_contact: jack.w@binance.com (Infra-BigData-Tech)
+  team: mbx
+...
+

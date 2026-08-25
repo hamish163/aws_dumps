@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AnthropicSelfHostedEnvironmentAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AnthropicSelfHostedEnvironmentAccess
+  AttachmentCount: 0
+  CreateDate: 2026-06-12 17:12:29+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4N7XFKNX2G
+  PolicyName: AnthropicSelfHostedEnvironmentAccess
+  UpdateDate: 2026-06-12 17:12:29+00:00
+...
+

@@ -1,0 +1,25 @@
+---
+datatype: aws.elbv2.target_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-solutions-eks1-thns
+specifics:
+  HealthCheckEnabled: true
+  HealthCheckIntervalSeconds: 30
+  HealthCheckPort: '10901'
+  HealthCheckProtocol: TCP
+  HealthCheckTimeoutSeconds: 10
+  HealthyThresholdCount: 3
+  IpAddressType: ipv4
+  LoadBalancerArns:
+  - arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:loadbalancer/net/mbx-bnb-solutions-eks1-nlb-int/46c1e8000728bf76
+  Port: 10901
+  Protocol: TCP
+  TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-solutions-eks1-thns/9c36d79266758bc0
+  TargetGroupName: mbx-bnb-solutions-eks1-thns
+  TargetType: ip
+  UnhealthyThresholdCount: 3
+  VpcId: vpc-0218545ff4351ce04
+...
+

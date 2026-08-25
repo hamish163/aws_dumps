@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSResourceAccessManagerFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSResourceAccessManagerFullAccess
+  AttachmentCount: 0
+  CreateDate: 2019-06-04 17:28:22+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4FYRGF63DP
+  PolicyName: AWSResourceAccessManagerFullAccess
+  UpdateDate: 2019-06-04 17:28:22+00:00
+...
+

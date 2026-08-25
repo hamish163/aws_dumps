@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql16.pgaudit.log_relation
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Specifies whether session audit logging should create a separate log
+    entry for each relation (TABLE, VIEW, etc.) referenced in a SELECT or DML statement.
+  IsModifiable: true
+  ParameterName: pgaudit.log_relation
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

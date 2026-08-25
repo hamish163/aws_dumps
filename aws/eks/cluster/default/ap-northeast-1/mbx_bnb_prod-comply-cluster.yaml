@@ -1,0 +1,58 @@
+---
+datatype: aws.eks.cluster
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx_bnb_prod-comply-cluster
+specifics:
+  accessConfig:
+    authenticationMode: API_AND_CONFIG_MAP
+  arn: arn:aws:eks:ap-northeast-1:862793644923:cluster/mbx_bnb_prod-comply-cluster
+  certificateAuthority:
+    data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJU2FtelNuc1lybjR3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TkRBMU1qZ3hNek15TURoYUZ3MHpOREExTWpZeE16TTNNRGhhTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUUNpZ1NQN1grYlJ0UGg2WWE4aGQyeS9RdnVGN0JIejVoeU8zVXhLL3VkaGxNeXRYYUlGcXBNTGFrOTEKYm9zaDlFYmxlTHpzSTJZR1BsWjJ0WUh3VTBwaGtOaHJ2U1FUbmVYVTJZRVVDOTRlRVh3VkhWZGNWSk1pZEJycgo3RWg4ZlBtMlBqT0svcUF3MVV3ZzZGRlcxcUpVTmg0QUY1SElPNUpkejBJMml1UzNQWFUrL0lrQkduc2RiQjlwCm1UN1ZZS0puZFRxTzdTNVROMkNFUFh1amdkYWZNekk2VWlEU3g2ZDlHS0IxckFYTEI3ZE1wTzhsaDJLN055WUwKK1hGR0IrWTY3bkdubzloNjBXNkpuV3dnVUgzNVAvc28yM2UwV3Y2cGtPdU41SXRHUG5HMk5kb0k4djhwM2JKaQpVVENPbXJJTVcyK3RPd0Y1MUpCWVVDWm9hOC8xQWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJRaDlieCtSWEVXYzI2MmRJSkpQSEtOT0Q0MHVEQVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQXQweWUyUS9XQQo0MjhNTFBSUGVOWGNiQlA1dUJPMDRXWnhWWmdzTlQwcEJYMTRKaitRK2M1U2V1NTJPbXltMjVDRWNRN3VyQWhGCk0xTmtmcnlRUUdKV0tjcFBpZFB5RE1sYWRpQnZNVFJtdkhJYk12cE8waUQ5MDFWdkVuM1puMDJ0bkJ1S05FYVYKYjFLdDdxVnA5SDUwVy9lWkFGZTZhcVQySVpPUnp2WW45YzNmV1gzWlMxN3IrcHhWa3V0bXg4b0wwc0t3VmcvTAowZjlwNzUvbXYwV3E5YnU2Rm9pWm8zYngwVGQwbHo5c2d5MWdXSHhWVGM5SkNkdHRKbUw1Z3NiSnFEa1hxNjNvCnNYUVBtNXYxQzdBVjM4M1hGWHNpNkdOWHU4c0pEQ0JVa1BIZ1B2YjhYc2IxL3hzamhrOGhGVnpVQnBZclNBdVUKNUdZdzhkcnA1R0ZTCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+  createdAt: 2024-05-28 23:32:24.245000+10:00
+  endpoint: https://068C14FB4F3339496027A9B08F0BC628.gr7.ap-northeast-1.eks.amazonaws.com
+  identity:
+    oidc:
+      issuer: https://oidc.eks.ap-northeast-1.amazonaws.com/id/068C14FB4F3339496027A9B08F0BC628
+  kubernetesNetworkConfig:
+    ipFamily: ipv4
+    serviceIpv4Cidr: 10.1.0.0/16
+  logging:
+    clusterLogging:
+    - enabled: true
+      types:
+      - api
+      - audit
+      - authenticator
+      - controllerManager
+      - scheduler
+  name: mbx_bnb_prod-comply-cluster
+  platformVersion: eks.20
+  resourcesVpcConfig:
+    clusterSecurityGroupId: sg-090bdd59fc94633b4
+    endpointPrivateAccess: true
+    endpointPublicAccess: false
+    publicAccessCidrs:
+    - 52.193.107.150/32
+    securityGroupIds:
+    - sg-02242eedea0f96004
+    subnetIds:
+    - subnet-0d92f19d082a3909e
+    - subnet-0899be7b94796ea56
+    vpcId: vpc-03f5d2495fd8d95a3
+  roleArn: arn:aws:iam::862793644923:role/mbx.bnb.prod.comply.cluster
+  status: ACTIVE
+  tags:
+    biz: mbx
+    mbx_application_name: comply
+    mbx_env_name: prod
+    mbx_exchange_name: bnb
+    mbx_secret_store: asm
+    project: comply
+    sre-app: comply
+    sre-env: prod
+    team: sre
+  version: '1.35'
+...
+

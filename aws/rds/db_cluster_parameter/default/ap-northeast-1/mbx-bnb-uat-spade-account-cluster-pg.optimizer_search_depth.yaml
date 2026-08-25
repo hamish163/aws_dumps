@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-spade-account-cluster-pg.optimizer_search_depth
+specifics:
+  AllowedValues: 0-62
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: The maximum depth of search performed by the query optimizer.
+  IsModifiable: true
+  ParameterName: optimizer_search_depth
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

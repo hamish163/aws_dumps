@@ -1,0 +1,13 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-093f281554e2abbd5
+specifics:
+  Name: bitdj_saltmaster1_ec2
+  env: prod
+  project: saltstack
+  team: mbx
+...
+

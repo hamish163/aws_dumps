@@ -1,0 +1,25 @@
+---
+datatype: aws.elbv2.target_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-devops-jnks-thns
+specifics:
+  HealthCheckEnabled: true
+  HealthCheckIntervalSeconds: 30
+  HealthCheckPort: traffic-port
+  HealthCheckProtocol: TCP
+  HealthCheckTimeoutSeconds: 10
+  HealthyThresholdCount: 5
+  IpAddressType: ipv4
+  LoadBalancerArns:
+  - arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:loadbalancer/net/mbx-bnb-devops-jenkins-eks-thns/bcfa870060bf8f3e
+  Port: 30901
+  Protocol: TCP
+  TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-devops-jnks-thns/5e83d3c692672249
+  TargetGroupName: mbx-bnb-devops-jnks-thns
+  TargetType: instance
+  UnhealthyThresholdCount: 2
+  VpcId: vpc-07519eb63f1d932ac
+...
+

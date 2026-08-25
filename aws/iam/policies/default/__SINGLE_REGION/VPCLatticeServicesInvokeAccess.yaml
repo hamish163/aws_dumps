@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: VPCLatticeServicesInvokeAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/VPCLatticeServicesInvokeAccess
+  AttachmentCount: 0
+  CreateDate: 2023-03-30 02:45:07+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4DDCUC4YGR
+  PolicyName: VPCLatticeServicesInvokeAccess
+  UpdateDate: 2023-03-30 02:45:07+00:00
+...
+

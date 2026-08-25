@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql16.db_user_namespace
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Enables per-database user names.
+  IsModifiable: false
+  ParameterName: db_user_namespace
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

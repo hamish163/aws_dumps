@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-spade-account-cluster-pg.aurora_ml_inference_timeout
+specifics:
+  AllowedValues: 3000-30000
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Sagemaker/Bedrock request timeout value in milliseconds.
+  IsModifiable: true
+  MinimumEngineVersion: 8.0.mysql_aurora.3.06.0
+  ParameterName: aurora_ml_inference_timeout
+  ParameterValue: '3000'
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-devops-salt-cluster-pg.aws_s3.stream_stall_timeout
+specifics:
+  AllowedValues: -1-3600
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Sets the timeout in seconds for detecting stalled S3 streams (-1 =
+    SDK default, 0 = no timeout, >0 = custom timeout)
+  IsModifiable: true
+  MinimumEngineVersion: '17.9'
+  ParameterName: aws_s3.stream_stall_timeout
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

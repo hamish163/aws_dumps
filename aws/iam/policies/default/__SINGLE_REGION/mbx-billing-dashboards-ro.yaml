@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-billing-dashboards-ro
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/mbx-billing-dashboards-ro
+  AttachmentCount: 2
+  CreateDate: 2026-05-12 10:17:41+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5UAI7XFXMW
+  PolicyName: mbx-billing-dashboards-ro
+  UpdateDate: 2026-05-12 10:17:41+00:00
+...
+

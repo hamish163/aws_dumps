@@ -1,0 +1,28 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0bd1b44f4f5657eb5
+specifics:
+  Description: Managed by Terraform
+  GroupId: sg-0bd1b44f4f5657eb5
+  GroupName: mbx-bnb-devops-spade-cache
+  Tags:
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  - Key: mbx_secret_store
+    Value: asm
+  - Key: Name
+    Value: mbx-bnb-devops-spade-cache
+  - Key: mbx_application_name
+    Value: mbx-data-spade-cache
+  - Key: mbx_env_name
+    Value: devops
+  - Key: mbx_exchange_name
+    Value: bnb
+  VpcId: vpc-07519eb63f1d932ac
+...
+

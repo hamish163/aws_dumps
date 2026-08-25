@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eipalloc-02d65b793e4bfec43
+specifics:
+  Name: vpn_bitdj_mbx_eip
+  env: bitdj
+  project: mbx
+...
+

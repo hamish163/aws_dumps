@@ -1,0 +1,17 @@
+---
+datatype: aws.route53.hosted_zones
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: qa1dfg.net.
+  single_region: true
+specifics:
+  CallerReference: d571e534-c341-4dc7-825b-526cab74dd15
+  Config:
+    Comment: hosted zone for qa1dfg.net to MBX hub
+    PrivateZone: true
+  Id: /hostedzone/Z03467492L7M3ICFJHNJD
+  Name: qa1dfg.net.
+  ResourceRecordSetCount: 4
+...
+

@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: tgw-attach-0a9f0b4064668d149
+specifics:
+  Name: SolutionVPC
+...
+

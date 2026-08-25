@@ -1,0 +1,94 @@
+---
+datatype: aws.iam.account_authorization_details
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: alex.tanti
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/alex.tanti
+  AttachedManagedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/mbx-billing-dashboards-ro
+    PolicyName: mbx-billing-dashboards-ro
+  - PolicyArn: arn:aws:iam::862793644923:policy/temporary-create-role
+    PolicyName: temporary-create-role
+  - PolicyArn: arn:aws:iam::aws:policy/AWSCodePipelineFullAccess
+    PolicyName: AWSCodePipelineFullAccess
+  CreateDate: 2022-10-03 06:37:04+00:00
+  GroupList:
+  - SRE_TEAM
+  - mbx_bedrock
+  - SOLUTIONS_TEAM
+  - SRE_TEAM_TAGGING
+  Path: /
+  Tags:
+  - Key: biz
+    Value: mbx
+  - Key: mbx_iam
+    Value: alex.tanti
+  - Key: mbx_team
+    Value: sre
+  - Key: team
+    Value: mbx
+  UserId: AIDA4RYUCHN52YKYRM5KZ
+  UserName: alex.tanti
+  UserPolicyList:
+  - PolicyDocument:
+      Statement:
+      - Action:
+        - cur:GetClassicReportPreferences
+        - cur:GetClassicReport
+        - cur:ValidateReportDestination
+        - cur:GetUsageReport
+        - cur:DescribeReportDefinitions
+        - ce:UntagResource
+        - ce:GetCostAndUsage
+        - ce:GetReservationPurchaseRecommendation
+        - ce:GetPreferences
+        - ce:ListSavingsPlansPurchaseRecommendationGeneration
+        - ce:ListTagsForResource
+        - ce:GetReservationUtilization
+        - ce:GetCostCategories
+        - ce:GetSavingsPlansPurchaseRecommendation
+        - ce:GetSavingsPlansUtilizationDetails
+        - ce:GetDimensionValues
+        - ce:GetAnomalySubscriptions
+        - ce:DescribeReport
+        - ce:GetReservationCoverage
+        - ce:GetAnomalyMonitors
+        - ce:GetUsageForecast
+        - ce:DescribeNotificationSubscription
+        - ce:DescribeCostCategoryDefinition
+        - ce:GetRightsizingRecommendation
+        - ce:GetSavingsPlansUtilization
+        - ce:GetAnomalies
+        - ce:ListCostCategoryDefinitions
+        - ce:GetCostForecast
+        - ce:TagResource
+        - ce:GetCostAndUsageWithResources
+        - ce:ListCostAllocationTags
+        - ce:GetSavingsPlansCoverage
+        - ce:GetConsoleActionSetEnforced
+        - ce:GetTags
+        - aws-portal:View*
+        Effect: Allow
+        Resource: '*'
+        Sid: VisualEditor0
+      Version: '2012-10-17'
+    PolicyName: cost-explorer-report
+  - PolicyDocument:
+      Statement:
+      - Action:
+        - lambda:UpdateEventSourceMapping
+        - lambda:UpdateFunctionConfiguration
+        - lambda:CreateEventSourceMapping
+        Condition:
+          StringEquals:
+            aws:ResourceTag/team: sre
+        Effect: Allow
+        Resource: '*'
+        Sid: VisualEditor0
+      Version: '2012-10-17'
+    PolicyName: team-sre-lambda-resources-allow-edit
+...
+

@@ -1,0 +1,29 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: smacky_bnb_prod_instance_profile
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/smacky_bnb_prod_instance_profile
+  CreateDate: 2023-02-09 08:51:43+00:00
+  InstanceProfileId: AIPA4RYUCHN5WNUSMMG7E
+  InstanceProfileName: smacky_bnb_prod_instance_profile
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/smacky_bnb_prod_instance_role
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+        Sid: ''
+      Version: '2012-10-17'
+    CreateDate: 2023-02-09 08:51:42+00:00
+    Path: /
+    RoleId: AROA4RYUCHN527VWDMTMV
+    RoleName: smacky_bnb_prod_instance_role
+...
+

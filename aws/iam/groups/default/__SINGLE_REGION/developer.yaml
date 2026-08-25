@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.groups
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: developer
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:group/developer
+  CreateDate: 2019-05-20 04:22:18+00:00
+  GroupId: AGPA4RYUCHN52ZSTCR44T
+  GroupName: developer
+  Path: /
+...
+

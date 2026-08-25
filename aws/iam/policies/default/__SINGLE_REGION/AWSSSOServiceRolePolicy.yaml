@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSSSOServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AWSSSOServiceRolePolicy
+  AttachmentCount: 1
+  CreateDate: 2017-12-05 18:36:15+00:00
+  DefaultVersionId: v18
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIJ52KSWOD4GI54XP2
+  PolicyName: AWSSSOServiceRolePolicy
+  UpdateDate: 2025-02-11 18:37:06+00:00
+...
+

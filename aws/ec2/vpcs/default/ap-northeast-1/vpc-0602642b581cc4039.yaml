@@ -1,0 +1,42 @@
+---
+datatype: aws.ec2.vpcs
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vpc-0602642b581cc4039
+specifics:
+  CidrBlock: 172.30.0.0/24
+  CidrBlockAssociationSet:
+  - AssociationId: vpc-cidr-assoc-0daa5a31f307cc045
+    CidrBlock: 172.30.0.0/24
+    CidrBlockState:
+      State: associated
+  DhcpOptionsId: dopt-6f8f960d
+  InstanceTenancy: default
+  IsDefault: false
+  OwnerId: '862793644923'
+  State: available
+  Tags:
+  - Key: mbx.owner
+    Value: devops
+  - Key: mbx.managed_by
+    Value: mbx.devops
+  - Key: project
+    Value: mbx
+  - Key: team
+    Value: mbx
+  - Key: mbx.service
+    Value: tungsten-cicd
+  - Key: biz
+    Value: mbx
+  - Key: aws:cloudformation:logical-id
+    Value: VPC
+  - Key: Name
+    Value: tungsten-cicd
+  - Key: aws:cloudformation:stack-id
+    Value: arn:aws:cloudformation:ap-northeast-1:862793644923:stack/tungsten-cicd-base/a15c8df0-d5bf-11ec-9b81-0ed508706001
+  - Key: aws:cloudformation:stack-name
+    Value: tungsten-cicd-base
+  VpcId: vpc-0602642b581cc4039
+...
+

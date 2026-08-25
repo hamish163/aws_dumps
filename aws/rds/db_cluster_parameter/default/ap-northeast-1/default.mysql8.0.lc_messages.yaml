@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.lc_messages
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: ' '
+  IsModifiable: false
+  ParameterName: lc_messages
+  ParameterValue: en_US
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

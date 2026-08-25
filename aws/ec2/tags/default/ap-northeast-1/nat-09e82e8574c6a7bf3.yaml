@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: nat-09e82e8574c6a7bf3
+specifics:
+  Name: tky_stage_mbx_natgw
+  env: stage
+  project: mbx
+...
+

@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-devops-salt-cluster-pg.temp_buffers
+specifics:
+  AllowedValues: 100-1073741823
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: (8kB) Sets the maximum number of temporary buffers used by each session.
+  IsModifiable: true
+  ParameterName: temp_buffers
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

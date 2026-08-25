@@ -1,0 +1,16 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-00cd390703b2d0870
+specifics:
+  Description: Managed by Terraform
+  GroupId: sg-00cd390703b2d0870
+  GroupName: tky-test-slave-tracky-bitdj.com
+  Tags:
+  - Key: Name
+    Value: tky-test-slave-tracky-bitdj.com
+  VpcId: vpc-03f5d2495fd8d95a3
+...
+

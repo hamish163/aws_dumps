@@ -1,0 +1,28 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: test-goofys-ec2
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/test-goofys-ec2
+  CreateDate: 2022-09-30 02:17:55+00:00
+  InstanceProfileId: AIPA4RYUCHN56FKURBFOY
+  InstanceProfileName: test-goofys-ec2
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/test-goofys-ec2
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+      Version: '2012-10-17'
+    CreateDate: 2022-09-30 02:17:54+00:00
+    Path: /
+    RoleId: AROA4RYUCHN5UZD2OV4HV
+    RoleName: test-goofys-ec2
+...
+

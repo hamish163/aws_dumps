@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.sql_slave_skip_counter
+specifics:
+  AllowedValues: None-None
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: ' '
+  IsModifiable: false
+  ParameterName: sql_slave_skip_counter
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

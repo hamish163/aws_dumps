@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: SecurityLakeServiceLinkedRole
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/SecurityLakeServiceLinkedRole
+  AttachmentCount: 0
+  CreateDate: 2022-11-29 14:03:33+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4CY4TAEDJQ
+  PolicyName: SecurityLakeServiceLinkedRole
+  UpdateDate: 2026-07-15 17:57:16+00:00
+...
+

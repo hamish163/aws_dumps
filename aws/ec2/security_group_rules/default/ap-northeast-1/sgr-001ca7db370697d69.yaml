@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-001ca7db370697d69
+specifics:
+  Description: Allow TCP traffic from prometheus SG on port 8080
+  FromPort: 8080
+  GroupId: sg-069d6c89488785327
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0fa52d7310719edaa
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-001ca7db370697d69
+  Tags: []
+  ToPort: 8080
+...
+

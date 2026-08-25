@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: GlueServiceRole_Vision
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/bnb-mbx-vision-logs-restricted_s3-glue-policy
+    PolicyName: bnb-mbx-vision-logs-restricted_s3-glue-policy
+  - PolicyArn: arn:aws:iam::aws:policy/service-role/AWSGlueServiceRole
+    PolicyName: AWSGlueServiceRole
+...
+

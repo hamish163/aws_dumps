@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-spade-trade-cluster-pg.max_prepared_stmt_count
+specifics:
+  AllowedValues: 0-4194304
+  ApplyMethod: immediate
+  ApplyType: dynamic
+  DataType: integer
+  Description: Used if the potential for denial-of-service attacks based on running
+    the server out of memory by preparing huge numbers of statements.
+  IsModifiable: true
+  ParameterName: max_prepared_stmt_count
+  ParameterValue: '262144'
+  Source: user
+  SupportedEngineModes:
+  - provisioned
+...
+

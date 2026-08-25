@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSHealth_EventProcessorServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AWSHealth_EventProcessorServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2023-01-13 19:24:56+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4BVDKRWPHJ
+  PolicyName: AWSHealth_EventProcessorServiceRolePolicy
+  UpdateDate: 2023-01-13 19:24:56+00:00
+...
+

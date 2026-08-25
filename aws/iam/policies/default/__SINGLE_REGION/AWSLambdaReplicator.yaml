@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSLambdaReplicator
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AWSLambdaReplicator
+  AttachmentCount: 1
+  CreateDate: 2017-05-23 17:53:03+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIIQFXZNNLL3E2HKTG
+  PolicyName: AWSLambdaReplicator
+  UpdateDate: 2017-12-08 00:17:54+00:00
+...
+

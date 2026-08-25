@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0d6c7a8742aadbf73
+specifics:
+  biz: mbx
+  mbx_env_name: devops
+  mbx_exchange_name: bnb
+  mbx_secret_store: none
+  mbx_tf_stack: /bnb/devops/mcp_server/elasticache
+  team: mbx
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AlexaForBusinessLifesizeDelegatedAccessPolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AlexaForBusinessLifesizeDelegatedAccessPolicy
+  AttachmentCount: 0
+  CreateDate: 2020-06-04 19:46:56+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4HXQBRRIQV
+  PolicyName: AlexaForBusinessLifesizeDelegatedAccessPolicy
+  UpdateDate: 2020-06-12 20:31:59+00:00
+...
+

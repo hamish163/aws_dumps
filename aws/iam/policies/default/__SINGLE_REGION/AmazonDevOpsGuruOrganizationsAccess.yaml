@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonDevOpsGuruOrganizationsAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonDevOpsGuruOrganizationsAccess
+  AttachmentCount: 0
+  CreateDate: 2021-11-15 23:50:52+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4M26ELBKR2
+  PolicyName: AmazonDevOpsGuruOrganizationsAccess
+  UpdateDate: 2021-11-15 23:50:52+00:00
+...
+

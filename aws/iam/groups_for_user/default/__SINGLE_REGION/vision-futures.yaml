@@ -1,0 +1,12 @@
+---
+datatype: aws.iam.groups_for_user
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: vision-futures
+  single_region: true
+specifics:
+  Groups: []
+  _UserName: vision-futures
+...
+

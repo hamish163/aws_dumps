@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonAPIGatewayPushToCloudWatchLogs
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AmazonAPIGatewayPushToCloudWatchLogs
+  AttachmentCount: 5
+  CreateDate: 2015-11-11 23:41:46+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIK4GFO7HLKYN64ASK
+  PolicyName: AmazonAPIGatewayPushToCloudWatchLogs
+  UpdateDate: 2015-11-11 23:41:46+00:00
+...
+

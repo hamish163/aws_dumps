@@ -1,0 +1,13 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-sre-emu-AWSLoadBalancerController
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/mbx-bnb-sre-emu-AWSLoadBalancerController
+    PolicyName: mbx-bnb-sre-emu-AWSLoadBalancerController
+...
+

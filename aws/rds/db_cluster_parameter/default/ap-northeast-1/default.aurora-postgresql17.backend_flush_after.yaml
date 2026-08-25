@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql17.backend_flush_after
+specifics:
+  AllowedValues: 0-256
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: (8Kb) Number of pages after which previously performed writes are flushed
+    to disk.
+  IsModifiable: true
+  ParameterName: backend_flush_after
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

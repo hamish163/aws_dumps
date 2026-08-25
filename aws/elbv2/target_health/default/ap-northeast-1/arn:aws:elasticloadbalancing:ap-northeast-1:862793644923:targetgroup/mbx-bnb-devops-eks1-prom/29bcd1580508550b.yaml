@@ -1,0 +1,17 @@
+---
+datatype: aws.elbv2.target_health
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-devops-eks1-prom/29bcd1580508550b
+specifics:
+  TargetHealthDescriptions:
+    100.64.47.132/9090:
+      HealthCheckPort: '9090'
+      Target:
+        AvailabilityZone: ap-northeast-1c
+        Id: 100.64.47.132
+        Port: 9090
+  _arn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-devops-eks1-prom/29bcd1580508550b
+...
+

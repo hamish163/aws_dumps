@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev57-mbx-trades-cluster-pgrp.div_precision_increment
+specifics:
+  AllowedValues: 0-30
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Number of digits by which to increase the scale of the result of division
+    operations.
+  IsModifiable: true
+  ParameterName: div_precision_increment
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

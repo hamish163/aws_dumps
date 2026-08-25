@@ -1,0 +1,13 @@
+---
+datatype: aws.iam.saml_providers
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: arn:aws:iam::862793644923:saml-provider/Provider-nyTYYqbTGMRk
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:saml-provider/Provider-nyTYYqbTGMRk
+  CreateDate: 2023-02-19 07:25:16+00:00
+  ValidUntil: 2123-02-19 07:25:16+00:00
+...
+

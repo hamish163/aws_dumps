@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: snap-039f83837cb92aeac
+specifics:
+  Name: perf_dev_mbx_eng2_ec2_20210304_server
+...
+

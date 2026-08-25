@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonDynamoDBReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonDynamoDBReadOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2015-02-06 18:40:12+00:00
+  DefaultVersionId: v15
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIY2XFNA232XJ6J7X2
+  PolicyName: AmazonDynamoDBReadOnlyAccess
+  UpdateDate: 2024-11-18 17:38:15+00:00
+...
+

@@ -1,0 +1,13 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: aws-ec2-spot-fleet-tagging-role
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::aws:policy/service-role/AmazonEC2SpotFleetTaggingRole
+    PolicyName: AmazonEC2SpotFleetTaggingRole
+...
+

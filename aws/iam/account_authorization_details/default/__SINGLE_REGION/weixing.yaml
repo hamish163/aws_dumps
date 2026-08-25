@@ -1,0 +1,60 @@
+---
+datatype: aws.iam.account_authorization_details
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: weixing
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/weixing
+  AttachedManagedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/mbx-bnb-perf-spade-asm-ro
+    PolicyName: mbx-bnb-perf-spade-asm-ro
+  - PolicyArn: arn:aws:iam::862793644923:policy/AllowQAManageEC2Instance
+    PolicyName: AllowQAManageEC2Instance
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess
+    PolicyName: AmazonEC2ReadOnlyAccess
+  - PolicyArn: arn:aws:iam::aws:policy/ComputeOptimizerReadOnlyAccess
+    PolicyName: ComputeOptimizerReadOnlyAccess
+  CreateDate: 2021-08-10 05:08:28+00:00
+  GroupList:
+  - QA_PERF_TEAM
+  - QA_TEAM
+  - mbx_bedrock
+  - MBX_EVERYONE_TEAM
+  - qa
+  Path: /
+  Tags:
+  - Key: team
+    Value: ''
+  - Key: biz
+    Value: ''
+  - Key: mbx_team
+    Value: qa
+  - Key: mbx_iam
+    Value: weixing
+  UserId: AIDA4RYUCHN5SFPRLJK35
+  UserName: weixing
+  UserPolicyList:
+  - PolicyDocument:
+      Statement:
+      - Action:
+        - '*'
+        Condition:
+          DateLessThan:
+            aws:TokenIssueTime: '2025-04-18T04:49:37.180Z'
+        Effect: Deny
+        Resource:
+        - '*'
+      Version: '2012-10-17'
+    PolicyName: AWSRevokeOlderSessions
+  - PolicyDocument:
+      Statement:
+      - Action: rds:*
+        Effect: Allow
+        Resource: '*'
+        Sid: VisualEditor0
+      Version: '2012-10-17'
+    PolicyName: delete-me-tmp-rds-modification
+...
+

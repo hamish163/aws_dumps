@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: tgw-attach-0ce603aa66b29a8d6
+specifics:
+  Name: MBX-Hub_ DEU-MBXHub
+...
+

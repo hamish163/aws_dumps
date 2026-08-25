@@ -1,0 +1,16 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: net.toolsfdg.transfer/A
+  single_region: true
+specifics:
+  AliasTarget:
+    DNSName: vpce-096043c9ff258ebea-bs0mdurq.vpce-svc-02137bdfeb13ed670.ap-northeast-1.vpce.amazonaws.com.
+    EvaluateTargetHealth: true
+    HostedZoneId: Z2E726K9Y6RL4W
+  Name: transfer.toolsfdg.net.
+  Type: A
+...
+

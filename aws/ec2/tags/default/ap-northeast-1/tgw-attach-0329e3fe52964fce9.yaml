@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: tgw-attach-0329e3fe52964fce9
+specifics:
+  Name: DevOpsVPC Attachment
+...
+

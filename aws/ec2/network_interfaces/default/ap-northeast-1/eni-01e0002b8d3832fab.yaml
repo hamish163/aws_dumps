@@ -1,0 +1,91 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-01e0002b8d3832fab
+specifics:
+  Attachment:
+    AttachTime: 2026-07-09 15:50:07+00:00
+    AttachmentId: eni-attach-0c530fca6e8079141
+    DeleteOnTermination: true
+    DeviceIndex: 2
+    InstanceId: i-0aa46612b6fe1f107
+    InstanceOwnerId: '862793644923'
+    NetworkCardIndex: 0
+    Status: attached
+  AvailabilityZone: ap-northeast-1a
+  Description: aws-K8S-i-0aa46612b6fe1f107
+  Groups:
+  - GroupId: sg-08c86b45efe5da751
+    GroupName: mbx-bnb-solutions-eks1-shared
+  InterfaceType: interface
+  Ipv6Addresses: []
+  MacAddress: 06:21:37:8f:ec:89
+  NetworkInterfaceId: eni-01e0002b8d3832fab
+  OwnerId: '862793644923'
+  PrivateDnsName: ip-100-64-25-98.ap-northeast-1.compute.internal
+  PrivateIpAddress: 100.64.25.98
+  PrivateIpAddresses:
+  - Primary: true
+    PrivateDnsName: ip-100-64-25-98.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.25.98
+  - Primary: false
+    PrivateDnsName: ip-100-64-30-100.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.30.100
+  - Primary: false
+    PrivateDnsName: ip-100-64-19-167.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.19.167
+  - Primary: false
+    PrivateDnsName: ip-100-64-22-199.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.22.199
+  - Primary: false
+    PrivateDnsName: ip-100-64-18-41.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.18.41
+  - Primary: false
+    PrivateDnsName: ip-100-64-25-205.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.25.205
+  - Primary: false
+    PrivateDnsName: ip-100-64-29-46.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.29.46
+  - Primary: false
+    PrivateDnsName: ip-100-64-26-82.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.26.82
+  - Primary: false
+    PrivateDnsName: ip-100-64-21-117.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.21.117
+  - Primary: false
+    PrivateDnsName: ip-100-64-21-87.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.21.87
+  - Primary: false
+    PrivateDnsName: ip-100-64-30-24.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.30.24
+  - Primary: false
+    PrivateDnsName: ip-100-64-30-186.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.30.186
+  - Primary: false
+    PrivateDnsName: ip-100-64-19-186.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.19.186
+  - Primary: false
+    PrivateDnsName: ip-100-64-19-251.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.19.251
+  - Primary: false
+    PrivateDnsName: ip-100-64-16-62.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.16.62
+  RequesterId: AROA4RYUCHN5VU6XEYON5:1783612199275640700
+  RequesterManaged: false
+  SourceDestCheck: true
+  Status: in-use
+  SubnetId: subnet-052e7fa6c92b6078d
+  TagSet:
+  - Key: eks:eni:owner
+    Value: amazon-vpc-cni
+  - Key: node.k8s.amazonaws.com/createdAt
+    Value: '2026-07-09T15:50:05Z'
+  - Key: node.k8s.amazonaws.com/instance_id
+    Value: i-0aa46612b6fe1f107
+  - Key: cluster.k8s.amazonaws.com/name
+    Value: mbx-bnb-solutions-eks1
+  VpcId: vpc-0218545ff4351ce04
+...
+

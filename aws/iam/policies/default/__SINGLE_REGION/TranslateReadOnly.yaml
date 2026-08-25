@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: TranslateReadOnly
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/TranslateReadOnly
+  AttachmentCount: 0
+  CreateDate: 2017-11-29 18:22:00+00:00
+  DefaultVersionId: v7
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJYAMZMTQNWUDJKY2E
+  PolicyName: TranslateReadOnly
+  UpdateDate: 2023-05-24 17:19:30+00:00
+...
+

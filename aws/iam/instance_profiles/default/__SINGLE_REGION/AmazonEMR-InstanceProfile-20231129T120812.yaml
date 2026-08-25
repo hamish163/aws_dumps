@@ -1,0 +1,28 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonEMR-InstanceProfile-20231129T120812
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/AmazonEMR-InstanceProfile-20231129T120812
+  CreateDate: 2023-11-29 03:08:14+00:00
+  InstanceProfileId: AIPA4RYUCHN55GZMCIOVQ
+  InstanceProfileName: AmazonEMR-InstanceProfile-20231129T120812
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/service-role/AmazonEMR-InstanceProfile-20231129T120812
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+      Version: '2012-10-17'
+    CreateDate: 2023-11-29 03:08:13+00:00
+    Path: /service-role/
+    RoleId: AROA4RYUCHN5WDTSP2IMM
+    RoleName: AmazonEMR-InstanceProfile-20231129T120812
+...
+

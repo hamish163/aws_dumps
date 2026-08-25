@@ -1,0 +1,30 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-02f92eb38a86a3934
+specifics:
+  Description: Security group for account rds
+  GroupId: sg-02f92eb38a86a3934
+  GroupName: mbx-bnb-uat-spade-account-db
+  Tags:
+  - Key: mbx_secret_store
+    Value: asm
+  - Key: mbx_clustered_application
+    Value: 'false'
+  - Key: mbx_env_name
+    Value: uat
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  - Key: Name
+    Value: mbx-bnb-uat-spade-account-db
+  - Key: mbx_env_type
+    Value: multi-node
+  - Key: biz
+    Value: mbx
+  VpcId: vpc-0b3ce57b4c748893b
+...
+

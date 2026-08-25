@@ -1,0 +1,11 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: lt-092d5d9e2f32a07f3
+specifics:
+  eks:cluster-name: mbx-bnb-solutions-eks1
+  eks:nodegroup-name: mbx-bnb-solutions-eks1-generic-20260709
+...
+

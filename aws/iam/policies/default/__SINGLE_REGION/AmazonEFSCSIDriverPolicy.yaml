@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonEFSCSIDriverPolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AmazonEFSCSIDriverPolicy
+  AttachmentCount: 3
+  CreateDate: 2023-07-25 20:10:04+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4A6XN3COYF
+  PolicyName: AmazonEFSCSIDriverPolicy
+  UpdateDate: 2023-07-25 20:10:04+00:00
+...
+

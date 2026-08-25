@@ -1,0 +1,42 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-02ee06ff7def4642b
+specifics:
+  Attachment:
+    AttachmentId: ela-attach-0c4e550cf91a43e6d
+    DeleteOnTermination: false
+    DeviceIndex: 1
+    InstanceOwnerId: amazon-aws
+    Status: attached
+  AvailabilityZone: ap-northeast-1c
+  Description: VPC Endpoint Interface vpce-026192c17f5d6024d
+  Groups:
+  - GroupId: sg-090bdd59fc94633b4
+    GroupName: eks-cluster-sg-mbx_bnb_prod-comply-cluster-1042475942
+  - GroupId: sg-02242eedea0f96004
+    GroupName: mbx_bnb_prod-comply
+  - GroupId: sg-0e7eccfc2af7521f4
+    GroupName: bnb_prod_mbx_comply-account-service
+  InterfaceType: vpc_endpoint
+  Ipv6Addresses: []
+  MacAddress: 0a:03:c5:6e:30:09
+  NetworkInterfaceId: eni-02ee06ff7def4642b
+  OwnerId: '862793644923'
+  PrivateDnsName: ip-172-27-37-129.ap-northeast-1.compute.internal
+  PrivateIpAddress: 172.27.37.129
+  PrivateIpAddresses:
+  - Primary: true
+    PrivateDnsName: ip-172-27-37-129.ap-northeast-1.compute.internal
+    PrivateIpAddress: 172.27.37.129
+  RequesterId: '727180483921'
+  RequesterManaged: true
+  SourceDestCheck: true
+  Status: in-use
+  SubnetId: subnet-0899be7b94796ea56
+  TagSet: []
+  VpcId: vpc-03f5d2495fd8d95a3
+...
+

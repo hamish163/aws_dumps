@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vpce-0907b433b1289fea6
+specifics:
+  Name: prometheus-testnet
+...
+

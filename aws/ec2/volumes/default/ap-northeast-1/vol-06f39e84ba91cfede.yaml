@@ -1,0 +1,44 @@
+---
+datatype: aws.ec2.volumes
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-06f39e84ba91cfede
+specifics:
+  Attachments:
+  - AttachTime: 2026-04-21 05:00:33+00:00
+    DeleteOnTermination: true
+    Device: /dev/xvda
+    InstanceId: i-0bb2665aad731fba1
+    State: attached
+    VolumeId: vol-06f39e84ba91cfede
+  AvailabilityZone: ap-northeast-1a
+  CreateTime: 2026-04-21 05:00:33.211000+00:00
+  Encrypted: false
+  Iops: 3000
+  MultiAttachEnabled: false
+  Size: 40
+  SnapshotId: snap-07b6ad77fbe457ef6
+  State: in-use
+  Tags:
+  - Key: biz
+    Value: mbx
+  - Key: mbx_application_name
+    Value: kafka-pipe
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_env_name
+    Value: perf
+  - Key: team
+    Value: mbx
+  - Key: mbx_host_index
+    Value: '1'
+  - Key: mbx_secret_store
+    Value: none
+  - Key: Name
+    Value: mbx-bnb-perf-kafka-pipe1
+  Throughput: 125
+  VolumeId: vol-06f39e84ba91cfede
+  VolumeType: gp3
+...
+

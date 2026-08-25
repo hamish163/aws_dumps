@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: subnet-0fbe18278de6ef179
+specifics:
+  Name: tky_stage_mbx_backend1_net
+  env: stage
+  project: mbx
+...
+

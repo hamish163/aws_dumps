@@ -1,0 +1,18 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql16.lc_numeric
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Sets the locale for formatting numbers.
+  IsModifiable: true
+  ParameterName: lc_numeric
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

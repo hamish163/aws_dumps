@@ -1,0 +1,24 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-020d9e7d77e8db01a
+specifics:
+  Description: Security group for the FSx file system
+  GroupId: sg-020d9e7d77e8db01a
+  GroupName: mbx-bnb-devops-jenkins_dev
+  Tags:
+  - Key: mbx_env_name
+    Value: devops
+  - Key: biz
+    Value: mbx
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  - Key: Name
+    Value: mbx-bnb-devops-jenkins_dev-zfs
+  VpcId: vpc-07519eb63f1d932ac
+...
+

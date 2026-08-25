@@ -1,0 +1,24 @@
+---
+datatype: aws.iam.account_authorization_details
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-dev-bot
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/mbx-dev-bot
+  AttachedManagedPolicies: []
+  CreateDate: 2026-04-27 09:38:26+00:00
+  GroupList:
+  - developer
+  - mbx_bedrock
+  Path: /
+  Tags:
+  - Key: mbx_iam
+    Value: mbx-dev-bot
+  - Key: mbx_team
+    Value: bot
+  UserId: AIDA4RYUCHN53ZW3UMOM5
+  UserName: mbx-dev-bot
+...
+

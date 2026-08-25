@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonSageMakerCapacityReservationServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AmazonSageMakerCapacityReservationServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2026-04-08 20:27:08+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4DRL5XDJ7J
+  PolicyName: AmazonSageMakerCapacityReservationServiceRolePolicy
+  UpdateDate: 2026-04-08 20:27:08+00:00
+...
+

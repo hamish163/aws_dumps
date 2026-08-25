@@ -1,0 +1,13 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-demo-gw-bastion
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/mbx-bnb-demo-gw-bastion-jenkins-ro
+    PolicyName: mbx-bnb-demo-gw-bastion-jenkins-ro
+...
+

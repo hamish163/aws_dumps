@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: S3GetPerfJournals
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/S3GetPerfJournals
+  AttachmentCount: 1
+  CreateDate: 2019-07-02 05:18:38+00:00
+  DefaultVersionId: v5
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5XPCPUZP3I
+  PolicyName: S3GetPerfJournals
+  UpdateDate: 2022-09-27 02:53:13+00:00
+...
+

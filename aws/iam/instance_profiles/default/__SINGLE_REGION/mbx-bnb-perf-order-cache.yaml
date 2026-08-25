@@ -1,0 +1,28 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-perf-order-cache
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/mbx-bnb-perf-order-cache
+  CreateDate: 2024-07-18 14:37:59+00:00
+  InstanceProfileId: AIPA4RYUCHN54RSM64HDS
+  InstanceProfileName: mbx-bnb-perf-order-cache
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/mbx-bnb-perf-order-cache
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+      Version: '2012-10-17'
+    CreateDate: 2024-07-18 14:37:58+00:00
+    Path: /
+    RoleId: AROA4RYUCHN56DNXSVTGG
+    RoleName: mbx-bnb-perf-order-cache
+...
+

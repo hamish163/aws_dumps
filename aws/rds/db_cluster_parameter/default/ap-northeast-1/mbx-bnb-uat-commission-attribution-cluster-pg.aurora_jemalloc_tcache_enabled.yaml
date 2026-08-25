@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-commission-attribution-cluster-pg.aurora_jemalloc_tcache_enabled
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: By default, memory allocator uses thread caches to avoid locking. However,
+    if explicitly disabled, it will send all allocations to the global memory arenas
+  IsModifiable: true
+  MinimumEngineVersion: 8.0.mysql_aurora.3.09.0
+  ParameterName: aurora_jemalloc_tcache_enabled
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

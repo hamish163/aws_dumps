@@ -1,0 +1,19 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: sre_team_role
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonEKSClusterPolicy
+    PolicyName: AmazonEKSClusterPolicy
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonEKSWorkerNodePolicy
+    PolicyName: AmazonEKSWorkerNodePolicy
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonEKSServicePolicy
+    PolicyName: AmazonEKSServicePolicy
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonEKSVPCResourceController
+    PolicyName: AmazonEKSVPCResourceController
+...
+

@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-0f55a41d403ce3e7f
+specifics:
+  Name: mbx-bnb-solutions-orderbook-visualizer1
+  biz: mbx
+  mbx_env_name: solutions
+  mbx_exchange_name: bnb
+  mbx_secret_store: none
+  team: mbx
+...
+

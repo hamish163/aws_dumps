@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql16.max_logical_replication_workers
+specifics:
+  AllowedValues: 0-262143
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: Maximum number of logical replication worker processes.
+  IsModifiable: true
+  ParameterName: max_logical_replication_workers
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

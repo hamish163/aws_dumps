@@ -1,0 +1,140 @@
+---
+datatype: aws.iam.account_authorization_details
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: stan
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/stan
+  AttachedManagedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/QaTungstenInvocationPolicy-test1
+    PolicyName: QaTungstenInvocationPolicy-test1
+  - PolicyArn: arn:aws:iam::862793644923:policy/PapermillDevPolicy
+    PolicyName: PapermillDevPolicy
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonAthenaFullAccess
+    PolicyName: AmazonAthenaFullAccess
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonEMRFullAccessPolicy_v2
+    PolicyName: AmazonEMRFullAccessPolicy_v2
+  CreateDate: 2024-02-16 12:35:45+00:00
+  GroupList:
+  - DEVOPS_TEAM_IAM_MGMT_NON_PROD
+  - DEVOPS_TEAM_INFRA_MGMT_NON_PROD
+  - mbx_bedrock
+  - DEVOPS_TEAM_INFRA_MGMT
+  - DEVOPS_TEAM_RO
+  - DEVOPS_TEAM_IAM_MGMT
+  - DEVOPS_TEAM
+  - devops
+  - MBX_EVERYONE_TEAM
+  Path: /
+  Tags:
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  - Key: mbx_team
+    Value: devops
+  - Key: mbx_iam
+    Value: stan
+  UserId: AIDA4RYUCHN5RLROENOGS
+  UserName: stan
+  UserPolicyList:
+  - PolicyDocument:
+      Statement:
+      - Action: apigateway:*
+        Effect: Allow
+        Resource: '*'
+        Sid: VisualEditor0
+      - Action:
+        - ec2:CreateNetworkInsightsPath
+        - ec2:StartNetworkInsightsAnalysis
+        - tiros:*
+        Effect: Allow
+        Resource: '*'
+        Sid: VisualEditor1
+      Version: '2012-10-17'
+    PolicyName: api-gateway
+  - PolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Resource: arn:aws:iam::369096419186:role/mbx-bnb-prod-papermill-windmill-athena-access
+        Sid: VisualEditor0
+      Version: '2012-10-17'
+    PolicyName: Assume-Prod-Windmill-Papermill-role
+  - PolicyDocument:
+      Statement:
+      - Action: eks:*
+        Effect: Allow
+        Resource: '*'
+        Sid: VisualEditor0
+      - Action: fsx:*
+        Effect: Allow
+        Resource: '*'
+        Sid: VisualEditor1
+      Version: '2012-10-17'
+    PolicyName: EKSAccess
+  - PolicyDocument:
+      Statement:
+      - Action:
+        - emr-serverless:*
+        - elasticmapreduce:*
+        Effect: Allow
+        Resource: '*'
+        Sid: VisualEditor0
+      - Action: iam:PassRole
+        Effect: Allow
+        Resource:
+        - arn:aws:iam::862793644923:role/hive-test-emrRole-1IHBYDTOJV4FH
+        - arn:aws:iam::862793644923:role/hive-test-emrEc2Role-EKJ02I91AVSN
+        Sid: VisualEditor1
+      Version: '2012-10-17'
+    PolicyName: EMRStudioAccess
+  - PolicyDocument:
+      Statement:
+      - Action:
+        - states:ListStateMachineVersions
+        - states:ListStateMachines
+        - states:SendTaskFailure
+        - states:ListActivities
+        - states:ListStateMachineAliases
+        - states:ListExecutions
+        - states:StartExecution
+        - states:StopExecution
+        - states:StartSyncExecution
+        - states:GetActivityTask
+        - states:ListMapRuns
+        - states:ListTagsForResource
+        - states:UpdateStateMachine
+        Effect: Allow
+        Resource: '*'
+        Sid: VisualEditor0
+      Version: '2012-10-17'
+    PolicyName: Execute_step_functions_from_console
+  - PolicyDocument:
+      Statement:
+      - Action: ecr:GetAuthorizationToken
+        Effect: Allow
+        Resource: '*'
+        Sid: VisualEditor0
+      - Action: ecr:*
+        Effect: Allow
+        Resource:
+        - arn:aws:ecr:ap-northeast-1:862793644923:repository/mbx-nginx-builder
+        - arn:aws:ecr:ap-northeast-1:862793644923:repository/docker
+        Sid: VisualEditor1
+      Version: '2012-10-17'
+    PolicyName: Upload-nginx-image-builder
+  - PolicyDocument:
+      Statement:
+      - Action:
+        - config:PutConfigurationRecorder
+        - config:PutDeliveryChannel
+        Effect: Allow
+        Resource: '*'
+        Sid: VisualEditor0
+      Version: '2012-10-17'
+    PolicyName: vizzy-config
+...
+

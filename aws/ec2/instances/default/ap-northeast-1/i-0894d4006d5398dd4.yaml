@@ -1,0 +1,144 @@
+---
+datatype: aws.ec2.instances
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-0894d4006d5398dd4
+specifics:
+  AmiLaunchIndex: 0
+  Architecture: x86_64
+  BlockDeviceMappings:
+  - DeviceName: /dev/xvda
+    Ebs:
+      AttachTime: 2024-06-27 08:51:42+00:00
+      DeleteOnTermination: true
+      Status: attached
+      VolumeId: vol-0b419947cd334e9db
+  BootMode: uefi-preferred
+  CapacityReservationSpecification:
+    CapacityReservationPreference: open
+  ClientToken: terraform-20240627085140753700000001
+  CpuOptions:
+    CoreCount: 2
+    ThreadsPerCore: 2
+  CurrentInstanceBootMode: uefi
+  EbsOptimized: true
+  EnaSupport: true
+  EnclaveOptions:
+    Enabled: false
+  HibernationOptions:
+    Configured: false
+  Hypervisor: xen
+  IamInstanceProfile:
+    Arn: arn:aws:iam::862793644923:instance-profile/tkyprodEC2RoleTrackySlave
+    Id: AIPAIPZMH2AK2SRJJDGIE
+  ImageId: ami-0b0820482bda609a1
+  InstanceId: i-0894d4006d5398dd4
+  InstanceType: c6i.xlarge
+  LaunchTime: 2024-06-27 08:51:41+00:00
+  MaintenanceOptions:
+    AutoRecovery: default
+  MetadataOptions:
+    HttpEndpoint: enabled
+    HttpProtocolIpv6: disabled
+    HttpPutResponseHopLimit: 2
+    HttpTokens: required
+    InstanceMetadataTags: enabled
+    State: applied
+  Monitoring:
+    State: disabled
+  NetworkInterfaces:
+  - Association:
+      IpOwnerId: '862793644923'
+      PublicDnsName: ec2-35-79-30-193.ap-northeast-1.compute.amazonaws.com
+      PublicIp: 35.79.30.193
+    Attachment:
+      AttachTime: 2024-06-27 08:51:41+00:00
+      AttachmentId: eni-attach-0903cef5807c1f63f
+      DeleteOnTermination: true
+      DeviceIndex: 0
+      NetworkCardIndex: 0
+      Status: attached
+    Description: ''
+    Groups:
+    - GroupId: sg-05e60d20221e31e45
+      GroupName: tky-prod-baserules-tracky-bitdj.com
+    - GroupId: sg-03239a8bfd707dc6b
+      GroupName: tky-prod-slave-tracky-bitdj.com
+    - GroupId: sg-0e860051a2aff9e81
+      GroupName: mbx-bnb-prod-tracky-default
+    InterfaceType: interface
+    Ipv6Addresses: []
+    MacAddress: 06:4e:35:ec:46:33
+    NetworkInterfaceId: eni-0cce10cf73fffeed5
+    OwnerId: '862793644923'
+    PrivateDnsName: ip-172-27-3-158.ap-northeast-1.compute.internal
+    PrivateIpAddress: 172.27.3.158
+    PrivateIpAddresses:
+    - Association:
+        IpOwnerId: '862793644923'
+        PublicDnsName: ec2-35-79-30-193.ap-northeast-1.compute.amazonaws.com
+        PublicIp: 35.79.30.193
+      Primary: true
+      PrivateDnsName: ip-172-27-3-158.ap-northeast-1.compute.internal
+      PrivateIpAddress: 172.27.3.158
+    SourceDestCheck: true
+    Status: in-use
+    SubnetId: subnet-09d026f6e1a1cd1f7
+    VpcId: vpc-03f5d2495fd8d95a3
+  Placement:
+    AvailabilityZone: ap-northeast-1a
+    GroupName: ''
+    Tenancy: default
+  PlatformDetails: Linux/UNIX
+  PrivateDnsName: ip-172-27-3-158.ap-northeast-1.compute.internal
+  PrivateDnsNameOptions:
+    EnableResourceNameDnsAAAARecord: false
+    EnableResourceNameDnsARecord: false
+    HostnameType: ip-name
+  PrivateIpAddress: 172.27.3.158
+  ProductCodes: []
+  PublicDnsName: ec2-35-79-30-193.ap-northeast-1.compute.amazonaws.com
+  PublicIpAddress: 35.79.30.193
+  RootDeviceName: /dev/xvda
+  RootDeviceType: ebs
+  SecurityGroups:
+  - GroupId: sg-05e60d20221e31e45
+    GroupName: tky-prod-baserules-tracky-bitdj.com
+  - GroupId: sg-03239a8bfd707dc6b
+    GroupName: tky-prod-slave-tracky-bitdj.com
+  - GroupId: sg-0e860051a2aff9e81
+    GroupName: mbx-bnb-prod-tracky-default
+  SourceDestCheck: true
+  State:
+    Code: 16
+    Name: running
+  StateTransitionReason: ''
+  SubnetId: subnet-09d026f6e1a1cd1f7
+  Tags:
+  - Key: Name
+    Value: bnb_prod_mbx_tracky-jp-slave18_ec2
+  - Key: biz
+    Value: mbx
+  - Key: mbx_env_name
+    Value: prod
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_host_index
+    Value: '18'
+  - Key: role
+    Value: tracky
+  - Key: sre-app
+    Value: tracky-slave
+  - Key: sre-component
+    Value: tracky-slave
+  - Key: sre-env
+    Value: prod
+  - Key: team
+    Value: sre
+  UsageOperation: RunInstances
+  UsageOperationUpdateTime: 2024-06-27 08:51:41+00:00
+  VirtualizationType: hvm
+  VpcId: vpc-03f5d2495fd8d95a3
+...
+

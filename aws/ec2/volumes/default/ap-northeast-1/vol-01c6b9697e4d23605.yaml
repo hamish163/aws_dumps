@@ -1,0 +1,32 @@
+---
+datatype: aws.ec2.volumes
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-01c6b9697e4d23605
+specifics:
+  Attachments:
+  - AttachTime: 2026-05-26 13:50:29+00:00
+    DeleteOnTermination: true
+    Device: /dev/xvda
+    InstanceId: i-0f27ed49a2bc64120
+    State: attached
+    VolumeId: vol-01c6b9697e4d23605
+  AvailabilityZone: ap-northeast-1a
+  CreateTime: 2026-05-26 13:50:29.482000+00:00
+  Encrypted: false
+  Iops: 3000
+  MultiAttachEnabled: false
+  Size: 40
+  SnapshotId: snap-09aece138682e7e3a
+  State: in-use
+  Tags:
+  - Key: eks:nodegroup-name
+    Value: mbx_bnb_prod-comply-ng
+  - Key: eks:cluster-name
+    Value: mbx_bnb_prod-comply-cluster
+  Throughput: 125
+  VolumeId: vol-01c6b9697e4d23605
+  VolumeType: gp3
+...
+

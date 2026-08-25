@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonDataZoneBedrockModelConsumptionPolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AmazonDataZoneBedrockModelConsumptionPolicy
+  AttachmentCount: 0
+  CreateDate: 2024-11-12 22:15:08+00:00
+  DefaultVersionId: v7
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4BMSB6QOKU
+  PolicyName: AmazonDataZoneBedrockModelConsumptionPolicy
+  UpdateDate: 2026-02-12 18:01:13+00:00
+...
+

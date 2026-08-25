@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-08e7e382842f7920e
+specifics:
+  CidrIpv4: 10.12.0.0/16
+  Description: Allow alertmanager (9093) from MBX client VPN VPC
+  FromPort: 9093
+  GroupId: sg-0be9e1d0831241de7
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-08e7e382842f7920e
+  Tags: []
+  ToPort: 9093
+...
+

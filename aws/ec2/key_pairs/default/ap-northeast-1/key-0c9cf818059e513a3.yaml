@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.key_pairs
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: key-0c9cf818059e513a3
+specifics:
+  CreateTime: 2015-03-07 16:27:42+00:00
+  KeyFingerprint: 8b:5e:ac:1d:32:63:c5:40:6f:04:20:ce:b5:16:c5:07:18:46:8b:9f
+  KeyName: ZenClear Web
+  KeyPairId: key-0c9cf818059e513a3
+  KeyType: rsa
+  Tags: []
+...
+

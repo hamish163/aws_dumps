@@ -1,0 +1,18 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-02da33b3f30f470e1
+specifics:
+  Name: smacky-prod-bnb.com
+  biz: mbx
+  env: prod
+  exchange_id: bnb
+  project: smacky
+  sre-app: smacky
+  sre-component: smacky
+  sre-env: prod
+  team: sre
+...
+

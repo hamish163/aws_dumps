@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: VPCLatticeReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/VPCLatticeReadOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2023-03-30 02:47:25+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4OJ76SXTUK
+  PolicyName: VPCLatticeReadOnlyAccess
+  UpdateDate: 2026-02-12 17:58:25+00:00
+...
+

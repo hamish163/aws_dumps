@@ -1,0 +1,15 @@
+---
+datatype: aws.elbv2.listener_certificates
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener/app/mbx-bnb-devops-jenkins-dev-int/4e0b2f215cc1dba0/4ef88a190455d085
+specifics:
+- CertificateArn: arn:aws:acm:ap-northeast-1:862793644923:certificate/23706a83-50fb-4764-920e-1c09b5416e2f
+  IsDefault: false
+- CertificateArn: arn:aws:acm:ap-northeast-1:862793644923:certificate/1acebbab-519e-4b9f-b663-514ba5e22d81
+  IsDefault: false
+- CertificateArn: arn:aws:acm:ap-northeast-1:862793644923:certificate/1acebbab-519e-4b9f-b663-514ba5e22d81
+  IsDefault: true
+...
+

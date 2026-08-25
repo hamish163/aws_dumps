@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-07350035397d1be88
+specifics:
+  Description: Allow TCP traffic from nginx-mgmt-api SG on port 8912
+  FromPort: 8912
+  GroupId: sg-0cb2d15d2f23065d8
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0509f543edd19fd56
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-07350035397d1be88
+  Tags: []
+  ToPort: 8912
+...
+

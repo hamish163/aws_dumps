@@ -1,0 +1,16 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-03d8e7fa9840afb13
+specifics:
+  Name: mbx-bnb-solutions-thanos-store1
+  biz: mbx
+  mbx_env_name: solutions
+  mbx_exchange_name: bnb
+  mbx_host_index: '1'
+  mbx_secret_store: none
+  team: mbx
+...
+

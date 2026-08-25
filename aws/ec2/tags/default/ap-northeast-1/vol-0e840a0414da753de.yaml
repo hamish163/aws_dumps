@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-0e840a0414da753de
+specifics:
+  Name: mbx-bnb-devops-redshirts-al2-xeon1
+  biz: mbx
+  mbx_env_name: devops
+  mbx_exchange_name: bnb
+  mbx_host_index: '1'
+  team: mbx
+...
+

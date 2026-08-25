@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: igw-06e9999777ae50fbe
+specifics:
+  Name: prod-tracky-igw
+...
+

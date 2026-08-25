@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-07cddf6c309d8dc1f
+specifics:
+  Name: mbx-bnb-solutions-kafka-vpce
+  biz: mbx
+  mbx_env_name: solutions
+  mbx_exchange_name: bnb
+  mbx_secret_store: none
+  team: mbx
+...
+

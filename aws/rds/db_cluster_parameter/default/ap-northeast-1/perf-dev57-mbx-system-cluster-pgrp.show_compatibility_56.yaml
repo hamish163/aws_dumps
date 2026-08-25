@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev57-mbx-system-cluster-pgrp.show_compatibility_56
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Enable MySQL 5.6 compatability for certain system and status variables.
+  IsModifiable: true
+  ParameterName: show_compatibility_56
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

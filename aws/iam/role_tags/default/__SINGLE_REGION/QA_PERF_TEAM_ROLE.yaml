@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: QA_PERF_TEAM_ROLE
+  single_region: true
+specifics:
+  Name: QA_PERF_TEAM_ROLE
+  biz: mbx
+  mbx_env_name: perf
+  mbx_exchange_name: bnb
+  team: mbx
+...
+

@@ -1,0 +1,32 @@
+---
+datatype: aws.elbv2.load_balancers
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: MbxCh-AlbEx-1KYFZN0J4CLVC
+specifics:
+  AvailabilityZones:
+  - LoadBalancerAddresses: []
+    SubnetId: subnet-00a329421884949e6
+    ZoneName: ap-northeast-1d
+  - LoadBalancerAddresses: []
+    SubnetId: subnet-00e9d98ff4e6249b5
+    ZoneName: ap-northeast-1c
+  - LoadBalancerAddresses: []
+    SubnetId: subnet-05bbe6fbdb8ec8477
+    ZoneName: ap-northeast-1a
+  CanonicalHostedZoneId: Z14GRHDCWA56QT
+  CreatedTime: 2023-05-19 02:30:43.520000+00:00
+  DNSName: MbxCh-AlbEx-1KYFZN0J4CLVC-1645765347.ap-northeast-1.elb.amazonaws.com
+  IpAddressType: ipv4
+  LoadBalancerArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:loadbalancer/app/MbxCh-AlbEx-1KYFZN0J4CLVC/cb979d9105970855
+  LoadBalancerName: MbxCh-AlbEx-1KYFZN0J4CLVC
+  Scheme: internet-facing
+  SecurityGroups:
+  - sg-02851e45983253504
+  State:
+    Code: active
+  Type: application
+  VpcId: vpc-050b727e89fac853e
+...
+

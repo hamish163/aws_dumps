@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: nip-06df31d0a36c41afb
+specifics:
+  Name: perf-kline-to-saltmaster
+...
+

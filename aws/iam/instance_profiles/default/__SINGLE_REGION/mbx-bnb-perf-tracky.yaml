@@ -1,0 +1,28 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-perf-tracky
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/mbx-bnb-perf-tracky
+  CreateDate: 2024-08-30 04:04:09+00:00
+  InstanceProfileId: AIPA4RYUCHN5TDWOILPUT
+  InstanceProfileName: mbx-bnb-perf-tracky
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/mbx-bnb-perf-tracky
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+      Version: '2012-10-17'
+    CreateDate: 2024-08-30 04:04:07+00:00
+    Path: /
+    RoleId: AROA4RYUCHN5ZZG4OICI6
+    RoleName: mbx-bnb-perf-tracky
+...
+

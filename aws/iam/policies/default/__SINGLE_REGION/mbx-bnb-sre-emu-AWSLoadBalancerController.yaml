@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-sre-emu-AWSLoadBalancerController
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/mbx-bnb-sre-emu-AWSLoadBalancerController
+  AttachmentCount: 1
+  CreateDate: 2026-06-08 22:22:48+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5WZP6FRZGA
+  PolicyName: mbx-bnb-sre-emu-AWSLoadBalancerController
+  UpdateDate: 2026-06-08 22:22:48+00:00
+...
+

@@ -1,0 +1,30 @@
+---
+datatype: aws.elbv2.rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener-rule/app/mbx-bnb-devops-jenkins-dev-int/4e0b2f215cc1dba0/4ef88a190455d085/3a1a711716e574cc
+specifics:
+  Actions:
+  - Order: 1
+    RedirectConfig:
+      Host: jenkins.bitdj.com
+      Path: /#{path}
+      Port: '443'
+      Protocol: HTTPS
+      Query: '#{query}'
+      StatusCode: HTTP_302
+    Type: redirect
+  Conditions:
+  - Field: host-header
+    HostHeaderConfig:
+      Values:
+      - mbx-jenkins-dev.ap2.bitdj.com
+    Values:
+    - mbx-jenkins-dev.ap2.bitdj.com
+  IsDefault: false
+  Priority: '100'
+  RuleArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener-rule/app/mbx-bnb-devops-jenkins-dev-int/4e0b2f215cc1dba0/4ef88a190455d085/3a1a711716e574cc
+  _listener_arn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener/app/mbx-bnb-devops-jenkins-dev-int/4e0b2f215cc1dba0/4ef88a190455d085
+...
+

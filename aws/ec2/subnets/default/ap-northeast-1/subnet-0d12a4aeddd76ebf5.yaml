@@ -1,0 +1,38 @@
+---
+datatype: aws.ec2.subnets
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: subnet-0d12a4aeddd76ebf5
+specifics:
+  AssignIpv6AddressOnCreation: false
+  AvailabilityZone: ap-northeast-1a
+  AvailabilityZoneId: apne1-az4
+  AvailableIpAddressCount: 123
+  CidrBlock: 10.12.16.128/25
+  DefaultForAz: false
+  EnableDns64: false
+  Ipv6CidrBlockAssociationSet: []
+  Ipv6Native: false
+  MapCustomerOwnedIpOnLaunch: false
+  MapPublicIpOnLaunch: false
+  OwnerId: '862793644923'
+  PrivateDnsNameOptionsOnLaunch:
+    EnableResourceNameDnsAAAARecord: false
+    EnableResourceNameDnsARecord: false
+    HostnameType: ip-name
+  State: available
+  SubnetArn: arn:aws:ec2:ap-northeast-1:862793644923:subnet/subnet-0d12a4aeddd76ebf5
+  SubnetId: subnet-0d12a4aeddd76ebf5
+  Tags:
+  - Key: Name
+    Value: DevOpsSandboxSheaf Subnet 1
+  - Key: aws:cloudformation:logical-id
+    Value: Subnet1
+  - Key: aws:cloudformation:stack-id
+    Value: arn:aws:cloudformation:ap-northeast-1:862793644923:stack/DevOpsSandboxSheaf/6fae1670-b37c-11ed-82b5-062d7de098bb
+  - Key: aws:cloudformation:stack-name
+    Value: DevOpsSandboxSheaf
+  VpcId: vpc-06f40d5e429c4aac6
+...
+

@@ -1,0 +1,13 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0a156bfd066e93511
+specifics:
+  Description: stats.binance.vision
+  GroupId: sg-0a156bfd066e93511
+  GroupName: stats.binance.vision
+  VpcId: vpc-03543e019e5fc8fbf
+...
+

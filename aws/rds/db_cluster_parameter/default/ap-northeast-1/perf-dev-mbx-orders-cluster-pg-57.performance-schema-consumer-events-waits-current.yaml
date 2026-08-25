@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-orders-cluster-pg-57.performance-schema-consumer-events-waits-current
+specifics:
+  AllowedValues: ON,OFF
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: Configure the events-waits-current consumer.
+  IsModifiable: true
+  ParameterName: performance-schema-consumer-events-waits-current
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

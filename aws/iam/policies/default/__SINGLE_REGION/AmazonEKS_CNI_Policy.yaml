@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonEKS_CNI_Policy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonEKS_CNI_Policy
+  AttachmentCount: 13
+  CreateDate: 2018-05-27 21:07:42+00:00
+  DefaultVersionId: v6
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJWLAS474LDBXNNTM4
+  PolicyName: AmazonEKS_CNI_Policy
+  UpdateDate: 2026-03-04 19:12:14+00:00
+...
+

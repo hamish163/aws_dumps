@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: bnbMbxDevPrometheus
+  single_region: true
+specifics:
+  Name: bnbMbxDevPrometheus
+  biz: mbx
+  env: dev
+  project: mbx
+  team: mbx
+...
+

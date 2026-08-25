@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-aggtrade-cluster-pg.performance_schema_max_table_lock_stat
+specifics:
+  AllowedValues: -1-1048576
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: The maximum number of tables for which the Performance Schema maintains
+    lock statistics.
+  IsModifiable: true
+  ParameterName: performance_schema_max_table_lock_stat
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

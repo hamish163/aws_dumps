@@ -1,0 +1,62 @@
+---
+datatype: aws.ec2.route_tables
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rtb-08545bf1c7a7a8e3e
+specifics:
+  Associations:
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-05fb7c9efce6babe5
+    RouteTableId: rtb-08545bf1c7a7a8e3e
+    SubnetId: subnet-0d0f5c65ce3f354a8
+  OwnerId: '862793644923'
+  PropagatingVgws: []
+  RouteTableId: rtb-08545bf1c7a7a8e3e
+  Routes:
+  - DestinationCidrBlock: 10.170.19.129/32
+    Origin: CreateRoute
+    State: active
+    TransitGatewayId: tgw-094ec8a8749ab72d4
+  - DestinationCidrBlock: 10.12.0.0/24
+    Origin: CreateRoute
+    State: active
+    TransitGatewayId: tgw-094ec8a8749ab72d4
+  - DestinationCidrBlock: 10.12.10.0/24
+    Origin: CreateRoute
+    State: active
+    TransitGatewayId: tgw-094ec8a8749ab72d4
+  - DestinationCidrBlock: 10.170.32.0/21
+    GatewayId: local
+    Origin: CreateRouteTable
+    State: active
+  - DestinationCidrBlock: 10.170.16.0/20
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-051b96df89b47326f
+  - DestinationCidrBlock: 10.143.0.0/16
+    Origin: CreateRoute
+    State: active
+    TransitGatewayId: tgw-094ec8a8749ab72d4
+  - DestinationCidrBlock: 0.0.0.0/0
+    InstanceId: i-009de9171b3b32767
+    InstanceOwnerId: '862793644923'
+    NetworkInterfaceId: eni-045e0980ea1dcecb4
+    Origin: CreateRoute
+    State: active
+  Tags:
+  - Key: team
+    Value: mbx
+  - Key: Name
+    Value: mbx-bnb-colo-perf-rtb-private3
+  - Key: mbx_env_name
+    Value: colo-perf
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: biz
+    Value: mbx
+  VpcId: vpc-0e8d78d562c500d57
+...
+

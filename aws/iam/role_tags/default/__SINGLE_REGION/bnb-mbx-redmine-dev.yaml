@@ -1,0 +1,18 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: bnb-mbx-redmine-dev
+  single_region: true
+specifics:
+  Name: bnb-mbx-redmine-dev
+  biz: mbx
+  mbx_application_name: redmine-dev
+  mbx_clustered_application: 'false'
+  mbx_env_name: devops-sandbox
+  mbx_env_type: na
+  mbx_exchange_name: bnb
+  team: devops
+...
+

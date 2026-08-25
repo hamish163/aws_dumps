@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonEKSLocalOutpostClusterPolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonEKSLocalOutpostClusterPolicy
+  AttachmentCount: 0
+  CreateDate: 2022-08-24 21:56:47+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4GSJCNLZP4
+  PolicyName: AmazonEKSLocalOutpostClusterPolicy
+  UpdateDate: 2024-10-24 17:59:05+00:00
+...
+

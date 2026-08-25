@@ -1,0 +1,22 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.docdb5.0.change_stream_log_retention_duration
+specifics:
+  AllowedValues: 3600-604800
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Duration of time in seconds that the change stream log is retained
+    and can be consumed.
+  IsModifiable: true
+  MinimumEngineVersion: 5.0.0
+  ParameterName: change_stream_log_retention_duration
+  ParameterValue: '10800'
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

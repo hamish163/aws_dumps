@@ -1,0 +1,14 @@
+---
+datatype: aws.iam.mfa_devices
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: paula
+  single_region: true
+specifics:
+  MFADevices:
+  - EnableDate: 2022-12-26 10:22:55+00:00
+    SerialNumber: arn:aws:iam::862793644923:u2f/user/paula/yubikey-6LXHTP5DGBG5VPWTX2IQGNZ5J4
+    UserName: paula
+...
+

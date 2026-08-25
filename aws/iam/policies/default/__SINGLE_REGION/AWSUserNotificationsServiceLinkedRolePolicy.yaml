@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSUserNotificationsServiceLinkedRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AWSUserNotificationsServiceLinkedRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2023-04-19 13:28:34+00:00
+  DefaultVersionId: v7
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4JMXN6GOLB
+  PolicyName: AWSUserNotificationsServiceLinkedRolePolicy
+  UpdateDate: 2026-02-12 18:01:14+00:00
+...
+

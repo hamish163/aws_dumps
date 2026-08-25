@@ -1,0 +1,15 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx.velocity.perf.journal-archive1/A
+  single_region: true
+specifics:
+  Name: journal-archive1.perf.velocity.mbx.
+  ResourceRecords:
+  - Value: 10.100.81.76
+  TTL: 3600
+  Type: A
+...
+

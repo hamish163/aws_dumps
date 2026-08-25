@@ -1,0 +1,28 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: atlantis_gcp_dev
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/atlantis_gcp_dev
+  CreateDate: 2023-06-02 02:46:01+00:00
+  InstanceProfileId: AIPA4RYUCHN5QAAPTDTYY
+  InstanceProfileName: atlantis_gcp_dev
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/atlantis_gcp_dev
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          AWS: AROA4RYUCHN56NUHCHH4D:i-09212db836d2fba8e
+      Version: '2012-10-17'
+    CreateDate: 2023-06-02 02:46:00+00:00
+    Path: /
+    RoleId: AROA4RYUCHN5T6WFKVEMA
+    RoleName: atlantis_gcp_dev
+...
+

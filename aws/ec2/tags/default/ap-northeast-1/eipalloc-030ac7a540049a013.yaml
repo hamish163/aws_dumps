@@ -1,0 +1,14 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eipalloc-030ac7a540049a013
+specifics:
+  Name: mbx-tools-dev-eip-az2
+  biz: mbx
+  mbx_env_name: dev
+  mbx_exchange_name: tools
+  team: mbx
+...
+

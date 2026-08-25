@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.rpl_semi_sync_master_wait_point
+specifics:
+  AllowedValues: AFTER_SYNC
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Controls the point at which a semisynchronous replication master waits
+    for slave acknowledgment of transaction receipt before returning a status to the
+    client that committed the transaction.
+  IsModifiable: false
+  ParameterName: rpl_semi_sync_master_wait_point
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

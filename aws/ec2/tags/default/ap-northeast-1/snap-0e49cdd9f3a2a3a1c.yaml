@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: snap-0e49cdd9f3a2a3a1c
+specifics:
+  Name: ap2.bitdj.com-dynamic-pvc-halyard
+...
+

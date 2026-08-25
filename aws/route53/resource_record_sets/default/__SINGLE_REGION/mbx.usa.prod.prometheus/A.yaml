@@ -1,0 +1,16 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx.usa.prod.prometheus/A
+  single_region: true
+specifics:
+  AliasTarget:
+    DNSName: internal-usa-prod-mbx-monitoring-alb-int-511847346.us-east-1.elb.amazonaws.com.
+    EvaluateTargetHealth: true
+    HostedZoneId: Z35SXDOTRQ7X7K
+  Name: prometheus.prod.usa.mbx.
+  Type: A
+...
+

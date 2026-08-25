@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSAppMeshFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSAppMeshFullAccess
+  AttachmentCount: 0
+  CreateDate: 2019-04-16 17:50:40+00:00
+  DefaultVersionId: v6
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4ILVZ5BWFU
+  PolicyName: AWSAppMeshFullAccess
+  UpdateDate: 2021-01-07 19:54:08+00:00
+...
+

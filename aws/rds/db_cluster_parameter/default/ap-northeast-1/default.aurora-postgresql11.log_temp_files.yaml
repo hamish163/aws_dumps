@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql11.log_temp_files
+specifics:
+  AllowedValues: -1-2147483647
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: (kB) Log the use of temporary files larger than this number of kilobytes.
+  IsModifiable: true
+  ParameterName: log_temp_files
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+  - serverless
+...
+

@@ -1,0 +1,29 @@
+---
+datatype: aws.elbv2.load_balancers
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-demo-mgmt-api-alb
+specifics:
+  AvailabilityZones:
+  - LoadBalancerAddresses: []
+    SubnetId: subnet-0406f0295a5b5145e
+    ZoneName: ap-northeast-1a
+  - LoadBalancerAddresses: []
+    SubnetId: subnet-0c90860ccf50c96f8
+    ZoneName: ap-northeast-1c
+  CanonicalHostedZoneId: Z14GRHDCWA56QT
+  CreatedTime: 2025-09-26 08:03:07.821000+00:00
+  DNSName: internal-mbx-bnb-uat-demo-mgmt-api-alb-2085112053.ap-northeast-1.elb.amazonaws.com
+  IpAddressType: ipv4
+  LoadBalancerArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:loadbalancer/app/mbx-bnb-uat-demo-mgmt-api-alb/aa3b560c97c99cd8
+  LoadBalancerName: mbx-bnb-uat-demo-mgmt-api-alb
+  Scheme: internal
+  SecurityGroups:
+  - sg-0154869a90e714e84
+  State:
+    Code: active
+  Type: application
+  VpcId: vpc-0b3ce57b4c748893b
+...
+

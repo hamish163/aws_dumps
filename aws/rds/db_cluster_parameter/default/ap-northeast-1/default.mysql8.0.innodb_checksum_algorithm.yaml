@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.innodb_checksum_algorithm
+specifics:
+  AllowedValues: crc32,innodb,none,strict_crc32,strict_innodb,strict_none
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Specifies how to generate and verify the checksum stored in each disk
+    block of each InnoDB tablespace.
+  IsModifiable: true
+  ParameterName: innodb_checksum_algorithm
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

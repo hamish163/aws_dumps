@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rtb-034854cf14b6fdd66
+specifics:
+  AmazonFSx: ManagedByAmazonFSx
+...
+

@@ -1,0 +1,46 @@
+---
+datatype: aws.iam.account_authorization_details
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: nicole
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/nicole
+  AttachedManagedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/AllowUserManagedOwnAccount
+    PolicyName: AllowUserManagedOwnAccount
+  - PolicyArn: arn:aws:iam::aws:policy/CloudWatchReadOnlyAccess
+    PolicyName: CloudWatchReadOnlyAccess
+  - PolicyArn: arn:aws:iam::aws:policy/CloudWatchAutomaticDashboardsAccess
+    PolicyName: CloudWatchAutomaticDashboardsAccess
+  CreateDate: 2019-05-10 02:53:12+00:00
+  GroupList:
+  - mbx_bedrock
+  - MBX_BNB_UAT_GROUP
+  - qa
+  Path: /
+  Tags:
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  - Key: mbx_team
+    Value: qa
+  - Key: mbx_iam
+    Value: nicole
+  UserId: AIDA4RYUCHN5XLUIXZKRU
+  UserName: nicole
+  UserPolicyList:
+  - PolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Resource:
+        - arn:aws:iam::173062506398:role/KubernetesMBXVlctyQA
+        - arn:aws:iam::462475635429:role/KubernetesMBXVlctyQA
+        Sid: VisualEditor0
+      Version: '2012-10-17'
+    PolicyName: AssumeRole
+...
+

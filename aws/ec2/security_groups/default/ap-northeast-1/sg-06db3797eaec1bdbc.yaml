@@ -1,0 +1,13 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-06db3797eaec1bdbc
+specifics:
+  Description: tky.prod-sleepy-tracky-bitdj.com
+  GroupId: sg-06db3797eaec1bdbc
+  GroupName: tky.prod-sleepy-tracky-bitdj.com
+  VpcId: vpc-03f5d2495fd8d95a3
+...
+

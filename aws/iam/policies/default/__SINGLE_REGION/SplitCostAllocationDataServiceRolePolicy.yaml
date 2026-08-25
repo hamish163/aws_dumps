@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: SplitCostAllocationDataServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/SplitCostAllocationDataServiceRolePolicy
+  AttachmentCount: 1
+  CreateDate: 2024-04-16 16:05:16+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4OIA5I7XXW
+  PolicyName: SplitCostAllocationDataServiceRolePolicy
+  UpdateDate: 2024-04-16 16:05:16+00:00
+...
+

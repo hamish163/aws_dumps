@@ -1,0 +1,29 @@
+---
+datatype: aws.elbv2.target_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-devops-mgmt-api-algo-tg
+specifics:
+  HealthCheckEnabled: true
+  HealthCheckIntervalSeconds: 5
+  HealthCheckPath: /test.html
+  HealthCheckPort: '8080'
+  HealthCheckProtocol: HTTP
+  HealthCheckTimeoutSeconds: 2
+  HealthyThresholdCount: 5
+  IpAddressType: ipv4
+  LoadBalancerArns:
+  - arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:loadbalancer/app/mbx-bnb-devops-mgmt-api-algo-alb/b0f0017dcae8905b
+  Matcher:
+    HttpCode: '200'
+  Port: 8912
+  Protocol: HTTP
+  ProtocolVersion: HTTP1
+  TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-devops-mgmt-api-algo-tg/4331cc89f01b6b43
+  TargetGroupName: mbx-bnb-devops-mgmt-api-algo-tg
+  TargetType: instance
+  UnhealthyThresholdCount: 2
+  VpcId: vpc-07519eb63f1d932ac
+...
+

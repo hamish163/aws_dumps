@@ -1,0 +1,24 @@
+---
+datatype: aws.iam.account_authorization_details
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: bitdjMbxGrafana
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/bitdjMbxGrafana
+  AttachedManagedPolicies:
+  - PolicyArn: arn:aws:iam::aws:policy/CloudWatchReadOnlyAccess
+    PolicyName: CloudWatchReadOnlyAccess
+  CreateDate: 2023-10-25 14:55:50+00:00
+  GroupList: []
+  Path: /
+  Tags:
+  - Key: AKIA4RYUCHN5QYNLIVX4
+    Value: Cloudwatch access for grafana
+  - Key: team
+    Value: mbx
+  UserId: AIDA4RYUCHN5U7ZIKU6U7
+  UserName: bitdjMbxGrafana
+...
+

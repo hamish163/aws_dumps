@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-devops-salt-cluster-pg.aws_ml.curlopt_low_speed_time
+specifics:
+  AllowedValues: 0-30000
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Time the transfer should be below aws_ml.curlopt_low_speed_limit to
+    abort inference call.
+  IsModifiable: true
+  ParameterName: aws_ml.curlopt_low_speed_time
+  ParameterValue: '0'
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

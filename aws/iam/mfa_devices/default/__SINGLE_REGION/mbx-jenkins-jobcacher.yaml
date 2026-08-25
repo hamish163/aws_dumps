@@ -1,0 +1,11 @@
+---
+datatype: aws.iam.mfa_devices
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-jenkins-jobcacher
+  single_region: true
+specifics:
+  MFADevices: []
+...
+

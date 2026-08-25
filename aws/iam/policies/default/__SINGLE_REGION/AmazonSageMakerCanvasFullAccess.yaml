@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonSageMakerCanvasFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonSageMakerCanvasFullAccess
+  AttachmentCount: 0
+  CreateDate: 2022-09-09 00:44:25+00:00
+  DefaultVersionId: v11
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4LG6L7ZJCN
+  PolicyName: AmazonSageMakerCanvasFullAccess
+  UpdateDate: 2024-08-16 04:35:23+00:00
+...
+

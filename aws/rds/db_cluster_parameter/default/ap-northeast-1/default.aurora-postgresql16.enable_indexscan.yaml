@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql16.enable_indexscan
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Enables the planners use of index-scan plans.
+  IsModifiable: true
+  ParameterName: enable_indexscan
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

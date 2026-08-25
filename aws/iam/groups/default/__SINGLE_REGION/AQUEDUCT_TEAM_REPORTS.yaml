@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.groups
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AQUEDUCT_TEAM_REPORTS
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:group/AQUEDUCT_TEAM_REPORTS
+  CreateDate: 2026-04-30 08:40:15+00:00
+  GroupId: AGPA4RYUCHN5RPD75C7RJ
+  GroupName: AQUEDUCT_TEAM_REPORTS
+  Path: /
+...
+

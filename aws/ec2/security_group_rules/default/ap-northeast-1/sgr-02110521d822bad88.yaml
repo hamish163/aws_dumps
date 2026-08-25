@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-02110521d822bad88
+specifics:
+  Description: Allow NFS 111/tcp from vision collector
+  FromPort: 111
+  GroupId: sg-00fc74309b12fe0bf
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0cf58cdcd3d2bf579
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-02110521d822bad88
+  Tags: []
+  ToPort: 111
+...
+

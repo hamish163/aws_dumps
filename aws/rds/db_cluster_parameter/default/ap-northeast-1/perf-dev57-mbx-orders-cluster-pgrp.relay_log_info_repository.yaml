@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev57-mbx-orders-cluster-pgrp.relay_log_info_repository
+specifics:
+  AllowedValues: FILE,TABLE
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: This option causes the server to log its relay log info to a file or
+    a table.
+  IsModifiable: true
+  ParameterName: relay_log_info_repository
+  ParameterValue: TABLE
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

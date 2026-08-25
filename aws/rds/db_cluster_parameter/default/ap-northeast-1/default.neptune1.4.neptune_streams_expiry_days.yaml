@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.neptune1.4.neptune_streams_expiry_days
+specifics:
+  AllowedValues: 1-90
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: Number of days before streams records get purged by the server
+  IsModifiable: true
+  ParameterName: neptune_streams_expiry_days
+  ParameterValue: '7'
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

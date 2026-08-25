@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonRDSPerformanceInsightsReadOnly
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonRDSPerformanceInsightsReadOnly
+  AttachmentCount: 0
+  CreateDate: 2022-04-05 00:02:08+00:00
+  DefaultVersionId: v7
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4M2AUBSW6R
+  PolicyName: AmazonRDSPerformanceInsightsReadOnly
+  UpdateDate: 2026-07-22 23:42:28+00:00
+...
+

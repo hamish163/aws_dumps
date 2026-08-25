@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: SageMakerStudioBedrockKnowledgeBaseCustomResourcePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/SageMakerStudioBedrockKnowledgeBaseCustomResourcePolicy
+  AttachmentCount: 0
+  CreateDate: 2025-02-25 03:37:06+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4F5D5DLIAH
+  PolicyName: SageMakerStudioBedrockKnowledgeBaseCustomResourcePolicy
+  UpdateDate: 2026-02-12 18:02:56+00:00
+...
+

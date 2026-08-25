@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-klines-cluster-pg.server_audit_logging
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Enables audit logging
+  IsModifiable: true
+  ParameterName: server_audit_logging
+  ParameterValue: '0'
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+  - serverless
+...
+

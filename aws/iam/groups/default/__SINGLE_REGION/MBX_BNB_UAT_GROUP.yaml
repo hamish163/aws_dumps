@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.groups
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: MBX_BNB_UAT_GROUP
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:group/MBX_BNB_UAT_GROUP
+  CreateDate: 2025-08-26 09:31:51+00:00
+  GroupId: AGPA4RYUCHN5TDXIAEQT6
+  GroupName: MBX_BNB_UAT_GROUP
+  Path: /
+...
+

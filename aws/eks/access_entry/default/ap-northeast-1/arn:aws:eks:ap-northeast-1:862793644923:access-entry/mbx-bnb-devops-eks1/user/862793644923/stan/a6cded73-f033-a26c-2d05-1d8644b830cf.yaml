@@ -1,0 +1,25 @@
+---
+datatype: aws.eks.access_entry
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:eks:ap-northeast-1:862793644923:access-entry/mbx-bnb-devops-eks1/user/862793644923/stan/a6cded73-f033-a26c-2d05-1d8644b830cf
+specifics:
+  accessEntryArn: arn:aws:eks:ap-northeast-1:862793644923:access-entry/mbx-bnb-devops-eks1/user/862793644923/stan/a6cded73-f033-a26c-2d05-1d8644b830cf
+  clusterName: mbx-bnb-devops-eks1
+  createdAt: 2026-01-20 21:16:28.196000+11:00
+  kubernetesGroups:
+  - admin
+  modifiedAt: 2026-01-20 21:16:28.196000+11:00
+  principalArn: arn:aws:iam::862793644923:user/stan
+  tags:
+    biz: mbx
+    mbx_env_name: devops
+    mbx_exchange_name: bnb
+    mbx_secret_store: none
+    stack_path: bnb/devops/eks1/cluster
+    team: mbx
+  type: STANDARD
+  username: arn:aws:iam::862793644923:user/stan
+...
+

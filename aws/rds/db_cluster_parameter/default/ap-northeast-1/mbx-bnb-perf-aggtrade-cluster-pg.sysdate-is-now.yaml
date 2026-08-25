@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-perf-aggtrade-cluster-pg.sysdate-is-now
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: boolean
+  Description: Causes SYSYDATE() to be an alias for NOW(). Replication related
+  IsModifiable: true
+  ParameterName: sysdate-is-now
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,17 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-solutions-telegrambot
+  single_region: true
+specifics:
+  Name: mbx-bnb-solutions-telegrambot
+  biz: mbx
+  mbx_clustered_application: 'true'
+  mbx_env_name: solutions
+  mbx_exchange_name: bnb
+  mbx_secret_store: none
+  team: mbx
+...
+

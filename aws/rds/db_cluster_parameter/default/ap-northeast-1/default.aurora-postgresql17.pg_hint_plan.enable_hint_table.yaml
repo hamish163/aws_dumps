@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql17.pg_hint_plan.enable_hint_table
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Force planner to not get hint by using table lookups.
+  IsModifiable: true
+  ParameterName: pg_hint_plan.enable_hint_table
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

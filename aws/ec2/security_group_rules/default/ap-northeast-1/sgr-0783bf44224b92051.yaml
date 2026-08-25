@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0783bf44224b92051
+specifics:
+  Description: trace-agent --- api-ws on 9410
+  FromPort: 9410
+  GroupId: sg-008719f077895d287
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0dd43a387e5b86c83
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0783bf44224b92051
+  Tags: []
+  ToPort: 9410
+...
+

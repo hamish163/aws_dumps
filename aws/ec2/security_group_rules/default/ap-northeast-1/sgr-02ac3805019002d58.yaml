@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-02ac3805019002d58
+specifics:
+  CidrIpv4: 172.29.0.0/16
+  Description: from tracky frankfurt
+  FromPort: 5000
+  GroupId: sg-051d10d7a77e36101
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-02ac3805019002d58
+  Tags: []
+  ToPort: 5010
+...
+

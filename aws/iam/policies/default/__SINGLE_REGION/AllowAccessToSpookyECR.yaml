@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AllowAccessToSpookyECR
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/AllowAccessToSpookyECR
+  AttachmentCount: 3
+  CreateDate: 2022-09-29 09:48:35+00:00
+  DefaultVersionId: v13
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5VCEFDXAR4
+  PolicyName: AllowAccessToSpookyECR
+  UpdateDate: 2023-06-08 14:17:36+00:00
+...
+

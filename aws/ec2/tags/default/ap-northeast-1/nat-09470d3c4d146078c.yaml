@@ -1,0 +1,13 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: nat-09470d3c4d146078c
+specifics:
+  Name: ExitVPC NatGateway2
+  aws:cloudformation:logical-id: NatGateway2
+  aws:cloudformation:stack-id: arn:aws:cloudformation:ap-northeast-1:862793644923:stack/BitdjNetwork-ExitVPC-WC4249ZZPWOY/c3a0fef0-aec2-11ed-83f3-0a7e71c04499
+  aws:cloudformation:stack-name: BitdjNetwork-ExitVPC-WC4249ZZPWOY
+...
+

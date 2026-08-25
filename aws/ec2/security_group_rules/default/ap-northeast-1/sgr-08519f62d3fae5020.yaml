@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-08519f62d3fae5020
+specifics:
+  CidrIpv4: 10.170.32.0/21
+  Description: colo-perf VPC to mbx-bnb-perf wsp
+  FromPort: 9080
+  GroupId: sg-0e58e7aa1dd71c589
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-08519f62d3fae5020
+  Tags: []
+  ToPort: 9080
+...
+

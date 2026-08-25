@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql16.cron.use_background_workers
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: Enables background workers for pg_cron
+  IsModifiable: false
+  ParameterName: cron.use_background_workers
+  ParameterValue: 'on'
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

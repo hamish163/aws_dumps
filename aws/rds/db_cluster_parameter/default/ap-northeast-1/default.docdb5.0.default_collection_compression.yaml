@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.docdb5.0.default_collection_compression
+specifics:
+  AllowedValues: enabled,disabled
+  ApplyMethod: immediate
+  ApplyType: dynamic
+  DataType: string
+  Description: Default document compression setting for new collections in cluster
+  IsModifiable: true
+  MinimumEngineVersion: 5.0.0
+  ParameterName: default_collection_compression
+  ParameterValue: disabled
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

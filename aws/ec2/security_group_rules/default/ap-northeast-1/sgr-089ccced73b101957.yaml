@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-089ccced73b101957
+specifics:
+  Description: Allow TCP traffic from mgmt-api SG on port 11211
+  FromPort: 11211
+  GroupId: sg-082869133b107f103
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0cb2d15d2f23065d8
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-089ccced73b101957
+  Tags: []
+  ToPort: 11211
+...
+

@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql16.hot_standby_feedback
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Allows feedback from a hot standby to the primary that will avoid query
+    conflicts.
+  IsModifiable: false
+  ParameterName: hot_standby_feedback
+  ParameterValue: 'on'
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

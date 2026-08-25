@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-050a6fd9ca6e7f45a
+specifics:
+  CidrIpv4: 3.227.163.129/32
+  Description: US NAT
+  FromPort: 443
+  GroupId: sg-0cb6fedc598fc589c
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-050a6fd9ca6e7f45a
+  Tags: []
+  ToPort: 443
+...
+

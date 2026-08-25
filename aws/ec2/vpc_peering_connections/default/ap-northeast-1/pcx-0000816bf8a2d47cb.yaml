@@ -1,0 +1,32 @@
+---
+datatype: aws.ec2.vpc_peering_connections
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: pcx-0000816bf8a2d47cb
+specifics:
+  AccepterVpcInfo:
+    CidrBlock: 10.0.0.0/16
+    CidrBlockSet:
+    - CidrBlock: 10.0.0.0/16
+    OwnerId: '862793644923'
+    PeeringOptions:
+      AllowDnsResolutionFromRemoteVpc: false
+      AllowEgressFromLocalClassicLinkToRemoteVpc: false
+      AllowEgressFromLocalVpcToRemoteClassicLink: false
+    Region: ap-northeast-1
+    VpcId: vpc-03543e019e5fc8fbf
+  RequesterVpcInfo:
+    CidrBlock: 10.80.0.0/16
+    CidrBlockSet:
+    - CidrBlock: 10.80.0.0/16
+    OwnerId: '369096419186'
+    Region: ap-northeast-1
+    VpcId: vpc-029b4f4077bf50002
+  Status:
+    Code: active
+    Message: Active
+  Tags: []
+  VpcPeeringConnectionId: pcx-0000816bf8a2d47cb
+...
+

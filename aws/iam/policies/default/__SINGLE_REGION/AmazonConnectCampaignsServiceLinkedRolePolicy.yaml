@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonConnectCampaignsServiceLinkedRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AmazonConnectCampaignsServiceLinkedRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2021-09-23 20:54:26+00:00
+  DefaultVersionId: v5
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4PT3AZPOPK
+  PolicyName: AmazonConnectCampaignsServiceLinkedRolePolicy
+  UpdateDate: 2026-06-18 23:12:23+00:00
+...
+

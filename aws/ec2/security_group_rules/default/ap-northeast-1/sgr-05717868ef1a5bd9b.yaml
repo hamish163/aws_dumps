@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-05717868ef1a5bd9b
+specifics:
+  Description: Allow TCP traffic from demo-key-shovel SG to demo-common-db database
+  FromPort: 3306
+  GroupId: sg-0b15dea3b15f470d4
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-000bbaeed56a2c8c5
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-05717868ef1a5bd9b
+  Tags: []
+  ToPort: 3306
+...
+

@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-05fe362d888cac5ba
+specifics:
+  CidrIpv4: 18.182.180.60/32
+  Description: UAT2 TLS
+  FromPort: 443
+  GroupId: sg-02d4019b206d948d9
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-05fe362d888cac5ba
+  Tags: []
+  ToPort: 443
+...
+

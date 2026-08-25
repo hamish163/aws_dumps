@@ -1,0 +1,29 @@
+---
+datatype: aws.iam.account_authorization_details
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: alexh
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/alexh
+  AttachedManagedPolicies: []
+  CreateDate: 2026-04-08 10:11:12+00:00
+  GroupList:
+  - developer
+  - mbx_bedrock
+  - AQUEDUCT_TEAM_REPORTS
+  Path: /
+  Tags:
+  - Key: mbx_iam
+    Value: alexh
+  - Key: mbx_team
+    Value: dev
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  UserId: AIDA4RYUCHN5RF7MLRKIP
+  UserName: alexh
+...
+

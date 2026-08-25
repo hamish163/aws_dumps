@@ -1,0 +1,22 @@
+---
+datatype: aws.elbv2.target_group_attributes
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-perf-fix-sbe-md-tg/16132140f81a7f76
+specifics:
+  deregistration_delay.connection_termination.enabled: 'false'
+  deregistration_delay.timeout_seconds: '300'
+  load_balancing.cross_zone.enabled: use_load_balancer_configuration
+  preserve_client_ip.enabled: 'true'
+  proxy_protocol_v2.enabled: 'false'
+  stickiness.enabled: 'false'
+  stickiness.type: source_ip
+  target_group_health.dns_failover.minimum_healthy_targets.count: '1'
+  target_group_health.dns_failover.minimum_healthy_targets.percentage: 'off'
+  target_group_health.unhealthy_state_routing.minimum_healthy_targets.count: '1'
+  target_group_health.unhealthy_state_routing.minimum_healthy_targets.percentage: 'off'
+  target_health_state.unhealthy.connection_termination.enabled: 'false'
+  target_health_state.unhealthy.draining_interval_seconds: '0'
+...
+

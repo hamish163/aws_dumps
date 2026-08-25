@@ -1,0 +1,16 @@
+---
+datatype: aws.elbv2.target_health
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-devops-alertmanager-tg/15277e16ca7e9a5e
+specifics:
+  TargetHealthDescriptions:
+    i-0cd42602b4a5bdc5d/9093:
+      HealthCheckPort: '9093'
+      Target:
+        Id: i-0cd42602b4a5bdc5d
+        Port: 9093
+  _arn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-devops-alertmanager-tg/15277e16ca7e9a5e
+...
+

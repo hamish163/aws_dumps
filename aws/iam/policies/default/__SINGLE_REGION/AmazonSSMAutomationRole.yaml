@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonSSMAutomationRole
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AmazonSSMAutomationRole
+  AttachmentCount: 0
+  CreateDate: 2016-12-05 22:09:55+00:00
+  DefaultVersionId: v9
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJIBQCTBCXD2XRNB6W
+  PolicyName: AmazonSSMAutomationRole
+  UpdateDate: 2026-03-20 17:42:14+00:00
+...
+

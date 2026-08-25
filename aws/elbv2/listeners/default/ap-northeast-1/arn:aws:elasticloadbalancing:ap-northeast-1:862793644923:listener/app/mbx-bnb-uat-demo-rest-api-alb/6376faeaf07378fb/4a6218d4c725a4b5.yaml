@@ -1,0 +1,23 @@
+---
+datatype: aws.elbv2.listeners
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener/app/mbx-bnb-uat-demo-rest-api-alb/6376faeaf07378fb/4a6218d4c725a4b5
+specifics:
+  DefaultActions:
+  - ForwardConfig:
+      TargetGroupStickinessConfig:
+        Enabled: false
+      TargetGroups:
+      - TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-uat-demo-rest-api-tg/82dcb4e3e4039262
+        Weight: 1
+    Order: 1
+    TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-uat-demo-rest-api-tg/82dcb4e3e4039262
+    Type: forward
+  ListenerArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener/app/mbx-bnb-uat-demo-rest-api-alb/6376faeaf07378fb/4a6218d4c725a4b5
+  LoadBalancerArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:loadbalancer/app/mbx-bnb-uat-demo-rest-api-alb/6376faeaf07378fb
+  Port: 4567
+  Protocol: HTTP
+...
+

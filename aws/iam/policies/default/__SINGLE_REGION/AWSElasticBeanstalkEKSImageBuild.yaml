@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSElasticBeanstalkEKSImageBuild
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSElasticBeanstalkEKSImageBuild
+  AttachmentCount: 0
+  CreateDate: 2026-07-02 21:27:26+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4IZOIN3V6O
+  PolicyName: AWSElasticBeanstalkEKSImageBuild
+  UpdateDate: 2026-07-02 21:27:26+00:00
+...
+

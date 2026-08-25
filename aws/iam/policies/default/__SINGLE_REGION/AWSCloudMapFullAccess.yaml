@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSCloudMapFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSCloudMapFullAccess
+  AttachmentCount: 0
+  CreateDate: 2018-11-28 23:57:31+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIZPIMAQZJS3WUXUJM
+  PolicyName: AWSCloudMapFullAccess
+  UpdateDate: 2020-07-29 19:15:35+00:00
+...
+

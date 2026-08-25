@@ -1,0 +1,18 @@
+---
+datatype: aws.iam.attached_user_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: paula
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/lambda-access-role-for-github-metrics
+    PolicyName: lambda-access-role-for-github-metrics
+  - PolicyArn: arn:aws:iam::862793644923:policy/mbx-billing-dashboards-ro
+    PolicyName: mbx-billing-dashboards-ro
+  - PolicyArn: arn:aws:iam::aws:policy/AWSBillingReadOnlyAccess
+    PolicyName: AWSBillingReadOnlyAccess
+  _UserName: paula
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-commission-attribution-cluster-pg.transaction_alloc_block_size
+specifics:
+  AllowedValues: 1024-18446744073709547520
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: The amount in bytes by which to increase a per-transaction memory pool
+    which needs memory.
+  IsModifiable: true
+  ParameterName: transaction_alloc_block_size
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

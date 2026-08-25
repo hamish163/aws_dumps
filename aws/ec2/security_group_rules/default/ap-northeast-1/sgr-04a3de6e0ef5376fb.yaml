@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-04a3de6e0ef5376fb
+specifics:
+  CidrIpv4: 10.0.0.0/8
+  Description: from new split vpn
+  FromPort: 443
+  GroupId: sg-03b9b410ea56a4282
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-04a3de6e0ef5376fb
+  Tags: []
+  ToPort: 443
+...
+

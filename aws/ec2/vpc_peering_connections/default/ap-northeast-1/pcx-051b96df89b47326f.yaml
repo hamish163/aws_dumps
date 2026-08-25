@@ -1,0 +1,46 @@
+---
+datatype: aws.ec2.vpc_peering_connections
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: pcx-051b96df89b47326f
+specifics:
+  AccepterVpcInfo:
+    CidrBlock: 10.170.16.0/20
+    CidrBlockSet:
+    - CidrBlock: 10.170.16.0/20
+    OwnerId: '862793644923'
+    PeeringOptions:
+      AllowDnsResolutionFromRemoteVpc: false
+      AllowEgressFromLocalClassicLinkToRemoteVpc: false
+      AllowEgressFromLocalVpcToRemoteClassicLink: false
+    Region: ap-northeast-1
+    VpcId: vpc-013930e589c469574
+  RequesterVpcInfo:
+    CidrBlock: 10.170.32.0/21
+    CidrBlockSet:
+    - CidrBlock: 10.170.32.0/21
+    OwnerId: '862793644923'
+    PeeringOptions:
+      AllowDnsResolutionFromRemoteVpc: false
+      AllowEgressFromLocalClassicLinkToRemoteVpc: false
+      AllowEgressFromLocalVpcToRemoteClassicLink: false
+    Region: ap-northeast-1
+    VpcId: vpc-0e8d78d562c500d57
+  Status:
+    Code: active
+    Message: Active
+  Tags:
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  - Key: Name
+    Value: mbx-bnb-colo-perf-to-mbx-bnb-perf
+  - Key: mbx_env_name
+    Value: colo-perf
+  VpcPeeringConnectionId: pcx-051b96df89b47326f
+...
+

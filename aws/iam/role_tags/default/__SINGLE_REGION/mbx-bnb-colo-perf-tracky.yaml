@@ -1,0 +1,19 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-colo-perf-tracky
+  single_region: true
+specifics:
+  Name: mbx-bnb-colo-perf-tracky
+  biz: mbx
+  mbx_application_name: mbx-tracky
+  mbx_env_name: colo-perf
+  mbx_exchange_name: bnb
+  mbx_secret_store: none
+  sre-app: tracky
+  sre-env: colo-perf
+  team: mbx
+...
+

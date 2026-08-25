@@ -1,0 +1,26 @@
+---
+datatype: aws.elbv2.load_balancers
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-perf-shim-api-alb
+specifics:
+  AvailabilityZones:
+  - LoadBalancerAddresses: []
+    SubnetId: subnet-0948699b8436c70dc
+    ZoneName: ap-northeast-1c
+  CanonicalHostedZoneId: Z14GRHDCWA56QT
+  CreatedTime: 2024-10-23 08:37:39.484000+00:00
+  DNSName: internal-mbx-bnb-perf-shim-api-alb-705553120.ap-northeast-1.elb.amazonaws.com
+  IpAddressType: ipv4
+  LoadBalancerArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:loadbalancer/app/mbx-bnb-perf-shim-api-alb/5687214603a3a0c5
+  LoadBalancerName: mbx-bnb-perf-shim-api-alb
+  Scheme: internal
+  SecurityGroups:
+  - sg-0f276e81ef8f77bf0
+  State:
+    Code: active
+  Type: application
+  VpcId: vpc-013930e589c469574
+...
+

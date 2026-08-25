@@ -1,0 +1,25 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-06d8aeb750f984392
+specifics:
+  Description: EKS created security group applied to ENI that is attached to EKS Control
+    Plane master nodes, as well as any managed workloads.
+  GroupId: sg-06d8aeb750f984392
+  GroupName: mbx-bnb-devops-jenkins_eks
+  Tags:
+  - Key: biz
+    Value: mbx
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  - Key: mbx_env_name
+    Value: devops
+  - Key: mbx_secret_store
+    Value: none
+  VpcId: vpc-07519eb63f1d932ac
+...
+

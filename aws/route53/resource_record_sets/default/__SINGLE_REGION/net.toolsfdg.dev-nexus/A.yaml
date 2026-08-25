@@ -1,0 +1,16 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: net.toolsfdg.dev-nexus/A
+  single_region: true
+specifics:
+  AliasTarget:
+    DNSName: vpce-03592a37f77634e04-8u06bq5b.vpce-svc-0d56d9b40dc6bd335.ap-northeast-1.vpce.amazonaws.com.
+    EvaluateTargetHealth: true
+    HostedZoneId: Z2E726K9Y6RL4W
+  Name: dev-nexus.toolsfdg.net.
+  Type: A
+...
+

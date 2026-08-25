@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-devops-common-cluster-pg.myisam_mmap_size
+specifics:
+  AllowedValues: 7-922337203685477807
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: Maximum amount of memory to use for memory mapping compressed MyISAM
+    files
+  IsModifiable: true
+  ParameterName: myisam_mmap_size
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,26 @@
+---
+datatype: aws.eks.addon
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: aws-ebs-csi-driver
+specifics:
+  addonArn: arn:aws:eks:ap-northeast-1:862793644923:addon/mbx-bnb-sre-emu/aws-ebs-csi-driver/40cf53bf-7469-0e90-a288-2321c0168a6b
+  addonName: aws-ebs-csi-driver
+  addonVersion: v1.62.0-eksbuild.1
+  clusterName: mbx-bnb-sre-emu
+  createdAt: 2026-06-08 23:49:33.023000+10:00
+  health:
+    issues: []
+  modifiedAt: 2026-07-10 09:08:30.510000+10:00
+  serviceAccountRoleArn: arn:aws:iam::862793644923:role/mbx-bnb-sre-emu-ebs-csi
+  status: ACTIVE
+  tags:
+    biz: mbx
+    mbx_env_name: sre
+    mbx_exchange_name: bnb
+    mbx_secret_store: none
+    stack_path: bnb/sre/eks/emu/cluster
+    team: mbx
+...
+

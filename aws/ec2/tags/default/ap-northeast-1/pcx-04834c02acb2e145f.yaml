@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: pcx-04834c02acb2e145f
+specifics:
+  Name: prod-gw-bastion-to-usa-prod
+...
+

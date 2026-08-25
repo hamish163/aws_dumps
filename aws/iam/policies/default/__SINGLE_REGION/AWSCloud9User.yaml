@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSCloud9User
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSCloud9User
+  AttachmentCount: 0
+  CreateDate: 2017-11-30 16:16:17+00:00
+  DefaultVersionId: v12
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJPFGFWQF67QVARP6U
+  PolicyName: AWSCloud9User
+  UpdateDate: 2026-02-12 18:00:52+00:00
+...
+

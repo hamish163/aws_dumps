@@ -1,0 +1,13 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-03b9b410ea56a4282
+specifics:
+  Description: redmine.bitdj.com
+  GroupId: sg-03b9b410ea56a4282
+  GroupName: redmine.bitdj.com
+  VpcId: vpc-0c91879d6f0ffa921
+...
+

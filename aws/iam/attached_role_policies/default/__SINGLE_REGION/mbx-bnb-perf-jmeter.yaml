@@ -1,0 +1,27 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-perf-jmeter
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/ro-s3-jenkins
+    PolicyName: ro-s3-jenkins
+  - PolicyArn: arn:aws:iam::862793644923:policy/mbx-bnb-perf-ecr-push-qa-thunder
+    PolicyName: mbx-bnb-perf-ecr-push-qa-thunder
+  - PolicyArn: arn:aws:iam::862793644923:policy/mbx-bnb-perf-jmeter-master-cf
+    PolicyName: mbx-bnb-perf-jmeter-master-cf
+  - PolicyArn: arn:aws:iam::862793644923:policy/rw-asm-bnb-perf-default
+    PolicyName: rw-asm-bnb-perf-default
+  - PolicyArn: arn:aws:iam::862793644923:policy/bnb-perf-mbx-s3-bucket
+    PolicyName: bnb-perf-mbx-s3-bucket
+  - PolicyArn: arn:aws:iam::862793644923:policy/rw-asm-bnb-perf
+    PolicyName: rw-asm-bnb-perf
+  - PolicyArn: arn:aws:iam::862793644923:policy/vizzy-ingest-bnb-perf
+    PolicyName: vizzy-ingest-bnb-perf
+  - PolicyArn: arn:aws:iam::aws:policy/AWSCloudFormationFullAccess
+    PolicyName: AWSCloudFormationFullAccess
+...
+

@@ -1,0 +1,28 @@
+---
+datatype: aws.ec2.launch_templates
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: lt-0e21c7e492785dcfa
+specifics:
+  CreateTime: 2026-07-09 22:54:54+00:00
+  CreatedBy: arn:aws:iam::862793644923:user/tom
+  DefaultVersionNumber: 1
+  LatestVersionNumber: 1
+  LaunchTemplateId: lt-0e21c7e492785dcfa
+  LaunchTemplateName: mbx-bnb-sre-emu-generic-20260710
+  Tags:
+  - Key: mbx_env_name
+    Value: sre
+  - Key: biz
+    Value: mbx
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  - Key: stack_path
+    Value: bnb/sre/eks/emu/cluster
+  - Key: mbx_secret_store
+    Value: none
+...
+

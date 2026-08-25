@@ -1,0 +1,42 @@
+---
+datatype: aws.ec2.volumes
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-0f6373ab5cd762be8
+specifics:
+  Attachments:
+  - AttachTime: 2026-03-13 05:56:06+00:00
+    DeleteOnTermination: true
+    Device: /dev/xvda
+    InstanceId: i-097bdafe1a0f65e88
+    State: attached
+    VolumeId: vol-0f6373ab5cd762be8
+  AvailabilityZone: ap-northeast-1a
+  CreateTime: 2026-03-13 05:56:06.383000+00:00
+  Encrypted: false
+  Iops: 3000
+  MultiAttachEnabled: false
+  Size: 40
+  SnapshotId: snap-07b6ad77fbe457ef6
+  State: in-use
+  Tags:
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  - Key: mbx_host_index
+    Value: '2'
+  - Key: Name
+    Value: mbx-bnb-uat-blaster-engine-directed2
+  - Key: mbx_secret_store
+    Value: asm
+  - Key: mbx_env_name
+    Value: uat
+  Throughput: 125
+  VolumeId: vol-0f6373ab5cd762be8
+  VolumeType: gp3
+...
+

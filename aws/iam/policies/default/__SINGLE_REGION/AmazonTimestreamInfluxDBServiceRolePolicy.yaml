@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonTimestreamInfluxDBServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AmazonTimestreamInfluxDBServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2024-03-14 18:53:21+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4B2SEIHEWQ
+  PolicyName: AmazonTimestreamInfluxDBServiceRolePolicy
+  UpdateDate: 2026-07-20 18:27:24+00:00
+...
+

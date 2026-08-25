@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0c3962a9971fc5a08
+specifics:
+  Name: grafana-server
+...
+

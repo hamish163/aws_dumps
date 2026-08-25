@@ -1,0 +1,27 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-07cddf6c309d8dc1f
+specifics:
+  Description: Allows orderbook service to consume live market data and order events
+    on port 9093
+  GroupId: sg-07cddf6c309d8dc1f
+  GroupName: mbx-bnb-solutions-kafka-vpce
+  Tags:
+  - Key: team
+    Value: mbx
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: Name
+    Value: mbx-bnb-solutions-kafka-vpce
+  - Key: mbx_env_name
+    Value: solutions
+  - Key: mbx_secret_store
+    Value: none
+  - Key: biz
+    Value: mbx
+  VpcId: vpc-0218545ff4351ce04
+...
+

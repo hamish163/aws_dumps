@@ -1,0 +1,13 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: ec2_maintaince_events-role-izoiyrgr
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/service-role/AWSLambdaBasicExecutionRole-029c6cd2-85fc-487c-9127-e9c6123a1e3a
+    PolicyName: AWSLambdaBasicExecutionRole-029c6cd2-85fc-487c-9127-e9c6123a1e3a
+...
+

@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: tracky-pagerduty-event-ingestion-role-dbuu5xs6
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/service-role/AWSLambdaBasicExecutionRole-78c28877-480f-453e-8e09-b891c0017624
+    PolicyName: AWSLambdaBasicExecutionRole-78c28877-480f-453e-8e09-b891c0017624
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonKinesisFullAccess
+    PolicyName: AmazonKinesisFullAccess
+...
+

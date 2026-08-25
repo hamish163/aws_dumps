@@ -1,0 +1,13 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-0a7d4370232a463db
+specifics:
+  Name: tungsten-cicd
+  aws:cloudformation:logical-id: Instance
+  aws:cloudformation:stack-id: arn:aws:cloudformation:ap-northeast-1:862793644923:stack/pod-jenkins-slave-base-df1e082d-2540-4221-adf9-6dd9791dde-1pzp4/183d6e80-8b5b-11f1-bdd8-0652ec77ceb5
+  aws:cloudformation:stack-name: pod-jenkins-slave-base-df1e082d-2540-4221-adf9-6dd9791dde-1pzp4
+...
+

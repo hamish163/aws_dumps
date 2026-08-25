@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vpce-05ed25f59a8ca6dfa
+specifics:
+  Name: mbx-bnb-prod-tracky-to-cloudwatch-logs
+  biz: mbx
+  mbx_env_name: prod
+  mbx_exchange_name: bnb
+  sre-env: prod
+  team: sre
+...
+

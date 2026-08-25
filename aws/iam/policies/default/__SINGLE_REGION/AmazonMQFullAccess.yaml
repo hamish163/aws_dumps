@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonMQFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonMQFullAccess
+  AttachmentCount: 0
+  CreateDate: 2017-11-28 15:28:29+00:00
+  DefaultVersionId: v5
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJLKBROJNQYDDXOOGG
+  PolicyName: AmazonMQFullAccess
+  UpdateDate: 2020-11-04 16:34:09+00:00
+...
+

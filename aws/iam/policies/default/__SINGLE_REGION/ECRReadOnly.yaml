@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: ECRReadOnly
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/ECRReadOnly
+  AttachmentCount: 2
+  CreateDate: 2019-04-18 05:46:00+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN53CQXCFD44
+  PolicyName: ECRReadOnly
+  UpdateDate: 2020-01-29 04:40:34+00:00
+...
+

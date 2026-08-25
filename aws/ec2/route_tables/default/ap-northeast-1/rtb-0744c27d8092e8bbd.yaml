@@ -1,0 +1,42 @@
+---
+datatype: aws.ec2.route_tables
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rtb-0744c27d8092e8bbd
+specifics:
+  Associations:
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-07d63c5bedc0a2346
+    RouteTableId: rtb-0744c27d8092e8bbd
+    SubnetId: subnet-0bc802ffcc408cd32
+  OwnerId: '862793644923'
+  PropagatingVgws: []
+  RouteTableId: rtb-0744c27d8092e8bbd
+  Routes:
+  - DestinationCidrBlock: 10.12.1.0/24
+    GatewayId: local
+    Origin: CreateRouteTable
+    State: active
+  - DestinationCidrBlock: 10.0.0.0/8
+    Origin: CreateRoute
+    State: active
+    TransitGatewayId: tgw-094ec8a8749ab72d4
+  - DestinationCidrBlock: 0.0.0.0/0
+    NatGatewayId: nat-09470d3c4d146078c
+    Origin: CreateRoute
+    State: active
+  Tags:
+  - Key: aws:cloudformation:logical-id
+    Value: AttachmentRouteTable2
+  - Key: aws:cloudformation:stack-id
+    Value: arn:aws:cloudformation:ap-northeast-1:862793644923:stack/BitdjNetwork-ExitVPC-WC4249ZZPWOY/c3a0fef0-aec2-11ed-83f3-0a7e71c04499
+  - Key: Name
+    Value: ExitVPC AttachmentRouteTable2
+  - Key: aws:cloudformation:stack-name
+    Value: BitdjNetwork-ExitVPC-WC4249ZZPWOY
+  VpcId: vpc-001ab708836aeeb75
+...
+

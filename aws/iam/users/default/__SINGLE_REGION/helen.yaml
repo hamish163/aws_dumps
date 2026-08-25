@@ -1,0 +1,16 @@
+---
+datatype: aws.iam.users
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: helen
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/helen
+  CreateDate: 2024-11-22 06:43:53+00:00
+  PasswordLastUsed: 2026-07-17 06:03:00+00:00
+  Path: /
+  UserId: AIDA4RYUCHN5VK4CM7QVY
+  UserName: helen
+...
+

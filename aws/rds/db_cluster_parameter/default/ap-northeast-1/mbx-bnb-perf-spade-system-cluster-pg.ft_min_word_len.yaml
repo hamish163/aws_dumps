@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-perf-spade-system-cluster-pg.ft_min_word_len
+specifics:
+  AllowedValues: 1-84
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: Minimum length of the word to be included in a FULLTEXT index.
+  IsModifiable: true
+  ParameterName: ft_min_word_len
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

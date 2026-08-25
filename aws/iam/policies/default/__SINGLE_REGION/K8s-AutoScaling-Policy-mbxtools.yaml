@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: K8s-AutoScaling-Policy-mbxtools
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/K8s-AutoScaling-Policy-mbxtools
+  AttachmentCount: 2
+  CreateDate: 2020-08-20 09:29:15+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5W46AHL4R5
+  PolicyName: K8s-AutoScaling-Policy-mbxtools
+  UpdateDate: 2020-08-20 09:29:15+00:00
+...
+

@@ -1,0 +1,44 @@
+---
+datatype: aws.iam.account_authorization_details
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: amer
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/amer
+  AttachedManagedPolicies: []
+  CreateDate: 2025-04-15 04:18:59+00:00
+  GroupList:
+  - QA_PERF_TEAM
+  - QA_TEAM
+  - mbx_bedrock
+  - MBX_EVERYONE_TEAM
+  - qa
+  Path: /
+  Tags:
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  - Key: mbx_iam
+    Value: amer
+  - Key: mbx_team
+    Value: qa
+  UserId: AIDA4RYUCHN55X7CJODK2
+  UserName: amer
+  UserPolicyList:
+  - PolicyDocument:
+      Statement:
+      - Action:
+        - '*'
+        Condition:
+          DateLessThan:
+            aws:TokenIssueTime: '2026-04-15T05:42:19.344Z'
+        Effect: Deny
+        Resource:
+        - '*'
+      Version: '2012-10-17'
+    PolicyName: AWSRevokeOlderSessions
+...
+

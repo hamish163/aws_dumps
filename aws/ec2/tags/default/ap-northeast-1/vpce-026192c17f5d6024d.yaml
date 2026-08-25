@@ -1,0 +1,13 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vpce-026192c17f5d6024d
+specifics:
+  Name: comply-traefik
+  endpoint owner: Binance DevOps
+  team: mbx
+  user: SRE
+...
+

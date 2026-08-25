@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: IAMReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/IAMReadOnlyAccess
+  AttachmentCount: 3
+  CreateDate: 2015-02-06 18:40:39+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJKSO7NDY4T57MWDSQ
+  PolicyName: IAMReadOnlyAccess
+  UpdateDate: 2018-01-25 19:11:27+00:00
+...
+

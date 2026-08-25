@@ -1,0 +1,16 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-034bb6b6871899bfc
+specifics:
+  Name: mbx-bnb-uat-wsp-sbe1
+  biz: mbx
+  mbx_application_name: mbx-data-wsp
+  mbx_env_name: uat
+  mbx_exchange_name: bnb
+  mbx_secret_store: none
+  team: mbx
+...
+

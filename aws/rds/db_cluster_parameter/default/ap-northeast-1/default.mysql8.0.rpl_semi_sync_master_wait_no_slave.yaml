@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.rpl_semi_sync_master_wait_no_slave
+specifics:
+  AllowedValues: ON,OFF
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Controls whether the master waits for the timeout period if slave count
+    drops to 0.
+  IsModifiable: false
+  ParameterName: rpl_semi_sync_master_wait_no_slave
+  ParameterValue: '{waitForReadReplicas}'
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

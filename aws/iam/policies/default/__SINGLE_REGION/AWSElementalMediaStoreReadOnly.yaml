@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSElementalMediaStoreReadOnly
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSElementalMediaStoreReadOnly
+  AttachmentCount: 0
+  CreateDate: 2018-03-08 19:48:22+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAI4EFXRATQYOFTAEFM
+  PolicyName: AWSElementalMediaStoreReadOnly
+  UpdateDate: 2018-03-08 19:48:22+00:00
+...
+

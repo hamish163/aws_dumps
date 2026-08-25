@@ -1,0 +1,14 @@
+---
+datatype: aws.iam.mfa_devices
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: nicole
+  single_region: true
+specifics:
+  MFADevices:
+  - EnableDate: 2019-08-16 06:53:12+00:00
+    SerialNumber: arn:aws:iam::862793644923:mfa/nicole
+    UserName: nicole
+...
+

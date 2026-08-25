@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-kline-cluster-pg.internal_tmp_mem_storage_engine
+specifics:
+  AllowedValues: TempTable,MEMORY
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Controls which in-memory storage engine is used for internal temporary
+    tables
+  IsModifiable: true
+  ParameterName: internal_tmp_mem_storage_engine
+  ParameterValue: TempTable
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

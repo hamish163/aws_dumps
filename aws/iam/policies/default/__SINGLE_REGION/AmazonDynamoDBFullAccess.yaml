@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonDynamoDBFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonDynamoDBFullAccess
+  AttachmentCount: 2
+  CreateDate: 2015-02-06 18:40:11+00:00
+  DefaultVersionId: v15
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAINUGF2JSOSUY76KYA
+  PolicyName: AmazonDynamoDBFullAccess
+  UpdateDate: 2021-01-29 17:38:30+00:00
+...
+

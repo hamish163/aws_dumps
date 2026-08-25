@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonDevOpsGuruReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonDevOpsGuruReadOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2020-12-01 16:34:40+00:00
+  DefaultVersionId: v6
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4JK4QO3QK6
+  PolicyName: AmazonDevOpsGuruReadOnlyAccess
+  UpdateDate: 2022-08-25 18:11:21+00:00
+...
+

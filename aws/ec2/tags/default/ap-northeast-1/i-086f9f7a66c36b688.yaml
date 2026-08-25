@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-086f9f7a66c36b688
+specifics:
+  Name: bnb_testnet_mbx_ops
+  env: prod
+  mbx_env_name: testnet
+  mbx_exchange_name: bnb
+  name: bnb_testnet_mbx_ops
+  team: mbx
+...
+

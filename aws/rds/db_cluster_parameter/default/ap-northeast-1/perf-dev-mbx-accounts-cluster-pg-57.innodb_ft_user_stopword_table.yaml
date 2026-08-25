@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-accounts-cluster-pg-57.innodb_ft_user_stopword_table
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Name of the table containing a list of words to ignore when creating
+    an InnoDB FULLTEXT index, in the format db_name/table_name.
+  IsModifiable: true
+  ParameterName: innodb_ft_user_stopword_table
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

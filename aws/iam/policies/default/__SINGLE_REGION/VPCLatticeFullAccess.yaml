@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: VPCLatticeFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/VPCLatticeFullAccess
+  AttachmentCount: 0
+  CreateDate: 2023-03-30 02:49:02+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4MMVKZLVVN
+  PolicyName: VPCLatticeFullAccess
+  UpdateDate: 2026-02-12 17:57:35+00:00
+...
+

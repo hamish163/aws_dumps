@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.session_track_transaction_info
+specifics:
+  AllowedValues: OFF,STATE,CHARACTERISTICS
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Track changes to the transaction attributes.
+  IsModifiable: true
+  ParameterName: session_track_transaction_info
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

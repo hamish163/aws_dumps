@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rtb-04349d8110abbc8d1
+specifics:
+  Name: solution_infra_sol1_external_rt
+  env: infra
+  project: sol1
+...
+

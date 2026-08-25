@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonWorkMailMessageFlowReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonWorkMailMessageFlowReadOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2021-01-28 12:40:08+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4M6UETQLYG
+  PolicyName: AmazonWorkMailMessageFlowReadOnlyAccess
+  UpdateDate: 2021-01-28 12:40:08+00:00
+...
+

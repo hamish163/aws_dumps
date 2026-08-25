@@ -1,0 +1,16 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-038f10b23e3090d5a
+specifics:
+  Name: mbx-bnb-perf-trade-cache
+  biz: mbx
+  mbx_application_name: mbx-data-trade-cache
+  mbx_env_name: perf
+  mbx_exchange_name: bnb
+  mbx_secret_store: asm
+  team: mbx
+...
+

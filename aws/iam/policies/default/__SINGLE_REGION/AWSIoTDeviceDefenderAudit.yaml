@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSIoTDeviceDefenderAudit
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderAudit
+  AttachmentCount: 0
+  CreateDate: 2018-07-18 21:17:40+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJKUN6OAGIHZ66TRKO
+  PolicyName: AWSIoTDeviceDefenderAudit
+  UpdateDate: 2019-11-25 23:52:43+00:00
+...
+

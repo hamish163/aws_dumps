@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-orders-cluster-pg-default.slow_launch_time
+specifics:
+  AllowedValues: 0-31536000
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Increments Slow_launch_threads if creating thread takes longer than
+    this many seconds.
+  IsModifiable: true
+  ParameterName: slow_launch_time
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

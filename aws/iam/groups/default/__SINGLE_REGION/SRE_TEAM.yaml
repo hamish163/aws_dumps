@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.groups
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: SRE_TEAM
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:group/SRE_TEAM
+  CreateDate: 2023-01-24 06:49:24+00:00
+  GroupId: AGPA4RYUCHN55GHA35HV3
+  GroupName: SRE_TEAM
+  Path: /
+...
+

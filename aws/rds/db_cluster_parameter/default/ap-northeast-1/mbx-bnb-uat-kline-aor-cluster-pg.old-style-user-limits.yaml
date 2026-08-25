@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-kline-aor-cluster-pg.old-style-user-limits
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: boolean
+  Description: Enable old-style user limits.
+  IsModifiable: true
+  ParameterName: old-style-user-limits
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

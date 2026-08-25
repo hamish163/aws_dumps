@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: lumber-athena-start-query-execution
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/lumber-lambda-start-query-execution
+    PolicyName: lumber-lambda-start-query-execution
+  - PolicyArn: arn:aws:iam::862793644923:policy/lumber-write-to-aws-athena-partition-create-query-result
+    PolicyName: lumber-write-to-aws-athena-partition-create-query-result
+...
+

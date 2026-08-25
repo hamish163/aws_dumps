@@ -1,0 +1,80 @@
+---
+datatype: aws.rds.db_cluster
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-spot-aqueduct-papers-db-c1
+specifics:
+  ActivityStreamStatus: stopped
+  AllocatedStorage: 1
+  AssociatedRoles: []
+  AutoMinorVersionUpgrade: false
+  AvailabilityZones:
+  - ap-northeast-1c
+  - ap-northeast-1d
+  - ap-northeast-1a
+  BackupRetentionPeriod: 7
+  ClusterCreateTime: 2026-07-06 03:50:39.833000+00:00
+  CopyTagsToSnapshot: true
+  CrossAccountClone: false
+  DBClusterArn: arn:aws:rds:ap-northeast-1:862793644923:cluster:mbx-bnb-uat-spot-aqueduct-papers-db-c1
+  DBClusterIdentifier: mbx-bnb-uat-spot-aqueduct-papers-db-c1
+  DBClusterMembers:
+  - DBClusterParameterGroupStatus: in-sync
+    DBInstanceIdentifier: mbx-bnb-uat-spot-aqueduct-papers-db-c1-reader2
+    IsClusterWriter: false
+    PromotionTier: 1
+  - DBClusterParameterGroupStatus: in-sync
+    DBInstanceIdentifier: mbx-bnb-uat-spot-aqueduct-papers-db-c1-writer
+    IsClusterWriter: true
+    PromotionTier: 0
+  DBClusterParameterGroup: mbx-bnb-uat-spot-aqueduct-papers-cluster-pg
+  DBSubnetGroup: mbx-bnb-uat-db
+  DbClusterResourceId: cluster-ZUDW2RIXWKPLXXPQ2YBAZOXCXM
+  DeletionProtection: true
+  DomainMemberships: []
+  EarliestRestorableTime: 2026-08-17 17:20:42.401000+00:00
+  Endpoint: mbx-bnb-uat-spot-aqueduct-papers-db-c1.cluster-cvmjht5arg7h.ap-northeast-1.rds.amazonaws.com
+  Engine: aurora-mysql
+  EngineMode: provisioned
+  EngineVersion: 8.0.mysql_aurora.3.04.3
+  HostedZoneId: Z24O6O9L7SGTNB
+  HttpEndpointEnabled: false
+  IAMDatabaseAuthenticationEnabled: false
+  KmsKeyId: arn:aws:kms:ap-northeast-1:862793644923:key/4d70afbb-e9b9-4bb7-83f2-8de31f8a5460
+  LatestRestorableTime: 2026-08-25 01:29:02.978000+00:00
+  LocalWriteForwardingStatus: disabled
+  MasterUserSecret:
+    KmsKeyId: arn:aws:kms:ap-northeast-1:862793644923:key/f9e1e3c6-619c-47d6-a17c-f83b8c436093
+    SecretArn: arn:aws:secretsmanager:ap-northeast-1:862793644923:secret:rds!cluster-49268981-2550-46cb-887a-f9cc3e44b2da-KAfyJE
+    SecretStatus: active
+  MasterUsername: mbxprd
+  MultiAZ: false
+  NetworkType: IPV4
+  Port: 3306
+  PreferredBackupWindow: 17:15-17:45
+  PreferredMaintenanceWindow: sat:19:04-sat:19:34
+  ReadReplicaIdentifiers: []
+  ReaderEndpoint: mbx-bnb-uat-spot-aqueduct-papers-db-c1.cluster-ro-cvmjht5arg7h.ap-northeast-1.rds.amazonaws.com
+  Status: available
+  StorageEncrypted: true
+  TagList:
+  - Key: biz
+    Value: mbx
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_secret_store
+    Value: asm
+  - Key: cluster_group
+    Value: spot-aqueduct-papers_c1
+  - Key: mbx_env_name
+    Value: uat
+  - Key: team
+    Value: mbx
+  - Key: Name
+    Value: mbx-bnb-uat-spot-aqueduct-papers-db-c1
+  VpcSecurityGroups:
+  - Status: active
+    VpcSecurityGroupId: sg-08ff677a377a400d9
+...
+

@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-085c7170d55f6739e
+specifics:
+  Name: mbx-tracky-prod-clickhouse2-data1
+...
+

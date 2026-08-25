@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql17.rds.memory_allocation_guard
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Protects allocation of a backend from getting denied by resource management.
+  IsModifiable: true
+  ParameterName: rds.memory_allocation_guard
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

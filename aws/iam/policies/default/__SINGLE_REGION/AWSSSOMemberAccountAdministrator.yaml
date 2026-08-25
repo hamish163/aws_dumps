@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSSSOMemberAccountAdministrator
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSSSOMemberAccountAdministrator
+  AttachmentCount: 0
+  CreateDate: 2018-06-27 20:45:42+00:00
+  DefaultVersionId: v11
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIQYHEY7KJWXZFNDPY
+  PolicyName: AWSSSOMemberAccountAdministrator
+  UpdateDate: 2026-02-12 18:00:22+00:00
+...
+

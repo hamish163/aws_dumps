@@ -1,0 +1,63 @@
+---
+datatype: aws.ec2.network_acls
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: acl-0d849eeaa0b44a2f1
+specifics:
+  Associations:
+  - NetworkAclAssociationId: aclassoc-08046d19023fb731b
+    NetworkAclId: acl-0d849eeaa0b44a2f1
+    SubnetId: subnet-04d196b276d6605af
+  - NetworkAclAssociationId: aclassoc-0a638c131f36a1d21
+    NetworkAclId: acl-0d849eeaa0b44a2f1
+    SubnetId: subnet-0e1788f95b6ac952f
+  - NetworkAclAssociationId: aclassoc-078d3f40a22a637c8
+    NetworkAclId: acl-0d849eeaa0b44a2f1
+    SubnetId: subnet-0c627b4ef8124231b
+  - NetworkAclAssociationId: aclassoc-0d74e17a85378de4f
+    NetworkAclId: acl-0d849eeaa0b44a2f1
+    SubnetId: subnet-09db770bb89f94034
+  - NetworkAclAssociationId: aclassoc-0766a3ec0ba8def68
+    NetworkAclId: acl-0d849eeaa0b44a2f1
+    SubnetId: subnet-05bbe6fbdb8ec8477
+  - NetworkAclAssociationId: aclassoc-021b33a0e10eefee7
+    NetworkAclId: acl-0d849eeaa0b44a2f1
+    SubnetId: subnet-00e9d98ff4e6249b5
+  - NetworkAclAssociationId: aclassoc-0677c2da027c3cf82
+    NetworkAclId: acl-0d849eeaa0b44a2f1
+    SubnetId: subnet-0c18b47dfa558ef99
+  - NetworkAclAssociationId: aclassoc-0cebfbd49516cb34d
+    NetworkAclId: acl-0d849eeaa0b44a2f1
+    SubnetId: subnet-09e57a801e42927f0
+  - NetworkAclAssociationId: aclassoc-0c15a568a7292b6b8
+    NetworkAclId: acl-0d849eeaa0b44a2f1
+    SubnetId: subnet-00a329421884949e6
+  Entries:
+  - CidrBlock: 0.0.0.0/0
+    Egress: true
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 100
+  - CidrBlock: 0.0.0.0/0
+    Egress: false
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 100
+  - CidrBlock: 0.0.0.0/0
+    Egress: true
+    Protocol: '-1'
+    RuleAction: deny
+    RuleNumber: 32767
+  - CidrBlock: 0.0.0.0/0
+    Egress: false
+    Protocol: '-1'
+    RuleAction: deny
+    RuleNumber: 32767
+  IsDefault: true
+  NetworkAclId: acl-0d849eeaa0b44a2f1
+  OwnerId: '862793644923'
+  Tags: []
+  VpcId: vpc-050b727e89fac853e
+...
+

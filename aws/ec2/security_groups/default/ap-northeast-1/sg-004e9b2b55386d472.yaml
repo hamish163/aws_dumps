@@ -1,0 +1,20 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-004e9b2b55386d472
+specifics:
+  Description: App Security Group
+  GroupId: sg-004e9b2b55386d472
+  GroupName: MbxChat-Chat-1SMO9IIYF334W-AppSecurityGroup-1WQLQVIA58XII
+  Tags:
+  - Key: aws:cloudformation:logical-id
+    Value: AppSecurityGroup
+  - Key: aws:cloudformation:stack-name
+    Value: MbxChat-Chat-1SMO9IIYF334W
+  - Key: aws:cloudformation:stack-id
+    Value: arn:aws:cloudformation:ap-northeast-1:862793644923:stack/MbxChat-Chat-1SMO9IIYF334W/0676b880-dea4-11ed-a749-0626c85655e5
+  VpcId: vpc-050b727e89fac853e
+...
+

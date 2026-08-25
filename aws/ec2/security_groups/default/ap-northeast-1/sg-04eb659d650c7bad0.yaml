@@ -1,0 +1,24 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-04eb659d650c7bad0
+specifics:
+  Description: Security group for monitoring ALB
+  GroupId: sg-04eb659d650c7bad0
+  GroupName: mbx-bnb-devops-monitoring-int-alb
+  Tags:
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: biz
+    Value: mbx
+  - Key: team
+    Value: mbx
+  - Key: mbx_env_name
+    Value: devops
+  - Key: Name
+    Value: mbx-bnb-devops-monitoring-int-alb
+  VpcId: vpc-07519eb63f1d932ac
+...
+

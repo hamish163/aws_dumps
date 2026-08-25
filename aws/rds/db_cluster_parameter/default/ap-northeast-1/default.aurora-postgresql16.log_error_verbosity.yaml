@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql16.log_error_verbosity
+specifics:
+  AllowedValues: terse,default,verbose
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Sets the verbosity of logged messages.
+  IsModifiable: true
+  ParameterName: log_error_verbosity
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSElementalMediaStoreFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSElementalMediaStoreFullAccess
+  AttachmentCount: 0
+  CreateDate: 2018-03-05 23:15:31+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJZFYFW2QXSNK7OH6Y
+  PolicyName: AWSElementalMediaStoreFullAccess
+  UpdateDate: 2018-03-05 23:15:31+00:00
+...
+

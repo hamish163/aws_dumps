@@ -1,0 +1,16 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0c3962a9971fc5a08
+specifics:
+  Description: grafana-server
+  GroupId: sg-0c3962a9971fc5a08
+  GroupName: grafana-server
+  Tags:
+  - Key: Name
+    Value: grafana-server
+  VpcId: vpc-07652e77a8fa0e0c2
+...
+

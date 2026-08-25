@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonEMRReadOnlyAccessPolicy_v2
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonEMRReadOnlyAccessPolicy_v2
+  AttachmentCount: 0
+  CreateDate: 2021-03-12 01:39:16+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4GDFTJ74PD
+  PolicyName: AmazonEMRReadOnlyAccessPolicy_v2
+  UpdateDate: 2023-08-02 19:15:33+00:00
+...
+

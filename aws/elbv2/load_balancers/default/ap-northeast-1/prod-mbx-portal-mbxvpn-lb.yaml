@@ -1,0 +1,29 @@
+---
+datatype: aws.elbv2.load_balancers
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: prod-mbx-portal-mbxvpn-lb
+specifics:
+  AvailabilityZones:
+  - LoadBalancerAddresses: []
+    SubnetId: subnet-0899be7b94796ea56
+    ZoneName: ap-northeast-1c
+  - LoadBalancerAddresses: []
+    SubnetId: subnet-0d92f19d082a3909e
+    ZoneName: ap-northeast-1a
+  CanonicalHostedZoneId: Z14GRHDCWA56QT
+  CreatedTime: 2024-10-14 13:41:12.171000+00:00
+  DNSName: internal-prod-mbx-portal-mbxvpn-lb-1591142232.ap-northeast-1.elb.amazonaws.com
+  IpAddressType: ipv4
+  LoadBalancerArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:loadbalancer/app/prod-mbx-portal-mbxvpn-lb/6f0bdd09372016ca
+  LoadBalancerName: prod-mbx-portal-mbxvpn-lb
+  Scheme: internal
+  SecurityGroups:
+  - sg-07dcf0c117166a184
+  State:
+    Code: active
+  Type: application
+  VpcId: vpc-03f5d2495fd8d95a3
+...
+

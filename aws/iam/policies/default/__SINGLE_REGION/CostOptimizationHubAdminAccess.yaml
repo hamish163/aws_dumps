@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: CostOptimizationHubAdminAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/CostOptimizationHubAdminAccess
+  AttachmentCount: 0
+  CreateDate: 2023-12-19 00:03:51+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4CARV65TYL
+  PolicyName: CostOptimizationHubAdminAccess
+  UpdateDate: 2026-02-12 17:58:24+00:00
+...
+

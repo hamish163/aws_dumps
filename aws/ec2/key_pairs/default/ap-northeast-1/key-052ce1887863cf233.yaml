@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.key_pairs
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: key-052ce1887863cf233
+specifics:
+  CreateTime: 2022-08-25 10:04:14+00:00
+  KeyFingerprint: LZvU5PF1azg1JlwYQEYhbYWgBjFtAk+x7Ib82isrA4Q=
+  KeyName: packer-sandbox
+  KeyPairId: key-052ce1887863cf233
+  KeyType: ed25519
+  Tags: []
+...
+

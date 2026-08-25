@@ -1,0 +1,16 @@
+---
+datatype: aws.iam.users
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: philippe
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/philippe
+  CreateDate: 2026-04-09 08:41:03+00:00
+  PasswordLastUsed: 2026-05-10 23:36:36+00:00
+  Path: /
+  UserId: AIDA4RYUCHN5T2XIPT7ZO
+  UserName: philippe
+...
+

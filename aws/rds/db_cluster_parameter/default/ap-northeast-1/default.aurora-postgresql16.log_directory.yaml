@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql16.log_directory
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Sets the destination directory for log files.
+  IsModifiable: false
+  ParameterName: log_directory
+  ParameterValue: /rdsdbdata/log/error
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

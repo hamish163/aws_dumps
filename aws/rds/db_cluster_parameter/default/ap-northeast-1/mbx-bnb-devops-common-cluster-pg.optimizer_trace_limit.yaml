@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-devops-common-cluster-pg.optimizer_trace_limit
+specifics:
+  AllowedValues: 1-9223372036854775807
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Controls the limit on trace retention.
+  IsModifiable: true
+  ParameterName: optimizer_trace_limit
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

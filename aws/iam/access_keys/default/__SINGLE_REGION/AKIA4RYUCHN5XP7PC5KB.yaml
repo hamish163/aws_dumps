@@ -1,0 +1,14 @@
+---
+datatype: aws.iam.access_keys
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AKIA4RYUCHN5XP7PC5KB
+  single_region: true
+specifics:
+  AccessKeyId: AKIA4RYUCHN5XP7PC5KB
+  CreateDate: 2021-04-05 05:57:17+00:00
+  Status: Inactive
+  UserName: pawan
+...
+

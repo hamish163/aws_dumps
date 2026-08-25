@@ -1,0 +1,29 @@
+---
+datatype: aws.elbv2.load_balancers
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-devops-atlantis-alb
+specifics:
+  AvailabilityZones:
+  - LoadBalancerAddresses: []
+    SubnetId: subnet-036c1d164fc3b862c
+    ZoneName: ap-northeast-1a
+  - LoadBalancerAddresses: []
+    SubnetId: subnet-0573188232ca9bc11
+    ZoneName: ap-northeast-1c
+  CanonicalHostedZoneId: Z14GRHDCWA56QT
+  CreatedTime: 2025-11-07 10:16:50.663000+00:00
+  DNSName: mbx-bnb-devops-atlantis-alb-946621511.ap-northeast-1.elb.amazonaws.com
+  IpAddressType: ipv4
+  LoadBalancerArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:loadbalancer/app/mbx-bnb-devops-atlantis-alb/3df89524a8007d7b
+  LoadBalancerName: mbx-bnb-devops-atlantis-alb
+  Scheme: internet-facing
+  SecurityGroups:
+  - sg-0421e00de9f64e9dc
+  State:
+    Code: active
+  Type: application
+  VpcId: vpc-097095a8b70ef6727
+...
+

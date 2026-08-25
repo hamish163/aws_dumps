@@ -1,0 +1,28 @@
+---
+datatype: aws.elbv2.target_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: bnb-uat2-mbx-api-tg8080
+specifics:
+  HealthCheckEnabled: true
+  HealthCheckIntervalSeconds: 5
+  HealthCheckPath: /test.html
+  HealthCheckPort: '8080'
+  HealthCheckProtocol: HTTP
+  HealthCheckTimeoutSeconds: 2
+  HealthyThresholdCount: 5
+  IpAddressType: ipv4
+  LoadBalancerArns: []
+  Matcher:
+    HttpCode: '200'
+  Port: 8080
+  Protocol: HTTP
+  ProtocolVersion: HTTP1
+  TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/bnb-uat2-mbx-api-tg8080/12f68fa065d96e19
+  TargetGroupName: bnb-uat2-mbx-api-tg8080
+  TargetType: instance
+  UnhealthyThresholdCount: 2
+  VpcId: vpc-0a2add17997a755fa
+...
+

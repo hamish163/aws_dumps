@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-spot-aqueduct-papers-cluster-pg.max_binlog_cache_size
+specifics:
+  AllowedValues: 4096-18446744073709547520
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Maximum binlog cache size a transaction may use
+  IsModifiable: true
+  ParameterName: max_binlog_cache_size
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,11 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: lt-0baab82e66ae6b7b6
+specifics:
+  eks:cluster-name: mbx-bnb-devops-jenkins_eks-cluster
+  eks:nodegroup-name: mbx-bnb-devops-jenkins_eks-generic_al2023_arm64_standard
+...
+

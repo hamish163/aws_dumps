@@ -1,0 +1,38 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-0a0083b4c9fe928d5
+specifics:
+  Attachment:
+    AttachmentId: ela-attach-01932c5a4b50a8c64
+    DeleteOnTermination: false
+    DeviceIndex: 1
+    InstanceOwnerId: amazon-aws
+    Status: attached
+  AvailabilityZone: ap-northeast-1a
+  Description: EFS mount target for fs-09cde3ae2b41fdc25 (fsmt-0f65964c5b086725b)
+  Groups:
+  - GroupId: sg-005aaab5407820419
+    GroupName: mbx-bnb-devops-eks1-efs
+  InterfaceType: efs
+  Ipv6Addresses: []
+  MacAddress: 06:c4:8e:ed:11:61
+  NetworkInterfaceId: eni-0a0083b4c9fe928d5
+  OwnerId: '862793644923'
+  PrivateDnsName: ip-10-200-23-149.ap-northeast-1.compute.internal
+  PrivateIpAddress: 10.200.23.149
+  PrivateIpAddresses:
+  - Primary: true
+    PrivateDnsName: ip-10-200-23-149.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.200.23.149
+  RequesterId: '245366720865'
+  RequesterManaged: true
+  SourceDestCheck: true
+  Status: in-use
+  SubnetId: subnet-0b28dbbbe71d77caa
+  TagSet: []
+  VpcId: vpc-07519eb63f1d932ac
+...
+

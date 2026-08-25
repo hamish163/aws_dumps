@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0ad03d04ae6e8176d
+specifics:
+  Description: Allow TCP traffic from shim-api SG on port 11211
+  FromPort: 11211
+  GroupId: sg-082869133b107f103
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0a1ec0cf4cd5c2660
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0ad03d04ae6e8176d
+  Tags: []
+  ToPort: 11211
+...
+

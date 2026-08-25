@@ -1,0 +1,96 @@
+---
+datatype: aws.rds.db_instance
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-solutions-telegrambot-postgres-db-c1-writer
+specifics:
+  AllocatedStorage: 1
+  AssociatedRoles: []
+  AutoMinorVersionUpgrade: false
+  AvailabilityZone: ap-northeast-1a
+  BackupRetentionPeriod: 7
+  BackupTarget: region
+  CACertificateIdentifier: rds-ca-ecc384-g1
+  CertificateDetails:
+    CAIdentifier: rds-ca-ecc384-g1
+    ValidTill: 2027-03-01 13:22:01+00:00
+  CopyTagsToSnapshot: false
+  CustomerOwnedIpEnabled: false
+  DBClusterIdentifier: mbx-bnb-solutions-telegrambot-postgres-db-c1
+  DBInstanceArn: arn:aws:rds:ap-northeast-1:862793644923:db:mbx-bnb-solutions-telegrambot-postgres-db-c1-writer
+  DBInstanceClass: db.t3.medium
+  DBInstanceIdentifier: mbx-bnb-solutions-telegrambot-postgres-db-c1-writer
+  DBInstanceStatus: available
+  DBParameterGroups:
+  - DBParameterGroupName: mbx-bnb-solutions-telegrambot-postgres-instance-pg
+    ParameterApplyStatus: in-sync
+  DBSecurityGroups: []
+  DBSubnetGroup:
+    DBSubnetGroupDescription: Managed by Terraform
+    DBSubnetGroupName: mbx-bnb-solutions-db
+    SubnetGroupStatus: Complete
+    Subnets:
+    - SubnetAvailabilityZone:
+        Name: ap-northeast-1a
+      SubnetIdentifier: subnet-0681eb5fe84736c76
+      SubnetOutpost: {}
+      SubnetStatus: Active
+    - SubnetAvailabilityZone:
+        Name: ap-northeast-1c
+      SubnetIdentifier: subnet-0a87608f3f8ca620d
+      SubnetOutpost: {}
+      SubnetStatus: Active
+    VpcId: vpc-0218545ff4351ce04
+  DbInstancePort: 0
+  DbiResourceId: db-2BMJ5ZUESKDZOAUILHCEII6VOI
+  DedicatedLogVolume: false
+  DeletionProtection: false
+  DomainMemberships: []
+  Endpoint:
+    Address: mbx-bnb-solutions-telegrambot-postgres-db-c1-writer.cvmjht5arg7h.ap-northeast-1.rds.amazonaws.com
+    HostedZoneId: Z24O6O9L7SGTNB
+    Port: 5432
+  Engine: aurora-postgresql
+  EngineVersion: '17.5'
+  EnhancedMonitoringResourceArn: arn:aws:logs:ap-northeast-1:862793644923:log-group:RDSOSMetrics:log-stream:db-2BMJ5ZUESKDZOAUILHCEII6VOI
+  IAMDatabaseAuthenticationEnabled: false
+  InstanceCreateTime: 2025-08-28 03:36:54.639000+00:00
+  KmsKeyId: arn:aws:kms:ap-northeast-1:862793644923:key/4d70afbb-e9b9-4bb7-83f2-8de31f8a5460
+  LicenseModel: postgresql-license
+  MasterUsername: mbxprd
+  MonitoringInterval: 60
+  MonitoringRoleArn: arn:aws:iam::862793644923:role/rds-monitoring-role
+  MultiAZ: false
+  NetworkType: IPV4
+  OptionGroupMemberships:
+  - OptionGroupName: default:aurora-postgresql-17
+    Status: in-sync
+  PendingModifiedValues: {}
+  PerformanceInsightsEnabled: false
+  PreferredBackupWindow: 14:17-14:47
+  PreferredMaintenanceWindow: sun:13:22-sun:13:52
+  PromotionTier: 0
+  PubliclyAccessible: false
+  ReadReplicaDBInstanceIdentifiers: []
+  StorageEncrypted: true
+  StorageThroughput: 0
+  StorageType: aurora
+  TagList:
+  - Key: mbx_env_name
+    Value: solutions
+  - Key: biz
+    Value: mbx
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  - Key: cluster_group
+    Value: telegrambot-postgres_c1
+  - Key: Name
+    Value: mbx-bnb-solutions-telegrambot-postgres-db-c1-writer
+  VpcSecurityGroups:
+  - Status: active
+    VpcSecurityGroupId: sg-022ccfd830757ca0d
+...
+

@@ -1,0 +1,38 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-09afc95f2e93776ea
+specifics:
+  Attachment:
+    AttachTime: 2023-10-23 10:29:16+00:00
+    AttachmentId: eni-attach-014de3ee20cda8b76
+    DeleteOnTermination: true
+    DeviceIndex: 0
+    InstanceId: i-075a62b1969a6e2ce
+    InstanceOwnerId: '862793644923'
+    NetworkCardIndex: 0
+    Status: attached
+  AvailabilityZone: ap-northeast-1a
+  Description: ''
+  Groups:
+  - GroupId: sg-08c88bc97703e315d
+    GroupName: usa_prod_mbx_bastion
+  InterfaceType: interface
+  Ipv6Addresses: []
+  MacAddress: 06:de:a9:7a:82:d5
+  NetworkInterfaceId: eni-09afc95f2e93776ea
+  OwnerId: '862793644923'
+  PrivateIpAddress: 10.12.2.29
+  PrivateIpAddresses:
+  - Primary: true
+    PrivateIpAddress: 10.12.2.29
+  RequesterManaged: false
+  SourceDestCheck: true
+  Status: in-use
+  SubnetId: subnet-0acaddce878579935
+  TagSet: []
+  VpcId: vpc-041f1adf86f81b9e1
+...
+

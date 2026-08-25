@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.attached_user_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: weixing
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/mbx-bnb-perf-spade-asm-ro
+    PolicyName: mbx-bnb-perf-spade-asm-ro
+  - PolicyArn: arn:aws:iam::862793644923:policy/AllowQAManageEC2Instance
+    PolicyName: AllowQAManageEC2Instance
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess
+    PolicyName: AmazonEC2ReadOnlyAccess
+  - PolicyArn: arn:aws:iam::aws:policy/ComputeOptimizerReadOnlyAccess
+    PolicyName: ComputeOptimizerReadOnlyAccess
+  _UserName: weixing
+...
+

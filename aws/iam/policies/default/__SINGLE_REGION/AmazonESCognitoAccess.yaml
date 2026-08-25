@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonESCognitoAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonESCognitoAccess
+  AttachmentCount: 0
+  CreateDate: 2018-02-28 22:29:18+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJL2FUMODIGNDPTZHO
+  PolicyName: AmazonESCognitoAccess
+  UpdateDate: 2021-12-20 14:04:44+00:00
+...
+

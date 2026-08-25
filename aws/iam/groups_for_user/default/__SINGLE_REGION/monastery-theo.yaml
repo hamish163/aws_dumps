@@ -1,0 +1,17 @@
+---
+datatype: aws.iam.groups_for_user
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: monastery-theo
+  single_region: true
+specifics:
+  Groups:
+  - Arn: arn:aws:iam::862793644923:group/mbx-monastery-aws-group-solutions
+    CreateDate: 2026-08-17 05:39:24+00:00
+    GroupId: AGPA4RYUCHN56GSEMCGJT
+    GroupName: mbx-monastery-aws-group-solutions
+    Path: /
+  _UserName: monastery-theo
+...
+

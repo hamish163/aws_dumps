@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonQLDBFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonQLDBFullAccess
+  AttachmentCount: 0
+  CreateDate: 2019-09-05 18:23:32+00:00
+  DefaultVersionId: v5
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4HHBBWGE2J
+  PolicyName: AmazonQLDBFullAccess
+  UpdateDate: 2022-11-04 17:01:27+00:00
+...
+

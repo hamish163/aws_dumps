@@ -1,0 +1,16 @@
+---
+datatype: aws.elbv2.target_health
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/prod-spooky-sms-tg/65cb6e18e2a2e4eb
+specifics:
+  TargetHealthDescriptions:
+    i-04a7854a5a0fba71a/5002:
+      HealthCheckPort: '5002'
+      Target:
+        Id: i-04a7854a5a0fba71a
+        Port: 5002
+  _arn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/prod-spooky-sms-tg/65cb6e18e2a2e4eb
+...
+

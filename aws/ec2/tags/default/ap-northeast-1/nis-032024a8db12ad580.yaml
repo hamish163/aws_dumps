@@ -1,0 +1,11 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: nis-032024a8db12ad580
+specifics:
+  Description: Identify egress paths from all Network Interfaces to Internet Gateways.
+  Name: AWS-IGW-Egress (Amazon created)
+...
+

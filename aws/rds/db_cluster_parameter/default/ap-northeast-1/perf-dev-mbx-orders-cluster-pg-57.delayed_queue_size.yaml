@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-orders-cluster-pg-57.delayed_queue_size
+specifics:
+  AllowedValues: 1-9223372036854775807
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: If the queue becomes full, any client that issues an INSERT DELAYED
+    statement waits until there is room in the queue again.
+  IsModifiable: true
+  ParameterName: delayed_queue_size
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

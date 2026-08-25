@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev57-mbx-keys-cluster-pgrp.binlog_gtid_simple_recovery
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: boolean
+  Description: Controls how binary logs are iterated during GTID recovery
+  IsModifiable: true
+  MinimumEngineVersion: 5.7.mysql_aurora.2.04.0
+  ParameterName: binlog_gtid_simple_recovery
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,17 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-0ab4bd6768e3c3b61
+specifics:
+  Name: mbx-bnb-uat-sequencer3
+  biz: mbx
+  mbx_application_name: mbx-core-sequencer
+  mbx_env_name: uat
+  mbx_exchange_name: bnb
+  mbx_host_index: '3'
+  mbx_secret_store: asm
+  team: mbx
+...
+

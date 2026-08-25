@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.innodb_log_group_home_dir
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: The directory path to the innodb log files
+  IsModifiable: false
+  ParameterName: innodb_log_group_home_dir
+  ParameterValue: /rdsdbdata/log/innodb
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

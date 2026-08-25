@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSSecurityHubFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSSecurityHubFullAccess
+  AttachmentCount: 0
+  CreateDate: 2018-11-27 23:54:34+00:00
+  DefaultVersionId: v9
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJ4262VZCA4HPBZSO6
+  PolicyName: AWSSecurityHubFullAccess
+  UpdateDate: 2026-02-12 17:58:23+00:00
+...
+

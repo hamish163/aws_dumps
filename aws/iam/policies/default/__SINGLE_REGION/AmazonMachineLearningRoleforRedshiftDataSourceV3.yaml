@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonMachineLearningRoleforRedshiftDataSourceV3
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AmazonMachineLearningRoleforRedshiftDataSourceV3
+  AttachmentCount: 0
+  CreateDate: 2020-06-24 18:00:09+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4DIXIZO4E2
+  PolicyName: AmazonMachineLearningRoleforRedshiftDataSourceV3
+  UpdateDate: 2020-06-24 18:00:09+00:00
+...
+

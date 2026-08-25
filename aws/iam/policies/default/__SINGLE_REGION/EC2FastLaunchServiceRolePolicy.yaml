@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: EC2FastLaunchServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/EC2FastLaunchServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2022-01-10 13:08:21+00:00
+  DefaultVersionId: v7
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4PBILMNSY7
+  PolicyName: EC2FastLaunchServiceRolePolicy
+  UpdateDate: 2026-02-12 17:57:11+00:00
+...
+

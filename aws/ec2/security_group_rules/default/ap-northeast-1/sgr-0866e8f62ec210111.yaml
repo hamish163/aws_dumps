@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0866e8f62ec210111
+specifics:
+  CidrIpv4: 0.0.0.0/0
+  Description: Allow all outbound traffic from the Kafka VPC Endpoints
+  FromPort: -1
+  GroupId: sg-07cddf6c309d8dc1f
+  GroupOwnerId: '862793644923'
+  IpProtocol: '-1'
+  IsEgress: true
+  SecurityGroupRuleId: sgr-0866e8f62ec210111
+  Tags: []
+  ToPort: -1
+...
+

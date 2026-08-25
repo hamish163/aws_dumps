@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: ConfigConformsServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/ConfigConformsServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2019-07-25 21:38:05+00:00
+  DefaultVersionId: v6
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4BCH3IIJPN
+  PolicyName: ConfigConformsServiceRolePolicy
+  UpdateDate: 2023-01-12 04:17:34+00:00
+...
+

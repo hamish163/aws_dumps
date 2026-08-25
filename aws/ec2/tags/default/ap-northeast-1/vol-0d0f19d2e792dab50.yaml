@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-0d0f19d2e792dab50
+specifics:
+  Name: mbx-bnb-perf-tracky11
+  biz: mbx
+  mbx_env_name: perf
+  mbx_exchange_name: bnb
+  mbx_secret_store: none
+  team: mbx
+...
+

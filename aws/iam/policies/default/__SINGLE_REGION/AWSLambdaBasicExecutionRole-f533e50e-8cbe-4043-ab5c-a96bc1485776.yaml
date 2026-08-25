@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSLambdaBasicExecutionRole-f533e50e-8cbe-4043-ab5c-a96bc1485776
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/service-role/AWSLambdaBasicExecutionRole-f533e50e-8cbe-4043-ab5c-a96bc1485776
+  AttachmentCount: 1
+  CreateDate: 2021-02-13 16:16:39+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5UVXZVQNYC
+  PolicyName: AWSLambdaBasicExecutionRole-f533e50e-8cbe-4043-ab5c-a96bc1485776
+  UpdateDate: 2021-02-13 16:16:39+00:00
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-solutions-telegrambot-postgres-cluster-pg.babelfishpg_tds.tds_ssl_min_protocol_version
+specifics:
+  AllowedValues: TLSv1.2
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Sets the minimum SSL/TLS protocol version to use for tds session.
+  IsModifiable: true
+  ParameterName: babelfishpg_tds.tds_ssl_min_protocol_version
+  ParameterValue: TLSv1.2
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

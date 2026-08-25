@@ -1,0 +1,20 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-00e1892fdd6a2392d
+specifics:
+  Description: App Security Group
+  GroupId: sg-00e1892fdd6a2392d
+  GroupName: MbxChat-Mongo-19FEZSTWMJZQR-AppSecurityGroup-1KMXZZJUWUVCB
+  Tags:
+  - Key: aws:cloudformation:logical-id
+    Value: AppSecurityGroup
+  - Key: aws:cloudformation:stack-name
+    Value: MbxChat-Mongo-19FEZSTWMJZQR
+  - Key: aws:cloudformation:stack-id
+    Value: arn:aws:cloudformation:ap-northeast-1:862793644923:stack/MbxChat-Mongo-19FEZSTWMJZQR/df250780-de96-11ed-ae5c-06c5754c9893
+  VpcId: vpc-050b727e89fac853e
+...
+

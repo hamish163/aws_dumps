@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-spade-account-cluster-pg.aurora_use_vector_instructions
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Enabling this value optimizes some internal operations with hardware
+    vector instructions
+  IsModifiable: true
+  MinimumEngineVersion: 8.0.mysql_aurora.3.05.0
+  ParameterName: aurora_use_vector_instructions
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

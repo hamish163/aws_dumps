@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0c61a76c945933e19
+specifics:
+  Description: Allow TCP traffic from audit-orders SG on port 9092
+  FromPort: 9092
+  GroupId: sg-01b5ad94bc726e753
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0d0d0d3dc7d5079bf
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0c61a76c945933e19
+  Tags: []
+  ToPort: 9092
+...
+

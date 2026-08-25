@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSBugBustFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSBugBustFullAccess
+  AttachmentCount: 0
+  CreateDate: 2021-06-24 07:03:26+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4MQU5DXLFC
+  PolicyName: AWSBugBustFullAccess
+  UpdateDate: 2021-07-22 20:04:29+00:00
+...
+

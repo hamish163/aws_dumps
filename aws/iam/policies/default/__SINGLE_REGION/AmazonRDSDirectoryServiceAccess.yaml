@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonRDSDirectoryServiceAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AmazonRDSDirectoryServiceAccess
+  AttachmentCount: 0
+  CreateDate: 2016-02-26 02:02:05+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIL4KBY57XWMYUHKUU
+  PolicyName: AmazonRDSDirectoryServiceAccess
+  UpdateDate: 2019-05-15 16:51:50+00:00
+...
+

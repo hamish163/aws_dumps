@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: CloudWatchSyntheticsFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/CloudWatchSyntheticsFullAccess
+  AttachmentCount: 0
+  CreateDate: 2019-11-25 17:39:46+00:00
+  DefaultVersionId: v14
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4MAGQWEZP4
+  PolicyName: CloudWatchSyntheticsFullAccess
+  UpdateDate: 2026-03-31 21:12:14+00:00
+...
+

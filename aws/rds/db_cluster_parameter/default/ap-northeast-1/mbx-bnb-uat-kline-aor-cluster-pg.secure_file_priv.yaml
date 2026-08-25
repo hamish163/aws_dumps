@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-kline-aor-cluster-pg.secure_file_priv
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: Limits the effect of LOAD_FILE(), LOAD_DATA, and SELECT ??? INTO OUTFILE
+    to specified directory.
+  IsModifiable: false
+  ParameterName: secure_file_priv
+  ParameterValue: /tmp
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

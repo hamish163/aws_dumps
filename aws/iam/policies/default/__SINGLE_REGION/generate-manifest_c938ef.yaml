@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: generate-manifest_c938ef
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/service-role/generate-manifest_c938ef
+  AttachmentCount: 1
+  CreateDate: 2026-04-09 05:52:21+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5QIPXMMSZR
+  PolicyName: generate-manifest_c938ef
+  UpdateDate: 2026-04-09 05:52:21+00:00
+...
+

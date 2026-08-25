@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql17.log_parameter_max_length_on_error
+specifics:
+  AllowedValues: -1-1073741823
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: (B) When reporting an error, limit logged parameter values to first
+    N bytes.
+  IsModifiable: true
+  ParameterName: log_parameter_max_length_on_error
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

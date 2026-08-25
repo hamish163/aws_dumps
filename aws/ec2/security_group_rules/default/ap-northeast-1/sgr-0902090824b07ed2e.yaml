@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0902090824b07ed2e
+specifics:
+  Description: Allow TCP traffic from ops SG on port 4567
+  FromPort: 4567
+  GroupId: sg-0d04f64574359394b
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-057b3e40d34d01d46
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0902090824b07ed2e
+  Tags: []
+  ToPort: 4567
+...
+

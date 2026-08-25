@@ -1,0 +1,21 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: nodes.mbxtools.bitdj.com
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/K8s-AutoScaling-Policy-mbxtools
+    PolicyName: K8s-AutoScaling-Policy-mbxtools
+  - PolicyArn: arn:aws:iam::862793644923:policy/service-role/start-pipeline-execution-ap-northeast-1-TungstenCI
+    PolicyName: start-pipeline-execution-ap-northeast-1-TungstenCI
+  - PolicyArn: arn:aws:iam::862793644923:policy/QaTungstenInvocationPolicy
+    PolicyName: QaTungstenInvocationPolicy
+  - PolicyArn: arn:aws:iam::862793644923:policy/QaTungstenInvocationPolicy-test1
+    PolicyName: QaTungstenInvocationPolicy-test1
+  - PolicyArn: arn:aws:iam::862793644923:policy/AllowJenkinsS3Access
+    PolicyName: AllowJenkinsS3Access
+...
+

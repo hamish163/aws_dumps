@@ -1,0 +1,16 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx.bnb.perf.qa-thunder/A
+  single_region: true
+specifics:
+  AliasTarget:
+    DNSName: internal-mbx-bnb-perf-qa-thunder-1577998381.ap-northeast-1.elb.amazonaws.com.
+    EvaluateTargetHealth: true
+    HostedZoneId: Z14GRHDCWA56QT
+  Name: qa-thunder.perf.bnb.mbx.
+  Type: A
+...
+

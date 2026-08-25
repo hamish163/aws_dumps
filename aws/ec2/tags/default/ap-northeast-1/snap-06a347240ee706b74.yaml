@@ -1,0 +1,13 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: snap-06a347240ee706b74
+specifics:
+  biz: mbx
+  managed_by_terraform: 'false'
+  project: mbx
+  team: mbx
+...
+

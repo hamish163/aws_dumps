@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSCloudFrontVPCOriginServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AWSCloudFrontVPCOriginServiceRolePolicy
+  AttachmentCount: 1
+  CreateDate: 2024-10-24 17:45:25+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4OFX7GTZEQ
+  PolicyName: AWSCloudFrontVPCOriginServiceRolePolicy
+  UpdateDate: 2024-10-24 17:45:25+00:00
+...
+

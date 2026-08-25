@@ -1,0 +1,17 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-070f64d6eee5da318
+specifics:
+  Name: bnb_testnet_mbx_tracky-slave3_ec2
+  app: mbx
+  biz: mbx
+  env: testnet
+  exchange_id: bnb
+  project: mbx
+  role: tracky
+  team: sre
+...
+

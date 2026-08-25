@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSIoTSiteWiseMonitorServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AWSIoTSiteWiseMonitorServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2019-11-14 00:59:10+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4CR556M6Y5
+  PolicyName: AWSIoTSiteWiseMonitorServiceRolePolicy
+  UpdateDate: 2019-12-13 22:19:25+00:00
+...
+

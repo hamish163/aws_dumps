@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AllowProdCloudwatchReadOnly
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/AllowProdCloudwatchReadOnly
+  AttachmentCount: 2
+  CreateDate: 2021-07-27 10:49:22+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5ZGBDFY3VY
+  PolicyName: AllowProdCloudwatchReadOnly
+  UpdateDate: 2021-07-27 10:49:22+00:00
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.mfa_devices
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: ritwij
+  single_region: true
+specifics:
+  MFADevices:
+  - EnableDate: 2022-07-21 06:37:39+00:00
+    SerialNumber: arn:aws:iam::862793644923:mfa/ritwij
+    UserName: ritwij
+  - EnableDate: 2026-06-22 08:04:36+00:00
+    SerialNumber: arn:aws:iam::862793644923:u2f/user/ritwij/bin-mac-KQOIYTNN4NAFTHYJX5MYWNGVNQ
+    UserName: ritwij
+  - EnableDate: 2024-03-05 09:29:46+00:00
+    SerialNumber: arn:aws:iam::862793644923:u2f/user/ritwij/ubi-435N7E4ANJGAPNGKHZQCU3KBLI
+    UserName: ritwij
+...
+

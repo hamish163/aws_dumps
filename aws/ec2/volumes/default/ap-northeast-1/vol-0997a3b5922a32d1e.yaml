@@ -1,0 +1,42 @@
+---
+datatype: aws.ec2.volumes
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-0997a3b5922a32d1e
+specifics:
+  Attachments:
+  - AttachTime: 2026-02-20 10:53:35+00:00
+    DeleteOnTermination: false
+    Device: /dev/sdf
+    InstanceId: i-04892fa7fd8936805
+    State: attached
+    VolumeId: vol-0997a3b5922a32d1e
+  AvailabilityZone: ap-northeast-1a
+  CreateTime: 2026-02-20 10:53:15.114000+00:00
+  Encrypted: false
+  Iops: 3000
+  MultiAttachEnabled: false
+  Size: 200
+  SnapshotId: ''
+  State: in-use
+  Tags:
+  - Key: biz
+    Value: mbx
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  - Key: mbx_env_name
+    Value: devops
+  - Key: mbx_application_name
+    Value: mbx-core-sequencer-journal-writer
+  - Key: mbx_secret_store
+    Value: none
+  - Key: Name
+    Value: mbx-bnb-devops-sequencer-archive1
+  Throughput: 125
+  VolumeId: vol-0997a3b5922a32d1e
+  VolumeType: gp3
+...
+

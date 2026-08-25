@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-097028b6051466c36
+specifics:
+  Description: from tracky master
+  FromPort: 6100
+  GroupId: sg-0c7a70f1d1949ed7b
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-08579dfe3dc446033
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-097028b6051466c36
+  Tags: []
+  ToPort: 6100
+...
+

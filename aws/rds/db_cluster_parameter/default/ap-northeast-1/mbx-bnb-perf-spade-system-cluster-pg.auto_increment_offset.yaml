@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-perf-spade-system-cluster-pg.auto_increment_offset
+specifics:
+  AllowedValues: 1-65535
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Determines the starting point for the AUTO_INCREMENT column value
+  IsModifiable: true
+  ParameterName: auto_increment_offset
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

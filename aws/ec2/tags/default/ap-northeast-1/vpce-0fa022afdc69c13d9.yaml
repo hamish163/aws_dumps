@@ -1,0 +1,13 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vpce-0fa022afdc69c13d9
+specifics:
+  Name: bitdjsaltmaster_mbxdev
+  name: bitdjsaltmaster_mbxdev
+  purpose: saltmaster access to neptune
+  requestor: SRE Team
+...
+

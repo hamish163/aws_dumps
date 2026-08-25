@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vpce-0e7d2a2934b4cde86
+specifics:
+  Name: mbx-bnb-clientvpn-to-hexa
+  biz: mbx
+  managed_from: bnb/clientvpn/endpoints/hexa
+  mbx_env_name: clientvpn
+  mbx_exchange_name: bnb
+  team: mbx
+...
+

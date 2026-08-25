@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWS-SSM-RemediationAutomation-AdministrationRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWS-SSM-RemediationAutomation-AdministrationRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2024-11-16 00:14:44+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4MHUFHHSI2
+  PolicyName: AWS-SSM-RemediationAutomation-AdministrationRolePolicy
+  UpdateDate: 2026-02-12 17:57:43+00:00
+...
+

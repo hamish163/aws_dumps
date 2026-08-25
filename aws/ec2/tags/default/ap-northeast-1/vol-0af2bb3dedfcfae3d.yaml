@@ -1,0 +1,16 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-0af2bb3dedfcfae3d
+specifics:
+  Name: mbx-bnb-devops-wsp1
+  biz: mbx
+  mbx_application_name: mbx-data-wsp
+  mbx_env_name: devops
+  mbx_exchange_name: bnb
+  mbx_secret_store: none
+  team: mbx
+...
+

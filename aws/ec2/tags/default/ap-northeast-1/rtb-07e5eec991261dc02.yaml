@@ -1,0 +1,14 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rtb-07e5eec991261dc02
+specifics:
+  Name: mbx-bnb-uat-rtb-db1
+  biz: mbx
+  mbx_env_name: uat
+  mbx_exchange_name: bnb
+  team: mbx
+...
+

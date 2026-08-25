@@ -1,0 +1,26 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0bce3edb6425781b4
+specifics:
+  Description: Security group for trade-flagger RDS
+  GroupId: sg-0bce3edb6425781b4
+  GroupName: mbx-bnb-uat-trade-flagger-db
+  Tags:
+  - Key: mbx_secret_store
+    Value: asm
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_env_name
+    Value: uat
+  - Key: team
+    Value: mbx
+  - Key: Name
+    Value: mbx-bnb-uat-trade-flagger-db
+  - Key: biz
+    Value: mbx
+  VpcId: vpc-0b3ce57b4c748893b
+...
+

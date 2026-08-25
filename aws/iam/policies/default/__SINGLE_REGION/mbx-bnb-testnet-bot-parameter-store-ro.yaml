@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-testnet-bot-parameter-store-ro
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/mbx-bnb-testnet-bot-parameter-store-ro
+  AttachmentCount: 1
+  CreateDate: 2025-07-23 10:19:16+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN53NALRSQ7H
+  PolicyName: mbx-bnb-testnet-bot-parameter-store-ro
+  UpdateDate: 2025-07-30 07:27:30+00:00
+...
+

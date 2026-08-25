@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSQuickSetupManagedInstanceProfileExecutionPolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSQuickSetupManagedInstanceProfileExecutionPolicy
+  AttachmentCount: 0
+  CreateDate: 2024-11-15 21:51:23+00:00
+  DefaultVersionId: v8
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4KKPPGQNXT
+  PolicyName: AWSQuickSetupManagedInstanceProfileExecutionPolicy
+  UpdateDate: 2026-06-03 14:12:12+00:00
+...
+

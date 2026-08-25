@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-solutions-telegrambot-postgres-cluster-pg.standard_conforming_strings
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Causes ... strings to treat backslashes literally.
+  IsModifiable: true
+  ParameterName: standard_conforming_strings
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

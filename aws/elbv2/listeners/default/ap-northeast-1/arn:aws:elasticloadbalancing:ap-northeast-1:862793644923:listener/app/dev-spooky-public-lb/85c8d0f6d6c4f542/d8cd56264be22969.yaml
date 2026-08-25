@@ -1,0 +1,23 @@
+---
+datatype: aws.elbv2.listeners
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener/app/dev-spooky-public-lb/85c8d0f6d6c4f542/d8cd56264be22969
+specifics:
+  DefaultActions:
+  - ForwardConfig:
+      TargetGroupStickinessConfig:
+        Enabled: false
+      TargetGroups:
+      - TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/dev-spooky-sms-tg/a9ee80025281ca03
+        Weight: 1
+    Order: 1
+    TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/dev-spooky-sms-tg/a9ee80025281ca03
+    Type: forward
+  ListenerArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener/app/dev-spooky-public-lb/85c8d0f6d6c4f542/d8cd56264be22969
+  LoadBalancerArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:loadbalancer/app/dev-spooky-public-lb/85c8d0f6d6c4f542
+  Port: 5002
+  Protocol: HTTP
+...
+

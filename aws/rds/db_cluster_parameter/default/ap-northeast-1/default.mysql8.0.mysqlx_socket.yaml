@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.mysqlx_socket
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: ' '
+  IsModifiable: false
+  ParameterName: mysqlx_socket
+  ParameterValue: /tmp/mysqlx.sock
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql16.pg_hint_plan.debug_print
+specifics:
+  AllowedValues: off,on,detailed,verbose
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Logs results of hint parsing.
+  IsModifiable: true
+  ParameterName: pg_hint_plan.debug_print
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

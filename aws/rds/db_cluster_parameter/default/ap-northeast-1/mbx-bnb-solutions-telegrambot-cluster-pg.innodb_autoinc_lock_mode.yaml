@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-solutions-telegrambot-cluster-pg.innodb_autoinc_lock_mode
+specifics:
+  AllowedValues: 0-2
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: The locking mode to use for generating auto-increment values
+  IsModifiable: true
+  ParameterName: innodb_autoinc_lock_mode
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

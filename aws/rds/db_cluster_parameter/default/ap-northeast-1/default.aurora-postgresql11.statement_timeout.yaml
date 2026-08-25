@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql11.statement_timeout
+specifics:
+  AllowedValues: 0-2147483647
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: (ms) Sets the maximum allowed duration of any statement.
+  IsModifiable: true
+  ParameterName: statement_timeout
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+  - serverless
+...
+

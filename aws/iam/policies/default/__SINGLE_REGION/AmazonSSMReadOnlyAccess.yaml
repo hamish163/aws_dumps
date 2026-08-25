@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonSSMReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonSSMReadOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2015-05-29 17:44:19+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJODSKQGGJTHRYZ5FC
+  PolicyName: AmazonSSMReadOnlyAccess
+  UpdateDate: 2015-05-29 17:44:19+00:00
+...
+

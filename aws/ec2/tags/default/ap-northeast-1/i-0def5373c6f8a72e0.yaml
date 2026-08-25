@@ -1,0 +1,18 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-0def5373c6f8a72e0
+specifics:
+  Name: bitdj_bnb_testnet_bot1_ec2
+  biz: mbx
+  env: testnet
+  exchange_id: bnb
+  project: testnet_bot
+  sre-app: testnetbot
+  sre-component: testnetbot
+  sre-env: prod
+  team: solutions
+...
+

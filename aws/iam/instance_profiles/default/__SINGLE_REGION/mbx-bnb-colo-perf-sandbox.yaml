@@ -1,0 +1,28 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-colo-perf-sandbox
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/mbx-bnb-colo-perf-sandbox
+  CreateDate: 2026-08-17 15:04:11+00:00
+  InstanceProfileId: AIPA4RYUCHN5SQFKRZLTY
+  InstanceProfileName: mbx-bnb-colo-perf-sandbox
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/mbx-bnb-colo-perf-sandbox
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+      Version: '2012-10-17'
+    CreateDate: 2026-08-17 15:04:10+00:00
+    Path: /
+    RoleId: AROA4RYUCHN5ZZ5YJ3XSE
+    RoleName: mbx-bnb-colo-perf-sandbox
+...
+

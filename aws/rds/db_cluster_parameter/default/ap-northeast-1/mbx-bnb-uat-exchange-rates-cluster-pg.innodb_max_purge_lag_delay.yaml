@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-exchange-rates-cluster-pg.innodb_max_purge_lag_delay
+specifics:
+  AllowedValues: 0-18446744073709551615
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Specifies the maximum delay in microseconds for the delay imposed by
+    the innodb_max_purge_lag configuration option
+  IsModifiable: true
+  ParameterName: innodb_max_purge_lag_delay
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

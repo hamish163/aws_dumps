@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonChimeSDKMediaPipelinesServiceLinkedRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AmazonChimeSDKMediaPipelinesServiceLinkedRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2022-04-04 22:02:05+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4ERP6SEMWK
+  PolicyName: AmazonChimeSDKMediaPipelinesServiceLinkedRolePolicy
+  UpdateDate: 2023-12-08 19:14:31+00:00
+...
+

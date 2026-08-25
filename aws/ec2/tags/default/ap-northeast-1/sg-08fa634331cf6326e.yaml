@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-08fa634331cf6326e
+specifics:
+  Name: mbx-bnb-devops-nginx-mgmt-api-sapi
+  biz: mbx
+  mbx_env_name: devops
+  mbx_exchange_name: bnb
+  mbx_secret_store: none
+  team: mbx
+...
+

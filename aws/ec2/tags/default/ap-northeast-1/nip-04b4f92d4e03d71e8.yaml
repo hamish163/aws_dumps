@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: nip-04b4f92d4e03d71e8
+specifics:
+  Name: smacky-to-prometheus
+...
+

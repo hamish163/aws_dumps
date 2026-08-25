@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0b53e5046097d2005
+specifics:
+  Description: Allow TCP traffic from rates-alb SG on port 5678
+  FromPort: 5678
+  GroupId: sg-08898715a90575bd3
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0b24803ca480db29e
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0b53e5046097d2005
+  Tags: []
+  ToPort: 5678
+...
+

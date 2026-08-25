@@ -1,0 +1,25 @@
+---
+datatype: aws.ec2.launch_template_versions
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: lt-085164165757cd019
+specifics:
+  CreateTime: 2023-04-03 04:46:32+00:00
+  CreatedBy: arn:aws:iam::862793644923:user/jeff
+  DefaultVersion: false
+  LaunchTemplateData:
+    ImageId: ami-0ffac3e16de16665e
+    InstanceType: t2.medium
+    KeyName: jeff
+    MetadataOptions:
+      InstanceMetadataTags: enabled
+    SecurityGroupIds:
+    - sg-0a95960cf2690240f
+    - sg-0ac9f77f96fd1839d
+    UserData: IyEvYmluL2Jhc2ggLXhlCiMgVE8gRE86IGluc3RhbGwgKyBjb25maWd1cmUgc2FsdC1taW5pb24KaWYgSE9TVE5BTUU9JChjdXJsIC1zZiBodHRwOi8vMTY5LjI1NC4xNjkuMjU0L2xhdGVzdC9tZXRhLWRhdGEvdGFncy9pbnN0YW5jZS9yb2NrZXRjaGF0Lmhvc3RuYW1lLyk7IHRoZW4KICBob3N0bmFtZWN0bCBzZXQtaG9zdG5hbWUgJEhPU1ROQU1FCmZpCi9ldGMvaW5pdC5kL25ldHdvcmsgcmVzdGFydAp5dW0gdXBkYXRlIC15CmFtYXpvbi1saW51eC1leHRyYXMgaW5zdGFsbCBlcGVsIC15CmFtYXpvbi1saW51eC1leHRyYXMgaW5zdGFsbCBkb2NrZXIKdXNlcm1vZCAtYSAtRyBkb2NrZXIgZWMyLXVzZXIKc3lzdGVtY3RsIHN0YXJ0IGRvY2tlcgpzeXN0ZW1jdGwgZW5hYmxlIGRvY2tlcgpjdXJsIC1MIGh0dHBzOi8vZ2l0aHViLmNvbS9kb2NrZXIvY29tcG9zZS9yZWxlYXNlcy9kb3dubG9hZC8xLjIyLjAvZG9ja2VyLWNvbXBvc2UtJCh1bmFtZSAtcyktJCh1bmFtZSAtbSkgLW8gL3Vzci9sb2NhbC9iaW4vZG9ja2VyLWNvbXBvc2UKIyBjdXJsIC1MIGh0dHBzOi8vZ2l0aHViLmNvbS9kb2NrZXIvY29tcG9zZS9yZWxlYXNlcy9sYXRlc3QvZG93bmxvYWQvZG9ja2VyLWNvbXBvc2UtJCh1bmFtZSAtcyktJCh1bmFtZSAtbSkgLW8gL3Vzci9sb2NhbC9iaW4vZG9ja2VyLWNvbXBvc2UKc3VkbyBjaG1vZCAreCAvdXNyL2xvY2FsL2Jpbi9kb2NrZXItY29tcG9zZQo=
+  LaunchTemplateId: lt-085164165757cd019
+  LaunchTemplateName: RocketChatLaunchTemplate_v0VRuJkHAEc4
+  VersionNumber: 3
+...
+

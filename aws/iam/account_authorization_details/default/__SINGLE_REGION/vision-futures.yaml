@@ -1,0 +1,30 @@
+---
+datatype: aws.iam.account_authorization_details
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: vision-futures
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/vision-futures
+  AttachedManagedPolicies: []
+  CreateDate: 2021-02-05 08:49:52+00:00
+  GroupList: []
+  Path: /
+  Tags: []
+  UserId: AIDA4RYUCHN5XYVOE6FH4
+  UserName: vision-futures
+  UserPolicyList:
+  - PolicyDocument:
+      Statement:
+      - Action:
+        - s3:PutObject
+        - s3:GetObject
+        - s3:DeleteObject
+        Effect: Allow
+        Resource: arn:aws:s3:::data.binance.vision/data/futures/*
+        Sid: VisualEditor0
+      Version: '2012-10-17'
+    PolicyName: allowFuturesToDataVision
+...
+

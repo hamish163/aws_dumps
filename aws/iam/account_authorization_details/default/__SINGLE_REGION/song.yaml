@@ -1,0 +1,43 @@
+---
+datatype: aws.iam.account_authorization_details
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: song
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/song
+  AttachedManagedPolicies: []
+  CreateDate: 2026-04-27 06:53:46+00:00
+  GroupList:
+  - QA_PERF_TEAM
+  - QA_TEAM
+  - mbx_bedrock
+  - qa
+  Path: /
+  Tags:
+  - Key: mbx_iam
+    Value: song
+  - Key: mbx_team
+    Value: qa
+  - Key: biz
+    Value: mbx
+  - Key: team
+    Value: mbx
+  UserId: AIDA4RYUCHN5QVJS6VM3G
+  UserName: song
+  UserPolicyList:
+  - PolicyDocument:
+      Statement:
+      - Action:
+        - '*'
+        Condition:
+          DateLessThan:
+            aws:TokenIssueTime: '2026-06-09T10:57:41.441Z'
+        Effect: Deny
+        Resource:
+        - '*'
+      Version: '2012-10-17'
+    PolicyName: AWSRevokeOlderSessions
+...
+

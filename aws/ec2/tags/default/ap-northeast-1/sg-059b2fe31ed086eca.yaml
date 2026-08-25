@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-059b2fe31ed086eca
+specifics:
+  for-use-with-amazon-emr-managed-policies: 'true'
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0e7eccfc2af7521f4
+specifics:
+  Name: bnb_prod_mbx_comply-account-service_sg
+  app: comply
+  biz: mbx
+  env: prod
+  exchange_id: bnb
+  project: comply
+  role: comply-account-service
+  sre-app: comply
+  sre-component: comply-account-service
+  sre-env: prod
+  team: sre
+...
+

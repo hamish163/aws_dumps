@@ -1,0 +1,29 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: ecrTestRole
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/ecrTestRole
+  CreateDate: 2019-03-18 14:05:39+00:00
+  InstanceProfileId: AIPAILEMWF3Q6LPFWFHCK
+  InstanceProfileName: ecrTestRole
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/ecrTestRole
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Condition: {}
+        Effect: Allow
+        Principal:
+          AWS: arn:aws:iam::369096419186:root
+      Version: '2012-10-17'
+    CreateDate: 2019-03-18 14:05:38+00:00
+    Path: /
+    RoleId: AROAIIFFT2JRTNUT4SZVI
+    RoleName: ecrTestRole
+...
+

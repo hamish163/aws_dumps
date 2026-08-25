@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-orders-cluster-pg-default.aurora_disable_hash_join
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: A global user variable for user to disable hash join. When it is on,
+    hash join is disabled by default, and customer can set it on per session.
+  IsModifiable: true
+  MinimumEngineVersion: 5.6.10a
+  ParameterName: aurora_disable_hash_join
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

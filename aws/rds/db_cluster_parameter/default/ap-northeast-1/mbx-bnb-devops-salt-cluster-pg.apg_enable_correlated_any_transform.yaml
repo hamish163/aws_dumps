@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-devops-salt-cluster-pg.apg_enable_correlated_any_transform
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Enables the planner to transform correlated ANY Sublink (IN/NOT IN
+    subquery) to JOIN when possible.
+  IsModifiable: true
+  ParameterName: apg_enable_correlated_any_transform
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

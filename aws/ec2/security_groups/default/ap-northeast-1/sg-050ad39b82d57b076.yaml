@@ -1,0 +1,13 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-050ad39b82d57b076
+specifics:
+  Description: apisharing-poc-db-sg
+  GroupId: sg-050ad39b82d57b076
+  GroupName: apisharing-poc-db-sg
+  VpcId: vpc-07652e77a8fa0e0c2
+...
+

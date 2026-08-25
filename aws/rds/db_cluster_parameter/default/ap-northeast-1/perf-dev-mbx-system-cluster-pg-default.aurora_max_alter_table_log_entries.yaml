@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-system-cluster-pg-default.aurora_max_alter_table_log_entries
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: RDS ability to limit the number of maximum outstanding Fast Online
+    DDL. Set 0 to disable FOD. Does not apply to tables which are already altered
+    via FOD.
+  IsModifiable: true
+  ParameterName: aurora_max_alter_table_log_entries
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

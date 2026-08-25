@@ -1,0 +1,14 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0154869a90e714e84
+specifics:
+  Name: mbx-bnb-uat-demo-mgmt-api-alb
+  biz: mbx
+  mbx_env_name: uat
+  mbx_exchange_name: bnb
+  team: mbx
+...
+

@@ -1,0 +1,26 @@
+---
+datatype: aws.iam.account_authorization_details
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: hamish
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/hamish
+  AttachedManagedPolicies: []
+  CreateDate: 2026-08-10 04:49:54+00:00
+  GroupList:
+  - DEVOPS_TEAM_IAM_MGMT_NON_PROD
+  - DEVOPS_TEAM_INFRA_MGMT_NON_PROD
+  - DEVOPS_TEAM_RO
+  - devops
+  Path: /
+  Tags:
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  UserId: AIDA4RYUCHN533CZCVU5D
+  UserName: hamish
+...
+

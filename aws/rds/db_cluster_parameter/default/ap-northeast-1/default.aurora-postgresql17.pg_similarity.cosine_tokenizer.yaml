@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql17.pg_similarity.cosine_tokenizer
+specifics:
+  AllowedValues: alnum,gram,word,camelcase
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Sets the tokenizer for Cosine similarity function.
+  IsModifiable: true
+  ParameterName: pg_similarity.cosine_tokenizer
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

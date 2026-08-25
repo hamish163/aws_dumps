@@ -1,0 +1,26 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-086716a1b1308fb91
+specifics:
+  Description: Security group for memcache
+  GroupId: sg-086716a1b1308fb91
+  GroupName: mbx-bnb-devops-memcache
+  Tags:
+  - Key: Name
+    Value: mbx-bnb-devops-memcache
+  - Key: biz
+    Value: mbx
+  - Key: team
+    Value: mbx
+  - Key: mbx_secret_store
+    Value: none
+  - Key: mbx_env_name
+    Value: devops
+  - Key: mbx_exchange_name
+    Value: bnb
+  VpcId: vpc-07519eb63f1d932ac
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonS3OutpostsReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonS3OutpostsReadOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2020-10-02 18:55:58+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4PJ2AX4CUB
+  PolicyName: AmazonS3OutpostsReadOnlyAccess
+  UpdateDate: 2020-10-02 18:55:58+00:00
+...
+

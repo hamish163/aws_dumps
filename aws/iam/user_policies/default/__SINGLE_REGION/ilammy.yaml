@@ -1,0 +1,13 @@
+---
+datatype: aws.iam.user_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: ilammy
+  single_region: true
+specifics:
+  PolicyNames:
+  - allow-switch-to-prod-log-read-only
+  - JenkinsEKSAccess
+...
+

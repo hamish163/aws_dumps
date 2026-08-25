@@ -1,0 +1,13 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: bnb-perf-create-rds-api-gateway
+  single_region: true
+specifics:
+  biz: mbx
+  project: mbx
+  team: mbx
+...
+

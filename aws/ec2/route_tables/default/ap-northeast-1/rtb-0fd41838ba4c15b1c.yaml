@@ -1,0 +1,132 @@
+---
+datatype: aws.ec2.route_tables
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rtb-0fd41838ba4c15b1c
+specifics:
+  Associations:
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-02700fa6d71125e47
+    RouteTableId: rtb-0fd41838ba4c15b1c
+    SubnetId: subnet-05c725ad0285e7296
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-04bad1c121b846785
+    RouteTableId: rtb-0fd41838ba4c15b1c
+    SubnetId: subnet-017ec9e731308dd5d
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-08ce304cdc9f8fd00
+    RouteTableId: rtb-0fd41838ba4c15b1c
+    SubnetId: subnet-09d026f6e1a1cd1f7
+  OwnerId: '862793644923'
+  PropagatingVgws: []
+  RouteTableId: rtb-0fd41838ba4c15b1c
+  Routes:
+  - DestinationCidrBlock: 172.28.2.16/32
+    Origin: CreateRoute
+    State: active
+    TransitGatewayId: tgw-094ec8a8749ab72d4
+  - DestinationCidrBlock: 10.10.19.0/24
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-0805b5b3852708808
+  - DestinationCidrBlock: 10.10.140.0/24
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-0805b5b3852708808
+  - DestinationCidrBlock: 10.10.141.0/24
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-0805b5b3852708808
+  - DestinationCidrBlock: 10.10.150.0/24
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-0805b5b3852708808
+  - DestinationCidrBlock: 10.10.151.0/24
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-0805b5b3852708808
+  - DestinationCidrBlock: 10.10.153.0/24
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-0805b5b3852708808
+  - DestinationCidrBlock: 10.10.155.0/24
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-0805b5b3852708808
+  - DestinationCidrBlock: 10.21.64.0/19
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-0033a924d785335cd
+  - DestinationCidrBlock: 10.21.96.0/19
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-0033a924d785335cd
+  - DestinationCidrBlock: 10.66.224.0/19
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-09ad5363586cf3756
+  - DestinationCidrBlock: 10.21.0.0/18
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-0033a924d785335cd
+  - DestinationCidrBlock: 172.25.0.0/16
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-0fc0d3a50878efc4a
+  - DestinationCidrBlock: 172.27.0.0/16
+    GatewayId: local
+    Origin: CreateRouteTable
+    State: active
+  - DestinationCidrBlock: 172.28.0.0/16
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-080f2d246a20104b8
+  - DestinationCidrBlock: 172.29.0.0/16
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-0c763610df6c90e94
+  - DestinationCidrBlock: 172.30.0.0/16
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-0b071727079530360
+  - DestinationCidrBlock: 172.31.0.0/16
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-0faf3450a5a88b69f
+  - DestinationCidrBlock: 10.80.0.0/16
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-03e37489a6b6026ad
+  - DestinationCidrBlock: 10.139.0.0/16
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-066104aafff4dcf23
+  - DestinationCidrBlock: 10.143.0.0/16
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-03c720e7be501b0cc
+  - DestinationCidrBlock: 172.16.0.0/12
+    Origin: CreateRoute
+    State: active
+    TransitGatewayId: tgw-094ec8a8749ab72d4
+  - DestinationCidrBlock: 10.0.0.0/8
+    Origin: CreateRoute
+    State: active
+    TransitGatewayId: tgw-094ec8a8749ab72d4
+  - DestinationCidrBlock: 0.0.0.0/0
+    GatewayId: igw-06e9999777ae50fbe
+    Origin: CreateRoute
+    State: active
+  Tags:
+  - Key: Name
+    Value: prod-tracky-external
+  VpcId: vpc-03f5d2495fd8d95a3
+...
+

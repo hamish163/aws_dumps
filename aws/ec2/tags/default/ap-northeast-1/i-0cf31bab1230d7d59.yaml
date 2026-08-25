@@ -1,0 +1,17 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-0cf31bab1230d7d59
+specifics:
+  Name: mbx-bnb-perf-fix-api-orderentry2
+  biz: mbx
+  mbx_application_name: mbx-api-fix-orderentry
+  mbx_env_name: perf
+  mbx_exchange_name: bnb
+  mbx_host_index: '2'
+  mbx_secret_store: asm
+  team: mbx
+...
+

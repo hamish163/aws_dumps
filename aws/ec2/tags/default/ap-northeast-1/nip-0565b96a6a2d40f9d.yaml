@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: nip-0565b96a6a2d40f9d
+specifics:
+  Name: mbx_vpn_to_usa_prometheus
+...
+

@@ -1,0 +1,17 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-perf-audit-orders
+  single_region: true
+specifics:
+  Name: mbx-bnb-perf-audit-orders
+  biz: mbx
+  mbx_application_name: mbx-audit-orders
+  mbx_env_name: perf
+  mbx_exchange_name: bnb
+  mbx_secret_store: none
+  team: mbx
+...
+

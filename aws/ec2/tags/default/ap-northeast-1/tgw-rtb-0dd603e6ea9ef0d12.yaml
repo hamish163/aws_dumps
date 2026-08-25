@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: tgw-rtb-0dd603e6ea9ef0d12
+specifics:
+  Name: MBX Hub Route Table
+...
+

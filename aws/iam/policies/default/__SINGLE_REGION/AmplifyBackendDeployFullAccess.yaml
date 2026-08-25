@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmplifyBackendDeployFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AmplifyBackendDeployFullAccess
+  AttachmentCount: 0
+  CreateDate: 2023-10-06 21:32:59+00:00
+  DefaultVersionId: v9
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4H6M6P2QGM
+  PolicyName: AmplifyBackendDeployFullAccess
+  UpdateDate: 2024-11-14 19:09:39+00:00
+...
+

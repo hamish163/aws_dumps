@@ -1,0 +1,14 @@
+---
+datatype: aws.iam.mfa_devices
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: matthieu
+  single_region: true
+specifics:
+  MFADevices:
+  - EnableDate: 2020-08-04 09:32:40+00:00
+    SerialNumber: arn:aws:iam::862793644923:mfa/matthieu
+    UserName: matthieu
+...
+

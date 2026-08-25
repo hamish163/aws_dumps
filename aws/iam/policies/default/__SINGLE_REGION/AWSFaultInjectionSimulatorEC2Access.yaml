@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSFaultInjectionSimulatorEC2Access
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AWSFaultInjectionSimulatorEC2Access
+  AttachmentCount: 0
+  CreateDate: 2022-10-26 20:39:26+00:00
+  DefaultVersionId: v10
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4JRMRLWKEY
+  PolicyName: AWSFaultInjectionSimulatorEC2Access
+  UpdateDate: 2026-02-12 17:59:38+00:00
+...
+

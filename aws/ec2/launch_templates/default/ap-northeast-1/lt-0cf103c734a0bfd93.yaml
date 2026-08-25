@@ -1,0 +1,28 @@
+---
+datatype: aws.ec2.launch_templates
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: lt-0cf103c734a0bfd93
+specifics:
+  CreateTime: 2026-07-09 22:29:44+00:00
+  CreatedBy: arn:aws:iam::862793644923:user/tom
+  DefaultVersionNumber: 1
+  LatestVersionNumber: 1
+  LaunchTemplateId: lt-0cf103c734a0bfd93
+  LaunchTemplateName: mbx-bnb-devops-eks1-generic-20260710
+  Tags:
+  - Key: mbx_env_name
+    Value: devops
+  - Key: biz
+    Value: mbx
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  - Key: stack_path
+    Value: bnb/devops/eks1/cluster
+  - Key: mbx_secret_store
+    Value: none
+...
+

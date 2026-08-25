@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-032cce016f78c0db0
+specifics:
+  CidrIpv4: 10.12.0.0/16
+  Description: New VPN
+  FromPort: 8080
+  GroupId: sg-0b07988c910cd5cc8
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-032cce016f78c0db0
+  Tags: []
+  ToPort: 8080
+...
+

@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-system-cluster-pg-57.show_create_table_verbosity
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Enabling show_create_table_verbosity causes SHOW CREATE TABLE to display
+    ROW_FORMAT regardless of whether it is the default format
+  IsModifiable: true
+  MinimumEngineVersion: 5.7.mysql_aurora.2.12.0
+  ParameterName: show_create_table_verbosity
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,14 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-03a46d9b0fe87878f
+specifics:
+  Description: Security group attached to instances to securely connect to mbx-bnb-devops-tfe.
+    Modification could lead to connection loss.
+  GroupId: sg-03a46d9b0fe87878f
+  GroupName: elasticache-ec2-mbx-bnb-devops-tfe:i-0347cc0aa194aedfd
+  VpcId: vpc-07519eb63f1d932ac
+...
+

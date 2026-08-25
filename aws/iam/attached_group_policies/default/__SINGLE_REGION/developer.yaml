@@ -1,0 +1,31 @@
+---
+datatype: aws.iam.attached_group_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: developer
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/AllowRDSDev
+    PolicyName: AllowRDSDev
+  - PolicyArn: arn:aws:iam::862793644923:policy/S3GetPerfJournals
+    PolicyName: S3GetPerfJournals
+  - PolicyArn: arn:aws:iam::862793644923:policy/QaTungstenInvocationPolicy
+    PolicyName: QaTungstenInvocationPolicy
+  - PolicyArn: arn:aws:iam::862793644923:policy/ECRReadOnly
+    PolicyName: ECRReadOnly
+  - PolicyArn: arn:aws:iam::862793644923:policy/AllowUserManagedOwnAccount
+    PolicyName: AllowUserManagedOwnAccount
+  - PolicyArn: arn:aws:iam::aws:policy/CloudWatchReadOnlyAccess
+    PolicyName: CloudWatchReadOnlyAccess
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonRDSReadOnlyAccess
+    PolicyName: AmazonRDSReadOnlyAccess
+  - PolicyArn: arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess
+    PolicyName: CloudWatchLogsReadOnlyAccess
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonBedrockLimitedAccess
+    PolicyName: AmazonBedrockLimitedAccess
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonBedrockMarketplaceAccess
+    PolicyName: AmazonBedrockMarketplaceAccess
+...
+

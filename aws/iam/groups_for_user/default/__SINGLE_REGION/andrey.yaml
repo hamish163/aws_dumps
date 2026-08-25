@@ -1,0 +1,27 @@
+---
+datatype: aws.iam.groups_for_user
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: andrey
+  single_region: true
+specifics:
+  Groups:
+  - Arn: arn:aws:iam::862793644923:group/developer
+    CreateDate: 2019-05-20 04:22:18+00:00
+    GroupId: AGPA4RYUCHN52ZSTCR44T
+    GroupName: developer
+    Path: /
+  - Arn: arn:aws:iam::862793644923:group/mbx_bedrock
+    CreateDate: 2026-04-03 13:30:18+00:00
+    GroupId: AGPA4RYUCHN5RHTPHOYU3
+    GroupName: mbx_bedrock
+    Path: /
+  - Arn: arn:aws:iam::862793644923:group/DEVOPS_TEAM_RO
+    CreateDate: 2022-02-02 05:26:12+00:00
+    GroupId: AGPA4RYUCHN5UMZLRU6XR
+    GroupName: DEVOPS_TEAM_RO
+    Path: /
+  _UserName: andrey
+...
+

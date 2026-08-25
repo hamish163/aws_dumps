@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: nip-0700f0d38003953a9
+specifics:
+  Name: public-to-spooky
+...
+

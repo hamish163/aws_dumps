@@ -1,0 +1,40 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-0bfc47661d2f09160
+specifics:
+  Attachment:
+    AttachmentId: ela-attach-06b76ea34c1b4b6b2
+    DeleteOnTermination: false
+    DeviceIndex: 1
+    InstanceOwnerId: amazon-aws
+    Status: attached
+  AvailabilityZone: ap-northeast-1c
+  Description: VPC Endpoint Interface vpce-09be3f4e2520fc54c
+  Groups:
+  - GroupId: sg-00d6da6612184a704
+    GroupName: BitdjNetwork-ClientVPN-KSG2APQFB97B-VpnSecurityGroup-6J8A4I3OON6P
+  - GroupId: sg-0bf2665c6fe47c7ce
+    GroupName: BitdjNetwork-SplitClientVPN-LN5RWSESLCM5-VpnSecurityGroup-RQWLPNVU94PC
+  InterfaceType: vpc_endpoint
+  Ipv6Addresses: []
+  MacAddress: 0a:a5:74:1f:04:4b
+  NetworkInterfaceId: eni-0bfc47661d2f09160
+  OwnerId: '862793644923'
+  PrivateDnsName: ip-10-12-0-55.ap-northeast-1.compute.internal
+  PrivateIpAddress: 10.12.0.55
+  PrivateIpAddresses:
+  - Primary: true
+    PrivateDnsName: ip-10-12-0-55.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.12.0.55
+  RequesterId: '727180483921'
+  RequesterManaged: true
+  SourceDestCheck: true
+  Status: in-use
+  SubnetId: subnet-01ca32129199dd40a
+  TagSet: []
+  VpcId: vpc-0beab044be33d1617
+...
+

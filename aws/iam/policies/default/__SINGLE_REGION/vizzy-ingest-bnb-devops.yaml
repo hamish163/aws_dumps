@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: vizzy-ingest-bnb-devops
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/vizzy-ingest-bnb-devops
+  AttachmentCount: 46
+  CreateDate: 2026-05-28 09:58:46+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN55QT6XIGOS
+  PolicyName: vizzy-ingest-bnb-devops
+  UpdateDate: 2026-05-28 09:58:46+00:00
+...
+

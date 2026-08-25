@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.mysqlx_max_connections
+specifics:
+  AllowedValues: 1-65535
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: ' '
+  IsModifiable: false
+  ParameterName: mysqlx_max_connections
+  ParameterValue: '100'
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

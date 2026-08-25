@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSElasticDisasterRecoveryStagingAccountPolicy_v2
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AWSElasticDisasterRecoveryStagingAccountPolicy_v2
+  AttachmentCount: 0
+  CreateDate: 2023-01-05 12:11:44+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4BNQEQ6SEE
+  PolicyName: AWSElasticDisasterRecoveryStagingAccountPolicy_v2
+  UpdateDate: 2023-11-27 13:32:09+00:00
+...
+

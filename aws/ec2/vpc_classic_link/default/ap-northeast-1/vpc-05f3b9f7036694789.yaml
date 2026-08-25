@@ -1,0 +1,20 @@
+---
+datatype: aws.ec2.vpc_classic_link
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vpc-05f3b9f7036694789
+specifics:
+  ClassicLinkEnabled: false
+  Tags:
+  - Key: aws:cloudformation:stack-name
+    Value: BitdjNetwork-SharedServicesVPC-13KWU8EL2JJT0
+  - Key: aws:cloudformation:stack-id
+    Value: arn:aws:cloudformation:ap-northeast-1:862793644923:stack/BitdjNetwork-SharedServicesVPC-13KWU8EL2JJT0/850b36f0-abad-11ed-b16a-0eadc952e02f
+  - Key: Name
+    Value: SharedServicesVPC Attachment VPC
+  - Key: aws:cloudformation:logical-id
+    Value: VPC
+  VpcId: vpc-05f3b9f7036694789
+...
+

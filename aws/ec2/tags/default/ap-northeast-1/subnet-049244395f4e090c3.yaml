@@ -1,0 +1,13 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: subnet-049244395f4e090c3
+specifics:
+  Name: ClientVpnVPC Attachment Subnet 1
+  aws:cloudformation:logical-id: AttachmentSubnet1
+  aws:cloudformation:stack-id: arn:aws:cloudformation:ap-northeast-1:862793644923:stack/BitdjNetwork-ClientVpnVPC-ARIM2UO7ZOFH/e78792c0-ac01-11ed-8f65-0a2a596332ef
+  aws:cloudformation:stack-name: BitdjNetwork-ClientVpnVPC-ARIM2UO7ZOFH
+...
+

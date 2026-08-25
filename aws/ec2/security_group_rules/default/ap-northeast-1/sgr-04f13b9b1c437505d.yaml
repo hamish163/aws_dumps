@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-04f13b9b1c437505d
+specifics:
+  Description: Zookeeper Election Port
+  FromPort: 3888
+  GroupId: sg-0fa16a4f347f73be1
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0fa16a4f347f73be1
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-04f13b9b1c437505d
+  Tags: []
+  ToPort: 3888
+...
+

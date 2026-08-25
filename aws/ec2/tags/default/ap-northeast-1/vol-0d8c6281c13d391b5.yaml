@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-0d8c6281c13d391b5
+specifics:
+  Name: mbx-bnb-perf-blaster-userdata2
+  biz: mbx
+  mbx_env_name: perf
+  mbx_exchange_name: bnb
+  mbx_host_index: '2'
+  team: mbx
+...
+

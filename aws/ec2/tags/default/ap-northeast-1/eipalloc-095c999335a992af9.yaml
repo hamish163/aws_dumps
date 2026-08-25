@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eipalloc-095c999335a992af9
+specifics:
+  Name: tky_stage_mbx_eip
+  env: stage
+  project: mbx
+...
+

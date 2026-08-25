@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSCloudMapDiscoverInstanceAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSCloudMapDiscoverInstanceAccess
+  AttachmentCount: 0
+  CreateDate: 2018-11-29 00:02:42+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIPRD7PYYQVYPDME4K
+  PolicyName: AWSCloudMapDiscoverInstanceAccess
+  UpdateDate: 2023-09-20 21:48:09+00:00
+...
+

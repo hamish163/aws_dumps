@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSSSMForSAPServiceLinkedRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AWSSSMForSAPServiceLinkedRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2022-11-16 01:18:21+00:00
+  DefaultVersionId: v21
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4AONIU2LID
+  PolicyName: AWSSSMForSAPServiceLinkedRolePolicy
+  UpdateDate: 2026-02-12 18:03:20+00:00
+...
+

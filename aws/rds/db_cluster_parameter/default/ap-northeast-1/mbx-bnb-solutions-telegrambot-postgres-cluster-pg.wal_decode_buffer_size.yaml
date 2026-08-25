@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-solutions-telegrambot-postgres-cluster-pg.wal_decode_buffer_size
+specifics:
+  AllowedValues: 65536-1073741823
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: Maximum buffer size for reading ahead in the WAL during recovery
+  IsModifiable: false
+  ParameterName: wal_decode_buffer_size
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

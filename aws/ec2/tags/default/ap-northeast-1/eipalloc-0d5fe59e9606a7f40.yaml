@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eipalloc-0d5fe59e9606a7f40
+specifics:
+  Name: tky-slave-10
+...
+

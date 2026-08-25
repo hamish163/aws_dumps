@@ -1,0 +1,16 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-006d0321bd758a249
+specifics:
+  Name: mbx-tools-prod-salt-master1
+  biz: mbx
+  mbx_env_name: prod
+  mbx_exchange_name: tools
+  mbx_host_index: '1'
+  mbx_secret_store: ''
+  team: mbx
+...
+

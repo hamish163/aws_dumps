@@ -1,0 +1,84 @@
+---
+datatype: aws.ec2.route_tables
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rtb-0b5e6fb387c888841
+specifics:
+  Associations:
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-0798fedbb8e2cd97a
+    RouteTableId: rtb-0b5e6fb387c888841
+    SubnetId: subnet-0899be7b94796ea56
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-0a39aa79d95eaba53
+    RouteTableId: rtb-0b5e6fb387c888841
+    SubnetId: subnet-02895a6b66c7fb7c7
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-0bc928b3eb5022176
+    RouteTableId: rtb-0b5e6fb387c888841
+    SubnetId: subnet-0d92f19d082a3909e
+  OwnerId: '862793644923'
+  PropagatingVgws: []
+  RouteTableId: rtb-0b5e6fb387c888841
+  Routes:
+  - DestinationCidrBlock: 10.10.19.0/24
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-0805b5b3852708808
+  - DestinationCidrBlock: 10.10.140.0/24
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-0805b5b3852708808
+  - DestinationCidrBlock: 10.10.141.0/24
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-0805b5b3852708808
+  - DestinationCidrBlock: 10.66.224.0/19
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-09ad5363586cf3756
+  - DestinationCidrBlock: 172.27.0.0/16
+    GatewayId: local
+    Origin: CreateRouteTable
+    State: active
+  - DestinationCidrBlock: 10.21.0.0/16
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-0033a924d785335cd
+  - DestinationCidrBlock: 10.51.0.0/16
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-00c17045b4d913ab6
+  - DestinationCidrBlock: 10.139.0.0/16
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-066104aafff4dcf23
+  - DestinationCidrBlock: 10.143.0.0/16
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-03c720e7be501b0cc
+  - DestinationCidrBlock: 172.0.0.0/8
+    Origin: CreateRoute
+    State: active
+    TransitGatewayId: tgw-094ec8a8749ab72d4
+  - DestinationCidrBlock: 10.0.0.0/8
+    Origin: CreateRoute
+    State: active
+    TransitGatewayId: tgw-094ec8a8749ab72d4
+  - DestinationCidrBlock: 0.0.0.0/0
+    NatGatewayId: nat-010eb8f7ba5f0eaea
+    Origin: CreateRoute
+    State: active
+  Tags:
+  - Key: Name
+    Value: prod-tracky-internal
+  VpcId: vpc-03f5d2495fd8d95a3
+...
+

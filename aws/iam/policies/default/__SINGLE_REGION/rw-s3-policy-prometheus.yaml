@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: rw-s3-policy-prometheus
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/rw-s3-policy-prometheus
+  AttachmentCount: 1
+  CreateDate: 2024-07-22 16:04:22+00:00
+  DefaultVersionId: v6
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN54FVTJZFB3
+  PolicyName: rw-s3-policy-prometheus
+  UpdateDate: 2025-07-07 05:55:39+00:00
+...
+

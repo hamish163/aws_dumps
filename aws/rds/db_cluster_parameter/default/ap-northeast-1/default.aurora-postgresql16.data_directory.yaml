@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql16.data_directory
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: Sets the servers data directory.
+  IsModifiable: false
+  ParameterName: data_directory
+  ParameterValue: /rdsdbdata/db
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

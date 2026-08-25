@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vpce-09be3f4e2520fc54c
+specifics:
+  Name: GitHub Enterprise - VPN
+...
+

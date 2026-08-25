@@ -1,0 +1,42 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-0cc665336bcd6ddcd
+specifics:
+  Attachment:
+    AttachTime: 2019-10-10 02:33:13+00:00
+    AttachmentId: eni-attach-022dbceea07074bc2
+    DeleteOnTermination: true
+    DeviceIndex: 0
+    InstanceId: i-052abd3ea6c7f6b9f
+    InstanceOwnerId: '862793644923'
+    NetworkCardIndex: 0
+    Status: attached
+  AvailabilityZone: ap-northeast-1a
+  Description: ''
+  Groups:
+  - GroupId: sg-04eecb7fa221a409b
+    GroupName: perf_qa_test_sg
+  - GroupId: sg-0a04690c2f2da3779
+    GroupName: perf_dev_mbx_pingable_sg
+  InterfaceType: interface
+  Ipv6Addresses: []
+  MacAddress: 06:f9:3e:f0:1d:7e
+  NetworkInterfaceId: eni-0cc665336bcd6ddcd
+  OwnerId: '862793644923'
+  PrivateDnsName: ip-172-20-150-90.ap-northeast-1.compute.internal
+  PrivateIpAddress: 172.20.150.90
+  PrivateIpAddresses:
+  - Primary: true
+    PrivateDnsName: ip-172-20-150-90.ap-northeast-1.compute.internal
+    PrivateIpAddress: 172.20.150.90
+  RequesterManaged: false
+  SourceDestCheck: true
+  Status: in-use
+  SubnetId: subnet-0f9a04363d10a07ed
+  TagSet: []
+  VpcId: vpc-0a7d9bfaa80b951d9
+...
+

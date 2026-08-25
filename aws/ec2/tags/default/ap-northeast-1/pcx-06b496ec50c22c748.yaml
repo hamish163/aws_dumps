@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: pcx-06b496ec50c22c748
+specifics:
+  Name: ap2_to_mbx_monitoring
+...
+

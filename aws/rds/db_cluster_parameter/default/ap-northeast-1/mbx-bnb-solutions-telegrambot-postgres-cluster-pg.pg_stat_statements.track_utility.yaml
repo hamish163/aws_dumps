@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-solutions-telegrambot-postgres-cluster-pg.pg_stat_statements.track_utility
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Selects whether utility commands are tracked by pg_stat_statements.
+  IsModifiable: true
+  ParameterName: pg_stat_statements.track_utility
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

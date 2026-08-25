@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql16.plv8.memory_limit
+specifics:
+  AllowedValues: 256-3096
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Sets the memory limit for the plv8 JavaScript engine in MB.
+  IsModifiable: true
+  ParameterName: plv8.memory_limit
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

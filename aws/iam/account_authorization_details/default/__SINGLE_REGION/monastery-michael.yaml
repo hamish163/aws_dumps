@@ -1,0 +1,25 @@
+---
+datatype: aws.iam.account_authorization_details
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: monastery-michael
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/monastery-michael
+  AttachedManagedPolicies: []
+  CreateDate: 2026-08-17 05:39:24+00:00
+  GroupList:
+  - mbx-monastery-aws-group-devops
+  Path: /
+  Tags:
+  - Key: biz
+    Value: mbx
+  - Key: team
+    Value: mbx
+  - Key: monastery-team
+    Value: devops
+  UserId: AIDA4RYUCHN5Q47C5FUF3
+  UserName: monastery-michael
+...
+

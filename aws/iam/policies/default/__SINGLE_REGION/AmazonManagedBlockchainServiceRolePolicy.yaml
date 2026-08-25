@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonManagedBlockchainServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AmazonManagedBlockchainServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2020-01-17 19:51:28+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4MMO7477QN
+  PolicyName: AmazonManagedBlockchainServiceRolePolicy
+  UpdateDate: 2020-01-17 19:51:28+00:00
+...
+

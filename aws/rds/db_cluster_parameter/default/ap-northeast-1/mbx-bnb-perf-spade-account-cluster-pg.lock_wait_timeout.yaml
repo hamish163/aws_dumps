@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-perf-spade-account-cluster-pg.lock_wait_timeout
+specifics:
+  AllowedValues: 1-31536000
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Specifies the timeout in seconds for attempts to acquire metadata locks
+  IsModifiable: true
+  ParameterName: lock_wait_timeout
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

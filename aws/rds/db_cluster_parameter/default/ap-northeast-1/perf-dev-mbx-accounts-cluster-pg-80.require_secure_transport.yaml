@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-accounts-cluster-pg-80.require_secure_transport
+specifics:
+  AllowedValues: ON,OFF
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Whether client connections to the server are required to use some form
+    of secure transport.
+  IsModifiable: true
+  ParameterName: require_secure_transport
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.user_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: ritwij
+  single_region: true
+specifics:
+  AKIA4RYUCHN5RUFA57FL: ritwij_2026
+  biz: mbx
+  mbx_iam: ritwij
+  mbx_team: devops
+  team: mbx
+...
+

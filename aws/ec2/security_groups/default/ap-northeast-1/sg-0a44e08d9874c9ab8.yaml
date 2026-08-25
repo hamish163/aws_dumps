@@ -1,0 +1,26 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0a44e08d9874c9ab8
+specifics:
+  Description: Managed by Terraform
+  GroupId: sg-0a44e08d9874c9ab8
+  GroupName: mbx-tools-prod-salt-master
+  Tags:
+  - Key: Name
+    Value: mbx-tools-prod-salt-master
+  - Key: biz
+    Value: mbx
+  - Key: mbx_secret_store
+    Value: ''
+  - Key: mbx_exchange_name
+    Value: tools
+  - Key: team
+    Value: mbx
+  - Key: mbx_env_name
+    Value: prod
+  VpcId: vpc-0f055c381f89cb200
+...
+

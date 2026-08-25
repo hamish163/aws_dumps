@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonGrafanaAthenaAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AmazonGrafanaAthenaAccess
+  AttachmentCount: 0
+  CreateDate: 2021-11-22 17:11:11+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4GXSPM7QQ7
+  PolicyName: AmazonGrafanaAthenaAccess
+  UpdateDate: 2021-11-22 17:11:11+00:00
+...
+

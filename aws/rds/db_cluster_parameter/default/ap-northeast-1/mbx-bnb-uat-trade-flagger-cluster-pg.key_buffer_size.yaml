@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-trade-flagger-cluster-pg.key_buffer_size
+specifics:
+  AllowedValues: 4096-4294967295
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Increase the buffer size to get better index handling used for index
+    blocks (for all reads and multiple writes).
+  IsModifiable: true
+  ParameterName: key_buffer_size
+  ParameterValue: '16777216'
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

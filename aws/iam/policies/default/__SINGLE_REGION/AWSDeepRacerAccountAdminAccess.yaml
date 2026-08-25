@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSDeepRacerAccountAdminAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSDeepRacerAccountAdminAccess
+  AttachmentCount: 0
+  CreateDate: 2021-10-28 01:27:13+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4HKQKG3YSU
+  PolicyName: AWSDeepRacerAccountAdminAccess
+  UpdateDate: 2021-10-28 01:27:13+00:00
+...
+

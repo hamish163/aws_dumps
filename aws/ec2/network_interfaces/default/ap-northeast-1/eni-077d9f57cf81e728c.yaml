@@ -1,0 +1,38 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-077d9f57cf81e728c
+specifics:
+  Attachment:
+    AttachmentId: ela-attach-08eed5af4356e7879
+    DeleteOnTermination: false
+    DeviceIndex: 1
+    InstanceOwnerId: amazon-aws
+    Status: attached
+  AvailabilityZone: ap-northeast-1d
+  Description: VPC Endpoint Interface vpce-08f215be425a1d17f
+  Groups:
+  - GroupId: sg-0ec08d1f2e227915e
+    GroupName: risk-team-dev-prv-alb-endpoint
+  InterfaceType: vpc_endpoint
+  Ipv6Addresses: []
+  MacAddress: 0e:4d:3f:5b:13:bf
+  NetworkInterfaceId: eni-077d9f57cf81e728c
+  OwnerId: '862793644923'
+  PrivateDnsName: ip-172-27-23-34.ap-northeast-1.compute.internal
+  PrivateIpAddress: 172.27.23.34
+  PrivateIpAddresses:
+  - Primary: true
+    PrivateDnsName: ip-172-27-23-34.ap-northeast-1.compute.internal
+    PrivateIpAddress: 172.27.23.34
+  RequesterId: '727180483921'
+  RequesterManaged: true
+  SourceDestCheck: true
+  Status: in-use
+  SubnetId: subnet-017ec9e731308dd5d
+  TagSet: []
+  VpcId: vpc-03f5d2495fd8d95a3
+...
+

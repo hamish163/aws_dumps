@@ -1,0 +1,16 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx.bnb.devops.mgmt-api-sapi/A
+  single_region: true
+specifics:
+  AliasTarget:
+    DNSName: internal-mbx-bnb-devops-mgmt-api-sapi-alb-1854062627.ap-northeast-1.elb.amazonaws.com.
+    EvaluateTargetHealth: true
+    HostedZoneId: Z14GRHDCWA56QT
+  Name: mgmt-api-sapi.devops.bnb.mbx.
+  Type: A
+...
+

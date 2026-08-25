@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-029f053510af9f669
+specifics:
+  Description: ssh from jmeter1
+  FromPort: 22
+  GroupId: sg-0ccc4162a5b581c8c
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-026692aa9064fbcf6
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-029f053510af9f669
+  Tags: []
+  ToPort: 22
+...
+

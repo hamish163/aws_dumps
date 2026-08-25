@@ -1,0 +1,42 @@
+---
+datatype: aws.ec2.volumes
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-04af4dd186798ee4e
+specifics:
+  Attachments:
+  - AttachTime: 2026-05-21 15:59:04+00:00
+    DeleteOnTermination: true
+    Device: /dev/xvda
+    InstanceId: i-01b4ec09ba2c07b5b
+    State: attached
+    VolumeId: vol-04af4dd186798ee4e
+  AvailabilityZone: ap-northeast-1a
+  CreateTime: 2026-05-21 15:59:04.982000+00:00
+  Encrypted: false
+  Iops: 3000
+  MultiAttachEnabled: false
+  Size: 40
+  SnapshotId: snap-0d970e09fd1d8cbac
+  State: in-use
+  Tags:
+  - Key: mbx_host_index
+    Value: '1'
+  - Key: Name
+    Value: mbx-bnb-devops-nginx-mgmt-api-sapi1
+  - Key: mbx_env_name
+    Value: devops
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_secret_store
+    Value: none
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  Throughput: 125
+  VolumeId: vol-04af4dd186798ee4e
+  VolumeType: gp3
+...
+

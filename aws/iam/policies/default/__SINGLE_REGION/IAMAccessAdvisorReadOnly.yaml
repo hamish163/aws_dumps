@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: IAMAccessAdvisorReadOnly
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/IAMAccessAdvisorReadOnly
+  AttachmentCount: 1
+  CreateDate: 2019-06-21 19:33:45+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4FNDX5PG6Z
+  PolicyName: IAMAccessAdvisorReadOnly
+  UpdateDate: 2019-06-21 19:33:45+00:00
+...
+

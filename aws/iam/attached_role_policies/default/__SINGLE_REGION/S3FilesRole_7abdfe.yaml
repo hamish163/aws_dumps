@@ -1,0 +1,13 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: S3FilesRole_7abdfe
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/service-role/S3FilesPolicy_8a1b19
+    PolicyName: S3FilesPolicy_8a1b19
+...
+

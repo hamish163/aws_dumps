@@ -1,0 +1,25 @@
+---
+datatype: aws.eks.access_entry
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:eks:ap-northeast-1:862793644923:access-entry/mbx-bnb-solutions-eks1/user/862793644923/stan/d0ce105c-4023-aa5f-0010-04d2d5e2e630
+specifics:
+  accessEntryArn: arn:aws:eks:ap-northeast-1:862793644923:access-entry/mbx-bnb-solutions-eks1/user/862793644923/stan/d0ce105c-4023-aa5f-0010-04d2d5e2e630
+  clusterName: mbx-bnb-solutions-eks1
+  createdAt: 2026-02-03 10:38:08.569000+11:00
+  kubernetesGroups:
+  - admin
+  modifiedAt: 2026-02-03 10:38:08.569000+11:00
+  principalArn: arn:aws:iam::862793644923:user/stan
+  tags:
+    biz: mbx
+    mbx_env_name: solutions
+    mbx_exchange_name: bnb
+    mbx_secret_store: none
+    stack_path: bnb/solutions/eks1/cluster
+    team: mbx
+  type: STANDARD
+  username: arn:aws:iam::862793644923:user/stan
+...
+

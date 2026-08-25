@@ -1,0 +1,15 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx.bnb.prod.tracky-de-slave1/A
+  single_region: true
+specifics:
+  Name: tracky-de-slave1.prod.bnb.mbx.
+  ResourceRecords:
+  - Value: 172.29.4.189
+  TTL: 300
+  Type: A
+...
+

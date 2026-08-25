@@ -1,0 +1,18 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-devops-papermill-crawler-chainsaw
+  single_region: true
+specifics:
+  biz: mbx
+  env: devops
+  exchange_id: bnb
+  mbx_application_name: papermill
+  mbx_env_name: devops
+  mbx_exchange_name: bnb
+  project: mbx
+  team: mbx
+...
+

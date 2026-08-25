@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonChimeServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AmazonChimeServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2019-09-30 22:25:06+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4NA5XMV3PI
+  PolicyName: AmazonChimeServiceRolePolicy
+  UpdateDate: 2019-09-30 22:25:06+00:00
+...
+

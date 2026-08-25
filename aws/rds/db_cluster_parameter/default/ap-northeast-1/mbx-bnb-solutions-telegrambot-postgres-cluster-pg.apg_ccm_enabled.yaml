@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-solutions-telegrambot-postgres-cluster-pg.apg_ccm_enabled
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Enable or disable cluster cache management for the cluster.
+  IsModifiable: true
+  ParameterName: apg_ccm_enabled
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

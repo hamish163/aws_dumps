@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonOmicsFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonOmicsFullAccess
+  AttachmentCount: 0
+  CreateDate: 2023-02-24 00:59:33+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4AXA7BQJYZ
+  PolicyName: AmazonOmicsFullAccess
+  UpdateDate: 2023-02-24 00:59:33+00:00
+...
+

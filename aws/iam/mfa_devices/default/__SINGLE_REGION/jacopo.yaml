@@ -1,0 +1,17 @@
+---
+datatype: aws.iam.mfa_devices
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: jacopo
+  single_region: true
+specifics:
+  MFADevices:
+  - EnableDate: 2023-03-28 09:28:10+00:00
+    SerialNumber: arn:aws:iam::862793644923:mfa/authenticator
+    UserName: jacopo
+  - EnableDate: 2023-03-28 09:08:56+00:00
+    SerialNumber: arn:aws:iam::862793644923:u2f/user/jacopo/Yubico-LAW7ZR4ELFDOHDAQYHVX2UHXXM
+    UserName: jacopo
+...
+

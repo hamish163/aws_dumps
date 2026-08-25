@@ -1,0 +1,17 @@
+---
+datatype: aws.route53.hosted_zones
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: dev.tools.mbx.
+  single_region: true
+specifics:
+  CallerReference: terraform-20260710093515319900000006
+  Config:
+    Comment: Managed by Terraform
+    PrivateZone: true
+  Id: /hostedzone/Z03283702RJ77A1PHWZRM
+  Name: dev.tools.mbx.
+  ResourceRecordSetCount: 2
+...
+

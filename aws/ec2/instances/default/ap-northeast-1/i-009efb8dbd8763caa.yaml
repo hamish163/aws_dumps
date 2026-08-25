@@ -1,0 +1,135 @@
+---
+datatype: aws.ec2.instances
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-009efb8dbd8763caa
+specifics:
+  AmiLaunchIndex: 0
+  Architecture: x86_64
+  BlockDeviceMappings:
+  - DeviceName: /dev/xvda
+    Ebs:
+      AttachTime: 2026-01-28 14:45:06+00:00
+      DeleteOnTermination: true
+      Status: attached
+      VolumeId: vol-087457bc1a1f4607d
+  - DeviceName: /dev/sdf
+    Ebs:
+      AttachTime: 2026-01-28 14:45:38.383000+00:00
+      DeleteOnTermination: false
+      Status: attached
+      VolumeId: vol-0cb9c69794db5a04c
+  BootMode: uefi-preferred
+  CapacityReservationSpecification:
+    CapacityReservationPreference: open
+  ClientToken: terraform-20260128144502574000000002
+  CpuOptions:
+    CoreCount: 2
+    ThreadsPerCore: 2
+  CurrentInstanceBootMode: uefi
+  EbsOptimized: true
+  EnaSupport: true
+  EnclaveOptions:
+    Enabled: false
+  HibernationOptions:
+    Configured: false
+  Hypervisor: xen
+  IamInstanceProfile:
+    Arn: arn:aws:iam::862793644923:instance-profile/mbx-bnb-devops-rundeck
+    Id: AIPA4RYUCHN57VA5LO7NA
+  ImageId: ami-042bb437a2169b093
+  InstanceId: i-009efb8dbd8763caa
+  InstanceType: t3.xlarge
+  LaunchTime: 2026-01-28 14:45:05+00:00
+  MaintenanceOptions:
+    AutoRecovery: default
+  MetadataOptions:
+    HttpEndpoint: enabled
+    HttpProtocolIpv6: disabled
+    HttpPutResponseHopLimit: 2
+    HttpTokens: required
+    InstanceMetadataTags: enabled
+    State: applied
+  Monitoring:
+    State: disabled
+  NetworkInterfaces:
+  - Attachment:
+      AttachTime: 2026-01-28 14:45:05+00:00
+      AttachmentId: eni-attach-0bef529195ccf00ba
+      DeleteOnTermination: true
+      DeviceIndex: 0
+      NetworkCardIndex: 0
+      Status: attached
+    Description: ''
+    Groups:
+    - GroupId: sg-0dcd16e585060d06c
+      GroupName: mbx-bnb-devops-monitoring
+    - GroupId: sg-0021bf00906cbb632
+      GroupName: mbx-bnb-devops-default
+    - GroupId: sg-077fd433cf98e0038
+      GroupName: mbx-bnb-devops-rundeck
+    InterfaceType: interface
+    Ipv6Addresses: []
+    MacAddress: 06:90:b5:7c:4c:0d
+    NetworkInterfaceId: eni-0cbfb2ca8db62e054
+    OwnerId: '862793644923'
+    PrivateDnsName: ip-10-200-19-79.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.200.19.79
+    PrivateIpAddresses:
+    - Primary: true
+      PrivateDnsName: ip-10-200-19-79.ap-northeast-1.compute.internal
+      PrivateIpAddress: 10.200.19.79
+    SourceDestCheck: true
+    Status: in-use
+    SubnetId: subnet-0c188e95cfba03f63
+    VpcId: vpc-07519eb63f1d932ac
+  Placement:
+    AvailabilityZone: ap-northeast-1a
+    GroupName: ''
+    Tenancy: default
+  PlatformDetails: Linux/UNIX
+  PrivateDnsName: ip-10-200-19-79.ap-northeast-1.compute.internal
+  PrivateDnsNameOptions:
+    EnableResourceNameDnsAAAARecord: false
+    EnableResourceNameDnsARecord: false
+    HostnameType: ip-name
+  PrivateIpAddress: 10.200.19.79
+  ProductCodes: []
+  PublicDnsName: ''
+  RootDeviceName: /dev/xvda
+  RootDeviceType: ebs
+  SecurityGroups:
+  - GroupId: sg-0dcd16e585060d06c
+    GroupName: mbx-bnb-devops-monitoring
+  - GroupId: sg-0021bf00906cbb632
+    GroupName: mbx-bnb-devops-default
+  - GroupId: sg-077fd433cf98e0038
+    GroupName: mbx-bnb-devops-rundeck
+  SourceDestCheck: true
+  State:
+    Code: 16
+    Name: running
+  StateTransitionReason: ''
+  SubnetId: subnet-0c188e95cfba03f63
+  Tags:
+  - Key: Name
+    Value: mbx-bnb-devops-rundeck1
+  - Key: biz
+    Value: mbx
+  - Key: mbx_env_name
+    Value: devops
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_host_index
+    Value: '1'
+  - Key: mbx_secret_store
+    Value: ''
+  - Key: team
+    Value: mbx
+  UsageOperation: RunInstances
+  UsageOperationUpdateTime: 2026-01-28 14:45:05+00:00
+  VirtualizationType: hvm
+  VpcId: vpc-07519eb63f1d932ac
+...
+

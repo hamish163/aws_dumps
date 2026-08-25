@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.gtid-mode
+specifics:
+  AllowedValues: OFF,OFF_PERMISSIVE,ON_PERMISSIVE,ON
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: Controls whether GTID based logging is enabled and what type of transactions
+    the logs can contain
+  IsModifiable: false
+  ParameterName: gtid-mode
+  ParameterValue: 'ON'
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

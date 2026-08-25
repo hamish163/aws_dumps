@@ -1,0 +1,18 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-solutions-telegrambot-postgres-cluster-pg.application_name
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Sets the application name to be reported in statistics and logs.
+  IsModifiable: true
+  ParameterName: application_name
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

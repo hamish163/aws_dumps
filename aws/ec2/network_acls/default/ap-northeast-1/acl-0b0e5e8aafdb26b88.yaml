@@ -1,0 +1,47 @@
+---
+datatype: aws.ec2.network_acls
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: acl-0b0e5e8aafdb26b88
+specifics:
+  Associations:
+  - NetworkAclAssociationId: aclassoc-04897d1fc248f867c
+    NetworkAclId: acl-0b0e5e8aafdb26b88
+    SubnetId: subnet-049244395f4e090c3
+  - NetworkAclAssociationId: aclassoc-0bc0218526b91d3ea
+    NetworkAclId: acl-0b0e5e8aafdb26b88
+    SubnetId: subnet-01ca32129199dd40a
+  - NetworkAclAssociationId: aclassoc-01031b33a390cb66a
+    NetworkAclId: acl-0b0e5e8aafdb26b88
+    SubnetId: subnet-0abf898e256a6bce5
+  Entries:
+  - CidrBlock: 0.0.0.0/0
+    Egress: true
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 100
+  - CidrBlock: 0.0.0.0/0
+    Egress: false
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 100
+  - CidrBlock: 0.0.0.0/0
+    Egress: true
+    Protocol: '-1'
+    RuleAction: deny
+    RuleNumber: 32767
+  - CidrBlock: 0.0.0.0/0
+    Egress: false
+    Protocol: '-1'
+    RuleAction: deny
+    RuleNumber: 32767
+  IsDefault: true
+  NetworkAclId: acl-0b0e5e8aafdb26b88
+  OwnerId: '862793644923'
+  Tags:
+  - Key: Name
+    Value: ClientVpnVPC Attachment Network ACL
+  VpcId: vpc-0beab044be33d1617
+...
+

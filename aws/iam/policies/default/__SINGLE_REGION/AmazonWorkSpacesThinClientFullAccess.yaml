@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonWorkSpacesThinClientFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonWorkSpacesThinClientFullAccess
+  AttachmentCount: 0
+  CreateDate: 2024-08-09 07:25:24+00:00
+  DefaultVersionId: v7
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4ADQB7X4NV
+  PolicyName: AmazonWorkSpacesThinClientFullAccess
+  UpdateDate: 2026-02-12 17:59:25+00:00
+...
+

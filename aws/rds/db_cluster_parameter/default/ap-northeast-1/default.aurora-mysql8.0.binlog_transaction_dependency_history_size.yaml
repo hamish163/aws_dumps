@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-mysql8.0.binlog_transaction_dependency_history_size
+specifics:
+  AllowedValues: 1-1000000
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: The limit on the number of row hashes kept in memory to track the last
+    transaction that modified a given row
+  IsModifiable: true
+  ParameterName: binlog_transaction_dependency_history_size
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

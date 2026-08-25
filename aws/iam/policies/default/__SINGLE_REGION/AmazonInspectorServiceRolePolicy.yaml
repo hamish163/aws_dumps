@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonInspectorServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AmazonInspectorServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2017-11-21 15:48:27+00:00
+  DefaultVersionId: v5
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJKBMSBWLU2TGXHHUQ
+  PolicyName: AmazonInspectorServiceRolePolicy
+  UpdateDate: 2020-09-11 17:12:02+00:00
+...
+

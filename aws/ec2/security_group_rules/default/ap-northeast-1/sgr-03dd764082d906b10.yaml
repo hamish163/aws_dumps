@@ -1,0 +1,20 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-03dd764082d906b10
+specifics:
+  CidrIpv4: 10.143.0.0/16
+  Description: Ingress rule allowing Minions to connect to Salt Master(s) on ports
+    4505/4506
+  FromPort: 4505
+  GroupId: sg-0e1897f11e747200f
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-03dd764082d906b10
+  Tags: []
+  ToPort: 4506
+...
+

@@ -1,0 +1,28 @@
+---
+datatype: aws.ec2.vpcs
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vpc-07652e77a8fa0e0c2
+specifics:
+  CidrBlock: 172.25.0.0/16
+  CidrBlockAssociationSet:
+  - AssociationId: vpc-cidr-assoc-0768fa7a1d66c69a9
+    CidrBlock: 172.25.0.0/16
+    CidrBlockState:
+      State: associated
+  DhcpOptionsId: dopt-6f8f960d
+  InstanceTenancy: default
+  IsDefault: false
+  OwnerId: '862793644923'
+  State: available
+  Tags:
+  - Key: env
+    Value: ap2
+  - Key: Name
+    Value: ap2-bitdj
+  - Key: project
+    Value: bitdj
+  VpcId: vpc-07652e77a8fa0e0c2
+...
+

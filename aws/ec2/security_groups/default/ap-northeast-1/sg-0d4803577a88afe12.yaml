@@ -1,0 +1,26 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0d4803577a88afe12
+specifics:
+  Description: Security group for swapchop rds
+  GroupId: sg-0d4803577a88afe12
+  GroupName: mbx-bnb-perf-swapchop-db
+  Tags:
+  - Key: Name
+    Value: mbx-bnb-perf-swapchop-db
+  - Key: biz
+    Value: mbx
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_secret_store
+    Value: none
+  - Key: team
+    Value: mbx
+  - Key: mbx_env_name
+    Value: perf
+  VpcId: vpc-013930e589c469574
+...
+

@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.network_interface_permissions
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-perm-03830b4f23f8360d1
+specifics:
+  AwsService: routing.hyperplane.ap-northeast-1.amazonaws.com
+  NetworkInterfaceId: eni-06aeaaec00a0a5315
+  NetworkInterfacePermissionId: eni-perm-03830b4f23f8360d1
+  Permission: INSTANCE-ATTACH
+  PermissionState:
+    State: GRANTED
+...
+

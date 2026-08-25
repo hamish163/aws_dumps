@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonS3FilesClientReadWriteAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonS3FilesClientReadWriteAccess
+  AttachmentCount: 0
+  CreateDate: 2026-04-07 12:57:09+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4FDNK5MFXR
+  PolicyName: AmazonS3FilesClientReadWriteAccess
+  UpdateDate: 2026-04-07 12:57:09+00:00
+...
+

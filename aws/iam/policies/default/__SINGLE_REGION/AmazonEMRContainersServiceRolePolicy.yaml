@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonEMRContainersServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AmazonEMRContainersServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2020-12-09 00:38:19+00:00
+  DefaultVersionId: v6
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4P24YZ52G4
+  PolicyName: AmazonEMRContainersServiceRolePolicy
+  UpdateDate: 2026-07-24 17:27:11+00:00
+...
+

@@ -1,0 +1,16 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-07b6f00815ba7deb6
+specifics:
+  Name: clickhouse2.prod.tracky.mbx
+  biz: mbx
+  project: tracky
+  sre-app: tracky
+  sre-component: clickhouse
+  sre-env: prod
+  team: sre
+...
+

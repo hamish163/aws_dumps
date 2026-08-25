@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.disabled_storage_engines
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: This variable indicates which storage engines cannot be used to create
+    tables or tablespaces.
+  IsModifiable: false
+  ParameterName: disabled_storage_engines
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

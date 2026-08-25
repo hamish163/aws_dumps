@@ -1,0 +1,122 @@
+---
+datatype: aws.ec2.instances
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-0b49a820ab2f0e3fc
+specifics:
+  AmiLaunchIndex: 0
+  Architecture: x86_64
+  BlockDeviceMappings:
+  - DeviceName: /dev/xvda
+    Ebs:
+      AttachTime: 2026-02-07 00:48:39+00:00
+      DeleteOnTermination: true
+      Status: attached
+      VolumeId: vol-0b57085b304790f06
+  BootMode: uefi-preferred
+  CapacityReservationSpecification:
+    CapacityReservationPreference: open
+  ClientToken: terraform-20260207004837521800000001
+  CpuOptions:
+    CoreCount: 2
+    ThreadsPerCore: 2
+  CurrentInstanceBootMode: uefi
+  EbsOptimized: true
+  EnaSupport: true
+  EnclaveOptions:
+    Enabled: false
+  HibernationOptions:
+    Configured: false
+  Hypervisor: xen
+  IamInstanceProfile:
+    Arn: arn:aws:iam::862793644923:instance-profile/mbx-bitdj-salt-master
+    Id: AIPA4RYUCHN53ZCMJITS2
+  ImageId: ami-042bb437a2169b093
+  InstanceId: i-0b49a820ab2f0e3fc
+  InstanceType: c7i.xlarge
+  KeyName: mbx-devops-tom
+  LaunchTime: 2026-02-07 00:48:38+00:00
+  MaintenanceOptions:
+    AutoRecovery: default
+  MetadataOptions:
+    HttpEndpoint: enabled
+    HttpProtocolIpv6: disabled
+    HttpPutResponseHopLimit: 2
+    HttpTokens: required
+    InstanceMetadataTags: enabled
+    State: applied
+  Monitoring:
+    State: disabled
+  NetworkInterfaces:
+  - Attachment:
+      AttachTime: 2026-02-07 00:48:38+00:00
+      AttachmentId: eni-attach-03eefbdeb1eceb638
+      DeleteOnTermination: true
+      DeviceIndex: 0
+      NetworkCardIndex: 0
+      Status: attached
+    Description: ''
+    Groups:
+    - GroupId: sg-03481e07085f86732
+      GroupName: mbx-bitdj-salt-master
+    InterfaceType: interface
+    Ipv6Addresses: []
+    MacAddress: 06:38:3e:20:83:d9
+    NetworkInterfaceId: eni-011a9eda26a0117f0
+    OwnerId: '862793644923'
+    PrivateDnsName: ip-10-143-1-176.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.143.1.176
+    PrivateIpAddresses:
+    - Primary: true
+      PrivateDnsName: ip-10-143-1-176.ap-northeast-1.compute.internal
+      PrivateIpAddress: 10.143.1.176
+    SourceDestCheck: true
+    Status: in-use
+    SubnetId: subnet-0dd384f4778993aad
+    VpcId: vpc-097095a8b70ef6727
+  Placement:
+    AvailabilityZone: ap-northeast-1a
+    GroupName: ''
+    Tenancy: default
+  PlatformDetails: Linux/UNIX
+  PrivateDnsName: ip-10-143-1-176.ap-northeast-1.compute.internal
+  PrivateDnsNameOptions:
+    EnableResourceNameDnsAAAARecord: false
+    EnableResourceNameDnsARecord: false
+    HostnameType: ip-name
+  PrivateIpAddress: 10.143.1.176
+  ProductCodes: []
+  PublicDnsName: ''
+  RootDeviceName: /dev/xvda
+  RootDeviceType: ebs
+  SecurityGroups:
+  - GroupId: sg-03481e07085f86732
+    GroupName: mbx-bitdj-salt-master
+  SourceDestCheck: true
+  State:
+    Code: 16
+    Name: running
+  StateTransitionReason: ''
+  SubnetId: subnet-0dd384f4778993aad
+  Tags:
+  - Key: Name
+    Value: mbx-bitdj-salt-master2
+  - Key: biz
+    Value: mbx
+  - Key: mbx_env_name
+    Value: bitdj
+  - Key: mbx_exchange_name
+    Value: bitdj
+  - Key: mbx_host_index
+    Value: '1'
+  - Key: mbx_secret_store
+    Value: ''
+  - Key: team
+    Value: mbx
+  UsageOperation: RunInstances
+  UsageOperationUpdateTime: 2026-02-07 00:48:38+00:00
+  VirtualizationType: hvm
+  VpcId: vpc-097095a8b70ef6727
+...
+

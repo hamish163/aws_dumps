@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: QaTungstenInvocationPolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/QaTungstenInvocationPolicy
+  AttachmentCount: 3
+  CreateDate: 2023-08-10 03:17:11+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN55QNQP6HAN
+  PolicyName: QaTungstenInvocationPolicy
+  UpdateDate: 2023-08-10 03:17:11+00:00
+...
+

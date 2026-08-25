@@ -1,0 +1,15 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: com.bitdj.chat._dmarc/TXT
+  single_region: true
+specifics:
+  Name: _dmarc.chat.bitdj.com.
+  ResourceRecords:
+  - Value: '"v=DMARC1; p=none;"'
+  TTL: 300
+  Type: TXT
+...
+

@@ -1,0 +1,13 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: igw-06c714c4970936fe9
+specifics:
+  Name: PublicVPC Attachment Internet Gateway
+  aws:cloudformation:logical-id: InternetGateway
+  aws:cloudformation:stack-id: arn:aws:cloudformation:ap-northeast-1:862793644923:stack/BitdjNetwork-PublicVPC-1DAZ54505BW0V/7e08c080-d384-11ed-adb7-069d55dcb087
+  aws:cloudformation:stack-name: BitdjNetwork-PublicVPC-1DAZ54505BW0V
+...
+

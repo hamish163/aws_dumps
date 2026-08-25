@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-solutions-telegrambot-postgres-cluster-pg.pgtle.clientauth_num_parallel_workers
+specifics:
+  AllowedValues: 1-256
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: Number of background workers used for clientauth feature.
+  IsModifiable: true
+  ParameterName: pgtle.clientauth_num_parallel_workers
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,15 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: com.bitdj.redmine/A
+  single_region: true
+specifics:
+  Name: redmine.bitdj.com.
+  ResourceRecords:
+  - Value: 10.139.22.127
+  TTL: 300
+  Type: A
+...
+

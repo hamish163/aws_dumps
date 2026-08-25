@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-perf-swapchop-cluster-pg.innodb_optimize_fulltext_only
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Changes the way the OPTIMIZE TABLE statement operates on InnoDB tables.
+  IsModifiable: true
+  ParameterName: innodb_optimize_fulltext_only
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

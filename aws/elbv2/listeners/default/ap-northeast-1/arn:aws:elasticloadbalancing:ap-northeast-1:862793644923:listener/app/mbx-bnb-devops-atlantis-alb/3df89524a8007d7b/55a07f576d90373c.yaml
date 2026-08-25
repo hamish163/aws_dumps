@@ -1,0 +1,28 @@
+---
+datatype: aws.elbv2.listeners
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener/app/mbx-bnb-devops-atlantis-alb/3df89524a8007d7b/55a07f576d90373c
+specifics:
+  Certificates:
+  - CertificateArn: arn:aws:acm:ap-northeast-1:862793644923:certificate/30ef323c-02d0-4584-89ff-048f0910f105
+  DefaultActions:
+  - ForwardConfig:
+      TargetGroupStickinessConfig:
+        Enabled: false
+      TargetGroups:
+      - TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-devops-atlantis-tg/0f64d458091d8c99
+        Weight: 1
+    Order: 1
+    TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-devops-atlantis-tg/0f64d458091d8c99
+    Type: forward
+  ListenerArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener/app/mbx-bnb-devops-atlantis-alb/3df89524a8007d7b/55a07f576d90373c
+  LoadBalancerArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:loadbalancer/app/mbx-bnb-devops-atlantis-alb/3df89524a8007d7b
+  MutualAuthentication:
+    Mode: 'off'
+  Port: 443
+  Protocol: HTTPS
+  SslPolicy: ELBSecurityPolicy-2016-08
+...
+

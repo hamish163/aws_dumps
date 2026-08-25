@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0548da793d421b4e5
+specifics:
+  CidrIpv4: 10.170.19.205/32
+  Description: 'from new lithium box '
+  FromPort: 22
+  GroupId: sg-04eecb7fa221a409b
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-0548da793d421b4e5
+  Tags: []
+  ToPort: 22
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSManagedServiceAccessManagementAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AWSManagedServiceAccessManagementAccess
+  AttachmentCount: 0
+  CreateDate: 2026-07-21 17:57:17+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4OKIZC76YK
+  PolicyName: AWSManagedServiceAccessManagementAccess
+  UpdateDate: 2026-07-21 17:57:17+00:00
+...
+

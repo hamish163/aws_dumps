@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSMarketplaceManageSubscriptions
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSMarketplaceManageSubscriptions
+  AttachmentCount: 0
+  CreateDate: 2015-02-06 18:40:32+00:00
+  DefaultVersionId: v9
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJRDW2WIFN7QLUAKBQ
+  PolicyName: AWSMarketplaceManageSubscriptions
+  UpdateDate: 2026-05-07 16:42:22+00:00
+...
+

@@ -1,0 +1,28 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-uat-mgmt-api
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/mbx-bnb-uat-mgmt-api
+  CreateDate: 2024-09-30 11:57:05+00:00
+  InstanceProfileId: AIPA4RYUCHN53JJYWQUFT
+  InstanceProfileName: mbx-bnb-uat-mgmt-api
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/mbx-bnb-uat-mgmt-api
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+      Version: '2012-10-17'
+    CreateDate: 2024-09-30 11:57:04+00:00
+    Path: /
+    RoleId: AROA4RYUCHN55NCNSWGFL
+    RoleName: mbx-bnb-uat-mgmt-api
+...
+

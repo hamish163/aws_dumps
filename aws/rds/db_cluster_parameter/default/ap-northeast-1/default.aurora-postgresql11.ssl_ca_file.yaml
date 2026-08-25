@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql11.ssl_ca_file
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Location of the SSL server authority file.
+  IsModifiable: false
+  ParameterName: ssl_ca_file
+  ParameterValue: /rdsdbdata/rds-metadata/ca-cert.pem
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-0ea138aa2fd29f062
+specifics:
+  aws:autoscaling:groupName: eks-mbx_bnb_prod-comply-android-ng-cccb88c0-fad1-e829-4c69-669b1fafa207
+  aws:ec2:fleet-id: fleet-669fbe2d-292d-6c1c-2412-8f02e1b9b7a3
+  aws:ec2launchtemplate:id: lt-0b5d6d2b016c6e827
+  aws:ec2launchtemplate:version: '4'
+  aws:eks:cluster-name: mbx_bnb_prod-comply-cluster
+  eks:cluster-name: mbx_bnb_prod-comply-cluster
+  eks:nodegroup-name: mbx_bnb_prod-comply-android-ng
+  k8s.io/cluster-autoscaler/enabled: 'true'
+  k8s.io/cluster-autoscaler/mbx_bnb_prod-comply-cluster: owned
+  kubernetes.io/cluster/mbx_bnb_prod-comply-cluster: owned
+...
+

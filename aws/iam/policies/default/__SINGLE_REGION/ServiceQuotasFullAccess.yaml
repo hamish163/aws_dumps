@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: ServiceQuotasFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/ServiceQuotasFullAccess
+  AttachmentCount: 0
+  CreateDate: 2019-06-24 15:44:35+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4CGHQWENW3
+  PolicyName: ServiceQuotasFullAccess
+  UpdateDate: 2021-02-04 21:29:43+00:00
+...
+

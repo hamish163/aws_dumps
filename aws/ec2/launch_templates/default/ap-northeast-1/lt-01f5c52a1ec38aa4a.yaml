@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.launch_templates
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: lt-01f5c52a1ec38aa4a
+specifics:
+  CreateTime: 2023-05-11 08:53:28+00:00
+  CreatedBy: arn:aws:sts::862793644923:assumed-role/perfMbxLoadGeneratorMaster/i-007cabce6b6906a31
+  DefaultVersionNumber: 1
+  LatestVersionNumber: 1
+  LaunchTemplateId: lt-01f5c52a1ec38aa4a
+  LaunchTemplateName: test-launch-template
+...
+

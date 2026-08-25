@@ -1,0 +1,26 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-01eed717f68beb79b
+specifics:
+  Description: Managed by Terraform
+  GroupId: sg-01eed717f68beb79b
+  GroupName: mbx-bnb-testnet-gw-bastion
+  Tags:
+  - Key: biz
+    Value: mbx
+  - Key: team
+    Value: mbx
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: Name
+    Value: mbx-bnb-testnet-gw-bastion
+  - Key: mbx_application_name
+    Value: bastion
+  - Key: mbx_env_name
+    Value: testnet-gw
+  VpcId: vpc-02b8e59b778077bf9
+...
+

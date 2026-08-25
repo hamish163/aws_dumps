@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSThinkboxDeadlineResourceTrackerAdminPolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSThinkboxDeadlineResourceTrackerAdminPolicy
+  AttachmentCount: 0
+  CreateDate: 2020-05-27 19:29:09+00:00
+  DefaultVersionId: v9
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4FKWWNUOP2
+  PolicyName: AWSThinkboxDeadlineResourceTrackerAdminPolicy
+  UpdateDate: 2026-07-16 17:42:11+00:00
+...
+

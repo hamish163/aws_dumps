@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.attached_user_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: stan
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/QaTungstenInvocationPolicy-test1
+    PolicyName: QaTungstenInvocationPolicy-test1
+  - PolicyArn: arn:aws:iam::862793644923:policy/PapermillDevPolicy
+    PolicyName: PapermillDevPolicy
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonAthenaFullAccess
+    PolicyName: AmazonAthenaFullAccess
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonEMRFullAccessPolicy_v2
+    PolicyName: AmazonEMRFullAccessPolicy_v2
+  _UserName: stan
+...
+

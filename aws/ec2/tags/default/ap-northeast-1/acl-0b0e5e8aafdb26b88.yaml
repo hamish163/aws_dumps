@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: acl-0b0e5e8aafdb26b88
+specifics:
+  Name: ClientVpnVPC Attachment Network ACL
+...
+

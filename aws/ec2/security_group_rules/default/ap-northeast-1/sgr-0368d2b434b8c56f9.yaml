@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0368d2b434b8c56f9
+specifics:
+  Description: Allow TCP traffic from sequencer SG on port 5482
+  FromPort: 5482
+  GroupId: sg-03dd196a152427350
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-03dd196a152427350
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0368d2b434b8c56f9
+  Tags: []
+  ToPort: 5482
+...
+

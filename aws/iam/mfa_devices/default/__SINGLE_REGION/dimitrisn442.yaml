@@ -1,0 +1,14 @@
+---
+datatype: aws.iam.mfa_devices
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: dimitrisn442
+  single_region: true
+specifics:
+  MFADevices:
+  - EnableDate: 2026-02-26 13:56:07+00:00
+    SerialNumber: arn:aws:iam::862793644923:u2f/user/dimitrisn442/Mac-OARTFWMTA5HWBLCMWKZTWRSVDY
+    UserName: dimitrisn442
+...
+

@@ -1,0 +1,59 @@
+---
+datatype: aws.ec2.route_tables
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rtb-0c84271f8efbaf3f8
+specifics:
+  Associations:
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-0d388a2f061955967
+    RouteTableId: rtb-0c84271f8efbaf3f8
+    SubnetId: subnet-0b46f1b63e4b55f14
+  OwnerId: '862793644923'
+  PropagatingVgws: []
+  RouteTableId: rtb-0c84271f8efbaf3f8
+  Routes:
+  - DestinationCidrBlock: 10.200.31.226/32
+    InstanceOwnerId: '577811164094'
+    NetworkInterfaceId: eni-047e417c11886d396
+    Origin: CreateRoute
+    State: active
+  - DestinationCidrBlock: 172.30.0.0/24
+    Origin: CreateRoute
+    State: active
+    TransitGatewayId: tgw-094ec8a8749ab72d4
+  - DestinationCidrBlock: 10.200.16.0/20
+    GatewayId: local
+    Origin: CreateRouteTable
+    State: active
+  - DestinationCidrBlock: 100.64.0.0/16
+    GatewayId: local
+    Origin: CreateRouteTable
+    State: active
+  - DestinationCidrBlock: 10.0.0.0/8
+    Origin: CreateRoute
+    State: active
+    TransitGatewayId: tgw-094ec8a8749ab72d4
+  - DestinationCidrBlock: 0.0.0.0/0
+    NatGatewayId: nat-03e6169c47e12a369
+    Origin: CreateRoute
+    State: active
+  Tags:
+  - Key: AmazonFSx
+    Value: ManagedByAmazonFSx
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  - Key: Name
+    Value: mbx-bnb-devops-rtb-private2
+  - Key: mbx_env_name
+    Value: devops
+  - Key: biz
+    Value: mbx
+  VpcId: vpc-07519eb63f1d932ac
+...
+

@@ -1,0 +1,18 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: smacky_bnb_prod_instance_role
+  single_region: true
+specifics:
+  biz: mbx
+  env: prod
+  exchange_id: bnb
+  project: mbx
+  sre-app: smacky
+  sre-component: smacky
+  sre-env: prod
+  team: mbx
+...
+

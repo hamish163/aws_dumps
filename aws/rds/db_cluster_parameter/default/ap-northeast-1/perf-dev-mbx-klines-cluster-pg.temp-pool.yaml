@@ -1,0 +1,22 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-klines-cluster-pg.temp-pool
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: boolean
+  Description: This option causes most temporary files created by the server to use
+    a small set of names, rather than a unique name for each new file. This works
+    around a problem in the Linux kernel dealing with creating many new files with
+    different names.
+  IsModifiable: true
+  ParameterName: temp-pool
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

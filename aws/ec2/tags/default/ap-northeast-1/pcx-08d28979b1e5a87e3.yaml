@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: pcx-08d28979b1e5a87e3
+specifics:
+  Name: mbxtools_to_perf
+...
+

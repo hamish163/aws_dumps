@@ -1,0 +1,12 @@
+---
+datatype: aws.iam.groups_for_user
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: ses-smtp-user.20210121-141350
+  single_region: true
+specifics:
+  Groups: []
+  _UserName: ses-smtp-user.20210121-141350
+...
+

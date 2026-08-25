@@ -1,0 +1,43 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-02aff5681bfae0986
+specifics:
+  Attachment:
+    AttachTime: 2026-07-27 06:28:46+00:00
+    AttachmentId: eni-attach-06744741b409285bc
+    DeleteOnTermination: false
+    DeviceIndex: 1
+    InstanceOwnerId: 023447863379
+    NetworkCardIndex: 0
+    Status: attached
+  AvailabilityZone: ap-northeast-1a
+  DenyAllIgwTraffic: true
+  Description: '[Do not detach or untag] Amazon FSx network interface for fs-07d29cc8977ca8063'
+  Groups:
+  - GroupId: sg-00fc74309b12fe0bf
+    GroupName: mbx-bnb-solutions-vision-collector-fsx
+  InterfaceType: interface
+  Ipv6Addresses: []
+  MacAddress: 06:8b:a4:81:9f:d1
+  NetworkInterfaceId: eni-02aff5681bfae0986
+  OwnerId: '862793644923'
+  PrivateDnsName: ip-10-230-3-33.ap-northeast-1.compute.internal
+  PrivateIpAddress: 10.230.3.33
+  PrivateIpAddresses:
+  - Primary: true
+    PrivateDnsName: ip-10-230-3-33.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.230.3.33
+  RequesterId: '421347429701'
+  RequesterManaged: false
+  SourceDestCheck: true
+  Status: in-use
+  SubnetId: subnet-099bb70a2101e3db2
+  TagSet:
+  - Key: AmazonFSx.FileSystemId
+    Value: fs-07d29cc8977ca8063
+  VpcId: vpc-0218545ff4351ce04
+...
+

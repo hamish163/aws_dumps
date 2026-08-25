@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonODBServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AmazonODBServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2024-11-13 18:21:41+00:00
+  DefaultVersionId: v10
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4BLAIMLXVO
+  PolicyName: AmazonODBServiceRolePolicy
+  UpdateDate: 2026-02-12 18:02:51+00:00
+...
+

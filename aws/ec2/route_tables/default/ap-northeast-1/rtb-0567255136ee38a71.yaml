@@ -1,0 +1,44 @@
+---
+datatype: aws.ec2.route_tables
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rtb-0567255136ee38a71
+specifics:
+  Associations:
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-012f0c16999905a59
+    RouteTableId: rtb-0567255136ee38a71
+    SubnetId: subnet-074cb43103e037ad8
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-0538de921f9684be8
+    RouteTableId: rtb-0567255136ee38a71
+    SubnetId: subnet-0324c414627a2e998
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-08757c8829dcbae10
+    RouteTableId: rtb-0567255136ee38a71
+    SubnetId: subnet-0fa22c1bfa9df87d8
+  OwnerId: '862793644923'
+  PropagatingVgws: []
+  RouteTableId: rtb-0567255136ee38a71
+  Routes:
+  - DestinationCidrBlock: 10.66.224.0/19
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-09ad5363586cf3756
+  - DestinationCidrBlock: 172.27.0.0/16
+    GatewayId: local
+    Origin: CreateRouteTable
+    State: active
+  Tags:
+  - Key: Name
+    Value: prod-tracky-backend
+  VpcId: vpc-03f5d2495fd8d95a3
+...
+

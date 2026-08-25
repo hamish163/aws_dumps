@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-klines-cluster-pg-80.bulk_insert_buffer_size
+specifics:
+  AllowedValues: 0-18446744073709547520
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Limits the size of the MyISAM cache tree in bytes per thread.
+  IsModifiable: true
+  ParameterName: bulk_insert_buffer_size
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0644f3ad2d147c1e6
+specifics:
+  Description: Allow TCP traffic from regifter SG on port 5483
+  FromPort: 5483
+  GroupId: sg-0c1e14a6f0066176d
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-008a9e3ebbbfa11d8
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0644f3ad2d147c1e6
+  Tags: []
+  ToPort: 5483
+...
+

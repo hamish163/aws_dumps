@@ -1,0 +1,13 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-devops-eks1-vpc-cni
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonEKS_CNI_Policy
+    PolicyName: AmazonEKS_CNI_Policy
+...
+

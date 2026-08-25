@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql17.geqo_seed
+specifics:
+  AllowedValues: 0-1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: float
+  Description: 'GEQO: seed for random path selection.'
+  IsModifiable: true
+  ParameterName: geqo_seed
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

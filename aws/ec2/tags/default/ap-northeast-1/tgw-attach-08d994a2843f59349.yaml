@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: tgw-attach-08d994a2843f59349
+specifics:
+  Name: PublicVPC Attachment
+...
+

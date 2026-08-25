@@ -1,0 +1,15 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: com.bitdj.chat._domainkey.qakadmnpni4pjvn65yazld7iqldepy4t/CNAME
+  single_region: true
+specifics:
+  Name: qakadmnpni4pjvn65yazld7iqldepy4t._domainkey.chat.bitdj.com.
+  ResourceRecords:
+  - Value: qakadmnpni4pjvn65yazld7iqldepy4t.dkim.amazonses.com
+  TTL: 1800
+  Type: CNAME
+...
+

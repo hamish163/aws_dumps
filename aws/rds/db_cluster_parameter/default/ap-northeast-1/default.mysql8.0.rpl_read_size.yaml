@@ -1,0 +1,22 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.rpl_read_size
+specifics:
+  AllowedValues: 8192-4294967295
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: The size for reads done from the binlog and relay log. It must be a
+    multiple of 4kb. Making it larger might help with IO stalls while reading these
+    files when they are not in the OS buffer cache.
+  IsModifiable: true
+  ParameterName: rpl_read_size
+  ParameterValue: '8192'
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

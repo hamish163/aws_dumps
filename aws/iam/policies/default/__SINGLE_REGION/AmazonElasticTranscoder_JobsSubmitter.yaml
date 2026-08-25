@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonElasticTranscoder_JobsSubmitter
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonElasticTranscoder_JobsSubmitter
+  AttachmentCount: 0
+  CreateDate: 2018-06-07 21:12:16+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJ7AUMMRQOVZRI734S
+  PolicyName: AmazonElasticTranscoder_JobsSubmitter
+  UpdateDate: 2019-06-10 22:49:34+00:00
+...
+

@@ -1,0 +1,16 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0bab9de95a8a557fe
+specifics:
+  Name: mbx-bnb-devops-sequencer
+  biz: mbx
+  mbx_application_name: mbx-core-sequencer
+  mbx_env_name: devops
+  mbx_exchange_name: bnb
+  mbx_secret_store: none
+  team: mbx
+...
+

@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-solutions-telegrambot-postgres-cluster-pg.pgcolumnmask.policy_admin_rolname
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Sets the admin role name for managing masking policies.
+  IsModifiable: true
+  MinimumEngineVersion: '17.6'
+  ParameterName: pgcolumnmask.policy_admin_rolname
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,14 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: subnet-03b19fe4c993f79ca
+specifics:
+  Name: mbx-usa-bastion-subnet-private2-az-1c
+  biz: mbx
+  mbx_env_name: prod
+  mbx_exchange_name: usa
+  team: mbx
+...
+

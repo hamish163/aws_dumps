@@ -1,0 +1,14 @@
+---
+datatype: aws.iam.access_keys
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AKIA4RYUCHN5TIAAVDLI
+  single_region: true
+specifics:
+  AccessKeyId: AKIA4RYUCHN5TIAAVDLI
+  CreateDate: 2020-09-28 09:04:03+00:00
+  Status: Inactive
+  UserName: Ninj0r
+...
+

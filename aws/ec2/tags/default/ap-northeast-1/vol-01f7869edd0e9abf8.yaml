@@ -1,0 +1,17 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-01f7869edd0e9abf8
+specifics:
+  Name: mbx-bnb-sre-emu-generic
+  biz: mbx
+  eks:cluster-name: mbx-bnb-sre-emu
+  eks:nodegroup-name: mbx-bnb-sre-emu-generic-20260710
+  kubernetes.io/cluster/mbx-bnb-sre-emu: owned
+  mbx_env_name: sre
+  mbx_exchange_name: bnb
+  team: mbx
+...
+

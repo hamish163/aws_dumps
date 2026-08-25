@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonSSMManagedEC2InstanceDefaultPolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonSSMManagedEC2InstanceDefaultPolicy
+  AttachmentCount: 0
+  CreateDate: 2022-08-30 20:54:27+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4LVDRKUQFG
+  PolicyName: AmazonSSMManagedEC2InstanceDefaultPolicy
+  UpdateDate: 2024-07-16 18:14:07+00:00
+...
+

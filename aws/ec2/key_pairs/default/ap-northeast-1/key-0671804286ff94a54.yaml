@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.key_pairs
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: key-0671804286ff94a54
+specifics:
+  CreateTime: 2018-11-28 01:58:31+00:00
+  KeyFingerprint: 2d:a5:d8:1a:f1:b4:ad:cd:68:63:43:dd:41:04:7a:c7:b9:6e:0c:c3
+  KeyName: pawan-rmq-perf
+  KeyPairId: key-0671804286ff94a54
+  KeyType: rsa
+  Tags: []
+...
+

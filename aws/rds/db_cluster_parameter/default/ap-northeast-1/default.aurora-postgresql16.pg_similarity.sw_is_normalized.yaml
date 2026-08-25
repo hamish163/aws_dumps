@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql16.pg_similarity.sw_is_normalized
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Sets if the result value is normalized or not.
+  IsModifiable: true
+  ParameterName: pg_similarity.sw_is_normalized
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.innodb_buffer_pool_dump_pct
+specifics:
+  AllowedValues: 1-100
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Specifies the percentage of the most recently used pages for each buffer
+    pool to read out and dump.
+  IsModifiable: true
+  ParameterName: innodb_buffer_pool_dump_pct
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

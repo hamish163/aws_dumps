@@ -1,0 +1,28 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-06435c4ee717b3505
+specifics:
+  Description: Managed by Terraform
+  GroupId: sg-06435c4ee717b3505
+  GroupName: mbx-bnb-colo-perf-sandbox
+  Tags:
+  - Key: mbx_secret_store
+    Value: none
+  - Key: biz
+    Value: mbx
+  - Key: team
+    Value: mbx
+  - Key: Name
+    Value: mbx-bnb-colo-perf-sandbox
+  - Key: mbx_application_name
+    Value: mbx-sandbox
+  - Key: mbx_env_name
+    Value: colo-perf
+  - Key: mbx_exchange_name
+    Value: bnb
+  VpcId: vpc-0e8d78d562c500d57
+...
+

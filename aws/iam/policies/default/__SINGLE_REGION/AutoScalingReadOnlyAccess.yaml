@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AutoScalingReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AutoScalingReadOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2017-01-12 19:39:35+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIAFWUVLC2LPLSFTFG
+  PolicyName: AutoScalingReadOnlyAccess
+  UpdateDate: 2017-01-12 19:39:35+00:00
+...
+

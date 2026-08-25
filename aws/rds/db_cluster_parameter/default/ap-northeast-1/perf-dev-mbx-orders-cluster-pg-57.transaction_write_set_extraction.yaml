@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-orders-cluster-pg-57.transaction_write_set_extraction
+specifics:
+  AllowedValues: OFF,MURMUR32,XXHASH64
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Defines the algorithm used to generate a hash identifying the writes
+    associated with a transaction.
+  IsModifiable: true
+  MinimumEngineVersion: 5.7.mysql_aurora.2.12.1
+  ParameterName: transaction_write_set_extraction
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

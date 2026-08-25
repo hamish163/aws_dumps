@@ -1,0 +1,22 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-solutions-telegrambot-postgres-cluster-pg.temp_file_limit
+specifics:
+  AllowedValues: -1-2147483647
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Constrains the total amount disk space in kilobytes that a given PostgreSQL
+    process can use for temporary files, excluding space used for explicit temporary
+    tables
+  IsModifiable: true
+  ParameterName: temp_file_limit
+  ParameterValue: '-1'
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

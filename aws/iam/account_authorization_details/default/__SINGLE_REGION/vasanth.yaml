@@ -1,0 +1,41 @@
+---
+datatype: aws.iam.account_authorization_details
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: vasanth
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/vasanth
+  AttachedManagedPolicies:
+  - PolicyArn: arn:aws:iam::aws:policy/AWSGlueConsoleFullAccess
+    PolicyName: AWSGlueConsoleFullAccess
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonAthenaFullAccess
+    PolicyName: AmazonAthenaFullAccess
+  CreateDate: 2026-03-31 12:51:43+00:00
+  GroupList:
+  - DEVOPS_TEAM_IAM_MGMT_NON_PROD
+  - DEVOPS_TEAM_INFRA_MGMT_NON_PROD
+  - mbx_bedrock
+  - AQUEDUCT_TEAM_REPORTS
+  - DEVOPS_TEAM_INFRA_MGMT
+  - DEVOPS_TEAM_RO
+  - DEVOPS_TEAM_IAM_MGMT
+  - devops
+  - MBX_EVERYONE_TEAM
+  Path: /
+  Tags:
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  - Key: mbx_team
+    Value: devops
+  - Key: mbx_iam
+    Value: vasanth
+  - Key: AKIA4RYUCHN5R5VSWE6M
+    Value: cli
+  UserId: AIDA4RYUCHN5Q7GEHXL3H
+  UserName: vasanth
+...
+

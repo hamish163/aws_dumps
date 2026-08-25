@@ -1,0 +1,22 @@
+---
+datatype: aws.iam.groups_for_user
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: louise
+  single_region: true
+specifics:
+  Groups:
+  - Arn: arn:aws:iam::862793644923:group/mbx_bedrock
+    CreateDate: 2026-04-03 13:30:18+00:00
+    GroupId: AGPA4RYUCHN5RHTPHOYU3
+    GroupName: mbx_bedrock
+    Path: /
+  - Arn: arn:aws:iam::862793644923:group/qa
+    CreateDate: 2018-08-30 09:32:39+00:00
+    GroupId: AGPAIQM6WHEIQIVCNLXKA
+    GroupName: qa
+    Path: /
+  _UserName: louise
+...
+

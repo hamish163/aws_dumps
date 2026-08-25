@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: snap-081d846baa2f2a410
+specifics:
+  Name: 20200818-nexus-pv-test
+...
+

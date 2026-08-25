@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: PowerUserAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/PowerUserAccess
+  AttachmentCount: 1
+  CreateDate: 2015-02-06 18:39:47+00:00
+  DefaultVersionId: v12
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJYRXTHIB4FOVS3ZXS
+  PolicyName: PowerUserAccess
+  UpdateDate: 2026-02-12 17:59:14+00:00
+...
+

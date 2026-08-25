@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql11.parallel_leader_participation
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Controls whether Gather and Gather Merge also run subplans.
+  IsModifiable: true
+  ParameterName: parallel_leader_participation
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+  - serverless
+...
+

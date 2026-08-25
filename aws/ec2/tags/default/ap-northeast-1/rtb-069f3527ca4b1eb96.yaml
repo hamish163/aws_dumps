@@ -1,0 +1,14 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rtb-069f3527ca4b1eb96
+specifics:
+  Name: mbx-tools-dev-rtb-private1
+  biz: mbx
+  mbx_env_name: dev
+  mbx_exchange_name: tools
+  team: mbx
+...
+

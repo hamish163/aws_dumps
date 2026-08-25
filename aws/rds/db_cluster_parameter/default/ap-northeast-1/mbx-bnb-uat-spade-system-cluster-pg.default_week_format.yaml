@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-spade-system-cluster-pg.default_week_format
+specifics:
+  AllowedValues: 0-7
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: The default mode value to use for the WEEK() function.
+  IsModifiable: true
+  ParameterName: default_week_format
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

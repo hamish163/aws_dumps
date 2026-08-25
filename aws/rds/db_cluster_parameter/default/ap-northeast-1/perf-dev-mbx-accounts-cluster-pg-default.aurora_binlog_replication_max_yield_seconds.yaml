@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-accounts-cluster-pg-default.aurora_binlog_replication_max_yield_seconds
+specifics:
+  AllowedValues: 0-36000
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Max seconds to yield when master dump thread replicates the current
+    binlog file (the file used by foreground queries) to slave.
+  IsModifiable: true
+  ParameterName: aurora_binlog_replication_max_yield_seconds
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

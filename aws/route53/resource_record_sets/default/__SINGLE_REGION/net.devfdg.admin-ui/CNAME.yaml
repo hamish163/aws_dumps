@@ -1,0 +1,15 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: net.devfdg.admin-ui/CNAME
+  single_region: true
+specifics:
+  Name: admin-ui.devfdg.net.
+  ResourceRecords:
+  - Value: internal-tk-dev-ec2-dispatcher-alb-1817654944.ap-northeast-1.elb.amazonaws.com
+  TTL: 300
+  Type: CNAME
+...
+

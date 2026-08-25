@@ -1,0 +1,23 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-exchange-rates-cluster-pg.aurora_in_memory_relaylog
+specifics:
+  AllowedValues: OFF,ON
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Sets the Non-persistent Relay log mode. You can use this feature on
+    binlog replicas to improve binary log replication performance. To turn this feature
+    off, set the parameter to OFF. To turn this feature on, set the parameter to ON.
+  IsModifiable: true
+  MinimumEngineVersion: 8.0.mysql_aurora.3.10.0
+  ParameterName: aurora_in_memory_relaylog
+  ParameterValue: 'OFF'
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

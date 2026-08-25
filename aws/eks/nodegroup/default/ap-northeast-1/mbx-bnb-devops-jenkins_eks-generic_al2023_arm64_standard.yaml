@@ -1,0 +1,44 @@
+---
+datatype: aws.eks.nodegroup
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-devops-jenkins_eks-generic_al2023_arm64_standard
+specifics:
+  amiType: CUSTOM
+  capacityType: ON_DEMAND
+  clusterName: mbx-bnb-devops-jenkins_eks-cluster
+  createdAt: 2024-11-12 22:50:07.053000+11:00
+  health:
+    issues: []
+  labels: {}
+  launchTemplate:
+    id: lt-02328534fd68985eb
+    name: mbx-bnb-devops-jenkins_eks-generic-generic_al2023_arm64_standard
+    version: '5'
+  nodeRole: arn:aws:iam::862793644923:role/mbx-bnb-devops.jenkins_eks.nodegroup
+  nodegroupArn: arn:aws:eks:ap-northeast-1:862793644923:nodegroup/mbx-bnb-devops-jenkins_eks-cluster/mbx-bnb-devops-jenkins_eks-generic_al2023_arm64_standard/9ac9901a-cd75-b0cd-eabf-037ea5d66fd1
+  nodegroupName: mbx-bnb-devops-jenkins_eks-generic_al2023_arm64_standard
+  releaseVersion: ami-0983ad6654fc00777
+  resources:
+    autoScalingGroups:
+    - name: eks-mbx-bnb-devops-jenkins_eks-generic_al2023_arm64_standard-9ac9901a-cd75-b0cd-eabf-037ea5d66fd1
+  scalingConfig:
+    desiredSize: 2
+    maxSize: 3
+    minSize: 0
+  status: ACTIVE
+  subnets:
+  - subnet-0c188e95cfba03f63
+  - subnet-0b46f1b63e4b55f14
+  tags:
+    biz: mbx
+    mbx_env_name: devops
+    mbx_exchange_name: bnb
+    mbx_secret_store: none
+    team: mbx
+  updateConfig:
+    maxUnavailable: 2
+  version: '1.32'
+...
+

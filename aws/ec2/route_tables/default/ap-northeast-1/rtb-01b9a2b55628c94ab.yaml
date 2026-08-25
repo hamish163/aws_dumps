@@ -1,0 +1,54 @@
+---
+datatype: aws.ec2.route_tables
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rtb-01b9a2b55628c94ab
+specifics:
+  Associations:
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-042bfa07c1ca9975b
+    RouteTableId: rtb-01b9a2b55628c94ab
+    SubnetId: subnet-077d0fd18218f2d47
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-07fad68d3e6e648c8
+    RouteTableId: rtb-01b9a2b55628c94ab
+    SubnetId: subnet-004d7c3cfdb817782
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-0fce9b3289e078ea3
+    RouteTableId: rtb-01b9a2b55628c94ab
+    SubnetId: subnet-0baed55868986fdb9
+  OwnerId: '862793644923'
+  PropagatingVgws: []
+  RouteTableId: rtb-01b9a2b55628c94ab
+  Routes:
+  - DestinationCidrBlock: 10.12.1.0/24
+    GatewayId: local
+    Origin: CreateRouteTable
+    State: active
+  - DestinationCidrBlock: 10.0.0.0/8
+    Origin: CreateRoute
+    State: active
+    TransitGatewayId: tgw-094ec8a8749ab72d4
+  - DestinationCidrBlock: 0.0.0.0/0
+    GatewayId: igw-00d76b0cb9af39c0d
+    Origin: CreateRoute
+    State: active
+  Tags:
+  - Key: aws:cloudformation:logical-id
+    Value: PublicSubnetRouteTable
+  - Key: Name
+    Value: ExitVPC PublicSubnetRouteTable
+  - Key: aws:cloudformation:stack-id
+    Value: arn:aws:cloudformation:ap-northeast-1:862793644923:stack/BitdjNetwork-ExitVPC-WC4249ZZPWOY/c3a0fef0-aec2-11ed-83f3-0a7e71c04499
+  - Key: aws:cloudformation:stack-name
+    Value: BitdjNetwork-ExitVPC-WC4249ZZPWOY
+  VpcId: vpc-001ab708836aeeb75
+...
+

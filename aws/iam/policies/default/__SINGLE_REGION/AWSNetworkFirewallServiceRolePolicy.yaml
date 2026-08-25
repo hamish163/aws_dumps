@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSNetworkFirewallServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AWSNetworkFirewallServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2020-11-17 17:17:26+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4DF6QQZAL3
+  PolicyName: AWSNetworkFirewallServiceRolePolicy
+  UpdateDate: 2026-06-01 21:57:07+00:00
+...
+

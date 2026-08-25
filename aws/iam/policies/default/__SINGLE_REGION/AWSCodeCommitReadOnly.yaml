@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSCodeCommitReadOnly
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSCodeCommitReadOnly
+  AttachmentCount: 1
+  CreateDate: 2015-07-09 17:05:06+00:00
+  DefaultVersionId: v14
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJACNSXR7Z2VLJW3D6
+  PolicyName: AWSCodeCommitReadOnly
+  UpdateDate: 2026-02-12 18:00:25+00:00
+...
+

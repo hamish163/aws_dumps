@@ -1,0 +1,11 @@
+---
+datatype: aws.iam.attached_group_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: SRE_TEAM_TAGGING
+  single_region: true
+specifics:
+  AttachedPolicies: []
+...
+

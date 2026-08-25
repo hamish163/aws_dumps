@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.relay_log
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: The base name for relay log files, with no paths and no file extension.
+  IsModifiable: false
+  ParameterName: relay_log
+  ParameterValue: /rdslocalstorage/log/relaylog/relaylog
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

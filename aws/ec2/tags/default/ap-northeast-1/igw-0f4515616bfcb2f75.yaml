@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: igw-0f4515616bfcb2f75
+specifics:
+  Name: ap2-bitdj-igw
+  env: ap2
+  project: bitdj
+...
+

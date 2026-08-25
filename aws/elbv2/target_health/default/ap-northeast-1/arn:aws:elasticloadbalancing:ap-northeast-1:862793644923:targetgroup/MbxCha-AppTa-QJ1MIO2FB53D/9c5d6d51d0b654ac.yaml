@@ -1,0 +1,26 @@
+---
+datatype: aws.elbv2.target_health
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/MbxCha-AppTa-QJ1MIO2FB53D/9c5d6d51d0b654ac
+specifics:
+  TargetHealthDescriptions:
+    i-00e97e1ae17939f30/3000:
+      HealthCheckPort: '3000'
+      Target:
+        Id: i-00e97e1ae17939f30
+        Port: 3000
+    i-07d0f70835e869df8/3000:
+      HealthCheckPort: '3000'
+      Target:
+        Id: i-07d0f70835e869df8
+        Port: 3000
+    i-0ca92171b516c9615/3000:
+      HealthCheckPort: '3000'
+      Target:
+        Id: i-0ca92171b516c9615
+        Port: 3000
+  _arn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/MbxCha-AppTa-QJ1MIO2FB53D/9c5d6d51d0b654ac
+...
+

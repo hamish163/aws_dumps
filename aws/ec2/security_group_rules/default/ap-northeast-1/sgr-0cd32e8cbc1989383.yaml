@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0cd32e8cbc1989383
+specifics:
+  Description: proxy
+  FromPort: 3128
+  GroupId: sg-09e38811cfbd0eedd
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-06cd9ceed1c8d2c37
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0cd32e8cbc1989383
+  Tags: []
+  ToPort: 3128
+...
+

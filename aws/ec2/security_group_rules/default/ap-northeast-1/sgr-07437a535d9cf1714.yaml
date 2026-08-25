@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-07437a535d9cf1714
+specifics:
+  Description: Allow TCP traffic from demo-shim-api SG on port 5493
+  FromPort: 5493
+  GroupId: sg-0c0b6badd13587971
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-02688499a41955d56
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-07437a535d9cf1714
+  Tags: []
+  ToPort: 5493
+...
+

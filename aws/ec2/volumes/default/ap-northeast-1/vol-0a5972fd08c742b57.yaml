@@ -1,0 +1,46 @@
+---
+datatype: aws.ec2.volumes
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-0a5972fd08c742b57
+specifics:
+  Attachments:
+  - AttachTime: 2024-06-12 08:09:09+00:00
+    DeleteOnTermination: true
+    Device: /dev/xvda
+    InstanceId: i-042f2c11af57462bb
+    State: attached
+    VolumeId: vol-0a5972fd08c742b57
+  AvailabilityZone: ap-northeast-1a
+  CreateTime: 2024-06-12 08:09:09.257000+00:00
+  Encrypted: false
+  Iops: 3000
+  MultiAttachEnabled: false
+  Size: 40
+  SnapshotId: snap-0b0b41c94680f494d
+  State: in-use
+  Tags:
+  - Key: team
+    Value: sre
+  - Key: sre-component
+    Value: tracky-slave
+  - Key: role
+    Value: tracky
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_env_name
+    Value: prod
+  - Key: Name
+    Value: bnb_prod_mbx_tracky-jp-slave17_ec2
+  - Key: biz
+    Value: mbx
+  - Key: sre-env
+    Value: prod
+  - Key: sre-app
+    Value: tracky-slave
+  Throughput: 125
+  VolumeId: vol-0a5972fd08c742b57
+  VolumeType: gp3
+...
+

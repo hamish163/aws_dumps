@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSBillingReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSBillingReadOnlyAccess
+  AttachmentCount: 1
+  CreateDate: 2020-08-27 20:08:51+00:00
+  DefaultVersionId: v28
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4LJ3OSZ5SX
+  PolicyName: AWSBillingReadOnlyAccess
+  UpdateDate: 2026-07-30 22:12:29+00:00
+...
+

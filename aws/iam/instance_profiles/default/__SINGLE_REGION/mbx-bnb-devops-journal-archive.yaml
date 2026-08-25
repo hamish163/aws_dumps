@@ -1,0 +1,28 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-devops-journal-archive
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/mbx-bnb-devops-journal-archive
+  CreateDate: 2025-05-20 14:36:56+00:00
+  InstanceProfileId: AIPA4RYUCHN5RX5CAMULW
+  InstanceProfileName: mbx-bnb-devops-journal-archive
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/mbx-bnb-devops-journal-archive
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+      Version: '2012-10-17'
+    CreateDate: 2025-05-20 14:36:55+00:00
+    Path: /
+    RoleId: AROA4RYUCHN57BWRL2DUE
+    RoleName: mbx-bnb-devops-journal-archive
+...
+

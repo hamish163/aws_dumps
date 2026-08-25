@@ -1,0 +1,28 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0245d0e0615396ed5
+specifics:
+  Description: Managed by Terraform
+  GroupId: sg-0245d0e0615396ed5
+  GroupName: mbx-bnb-perf-blaster-engine-outbound
+  Tags:
+  - Key: mbx_application_name
+    Value: blaster
+  - Key: mbx_env_name
+    Value: perf
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_secret_store
+    Value: none
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  - Key: Name
+    Value: mbx-bnb-perf-blaster-engine-outbound
+  VpcId: vpc-013930e589c469574
+...
+

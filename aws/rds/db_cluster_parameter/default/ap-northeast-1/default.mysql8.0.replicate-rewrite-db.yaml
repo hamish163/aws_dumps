@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.replicate-rewrite-db
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: list
+  Description: Tells the replica to create a replication filter that translates the
+    specified database to to_name if it was from_name on the source
+  IsModifiable: true
+  MinimumEngineVersion: 8.0.35
+  ParameterName: replicate-rewrite-db
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

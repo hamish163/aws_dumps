@@ -1,0 +1,14 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: subnet-087722e2881b48d12
+specifics:
+  Name: mbx-bnb-sre-subnet-private2-az-1c
+  biz: mbx
+  mbx_env_name: sre
+  mbx_exchange_name: bnb
+  team: mbx
+...
+

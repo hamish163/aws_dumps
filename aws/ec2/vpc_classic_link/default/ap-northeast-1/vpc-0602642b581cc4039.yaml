@@ -1,0 +1,32 @@
+---
+datatype: aws.ec2.vpc_classic_link
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vpc-0602642b581cc4039
+specifics:
+  ClassicLinkEnabled: false
+  Tags:
+  - Key: mbx.owner
+    Value: devops
+  - Key: mbx.managed_by
+    Value: mbx.devops
+  - Key: project
+    Value: mbx
+  - Key: team
+    Value: mbx
+  - Key: mbx.service
+    Value: tungsten-cicd
+  - Key: biz
+    Value: mbx
+  - Key: aws:cloudformation:logical-id
+    Value: VPC
+  - Key: Name
+    Value: tungsten-cicd
+  - Key: aws:cloudformation:stack-id
+    Value: arn:aws:cloudformation:ap-northeast-1:862793644923:stack/tungsten-cicd-base/a15c8df0-d5bf-11ec-9b81-0ed508706001
+  - Key: aws:cloudformation:stack-name
+    Value: tungsten-cicd-base
+  VpcId: vpc-0602642b581cc4039
+...
+

@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-solutions-telegrambot-postgres-cluster-pg.autovacuum_freeze_max_age
+specifics:
+  AllowedValues: 100000000-750000000
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: Age at which to autovacuum a table to prevent transaction ID wraparound.
+  IsModifiable: true
+  ParameterName: autovacuum_freeze_max_age
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

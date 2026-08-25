@@ -1,0 +1,20 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-02d4019b206d948d9
+specifics:
+  Description: Secondary security group for nginx-ingress ELB
+  GroupId: sg-02d4019b206d948d9
+  GroupName: nginx-ingress.mbxtools.bitdj.com
+  Tags:
+  - Key: env
+    Value: stage
+  - Key: project
+    Value: mbx
+  - Key: Name
+    Value: nginx-ingress.mbxtools.bitdj.com
+  VpcId: vpc-0c91879d6f0ffa921
+...
+

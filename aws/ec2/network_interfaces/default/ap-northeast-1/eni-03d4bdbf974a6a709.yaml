@@ -1,0 +1,38 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-03d4bdbf974a6a709
+specifics:
+  Attachment:
+    AttachmentId: ela-attach-091f016957dd5553f
+    DeleteOnTermination: false
+    DeviceIndex: 1
+    InstanceOwnerId: amazon-aws
+    Status: attached
+  AvailabilityZone: ap-northeast-1a
+  Description: VPC Endpoint Interface vpce-06679d68157d73fa5
+  Groups:
+  - GroupId: sg-0be9e1d0831241de7
+    GroupName: mbx-bnb-clientvpn-prometheus-prod-usa-vpce
+  InterfaceType: vpc_endpoint
+  Ipv6Addresses: []
+  MacAddress: 06:e1:17:d6:fa:15
+  NetworkInterfaceId: eni-03d4bdbf974a6a709
+  OwnerId: '862793644923'
+  PrivateDnsName: ip-10-12-0-13.ap-northeast-1.compute.internal
+  PrivateIpAddress: 10.12.0.13
+  PrivateIpAddresses:
+  - Primary: true
+    PrivateDnsName: ip-10-12-0-13.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.12.0.13
+  RequesterId: '727180483921'
+  RequesterManaged: true
+  SourceDestCheck: true
+  Status: in-use
+  SubnetId: subnet-049244395f4e090c3
+  TagSet: []
+  VpcId: vpc-0beab044be33d1617
+...
+

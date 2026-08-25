@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-system-cluster-pg-57.slave_rows_search_algorithms
+specifics:
+  AllowedValues: TABLE_SCAN,INDEX_SCAN,HASH_SCAN
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: list
+  Description: When preparing batches of rows for row-based logging and replication,
+    this variable controls how the rows are searched for matches, in particular whether
+    hash scans are used.
+  IsModifiable: true
+  ParameterName: slave_rows_search_algorithms
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

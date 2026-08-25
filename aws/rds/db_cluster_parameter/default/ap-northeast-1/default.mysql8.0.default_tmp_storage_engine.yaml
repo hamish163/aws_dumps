@@ -1,0 +1,18 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.default_tmp_storage_engine
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: The default storage engine for TEMPORARY tables.
+  IsModifiable: false
+  ParameterName: default_tmp_storage_engine
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

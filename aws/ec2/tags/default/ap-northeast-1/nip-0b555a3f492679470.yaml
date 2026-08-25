@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: nip-0b555a3f492679470
+specifics:
+  Name: uat_sequencer3_to_sequencer2_5481
+...
+

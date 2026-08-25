@@ -1,0 +1,17 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: test-controll-sheet-role-xisi0ima
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/service-role/AWSLambdaBasicExecutionRole-5e80abd4-67e0-4bc9-a0d8-32930c08ffef
+    PolicyName: AWSLambdaBasicExecutionRole-5e80abd4-67e0-4bc9-a0d8-32930c08ffef
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonEC2FullAccess
+    PolicyName: AmazonEC2FullAccess
+  - PolicyArn: arn:aws:iam::aws:policy/SecretsManagerReadWrite
+    PolicyName: SecretsManagerReadWrite
+...
+

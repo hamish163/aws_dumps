@@ -1,0 +1,50 @@
+---
+datatype: aws.ec2.route_tables
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rtb-08c77dbc92733d236
+specifics:
+  Associations:
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-03d6ed70da97f5e77
+    RouteTableId: rtb-08c77dbc92733d236
+    SubnetId: subnet-0ddd3811e8cb13560
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-08e274171cfd54096
+    RouteTableId: rtb-08c77dbc92733d236
+    SubnetId: subnet-089b0e7b6c83de278
+  OwnerId: '862793644923'
+  PropagatingVgws: []
+  RouteTableId: rtb-08c77dbc92733d236
+  Routes:
+  - DestinationCidrBlock: 10.220.16.0/20
+    GatewayId: local
+    Origin: CreateRouteTable
+    State: active
+  - DestinationCidrBlock: 10.143.0.0/16
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-0349555d3be327dc3
+  - DestinationCidrBlock: 0.0.0.0/0
+    GatewayId: igw-0d5e71883599f9287
+    Origin: CreateRoute
+    State: active
+  Tags:
+  - Key: Name
+    Value: mbx-tools-prod-rtb-public1
+  - Key: mbx_env_name
+    Value: prod
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  - Key: mbx_exchange_name
+    Value: tools
+  VpcId: vpc-0f055c381f89cb200
+...
+

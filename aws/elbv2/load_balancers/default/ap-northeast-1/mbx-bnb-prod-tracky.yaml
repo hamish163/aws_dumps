@@ -1,0 +1,29 @@
+---
+datatype: aws.elbv2.load_balancers
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-prod-tracky
+specifics:
+  AvailabilityZones:
+  - LoadBalancerAddresses: []
+    SubnetId: subnet-0899be7b94796ea56
+    ZoneName: ap-northeast-1c
+  - LoadBalancerAddresses: []
+    SubnetId: subnet-0d92f19d082a3909e
+    ZoneName: ap-northeast-1a
+  CanonicalHostedZoneId: Z14GRHDCWA56QT
+  CreatedTime: 2025-01-15 13:29:49.238000+00:00
+  DNSName: internal-mbx-bnb-prod-tracky-23211862.ap-northeast-1.elb.amazonaws.com
+  IpAddressType: ipv4
+  LoadBalancerArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:loadbalancer/app/mbx-bnb-prod-tracky/b705f04c5985c726
+  LoadBalancerName: mbx-bnb-prod-tracky
+  Scheme: internal
+  SecurityGroups:
+  - sg-0238f57a24d06597f
+  State:
+    Code: active
+  Type: application
+  VpcId: vpc-03f5d2495fd8d95a3
+...
+

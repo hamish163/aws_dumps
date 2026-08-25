@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0f2516f0b718fb602
+specifics:
+  Description: JA checksum on port 5490
+  FromPort: 5490
+  GroupId: sg-0976f45ee75722c46
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-026692aa9064fbcf6
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0f2516f0b718fb602
+  Tags: []
+  ToPort: 5490
+...
+

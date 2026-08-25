@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonEC2ContainerServiceAutoscaleRole
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AmazonEC2ContainerServiceAutoscaleRole
+  AttachmentCount: 0
+  CreateDate: 2016-05-12 23:25:44+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIUAP3EGGGXXCPDQKK
+  PolicyName: AmazonEC2ContainerServiceAutoscaleRole
+  UpdateDate: 2018-02-05 19:15:15+00:00
+...
+

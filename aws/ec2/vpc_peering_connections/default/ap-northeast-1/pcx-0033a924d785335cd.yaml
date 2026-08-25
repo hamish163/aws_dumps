@@ -1,0 +1,34 @@
+---
+datatype: aws.ec2.vpc_peering_connections
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: pcx-0033a924d785335cd
+specifics:
+  AccepterVpcInfo:
+    CidrBlock: 172.27.0.0/16
+    CidrBlockSet:
+    - CidrBlock: 172.27.0.0/16
+    OwnerId: '862793644923'
+    PeeringOptions:
+      AllowDnsResolutionFromRemoteVpc: false
+      AllowEgressFromLocalClassicLinkToRemoteVpc: false
+      AllowEgressFromLocalVpcToRemoteClassicLink: false
+    Region: ap-northeast-1
+    VpcId: vpc-03f5d2495fd8d95a3
+  RequesterVpcInfo:
+    CidrBlock: 10.21.0.0/16
+    CidrBlockSet:
+    - CidrBlock: 10.21.0.0/16
+    OwnerId: '369096419186'
+    Region: ap-northeast-1
+    VpcId: vpc-0f159d755b0087dbc
+  Status:
+    Code: active
+    Message: Active
+  Tags:
+  - Key: Name
+    Value: monitoring_vpc_to_tracky
+  VpcPeeringConnectionId: pcx-0033a924d785335cd
+...
+

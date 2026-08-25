@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rtb-0c84271f8efbaf3f8
+specifics:
+  AmazonFSx: ManagedByAmazonFSx
+  Name: mbx-bnb-devops-rtb-private2
+  biz: mbx
+  mbx_env_name: devops
+  mbx_exchange_name: bnb
+  team: mbx
+...
+

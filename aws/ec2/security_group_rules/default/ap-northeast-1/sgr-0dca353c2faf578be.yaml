@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0dca353c2faf578be
+specifics:
+  CidrIpv4: 172.18.0.0/16
+  Description: from old vpn
+  FromPort: 3000
+  GroupId: sg-004e9b2b55386d472
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-0dca353c2faf578be
+  Tags: []
+  ToPort: 3000
+...
+

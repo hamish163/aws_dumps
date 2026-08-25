@@ -1,0 +1,28 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-uat-publicstream-sbe
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/mbx-bnb-uat-publicstream-sbe
+  CreateDate: 2025-11-05 14:58:44+00:00
+  InstanceProfileId: AIPA4RYUCHN5WX6MIT35H
+  InstanceProfileName: mbx-bnb-uat-publicstream-sbe
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/mbx-bnb-uat-publicstream-sbe
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+      Version: '2012-10-17'
+    CreateDate: 2025-11-05 14:58:43+00:00
+    Path: /
+    RoleId: AROA4RYUCHN5SBBNPZPQ7
+    RoleName: mbx-bnb-uat-publicstream-sbe
+...
+

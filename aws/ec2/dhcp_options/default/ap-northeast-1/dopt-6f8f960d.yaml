@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.dhcp_options
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: dopt-6f8f960d
+specifics:
+  OwnerId: '862793644923'
+  Tags:
+  - Key: Name
+    Value: ClientVpnVPC Attachment DHCP Option Set
+  domain-name: ap-northeast-1.compute.internal
+  domain-name-servers: AmazonProvidedDNS
+...
+

@@ -1,0 +1,137 @@
+---
+datatype: aws.ec2.instances
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-0c2b1308c4f5c1de4
+specifics:
+  AmiLaunchIndex: 0
+  Architecture: x86_64
+  BlockDeviceMappings:
+  - DeviceName: /dev/xvda
+    Ebs:
+      AttachTime: 2025-07-07 08:25:16+00:00
+      DeleteOnTermination: true
+      Status: attached
+      VolumeId: vol-0dfd0ab72b4bddf3c
+  - DeviceName: /dev/sdf
+    Ebs:
+      AttachTime: 2025-07-07 08:25:54.267000+00:00
+      DeleteOnTermination: false
+      Status: attached
+      VolumeId: vol-0b13c8104d0155872
+  BootMode: uefi-preferred
+  CapacityReservationSpecification:
+    CapacityReservationPreference: open
+  ClientToken: terraform-20250707082515084300000003
+  CpuOptions:
+    CoreCount: 1
+    ThreadsPerCore: 2
+  CurrentInstanceBootMode: uefi
+  EbsOptimized: true
+  EnaSupport: true
+  EnclaveOptions:
+    Enabled: false
+  HibernationOptions:
+    Configured: false
+  Hypervisor: xen
+  IamInstanceProfile:
+    Arn: arn:aws:iam::862793644923:instance-profile/mbx-bnb-perf-thanos-store
+    Id: AIPA4RYUCHN54J2N4JVIX
+  ImageId: ami-02c81ee3d4336a971
+  InstanceId: i-0c2b1308c4f5c1de4
+  InstanceType: t3.medium
+  LaunchTime: 2025-07-07 08:25:16+00:00
+  MaintenanceOptions:
+    AutoRecovery: default
+  MetadataOptions:
+    HttpEndpoint: enabled
+    HttpProtocolIpv6: disabled
+    HttpPutResponseHopLimit: 2
+    HttpTokens: required
+    InstanceMetadataTags: enabled
+    State: applied
+  Monitoring:
+    State: disabled
+  NetworkInterfaces:
+  - Attachment:
+      AttachTime: 2025-07-07 08:25:16+00:00
+      AttachmentId: eni-attach-0af6cab3b17d12591
+      DeleteOnTermination: true
+      DeviceIndex: 0
+      NetworkCardIndex: 0
+      Status: attached
+    Description: ''
+    Groups:
+    - GroupId: sg-0930fe36728a6e31a
+      GroupName: mbx-bnb-perf-monitoring
+    - GroupId: sg-0098b51ae7ff592d6
+      GroupName: mbx-bnb-perf-thanos-store
+    - GroupId: sg-011d3bdd31cc014b3
+      GroupName: mbx-bnb-perf-default
+    InterfaceType: interface
+    Ipv6Addresses: []
+    MacAddress: 06:2c:08:a6:e8:0b
+    NetworkInterfaceId: eni-0ee98047743ef5550
+    OwnerId: '862793644923'
+    PrivateDnsName: ip-10-170-19-47.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.170.19.47
+    PrivateIpAddresses:
+    - Primary: true
+      PrivateDnsName: ip-10-170-19-47.ap-northeast-1.compute.internal
+      PrivateIpAddress: 10.170.19.47
+    SourceDestCheck: true
+    Status: in-use
+    SubnetId: subnet-09134100e474d8109
+    VpcId: vpc-013930e589c469574
+  Placement:
+    AvailabilityZone: ap-northeast-1a
+    GroupName: ''
+    Tenancy: default
+  PlatformDetails: Linux/UNIX
+  PrivateDnsName: ip-10-170-19-47.ap-northeast-1.compute.internal
+  PrivateDnsNameOptions:
+    EnableResourceNameDnsAAAARecord: false
+    EnableResourceNameDnsARecord: false
+    HostnameType: ip-name
+  PrivateIpAddress: 10.170.19.47
+  ProductCodes: []
+  PublicDnsName: ''
+  RootDeviceName: /dev/xvda
+  RootDeviceType: ebs
+  SecurityGroups:
+  - GroupId: sg-0930fe36728a6e31a
+    GroupName: mbx-bnb-perf-monitoring
+  - GroupId: sg-0098b51ae7ff592d6
+    GroupName: mbx-bnb-perf-thanos-store
+  - GroupId: sg-011d3bdd31cc014b3
+    GroupName: mbx-bnb-perf-default
+  SourceDestCheck: true
+  State:
+    Code: 16
+    Name: running
+  StateTransitionReason: ''
+  SubnetId: subnet-09134100e474d8109
+  Tags:
+  - Key: Name
+    Value: mbx-bnb-perf-thanos-store1
+  - Key: biz
+    Value: mbx
+  - Key: mbx_application_name
+    Value: thanos-store
+  - Key: mbx_env_name
+    Value: perf
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_host_index
+    Value: '1'
+  - Key: mbx_secret_store
+    Value: asm
+  - Key: team
+    Value: mbx
+  UsageOperation: RunInstances
+  UsageOperationUpdateTime: 2025-07-07 08:25:16+00:00
+  VirtualizationType: hvm
+  VpcId: vpc-013930e589c469574
+...
+

@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.key_pairs
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: key-0d5c83c4eb4ec733e
+specifics:
+  CreateTime: 2020-06-18 08:31:38+00:00
+  KeyFingerprint: e4:bb:62:fd:48:b7:b8:ed:a2:7d:eb:98:91:44:7b:25:18:69:e9:94
+  KeyName: k8s-cibuild
+  KeyPairId: key-0d5c83c4eb4ec733e
+  KeyType: rsa
+  Tags: []
+...
+

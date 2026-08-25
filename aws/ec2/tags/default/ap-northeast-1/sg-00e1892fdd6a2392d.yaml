@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-00e1892fdd6a2392d
+specifics:
+  aws:cloudformation:logical-id: AppSecurityGroup
+  aws:cloudformation:stack-id: arn:aws:cloudformation:ap-northeast-1:862793644923:stack/MbxChat-Mongo-19FEZSTWMJZQR/df250780-de96-11ed-ae5c-06c5754c9893
+  aws:cloudformation:stack-name: MbxChat-Mongo-19FEZSTWMJZQR
+...
+

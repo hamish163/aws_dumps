@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-orders-cluster-pg-80.innodb_ft_num_word_optimize
+specifics:
+  AllowedValues: 1-4294967295
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Number of words to process during each OPTIMIZE TABLE operation on
+    an InnoDB FULLTEXT index.
+  IsModifiable: true
+  ParameterName: innodb_ft_num_word_optimize
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

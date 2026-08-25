@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: StepFunctions-bnb-perf-create-rds-cluster-role-ece15a34
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/service-role/XRayAccessPolicy-6c941de4-3e26-41c2-abff-3b5a2bef70f6
+    PolicyName: XRayAccessPolicy-6c941de4-3e26-41c2-abff-3b5a2bef70f6
+  - PolicyArn: arn:aws:iam::aws:policy/CloudWatchLogsFullAccess
+    PolicyName: CloudWatchLogsFullAccess
+...
+

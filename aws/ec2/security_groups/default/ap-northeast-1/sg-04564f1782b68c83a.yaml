@@ -1,0 +1,28 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-04564f1782b68c83a
+specifics:
+  Description: Managed by Terraform
+  GroupId: sg-04564f1782b68c83a
+  GroupName: mbx-bnb-uat-ws-api
+  Tags:
+  - Key: mbx_application_name
+    Value: mbx-api-websocket
+  - Key: mbx_secret_store
+    Value: asm
+  - Key: biz
+    Value: mbx
+  - Key: mbx_env_name
+    Value: uat
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  - Key: Name
+    Value: mbx-bnb-uat-ws-api
+  VpcId: vpc-0b3ce57b4c748893b
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSElasticBeanstalkEnhancedHealth
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkEnhancedHealth
+  AttachmentCount: 0
+  CreateDate: 2016-02-08 23:17:27+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIH5EFJNMOGUUTKLFE
+  PolicyName: AWSElasticBeanstalkEnhancedHealth
+  UpdateDate: 2018-04-09 22:12:53+00:00
+...
+

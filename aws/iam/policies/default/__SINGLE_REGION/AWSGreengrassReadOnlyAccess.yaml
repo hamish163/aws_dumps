@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSGreengrassReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSGreengrassReadOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2018-10-30 16:01:43+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJLSKLXFVTQTZ5GY3I
+  PolicyName: AWSGreengrassReadOnlyAccess
+  UpdateDate: 2018-10-30 16:01:43+00:00
+...
+

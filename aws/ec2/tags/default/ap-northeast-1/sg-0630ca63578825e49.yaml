@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0630ca63578825e49
+specifics:
+  Name: eks-cluster-sg-mbx-bnb-devops-jenkins_eks-cluster-460522622
+  aws:eks:cluster-name: mbx-bnb-devops-jenkins_eks-cluster
+  kubernetes.io/cluster/mbx-bnb-devops-jenkins_eks-cluster: owned
+...
+

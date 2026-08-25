@@ -1,0 +1,11 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eipalloc-0722e22db05d35df2
+specifics:
+  env: dev
+  project: mbx
+...
+

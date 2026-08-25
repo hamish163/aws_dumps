@@ -1,0 +1,46 @@
+---
+datatype: aws.iam.account_authorization_details
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: aleix
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/aleix
+  AttachedManagedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/AllowUserManagedOwnAccount
+    PolicyName: AllowUserManagedOwnAccount
+  - PolicyArn: arn:aws:iam::aws:policy/CloudWatchReadOnlyAccess
+    PolicyName: CloudWatchReadOnlyAccess
+  - PolicyArn: arn:aws:iam::aws:policy/CloudWatchAutomaticDashboardsAccess
+    PolicyName: CloudWatchAutomaticDashboardsAccess
+  CreateDate: 2026-04-13 06:29:22+00:00
+  GroupList:
+  - mbx_bedrock
+  - MBX_BNB_UAT_GROUP
+  - qa
+  Path: /
+  Tags:
+  - Key: mbx_iam
+    Value: aleix
+  - Key: mbx_team
+    Value: qa
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  UserId: AIDA4RYUCHN54OB4ZENZY
+  UserName: aleix
+  UserPolicyList:
+  - PolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Resource:
+        - arn:aws:iam::173062506398:role/KubernetesMBXVlctyQA
+        - arn:aws:iam::462475635429:role/KubernetesMBXVlctyQA
+        Sid: VisualEditor0
+      Version: '2012-10-17'
+    PolicyName: AssumeRole
+...
+

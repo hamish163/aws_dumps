@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql11.pglogical.conflict_resolution
+specifics:
+  AllowedValues: error,apply_remote,keep_local,last_update_wins,first_update_wins
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Sets method used for conflict resolution for resolvable conflicts.
+  IsModifiable: true
+  MinimumEngineVersion: '11.8'
+  ParameterName: pglogical.conflict_resolution
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

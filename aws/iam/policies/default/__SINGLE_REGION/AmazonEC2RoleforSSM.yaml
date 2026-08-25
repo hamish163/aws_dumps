@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonEC2RoleforSSM
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AmazonEC2RoleforSSM
+  AttachmentCount: 0
+  CreateDate: 2015-05-29 17:48:35+00:00
+  DefaultVersionId: v8
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAI6TL3SMY22S4KMMX6
+  PolicyName: AmazonEC2RoleforSSM
+  UpdateDate: 2019-01-24 19:20:51+00:00
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonElasticMapReduceFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonElasticMapReduceFullAccess
+  AttachmentCount: 1
+  CreateDate: 2015-02-06 18:40:22+00:00
+  DefaultVersionId: v7
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIZP5JFP3AMSGINBB2
+  PolicyName: AmazonElasticMapReduceFullAccess
+  UpdateDate: 2019-10-11 15:19:30+00:00
+...
+

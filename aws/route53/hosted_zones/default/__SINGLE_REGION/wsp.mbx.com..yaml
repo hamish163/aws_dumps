@@ -1,0 +1,16 @@
+---
+datatype: aws.route53.hosted_zones
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: wsp.mbx.com.
+  single_region: true
+specifics:
+  CallerReference: 71C299DD-5672-3D4A-A7BA-6DB5A5CBF0BA
+  Config:
+    PrivateZone: true
+  Id: /hostedzone/Z0577898VQRAMFX0BFLO
+  Name: wsp.mbx.com.
+  ResourceRecordSetCount: 3
+...
+

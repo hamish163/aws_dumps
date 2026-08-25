@@ -1,0 +1,18 @@
+---
+datatype: aws.iam.attached_user_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: nicole
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/AllowUserManagedOwnAccount
+    PolicyName: AllowUserManagedOwnAccount
+  - PolicyArn: arn:aws:iam::aws:policy/CloudWatchReadOnlyAccess
+    PolicyName: CloudWatchReadOnlyAccess
+  - PolicyArn: arn:aws:iam::aws:policy/CloudWatchAutomaticDashboardsAccess
+    PolicyName: CloudWatchAutomaticDashboardsAccess
+  _UserName: nicole
+...
+

@@ -1,0 +1,22 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql16.aurora_stat_plans.with_triggers
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Show triggers execution statistics. This parameter only takes effect
+    when aurora_stat_plans.with_analyze is also enabled
+  IsModifiable: true
+  MinimumEngineVersion: '16.1'
+  ParameterName: aurora_stat_plans.with_triggers
+  ParameterValue: 'off'
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

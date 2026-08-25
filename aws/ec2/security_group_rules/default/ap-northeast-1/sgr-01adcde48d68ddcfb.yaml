@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-01adcde48d68ddcfb
+specifics:
+  Description: Allow TCP traffic from shim-api SG to aggtrade-db database
+  FromPort: 3306
+  GroupId: sg-0a69dfaa30be4acaf
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0dd2ba0a3c16b6404
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-01adcde48d68ddcfb
+  Tags: []
+  ToPort: 3306
+...
+

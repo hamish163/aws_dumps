@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSDataLifecycleManagerServiceRoleForAMIManagement
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AWSDataLifecycleManagerServiceRoleForAMIManagement
+  AttachmentCount: 0
+  CreateDate: 2020-10-21 19:39:41+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4MG6O7FWSP
+  PolicyName: AWSDataLifecycleManagerServiceRoleForAMIManagement
+  UpdateDate: 2021-08-19 17:03:44+00:00
+...
+

@@ -1,0 +1,13 @@
+---
+datatype: aws.iam.user_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-jenkins-jobcacher
+  single_region: true
+specifics:
+  AKIA4RYUCHN57XUEVMEM: https://jenkins.ap2.bitdj.com
+  project: jenkins
+  team: mbx
+...
+

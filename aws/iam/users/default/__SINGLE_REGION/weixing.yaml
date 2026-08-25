@@ -1,0 +1,16 @@
+---
+datatype: aws.iam.users
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: weixing
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/weixing
+  CreateDate: 2021-08-10 05:08:28+00:00
+  PasswordLastUsed: 2026-08-24 04:37:37+00:00
+  Path: /
+  UserId: AIDA4RYUCHN5SFPRLJK35
+  UserName: weixing
+...
+

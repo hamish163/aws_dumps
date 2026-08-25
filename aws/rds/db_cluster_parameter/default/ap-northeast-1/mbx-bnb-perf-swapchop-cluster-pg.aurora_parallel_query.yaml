@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-perf-swapchop-cluster-pg.aurora_parallel_query
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: This parameter can be used to enable and disable Aurora Parallel Query.
+  IsModifiable: true
+  ParameterName: aurora_parallel_query
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

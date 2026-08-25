@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: PapermillDevPolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/PapermillDevPolicy
+  AttachmentCount: 1
+  CreateDate: 2024-05-10 09:01:24+00:00
+  DefaultVersionId: v6
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5SHXUHF7XJ
+  PolicyName: PapermillDevPolicy
+  UpdateDate: 2025-04-14 13:36:49+00:00
+...
+

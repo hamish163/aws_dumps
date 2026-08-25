@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: EC2FleetTimeShiftableServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/EC2FleetTimeShiftableServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2019-12-23 19:47:15+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4IU3TFNWBH
+  PolicyName: EC2FleetTimeShiftableServiceRolePolicy
+  UpdateDate: 2019-12-23 19:47:15+00:00
+...
+

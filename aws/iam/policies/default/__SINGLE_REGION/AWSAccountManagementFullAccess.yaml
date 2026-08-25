@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSAccountManagementFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSAccountManagementFullAccess
+  AttachmentCount: 0
+  CreateDate: 2021-09-30 23:20:37+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4NJRKI5OH5
+  PolicyName: AWSAccountManagementFullAccess
+  UpdateDate: 2021-09-30 23:20:37+00:00
+...
+

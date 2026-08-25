@@ -1,0 +1,30 @@
+---
+datatype: aws.elbv2.rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener-rule/app/mbx-bnb-devops-monitoring-int/f35b24f68c073458/a934008c1e721f3e/12513d6e859ee801
+specifics:
+  Actions:
+  - ForwardConfig:
+      TargetGroupStickinessConfig:
+        Enabled: false
+      TargetGroups:
+      - TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-devops-alertmanager-tg/15277e16ca7e9a5e
+        Weight: 1
+    Order: 1
+    TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-devops-alertmanager-tg/15277e16ca7e9a5e
+    Type: forward
+  Conditions:
+  - Field: host-header
+    HostHeaderConfig:
+      Values:
+      - alertmanager.devops.bnb.mbx
+    Values:
+    - alertmanager.devops.bnb.mbx
+  IsDefault: false
+  Priority: '1'
+  RuleArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener-rule/app/mbx-bnb-devops-monitoring-int/f35b24f68c073458/a934008c1e721f3e/12513d6e859ee801
+  _listener_arn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener/app/mbx-bnb-devops-monitoring-int/f35b24f68c073458/a934008c1e721f3e
+...
+

@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.innodb_purge_rseg_truncate_frequency
+specifics:
+  AllowedValues: 1-128
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Defines the frequency with which the purge system frees rollback segments.
+  IsModifiable: true
+  ParameterName: innodb_purge_rseg_truncate_frequency
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-perf-kline-cluster-pg.aurora_lambda_request_timeout
+specifics:
+  AllowedValues: 10000-900000
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Aurora Lambda request timeout in milliseconds
+  IsModifiable: true
+  MinimumEngineVersion: 8.0.mysql_aurora.3.11.0
+  ParameterName: aurora_lambda_request_timeout
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

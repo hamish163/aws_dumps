@@ -1,0 +1,13 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: pcx-03ac8e434311a2c78
+specifics:
+  Name: prod-gw-bastion-to-bnb-prod
+  biz: mbx
+  env: prod
+  team: mbx
+...
+

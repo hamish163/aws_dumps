@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-accounts-cluster-pg-default.metadata_locks_cache_size
+specifics:
+  AllowedValues: 1-1048576
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: The size of the metadata locks cache
+  IsModifiable: true
+  ParameterName: metadata_locks_cache_size
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

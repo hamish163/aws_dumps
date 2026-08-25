@@ -1,0 +1,28 @@
+---
+datatype: aws.elbv2.listeners
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener/app/mbx-bnb-solutions-atom-alb/06f1d0c6ea40de39/5075a2097db47867
+specifics:
+  Certificates:
+  - CertificateArn: arn:aws:acm:ap-northeast-1:862793644923:certificate/1acebbab-519e-4b9f-b663-514ba5e22d81
+  DefaultActions:
+  - ForwardConfig:
+      TargetGroupStickinessConfig:
+        Enabled: false
+      TargetGroups:
+      - TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-solutions-atom-tg/c846b7b523804809
+        Weight: 1
+    Order: 1
+    TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-solutions-atom-tg/c846b7b523804809
+    Type: forward
+  ListenerArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener/app/mbx-bnb-solutions-atom-alb/06f1d0c6ea40de39/5075a2097db47867
+  LoadBalancerArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:loadbalancer/app/mbx-bnb-solutions-atom-alb/06f1d0c6ea40de39
+  MutualAuthentication:
+    Mode: 'off'
+  Port: 443
+  Protocol: HTTPS
+  SslPolicy: ELBSecurityPolicy-TLS13-1-2-2021-06
+...
+

@@ -1,0 +1,28 @@
+---
+datatype: aws.elbv2.listeners
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener/app/MbxCh-AlbEx-1KYFZN0J4CLVC/cb979d9105970855/21d0815b008db45e
+specifics:
+  Certificates:
+  - CertificateArn: arn:aws:acm:ap-northeast-1:862793644923:certificate/09ecada3-01f5-40de-94f8-111807202b5a
+  DefaultActions:
+  - ForwardConfig:
+      TargetGroupStickinessConfig:
+        Enabled: false
+      TargetGroups:
+      - TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/MbxCha-AppTa-QJ1MIO2FB53D/9c5d6d51d0b654ac
+        Weight: 1
+    Order: 1
+    TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/MbxCha-AppTa-QJ1MIO2FB53D/9c5d6d51d0b654ac
+    Type: forward
+  ListenerArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener/app/MbxCh-AlbEx-1KYFZN0J4CLVC/cb979d9105970855/21d0815b008db45e
+  LoadBalancerArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:loadbalancer/app/MbxCh-AlbEx-1KYFZN0J4CLVC/cb979d9105970855
+  MutualAuthentication:
+    Mode: 'off'
+  Port: 443
+  Protocol: HTTPS
+  SslPolicy: ELBSecurityPolicy-2016-08
+...
+

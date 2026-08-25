@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-exchange-rates-cluster-pg.innodb_thread_concurrency
+specifics:
+  AllowedValues: 0-1000
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: The number of threads that can enter innodb concurrently
+  IsModifiable: false
+  ParameterName: innodb_thread_concurrency
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

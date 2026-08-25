@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.users
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: bitdjMbxGrafana
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/bitdjMbxGrafana
+  CreateDate: 2023-10-25 14:55:50+00:00
+  Path: /
+  UserId: AIDA4RYUCHN5U7ZIKU6U7
+  UserName: bitdjMbxGrafana
+...
+

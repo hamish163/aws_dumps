@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSAutoScalingPlansEC2AutoScalingPolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AWSAutoScalingPlansEC2AutoScalingPolicy
+  AttachmentCount: 0
+  CreateDate: 2018-08-23 22:46:59+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIXWLPZPD4RYBM3JSU
+  PolicyName: AWSAutoScalingPlansEC2AutoScalingPolicy
+  UpdateDate: 2018-08-23 22:46:59+00:00
+...
+

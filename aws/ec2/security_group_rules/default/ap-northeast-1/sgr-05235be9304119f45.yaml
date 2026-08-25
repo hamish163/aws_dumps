@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-05235be9304119f45
+specifics:
+  Description: From MBX Exchange Rates
+  FromPort: 8912
+  GroupId: sg-0388540e88fe8c249
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-08898715a90575bd3
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-05235be9304119f45
+  Tags: []
+  ToPort: 8912
+...
+

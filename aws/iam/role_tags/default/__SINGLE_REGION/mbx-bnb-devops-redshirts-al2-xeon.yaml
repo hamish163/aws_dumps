@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-devops-redshirts-al2-xeon
+  single_region: true
+specifics:
+  Name: mbx-bnb-devops-redshirts-al2-xeon
+  biz: mbx
+  mbx_env_name: devops
+  mbx_exchange_name: bnb
+  team: mbx
+...
+

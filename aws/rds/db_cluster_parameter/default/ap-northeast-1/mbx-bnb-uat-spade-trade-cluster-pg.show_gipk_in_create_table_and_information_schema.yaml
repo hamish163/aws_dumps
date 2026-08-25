@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-spade-trade-cluster-pg.show_gipk_in_create_table_and_information_schema
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Whether generated invisible primary keys are visible in the output
+    of SHOW statements and in Information Schema tables.
+  IsModifiable: true
+  MinimumEngineVersion: 8.0.mysql_aurora.3.05.0
+  ParameterName: show_gipk_in_create_table_and_information_schema
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

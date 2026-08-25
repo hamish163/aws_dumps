@@ -1,0 +1,16 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: net.toolsfdg.prod-test-account-mgmt/A
+  single_region: true
+specifics:
+  AliasTarget:
+    DNSName: vpce-026192c17f5d6024d-dx4q3mha.vpce-svc-0ea8c92f969bb5303.ap-northeast-1.vpce.amazonaws.com.
+    EvaluateTargetHealth: false
+    HostedZoneId: Z2E726K9Y6RL4W
+  Name: prod-test-account-mgmt.toolsfdg.net.
+  Type: A
+...
+

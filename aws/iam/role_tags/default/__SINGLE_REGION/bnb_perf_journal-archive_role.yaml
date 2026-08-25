@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: bnb_perf_journal-archive_role
+  single_region: true
+specifics:
+  biz: mbx
+  env: perf
+  project: mbx
+  role: journal_archive
+  team: mbx
+...
+

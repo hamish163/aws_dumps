@@ -1,0 +1,38 @@
+---
+datatype: aws.ec2.subnets
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: subnet-0acaddce878579935
+specifics:
+  AssignIpv6AddressOnCreation: false
+  AvailabilityZone: ap-northeast-1a
+  AvailabilityZoneId: apne1-az4
+  AvailableIpAddressCount: 24
+  CidrBlock: 10.12.2.0/27
+  DefaultForAz: false
+  EnableDns64: false
+  Ipv6CidrBlockAssociationSet: []
+  Ipv6Native: false
+  MapCustomerOwnedIpOnLaunch: false
+  MapPublicIpOnLaunch: false
+  OwnerId: '862793644923'
+  PrivateDnsNameOptionsOnLaunch:
+    EnableResourceNameDnsAAAARecord: false
+    EnableResourceNameDnsARecord: false
+    HostnameType: ip-name
+  State: available
+  SubnetArn: arn:aws:ec2:ap-northeast-1:862793644923:subnet/subnet-0acaddce878579935
+  SubnetId: subnet-0acaddce878579935
+  Tags:
+  - Key: Name
+    Value: ProdGatewayVPC Attachment Subnet 1
+  - Key: aws:cloudformation:logical-id
+    Value: AttachmentSubnet1
+  - Key: aws:cloudformation:stack-id
+    Value: arn:aws:cloudformation:ap-northeast-1:862793644923:stack/BitdjNetwork-ProdGatewayVPC-1PZSWRWOLEH8E/4abb5a50-6cca-11ee-a1b9-0e55d09e0867
+  - Key: aws:cloudformation:stack-name
+    Value: BitdjNetwork-ProdGatewayVPC-1PZSWRWOLEH8E
+  VpcId: vpc-041f1adf86f81b9e1
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSDeadlineCloud-WorkerHost
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSDeadlineCloud-WorkerHost
+  AttachmentCount: 0
+  CreateDate: 2024-04-01 17:28:28+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4KWFH5LFDO
+  PolicyName: AWSDeadlineCloud-WorkerHost
+  UpdateDate: 2026-02-12 17:58:06+00:00
+...
+

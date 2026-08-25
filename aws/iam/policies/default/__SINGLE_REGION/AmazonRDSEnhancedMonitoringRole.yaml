@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonRDSEnhancedMonitoringRole
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AmazonRDSEnhancedMonitoringRole
+  AttachmentCount: 2
+  CreateDate: 2015-11-11 19:58:29+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJV7BS425S4PTSSVGK
+  PolicyName: AmazonRDSEnhancedMonitoringRole
+  UpdateDate: 2015-11-11 19:58:29+00:00
+...
+

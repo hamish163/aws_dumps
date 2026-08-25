@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.key_pairs
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: key-090f3bfb77def87bd
+specifics:
+  CreateTime: 2016-07-08 08:26:18+00:00
+  KeyFingerprint: a6:47:47:57:72:c6:35:eb:7e:08:76:bf:40:56:22:10:b9:76:ed:58
+  KeyName: BitDJ-VPN
+  KeyPairId: key-090f3bfb77def87bd
+  KeyType: rsa
+  Tags: []
+...
+

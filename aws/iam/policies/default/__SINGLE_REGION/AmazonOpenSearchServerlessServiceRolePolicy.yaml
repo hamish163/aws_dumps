@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonOpenSearchServerlessServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AmazonOpenSearchServerlessServiceRolePolicy
+  AttachmentCount: 1
+  CreateDate: 2022-11-24 19:50:12+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4KVCDI6A6Y
+  PolicyName: AmazonOpenSearchServerlessServiceRolePolicy
+  UpdateDate: 2024-07-25 21:19:30+00:00
+...
+

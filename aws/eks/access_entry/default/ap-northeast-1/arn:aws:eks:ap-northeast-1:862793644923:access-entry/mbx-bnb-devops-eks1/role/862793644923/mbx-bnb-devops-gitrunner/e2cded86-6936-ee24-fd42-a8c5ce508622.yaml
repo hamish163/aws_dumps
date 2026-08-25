@@ -1,0 +1,19 @@
+---
+datatype: aws.eks.access_entry
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:eks:ap-northeast-1:862793644923:access-entry/mbx-bnb-devops-eks1/role/862793644923/mbx-bnb-devops-gitrunner/e2cded86-6936-ee24-fd42-a8c5ce508622
+specifics:
+  accessEntryArn: arn:aws:eks:ap-northeast-1:862793644923:access-entry/mbx-bnb-devops-eks1/role/862793644923/mbx-bnb-devops-gitrunner/e2cded86-6936-ee24-fd42-a8c5ce508622
+  clusterName: mbx-bnb-devops-eks1
+  createdAt: 2026-01-20 21:56:49.351000+11:00
+  kubernetesGroups:
+  - admin
+  modifiedAt: 2026-01-22 07:50:09.825000+11:00
+  principalArn: arn:aws:iam::862793644923:role/mbx-bnb-devops-gitrunner
+  tags: {}
+  type: STANDARD
+  username: arn:aws:sts::862793644923:assumed-role/mbx-bnb-devops-gitrunner/{{SessionName}}
+...
+

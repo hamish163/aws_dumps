@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: DeclarativePoliciesEC2Report
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/DeclarativePoliciesEC2Report
+  AttachmentCount: 0
+  CreateDate: 2024-11-30 13:21:06+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4DLY4GTUO5
+  PolicyName: DeclarativePoliciesEC2Report
+  UpdateDate: 2026-07-03 10:57:26+00:00
+...
+

@@ -1,0 +1,16 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: net.toolsfdg.keter-mainsite-api/A
+  single_region: true
+specifics:
+  AliasTarget:
+    DNSName: vpce-00c952865b4d72cca-mgh5lo3h.vpce-svc-0f1224049b370c50e.ap-northeast-1.vpce.amazonaws.com.
+    EvaluateTargetHealth: true
+    HostedZoneId: Z2E726K9Y6RL4W
+  Name: keter-mainsite-api.toolsfdg.net.
+  Type: A
+...
+

@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.original_commit_timestamp
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: The time when the current transaction was committed on the originating
+    replication master, measured in microseconds since the epoch.
+  IsModifiable: false
+  ParameterName: original_commit_timestamp
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

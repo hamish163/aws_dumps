@@ -1,0 +1,17 @@
+---
+datatype: aws.route53.hosted_zones
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx.
+  single_region: true
+specifics:
+  CallerReference: 2b4cb24c-6ff7-4f45-a839-12c8482bb565
+  Config:
+    Comment: Private Hosted Zone for .mbx domains
+    PrivateZone: true
+  Id: /hostedzone/Z0207810OM35N7NVK4KP
+  Name: mbx.
+  ResourceRecordSetCount: 59
+...
+

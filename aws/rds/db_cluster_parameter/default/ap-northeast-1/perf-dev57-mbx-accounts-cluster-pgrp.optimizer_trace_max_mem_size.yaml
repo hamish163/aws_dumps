@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev57-mbx-accounts-cluster-pgrp.optimizer_trace_max_mem_size
+specifics:
+  AllowedValues: 0-18446744073709551615
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Maximum allowed cumulated size of stored optimizer traces
+  IsModifiable: true
+  ParameterName: optimizer_trace_max_mem_size
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

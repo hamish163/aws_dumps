@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-keys-db-cluster-pg-80.gtid_executed_compression_period
+specifics:
+  AllowedValues: 0-4294967295
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Compress the mysql.gtid_executed table each time this many transactions
+    have taken place
+  IsModifiable: true
+  MinimumEngineVersion: 8.0.mysql_aurora.3.01.0
+  ParameterName: gtid_executed_compression_period
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

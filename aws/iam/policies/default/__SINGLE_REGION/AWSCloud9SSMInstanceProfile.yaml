@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSCloud9SSMInstanceProfile
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSCloud9SSMInstanceProfile
+  AttachmentCount: 0
+  CreateDate: 2020-05-14 11:40:49+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4IQOSNAKW6
+  PolicyName: AWSCloud9SSMInstanceProfile
+  UpdateDate: 2020-05-14 11:40:49+00:00
+...
+

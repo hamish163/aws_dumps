@@ -1,0 +1,29 @@
+---
+datatype: aws.elbv2.target_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-demo-mgmt-api-tg
+specifics:
+  HealthCheckEnabled: true
+  HealthCheckIntervalSeconds: 5
+  HealthCheckPath: /test.html
+  HealthCheckPort: '8080'
+  HealthCheckProtocol: HTTP
+  HealthCheckTimeoutSeconds: 2
+  HealthyThresholdCount: 5
+  IpAddressType: ipv4
+  LoadBalancerArns:
+  - arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:loadbalancer/app/mbx-bnb-uat-demo-mgmt-api-alb/aa3b560c97c99cd8
+  Matcher:
+    HttpCode: '200'
+  Port: 8912
+  Protocol: HTTP
+  ProtocolVersion: HTTP1
+  TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-uat-demo-mgmt-api-tg/968f258bc88ba230
+  TargetGroupName: mbx-bnb-uat-demo-mgmt-api-tg
+  TargetType: instance
+  UnhealthyThresholdCount: 2
+  VpcId: vpc-0b3ce57b4c748893b
+...
+

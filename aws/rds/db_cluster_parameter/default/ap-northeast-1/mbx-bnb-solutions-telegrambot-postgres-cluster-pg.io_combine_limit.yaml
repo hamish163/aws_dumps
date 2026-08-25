@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-solutions-telegrambot-postgres-cluster-pg.io_combine_limit
+specifics:
+  AllowedValues: 1-32
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Limit on the size of data reads and writes in one OS call.
+  IsModifiable: true
+  ParameterName: io_combine_limit
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

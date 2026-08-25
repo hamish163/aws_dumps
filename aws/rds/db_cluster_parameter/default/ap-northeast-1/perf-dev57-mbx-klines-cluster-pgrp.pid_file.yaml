@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev57-mbx-klines-cluster-pgrp.pid_file
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: The path name of the process ID file. This file is used by other programs
+    such as MySQLd_safe to determine the server's process ID.
+  IsModifiable: false
+  ParameterName: pid_file
+  ParameterValue: /rdsdbdata/log/mysql-{EndPointPort}.pid
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

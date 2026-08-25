@@ -1,0 +1,26 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0e860051a2aff9e81
+specifics:
+  Description: mbx-bnb-prod-tracky-default
+  GroupId: sg-0e860051a2aff9e81
+  GroupName: mbx-bnb-prod-tracky-default
+  Tags:
+  - Key: mbx_env_name
+    Value: prod
+  - Key: team
+    Value: sre
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: biz
+    Value: mbx
+  - Key: sre-env
+    Value: prod
+  - Key: Name
+    Value: mbx-bnb-prod-tracky-default
+  VpcId: vpc-03f5d2495fd8d95a3
+...
+

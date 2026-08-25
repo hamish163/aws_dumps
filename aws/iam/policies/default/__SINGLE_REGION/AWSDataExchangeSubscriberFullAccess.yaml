@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSDataExchangeSubscriberFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSDataExchangeSubscriberFullAccess
+  AttachmentCount: 0
+  CreateDate: 2019-11-13 19:27:52+00:00
+  DefaultVersionId: v7
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4MAWRW4GF7
+  PolicyName: AWSDataExchangeSubscriberFullAccess
+  UpdateDate: 2024-05-21 17:36:35+00:00
+...
+

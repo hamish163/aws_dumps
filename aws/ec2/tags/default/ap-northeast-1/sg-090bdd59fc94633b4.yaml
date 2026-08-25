@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-090bdd59fc94633b4
+specifics:
+  Name: eks-cluster-sg-mbx_bnb_prod-comply-cluster-1042475942
+  aws:eks:cluster-name: mbx_bnb_prod-comply-cluster
+  kubernetes.io/cluster/mbx_bnb_prod-comply-cluster: owned
+...
+

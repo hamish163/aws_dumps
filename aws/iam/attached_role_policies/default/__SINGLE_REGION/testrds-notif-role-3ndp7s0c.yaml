@@ -1,0 +1,13 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: testrds-notif-role-3ndp7s0c
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/service-role/AWSLambdaBasicExecutionRole-f92fca11-b270-47b8-afb1-e19492d5e99b
+    PolicyName: AWSLambdaBasicExecutionRole-f92fca11-b270-47b8-afb1-e19492d5e99b
+...
+

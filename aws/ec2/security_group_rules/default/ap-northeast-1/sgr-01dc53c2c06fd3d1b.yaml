@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-01dc53c2c06fd3d1b
+specifics:
+  Description: Allow TCP traffic from ws-api SG to aggtrade-db database
+  FromPort: 3306
+  GroupId: sg-0a69dfaa30be4acaf
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-04564f1782b68c83a
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-01dc53c2c06fd3d1b
+  Tags: []
+  ToPort: 3306
+...
+

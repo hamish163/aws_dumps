@@ -1,0 +1,28 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: MbxChat-Mongo-19FEZSTWMJZQR-AppProfile-Q8TTzXsrDTja
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/MbxChat-Mongo-19FEZSTWMJZQR-AppProfile-Q8TTzXsrDTja
+  CreateDate: 2023-04-19 09:45:15+00:00
+  InstanceProfileId: AIPA4RYUCHN5YGCOC7ISX
+  InstanceProfileName: MbxChat-Mongo-19FEZSTWMJZQR-AppProfile-Q8TTzXsrDTja
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/MbxChat-MongoRole-IRBNOGHHPP5K
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+      Version: '2008-10-17'
+    CreateDate: 2023-04-17 02:07:31+00:00
+    Path: /
+    RoleId: AROA4RYUCHN5566E4COR6
+    RoleName: MbxChat-MongoRole-IRBNOGHHPP5K
+...
+

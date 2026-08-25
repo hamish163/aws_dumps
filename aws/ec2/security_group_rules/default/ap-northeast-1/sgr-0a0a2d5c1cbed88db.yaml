@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0a0a2d5c1cbed88db
+specifics:
+  Description: Allow TCP traffic from wsp-sbe SG on port 8089
+  FromPort: 8089
+  GroupId: sg-0db9d4daca11514b1
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-01a5d8d1a577b6b30
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0a0a2d5c1cbed88db
+  Tags: []
+  ToPort: 8089
+...
+

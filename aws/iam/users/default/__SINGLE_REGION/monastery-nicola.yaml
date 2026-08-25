@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.users
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: monastery-nicola
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/monastery-nicola
+  CreateDate: 2026-08-17 05:39:24+00:00
+  Path: /
+  UserId: AIDA4RYUCHN567QMQWSNJ
+  UserName: monastery-nicola
+...
+

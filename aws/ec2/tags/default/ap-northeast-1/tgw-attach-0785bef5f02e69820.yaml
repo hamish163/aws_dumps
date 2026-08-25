@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: tgw-attach-0785bef5f02e69820
+specifics:
+  Name: SharedServicesVPC Attachment
+...
+

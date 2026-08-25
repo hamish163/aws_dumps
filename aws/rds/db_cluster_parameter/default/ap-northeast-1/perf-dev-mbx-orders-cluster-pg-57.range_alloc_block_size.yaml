@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-orders-cluster-pg-57.range_alloc_block_size
+specifics:
+  AllowedValues: 4096-18446744073709547520
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: The size of blocks that are allocated when doing range optimization.
+  IsModifiable: true
+  ParameterName: range_alloc_block_size
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

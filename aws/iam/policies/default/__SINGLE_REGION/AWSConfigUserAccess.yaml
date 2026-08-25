@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSConfigUserAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSConfigUserAccess
+  AttachmentCount: 0
+  CreateDate: 2015-02-18 19:38:41+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIWTTSFJ7KKJE3MWGA
+  PolicyName: AWSConfigUserAccess
+  UpdateDate: 2019-03-18 20:27:47+00:00
+...
+

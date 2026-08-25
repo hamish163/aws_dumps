@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSPanoramaApplianceServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AWSPanoramaApplianceServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2021-10-20 12:14:03+00:00
+  DefaultVersionId: v5
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4O5K6UVMRK
+  PolicyName: AWSPanoramaApplianceServiceRolePolicy
+  UpdateDate: 2026-02-12 18:02:05+00:00
+...
+

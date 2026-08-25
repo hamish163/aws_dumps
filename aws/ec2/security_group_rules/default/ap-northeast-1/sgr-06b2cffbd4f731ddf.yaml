@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-06b2cffbd4f731ddf
+specifics:
+  CidrIpv4: 10.12.0.0/16
+  Description: Allow access to rundeck from vpn client
+  FromPort: 4440
+  GroupId: sg-077fd433cf98e0038
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-06b2cffbd4f731ddf
+  Tags: []
+  ToPort: 4440
+...
+

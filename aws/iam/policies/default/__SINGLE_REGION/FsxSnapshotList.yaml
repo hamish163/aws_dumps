@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: FsxSnapshotList
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/FsxSnapshotList
+  AttachmentCount: 1
+  CreateDate: 2024-11-07 16:54:32+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN55SDNWFYT5
+  PolicyName: FsxSnapshotList
+  UpdateDate: 2024-11-07 16:54:32+00:00
+...
+

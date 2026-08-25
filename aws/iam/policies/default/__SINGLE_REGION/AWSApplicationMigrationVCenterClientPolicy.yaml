@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSApplicationMigrationVCenterClientPolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSApplicationMigrationVCenterClientPolicy
+  AttachmentCount: 0
+  CreateDate: 2021-11-08 12:53:08+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4EZSWKZUGJ
+  PolicyName: AWSApplicationMigrationVCenterClientPolicy
+  UpdateDate: 2021-11-08 12:53:08+00:00
+...
+

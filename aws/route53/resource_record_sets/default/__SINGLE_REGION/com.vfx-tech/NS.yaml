@@ -1,0 +1,18 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: com.vfx-tech/NS
+  single_region: true
+specifics:
+  Name: vfx-tech.com.
+  ResourceRecords:
+  - Value: ns-144.awsdns-18.com.
+  - Value: ns-1620.awsdns-10.co.uk.
+  - Value: ns-1354.awsdns-41.org.
+  - Value: ns-960.awsdns-56.net.
+  TTL: 172800
+  Type: NS
+...
+

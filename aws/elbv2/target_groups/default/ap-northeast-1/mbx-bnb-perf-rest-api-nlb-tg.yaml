@@ -1,0 +1,28 @@
+---
+datatype: aws.elbv2.target_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-perf-rest-api-nlb-tg
+specifics:
+  HealthCheckEnabled: true
+  HealthCheckIntervalSeconds: 30
+  HealthCheckPath: /
+  HealthCheckPort: traffic-port
+  HealthCheckProtocol: HTTP
+  HealthCheckTimeoutSeconds: 5
+  HealthyThresholdCount: 2
+  IpAddressType: ipv4
+  LoadBalancerArns:
+  - arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:loadbalancer/net/mbx-bnb-perf-rest-api-nlb/1a5ed50100763328
+  Matcher:
+    HttpCode: 200-499
+  Port: 4567
+  Protocol: TCP
+  TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-perf-rest-api-nlb-tg/8d169f44b954200a
+  TargetGroupName: mbx-bnb-perf-rest-api-nlb-tg
+  TargetType: alb
+  UnhealthyThresholdCount: 2
+  VpcId: vpc-013930e589c469574
+...
+

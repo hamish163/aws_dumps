@@ -1,0 +1,14 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-083ba2a073801f823
+specifics:
+  cluster.k8s.amazonaws.com/name: mbx-bnb-solutions-eks1
+  eks:cluster-name: mbx-bnb-solutions-eks1
+  eks:eni:owner: amazon-vpc-cni
+  eks:nodegroup-name: mbx-bnb-solutions-eks1-generic-20260709
+  node.k8s.amazonaws.com/instance_id: i-0256954ae41f6aa3b
+...
+

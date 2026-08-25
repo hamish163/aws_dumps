@@ -1,0 +1,21 @@
+---
+datatype: aws.iam.attached_group_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: qa
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/QaTungstenInvocationPolicy-test1
+    PolicyName: QaTungstenInvocationPolicy-test1
+  - PolicyArn: arn:aws:iam::862793644923:policy/AllowUserManagedOwnAccount
+    PolicyName: AllowUserManagedOwnAccount
+  - PolicyArn: arn:aws:iam::862793644923:policy/mbx_bedrock_keys_individual_list_reset
+    PolicyName: mbx_bedrock_keys_individual_list_reset
+  - PolicyArn: arn:aws:iam::aws:policy/AWSStepFunctionsReadOnlyAccess
+    PolicyName: AWSStepFunctionsReadOnlyAccess
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonBedrockLimitedAccess
+    PolicyName: AmazonBedrockLimitedAccess
+...
+

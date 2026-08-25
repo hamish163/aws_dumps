@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.session_track_state_change
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Whether the server tracks changes to the session state and notifies
+    the client when changes occur.
+  IsModifiable: true
+  ParameterName: session_track_state_change
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

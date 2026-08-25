@@ -1,0 +1,29 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-017c38dc52cabf073
+specifics:
+  CidrIpv4: 172.16.0.0/12
+  Description: Allow access from CIDR blocks
+  FromPort: 443
+  GroupId: sg-06d8aeb750f984392
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-017c38dc52cabf073
+  Tags:
+  - Key: mbx_env_name
+    Value: devops
+  - Key: biz
+    Value: mbx
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  - Key: mbx_secret_store
+    Value: none
+  ToPort: 443
+...
+

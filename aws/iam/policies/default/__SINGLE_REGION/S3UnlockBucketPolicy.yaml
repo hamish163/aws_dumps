@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: S3UnlockBucketPolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/root-task/S3UnlockBucketPolicy
+  AttachmentCount: 0
+  CreateDate: 2024-11-06 21:55:56+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /root-task/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4OALTIPZOF
+  PolicyName: S3UnlockBucketPolicy
+  UpdateDate: 2024-11-06 21:55:56+00:00
+...
+

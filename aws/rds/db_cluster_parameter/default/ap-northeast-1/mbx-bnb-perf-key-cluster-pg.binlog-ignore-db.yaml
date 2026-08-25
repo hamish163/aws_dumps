@@ -1,0 +1,18 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-perf-key-cluster-pg.binlog-ignore-db
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: list
+  Description: Creates a replication ignore filter using the name of a database
+  IsModifiable: true
+  ParameterName: binlog-ignore-db
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,23 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: snap-0dd66d1e9824bfe35
+specifics:
+  biz: mbx
+  git_author: Mike 'Traff' Traffanstead <michael.t@binance.com>
+  git_committer: Mike 'Traff' Traffanstead <michael.t@binance.com>
+  git_hash: 577cf58b9d1065853281318eb1304a7617ec21e0
+  git_message: 'Add python3-dnf-plugin-versionlock
+
+    '
+  git_timestamp: '2024-11-15T05:56:45Z'
+  managed: packer
+  project: mbx
+  role: ami-oci-builder
+  source_al2023_kernel: '6.1'
+  source_al2023_version: 2023.6.20241111.0
+  team: mbx
+...
+

@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql17.pg_bigm.enable_recheck
+specifics:
+  AllowedValues: on,off
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: It specifies whether to perform Recheck which is an internal process
+    of full text search.
+  IsModifiable: true
+  ParameterName: pg_bigm.enable_recheck
+  ParameterValue: 'on'
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

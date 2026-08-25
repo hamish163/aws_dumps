@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: GlobalAcceleratorFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/GlobalAcceleratorFullAccess
+  AttachmentCount: 0
+  CreateDate: 2018-11-27 02:44:44+00:00
+  DefaultVersionId: v6
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJ3NSRQKPB42BCNRT6
+  PolicyName: GlobalAcceleratorFullAccess
+  UpdateDate: 2020-12-04 19:17:26+00:00
+...
+

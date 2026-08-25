@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-spade-account-cluster-pg.innodb_flush_log_at_trx_commit
+specifics:
+  AllowedValues: 0-2
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Determines Innodb transaction durability
+  IsModifiable: true
+  ParameterName: innodb_flush_log_at_trx_commit
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eipalloc-046fe9294b204e1b6
+specifics:
+  Name: tky-slave-17.prod.tracky.mbx
+...
+

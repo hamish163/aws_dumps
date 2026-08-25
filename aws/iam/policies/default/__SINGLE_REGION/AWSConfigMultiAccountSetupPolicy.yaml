@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSConfigMultiAccountSetupPolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AWSConfigMultiAccountSetupPolicy
+  AttachmentCount: 0
+  CreateDate: 2019-06-17 18:03:16+00:00
+  DefaultVersionId: v5
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4L5NAGNGTD
+  PolicyName: AWSConfigMultiAccountSetupPolicy
+  UpdateDate: 2023-02-24 01:39:49+00:00
+...
+

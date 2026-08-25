@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vpce-08cf6135486a1f5ff
+specifics:
+  Name: new-vpn-to-binance-cicd
+...
+

@@ -1,0 +1,28 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: eks-5ccfa48b-ba26-c8ce-a0f6-ee27eae7dd31
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/eks-5ccfa48b-ba26-c8ce-a0f6-ee27eae7dd31
+  CreateDate: 2026-07-09 22:55:07+00:00
+  InstanceProfileId: AIPA4RYUCHN53O6L6RZQU
+  InstanceProfileName: eks-5ccfa48b-ba26-c8ce-a0f6-ee27eae7dd31
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/mbx-bnb-sre-emu-nodegroup
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+      Version: '2012-10-17'
+    CreateDate: 2026-06-08 13:25:53+00:00
+    Path: /
+    RoleId: AROA4RYUCHN5ZRGCZBVSS
+    RoleName: mbx-bnb-sre-emu-nodegroup
+...
+

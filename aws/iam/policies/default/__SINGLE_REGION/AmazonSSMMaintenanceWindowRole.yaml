@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonSSMMaintenanceWindowRole
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AmazonSSMMaintenanceWindowRole
+  AttachmentCount: 0
+  CreateDate: 2016-12-01 15:57:54+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJV3JNYSTZ47VOXYME
+  PolicyName: AmazonSSMMaintenanceWindowRole
+  UpdateDate: 2019-07-27 00:16:05+00:00
+...
+

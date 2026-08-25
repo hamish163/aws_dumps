@@ -1,0 +1,66 @@
+---
+datatype: aws.ec2.network_acls
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: acl-063b4920058ddb2fa
+specifics:
+  Associations:
+  - NetworkAclAssociationId: aclassoc-0c0c04ea92ccec2ef
+    NetworkAclId: acl-063b4920058ddb2fa
+    SubnetId: subnet-0681eb5fe84736c76
+  - NetworkAclAssociationId: aclassoc-0fbb6389af409fcc1
+    NetworkAclId: acl-063b4920058ddb2fa
+    SubnetId: subnet-05b36c9e615f5ae49
+  - NetworkAclAssociationId: aclassoc-06ff138a4c4ebc2d9
+    NetworkAclId: acl-063b4920058ddb2fa
+    SubnetId: subnet-0ee65d490450b10fa
+  - NetworkAclAssociationId: aclassoc-09f34ca2f1b75c512
+    NetworkAclId: acl-063b4920058ddb2fa
+    SubnetId: subnet-015dd32183c44fdca
+  - NetworkAclAssociationId: aclassoc-0eac55cc198cf5bc9
+    NetworkAclId: acl-063b4920058ddb2fa
+    SubnetId: subnet-052e7fa6c92b6078d
+  - NetworkAclAssociationId: aclassoc-0a6090fc0b0ab2bf0
+    NetworkAclId: acl-063b4920058ddb2fa
+    SubnetId: subnet-099bb70a2101e3db2
+  - NetworkAclAssociationId: aclassoc-0e84d78fc8a55fac2
+    NetworkAclId: acl-063b4920058ddb2fa
+    SubnetId: subnet-0ddfbb5b7429f168f
+  - NetworkAclAssociationId: aclassoc-0accb38b651ab1357
+    NetworkAclId: acl-063b4920058ddb2fa
+    SubnetId: subnet-02ee88c43d1408221
+  - NetworkAclAssociationId: aclassoc-02d138084aedcbc50
+    NetworkAclId: acl-063b4920058ddb2fa
+    SubnetId: subnet-0a87608f3f8ca620d
+  - NetworkAclAssociationId: aclassoc-09366f45adaea62a2
+    NetworkAclId: acl-063b4920058ddb2fa
+    SubnetId: subnet-0de7db28255d2a13f
+  Entries:
+  - CidrBlock: 0.0.0.0/0
+    Egress: true
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 100
+  - CidrBlock: 0.0.0.0/0
+    Egress: false
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 100
+  - CidrBlock: 0.0.0.0/0
+    Egress: true
+    Protocol: '-1'
+    RuleAction: deny
+    RuleNumber: 32767
+  - CidrBlock: 0.0.0.0/0
+    Egress: false
+    Protocol: '-1'
+    RuleAction: deny
+    RuleNumber: 32767
+  IsDefault: true
+  NetworkAclId: acl-063b4920058ddb2fa
+  OwnerId: '862793644923'
+  Tags: []
+  VpcId: vpc-0218545ff4351ce04
+...
+

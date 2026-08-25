@@ -1,0 +1,17 @@
+---
+datatype: aws.route53.hosted_zones
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: secfdg.net.
+  single_region: true
+specifics:
+  CallerReference: 01cb6048-a5b5-4459-8845-ef9a11ecd2ea
+  Config:
+    Comment: Hosted Zone for DNS requests from MBX Hub (Client VPN) [not needed anymore]
+    PrivateZone: true
+  Id: /hostedzone/Z03736621TFXDY75ZLB0O
+  Name: secfdg.net.
+  ResourceRecordSetCount: 3
+...
+

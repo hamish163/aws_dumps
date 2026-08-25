@@ -1,0 +1,13 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: ofcBckndMbxVpn
+  single_region: true
+specifics:
+  Name: ofcBckndMbxVpn
+  env: bitdj
+  project: mbx
+...
+

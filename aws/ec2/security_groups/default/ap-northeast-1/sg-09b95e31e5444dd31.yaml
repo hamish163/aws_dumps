@@ -1,0 +1,28 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-09b95e31e5444dd31
+specifics:
+  Description: Managed by Terraform
+  GroupId: sg-09b95e31e5444dd31
+  GroupName: mbx-bnb-uat-balance-cache
+  Tags:
+  - Key: biz
+    Value: mbx
+  - Key: mbx_application_name
+    Value: mbx-data-balance-cache
+  - Key: mbx_env_name
+    Value: uat
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_secret_store
+    Value: asm
+  - Key: Name
+    Value: mbx-bnb-uat-balance-cache
+  - Key: team
+    Value: mbx
+  VpcId: vpc-0b3ce57b4c748893b
+...
+

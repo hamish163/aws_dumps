@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSKeyManagementServicePowerUser
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSKeyManagementServicePowerUser
+  AttachmentCount: 1
+  CreateDate: 2015-02-06 18:40:40+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJNPP7PPPPMJRV2SA4
+  PolicyName: AWSKeyManagementServicePowerUser
+  UpdateDate: 2017-03-07 00:55:11+00:00
+...
+

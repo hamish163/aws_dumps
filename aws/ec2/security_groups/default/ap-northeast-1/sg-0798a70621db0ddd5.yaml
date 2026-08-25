@@ -1,0 +1,13 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0798a70621db0ddd5
+specifics:
+  Description: monitoring_dev_mbx_prometheus
+  GroupId: sg-0798a70621db0ddd5
+  GroupName: monitoring_dev_mbx_prometheus
+  VpcId: vpc-015ad3eb773d46983
+...
+

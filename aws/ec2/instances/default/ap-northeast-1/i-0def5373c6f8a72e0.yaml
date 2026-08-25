@@ -1,0 +1,133 @@
+---
+datatype: aws.ec2.instances
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-0def5373c6f8a72e0
+specifics:
+  AmiLaunchIndex: 0
+  Architecture: x86_64
+  BlockDeviceMappings:
+  - DeviceName: /dev/xvda
+    Ebs:
+      AttachTime: 2021-09-02 06:11:49+00:00
+      DeleteOnTermination: true
+      Status: attached
+      VolumeId: vol-00ffeb11f48091057
+  CapacityReservationSpecification:
+    CapacityReservationPreference: open
+  ClientToken: D4900CE6-FF12-45AF-AA76-997FC244F8FD
+  CpuOptions:
+    CoreCount: 2
+    ThreadsPerCore: 2
+  CurrentInstanceBootMode: legacy-bios
+  EbsOptimized: true
+  EnaSupport: true
+  EnclaveOptions:
+    Enabled: false
+  HibernationOptions:
+    Configured: false
+  Hypervisor: xen
+  IamInstanceProfile:
+    Arn: arn:aws:iam::862793644923:instance-profile/mbx-bnb-testnet-bot
+    Id: AIPA4RYUCHN5UTAARWPTL
+  ImageId: ami-0e3f080552c6f3420
+  InstanceId: i-0def5373c6f8a72e0
+  InstanceType: c6i.xlarge
+  LaunchTime: 2026-05-11 05:21:23+00:00
+  MaintenanceOptions:
+    AutoRecovery: default
+  MetadataOptions:
+    HttpEndpoint: enabled
+    HttpProtocolIpv6: disabled
+    HttpPutResponseHopLimit: 1
+    HttpTokens: optional
+    InstanceMetadataTags: enabled
+    State: applied
+  Monitoring:
+    State: disabled
+  NetworkInterfaces:
+  - Association:
+      IpOwnerId: '862793644923'
+      PublicDnsName: ec2-54-248-212-166.ap-northeast-1.compute.amazonaws.com
+      PublicIp: 54.248.212.166
+    Attachment:
+      AttachTime: 2021-09-02 06:11:47+00:00
+      AttachmentId: eni-attach-029c9b0376e5c7851
+      DeleteOnTermination: true
+      DeviceIndex: 0
+      NetworkCardIndex: 0
+      Status: attached
+    Description: ''
+    Groups:
+    - GroupId: sg-02eba5b6c05b6c44d
+      GroupName: uploader.binance.vision
+    InterfaceType: interface
+    Ipv6Addresses: []
+    MacAddress: 06:54:0c:85:ac:a3
+    NetworkInterfaceId: eni-03a5df06f1687d5af
+    OwnerId: '862793644923'
+    PrivateDnsName: ip-10-0-42-179.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.0.42.179
+    PrivateIpAddresses:
+    - Association:
+        IpOwnerId: '862793644923'
+        PublicDnsName: ec2-54-248-212-166.ap-northeast-1.compute.amazonaws.com
+        PublicIp: 54.248.212.166
+      Primary: true
+      PrivateDnsName: ip-10-0-42-179.ap-northeast-1.compute.internal
+      PrivateIpAddress: 10.0.42.179
+    SourceDestCheck: true
+    Status: in-use
+    SubnetId: subnet-09890e6cff0490c22
+    VpcId: vpc-03543e019e5fc8fbf
+  Placement:
+    AvailabilityZone: ap-northeast-1a
+    GroupName: ''
+    Tenancy: default
+  PlatformDetails: Linux/UNIX
+  PrivateDnsName: ip-10-0-42-179.ap-northeast-1.compute.internal
+  PrivateDnsNameOptions:
+    EnableResourceNameDnsAAAARecord: false
+    EnableResourceNameDnsARecord: false
+    HostnameType: ip-name
+  PrivateIpAddress: 10.0.42.179
+  ProductCodes: []
+  PublicDnsName: ec2-54-248-212-166.ap-northeast-1.compute.amazonaws.com
+  PublicIpAddress: 54.248.212.166
+  RootDeviceName: /dev/xvda
+  RootDeviceType: ebs
+  SecurityGroups:
+  - GroupId: sg-02eba5b6c05b6c44d
+    GroupName: uploader.binance.vision
+  SourceDestCheck: true
+  State:
+    Code: 16
+    Name: running
+  StateTransitionReason: ''
+  SubnetId: subnet-09890e6cff0490c22
+  Tags:
+  - Key: Name
+    Value: bitdj_bnb_testnet_bot1_ec2
+  - Key: biz
+    Value: mbx
+  - Key: env
+    Value: testnet
+  - Key: exchange_id
+    Value: bnb
+  - Key: project
+    Value: testnet_bot
+  - Key: sre-app
+    Value: testnetbot
+  - Key: sre-component
+    Value: testnetbot
+  - Key: sre-env
+    Value: prod
+  - Key: team
+    Value: solutions
+  UsageOperation: RunInstances
+  UsageOperationUpdateTime: 2021-09-02 06:11:47+00:00
+  VirtualizationType: hvm
+  VpcId: vpc-03543e019e5fc8fbf
+...
+

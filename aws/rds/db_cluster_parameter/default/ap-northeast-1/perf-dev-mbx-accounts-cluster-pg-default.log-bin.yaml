@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-accounts-cluster-pg-default.log-bin
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: Controls binary logging.
+  IsModifiable: false
+  ParameterName: log-bin
+  ParameterValue: /rdsdbdata/log/binlog/mysql-bin-changelog
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

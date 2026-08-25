@@ -1,0 +1,16 @@
+---
+datatype: aws.iam.users
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: sergii
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/sergii
+  CreateDate: 2026-06-23 14:12:58+00:00
+  PasswordLastUsed: 2026-08-07 03:03:46+00:00
+  Path: /
+  UserId: AIDA4RYUCHN53RJATK4R6
+  UserName: sergii
+...
+

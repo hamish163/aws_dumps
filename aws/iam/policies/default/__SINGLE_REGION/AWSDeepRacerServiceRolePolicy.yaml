@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSDeepRacerServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AWSDeepRacerServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2019-02-28 21:58:09+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJTUAQLIAVBJ7LZ32S
+  PolicyName: AWSDeepRacerServiceRolePolicy
+  UpdateDate: 2019-06-12 20:55:34+00:00
+...
+

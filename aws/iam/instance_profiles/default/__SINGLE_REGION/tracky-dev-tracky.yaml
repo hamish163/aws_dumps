@@ -1,0 +1,29 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: tracky-dev-tracky
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/tracky-dev-tracky
+  CreateDate: 2022-10-10 08:02:21+00:00
+  InstanceProfileId: AIPA4RYUCHN5YZJ6GFECG
+  InstanceProfileName: tracky-dev-tracky
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/tracky-dev-tracky
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+        Sid: ''
+      Version: '2012-10-17'
+    CreateDate: 2022-10-10 07:57:41+00:00
+    Path: /
+    RoleId: AROA4RYUCHN5YE6C3JHOS
+    RoleName: tracky-dev-tracky
+...
+

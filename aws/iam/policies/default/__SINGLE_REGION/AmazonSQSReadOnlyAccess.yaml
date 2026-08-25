@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonSQSReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonSQSReadOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2015-02-06 18:41:08+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIUGSSQY362XGCM6KW
+  PolicyName: AmazonSQSReadOnlyAccess
+  UpdateDate: 2024-05-24 18:16:44+00:00
+...
+

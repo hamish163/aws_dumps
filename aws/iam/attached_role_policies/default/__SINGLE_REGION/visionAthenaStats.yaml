@@ -1,0 +1,17 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: visionAthenaStats
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/allowExecAthenaQuery
+    PolicyName: allowExecAthenaQuery
+  - PolicyArn: arn:aws:iam::862793644923:policy/allowGetAthenaVisionOutput
+    PolicyName: allowGetAthenaVisionOutput
+  - PolicyArn: arn:aws:iam::862793644923:policy/allowReadAthenaRelatedSecrets
+    PolicyName: allowReadAthenaRelatedSecrets
+...
+

@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-swapchop-cluster-pg.performance_schema_setup_actors_size
+specifics:
+  AllowedValues: 0-1024
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: The number of rows in the setup_actors table.
+  IsModifiable: true
+  ParameterName: performance_schema_setup_actors_size
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

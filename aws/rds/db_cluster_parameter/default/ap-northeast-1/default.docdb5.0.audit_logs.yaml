@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.docdb5.0.audit_logs
+specifics:
+  AllowedValues: enabled,disabled,ddl,dml_read,dml_write,all,none
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: list
+  Description: Enables auditing on cluster.
+  IsModifiable: true
+  MinimumEngineVersion: 5.0.0
+  ParameterName: audit_logs
+  ParameterValue: disabled
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

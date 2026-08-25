@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql11.rds.logically_replicate_unlogged_tables
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: boolean
+  Description: Include unlogged tables in logical replication stream
+  IsModifiable: true
+  MinimumEngineVersion: '11.18'
+  ParameterName: rds.logically_replicate_unlogged_tables
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

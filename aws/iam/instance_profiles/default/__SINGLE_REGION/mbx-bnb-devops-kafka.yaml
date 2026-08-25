@@ -1,0 +1,28 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-devops-kafka
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/mbx-bnb-devops-kafka
+  CreateDate: 2025-07-18 06:49:18+00:00
+  InstanceProfileId: AIPA4RYUCHN57MY7J2DPQ
+  InstanceProfileName: mbx-bnb-devops-kafka
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/mbx-bnb-devops-kafka
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+      Version: '2012-10-17'
+    CreateDate: 2025-07-18 06:49:17+00:00
+    Path: /
+    RoleId: AROA4RYUCHN5ZDE7AIW4R
+    RoleName: mbx-bnb-devops-kafka
+...
+

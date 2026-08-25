@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSMigrationHubSMSAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AWSMigrationHubSMSAccess
+  AttachmentCount: 0
+  CreateDate: 2017-08-14 13:57:54+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIWQYYT6TSVIRJO4TY
+  PolicyName: AWSMigrationHubSMSAccess
+  UpdateDate: 2019-10-07 18:01:22+00:00
+...
+

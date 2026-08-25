@@ -1,0 +1,141 @@
+---
+datatype: aws.ec2.instances
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-003cc8389788dec47
+specifics:
+  AmiLaunchIndex: 0
+  Architecture: arm64
+  BlockDeviceMappings:
+  - DeviceName: /dev/xvda
+    Ebs:
+      AttachTime: 2026-07-13 16:14:52+00:00
+      DeleteOnTermination: true
+      Status: attached
+      VolumeId: vol-01b1739883bc1b2e9
+  - DeviceName: /dev/sdf
+    Ebs:
+      AttachTime: 2026-07-13 16:15:24.240000+00:00
+      DeleteOnTermination: false
+      Status: attached
+      VolumeId: vol-06402b435c08ef74f
+  BootMode: uefi
+  CapacityReservationSpecification:
+    CapacityReservationPreference: open
+  ClientToken: terraform-20260713161450130600000001
+  CpuOptions:
+    CoreCount: 2
+    ThreadsPerCore: 1
+  CurrentInstanceBootMode: uefi
+  EbsOptimized: true
+  EnaSupport: true
+  EnclaveOptions:
+    Enabled: false
+  HibernationOptions:
+    Configured: false
+  Hypervisor: xen
+  IamInstanceProfile:
+    Arn: arn:aws:iam::862793644923:instance-profile/mbx-bnb-perf-key-shovel
+    Id: AIPA4RYUCHN5WIP6UWH3R
+  ImageId: ami-05557db9cca33c6c9
+  InstanceId: i-003cc8389788dec47
+  InstanceType: m8g.large
+  LaunchTime: 2026-08-12 06:18:33+00:00
+  MaintenanceOptions:
+    AutoRecovery: default
+  MetadataOptions:
+    HttpEndpoint: enabled
+    HttpProtocolIpv6: disabled
+    HttpPutResponseHopLimit: 2
+    HttpTokens: required
+    InstanceMetadataTags: enabled
+    State: applied
+  Monitoring:
+    State: disabled
+  NetworkInterfaces:
+  - Attachment:
+      AttachTime: 2026-07-13 16:14:51+00:00
+      AttachmentId: eni-attach-0106bf66461e4b9f5
+      DeleteOnTermination: true
+      DeviceIndex: 0
+      NetworkCardIndex: 0
+      Status: attached
+    Description: ''
+    Groups:
+    - GroupId: sg-0930fe36728a6e31a
+      GroupName: mbx-bnb-perf-monitoring
+    - GroupId: sg-011d3bdd31cc014b3
+      GroupName: mbx-bnb-perf-default
+    - GroupId: sg-03761caf4e31aaf82
+      GroupName: mbx-bnb-perf-key-shovel
+    InterfaceType: interface
+    Ipv6Addresses: []
+    MacAddress: 0a:be:7d:d4:c6:ff
+    NetworkInterfaceId: eni-03ba14bd3ee6f08d6
+    OwnerId: '862793644923'
+    PrivateDnsName: ip-10-170-20-228.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.170.20.228
+    PrivateIpAddresses:
+    - Primary: true
+      PrivateDnsName: ip-10-170-20-228.ap-northeast-1.compute.internal
+      PrivateIpAddress: 10.170.20.228
+    SourceDestCheck: true
+    Status: in-use
+    SubnetId: subnet-0948699b8436c70dc
+    VpcId: vpc-013930e589c469574
+  Placement:
+    AvailabilityZone: ap-northeast-1c
+    GroupId: pg-0d5c6f20059602a71
+    GroupName: mbx-bnb-perf-m8a-1c
+    Tenancy: default
+  PlatformDetails: Linux/UNIX
+  PrivateDnsName: ip-10-170-20-228.ap-northeast-1.compute.internal
+  PrivateDnsNameOptions:
+    EnableResourceNameDnsAAAARecord: false
+    EnableResourceNameDnsARecord: false
+    HostnameType: ip-name
+  PrivateIpAddress: 10.170.20.228
+  ProductCodes: []
+  PublicDnsName: ''
+  RootDeviceName: /dev/xvda
+  RootDeviceType: ebs
+  SecurityGroups:
+  - GroupId: sg-0930fe36728a6e31a
+    GroupName: mbx-bnb-perf-monitoring
+  - GroupId: sg-011d3bdd31cc014b3
+    GroupName: mbx-bnb-perf-default
+  - GroupId: sg-03761caf4e31aaf82
+    GroupName: mbx-bnb-perf-key-shovel
+  SourceDestCheck: true
+  State:
+    Code: 80
+    Name: stopped
+  StateReason:
+    Code: Client.UserInitiatedShutdown
+    Message: 'Client.UserInitiatedShutdown: User initiated shutdown'
+  StateTransitionReason: User initiated (2026-08-12 06:19:48 GMT)
+  SubnetId: subnet-0948699b8436c70dc
+  Tags:
+  - Key: Name
+    Value: mbx-bnb-perf-key-shovel21
+  - Key: biz
+    Value: mbx
+  - Key: mbx_application_name
+    Value: mbx-api-key-shovel
+  - Key: mbx_env_name
+    Value: perf
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_host_index
+    Value: '21'
+  - Key: mbx_secret_store
+    Value: asm
+  - Key: team
+    Value: mbx
+  UsageOperation: RunInstances
+  UsageOperationUpdateTime: 2026-07-13 16:14:51+00:00
+  VirtualizationType: hvm
+  VpcId: vpc-013930e589c469574
+...
+

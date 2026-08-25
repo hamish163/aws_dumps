@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: ComprehendFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/ComprehendFullAccess
+  AttachmentCount: 0
+  CreateDate: 2017-11-29 18:08:43+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAITBM2PMWNG2P7RZEQ
+  PolicyName: ComprehendFullAccess
+  UpdateDate: 2017-12-05 01:36:24+00:00
+...
+

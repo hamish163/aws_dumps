@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AccessAnalyzerServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AccessAnalyzerServiceRolePolicy
+  AttachmentCount: 1
+  CreateDate: 2019-12-02 17:13:10+00:00
+  DefaultVersionId: v23
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4CAIXDDRI2
+  PolicyName: AccessAnalyzerServiceRolePolicy
+  UpdateDate: 2026-02-12 17:59:49+00:00
+...
+

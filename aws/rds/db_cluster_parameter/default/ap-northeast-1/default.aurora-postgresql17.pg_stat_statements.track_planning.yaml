@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql17.pg_stat_statements.track_planning
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Selects whether planning duration is tracked by pg_stat_statements.
+  IsModifiable: true
+  ParameterName: pg_stat_statements.track_planning
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

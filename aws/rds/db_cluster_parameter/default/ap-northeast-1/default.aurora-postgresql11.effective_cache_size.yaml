@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql11.effective_cache_size
+specifics:
+  AllowedValues: 1-2147483647
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: (8kB) Sets the planners assumption about the size of the disk cache.
+  IsModifiable: true
+  ParameterName: effective_cache_size
+  ParameterValue: SUM({DBInstanceClassMemory/12038},-50003)
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

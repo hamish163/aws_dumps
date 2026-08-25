@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql16.restart_after_crash
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Reinitialize server after backend crash.
+  IsModifiable: false
+  ParameterName: restart_after_crash
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

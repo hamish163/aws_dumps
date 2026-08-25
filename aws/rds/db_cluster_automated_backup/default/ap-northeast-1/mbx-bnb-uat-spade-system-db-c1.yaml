@@ -1,0 +1,33 @@
+---
+datatype: aws.rds.db_cluster_automated_backup
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-spade-system-db-c1
+specifics:
+  AllocatedStorage: 1
+  AvailabilityZones:
+  - ap-northeast-1c
+  - ap-northeast-1d
+  - ap-northeast-1a
+  BackupRetentionPeriod: 7
+  ClusterCreateTime: 2024-10-23 04:51:47+00:00
+  DBClusterArn: arn:aws:rds:ap-northeast-1:862793644923:cluster:mbx-bnb-uat-spade-system-db-c1
+  DBClusterAutomatedBackupsArn: arn:aws:rds:ap-northeast-1:862793644923:cluster-auto-backup:cab-qchnsvucvi2ocahzavk5svraxyhfpd6ufcpnl5a
+  DBClusterIdentifier: mbx-bnb-uat-spade-system-db-c1
+  DbClusterResourceId: cluster-QCHNSVUCVI2OCAHZAVK5SVRAXY
+  Engine: aurora-mysql
+  EngineMode: provisioned
+  EngineVersion: 8.0.mysql_aurora.3.04.3
+  IAMDatabaseAuthenticationEnabled: false
+  KmsKeyId: arn:aws:kms:ap-northeast-1:862793644923:key/4d70afbb-e9b9-4bb7-83f2-8de31f8a5460
+  MasterUsername: mbxprd
+  Port: 3306
+  Region: apne-1
+  RestoreWindow:
+    EarliestTime: 2026-08-17 13:20:12.163000+00:00
+    LatestTime: 2026-08-25 01:29:34.529000+00:00
+  Status: active
+  StorageEncrypted: true
+...
+

@@ -1,0 +1,47 @@
+---
+datatype: aws.iam.groups_for_user
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: tomas
+  single_region: true
+specifics:
+  Groups:
+  - Arn: arn:aws:iam::862793644923:group/mbx_bedrock
+    CreateDate: 2026-04-03 13:30:18+00:00
+    GroupId: AGPA4RYUCHN5RHTPHOYU3
+    GroupName: mbx_bedrock
+    Path: /
+  - Arn: arn:aws:iam::862793644923:group/DEVOPS_TEAM_INFRA_MGMT
+    CreateDate: 2022-02-07 09:27:04+00:00
+    GroupId: AGPA4RYUCHN5T5GIXNQ5W
+    GroupName: DEVOPS_TEAM_INFRA_MGMT
+    Path: /
+  - Arn: arn:aws:iam::862793644923:group/DEVOPS_TEAM_RO
+    CreateDate: 2022-02-02 05:26:12+00:00
+    GroupId: AGPA4RYUCHN5UMZLRU6XR
+    GroupName: DEVOPS_TEAM_RO
+    Path: /
+  - Arn: arn:aws:iam::862793644923:group/DEVOPS_TEAM_IAM_MGMT
+    CreateDate: 2022-04-15 06:30:09+00:00
+    GroupId: AGPA4RYUCHN5VFEIM753B
+    GroupName: DEVOPS_TEAM_IAM_MGMT
+    Path: /
+  - Arn: arn:aws:iam::862793644923:group/DEVOPS_TEAM
+    CreateDate: 2022-02-02 05:26:20+00:00
+    GroupId: AGPA4RYUCHN5YCYVMS6QV
+    GroupName: DEVOPS_TEAM
+    Path: /
+  - Arn: arn:aws:iam::862793644923:group/devops
+    CreateDate: 2019-08-15 07:56:30+00:00
+    GroupId: AGPA4RYUCHN5ZJ3QIHSTJ
+    GroupName: devops
+    Path: /
+  - Arn: arn:aws:iam::862793644923:group/MBX_EVERYONE_TEAM
+    CreateDate: 2022-02-04 07:02:58+00:00
+    GroupId: AGPA4RYUCHN5ZJC7Z4HBB
+    GroupName: MBX_EVERYONE_TEAM
+    Path: /
+  _UserName: tomas
+...
+

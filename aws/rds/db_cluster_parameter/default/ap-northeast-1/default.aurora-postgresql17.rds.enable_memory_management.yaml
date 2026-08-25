@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql17.rds.enable_memory_management
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Enable or disable aurora improved memory management feature.
+  IsModifiable: true
+  ParameterName: rds.enable_memory_management
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,13 @@
+---
+datatype: aws.rds.db_cluster_parameter_group
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql16
+specifics:
+  DBClusterParameterGroupArn: arn:aws:rds:ap-northeast-1:862793644923:cluster-pg:default.aurora-postgresql16
+  DBClusterParameterGroupName: default.aurora-postgresql16
+  DBParameterGroupFamily: aurora-postgresql16
+  Description: Default cluster parameter group for aurora-postgresql16
+...
+

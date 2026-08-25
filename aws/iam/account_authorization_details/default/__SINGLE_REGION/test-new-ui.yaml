@@ -1,0 +1,18 @@
+---
+datatype: aws.iam.account_authorization_details
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: test-new-ui
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/test-new-ui
+  AttachedManagedPolicies: []
+  CreateDate: 2023-03-28 05:28:04+00:00
+  GroupList: []
+  Path: /
+  Tags: []
+  UserId: AIDA4RYUCHN534GR2ZWX5
+  UserName: test-new-ui
+...
+

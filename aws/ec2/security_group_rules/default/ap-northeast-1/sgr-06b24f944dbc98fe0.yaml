@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-06b24f944dbc98fe0
+specifics:
+  CidrIpv4: 10.12.0.0/16
+  Description: From MBX Client VPN
+  FromPort: 8912
+  GroupId: sg-040d9ce0bd21f7ff4
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-06b24f944dbc98fe0
+  Tags: []
+  ToPort: 8912
+...
+

@@ -1,0 +1,14 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: igw-0d5e71883599f9287
+specifics:
+  Name: mbx-tools-prod-igw1
+  biz: mbx
+  mbx_env_name: prod
+  mbx_exchange_name: tools
+  team: mbx
+...
+

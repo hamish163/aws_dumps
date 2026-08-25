@@ -1,0 +1,30 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0a69dfaa30be4acaf
+specifics:
+  Description: Security group for account rds
+  GroupId: sg-0a69dfaa30be4acaf
+  GroupName: mbx-bnb-uat-aggtrade-db
+  Tags:
+  - Key: Name
+    Value: mbx-bnb-uat-aggtrade-db
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  - Key: mbx_secret_store
+    Value: asm
+  - Key: mbx_env_type
+    Value: multi-node
+  - Key: mbx_clustered_application
+    Value: 'false'
+  - Key: mbx_env_name
+    Value: uat
+  VpcId: vpc-0b3ce57b4c748893b
+...
+

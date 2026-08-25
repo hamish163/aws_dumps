@@ -1,0 +1,20 @@
+---
+datatype: aws.autoscaling.auto_scaling_instances
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-01e2da680c890ae46
+specifics:
+  AutoScalingGroupName: eks-mbx_bnb_prod-comply-ng-24cb8bb5-0375-3504-63c4-40b89895412e
+  AvailabilityZone: ap-northeast-1a
+  HealthStatus: HEALTHY
+  InstanceId: i-01e2da680c890ae46
+  InstanceType: c6i.2xlarge
+  LaunchTemplate:
+    LaunchTemplateId: lt-06bc7d9f4730d5364
+    LaunchTemplateName: eks-24cb8bb5-0375-3504-63c4-40b89895412e
+    Version: '5'
+  LifecycleState: InService
+  ProtectedFromScaleIn: false
+...
+

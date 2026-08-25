@@ -1,0 +1,15 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx.bnb.devops.aws-ops1/A
+  single_region: true
+specifics:
+  Name: aws-ops1.devops.bnb.mbx.
+  ResourceRecords:
+  - Value: 10.139.13.169
+  TTL: 3600
+  Type: A
+...
+

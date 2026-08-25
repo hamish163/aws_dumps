@@ -1,0 +1,17 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-091fe51b447315f39
+specifics:
+  Name: mbx-bnb-uat-kline-persist1
+  biz: mbx
+  mbx_application_name: mbx-data-kline
+  mbx_env_name: uat
+  mbx_exchange_name: bnb
+  mbx_host_index: '1'
+  mbx_secret_store: asm
+  team: mbx
+...
+

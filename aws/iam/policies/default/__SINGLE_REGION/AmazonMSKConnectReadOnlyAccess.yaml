@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonMSKConnectReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonMSKConnectReadOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2021-09-20 10:18:43+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4NBJ5F5NIS
+  PolicyName: AmazonMSKConnectReadOnlyAccess
+  UpdateDate: 2021-10-18 09:16:26+00:00
+...
+

@@ -1,0 +1,18 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.ssl_cert
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: ' '
+  IsModifiable: false
+  ParameterName: ssl_cert
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

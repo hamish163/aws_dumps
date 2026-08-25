@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql11.listen_addresses
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: Sets the host name or IP address(es) to listen to.
+  IsModifiable: false
+  ParameterName: listen_addresses
+  ParameterValue: '*'
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

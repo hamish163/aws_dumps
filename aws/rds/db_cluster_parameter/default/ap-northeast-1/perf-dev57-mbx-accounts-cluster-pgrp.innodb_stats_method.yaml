@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev57-mbx-accounts-cluster-pgrp.innodb_stats_method
+specifics:
+  AllowedValues: nulls_equal,nulls_unequal,nulls_ignored
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: How the server treats NULL values when collecting statistics about
+    the distribution of index values for InnoDB tables.
+  IsModifiable: true
+  ParameterName: innodb_stats_method
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

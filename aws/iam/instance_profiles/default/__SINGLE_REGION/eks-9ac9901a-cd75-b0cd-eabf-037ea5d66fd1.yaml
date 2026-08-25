@@ -1,0 +1,28 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: eks-9ac9901a-cd75-b0cd-eabf-037ea5d66fd1
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/eks-9ac9901a-cd75-b0cd-eabf-037ea5d66fd1
+  CreateDate: 2024-11-12 11:50:09+00:00
+  InstanceProfileId: AIPA4RYUCHN5WXL6MOJSV
+  InstanceProfileName: eks-9ac9901a-cd75-b0cd-eabf-037ea5d66fd1
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/mbx-bnb-devops.jenkins_eks.nodegroup
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+      Version: '2012-10-17'
+    CreateDate: 2024-10-15 13:11:46+00:00
+    Path: /
+    RoleId: AROA4RYUCHN566RGL6YDY
+    RoleName: mbx-bnb-devops.jenkins_eks.nodegroup
+...
+

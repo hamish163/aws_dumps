@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSFMMemberReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSFMMemberReadOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2018-05-09 21:05:29+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIB2IVAQ4XXNHHA3DW
+  PolicyName: AWSFMMemberReadOnlyAccess
+  UpdateDate: 2018-05-09 21:05:29+00:00
+...
+

@@ -1,0 +1,19 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: spooky-twilio-sms-webhook-dev
+  single_region: true
+specifics:
+  biz: mbx
+  env: dev
+  exchange_id: tracky
+  project: spooky
+  role: spooky
+  sre-app: spooky
+  sre-component: spooky
+  sre-env: staging
+  team: sre
+...
+

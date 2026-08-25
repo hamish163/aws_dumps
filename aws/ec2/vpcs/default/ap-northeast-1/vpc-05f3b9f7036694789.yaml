@@ -1,0 +1,30 @@
+---
+datatype: aws.ec2.vpcs
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vpc-05f3b9f7036694789
+specifics:
+  CidrBlock: 10.11.0.0/16
+  CidrBlockAssociationSet:
+  - AssociationId: vpc-cidr-assoc-092728cbce979115d
+    CidrBlock: 10.11.0.0/16
+    CidrBlockState:
+      State: associated
+  DhcpOptionsId: dopt-6f8f960d
+  InstanceTenancy: default
+  IsDefault: false
+  OwnerId: '862793644923'
+  State: available
+  Tags:
+  - Key: aws:cloudformation:stack-name
+    Value: BitdjNetwork-SharedServicesVPC-13KWU8EL2JJT0
+  - Key: aws:cloudformation:stack-id
+    Value: arn:aws:cloudformation:ap-northeast-1:862793644923:stack/BitdjNetwork-SharedServicesVPC-13KWU8EL2JJT0/850b36f0-abad-11ed-b16a-0eadc952e02f
+  - Key: Name
+    Value: SharedServicesVPC Attachment VPC
+  - Key: aws:cloudformation:logical-id
+    Value: VPC
+  VpcId: vpc-05f3b9f7036694789
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonSQSFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonSQSFullAccess
+  AttachmentCount: 0
+  CreateDate: 2015-02-06 18:41:07+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAI65L554VRJ33ECQS6
+  PolicyName: AmazonSQSFullAccess
+  UpdateDate: 2015-02-06 18:41:07+00:00
+...
+

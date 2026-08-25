@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-aggtrades-cluster-pg.performance_schema_hosts_size
+specifics:
+  AllowedValues: -1-1048576
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: The number of rows in the hosts table
+  IsModifiable: true
+  ParameterName: performance_schema_hosts_size
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

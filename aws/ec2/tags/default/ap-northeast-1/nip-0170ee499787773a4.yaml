@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: nip-0170ee499787773a4
+specifics:
+  Name: non-prod-gateway-to-usa-dev-box
+...
+

@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0d49f55f6593c540b
+specifics:
+  Description: Security group for Kubernetes ELB a05ac94a35eda11eaa66906f49884541
+    (nginx-ingress/nginx-ingress-controller)
+  GroupId: sg-0d49f55f6593c540b
+  GroupName: k8s-elb-a05ac94a35eda11eaa66906f49884541
+  Tags:
+  - Key: kubernetes.io/cluster/ap2.bitdj.com
+    Value: owned
+  - Key: KubernetesCluster
+    Value: ap2.bitdj.com
+  VpcId: vpc-07652e77a8fa0e0c2
+...
+

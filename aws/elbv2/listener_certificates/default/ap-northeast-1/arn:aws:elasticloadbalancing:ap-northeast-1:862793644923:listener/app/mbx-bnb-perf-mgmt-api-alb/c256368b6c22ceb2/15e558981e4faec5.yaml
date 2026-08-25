@@ -1,0 +1,9 @@
+---
+datatype: aws.elbv2.listener_certificates
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener/app/mbx-bnb-perf-mgmt-api-alb/c256368b6c22ceb2/15e558981e4faec5
+specifics: []
+...
+

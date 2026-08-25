@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSSupportPlansFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSSupportPlansFullAccess
+  AttachmentCount: 0
+  CreateDate: 2022-09-27 18:19:30+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4K42KXJODL
+  PolicyName: AWSSupportPlansFullAccess
+  UpdateDate: 2026-08-24 18:27:14+00:00
+...
+

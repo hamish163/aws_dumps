@@ -1,0 +1,13 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-dev-es-logs-transformer-role-7nofcpk6
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/service-role/AWSLambdaBasicExecutionRole-0cdaeaa9-a887-436b-96b6-a82365c823f8
+    PolicyName: AWSLambdaBasicExecutionRole-0cdaeaa9-a887-436b-96b6-a82365c823f8
+...
+

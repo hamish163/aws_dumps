@@ -1,0 +1,26 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: snap-0d970e09fd1d8cbac
+specifics:
+  biz: mbx
+  git_author: Nicola Feltrin <190716056+nicola-feltrin@users.noreply.github.com>
+  git_branch: redmine-19095-support-us-ami
+  git_committer: Nicola Feltrin <190716056+nicola-feltrin@users.noreply.github.com>
+  git_hash: 43c0a46da9794bc84ed28cc24cf006499fbc4568
+  git_message: '[mbx2023] ensure test report folder exists
+
+    '
+  git_timestamp: '2026-05-11T05:46:11Z'
+  managed: packer
+  project: mbx
+  role: ami-oci-builder
+  source_al2023_kernel: '6.1'
+  source_al2023_version: 2023.11.20260509.0
+  source_ami_id: ami-07621c02a68b9bb64
+  source_ami_name: al2023-ami-minimal-2023.11.20260509.0-kernel-6.1-x86_64
+  team: mbx
+...
+

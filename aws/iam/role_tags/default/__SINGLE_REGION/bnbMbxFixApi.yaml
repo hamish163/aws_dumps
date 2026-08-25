@@ -1,0 +1,22 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: bnbMbxFixApi
+  single_region: true
+specifics:
+  Name: bnbMbxFixApi
+  biz: mbx
+  env: perf
+  exchange_id: bnb
+  mbx_application_name: mbx-api-fix
+  mbx_clustered_application: 'true'
+  mbx_env_name: perf
+  mbx_env_type: multi-node
+  mbx_exchange_name: bnb
+  mbx_secret_store: asm
+  project: mbx
+  team: mbx
+...
+

@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.key_pairs
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: key-05892e38a03b8a5e5
+specifics:
+  CreateTime: 2016-05-24 03:34:22+00:00
+  KeyFingerprint: 4d:18:bd:3a:35:eb:d2:3a:55:5e:81:0a:97:b7:18:b2:03:43:2c:f0
+  KeyName: paybox
+  KeyPairId: key-05892e38a03b8a5e5
+  KeyType: rsa
+  Tags: []
+...
+

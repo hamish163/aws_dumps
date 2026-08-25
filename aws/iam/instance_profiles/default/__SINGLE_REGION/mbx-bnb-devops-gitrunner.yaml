@@ -1,0 +1,28 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-devops-gitrunner
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/mbx-bnb-devops-gitrunner
+  CreateDate: 2026-01-19 14:35:25+00:00
+  InstanceProfileId: AIPA4RYUCHN5ZDYSFHPMS
+  InstanceProfileName: mbx-bnb-devops-gitrunner
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/mbx-bnb-devops-gitrunner
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+      Version: '2012-10-17'
+    CreateDate: 2026-01-19 14:35:24+00:00
+    Path: /
+    RoleId: AROA4RYUCHN5YJD52MJUM
+    RoleName: mbx-bnb-devops-gitrunner
+...
+

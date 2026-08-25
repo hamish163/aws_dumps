@@ -1,0 +1,129 @@
+---
+datatype: aws.ec2.instances
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-08670ef95bb51120d
+specifics:
+  AmiLaunchIndex: 0
+  Architecture: arm64
+  BlockDeviceMappings:
+  - DeviceName: /dev/xvda
+    Ebs:
+      AttachTime: 2026-06-24 06:01:08+00:00
+      DeleteOnTermination: true
+      Status: attached
+      VolumeId: vol-0264816d4fa308d5a
+  BootMode: uefi
+  CapacityReservationSpecification:
+    CapacityReservationPreference: open
+  ClientToken: terraform-20260624060104297700000001
+  CpuOptions:
+    CoreCount: 2
+    ThreadsPerCore: 1
+  CurrentInstanceBootMode: uefi
+  EbsOptimized: true
+  EnaSupport: true
+  EnclaveOptions:
+    Enabled: false
+  HibernationOptions:
+    Configured: false
+  Hypervisor: xen
+  IamInstanceProfile:
+    Arn: arn:aws:iam::862793644923:instance-profile/mbx-bnb-demo-gw-bastion
+    Id: AIPA4RYUCHN5YUDCUKG54
+  ImageId: ami-05557db9cca33c6c9
+  InstanceId: i-08670ef95bb51120d
+  InstanceType: t4g.medium
+  LaunchTime: 2026-06-24 06:01:07+00:00
+  MaintenanceOptions:
+    AutoRecovery: default
+  MetadataOptions:
+    HttpEndpoint: enabled
+    HttpProtocolIpv6: disabled
+    HttpPutResponseHopLimit: 2
+    HttpTokens: required
+    InstanceMetadataTags: enabled
+    State: applied
+  Monitoring:
+    State: disabled
+  NetworkInterfaces:
+  - Attachment:
+      AttachTime: 2026-06-24 06:01:07+00:00
+      AttachmentId: eni-attach-0867667ac147eecbf
+      DeleteOnTermination: true
+      DeviceIndex: 0
+      NetworkCardIndex: 0
+      Status: attached
+    Description: ''
+    Groups:
+    - GroupId: sg-0350c48ee8b326c74
+      GroupName: mbx-bnb-demo-gw-bastion
+    - GroupId: sg-0d1568bd376659065
+      GroupName: mbx-bnb-demo-gw-default
+    - GroupId: sg-09b190595f5212cae
+      GroupName: mbx-bnb-demo-gw-monitoring
+    InterfaceType: interface
+    Ipv6Addresses: []
+    MacAddress: 06:5e:fc:ce:3b:51
+    NetworkInterfaceId: eni-0312469f1905bf8e8
+    OwnerId: '862793644923'
+    PrivateDnsName: ip-10-250-0-28.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.250.0.28
+    PrivateIpAddresses:
+    - Primary: true
+      PrivateDnsName: ip-10-250-0-28.ap-northeast-1.compute.internal
+      PrivateIpAddress: 10.250.0.28
+    SourceDestCheck: true
+    Status: in-use
+    SubnetId: subnet-07914c0fde3bec5f6
+    VpcId: vpc-02b8e59b778077bf9
+  Placement:
+    AvailabilityZone: ap-northeast-1a
+    GroupName: ''
+    Tenancy: default
+  PlatformDetails: Linux/UNIX
+  PrivateDnsName: ip-10-250-0-28.ap-northeast-1.compute.internal
+  PrivateDnsNameOptions:
+    EnableResourceNameDnsAAAARecord: false
+    EnableResourceNameDnsARecord: false
+    HostnameType: ip-name
+  PrivateIpAddress: 10.250.0.28
+  ProductCodes: []
+  PublicDnsName: ''
+  RootDeviceName: /dev/xvda
+  RootDeviceType: ebs
+  SecurityGroups:
+  - GroupId: sg-0350c48ee8b326c74
+    GroupName: mbx-bnb-demo-gw-bastion
+  - GroupId: sg-0d1568bd376659065
+    GroupName: mbx-bnb-demo-gw-default
+  - GroupId: sg-09b190595f5212cae
+    GroupName: mbx-bnb-demo-gw-monitoring
+  SourceDestCheck: true
+  State:
+    Code: 16
+    Name: running
+  StateTransitionReason: ''
+  SubnetId: subnet-07914c0fde3bec5f6
+  Tags:
+  - Key: Name
+    Value: mbx-bnb-demo-gw-bastion2
+  - Key: biz
+    Value: mbx
+  - Key: mbx_application_name
+    Value: bastion
+  - Key: mbx_env_name
+    Value: demo-gw
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_host_index
+    Value: '2'
+  - Key: team
+    Value: mbx
+  UsageOperation: RunInstances
+  UsageOperationUpdateTime: 2026-06-24 06:01:07+00:00
+  VirtualizationType: hvm
+  VpcId: vpc-02b8e59b778077bf9
+...
+

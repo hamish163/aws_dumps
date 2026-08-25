@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.key_pairs
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: key-060c6520ab6834e1d
+specifics:
+  CreateTime: 2015-08-09 22:11:33+00:00
+  KeyFingerprint: bb:20:cd:2c:c8:f2:59:07:4b:c6:65:0b:85:5b:2a:03:68:cf:44:0b
+  KeyName: matchbox-test
+  KeyPairId: key-060c6520ab6834e1d
+  KeyType: rsa
+  Tags: []
+...
+

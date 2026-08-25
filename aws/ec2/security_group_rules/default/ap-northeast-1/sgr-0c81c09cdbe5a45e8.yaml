@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0c81c09cdbe5a45e8
+specifics:
+  CidrIpv4: 10.12.0.0/24
+  Description: From MBX client vpn tokyo
+  FromPort: 6379
+  GroupId: sg-0a401557b6331c179
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-0c81c09cdbe5a45e8
+  Tags: []
+  ToPort: 6379
+...
+

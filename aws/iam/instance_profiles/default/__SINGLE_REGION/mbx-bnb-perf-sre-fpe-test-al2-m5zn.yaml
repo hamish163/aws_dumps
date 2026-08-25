@@ -1,0 +1,28 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-perf-sre-fpe-test-al2-m5zn
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/mbx-bnb-perf-sre-fpe-test-al2-m5zn
+  CreateDate: 2025-03-03 23:05:42+00:00
+  InstanceProfileId: AIPA4RYUCHN5VPGZLRNPC
+  InstanceProfileName: mbx-bnb-perf-sre-fpe-test-al2-m5zn
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/mbx-bnb-perf-sre-fpe-test-al2-m5zn
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+      Version: '2012-10-17'
+    CreateDate: 2025-03-03 23:05:41+00:00
+    Path: /
+    RoleId: AROA4RYUCHN53C4GKT7HN
+    RoleName: mbx-bnb-perf-sre-fpe-test-al2-m5zn
+...
+

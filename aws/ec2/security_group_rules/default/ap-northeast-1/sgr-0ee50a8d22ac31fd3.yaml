@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0ee50a8d22ac31fd3
+specifics:
+  Description: Allow TCP traffic from blaster-engine-directed SG on port 5480-5499
+  FromPort: 5480
+  GroupId: sg-06c281771de8863c5
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0ccc4162a5b581c8c
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0ee50a8d22ac31fd3
+  Tags: []
+  ToPort: 5499
+...
+

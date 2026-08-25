@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0167e4ab552bd318e
+specifics:
+  Description: Allow TCP traffic from key-shovel SG on port 9090
+  FromPort: 9090
+  GroupId: sg-030abd5aa8d5b0a53
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-03761caf4e31aaf82
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0167e4ab552bd318e
+  Tags: []
+  ToPort: 9090
+...
+

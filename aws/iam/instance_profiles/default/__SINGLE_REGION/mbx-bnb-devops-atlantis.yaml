@@ -1,0 +1,28 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-devops-atlantis
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/mbx-bnb-devops-atlantis
+  CreateDate: 2025-11-07 10:16:49+00:00
+  InstanceProfileId: AIPA4RYUCHN577OQV5BQF
+  InstanceProfileName: mbx-bnb-devops-atlantis
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/mbx-bnb-devops-atlantis
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+      Version: '2012-10-17'
+    CreateDate: 2025-11-07 10:16:48+00:00
+    Path: /
+    RoleId: AROA4RYUCHN54RXR2ISHB
+    RoleName: mbx-bnb-devops-atlantis
+...
+

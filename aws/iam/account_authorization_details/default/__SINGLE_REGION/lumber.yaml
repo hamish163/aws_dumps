@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.account_authorization_details
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: lumber
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/lumber
+  AttachedManagedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/lumber-in-put
+    PolicyName: lumber-in-put
+  CreateDate: 2018-06-13 02:16:37+00:00
+  GroupList: []
+  Path: /
+  Tags: []
+  UserId: AIDAJLZ2DR56LZ2AJMWBA
+  UserName: lumber
+...
+

@@ -1,0 +1,40 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-0a15cb5df1aedceef
+specifics:
+  Attachment:
+    AttachTime: 2026-02-03 12:32:53+00:00
+    AttachmentId: eni-attach-0e40daf3df2059024
+    DeleteOnTermination: false
+    DeviceIndex: 1
+    InstanceOwnerId: amazon-elasticache
+    NetworkCardIndex: 0
+    Status: attached
+  AvailabilityZone: ap-northeast-1a
+  Description: ElastiCache mbx-bnb-devops-mcp-server-dev-001
+  Groups:
+  - GroupId: sg-0d6c7a8742aadbf73
+    GroupName: mbx-bnb-devops-mcp-server-dev-valkey
+  InterfaceType: interface
+  Ipv6Addresses: []
+  MacAddress: 06:e5:4f:01:79:81
+  NetworkInterfaceId: eni-0a15cb5df1aedceef
+  OwnerId: '862793644923'
+  PrivateDnsName: ip-10-200-19-150.ap-northeast-1.compute.internal
+  PrivateIpAddress: 10.200.19.150
+  PrivateIpAddresses:
+  - Primary: true
+    PrivateDnsName: ip-10-200-19-150.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.200.19.150
+  RequesterId: amazon-elasticache
+  RequesterManaged: true
+  SourceDestCheck: true
+  Status: in-use
+  SubnetId: subnet-0c188e95cfba03f63
+  TagSet: []
+  VpcId: vpc-07519eb63f1d932ac
+...
+

@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-01c60efaeab4de14e
+specifics:
+  CidrIpv4: 18.162.231.39/32
+  Description: HTTPS from GlobalProtect VPN egress nodes
+  FromPort: 443
+  GroupId: sg-068955c74f5738551
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-01c60efaeab4de14e
+  Tags: []
+  ToPort: 443
+...
+

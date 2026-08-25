@@ -1,0 +1,18 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-devops-salt-cluster-pg.debug_io_direct
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: Use direct I/O for file access.
+  IsModifiable: false
+  ParameterName: debug_io_direct
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

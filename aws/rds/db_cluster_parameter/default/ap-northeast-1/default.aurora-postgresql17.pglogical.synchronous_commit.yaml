@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql17.pglogical.synchronous_commit
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: boolean
+  Description: pglogical specific synchronous commit value
+  IsModifiable: true
+  ParameterName: pglogical.synchronous_commit
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

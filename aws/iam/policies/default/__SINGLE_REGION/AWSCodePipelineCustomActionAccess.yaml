@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSCodePipelineCustomActionAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSCodePipelineCustomActionAccess
+  AttachmentCount: 0
+  CreateDate: 2015-07-09 17:02:54+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJFW5Z32BTVF76VCYC
+  PolicyName: AWSCodePipelineCustomActionAccess
+  UpdateDate: 2015-07-09 17:02:54+00:00
+...
+

@@ -1,0 +1,23 @@
+---
+datatype: aws.iam.mfa_devices
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: michael
+  single_region: true
+specifics:
+  MFADevices:
+  - EnableDate: 2024-09-20 03:26:01+00:00
+    SerialNumber: arn:aws:iam::862793644923:u2f/user/michael/keepassxc_passkey-IAKT63DP55AXXLHBXJ4ETYSOO4
+    UserName: michael
+  - EnableDate: 2023-11-08 08:06:33+00:00
+    SerialNumber: arn:aws:iam::862793644923:u2f/user/michael/michael_yubikey-OGKVBBLOCZENHDQKN2I2NT2MZU
+    UserName: michael
+  - EnableDate: 2024-04-09 09:15:32+00:00
+    SerialNumber: arn:aws:iam::862793644923:u2f/user/michael/michael_yubikey-ZG5VKM2IGJH7DIU2AQANPXASUI
+    UserName: michael
+  - EnableDate: 2024-06-03 10:18:54+00:00
+    SerialNumber: arn:aws:iam::862793644923:u2f/user/michael/yubikey_5A-T77TAU4HBNGNPAJ3H7EVEVXXP4
+    UserName: michael
+...
+

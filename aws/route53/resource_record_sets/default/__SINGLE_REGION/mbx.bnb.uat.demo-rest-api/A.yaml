@@ -1,0 +1,16 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx.bnb.uat.demo-rest-api/A
+  single_region: true
+specifics:
+  AliasTarget:
+    DNSName: internal-mbx-bnb-uat-demo-rest-api-alb-1382235784.ap-northeast-1.elb.amazonaws.com.
+    EvaluateTargetHealth: true
+    HostedZoneId: Z14GRHDCWA56QT
+  Name: demo-rest-api.uat.bnb.mbx.
+  Type: A
+...
+

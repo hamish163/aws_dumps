@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-08a9bc5c5fe3ed3bb
+specifics:
+  CidrIpv4: 10.210.16.0/20
+  Description: Added manually - not in TF - Allow minions in tools/dev VPC
+  FromPort: 4505
+  GroupId: sg-03481e07085f86732
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-08a9bc5c5fe3ed3bb
+  Tags: []
+  ToPort: 4506
+...
+

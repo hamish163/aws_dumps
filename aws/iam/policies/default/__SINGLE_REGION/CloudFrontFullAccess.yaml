@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: CloudFrontFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/CloudFrontFullAccess
+  AttachmentCount: 1
+  CreateDate: 2015-02-06 18:39:50+00:00
+  DefaultVersionId: v15
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIPRV52SH6HDCCFY6U
+  PolicyName: CloudFrontFullAccess
+  UpdateDate: 2026-07-30 16:42:27+00:00
+...
+

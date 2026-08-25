@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: pcx-008dbf2edf5feac9d
+specifics:
+  Name: tf_usa_qa_vpc_to_saltmaster-vpc
+...
+

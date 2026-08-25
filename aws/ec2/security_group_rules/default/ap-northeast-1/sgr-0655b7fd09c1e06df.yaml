@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0655b7fd09c1e06df
+specifics:
+  Description: Allow TCP traffic from fix-api-orderentry SG to Memcache
+  FromPort: 11211
+  GroupId: sg-063867aea1346f589
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-083fbc41f8436d742
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0655b7fd09c1e06df
+  Tags: []
+  ToPort: 11211
+...
+

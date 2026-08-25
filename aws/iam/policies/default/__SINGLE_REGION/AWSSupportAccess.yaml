@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSSupportAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSSupportAccess
+  AttachmentCount: 1
+  CreateDate: 2015-02-06 18:41:11+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJSNKQX2OW67GF4S7E
+  PolicyName: AWSSupportAccess
+  UpdateDate: 2026-02-12 17:59:31+00:00
+...
+

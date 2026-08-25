@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: bnb-mbx-redmine-test-s3-access
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/bnb-mbx-redmine-test-s3-access
+  AttachmentCount: 1
+  CreateDate: 2024-03-12 18:48:56+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5ZSP2INMWY
+  PolicyName: bnb-mbx-redmine-test-s3-access
+  UpdateDate: 2024-03-15 23:10:35+00:00
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: ro-s3-jenkins-devops
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/ro-s3-jenkins-devops
+  AttachmentCount: 51
+  CreateDate: 2024-09-17 09:19:06+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5XWL66P777
+  PolicyName: ro-s3-jenkins-devops
+  UpdateDate: 2024-09-17 09:19:06+00:00
+...
+

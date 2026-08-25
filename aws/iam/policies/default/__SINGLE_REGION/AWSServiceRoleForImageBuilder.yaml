@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSServiceRoleForImageBuilder
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForImageBuilder
+  AttachmentCount: 0
+  CreateDate: 2019-11-29 22:02:13+00:00
+  DefaultVersionId: v28
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4NE22WISEW
+  PolicyName: AWSServiceRoleForImageBuilder
+  UpdateDate: 2026-07-09 15:27:28+00:00
+...
+

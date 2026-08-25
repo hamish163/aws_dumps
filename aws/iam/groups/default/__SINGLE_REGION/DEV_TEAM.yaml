@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.groups
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: DEV_TEAM
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:group/DEV_TEAM
+  CreateDate: 2022-02-07 03:50:11+00:00
+  GroupId: AGPA4RYUCHN55XFNQEIAM
+  GroupName: DEV_TEAM
+  Path: /
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonEKSConnectorServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AmazonEKSConnectorServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2021-09-04 20:31:08+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4H2PH3AV2C
+  PolicyName: AmazonEKSConnectorServiceRolePolicy
+  UpdateDate: 2025-10-15 22:34:07+00:00
+...
+

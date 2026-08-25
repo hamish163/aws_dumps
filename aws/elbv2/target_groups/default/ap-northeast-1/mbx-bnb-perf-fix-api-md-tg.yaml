@@ -1,0 +1,28 @@
+---
+datatype: aws.elbv2.target_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-perf-fix-api-md-tg
+specifics:
+  HealthCheckEnabled: true
+  HealthCheckIntervalSeconds: 5
+  HealthCheckPath: /api/v3/ping
+  HealthCheckPort: '8080'
+  HealthCheckProtocol: HTTP
+  HealthCheckTimeoutSeconds: 2
+  HealthyThresholdCount: 5
+  IpAddressType: ipv4
+  LoadBalancerArns:
+  - arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:loadbalancer/net/mbx-bnb-perf-fix-api-md-nlb/ee249bb67fa9b89d
+  Matcher:
+    HttpCode: '200'
+  Port: 9876
+  Protocol: TCP
+  TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-perf-fix-api-md-tg/accff18f58fb7db5
+  TargetGroupName: mbx-bnb-perf-fix-api-md-tg
+  TargetType: instance
+  UnhealthyThresholdCount: 2
+  VpcId: vpc-013930e589c469574
+...
+

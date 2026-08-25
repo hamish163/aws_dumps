@@ -1,0 +1,19 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: package-metrics_iam_for_lambda_usage
+  single_region: true
+specifics:
+  biz: mbx
+  mbx_env_name: solutions
+  mbx_exchange_name: bnb
+  mbx_managed_by: devops
+  mbx_managed_with: terraform
+  mbx_used_by: solutions
+  project: mbx
+  role: package-metrics
+  team: solutions
+...
+

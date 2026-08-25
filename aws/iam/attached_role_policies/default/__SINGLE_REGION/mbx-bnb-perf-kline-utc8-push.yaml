@@ -1,0 +1,17 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-perf-kline-utc8-push
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/mbx-bnb-perf-kline-utc8-push-asm-ro
+    PolicyName: mbx-bnb-perf-kline-utc8-push-asm-ro
+  - PolicyArn: arn:aws:iam::862793644923:policy/ro-s3-jenkins
+    PolicyName: ro-s3-jenkins
+  - PolicyArn: arn:aws:iam::862793644923:policy/vizzy-ingest-bnb-perf
+    PolicyName: vizzy-ingest-bnb-perf
+...
+

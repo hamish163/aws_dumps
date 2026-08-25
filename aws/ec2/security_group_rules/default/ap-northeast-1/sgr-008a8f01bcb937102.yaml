@@ -1,0 +1,31 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-008a8f01bcb937102
+specifics:
+  CidrIpv4: 0.0.0.0/0
+  Description: Allow DNS/UDP
+  FromPort: 53
+  GroupId: sg-09f6c6a3ad1945d32
+  GroupOwnerId: '862793644923'
+  IpProtocol: udp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-008a8f01bcb937102
+  Tags:
+  - Key: mbx_env_name
+    Value: sre
+  - Key: biz
+    Value: mbx
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  - Key: stack_path
+    Value: bnb/sre/eks/emu/extras
+  - Key: mbx_secret_store
+    Value: none
+  ToPort: 53
+...
+

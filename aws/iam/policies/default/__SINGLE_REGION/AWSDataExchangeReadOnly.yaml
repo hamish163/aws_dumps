@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSDataExchangeReadOnly
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSDataExchangeReadOnly
+  AttachmentCount: 0
+  CreateDate: 2019-11-13 19:27:37+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4DQNFEZURI
+  PolicyName: AWSDataExchangeReadOnly
+  UpdateDate: 2024-10-24 14:40:40+00:00
+...
+

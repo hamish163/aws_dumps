@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: nip-0c4fd1c7269bd5da3
+specifics:
+  Name: split-to-sleepy
+...
+

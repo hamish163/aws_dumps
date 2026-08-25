@@ -1,0 +1,28 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: EC2JenkinsRole
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/EC2JenkinsRole
+  CreateDate: 2018-06-04 05:04:43+00:00
+  InstanceProfileId: AIPAJKHTO5N4BVN4DLPNW
+  InstanceProfileName: EC2JenkinsRole
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/EC2JenkinsRole
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+      Version: '2012-10-17'
+    CreateDate: 2018-06-04 05:04:42+00:00
+    Path: /
+    RoleId: AROAJDXACQHPJBDMKZ6KW
+    RoleName: EC2JenkinsRole
+...
+

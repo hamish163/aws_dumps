@@ -1,0 +1,24 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-03d281b1ad2bbe3de
+specifics:
+  Description: Allow tcp for port range 9338 to 9338
+  FromPort: 9338
+  GroupId: sg-08e06c2fcca39d99b
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0a935c3361d3213bc
+    PeeringStatus: active
+    UserId: '862793644923'
+    VpcId: vpc-013930e589c469574
+    VpcPeeringConnectionId: pcx-051b96df89b47326f
+  SecurityGroupRuleId: sgr-03d281b1ad2bbe3de
+  Tags: []
+  ToPort: 9338
+...
+

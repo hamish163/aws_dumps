@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.max_connections
+specifics:
+  AllowedValues: 50-12000
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: The number of simultaneous client connections allowed.
+  IsModifiable: true
+  ParameterName: max_connections
+  ParameterValue: '{DBInstanceClassMemory/12582880}'
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

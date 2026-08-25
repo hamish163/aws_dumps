@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSSecurityIncidentResponseServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AWSSecurityIncidentResponseServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2024-12-01 16:36:06+00:00
+  DefaultVersionId: v12
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4PN7K2GF47
+  PolicyName: AWSSecurityIncidentResponseServiceRolePolicy
+  UpdateDate: 2026-02-12 17:59:48+00:00
+...
+

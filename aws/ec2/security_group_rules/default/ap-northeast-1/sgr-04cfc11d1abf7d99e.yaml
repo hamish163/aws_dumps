@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-04cfc11d1abf7d99e
+specifics:
+  Description: Allow TCP traffic from fix-api-marketdata SG on port 9810
+  FromPort: 9810
+  GroupId: sg-0c1e14a6f0066176d
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-069d6c89488785327
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-04cfc11d1abf7d99e
+  Tags: []
+  ToPort: 9810
+...
+

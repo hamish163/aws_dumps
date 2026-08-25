@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSProtonFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSProtonFullAccess
+  AttachmentCount: 0
+  CreateDate: 2021-02-17 19:07:18+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4IOK6P734E
+  PolicyName: AWSProtonFullAccess
+  UpdateDate: 2024-06-06 18:29:00+00:00
+...
+

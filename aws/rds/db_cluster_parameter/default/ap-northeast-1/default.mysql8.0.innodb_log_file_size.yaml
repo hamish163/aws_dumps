@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.innodb_log_file_size
+specifics:
+  AllowedValues: 4194304-273804165120
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: The size in bytes of each log file in a log group
+  IsModifiable: true
+  ParameterName: innodb_log_file_size
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

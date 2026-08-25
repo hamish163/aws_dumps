@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-uat-ec2-management
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/mbx-bnb-uat-ec2-management
+  AttachmentCount: 1
+  CreateDate: 2025-01-29 11:19:06+00:00
+  DefaultVersionId: v26
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5QUUO6LCFD
+  PolicyName: mbx-bnb-uat-ec2-management
+  UpdateDate: 2025-08-26 10:49:02+00:00
+...
+

@@ -1,0 +1,18 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0f4041effef697a59
+specifics:
+  CidrIpv4: 3.114.150.176/32
+  FromPort: 5000
+  GroupId: sg-00cd390703b2d0870
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-0f4041effef697a59
+  Tags: []
+  ToPort: 5010
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonLookoutMetricsReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonLookoutMetricsReadOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2021-05-07 00:43:34+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4MP33SLV3F
+  PolicyName: AmazonLookoutMetricsReadOnlyAccess
+  UpdateDate: 2022-01-04 18:19:27+00:00
+...
+

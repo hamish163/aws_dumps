@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-devops-shim-api-asm-ro
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/mbx-bnb-devops-shim-api-asm-ro
+  AttachmentCount: 1
+  CreateDate: 2025-09-26 05:56:23+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN574PVW4HIL
+  PolicyName: mbx-bnb-devops-shim-api-asm-ro
+  UpdateDate: 2025-09-26 05:56:23+00:00
+...
+

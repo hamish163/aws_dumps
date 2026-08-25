@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-096666e2d84135a66
+specifics:
+  Description: Allow TCP traffic from aqueduct SG on port 9090
+  FromPort: 9090
+  GroupId: sg-08f55a26e7f6279e8
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0264f7614e7c82def
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-096666e2d84135a66
+  Tags: []
+  ToPort: 9090
+...
+

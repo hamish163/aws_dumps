@@ -1,0 +1,47 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: DEVOPS_TEAM_RO_ROLE
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/AWSConfigReadOnlyAccessAdditional
+    PolicyName: AWSConfigReadOnlyAccessAdditional
+  - PolicyArn: arn:aws:iam::862793644923:policy/DEVOPS_TEAM_RDS_EVENT_MGMT
+    PolicyName: DEVOPS_TEAM_RDS_EVENT_MGMT
+  - PolicyArn: arn:aws:iam::862793644923:policy/EC2ReadOnlyAccessAdditional
+    PolicyName: EC2ReadOnlyAccessAdditional
+  - PolicyArn: arn:aws:iam::aws:policy/AWSWAFReadOnlyAccess
+    PolicyName: AWSWAFReadOnlyAccess
+  - PolicyArn: arn:aws:iam::aws:policy/AWSCloudTrailReadOnlyAccess
+    PolicyName: AWSCloudTrailReadOnlyAccess
+  - PolicyArn: arn:aws:iam::aws:policy/CloudWatchReadOnlyAccess
+    PolicyName: CloudWatchReadOnlyAccess
+  - PolicyArn: arn:aws:iam::aws:policy/CloudWatchEventsReadOnlyAccess
+    PolicyName: CloudWatchEventsReadOnlyAccess
+  - PolicyArn: arn:aws:iam::aws:policy/job-function/SupportUser
+    PolicyName: SupportUser
+  - PolicyArn: arn:aws:iam::aws:policy/IAMReadOnlyAccess
+    PolicyName: IAMReadOnlyAccess
+  - PolicyArn: arn:aws:iam::aws:policy/ResourceGroupsandTagEditorReadOnlyAccess
+    PolicyName: ResourceGroupsandTagEditorReadOnlyAccess
+  - PolicyArn: arn:aws:iam::aws:policy/AWSCodeCommitReadOnly
+    PolicyName: AWSCodeCommitReadOnly
+  - PolicyArn: arn:aws:iam::aws:policy/AWSHealthFullAccess
+    PolicyName: AWSHealthFullAccess
+  - PolicyArn: arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess
+    PolicyName: CloudWatchLogsReadOnlyAccess
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonHealthLakeFullAccess
+    PolicyName: AmazonHealthLakeFullAccess
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonOpenSearchServiceReadOnlyAccess
+    PolicyName: AmazonOpenSearchServiceReadOnlyAccess
+  - PolicyArn: arn:aws:iam::aws:policy/IAMAccessAnalyzerReadOnlyAccess
+    PolicyName: IAMAccessAnalyzerReadOnlyAccess
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonRoute53ResolverReadOnlyAccess
+    PolicyName: AmazonRoute53ResolverReadOnlyAccess
+  - PolicyArn: arn:aws:iam::aws:policy/AWSWAFConsoleReadOnlyAccess
+    PolicyName: AWSWAFConsoleReadOnlyAccess
+...
+

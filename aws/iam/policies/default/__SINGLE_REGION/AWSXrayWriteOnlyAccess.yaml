@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSXrayWriteOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSXrayWriteOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2016-12-01 18:19:53+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIAACM4LMYSRGBCTM6
+  PolicyName: AWSXrayWriteOnlyAccess
+  UpdateDate: 2018-08-28 23:03:04+00:00
+...
+

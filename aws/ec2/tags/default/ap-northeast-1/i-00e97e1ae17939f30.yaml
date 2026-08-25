@@ -1,0 +1,18 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-00e97e1ae17939f30
+specifics:
+  Name: chat1.chat.bitdj.com
+  aws:cloudformation:logical-id: App1
+  aws:cloudformation:stack-id: arn:aws:cloudformation:ap-northeast-1:862793644923:stack/MbxChat-Chat-1SMO9IIYF334W/0676b880-dea4-11ed-a749-0626c85655e5
+  aws:cloudformation:stack-name: MbxChat-Chat-1SMO9IIYF334W
+  aws:ec2launchtemplate:id: lt-00bf97fcd376c3077
+  aws:ec2launchtemplate:version: '1'
+  reflect:hostname: chat1.chat.bitdj.com
+  reflect:parent_stack_name: MbxChat
+  reflect:stack_name: MbxChat-Chat-1SMO9IIYF334W
+...
+

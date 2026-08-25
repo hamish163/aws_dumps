@@ -1,0 +1,17 @@
+---
+datatype: aws.route53.hosted_zones
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx.keter-api.internal.
+  single_region: true
+specifics:
+  CallerReference: 75206eec-71bd-4e05-9b32-efad3d16840b
+  Config:
+    Comment: internal domain for keter service from our vpn
+    PrivateZone: true
+  Id: /hostedzone/Z065504719R8P3C2YFFMF
+  Name: mbx.keter-api.internal.
+  ResourceRecordSetCount: 3
+...
+

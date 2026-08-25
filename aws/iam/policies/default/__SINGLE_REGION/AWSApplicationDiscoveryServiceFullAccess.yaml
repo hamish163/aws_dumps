@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSApplicationDiscoveryServiceFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSApplicationDiscoveryServiceFullAccess
+  AttachmentCount: 0
+  CreateDate: 2016-05-11 21:30:50+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJBNJEA6ZXM2SBOPDU
+  PolicyName: AWSApplicationDiscoveryServiceFullAccess
+  UpdateDate: 2019-06-19 21:21:26+00:00
+...
+

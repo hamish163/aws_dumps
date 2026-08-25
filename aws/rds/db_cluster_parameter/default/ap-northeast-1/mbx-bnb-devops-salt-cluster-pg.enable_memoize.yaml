@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-devops-salt-cluster-pg.enable_memoize
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Enables the planners use of memoization
+  IsModifiable: true
+  ParameterName: enable_memoize
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

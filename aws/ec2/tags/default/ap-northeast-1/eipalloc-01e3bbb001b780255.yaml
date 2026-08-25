@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eipalloc-01e3bbb001b780255
+specifics:
+  Name: k8scluster-eip
+  env: ap2
+  project: bitdj
+...
+

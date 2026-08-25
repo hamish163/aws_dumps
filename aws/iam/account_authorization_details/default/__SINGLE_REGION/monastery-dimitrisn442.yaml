@@ -1,0 +1,25 @@
+---
+datatype: aws.iam.account_authorization_details
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: monastery-dimitrisn442
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/monastery-dimitrisn442
+  AttachedManagedPolicies: []
+  CreateDate: 2026-08-17 05:39:23+00:00
+  GroupList:
+  - mbx-monastery-aws-group-solutions
+  Path: /
+  Tags:
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  - Key: monastery-team
+    Value: solutions
+  UserId: AIDA4RYUCHN54BJVPI23A
+  UserName: monastery-dimitrisn442
+...
+

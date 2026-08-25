@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-accounts-cluster-pg.completion_type
+specifics:
+  AllowedValues: 0-2
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: The transaction completion type (0 - default, 1 - chain, 2 - release)
+  IsModifiable: true
+  ParameterName: completion_type
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

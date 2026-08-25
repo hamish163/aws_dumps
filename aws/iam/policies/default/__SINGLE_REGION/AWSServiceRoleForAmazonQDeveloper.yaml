@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSServiceRoleForAmazonQDeveloper
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForAmazonQDeveloper
+  AttachmentCount: 0
+  CreateDate: 2024-04-25 07:40:41+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4BSUWAE437
+  PolicyName: AWSServiceRoleForAmazonQDeveloper
+  UpdateDate: 2026-07-20 20:27:30+00:00
+...
+

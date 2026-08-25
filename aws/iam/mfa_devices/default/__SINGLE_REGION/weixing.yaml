@@ -1,0 +1,14 @@
+---
+datatype: aws.iam.mfa_devices
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: weixing
+  single_region: true
+specifics:
+  MFADevices:
+  - EnableDate: 2023-06-21 05:23:06+00:00
+    SerialNumber: arn:aws:iam::862793644923:mfa/company_phone
+    UserName: weixing
+...
+

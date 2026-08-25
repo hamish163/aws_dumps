@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.neptune1.4.neptune_slow_query_log_threshold
+specifics:
+  AllowedValues: 1-10000000
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Threshold of slow query log (ms)
+  IsModifiable: true
+  ParameterName: neptune_slow_query_log_threshold
+  ParameterValue: '5000'
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

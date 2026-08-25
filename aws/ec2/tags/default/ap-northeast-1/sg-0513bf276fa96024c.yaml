@@ -1,0 +1,17 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0513bf276fa96024c
+specifics:
+  Name: mbx-bnb-uat-spade-order-db
+  biz: mbx
+  mbx_clustered_application: 'false'
+  mbx_env_name: uat
+  mbx_env_type: multi-node
+  mbx_exchange_name: bnb
+  mbx_secret_store: asm
+  team: mbx
+...
+

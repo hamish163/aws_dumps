@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-solutions-eks1-fluentbit
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/mbx-bnb-solutions-eks1-fluentbit
+  AttachmentCount: 1
+  CreateDate: 2026-02-13 14:55:26+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN533II2PFVF
+  PolicyName: mbx-bnb-solutions-eks1-fluentbit
+  UpdateDate: 2026-02-13 23:37:23+00:00
+...
+

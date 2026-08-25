@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: subnet-09b56d08523f753ad
+specifics:
+  Name: perf_dev_mbx_prvApp_1c
+  env: dev
+  project: mbx
+...
+

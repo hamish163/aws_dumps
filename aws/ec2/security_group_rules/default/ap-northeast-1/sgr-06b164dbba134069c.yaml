@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-06b164dbba134069c
+specifics:
+  Description: Allow TCP traffic from ws-api SG on port 11211
+  FromPort: 11211
+  GroupId: sg-0a07c34521b4a1f61
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0ff429e86e0e6e570
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-06b164dbba134069c
+  Tags: []
+  ToPort: 11211
+...
+

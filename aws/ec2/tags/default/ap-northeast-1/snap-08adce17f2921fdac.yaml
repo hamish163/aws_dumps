@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: snap-08adce17f2921fdac
+specifics:
+  Name: 20200818-02-jenkins-pv-test
+...
+

@@ -1,0 +1,11 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: QA_PERF_TEAM_JMETER_CLUSTER_ROLE
+  single_region: true
+specifics:
+  AttachedPolicies: []
+...
+

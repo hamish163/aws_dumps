@@ -1,0 +1,41 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-08bb0207b23ef7764
+specifics:
+  Attachment:
+    AttachTime: 2026-08-13 11:59:43+00:00
+    AttachmentId: eni-attach-0139ef1c3f1a8c863
+    DeleteOnTermination: false
+    DeviceIndex: 1
+    InstanceOwnerId: 049300578640
+    NetworkCardIndex: 0
+    Status: attached
+  AvailabilityZone: ap-northeast-1a
+  DenyAllIgwTraffic: true
+  Description: RDSNetworkInterface
+  Groups:
+  - GroupId: sg-0e1b67909cfe70cfd
+    GroupName: mbx-bnb-uat-kline-aor-db
+  InterfaceType: interface
+  Ipv6Addresses: []
+  MacAddress: 06:97:66:1d:2f:9b
+  NetworkInterfaceId: eni-08bb0207b23ef7764
+  OwnerId: '862793644923'
+  PrivateDnsName: ip-10-190-21-222.ap-northeast-1.compute.internal
+  PrivateIpAddress: 10.190.21.222
+  PrivateIpAddresses:
+  - Primary: true
+    PrivateDnsName: ip-10-190-21-222.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.190.21.222
+  RequesterId: 049300578640
+  RequesterManaged: true
+  SourceDestCheck: true
+  Status: in-use
+  SubnetId: subnet-0032f8c1960aa302c
+  TagSet: []
+  VpcId: vpc-0b3ce57b4c748893b
+...
+

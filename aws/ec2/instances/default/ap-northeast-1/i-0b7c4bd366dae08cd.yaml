@@ -1,0 +1,116 @@
+---
+datatype: aws.ec2.instances
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-0b7c4bd366dae08cd
+specifics:
+  AmiLaunchIndex: 0
+  Architecture: x86_64
+  BlockDeviceMappings:
+  - DeviceName: /dev/xvda
+    Ebs:
+      AttachTime: 2026-07-28 16:28:48+00:00
+      DeleteOnTermination: true
+      Status: attached
+      VolumeId: vol-0ca66fef934510b9c
+  BootMode: uefi-preferred
+  CapacityReservationSpecification:
+    CapacityReservationPreference: open
+  ClientToken: 4672fe5b-cbca-eb0e-e8e8-378102e2f071
+  CpuOptions:
+    CoreCount: 8
+    ThreadsPerCore: 2
+  CurrentInstanceBootMode: uefi
+  EbsOptimized: false
+  EnaSupport: true
+  EnclaveOptions:
+    Enabled: false
+  HibernationOptions:
+    Configured: false
+  Hypervisor: xen
+  IamInstanceProfile:
+    Arn: arn:aws:iam::862793644923:instance-profile/mbx/devops/service/tungsten-cicd
+    Id: AIPA4RYUCHN57FKD46C5R
+  ImageId: ami-0e3712dacb349e8a9
+  InstanceId: i-0b7c4bd366dae08cd
+  InstanceType: c6i.4xlarge
+  KeyName: devops_ec2-id_ed25519
+  LaunchTime: 2026-07-28 16:28:47+00:00
+  MaintenanceOptions:
+    AutoRecovery: default
+  MetadataOptions:
+    HttpEndpoint: enabled
+    HttpProtocolIpv6: disabled
+    HttpPutResponseHopLimit: 2
+    HttpTokens: required
+    InstanceMetadataTags: disabled
+    State: applied
+  Monitoring:
+    State: disabled
+  NetworkInterfaces:
+  - Attachment:
+      AttachTime: 2026-07-28 16:28:47+00:00
+      AttachmentId: eni-attach-06a8cb6cd22bc2165
+      DeleteOnTermination: true
+      DeviceIndex: 0
+      NetworkCardIndex: 0
+      Status: attached
+    Description: ''
+    Groups:
+    - GroupId: sg-06cd9ceed1c8d2c37
+      GroupName: tungsten-cicd
+    InterfaceType: interface
+    Ipv6Addresses: []
+    MacAddress: 0a:bf:21:d6:49:7d
+    NetworkInterfaceId: eni-0f4aae1d497dbd6b5
+    OwnerId: '862793644923'
+    PrivateDnsName: ip-172-30-0-146.ap-northeast-1.compute.internal
+    PrivateIpAddress: 172.30.0.146
+    PrivateIpAddresses:
+    - Primary: true
+      PrivateDnsName: ip-172-30-0-146.ap-northeast-1.compute.internal
+      PrivateIpAddress: 172.30.0.146
+    SourceDestCheck: true
+    Status: in-use
+    SubnetId: subnet-0bc214c6dfb25c0a2
+    VpcId: vpc-0602642b581cc4039
+  Placement:
+    AvailabilityZone: ap-northeast-1c
+    GroupName: ''
+    Tenancy: default
+  PlatformDetails: Linux/UNIX
+  PrivateDnsName: ip-172-30-0-146.ap-northeast-1.compute.internal
+  PrivateDnsNameOptions:
+    EnableResourceNameDnsAAAARecord: false
+    EnableResourceNameDnsARecord: false
+    HostnameType: ip-name
+  PrivateIpAddress: 172.30.0.146
+  ProductCodes: []
+  PublicDnsName: ''
+  RootDeviceName: /dev/xvda
+  RootDeviceType: ebs
+  SecurityGroups:
+  - GroupId: sg-06cd9ceed1c8d2c37
+    GroupName: tungsten-cicd
+  SourceDestCheck: true
+  State:
+    Code: 16
+    Name: running
+  StateTransitionReason: ''
+  SubnetId: subnet-0bc214c6dfb25c0a2
+  Tags:
+  - Key: Name
+    Value: tungsten-cicd
+  - Key: aws:cloudformation:logical-id
+    Value: Instance
+  - Key: aws:cloudformation:stack-id
+    Value: arn:aws:cloudformation:ap-northeast-1:862793644923:stack/pod-jenkins-slave-base-cb4f2f1c-75a5-484f-afb5-6c4871dde6-1fx8b-sbe/65ccbbc0-8aa1-11f1-ab1d-0e39903c6063
+  - Key: aws:cloudformation:stack-name
+    Value: pod-jenkins-slave-base-cb4f2f1c-75a5-484f-afb5-6c4871dde6-1fx8b-sbe
+  UsageOperation: RunInstances
+  UsageOperationUpdateTime: 2026-07-28 16:28:47+00:00
+  VirtualizationType: hvm
+  VpcId: vpc-0602642b581cc4039
+...
+

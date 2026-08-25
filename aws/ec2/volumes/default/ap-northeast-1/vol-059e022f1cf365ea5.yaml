@@ -1,0 +1,42 @@
+---
+datatype: aws.ec2.volumes
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-059e022f1cf365ea5
+specifics:
+  Attachments:
+  - AttachTime: 2026-07-22 07:38:55+00:00
+    DeleteOnTermination: false
+    Device: /dev/sdf
+    InstanceId: i-096b35222741c541a
+    State: attached
+    VolumeId: vol-059e022f1cf365ea5
+  AvailabilityZone: ap-northeast-1a
+  CreateTime: 2024-10-01 03:02:30.571000+00:00
+  Encrypted: false
+  Iops: 3000
+  MultiAttachEnabled: false
+  Size: 80
+  SnapshotId: ''
+  State: in-use
+  Tags:
+  - Key: Name
+    Value: mbx-bnb-uat-key-sequencer2
+  - Key: biz
+    Value: mbx
+  - Key: mbx_application_name
+    Value: mbx-core-sequencer
+  - Key: mbx_env_name
+    Value: uat
+  - Key: team
+    Value: mbx
+  - Key: mbx_secret_store
+    Value: asm
+  - Key: mbx_exchange_name
+    Value: bnb
+  Throughput: 125
+  VolumeId: vol-059e022f1cf365ea5
+  VolumeType: gp3
+...
+

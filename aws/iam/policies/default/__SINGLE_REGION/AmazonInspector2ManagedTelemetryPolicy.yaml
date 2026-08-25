@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonInspector2ManagedTelemetryPolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonInspector2ManagedTelemetryPolicy
+  AttachmentCount: 0
+  CreateDate: 2026-02-13 17:12:06+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4EIUXWW6NA
+  PolicyName: AmazonInspector2ManagedTelemetryPolicy
+  UpdateDate: 2026-02-13 17:12:06+00:00
+...
+

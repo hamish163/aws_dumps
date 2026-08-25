@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql11.vacuum_defer_cleanup_age
+specifics:
+  AllowedValues: 0-1000000
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Number of transactions by which VACUUM and HOT cleanup should be deferred,
+    if any.
+  IsModifiable: true
+  ParameterName: vacuum_defer_cleanup_age
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+  - serverless
+...
+

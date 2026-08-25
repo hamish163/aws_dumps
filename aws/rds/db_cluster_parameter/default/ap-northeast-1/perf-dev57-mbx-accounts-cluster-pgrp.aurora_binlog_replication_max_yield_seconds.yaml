@@ -1,0 +1,25 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev57-mbx-accounts-cluster-pgrp.aurora_binlog_replication_max_yield_seconds
+specifics:
+  AllowedValues: 0-36000
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: For Aurora MySQL versions between 2.04.5 - 2.04.8 and between 2.05
+    - 2.08.* (inclusive), the maximum accepted value is 45. You can tune it to a higher
+    value on 2.04.9 and later versions of 2.04.*, and on 2.09 and later versions.
+    This parameter works only when the parameter aurora_binlog_use_large_read_buffer
+    is set to 1.
+  IsModifiable: true
+  MinimumEngineVersion: 5.7.mysql_aurora.2.04.5
+  ParameterName: aurora_binlog_replication_max_yield_seconds
+  ParameterValue: '0'
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

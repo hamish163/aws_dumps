@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: QuickSightAccessForS3StorageManagementAnalyticsReadOnly
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/QuickSightAccessForS3StorageManagementAnalyticsReadOnly
+  AttachmentCount: 0
+  CreateDate: 2017-06-12 18:18:38+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIFWG3L3WDMR4I7ZJW
+  PolicyName: QuickSightAccessForS3StorageManagementAnalyticsReadOnly
+  UpdateDate: 2019-10-08 23:53:11+00:00
+...
+

@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql17.aws_lambda.request_timeout_ms
+specifics:
+  AllowedValues: 10-900000
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Socket read timeout for HTTP clients.
+  IsModifiable: true
+  ParameterName: aws_lambda.request_timeout_ms
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

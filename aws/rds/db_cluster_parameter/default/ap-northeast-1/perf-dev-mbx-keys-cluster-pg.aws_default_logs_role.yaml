@@ -1,0 +1,18 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-keys-cluster-pg.aws_default_logs_role
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Arn for the role used to upload data to CloudWatch Logs
+  IsModifiable: true
+  ParameterName: aws_default_logs_role
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

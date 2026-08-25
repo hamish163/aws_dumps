@@ -1,0 +1,17 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: usaMbxBastion
+  single_region: true
+specifics:
+  Name: usaMbx
+  biz: mbx
+  env: prod
+  exchange_id: usa
+  project: mbx
+  role: bastion
+  team: mbx
+...
+

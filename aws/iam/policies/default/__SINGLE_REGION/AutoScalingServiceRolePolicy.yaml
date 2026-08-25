@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AutoScalingServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AutoScalingServiceRolePolicy
+  AttachmentCount: 1
+  CreateDate: 2018-01-08 23:10:55+00:00
+  DefaultVersionId: v10
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIC5D2V7MRWBMHGD7G
+  PolicyName: AutoScalingServiceRolePolicy
+  UpdateDate: 2025-11-12 18:19:06+00:00
+...
+

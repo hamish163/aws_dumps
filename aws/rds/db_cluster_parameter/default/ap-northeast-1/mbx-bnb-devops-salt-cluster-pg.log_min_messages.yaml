@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-devops-salt-cluster-pg.log_min_messages
+specifics:
+  AllowedValues: debug5,debug4,debug3,debug2,debug1,info,notice,warning,error,log,fatal
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Sets the message levels that are logged.
+  IsModifiable: true
+  ParameterName: log_min_messages
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

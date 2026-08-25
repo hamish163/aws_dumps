@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: nip-0621d494544c8e4e1
+specifics:
+  Name: sleepy_to_bitdj_saltmaster
+...
+

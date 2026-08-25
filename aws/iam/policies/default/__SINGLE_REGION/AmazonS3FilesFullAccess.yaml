@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonS3FilesFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonS3FilesFullAccess
+  AttachmentCount: 0
+  CreateDate: 2026-04-07 12:42:08+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4JV3XIUHB7
+  PolicyName: AmazonS3FilesFullAccess
+  UpdateDate: 2026-04-07 12:42:08+00:00
+...
+

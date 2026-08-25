@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonInspector2AgentlessServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AmazonInspector2AgentlessServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2023-11-20 15:18:32+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4FZY7O6M3P
+  PolicyName: AmazonInspector2AgentlessServiceRolePolicy
+  UpdateDate: 2026-08-20 19:17:13+00:00
+...
+

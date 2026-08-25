@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: pcx-03c720e7be501b0cc
+specifics:
+  Name: prod-tracky to saltmaster
+...
+

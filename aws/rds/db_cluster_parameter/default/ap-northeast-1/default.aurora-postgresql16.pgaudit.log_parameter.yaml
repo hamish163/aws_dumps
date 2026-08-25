@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql16.pgaudit.log_parameter
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Specifies that audit logging should include the parameters that were
+    passed with the statement.
+  IsModifiable: true
+  ParameterName: pgaudit.log_parameter
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

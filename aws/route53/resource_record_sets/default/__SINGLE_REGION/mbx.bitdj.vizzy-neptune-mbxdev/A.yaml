@@ -1,0 +1,16 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx.bitdj.vizzy-neptune-mbxdev/A
+  single_region: true
+specifics:
+  AliasTarget:
+    DNSName: vpce-0fa022afdc69c13d9-pbvbfu9x.vpce-svc-09dd9f2062355aa92.ap-northeast-1.vpce.amazonaws.com.
+    EvaluateTargetHealth: true
+    HostedZoneId: Z2E726K9Y6RL4W
+  Name: vizzy-neptune-mbxdev.bitdj.mbx.
+  Type: A
+...
+

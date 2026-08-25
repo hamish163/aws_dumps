@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql11.rds.logical_wal_cache
+specifics:
+  AllowedValues: -1-262143
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: (8kB) Sets the number of disk-page buffers in shared memory for logical
+    PostgreSQL WAL.
+  IsModifiable: true
+  MinimumEngineVersion: '11.17'
+  ParameterName: rds.logical_wal_cache
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

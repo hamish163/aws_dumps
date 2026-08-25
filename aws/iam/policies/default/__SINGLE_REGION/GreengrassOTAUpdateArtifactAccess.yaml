@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: GreengrassOTAUpdateArtifactAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/GreengrassOTAUpdateArtifactAccess
+  AttachmentCount: 0
+  CreateDate: 2017-11-29 18:11:47+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIFGE66SKIK3GW5UC2
+  PolicyName: GreengrassOTAUpdateArtifactAccess
+  UpdateDate: 2018-12-18 00:59:43+00:00
+...
+

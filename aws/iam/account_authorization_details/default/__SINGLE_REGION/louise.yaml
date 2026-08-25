@@ -1,0 +1,41 @@
+---
+datatype: aws.iam.account_authorization_details
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: louise
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/louise
+  AttachedManagedPolicies: []
+  CreateDate: 2022-10-07 09:21:09+00:00
+  GroupList:
+  - mbx_bedrock
+  - qa
+  Path: /
+  Tags:
+  - Key: biz
+    Value: mbx
+  - Key: mbx_team
+    Value: qa
+  - Key: mbx_iam
+    Value: louise
+  - Key: team
+    Value: mbx
+  UserId: AIDA4RYUCHN5XWWESUGUJ
+  UserName: louise
+  UserPolicyList:
+  - PolicyDocument:
+      Statement:
+      - Action:
+        - '*'
+        Condition:
+          DateLessThan:
+            aws:TokenIssueTime: '2024-09-17T02:33:38.356Z'
+        Effect: Deny
+        Resource:
+        - '*'
+      Version: '2012-10-17'
+    PolicyName: AWSRevokeOlderSessions
+...
+

@@ -1,0 +1,22 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-spade-account-cluster-pg.aurora_fwd_writer_idle_timeout
+specifics:
+  AllowedValues: 1-86400
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: The number of seconds the server waits for activity on a forwarded
+    Replica connection before closing it.
+  IsModifiable: true
+  MinimumEngineVersion: 8.0.mysql_aurora.3.01.0
+  ParameterName: aurora_fwd_writer_idle_timeout
+  ParameterValue: '60'
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

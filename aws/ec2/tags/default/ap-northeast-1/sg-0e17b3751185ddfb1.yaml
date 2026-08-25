@@ -1,0 +1,16 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0e17b3751185ddfb1
+specifics:
+  Name: mbx-bnb-sre-emu-nlb-int-sg
+  biz: mbx
+  mbx_env_name: sre
+  mbx_exchange_name: bnb
+  mbx_secret_store: none
+  stack_path: bnb/sre/eks/emu/extras
+  team: mbx
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: IVSFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/IVSFullAccess
+  AttachmentCount: 0
+  CreateDate: 2023-12-13 21:20:21+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4JJZPORYJK
+  PolicyName: IVSFullAccess
+  UpdateDate: 2023-12-13 21:20:21+00:00
+...
+

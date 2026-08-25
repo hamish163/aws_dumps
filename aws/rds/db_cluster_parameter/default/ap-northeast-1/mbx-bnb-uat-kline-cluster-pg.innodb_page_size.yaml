@@ -1,0 +1,18 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-kline-cluster-pg.innodb_page_size
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: Specifies the page size for all InnoDB tablespaces in a MySQL instance.
+  IsModifiable: false
+  ParameterName: innodb_page_size
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

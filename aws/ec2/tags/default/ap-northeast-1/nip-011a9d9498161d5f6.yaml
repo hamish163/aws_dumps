@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: nip-011a9d9498161d5f6
+specifics:
+  Name: old-to-mattermost
+...
+

@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.transaction_write_set_extraction
+specifics:
+  AllowedValues: OFF,MURMUR32
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Reserved for future use.
+  IsModifiable: false
+  ParameterName: transaction_write_set_extraction
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

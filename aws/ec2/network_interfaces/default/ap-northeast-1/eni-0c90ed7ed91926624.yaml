@@ -1,0 +1,42 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-0c90ed7ed91926624
+specifics:
+  Attachment:
+    AttachTime: 2023-04-19 09:47:30+00:00
+    AttachmentId: eni-attach-0d5333bb9f045a529
+    DeleteOnTermination: true
+    DeviceIndex: 0
+    InstanceId: i-0651df1936706bc3d
+    InstanceOwnerId: '862793644923'
+    NetworkCardIndex: 0
+    Status: attached
+  AvailabilityZone: ap-northeast-1c
+  Description: ''
+  Groups:
+  - GroupId: sg-00e1892fdd6a2392d
+    GroupName: MbxChat-Mongo-19FEZSTWMJZQR-AppSecurityGroup-1KMXZZJUWUVCB
+  - GroupId: sg-0e9272cfdb1ce81be
+    GroupName: MbxChat-SshSecurityGroup-IKAYE1T8KQ3Z
+  InterfaceType: interface
+  Ipv6Addresses: []
+  MacAddress: 0a:f6:03:e2:ba:63
+  NetworkInterfaceId: eni-0c90ed7ed91926624
+  OwnerId: '862793644923'
+  PrivateDnsName: ip-10-12-5-37.ap-northeast-1.compute.internal
+  PrivateIpAddress: 10.12.5.37
+  PrivateIpAddresses:
+  - Primary: true
+    PrivateDnsName: ip-10-12-5-37.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.12.5.37
+  RequesterManaged: false
+  SourceDestCheck: true
+  Status: in-use
+  SubnetId: subnet-0c627b4ef8124231b
+  TagSet: []
+  VpcId: vpc-050b727e89fac853e
+...
+

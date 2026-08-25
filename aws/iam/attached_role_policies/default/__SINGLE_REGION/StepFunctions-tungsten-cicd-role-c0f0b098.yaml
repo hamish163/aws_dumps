@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: StepFunctions-tungsten-cicd-role-c0f0b098
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/service-role/XRayAccessPolicy-255e53e7-d04e-43b9-bd0b-cc9b06205fbc
+    PolicyName: XRayAccessPolicy-255e53e7-d04e-43b9-bd0b-cc9b06205fbc
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess
+    PolicyName: AmazonS3ReadOnlyAccess
+...
+

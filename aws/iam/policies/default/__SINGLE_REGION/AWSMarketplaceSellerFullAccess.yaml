@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSMarketplaceSellerFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSMarketplaceSellerFullAccess
+  AttachmentCount: 0
+  CreateDate: 2019-07-02 20:40:09+00:00
+  DefaultVersionId: v33
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4JF7OFUANW
+  PolicyName: AWSMarketplaceSellerFullAccess
+  UpdateDate: 2026-08-12 16:47:10+00:00
+...
+

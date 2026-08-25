@@ -1,0 +1,26 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-05e60d20221e31e45
+specifics:
+  Description: Managed by Terraform
+  GroupId: sg-05e60d20221e31e45
+  GroupName: tky-prod-baserules-tracky-bitdj.com
+  Tags:
+  - Key: mbx_env_name
+    Value: prod
+  - Key: sre-env
+    Value: prod
+  - Key: biz
+    Value: mbx
+  - Key: team
+    Value: sre
+  - Key: Name
+    Value: tky.prod-baserules-tracky-bitdj.com
+  - Key: mbx_exchange_name
+    Value: bnb
+  VpcId: vpc-03f5d2495fd8d95a3
+...
+

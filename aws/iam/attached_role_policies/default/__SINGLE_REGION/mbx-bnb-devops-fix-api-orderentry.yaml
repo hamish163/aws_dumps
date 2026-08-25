@@ -1,0 +1,23 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-devops-fix-api-orderentry
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/mbx-bnb-devops-fix-api-orderentry-papermill
+    PolicyName: mbx-bnb-devops-fix-api-orderentry-papermill
+  - PolicyArn: arn:aws:iam::862793644923:policy/vizzy-ingest-bnb-devops
+    PolicyName: vizzy-ingest-bnb-devops
+  - PolicyArn: arn:aws:iam::862793644923:policy/mbx-bnb-devops-fix-api-orderentry-windmill
+    PolicyName: mbx-bnb-devops-fix-api-orderentry-windmill
+  - PolicyArn: arn:aws:iam::862793644923:policy/ro-s3-jenkins-devops
+    PolicyName: ro-s3-jenkins-devops
+  - PolicyArn: arn:aws:iam::862793644923:policy/mbx-bnb-devops-fix-api-orderentry-asm-ro
+    PolicyName: mbx-bnb-devops-fix-api-orderentry-asm-ro
+  - PolicyArn: arn:aws:iam::862793644923:policy/mbx-bnb-devops-fix-api-orderentry-geofence
+    PolicyName: mbx-bnb-devops-fix-api-orderentry-geofence
+...
+

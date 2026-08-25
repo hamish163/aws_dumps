@@ -1,0 +1,23 @@
+---
+datatype: aws.elbv2.rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener-rule/net/mbx-bnb-perf-fix-api-md-nlb/ee249bb67fa9b89d/b3ee284526bc2972/ca248d258426b015
+specifics:
+  Actions:
+  - ForwardConfig:
+      TargetGroupStickinessConfig:
+        Enabled: false
+      TargetGroups:
+      - TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-perf-fix-api-md-tg/accff18f58fb7db5
+    Order: 1
+    TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-perf-fix-api-md-tg/accff18f58fb7db5
+    Type: forward
+  Conditions: []
+  IsDefault: true
+  Priority: default
+  RuleArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener-rule/net/mbx-bnb-perf-fix-api-md-nlb/ee249bb67fa9b89d/b3ee284526bc2972/ca248d258426b015
+  _listener_arn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener/net/mbx-bnb-perf-fix-api-md-nlb/ee249bb67fa9b89d/b3ee284526bc2972
+...
+

@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: usaprodEC2RoleTrackySlave
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/tracky-measurements-policy
+    PolicyName: tracky-measurements-policy
+  - PolicyArn: arn:aws:iam::862793644923:policy/tracky-prod-tracky
+    PolicyName: tracky-prod-tracky
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: ClientVPNServiceConnectionsRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/ClientVPNServiceConnectionsRolePolicy
+  AttachmentCount: 1
+  CreateDate: 2020-08-12 19:48:06+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4PG4VWZTEZ
+  PolicyName: ClientVPNServiceConnectionsRolePolicy
+  UpdateDate: 2020-08-12 19:48:06+00:00
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSElasticDisasterRecoveryConsoleFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSElasticDisasterRecoveryConsoleFullAccess
+  AttachmentCount: 0
+  CreateDate: 2021-11-17 10:46:29+00:00
+  DefaultVersionId: v8
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4LCQTK3F7W
+  PolicyName: AWSElasticDisasterRecoveryConsoleFullAccess
+  UpdateDate: 2026-02-12 17:57:43+00:00
+...
+

@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-uat-account-cache
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/ro-s3-jenkins-uat
+    PolicyName: ro-s3-jenkins-uat
+  - PolicyArn: arn:aws:iam::862793644923:policy/vizzy-ingest-bnb-uat
+    PolicyName: vizzy-ingest-bnb-uat
+...
+

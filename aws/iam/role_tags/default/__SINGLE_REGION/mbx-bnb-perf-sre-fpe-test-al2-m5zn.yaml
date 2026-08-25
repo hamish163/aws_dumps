@@ -1,0 +1,18 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-perf-sre-fpe-test-al2-m5zn
+  single_region: true
+specifics:
+  Name: mbx-bnb-perf-sre-fpe-test-al2-m5zn
+  biz: mbx
+  mbx_clustered_application: 'false'
+  mbx_env_name: perf
+  mbx_env_type: na
+  mbx_exchange_name: bnb
+  mbx_secret_store: asm
+  team: sre
+...
+

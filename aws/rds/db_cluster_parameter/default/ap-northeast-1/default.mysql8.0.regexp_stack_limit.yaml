@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.regexp_stack_limit
+specifics:
+  AllowedValues: 0-2147483647
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Stack size limit for regular expressions matches.
+  IsModifiable: true
+  ParameterName: regexp_stack_limit
+  ParameterValue: '8000000'
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

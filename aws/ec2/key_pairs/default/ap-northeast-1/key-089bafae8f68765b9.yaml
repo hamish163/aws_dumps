@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.key_pairs
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: key-089bafae8f68765b9
+specifics:
+  CreateTime: 2016-08-08 00:53:17+00:00
+  KeyFingerprint: 5e:a2:c2:31:7f:36:bf:48:11:12:2d:95:aa:9c:97:e9:9f:72:27:22
+  KeyName: BitDJ-RocketChat
+  KeyPairId: key-089bafae8f68765b9
+  KeyType: rsa
+  Tags: []
+...
+

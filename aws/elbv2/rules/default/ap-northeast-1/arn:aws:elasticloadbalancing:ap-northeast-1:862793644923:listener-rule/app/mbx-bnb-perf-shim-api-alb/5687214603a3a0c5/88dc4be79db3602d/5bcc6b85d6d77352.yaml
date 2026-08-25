@@ -1,0 +1,30 @@
+---
+datatype: aws.elbv2.rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener-rule/app/mbx-bnb-perf-shim-api-alb/5687214603a3a0c5/88dc4be79db3602d/5bcc6b85d6d77352
+specifics:
+  Actions:
+  - ForwardConfig:
+      TargetGroupStickinessConfig:
+        Enabled: false
+      TargetGroups:
+      - TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-perf-shim-api-tg/0543353fd97ab240
+        Weight: 1
+    Order: 1
+    TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-perf-shim-api-tg/0543353fd97ab240
+    Type: forward
+  Conditions:
+  - Field: path-pattern
+    PathPatternConfig:
+      Values:
+      - /shim/*
+    Values:
+    - /shim/*
+  IsDefault: false
+  Priority: '50000'
+  RuleArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener-rule/app/mbx-bnb-perf-shim-api-alb/5687214603a3a0c5/88dc4be79db3602d/5bcc6b85d6d77352
+  _listener_arn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener/app/mbx-bnb-perf-shim-api-alb/5687214603a3a0c5/88dc4be79db3602d
+...
+

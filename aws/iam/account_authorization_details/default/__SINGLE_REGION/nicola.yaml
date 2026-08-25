@@ -1,0 +1,53 @@
+---
+datatype: aws.iam.account_authorization_details
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: nicola
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/nicola
+  AttachedManagedPolicies:
+  - PolicyArn: arn:aws:iam::aws:policy/AWSGlueConsoleFullAccess
+    PolicyName: AWSGlueConsoleFullAccess
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonAthenaFullAccess
+    PolicyName: AmazonAthenaFullAccess
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonS3FullAccess
+    PolicyName: AmazonS3FullAccess
+  CreateDate: 2024-12-10 14:53:14+00:00
+  GroupList:
+  - DEVOPS_TEAM_IAM_MGMT_NON_PROD
+  - DEVOPS_TEAM_INFRA_MGMT_NON_PROD
+  - mbx_bedrock
+  - DEVOPS_TEAM_INFRA_MGMT
+  - DEVOPS_TEAM_RO
+  - DEVOPS_TEAM_IAM_MGMT
+  - devops
+  - MBX_EVERYONE_TEAM
+  Path: /
+  Tags:
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  - Key: mbx_team
+    Value: devops
+  - Key: mbx_iam
+    Value: nicola
+  UserId: AIDA4RYUCHN5REYXHF2Z2
+  UserName: nicola
+  UserPolicyList:
+  - PolicyDocument:
+      Statement:
+      - Action: eks:*
+        Effect: Allow
+        Resource: '*'
+        Sid: VisualEditor0
+      - Action: fsx:*
+        Effect: Allow
+        Resource: '*'
+        Sid: VisualEditor1
+      Version: '2012-10-17'
+    PolicyName: TMPEKSAccess
+...
+

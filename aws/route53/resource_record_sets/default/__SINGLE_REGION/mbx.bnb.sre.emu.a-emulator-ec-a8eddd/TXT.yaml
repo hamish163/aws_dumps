@@ -1,0 +1,15 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx.bnb.sre.emu.a-emulator-ec-a8eddd/TXT
+  single_region: true
+specifics:
+  Name: a-emulator-ec-a8eddd.emu.sre.bnb.mbx.
+  ResourceRecords:
+  - Value: '"heritage=external-dns,external-dns/owner=mbx-bnb-sre-emu,external-dns/resource=service/emulators/emulator-ec-a8eddd"'
+  TTL: 300
+  Type: TXT
+...
+

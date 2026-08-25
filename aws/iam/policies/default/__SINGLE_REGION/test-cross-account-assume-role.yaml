@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: test-cross-account-assume-role
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/test-cross-account-assume-role
+  AttachmentCount: 1
+  CreateDate: 2022-11-15 03:17:45+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5VCNHU4SV5
+  PolicyName: test-cross-account-assume-role
+  UpdateDate: 2022-11-15 03:17:45+00:00
+...
+

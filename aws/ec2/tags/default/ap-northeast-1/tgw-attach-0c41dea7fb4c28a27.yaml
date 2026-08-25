@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: tgw-attach-0c41dea7fb4c28a27
+specifics:
+  Name: mbx-bnb-gazelle-prod-futures-to-mbx-hub
+...
+

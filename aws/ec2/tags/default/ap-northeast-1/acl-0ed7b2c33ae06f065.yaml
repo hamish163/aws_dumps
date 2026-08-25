@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: acl-0ed7b2c33ae06f065
+specifics:
+  Name: tky_stage_mbx_internal_nacl
+  env: stage
+  project: mbx
+...
+

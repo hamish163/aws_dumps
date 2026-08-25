@@ -1,0 +1,54 @@
+---
+datatype: aws.ec2.route_tables
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rtb-0354cd545abd0c7e2
+specifics:
+  Associations:
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-058d6f31cd33b4b84
+    RouteTableId: rtb-0354cd545abd0c7e2
+    SubnetId: subnet-0aba9b664196a1c43
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-0db9b1bb2d03e56d0
+    RouteTableId: rtb-0354cd545abd0c7e2
+    SubnetId: subnet-008e9a7eab332a14b
+  OwnerId: '862793644923'
+  PropagatingVgws: []
+  RouteTableId: rtb-0354cd545abd0c7e2
+  Routes:
+  - DestinationCidrBlock: 172.20.0.0/16
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-018192a6b12ebfe36
+  - DestinationCidrBlock: 172.25.0.0/16
+    GatewayId: local
+    Origin: CreateRouteTable
+    State: active
+  - DestinationCidrBlock: 10.12.0.0/16
+    Origin: CreateRoute
+    State: active
+    TransitGatewayId: tgw-094ec8a8749ab72d4
+  - DestinationCidrBlock: 10.99.0.0/16
+    Origin: CreateRoute
+    State: blackhole
+    VpcPeeringConnectionId: pcx-05cc75792e2a5eb15
+  - DestinationCidrBlock: 0.0.0.0/0
+    GatewayId: igw-0f4515616bfcb2f75
+    Origin: CreateRoute
+    State: active
+  Tags:
+  - Key: Name
+    Value: ap2-bitdj-external
+  - Key: env
+    Value: ap2
+  - Key: project
+    Value: bitdj
+  VpcId: vpc-07652e77a8fa0e0c2
+...
+

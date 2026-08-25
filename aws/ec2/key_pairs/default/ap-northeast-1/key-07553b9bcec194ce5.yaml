@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.key_pairs
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: key-07553b9bcec194ce5
+specifics:
+  CreateTime: 2017-12-08 02:10:59+00:00
+  KeyFingerprint: 22:69:8b:f9:ea:36:c2:f5:66:dc:4e:cf:60:d8:14:c7:10:06:70:00
+  KeyName: bitdj-tools-key
+  KeyPairId: key-07553b9bcec194ce5
+  KeyType: rsa
+  Tags: []
+...
+

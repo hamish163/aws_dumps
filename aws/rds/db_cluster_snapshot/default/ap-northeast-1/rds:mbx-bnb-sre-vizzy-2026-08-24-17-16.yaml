@@ -1,0 +1,44 @@
+---
+datatype: aws.rds.db_cluster_snapshot
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rds:mbx-bnb-sre-vizzy-2026-08-24-17-16
+specifics:
+  AllocatedStorage: 1
+  AvailabilityZones:
+  - ap-northeast-1a
+  - ap-northeast-1c
+  - ap-northeast-1d
+  ClusterCreateTime: 2025-08-25 06:04:02.448000+00:00
+  DBClusterIdentifier: mbx-bnb-sre-vizzy
+  DBClusterSnapshotArn: arn:aws:rds:ap-northeast-1:862793644923:cluster-snapshot:rds:mbx-bnb-sre-vizzy-2026-08-24-17-16
+  DBClusterSnapshotIdentifier: rds:mbx-bnb-sre-vizzy-2026-08-24-17-16
+  DbClusterResourceId: cluster-AGMLMV6LCNGWHCVM6E4P3HW6FA
+  Engine: neptune
+  EngineMode: provisioned
+  EngineVersion: 1.4.5.1
+  IAMDatabaseAuthenticationEnabled: true
+  KmsKeyId: arn:aws:kms:ap-northeast-1:862793644923:key/4d70afbb-e9b9-4bb7-83f2-8de31f8a5460
+  LicenseModel: neptune
+  MasterUsername: admin
+  PercentProgress: 100
+  Port: 0
+  SnapshotCreateTime: 2026-08-24 17:17:29.301000+00:00
+  SnapshotType: automated
+  Status: available
+  StorageEncrypted: true
+  TagList:
+  - Key: mbx_env_name
+    Value: sre
+  - Key: biz
+    Value: mbx
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  - Key: Name
+    Value: mbx-bnb-sre-vizzy
+  VpcId: vpc-0ba76150fc7799f94
+...
+

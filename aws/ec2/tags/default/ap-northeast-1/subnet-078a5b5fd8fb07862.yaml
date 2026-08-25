@@ -1,0 +1,14 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: subnet-078a5b5fd8fb07862
+specifics:
+  Name: mbx-tools-prod-subnet-private2-az-1c
+  biz: mbx
+  mbx_env_name: prod
+  mbx_exchange_name: tools
+  team: mbx
+...
+

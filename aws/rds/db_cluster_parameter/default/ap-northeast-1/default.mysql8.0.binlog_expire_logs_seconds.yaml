@@ -1,0 +1,24 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.binlog_expire_logs_seconds
+specifics:
+  AllowedValues: 0-4294967295
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: If non-zero, binary logs will be purged after expire_logs_days days;
+    If this option alone is set on the command line or in a configuration file, it
+    overrides the default value for binlog-expire-logs-seconds. If both options are
+    set to nonzero values, binlog-expire-logs-seconds takes priority. Possible purges
+    happen at startup and at binary log rotation.
+  IsModifiable: true
+  ParameterName: binlog_expire_logs_seconds
+  ParameterValue: '2592000'
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

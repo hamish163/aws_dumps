@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql16.log_min_error_statement
+specifics:
+  AllowedValues: debug5,debug4,debug3,debug2,debug1,info,notice,warning,error,log,fatal,panic
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Causes all statements generating error at or above this level to be
+    logged.
+  IsModifiable: true
+  ParameterName: log_min_error_statement
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

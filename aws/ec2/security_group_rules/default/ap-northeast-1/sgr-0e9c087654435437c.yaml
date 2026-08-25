@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0e9c087654435437c
+specifics:
+  Description: Allow TCP traffic from mgmt-api-sapi-alb SG on port 8080
+  FromPort: 8080
+  GroupId: sg-08fa634331cf6326e
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0a0a0c1db0748960b
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0e9c087654435437c
+  Tags: []
+  ToPort: 8080
+...
+

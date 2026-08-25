@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: NeptuneFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/NeptuneFullAccess
+  AttachmentCount: 0
+  CreateDate: 2018-05-30 19:17:31+00:00
+  DefaultVersionId: v7
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIXSDEYRCNJRC6ITFK
+  PolicyName: NeptuneFullAccess
+  UpdateDate: 2024-01-22 16:32:31+00:00
+...
+

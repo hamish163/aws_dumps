@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: snap-0359a69461e96d9ee
+specifics:
+  Name: 20200822-ap2-redmine-psql-pv
+...
+

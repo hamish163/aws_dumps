@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-devops-fix-api-marketdata-geofence
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/mbx-bnb-devops-fix-api-marketdata-geofence
+  AttachmentCount: 1
+  CreateDate: 2025-09-23 13:03:19+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5SAOH6FOIG
+  PolicyName: mbx-bnb-devops-fix-api-marketdata-geofence
+  UpdateDate: 2025-09-23 13:03:19+00:00
+...
+

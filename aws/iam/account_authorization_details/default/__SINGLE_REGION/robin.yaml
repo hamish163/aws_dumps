@@ -1,0 +1,42 @@
+---
+datatype: aws.iam.account_authorization_details
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: robin
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/robin
+  AttachedManagedPolicies: []
+  CreateDate: 2019-04-18 05:46:43+00:00
+  GroupList:
+  - developer
+  - DEV_TEAM
+  - mbx_bedrock
+  Path: /
+  Tags:
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbz
+  - Key: mbx_team
+    Value: dev
+  - Key: mbx_iam
+    Value: robin
+  UserId: AIDA4RYUCHN5UGXDVKCB2
+  UserName: robin
+  UserPolicyList:
+  - PolicyDocument:
+      Statement:
+      - Action:
+        - '*'
+        Condition:
+          DateLessThan:
+            aws:TokenIssueTime: '2026-04-06T09:04:26.520Z'
+        Effect: Deny
+        Resource:
+        - '*'
+      Version: '2012-10-17'
+    PolicyName: AWSRevokeOlderSessions
+...
+

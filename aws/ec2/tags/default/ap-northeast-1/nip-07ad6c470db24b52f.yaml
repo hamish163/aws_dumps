@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: nip-07ad6c470db24b52f
+specifics:
+  Name: test-tky-mbx
+...
+

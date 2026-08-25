@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSDeviceFarmTestGridServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AWSDeviceFarmTestGridServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2021-05-26 22:01:35+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4KOLIVAOCV
+  PolicyName: AWSDeviceFarmTestGridServiceRolePolicy
+  UpdateDate: 2021-05-26 22:01:35+00:00
+...
+

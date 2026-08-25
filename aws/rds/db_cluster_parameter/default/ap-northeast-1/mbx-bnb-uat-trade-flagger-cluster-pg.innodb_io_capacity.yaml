@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-trade-flagger-cluster-pg.innodb_io_capacity
+specifics:
+  AllowedValues: 100-18446744073709551615
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: The maximum number of I/O operations per second that InnoDB will perform.
+  IsModifiable: false
+  ParameterName: innodb_io_capacity
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

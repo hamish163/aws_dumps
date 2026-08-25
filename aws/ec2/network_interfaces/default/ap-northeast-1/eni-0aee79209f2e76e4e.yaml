@@ -1,0 +1,45 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-0aee79209f2e76e4e
+specifics:
+  Attachment:
+    AttachTime: 2026-07-31 22:51:23+00:00
+    AttachmentId: eni-attach-03aede7ddb3393c5f
+    DeleteOnTermination: false
+    DeviceIndex: 1
+    InstanceOwnerId: '187810197338'
+    NetworkCardIndex: 0
+    Status: attached
+  AvailabilityZone: ap-northeast-1c
+  ConnectionTrackingConfiguration:
+    TcpEstablishedTimeout: 600
+    UdpStreamTimeout: 60
+    UdpTimeout: 30
+  DenyAllIgwTraffic: true
+  Description: 'Route 53 Resolver: rslvr-in-dec405ae69cf496cb:rni-8590c9324fb646959'
+  Groups:
+  - GroupId: sg-09f6c6a3ad1945d32
+    GroupName: mbx-bnb-sre-emu-resolver-inbound
+  InterfaceType: interface
+  Ipv6Addresses: []
+  MacAddress: 0a:10:b6:bb:17:2b
+  NetworkInterfaceId: eni-0aee79209f2e76e4e
+  OwnerId: '862793644923'
+  PrivateDnsName: ip-10-240-15-176.ap-northeast-1.compute.internal
+  PrivateIpAddress: 10.240.15.176
+  PrivateIpAddresses:
+  - Primary: true
+    PrivateDnsName: ip-10-240-15-176.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.240.15.176
+  RequesterId: '187810197338'
+  RequesterManaged: true
+  SourceDestCheck: true
+  Status: in-use
+  SubnetId: subnet-06d37542eac765265
+  TagSet: []
+  VpcId: vpc-0ba76150fc7799f94
+...
+

@@ -1,0 +1,18 @@
+---
+datatype: aws.eks.access_entry
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:eks:ap-northeast-1:862793644923:access-entry/mbx_bnb_prod-comply-cluster/role/862793644923/AWSServiceRoleForAmazonEKS/76ca7b8c-8a51-ffd7-b2ab-0ef489cd3b3e
+specifics:
+  accessEntryArn: arn:aws:eks:ap-northeast-1:862793644923:access-entry/mbx_bnb_prod-comply-cluster/role/862793644923/AWSServiceRoleForAmazonEKS/76ca7b8c-8a51-ffd7-b2ab-0ef489cd3b3e
+  clusterName: mbx_bnb_prod-comply-cluster
+  createdAt: 2025-02-12 09:20:03.766000+11:00
+  kubernetesGroups: []
+  modifiedAt: 2025-02-12 09:20:03.766000+11:00
+  principalArn: arn:aws:iam::862793644923:role/aws-service-role/eks.amazonaws.com/AWSServiceRoleForAmazonEKS
+  tags: {}
+  type: STANDARD
+  username: arn:aws:sts::862793644923:assumed-role/AWSServiceRoleForAmazonEKS/{{SessionName}}
+...
+

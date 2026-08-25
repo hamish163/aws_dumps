@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-08d7d95999f250d79
+specifics:
+  Description: Allow TCP traffic from lithium-regression SG on port 22
+  FromPort: 22
+  GroupId: sg-0e8dbed3dd25c6872
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-05e74ff7fcee2510f
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-08d7d95999f250d79
+  Tags: []
+  ToPort: 22
+...
+

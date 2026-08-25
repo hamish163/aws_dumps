@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSCodePipeline_ReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSCodePipeline_ReadOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2020-08-03 22:25:17+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4IGBTPGT6W
+  PolicyName: AWSCodePipeline_ReadOnlyAccess
+  UpdateDate: 2020-08-03 22:25:17+00:00
+...
+

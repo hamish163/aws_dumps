@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: allowExecAthenaQuery
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/allowExecAthenaQuery
+  AttachmentCount: 3
+  CreateDate: 2021-02-04 03:15:10+00:00
+  DefaultVersionId: v6
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN525SFWSFIH
+  PolicyName: allowExecAthenaQuery
+  UpdateDate: 2021-06-21 08:52:55+00:00
+...
+

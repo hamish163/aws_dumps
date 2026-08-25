@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.innodb_ft_total_cache_size
+specifics:
+  AllowedValues: 32000000-1600000000
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: The total memory allocated, in bytes, for the InnoDB FULLTEXT search
+    index cache for all tables.
+  IsModifiable: true
+  ParameterName: innodb_ft_total_cache_size
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

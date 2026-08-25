@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: packer-66e39730-09cb-99f1-8841-7196bfa47833
+  single_region: true
+specifics:
+  biz: mbx
+  env_type: devops
+  project: mbx
+  role: ami-oci-builder
+  team: devops
+...
+

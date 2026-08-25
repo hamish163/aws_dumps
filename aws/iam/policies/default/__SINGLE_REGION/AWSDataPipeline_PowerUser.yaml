@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSDataPipeline_PowerUser
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSDataPipeline_PowerUser
+  AttachmentCount: 0
+  CreateDate: 2017-01-19 23:16:46+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIMXGLVY6DVR24VTYS
+  PolicyName: AWSDataPipeline_PowerUser
+  UpdateDate: 2017-08-17 18:49:42+00:00
+...
+

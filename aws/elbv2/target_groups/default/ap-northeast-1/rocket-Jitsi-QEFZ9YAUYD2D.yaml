@@ -1,0 +1,28 @@
+---
+datatype: aws.elbv2.target_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rocket-Jitsi-QEFZ9YAUYD2D
+specifics:
+  HealthCheckEnabled: true
+  HealthCheckIntervalSeconds: 10
+  HealthCheckPath: /
+  HealthCheckPort: traffic-port
+  HealthCheckProtocol: HTTP
+  HealthCheckTimeoutSeconds: 5
+  HealthyThresholdCount: 2
+  IpAddressType: ipv4
+  LoadBalancerArns: []
+  Matcher:
+    HttpCode: '200'
+  Port: 80
+  Protocol: HTTP
+  ProtocolVersion: HTTP1
+  TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/rocket-Jitsi-QEFZ9YAUYD2D/7f0b93a7db20d496
+  TargetGroupName: rocket-Jitsi-QEFZ9YAUYD2D
+  TargetType: instance
+  UnhealthyThresholdCount: 2
+  VpcId: vpc-06f40d5e429c4aac6
+...
+

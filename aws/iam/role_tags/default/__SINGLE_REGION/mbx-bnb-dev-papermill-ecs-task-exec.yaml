@@ -1,0 +1,18 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-dev-papermill-ecs-task-exec
+  single_region: true
+specifics:
+  biz: mbx
+  env: dev
+  exchange_id: bnb
+  mbx_application_name: papermill
+  mbx_env_name: dev
+  mbx_exchange_name: bnb
+  project: mbx
+  team: mbx
+...
+

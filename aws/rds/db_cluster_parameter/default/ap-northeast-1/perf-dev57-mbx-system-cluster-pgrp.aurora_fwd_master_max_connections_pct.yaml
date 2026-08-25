@@ -1,0 +1,22 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev57-mbx-system-cluster-pgrp.aurora_fwd_master_max_connections_pct
+specifics:
+  AllowedValues: 0-90
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: The percentage of max_connections that can be used for connections
+    forwarded from Replicas.
+  IsModifiable: true
+  MinimumEngineVersion: 5.7.mysql_aurora.2.08.1
+  ParameterName: aurora_fwd_master_max_connections_pct
+  ParameterValue: '10'
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

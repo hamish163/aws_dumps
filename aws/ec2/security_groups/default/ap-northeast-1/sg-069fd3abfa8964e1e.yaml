@@ -1,0 +1,26 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-069fd3abfa8964e1e
+specifics:
+  Description: Security group for rest api ALB
+  GroupId: sg-069fd3abfa8964e1e
+  GroupName: mbx-bnb-devops-rest-api-alb
+  Tags:
+  - Key: mbx_secret_store
+    Value: none
+  - Key: Name
+    Value: mbx-bnb-devops-rest-api-alb
+  - Key: biz
+    Value: mbx
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  - Key: mbx_env_name
+    Value: devops
+  VpcId: vpc-07519eb63f1d932ac
+...
+

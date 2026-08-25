@@ -1,0 +1,21 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: StepFunctions-tungsten-cicd-role-d62002cf
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/service-role/CloudWatchLogsDeliveryFullAccessPolicy-f8966d27-6443-49ab-a686-2bc5e94720db
+    PolicyName: CloudWatchLogsDeliveryFullAccessPolicy-f8966d27-6443-49ab-a686-2bc5e94720db
+  - PolicyArn: arn:aws:iam::862793644923:policy/service-role/XRayAccessPolicy-ee8d1ef3-3c6c-4df4-ac93-61f6a292c473
+    PolicyName: XRayAccessPolicy-ee8d1ef3-3c6c-4df4-ac93-61f6a292c473
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonEC2FullAccess
+    PolicyName: AmazonEC2FullAccess
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess
+    PolicyName: AmazonS3ReadOnlyAccess
+  - PolicyArn: arn:aws:iam::aws:policy/AWSCloudFormationFullAccess
+    PolicyName: AWSCloudFormationFullAccess
+...
+

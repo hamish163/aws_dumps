@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-aggtrade-cluster-pg.plugin_dir
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: Directory searched by systems dynamic linker for UDF object files.
+    Otherwise, user-defined function object files must be located the default directory.
+  IsModifiable: false
+  ParameterName: plugin_dir
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

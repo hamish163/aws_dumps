@@ -1,0 +1,31 @@
+---
+datatype: aws.ec2.route_tables
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rtb-052ffd7e24a02b925
+specifics:
+  Associations:
+  - AssociationState:
+      State: associated
+    Main: true
+    RouteTableAssociationId: rtbassoc-07549802763c3396a
+    RouteTableId: rtb-052ffd7e24a02b925
+  OwnerId: '862793644923'
+  PropagatingVgws: []
+  RouteTableId: rtb-052ffd7e24a02b925
+  Routes:
+  - DestinationCidrBlock: 10.143.0.0/16
+    GatewayId: local
+    Origin: CreateRouteTable
+    State: active
+  - DestinationCidrBlock: 10.0.0.0/8
+    Origin: CreateRoute
+    State: active
+    TransitGatewayId: tgw-094ec8a8749ab72d4
+  Tags:
+  - Key: Name
+    Value: saltmaster_default_route_table
+  VpcId: vpc-097095a8b70ef6727
+...
+

@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-spade-order-cluster-pg.server_id
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Integer value used to identify the instance in a replication group
+  IsModifiable: false
+  ParameterName: server_id
+  ParameterValue: '{ServerId}'
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

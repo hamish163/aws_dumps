@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonSSMFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonSSMFullAccess
+  AttachmentCount: 0
+  CreateDate: 2015-05-29 17:39:47+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJA7V6HI4ISQFMDYAG
+  PolicyName: AmazonSSMFullAccess
+  UpdateDate: 2019-11-20 20:08:56+00:00
+...
+

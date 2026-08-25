@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.key_pairs
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: key-05c28c1d470f024df
+specifics:
+  CreateTime: 2024-02-29 13:46:13.455000+00:00
+  KeyFingerprint: B6+TthucjtvfYHS/xVzCmmycPQi8XxI09eWnMvZ2Rlw=
+  KeyName: rocketchat-test-env
+  KeyPairId: key-05c28c1d470f024df
+  KeyType: ed25519
+  Tags: []
+...
+

@@ -1,0 +1,22 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-03c2838711d3063ee
+specifics:
+  Description: Default SG for bnb prod-gw bastion instances
+  GroupId: sg-03c2838711d3063ee
+  GroupName: mbx-bnb-prod-gw-default
+  Tags:
+  - Key: biz
+    Value: mbx
+  - Key: mbx_env_name
+    Value: prod
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  VpcId: vpc-02b8e59b778077bf9
+...
+

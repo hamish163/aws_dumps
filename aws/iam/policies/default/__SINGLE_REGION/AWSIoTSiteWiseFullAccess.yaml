@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSIoTSiteWiseFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSIoTSiteWiseFullAccess
+  AttachmentCount: 0
+  CreateDate: 2018-12-04 20:53:39+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAILUK3XBM6TZ5Q3PX2
+  PolicyName: AWSIoTSiteWiseFullAccess
+  UpdateDate: 2018-12-04 20:53:39+00:00
+...
+

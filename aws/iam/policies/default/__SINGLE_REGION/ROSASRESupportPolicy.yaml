@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: ROSASRESupportPolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/ROSASRESupportPolicy
+  AttachmentCount: 0
+  CreateDate: 2023-06-01 14:36:06+00:00
+  DefaultVersionId: v6
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4J4WC2J4K2
+  PolicyName: ROSASRESupportPolicy
+  UpdateDate: 2026-02-12 17:59:23+00:00
+...
+

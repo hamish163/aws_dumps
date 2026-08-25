@@ -1,0 +1,17 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-devops-journal-archive
+  single_region: true
+specifics:
+  Name: mbx-bnb-devops-journal-archive
+  biz: mbx
+  mbx_application_name: journal-archive
+  mbx_env_name: devops
+  mbx_exchange_name: bnb
+  mbx_secret_store: none
+  team: mbx
+...
+

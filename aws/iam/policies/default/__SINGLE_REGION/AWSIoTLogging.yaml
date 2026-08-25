@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSIoTLogging
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AWSIoTLogging
+  AttachmentCount: 0
+  CreateDate: 2015-10-08 15:17:25+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAI6R6Z2FHHGS454W7W
+  PolicyName: AWSIoTLogging
+  UpdateDate: 2015-10-08 15:17:25+00:00
+...
+

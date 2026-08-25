@@ -1,0 +1,16 @@
+---
+datatype: aws.iam.users
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: alexis
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/alexis
+  CreateDate: 2018-08-13 03:25:40+00:00
+  PasswordLastUsed: 2026-05-07 07:03:59+00:00
+  Path: /
+  UserId: AIDAIGNCLUPIL4NCCFQ42
+  UserName: alexis
+...
+

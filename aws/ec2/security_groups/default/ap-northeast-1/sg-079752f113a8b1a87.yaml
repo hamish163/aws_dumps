@@ -1,0 +1,28 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-079752f113a8b1a87
+specifics:
+  Description: Managed by Terraform
+  GroupId: sg-079752f113a8b1a87
+  GroupName: mbx-bnb-perf-spade-cache
+  Tags:
+  - Key: mbx_secret_store
+    Value: asm
+  - Key: mbx_env_name
+    Value: perf
+  - Key: biz
+    Value: mbx
+  - Key: team
+    Value: mbx
+  - Key: mbx_application_name
+    Value: mbx-data-spade-cache
+  - Key: Name
+    Value: mbx-bnb-perf-spade-cache
+  - Key: mbx_exchange_name
+    Value: bnb
+  VpcId: vpc-013930e589c469574
+...
+

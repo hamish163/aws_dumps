@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.key_pairs
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: key-02911fd5329e4aac3
+specifics:
+  CreateTime: 2024-01-16 23:37:41.764000+00:00
+  KeyFingerprint: CNgvYR+o8GcKIHMumPYb0Bb9/FRhC4iW3aqLX2a4gIo=
+  KeyName: tomastest-redmine-9723
+  KeyPairId: key-02911fd5329e4aac3
+  KeyType: ed25519
+  Tags: []
+...
+

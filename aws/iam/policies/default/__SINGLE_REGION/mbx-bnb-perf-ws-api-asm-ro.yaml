@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-perf-ws-api-asm-ro
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/mbx-bnb-perf-ws-api-asm-ro
+  AttachmentCount: 1
+  CreateDate: 2025-07-18 08:19:46+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN54RTJ4H3YZ
+  PolicyName: mbx-bnb-perf-ws-api-asm-ro
+  UpdateDate: 2025-12-04 13:24:57+00:00
+...
+

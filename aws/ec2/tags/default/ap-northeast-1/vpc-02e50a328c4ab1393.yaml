@@ -1,0 +1,14 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vpc-02e50a328c4ab1393
+specifics:
+  Name: mbx-usa-bastion
+  biz: mbx
+  mbx_env_name: prod
+  mbx_exchange_name: usa
+  team: mbx
+...
+

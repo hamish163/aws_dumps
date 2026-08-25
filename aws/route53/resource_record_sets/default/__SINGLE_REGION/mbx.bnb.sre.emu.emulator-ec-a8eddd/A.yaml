@@ -1,0 +1,16 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx.bnb.sre.emu.emulator-ec-a8eddd/A
+  single_region: true
+specifics:
+  Name: emulator-ec-a8eddd.emu.sre.bnb.mbx.
+  ResourceRecords:
+  - Value: 10.240.14.240
+  - Value: 10.240.15.117
+  TTL: 300
+  Type: A
+...
+

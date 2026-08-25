@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSWellArchitectedAgentResourceScanningServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AWSWellArchitectedAgentResourceScanningServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2026-08-04 17:27:18+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4HNSXU64CN
+  PolicyName: AWSWellArchitectedAgentResourceScanningServiceRolePolicy
+  UpdateDate: 2026-08-13 00:27:19+00:00
+...
+

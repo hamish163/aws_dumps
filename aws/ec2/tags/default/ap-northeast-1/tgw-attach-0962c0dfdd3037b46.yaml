@@ -1,0 +1,13 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: tgw-attach-0962c0dfdd3037b46
+specifics:
+  Name: ClientVPN-ap2
+  biz: mbx
+  team: mbx
+  used_by: solutions
+...
+

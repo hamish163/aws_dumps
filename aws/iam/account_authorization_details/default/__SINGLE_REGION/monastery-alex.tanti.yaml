@@ -1,0 +1,25 @@
+---
+datatype: aws.iam.account_authorization_details
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: monastery-alex.tanti
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/monastery-alex.tanti
+  AttachedManagedPolicies: []
+  CreateDate: 2026-08-12 09:29:52+00:00
+  GroupList:
+  - mbx-monastery-aws-group-sre
+  Path: /
+  Tags:
+  - Key: monastery-team
+    Value: sre
+  - Key: biz
+    Value: mbx
+  - Key: team
+    Value: mbx
+  UserId: AIDA4RYUCHN5QK7FPB6GO
+  UserName: monastery-alex.tanti
+...
+

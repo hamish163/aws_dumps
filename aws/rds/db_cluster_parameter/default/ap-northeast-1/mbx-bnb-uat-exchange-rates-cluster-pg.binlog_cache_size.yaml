@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-exchange-rates-cluster-pg.binlog_cache_size
+specifics:
+  AllowedValues: 4096-18446744073709547520
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: The size of the cache to hold the SQL statements for the binary log
+    during a transaction.
+  IsModifiable: true
+  ParameterName: binlog_cache_size
+  ParameterValue: '32768'
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

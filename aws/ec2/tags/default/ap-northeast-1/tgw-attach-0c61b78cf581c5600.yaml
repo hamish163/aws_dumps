@@ -1,0 +1,14 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: tgw-attach-0c61b78cf581c5600
+specifics:
+  Name: mbx-usa-bastion
+  biz: mbx
+  mbx_env_name: prod
+  mbx_exchange_name: usa
+  team: mbx
+...
+

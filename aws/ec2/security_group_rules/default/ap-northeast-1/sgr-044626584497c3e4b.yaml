@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-044626584497c3e4b
+specifics:
+  Description: Allow TCP traffic from key-shovel SG on port 5483
+  FromPort: 5483
+  GroupId: sg-030abd5aa8d5b0a53
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-03761caf4e31aaf82
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-044626584497c3e4b
+  Tags: []
+  ToPort: 5483
+...
+

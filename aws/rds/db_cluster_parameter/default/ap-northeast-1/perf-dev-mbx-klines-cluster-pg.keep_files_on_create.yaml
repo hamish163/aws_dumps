@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-klines-cluster-pg.keep_files_on_create
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Suppress behavior to overwrite MyISAM file created in DATA DIRECTORY
+    or INDEX DIRECTORY.
+  IsModifiable: true
+  ParameterName: keep_files_on_create
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

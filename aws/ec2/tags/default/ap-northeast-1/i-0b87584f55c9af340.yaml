@@ -1,0 +1,18 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-0b87584f55c9af340
+specifics:
+  Name: mbx-bnb-devops-salt-master1
+  biz: mbx
+  mbx_clustered_application: 'false'
+  mbx_env_name: devops
+  mbx_env_type: multi-node
+  mbx_exchange_name: bnb
+  mbx_host_index: '1'
+  mbx_secret_store: asm
+  team: mbx
+...
+

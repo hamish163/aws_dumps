@@ -1,0 +1,16 @@
+---
+datatype: aws.iam.users
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: ilammy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/ilammy
+  CreateDate: 2024-01-29 07:55:46+00:00
+  PasswordLastUsed: 2026-05-06 23:08:50+00:00
+  Path: /
+  UserId: AIDA4RYUCHN5ZEH3P5WHY
+  UserName: ilammy
+...
+

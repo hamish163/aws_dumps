@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonOpenSearchServiceReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonOpenSearchServiceReadOnlyAccess
+  AttachmentCount: 1
+  CreateDate: 2021-09-08 05:38:13+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4PQONZTCWT
+  PolicyName: AmazonOpenSearchServiceReadOnlyAccess
+  UpdateDate: 2021-09-08 05:38:13+00:00
+...
+

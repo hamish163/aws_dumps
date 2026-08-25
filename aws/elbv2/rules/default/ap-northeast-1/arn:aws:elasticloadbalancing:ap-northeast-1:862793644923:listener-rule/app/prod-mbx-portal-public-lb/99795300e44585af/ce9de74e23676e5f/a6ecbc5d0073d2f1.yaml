@@ -1,0 +1,24 @@
+---
+datatype: aws.elbv2.rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener-rule/app/prod-mbx-portal-public-lb/99795300e44585af/ce9de74e23676e5f/a6ecbc5d0073d2f1
+specifics:
+  Actions:
+  - ForwardConfig:
+      TargetGroupStickinessConfig:
+        Enabled: false
+      TargetGroups:
+      - TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/prod-mbx-portal-tg/1cbd170456e2e775
+        Weight: 1
+    Order: 1
+    TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/prod-mbx-portal-tg/1cbd170456e2e775
+    Type: forward
+  Conditions: []
+  IsDefault: true
+  Priority: default
+  RuleArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener-rule/app/prod-mbx-portal-public-lb/99795300e44585af/ce9de74e23676e5f/a6ecbc5d0073d2f1
+  _listener_arn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener/app/prod-mbx-portal-public-lb/99795300e44585af/ce9de74e23676e5f
+...
+

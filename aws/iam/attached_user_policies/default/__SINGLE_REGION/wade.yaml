@@ -1,0 +1,16 @@
+---
+datatype: aws.iam.attached_user_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: wade
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::aws:policy/AWSGlueConsoleFullAccess
+    PolicyName: AWSGlueConsoleFullAccess
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonAthenaFullAccess
+    PolicyName: AmazonAthenaFullAccess
+  _UserName: wade
+...
+

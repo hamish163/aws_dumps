@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-devops-aquduect_monthly_reports-lambda-role
+  single_region: true
+specifics:
+  Name: mbx-bnb-devops-aquduect_monthly_reports
+  biz: mbx
+  mbx_env_name: devops
+  mbx_exchange_name: bnb
+  team: mbx
+...
+

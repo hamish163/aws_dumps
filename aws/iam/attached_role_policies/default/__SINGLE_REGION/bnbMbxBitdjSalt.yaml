@@ -1,0 +1,17 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: bnbMbxBitdjSalt
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/AllowSaltMasterSecretsAccess
+    PolicyName: AllowSaltMasterSecretsAccess
+  - PolicyArn: arn:aws:iam::862793644923:policy/AllowJenkinsS3Access
+    PolicyName: AllowJenkinsS3Access
+  - PolicyArn: arn:aws:iam::862793644923:policy/ro_allow_describe_ec2instances
+    PolicyName: ro_allow_describe_ec2instances
+...
+

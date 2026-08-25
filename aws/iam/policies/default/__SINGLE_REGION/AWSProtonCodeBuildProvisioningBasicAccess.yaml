@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSProtonCodeBuildProvisioningBasicAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSProtonCodeBuildProvisioningBasicAccess
+  AttachmentCount: 0
+  CreateDate: 2022-11-09 21:04:16+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4MZL5CKSIM
+  PolicyName: AWSProtonCodeBuildProvisioningBasicAccess
+  UpdateDate: 2022-11-09 21:04:16+00:00
+...
+

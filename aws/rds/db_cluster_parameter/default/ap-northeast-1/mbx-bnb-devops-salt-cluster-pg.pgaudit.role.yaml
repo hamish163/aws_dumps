@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-devops-salt-cluster-pg.pgaudit.role
+specifics:
+  AllowedValues: rds_pgaudit
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Specifies the master role to use for object audit logging.
+  IsModifiable: true
+  ParameterName: pgaudit.role
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

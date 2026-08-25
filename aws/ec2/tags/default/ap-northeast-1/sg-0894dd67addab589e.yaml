@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0894dd67addab589e
+specifics:
+  Name: apisharing-poc-sg
+...
+

@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.key_pairs
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: key-091f2eee3a0e21099
+specifics:
+  CreateTime: 2018-11-09 03:12:16+00:00
+  KeyFingerprint: 18:a4:77:af:0d:67:73:41:86:2f:44:7c:db:c9:d5:69:fa:96:9b:57
+  KeyName: rmq-perf
+  KeyPairId: key-091f2eee3a0e21099
+  KeyType: rsa
+  Tags: []
+...
+

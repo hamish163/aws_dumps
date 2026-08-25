@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AllowAccessMBXECR
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/AllowAccessMBXECR
+  AttachmentCount: 0
+  CreateDate: 2019-10-23 07:15:42+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5USX2CFBZR
+  PolicyName: AllowAccessMBXECR
+  UpdateDate: 2019-10-23 07:15:42+00:00
+...
+

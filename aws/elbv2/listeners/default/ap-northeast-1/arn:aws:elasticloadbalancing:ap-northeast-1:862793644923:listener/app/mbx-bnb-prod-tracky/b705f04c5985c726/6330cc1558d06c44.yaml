@@ -1,0 +1,40 @@
+---
+datatype: aws.elbv2.listeners
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener/app/mbx-bnb-prod-tracky/b705f04c5985c726/6330cc1558d06c44
+specifics:
+  Certificates:
+  - CertificateArn: arn:aws:acm:ap-northeast-1:862793644923:certificate/2ea130a9-3d46-4002-ac05-78726890cec6
+  DefaultActions:
+  - ForwardConfig:
+      TargetGroupStickinessConfig:
+        Enabled: false
+      TargetGroups:
+      - TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-prod-tracky-int-tg/623d28deda58b4be
+        Weight: 1
+    Order: 2
+    TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-prod-tracky-int-tg/623d28deda58b4be
+    Type: forward
+  - AuthenticateOidcConfig:
+      AuthorizationEndpoint: https://binance.okta.com/oauth2/v1/authorize
+      ClientId: 0oa16vlm1rh1fBN1C358
+      Issuer: https://binance.okta.com
+      OnUnauthenticatedRequest: authenticate
+      Scope: openid
+      SessionCookieName: AWSELBAuthSessionCookie
+      SessionTimeout: 604800
+      TokenEndpoint: https://binance.okta.com/oauth2/v1/token
+      UserInfoEndpoint: https://binance.okta.com/oauth2/v1/userinfo
+    Order: 1
+    Type: authenticate-oidc
+  ListenerArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener/app/mbx-bnb-prod-tracky/b705f04c5985c726/6330cc1558d06c44
+  LoadBalancerArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:loadbalancer/app/mbx-bnb-prod-tracky/b705f04c5985c726
+  MutualAuthentication:
+    Mode: 'off'
+  Port: 443
+  Protocol: HTTPS
+  SslPolicy: ELBSecurityPolicy-2016-08
+...
+

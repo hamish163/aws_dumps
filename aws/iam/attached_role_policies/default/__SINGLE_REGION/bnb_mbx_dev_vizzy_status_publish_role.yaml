@@ -1,0 +1,13 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: bnb_mbx_dev_vizzy_status_publish_role
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/bnb_mbx_dev_vizzy_status_publish_iam
+    PolicyName: bnb_mbx_dev_vizzy_status_publish_iam
+...
+

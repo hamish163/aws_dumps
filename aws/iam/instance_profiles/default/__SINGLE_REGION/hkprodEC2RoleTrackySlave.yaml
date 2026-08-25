@@ -1,0 +1,29 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: hkprodEC2RoleTrackySlave
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/hkprodEC2RoleTrackySlave
+  CreateDate: 2020-07-02 10:43:46+00:00
+  InstanceProfileId: AIPA4RYUCHN5YUKS4RMXD
+  InstanceProfileName: hkprodEC2RoleTrackySlave
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/hkprodEC2RoleTrackySlave
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+        Sid: ''
+      Version: '2012-10-17'
+    CreateDate: 2020-07-02 10:43:45+00:00
+    Path: /
+    RoleId: AROA4RYUCHN5YKQERE4DT
+    RoleName: hkprodEC2RoleTrackySlave
+...
+

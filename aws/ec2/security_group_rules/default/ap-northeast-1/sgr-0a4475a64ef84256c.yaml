@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0a4475a64ef84256c
+specifics:
+  CidrIpv4: 10.21.0.0/16
+  Description: Allow inbound from Thanos Server
+  FromPort: 19181
+  GroupId: sg-0e17b3751185ddfb1
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-0a4475a64ef84256c
+  Tags: []
+  ToPort: 19181
+...
+

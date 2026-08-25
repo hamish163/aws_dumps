@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-077fd433cf98e0038
+specifics:
+  Name: mbx-bnb-devops-rundeck
+  biz: mbx
+  mbx_env_name: devops
+  mbx_exchange_name: bnb
+  mbx_secret_store: ''
+  team: mbx
+...
+

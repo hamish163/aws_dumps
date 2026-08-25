@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.neptune1.4.neptune_ml_iam_role
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: Default IAM role ARN for the Neptune ML feature
+  IsModifiable: true
+  ParameterName: neptune_ml_iam_role
+  ParameterValue: ''
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

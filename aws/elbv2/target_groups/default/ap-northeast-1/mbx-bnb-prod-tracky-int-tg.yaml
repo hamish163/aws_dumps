@@ -1,0 +1,29 @@
+---
+datatype: aws.elbv2.target_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-prod-tracky-int-tg
+specifics:
+  HealthCheckEnabled: true
+  HealthCheckIntervalSeconds: 30
+  HealthCheckPath: /resources/spinner_bars.svg
+  HealthCheckPort: traffic-port
+  HealthCheckProtocol: HTTP
+  HealthCheckTimeoutSeconds: 5
+  HealthyThresholdCount: 3
+  IpAddressType: ipv4
+  LoadBalancerArns:
+  - arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:loadbalancer/app/mbx-bnb-prod-tracky/b705f04c5985c726
+  Matcher:
+    HttpCode: '200'
+  Port: 5555
+  Protocol: HTTP
+  ProtocolVersion: HTTP1
+  TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-prod-tracky-int-tg/623d28deda58b4be
+  TargetGroupName: mbx-bnb-prod-tracky-int-tg
+  TargetType: instance
+  UnhealthyThresholdCount: 3
+  VpcId: vpc-03f5d2495fd8d95a3
+...
+

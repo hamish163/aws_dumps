@@ -1,0 +1,14 @@
+---
+datatype: aws.iam.mfa_devices
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: stefan
+  single_region: true
+specifics:
+  MFADevices:
+  - EnableDate: 2020-04-23 09:43:10+00:00
+    SerialNumber: arn:aws:iam::862793644923:mfa/stefan
+    UserName: stefan
+...
+

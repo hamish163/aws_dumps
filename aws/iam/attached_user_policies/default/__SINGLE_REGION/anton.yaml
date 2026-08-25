@@ -1,0 +1,30 @@
+---
+datatype: aws.iam.attached_user_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: anton
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::aws:policy/ResourceGroupsandTagEditorFullAccess
+    PolicyName: ResourceGroupsandTagEditorFullAccess
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess
+    PolicyName: AmazonEC2ReadOnlyAccess
+  - PolicyArn: arn:aws:iam::aws:policy/AWSOrganizationsReadOnlyAccess
+    PolicyName: AWSOrganizationsReadOnlyAccess
+  - PolicyArn: arn:aws:iam::aws:policy/ElasticLoadBalancingReadOnly
+    PolicyName: ElasticLoadBalancingReadOnly
+  - PolicyArn: arn:aws:iam::aws:policy/IAMReadOnlyAccess
+    PolicyName: IAMReadOnlyAccess
+  - PolicyArn: arn:aws:iam::aws:policy/job-function/ViewOnlyAccess
+    PolicyName: ViewOnlyAccess
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonRDSReadOnlyAccess
+    PolicyName: AmazonRDSReadOnlyAccess
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonDynamoDBFullAccess
+    PolicyName: AmazonDynamoDBFullAccess
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonS3FullAccess
+    PolicyName: AmazonS3FullAccess
+  _UserName: anton
+...
+

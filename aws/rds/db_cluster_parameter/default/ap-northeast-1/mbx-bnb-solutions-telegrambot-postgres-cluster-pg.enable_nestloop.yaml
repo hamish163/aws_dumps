@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-solutions-telegrambot-postgres-cluster-pg.enable_nestloop
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Enables the planners use of nested-loop join plans.
+  IsModifiable: true
+  ParameterName: enable_nestloop
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

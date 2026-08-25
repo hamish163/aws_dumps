@@ -1,0 +1,25 @@
+---
+datatype: aws.eks.addon
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: kube-proxy
+specifics:
+  addonArn: arn:aws:eks:ap-northeast-1:862793644923:addon/mbx-bnb-sre-emu/kube-proxy/08cfa47d-4d30-01f4-b98d-56a834c66d78
+  addonName: kube-proxy
+  addonVersion: v1.36.0-eksbuild.9
+  clusterName: mbx-bnb-sre-emu
+  createdAt: 2026-07-10 08:23:31.168000+10:00
+  health:
+    issues: []
+  modifiedAt: 2026-07-10 08:23:47.153000+10:00
+  status: ACTIVE
+  tags:
+    biz: mbx
+    mbx_env_name: sre
+    mbx_exchange_name: bnb
+    mbx_secret_store: none
+    stack_path: bnb/sre/eks/emu/extras
+    team: mbx
+...
+

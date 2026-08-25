@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql17.max_standby_streaming_delay
+specifics:
+  AllowedValues: 1000-30000
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: (ms) Sets the maximum delay before canceling queries when a hot standby
+    server is processing streamed WAL data.
+  IsModifiable: true
+  ParameterName: max_standby_streaming_delay
+  ParameterValue: '14000'
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

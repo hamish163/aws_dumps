@@ -1,0 +1,28 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-perf-ws-api
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/mbx-bnb-perf-ws-api
+  CreateDate: 2024-07-18 15:21:38+00:00
+  InstanceProfileId: AIPA4RYUCHN5QO4SPUGL6
+  InstanceProfileName: mbx-bnb-perf-ws-api
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/mbx-bnb-perf-ws-api
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+      Version: '2012-10-17'
+    CreateDate: 2024-07-18 15:21:37+00:00
+    Path: /
+    RoleId: AROA4RYUCHN57YYBPWH7O
+    RoleName: mbx-bnb-perf-ws-api
+...
+

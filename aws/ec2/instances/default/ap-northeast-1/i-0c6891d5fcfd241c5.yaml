@@ -1,0 +1,360 @@
+---
+datatype: aws.ec2.instances
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-0c6891d5fcfd241c5
+specifics:
+  AmiLaunchIndex: 0
+  Architecture: x86_64
+  BlockDeviceMappings:
+  - DeviceName: /dev/xvda
+    Ebs:
+      AttachTime: 2026-07-09 23:05:37+00:00
+      DeleteOnTermination: true
+      Status: attached
+      VolumeId: vol-02a67543be7648c32
+  - DeviceName: /dev/xvdaa
+    Ebs:
+      AttachTime: 2026-07-17 06:50:00.254000+00:00
+      DeleteOnTermination: false
+      Status: attached
+      VolumeId: vol-00f337424bba35415
+  BootMode: uefi-preferred
+  CapacityReservationSpecification:
+    CapacityReservationPreference: open
+  ClientToken: fleet-da97a8be-9c0d-ec85-8eb2-0b0aa7bab743-0
+  CpuOptions:
+    CoreCount: 4
+    ThreadsPerCore: 2
+  CurrentInstanceBootMode: uefi
+  EbsOptimized: false
+  EnaSupport: true
+  EnclaveOptions:
+    Enabled: false
+  HibernationOptions:
+    Configured: false
+  Hypervisor: xen
+  IamInstanceProfile:
+    Arn: arn:aws:iam::862793644923:instance-profile/eks-9ecfa373-d4b5-07da-ece8-68de6e29d035
+    Id: AIPA4RYUCHN5QBOCG4ECL
+  ImageId: ami-05f7641377db4993e
+  InstanceId: i-0c6891d5fcfd241c5
+  InstanceType: c5.2xlarge
+  KeyName: devops_ec2-id_ed25519
+  LaunchTime: 2026-07-09 23:05:36+00:00
+  MaintenanceOptions:
+    AutoRecovery: default
+  MetadataOptions:
+    HttpEndpoint: enabled
+    HttpProtocolIpv6: disabled
+    HttpPutResponseHopLimit: 2
+    HttpTokens: required
+    InstanceMetadataTags: disabled
+    State: applied
+  Monitoring:
+    State: disabled
+  NetworkInterfaces:
+  - Attachment:
+      AttachTime: 2026-07-09 23:05:36+00:00
+      AttachmentId: eni-attach-08fddabcfbde0402a
+      DeleteOnTermination: true
+      DeviceIndex: 0
+      NetworkCardIndex: 0
+      Status: attached
+    Description: ''
+    Groups:
+    - GroupId: sg-08c86b45efe5da751
+      GroupName: mbx-bnb-solutions-eks1-shared
+    - GroupId: sg-0ad88dfdc6d2c9ac0
+      GroupName: mbx-bnb-solutions-default
+    - GroupId: sg-0da43ff58cfa89cdd
+      GroupName: mbx-bnb-solutions-monitoring
+    - GroupId: sg-0028a919fd757d41c
+      GroupName: mbx-bnb-solutions-eks1-generic-nodes
+    InterfaceType: interface
+    Ipv6Addresses: []
+    MacAddress: 0a:76:00:a7:50:ed
+    NetworkInterfaceId: eni-0b1c37140546ab52c
+    OwnerId: '862793644923'
+    PrivateDnsName: ip-10-230-8-50.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.230.8.50
+    PrivateIpAddresses:
+    - Primary: true
+      PrivateDnsName: ip-10-230-8-50.ap-northeast-1.compute.internal
+      PrivateIpAddress: 10.230.8.50
+    SourceDestCheck: true
+    Status: in-use
+    SubnetId: subnet-0de7db28255d2a13f
+    VpcId: vpc-0218545ff4351ce04
+  - Attachment:
+      AttachTime: 2026-07-09 23:06:03+00:00
+      AttachmentId: eni-attach-0d8b4eae9c4dd730c
+      DeleteOnTermination: true
+      DeviceIndex: 1
+      NetworkCardIndex: 0
+      Status: attached
+    Description: aws-K8S-i-0c6891d5fcfd241c5
+    Groups:
+    - GroupId: sg-08c86b45efe5da751
+      GroupName: mbx-bnb-solutions-eks1-shared
+    InterfaceType: interface
+    Ipv6Addresses: []
+    MacAddress: 0a:eb:fd:37:86:95
+    NetworkInterfaceId: eni-0ad2bcf7a61566c15
+    OwnerId: '862793644923'
+    PrivateDnsName: ip-100-64-35-97.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.35.97
+    PrivateIpAddresses:
+    - Primary: true
+      PrivateDnsName: ip-100-64-35-97.ap-northeast-1.compute.internal
+      PrivateIpAddress: 100.64.35.97
+    - Primary: false
+      PrivateDnsName: ip-100-64-35-4.ap-northeast-1.compute.internal
+      PrivateIpAddress: 100.64.35.4
+    - Primary: false
+      PrivateDnsName: ip-100-64-37-5.ap-northeast-1.compute.internal
+      PrivateIpAddress: 100.64.37.5
+    - Primary: false
+      PrivateDnsName: ip-100-64-33-39.ap-northeast-1.compute.internal
+      PrivateIpAddress: 100.64.33.39
+    - Primary: false
+      PrivateDnsName: ip-100-64-38-136.ap-northeast-1.compute.internal
+      PrivateIpAddress: 100.64.38.136
+    - Primary: false
+      PrivateDnsName: ip-100-64-39-72.ap-northeast-1.compute.internal
+      PrivateIpAddress: 100.64.39.72
+    - Primary: false
+      PrivateDnsName: ip-100-64-42-12.ap-northeast-1.compute.internal
+      PrivateIpAddress: 100.64.42.12
+    - Primary: false
+      PrivateDnsName: ip-100-64-38-209.ap-northeast-1.compute.internal
+      PrivateIpAddress: 100.64.38.209
+    - Primary: false
+      PrivateDnsName: ip-100-64-35-210.ap-northeast-1.compute.internal
+      PrivateIpAddress: 100.64.35.210
+    - Primary: false
+      PrivateDnsName: ip-100-64-35-147.ap-northeast-1.compute.internal
+      PrivateIpAddress: 100.64.35.147
+    - Primary: false
+      PrivateDnsName: ip-100-64-45-83.ap-northeast-1.compute.internal
+      PrivateIpAddress: 100.64.45.83
+    - Primary: false
+      PrivateDnsName: ip-100-64-38-55.ap-northeast-1.compute.internal
+      PrivateIpAddress: 100.64.38.55
+    - Primary: false
+      PrivateDnsName: ip-100-64-39-119.ap-northeast-1.compute.internal
+      PrivateIpAddress: 100.64.39.119
+    - Primary: false
+      PrivateDnsName: ip-100-64-45-56.ap-northeast-1.compute.internal
+      PrivateIpAddress: 100.64.45.56
+    - Primary: false
+      PrivateDnsName: ip-100-64-45-122.ap-northeast-1.compute.internal
+      PrivateIpAddress: 100.64.45.122
+    SourceDestCheck: true
+    Status: in-use
+    SubnetId: subnet-015dd32183c44fdca
+    VpcId: vpc-0218545ff4351ce04
+  - Attachment:
+      AttachTime: 2026-07-09 23:06:09+00:00
+      AttachmentId: eni-attach-078f4824fb14958a8
+      DeleteOnTermination: true
+      DeviceIndex: 2
+      NetworkCardIndex: 0
+      Status: attached
+    Description: aws-K8S-i-0c6891d5fcfd241c5
+    Groups:
+    - GroupId: sg-08c86b45efe5da751
+      GroupName: mbx-bnb-solutions-eks1-shared
+    InterfaceType: interface
+    Ipv6Addresses: []
+    MacAddress: 0a:85:4e:e1:45:9f
+    NetworkInterfaceId: eni-0319cb23e84547b89
+    OwnerId: '862793644923'
+    PrivateDnsName: ip-100-64-42-128.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.42.128
+    PrivateIpAddresses:
+    - Primary: true
+      PrivateDnsName: ip-100-64-42-128.ap-northeast-1.compute.internal
+      PrivateIpAddress: 100.64.42.128
+    - Primary: false
+      PrivateDnsName: ip-100-64-34-37.ap-northeast-1.compute.internal
+      PrivateIpAddress: 100.64.34.37
+    - Primary: false
+      PrivateDnsName: ip-100-64-45-230.ap-northeast-1.compute.internal
+      PrivateIpAddress: 100.64.45.230
+    - Primary: false
+      PrivateDnsName: ip-100-64-37-135.ap-northeast-1.compute.internal
+      PrivateIpAddress: 100.64.37.135
+    - Primary: false
+      PrivateDnsName: ip-100-64-39-201.ap-northeast-1.compute.internal
+      PrivateIpAddress: 100.64.39.201
+    - Primary: false
+      PrivateDnsName: ip-100-64-35-138.ap-northeast-1.compute.internal
+      PrivateIpAddress: 100.64.35.138
+    - Primary: false
+      PrivateDnsName: ip-100-64-42-107.ap-northeast-1.compute.internal
+      PrivateIpAddress: 100.64.42.107
+    - Primary: false
+      PrivateDnsName: ip-100-64-34-47.ap-northeast-1.compute.internal
+      PrivateIpAddress: 100.64.34.47
+    - Primary: false
+      PrivateDnsName: ip-100-64-33-82.ap-northeast-1.compute.internal
+      PrivateIpAddress: 100.64.33.82
+    - Primary: false
+      PrivateDnsName: ip-100-64-34-211.ap-northeast-1.compute.internal
+      PrivateIpAddress: 100.64.34.211
+    - Primary: false
+      PrivateDnsName: ip-100-64-44-148.ap-northeast-1.compute.internal
+      PrivateIpAddress: 100.64.44.148
+    - Primary: false
+      PrivateDnsName: ip-100-64-38-215.ap-northeast-1.compute.internal
+      PrivateIpAddress: 100.64.38.215
+    - Primary: false
+      PrivateDnsName: ip-100-64-44-152.ap-northeast-1.compute.internal
+      PrivateIpAddress: 100.64.44.152
+    - Primary: false
+      PrivateDnsName: ip-100-64-32-185.ap-northeast-1.compute.internal
+      PrivateIpAddress: 100.64.32.185
+    - Primary: false
+      PrivateDnsName: ip-100-64-39-94.ap-northeast-1.compute.internal
+      PrivateIpAddress: 100.64.39.94
+    SourceDestCheck: true
+    Status: in-use
+    SubnetId: subnet-015dd32183c44fdca
+    VpcId: vpc-0218545ff4351ce04
+  - Attachment:
+      AttachTime: 2026-07-17 06:48:23+00:00
+      AttachmentId: eni-attach-073dad8993f62aa59
+      DeleteOnTermination: true
+      DeviceIndex: 3
+      NetworkCardIndex: 0
+      Status: attached
+    Description: aws-K8S-i-0c6891d5fcfd241c5
+    Groups:
+    - GroupId: sg-08c86b45efe5da751
+      GroupName: mbx-bnb-solutions-eks1-shared
+    InterfaceType: interface
+    Ipv6Addresses: []
+    MacAddress: 0a:4c:cf:50:40:5f
+    NetworkInterfaceId: eni-0584e4fc79e44c527
+    OwnerId: '862793644923'
+    PrivateDnsName: ip-100-64-41-128.ap-northeast-1.compute.internal
+    PrivateIpAddress: 100.64.41.128
+    PrivateIpAddresses:
+    - Primary: true
+      PrivateDnsName: ip-100-64-41-128.ap-northeast-1.compute.internal
+      PrivateIpAddress: 100.64.41.128
+    - Primary: false
+      PrivateDnsName: ip-100-64-34-164.ap-northeast-1.compute.internal
+      PrivateIpAddress: 100.64.34.164
+    - Primary: false
+      PrivateDnsName: ip-100-64-46-100.ap-northeast-1.compute.internal
+      PrivateIpAddress: 100.64.46.100
+    - Primary: false
+      PrivateDnsName: ip-100-64-41-5.ap-northeast-1.compute.internal
+      PrivateIpAddress: 100.64.41.5
+    - Primary: false
+      PrivateDnsName: ip-100-64-45-166.ap-northeast-1.compute.internal
+      PrivateIpAddress: 100.64.45.166
+    - Primary: false
+      PrivateDnsName: ip-100-64-47-198.ap-northeast-1.compute.internal
+      PrivateIpAddress: 100.64.47.198
+    - Primary: false
+      PrivateDnsName: ip-100-64-32-201.ap-northeast-1.compute.internal
+      PrivateIpAddress: 100.64.32.201
+    - Primary: false
+      PrivateDnsName: ip-100-64-47-206.ap-northeast-1.compute.internal
+      PrivateIpAddress: 100.64.47.206
+    - Primary: false
+      PrivateDnsName: ip-100-64-37-176.ap-northeast-1.compute.internal
+      PrivateIpAddress: 100.64.37.176
+    - Primary: false
+      PrivateDnsName: ip-100-64-39-82.ap-northeast-1.compute.internal
+      PrivateIpAddress: 100.64.39.82
+    - Primary: false
+      PrivateDnsName: ip-100-64-32-18.ap-northeast-1.compute.internal
+      PrivateIpAddress: 100.64.32.18
+    - Primary: false
+      PrivateDnsName: ip-100-64-34-179.ap-northeast-1.compute.internal
+      PrivateIpAddress: 100.64.34.179
+    - Primary: false
+      PrivateDnsName: ip-100-64-39-52.ap-northeast-1.compute.internal
+      PrivateIpAddress: 100.64.39.52
+    - Primary: false
+      PrivateDnsName: ip-100-64-36-246.ap-northeast-1.compute.internal
+      PrivateIpAddress: 100.64.36.246
+    - Primary: false
+      PrivateDnsName: ip-100-64-35-90.ap-northeast-1.compute.internal
+      PrivateIpAddress: 100.64.35.90
+    SourceDestCheck: true
+    Status: in-use
+    SubnetId: subnet-015dd32183c44fdca
+    VpcId: vpc-0218545ff4351ce04
+  Placement:
+    AvailabilityZone: ap-northeast-1c
+    GroupName: ''
+    Tenancy: default
+  PlatformDetails: Linux/UNIX
+  PrivateDnsName: ip-10-230-8-50.ap-northeast-1.compute.internal
+  PrivateDnsNameOptions:
+    EnableResourceNameDnsAAAARecord: false
+    EnableResourceNameDnsARecord: false
+    HostnameType: ip-name
+  PrivateIpAddress: 10.230.8.50
+  ProductCodes: []
+  PublicDnsName: ''
+  RootDeviceName: /dev/xvda
+  RootDeviceType: ebs
+  SecurityGroups:
+  - GroupId: sg-08c86b45efe5da751
+    GroupName: mbx-bnb-solutions-eks1-shared
+  - GroupId: sg-0ad88dfdc6d2c9ac0
+    GroupName: mbx-bnb-solutions-default
+  - GroupId: sg-0da43ff58cfa89cdd
+    GroupName: mbx-bnb-solutions-monitoring
+  - GroupId: sg-0028a919fd757d41c
+    GroupName: mbx-bnb-solutions-eks1-generic-nodes
+  SourceDestCheck: true
+  State:
+    Code: 16
+    Name: running
+  StateTransitionReason: ''
+  SubnetId: subnet-0de7db28255d2a13f
+  Tags:
+  - Key: Name
+    Value: mbx-bnb-solutions-eks1-generic
+  - Key: aws:autoscaling:groupName
+    Value: eks-mbx-bnb-solutions-eks1-generic-20260709-9ecfa373-d4b5-07da-ece8-68de6e29d035
+  - Key: aws:ec2:fleet-id
+    Value: fleet-da97a8be-9c0d-ec85-8eb2-0b0aa7bab743
+  - Key: aws:ec2launchtemplate:id
+    Value: lt-092d5d9e2f32a07f3
+  - Key: aws:ec2launchtemplate:version
+    Value: '2'
+  - Key: aws:eks:cluster-name
+    Value: mbx-bnb-solutions-eks1
+  - Key: biz
+    Value: mbx
+  - Key: eks:cluster-name
+    Value: mbx-bnb-solutions-eks1
+  - Key: eks:nodegroup-name
+    Value: mbx-bnb-solutions-eks1-generic-20260709
+  - Key: k8s.io/cluster-autoscaler/enabled
+    Value: 'true'
+  - Key: k8s.io/cluster-autoscaler/mbx-bnb-solutions-eks1
+    Value: owned
+  - Key: kubernetes.io/cluster/mbx-bnb-solutions-eks1
+    Value: owned
+  - Key: mbx_env_name
+    Value: solutions
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  UsageOperation: RunInstances
+  UsageOperationUpdateTime: 2026-07-09 23:05:36+00:00
+  VirtualizationType: hvm
+  VpcId: vpc-0218545ff4351ce04
+...
+

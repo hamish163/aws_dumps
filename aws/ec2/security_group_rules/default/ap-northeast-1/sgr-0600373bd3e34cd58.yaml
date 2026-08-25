@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0600373bd3e34cd58
+specifics:
+  Description: allow self inbound tcp 9339
+  FromPort: 9339
+  GroupId: sg-09557bbd9561c1e3b
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-09557bbd9561c1e3b
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0600373bd3e34cd58
+  Tags: []
+  ToPort: 9339
+...
+

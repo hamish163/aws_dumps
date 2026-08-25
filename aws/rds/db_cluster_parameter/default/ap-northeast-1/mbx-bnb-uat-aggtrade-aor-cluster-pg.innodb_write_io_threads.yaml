@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-aggtrade-aor-cluster-pg.innodb_write_io_threads
+specifics:
+  AllowedValues: 1-64
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: The number of I/O threads for write operations in InnoDB.
+  IsModifiable: false
+  ParameterName: innodb_write_io_threads
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

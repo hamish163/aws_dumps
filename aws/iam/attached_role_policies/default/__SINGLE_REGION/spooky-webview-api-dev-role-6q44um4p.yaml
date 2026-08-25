@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: spooky-webview-api-dev-role-6q44um4p
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/service-role/AWSLambdaBasicExecutionRole-60185634-0212-44ae-975c-c541498cabd9
+    PolicyName: AWSLambdaBasicExecutionRole-60185634-0212-44ae-975c-c541498cabd9
+  - PolicyArn: arn:aws:iam::aws:policy/service-role/AWSLambdaVPCAccessExecutionRole
+    PolicyName: AWSLambdaVPCAccessExecutionRole
+...
+

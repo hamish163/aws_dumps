@@ -1,0 +1,16 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-demo-gw-bastion
+  single_region: true
+specifics:
+  Name: mbx-bnb-demo-gw-bastion
+  biz: mbx
+  mbx_application_name: bastion
+  mbx_env_name: demo-gw
+  mbx_exchange_name: bnb
+  team: mbx
+...
+

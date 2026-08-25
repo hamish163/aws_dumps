@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSSSODirectoryAdministrator
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSSSODirectoryAdministrator
+  AttachmentCount: 0
+  CreateDate: 2018-10-31 23:54:00+00:00
+  DefaultVersionId: v7
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAI2TCZRD7WRD5D2E2Q
+  PolicyName: AWSSSODirectoryAdministrator
+  UpdateDate: 2026-02-12 17:58:23+00:00
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AllowQAManageEC2Instance
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/AllowQAManageEC2Instance
+  AttachmentCount: 4
+  CreateDate: 2019-09-19 09:43:32+00:00
+  DefaultVersionId: v9
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5S6AEQUEP2
+  PolicyName: AllowQAManageEC2Instance
+  UpdateDate: 2023-08-10 03:04:43+00:00
+...
+

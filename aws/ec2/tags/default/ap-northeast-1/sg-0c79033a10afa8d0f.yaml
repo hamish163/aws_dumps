@@ -1,0 +1,14 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0c79033a10afa8d0f
+specifics:
+  Name: mbx-bnb-solutions-mcp-server-lb
+  biz: mbx
+  mbx_env_name: solutions
+  mbx_exchange_name: bnb
+  team: mbx
+...
+

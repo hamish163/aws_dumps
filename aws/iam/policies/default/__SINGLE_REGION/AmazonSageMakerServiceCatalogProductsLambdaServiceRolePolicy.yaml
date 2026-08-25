@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonSageMakerServiceCatalogProductsLambdaServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AmazonSageMakerServiceCatalogProductsLambdaServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2022-04-04 16:34:43+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4CMUQVI4HY
+  PolicyName: AmazonSageMakerServiceCatalogProductsLambdaServiceRolePolicy
+  UpdateDate: 2024-06-11 18:57:13+00:00
+...
+

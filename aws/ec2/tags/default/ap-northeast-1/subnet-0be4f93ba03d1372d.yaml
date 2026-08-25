@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: subnet-0be4f93ba03d1372d
+specifics:
+  KubernetesCluster: mbxtools.bitdj.com
+  Name: tky_stage_mbx_internal0_net
+  env: stage
+  kubernetes.io/role/alb-ingress: ''
+  kubernetes.io/role/internal-elb: ''
+  project: mbx
+...
+

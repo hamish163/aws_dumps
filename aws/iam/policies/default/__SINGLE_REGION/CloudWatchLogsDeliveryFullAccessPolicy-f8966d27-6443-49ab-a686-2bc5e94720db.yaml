@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: CloudWatchLogsDeliveryFullAccessPolicy-f8966d27-6443-49ab-a686-2bc5e94720db
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/service-role/CloudWatchLogsDeliveryFullAccessPolicy-f8966d27-6443-49ab-a686-2bc5e94720db
+  AttachmentCount: 1
+  CreateDate: 2022-05-17 23:00:33+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN53FOVSPWBS
+  PolicyName: CloudWatchLogsDeliveryFullAccessPolicy-f8966d27-6443-49ab-a686-2bc5e94720db
+  UpdateDate: 2022-05-17 23:00:33+00:00
+...
+

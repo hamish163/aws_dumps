@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSBugBustServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AWSBugBustServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2021-06-24 06:59:05+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4LXHZTN64K
+  PolicyName: AWSBugBustServiceRolePolicy
+  UpdateDate: 2021-06-24 06:59:05+00:00
+...
+

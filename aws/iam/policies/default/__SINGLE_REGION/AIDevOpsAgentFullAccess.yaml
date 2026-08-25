@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AIDevOpsAgentFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AIDevOpsAgentFullAccess
+  AttachmentCount: 0
+  CreateDate: 2026-03-26 03:42:16+00:00
+  DefaultVersionId: v6
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4G7KA3NAK3
+  PolicyName: AIDevOpsAgentFullAccess
+  UpdateDate: 2026-06-26 23:57:19+00:00
+...
+

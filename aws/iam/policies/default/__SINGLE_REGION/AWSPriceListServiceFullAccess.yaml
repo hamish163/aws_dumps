@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSPriceListServiceFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSPriceListServiceFullAccess
+  AttachmentCount: 0
+  CreateDate: 2017-11-22 00:36:27+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIADJ4GBYNHKABML3Q
+  PolicyName: AWSPriceListServiceFullAccess
+  UpdateDate: 2024-07-02 13:34:19+00:00
+...
+

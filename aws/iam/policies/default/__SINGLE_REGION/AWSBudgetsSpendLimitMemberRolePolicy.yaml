@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSBudgetsSpendLimitMemberRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AWSBudgetsSpendLimitMemberRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2026-07-18 00:57:16+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4I5EGUOK5S
+  PolicyName: AWSBudgetsSpendLimitMemberRolePolicy
+  UpdateDate: 2026-08-13 20:47:33+00:00
+...
+

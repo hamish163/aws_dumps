@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSFaultInjectionSimulatorNetworkAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AWSFaultInjectionSimulatorNetworkAccess
+  AttachmentCount: 0
+  CreateDate: 2022-10-26 20:32:50+00:00
+  DefaultVersionId: v5
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4AXEXMENON
+  PolicyName: AWSFaultInjectionSimulatorNetworkAccess
+  UpdateDate: 2026-02-12 17:58:26+00:00
+...
+

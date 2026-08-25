@@ -1,0 +1,50 @@
+---
+datatype: aws.ec2.route_tables
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rtb-04b85e837dd721c28
+specifics:
+  Associations:
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-04f3b59f68e5b0dd0
+    RouteTableId: rtb-04b85e837dd721c28
+    SubnetId: subnet-00a329421884949e6
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-0728640d8469ccfc2
+    RouteTableId: rtb-04b85e837dd721c28
+    SubnetId: subnet-05bbe6fbdb8ec8477
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-0d33f92fa5bf63bfd
+    RouteTableId: rtb-04b85e837dd721c28
+    SubnetId: subnet-00e9d98ff4e6249b5
+  OwnerId: '862793644923'
+  PropagatingVgws: []
+  RouteTableId: rtb-04b85e837dd721c28
+  Routes:
+  - DestinationCidrBlock: 10.12.4.0/22
+    GatewayId: local
+    Origin: CreateRouteTable
+    State: active
+  - DestinationCidrBlock: 0.0.0.0/0
+    GatewayId: igw-06c714c4970936fe9
+    Origin: CreateRoute
+    State: active
+  Tags:
+  - Key: aws:cloudformation:stack-name
+    Value: BitdjNetwork-PublicVPC-1DAZ54505BW0V
+  - Key: Name
+    Value: PublicVPC Attachment PublicSubnetRouteTable
+  - Key: aws:cloudformation:stack-id
+    Value: arn:aws:cloudformation:ap-northeast-1:862793644923:stack/BitdjNetwork-PublicVPC-1DAZ54505BW0V/7e08c080-d384-11ed-adb7-069d55dcb087
+  - Key: aws:cloudformation:logical-id
+    Value: PublicSubnetRouteTable
+  VpcId: vpc-050b727e89fac853e
+...
+

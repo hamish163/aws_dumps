@@ -1,0 +1,38 @@
+---
+datatype: aws.ec2.vpc_peering_connections
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: pcx-0805b5b3852708808
+specifics:
+  AccepterVpcInfo:
+    CidrBlock: 172.27.0.0/16
+    CidrBlockSet:
+    - CidrBlock: 172.27.0.0/16
+    OwnerId: '862793644923'
+    PeeringOptions:
+      AllowDnsResolutionFromRemoteVpc: false
+      AllowEgressFromLocalClassicLinkToRemoteVpc: false
+      AllowEgressFromLocalVpcToRemoteClassicLink: false
+    Region: ap-northeast-1
+    VpcId: vpc-03f5d2495fd8d95a3
+  RequesterVpcInfo:
+    CidrBlock: 10.10.0.0/16
+    CidrBlockSet:
+    - CidrBlock: 10.10.0.0/16
+    OwnerId: '369096419186'
+    Region: ap-northeast-1
+    VpcId: vpc-03fb06428b00e7768
+  Status:
+    Code: active
+    Message: Active
+  Tags:
+  - Key: Name
+    Value: tracky_to_mbx
+  - Key: project
+    Value: mbx
+  - Key: env
+    Value: prod
+  VpcPeeringConnectionId: pcx-0805b5b3852708808
+...
+

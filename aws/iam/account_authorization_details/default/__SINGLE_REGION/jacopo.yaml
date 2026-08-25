@@ -1,0 +1,30 @@
+---
+datatype: aws.iam.account_authorization_details
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: jacopo
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/jacopo
+  AttachedManagedPolicies: []
+  CreateDate: 2023-03-28 05:08:17+00:00
+  GroupList:
+  - SRE_TEAM
+  - mbx_bedrock
+  - SRE_TEAM_TAGGING
+  - MBX_EVERYONE_TEAM
+  Path: /
+  Tags:
+  - Key: mbx_iam
+    Value: jacopo
+  - Key: biz
+    Value: mbx
+  - Key: project
+    Value: mbx
+  - Key: mbx_team
+    Value: sre
+  UserId: AIDA4RYUCHN5SEEUIMGBJ
+  UserName: jacopo
+...
+

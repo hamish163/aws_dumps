@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-orders-cluster-pg-80.net_buffer_length
+specifics:
+  AllowedValues: 1024-1048576
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: This variable should not normally be changed. For use when very little
+    memory is available. Set it to the expected length of statements sent by clients.
+  IsModifiable: true
+  ParameterName: net_buffer_length
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

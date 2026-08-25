@@ -1,0 +1,31 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-066d9bc4e24267b6a
+specifics:
+  Description: Allow traffic from itself
+  FromPort: -1
+  GroupId: sg-06d8aeb750f984392
+  GroupOwnerId: '862793644923'
+  IpProtocol: '-1'
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-06d8aeb750f984392
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-066d9bc4e24267b6a
+  Tags:
+  - Key: mbx_env_name
+    Value: devops
+  - Key: biz
+    Value: mbx
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  - Key: mbx_secret_store
+    Value: none
+  ToPort: -1
+...
+

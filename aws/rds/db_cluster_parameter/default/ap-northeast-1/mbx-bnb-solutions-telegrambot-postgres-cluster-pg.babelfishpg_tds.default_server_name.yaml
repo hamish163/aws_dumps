@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-solutions-telegrambot-postgres-cluster-pg.babelfishpg_tds.default_server_name
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Default Babelfish server name
+  IsModifiable: true
+  ParameterName: babelfishpg_tds.default_server_name
+  ParameterValue: Microsoft SQL Server
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-spade-trade-cluster-pg.innodb_stats_include_delete_marked
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: When innodb_stats_include_delete_marked is enabled, ANALYZE TABLE considers
+    delete-marked records when recalculating statistics.
+  IsModifiable: true
+  ParameterName: innodb_stats_include_delete_marked
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

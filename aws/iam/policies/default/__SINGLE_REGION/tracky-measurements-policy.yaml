@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: tracky-measurements-policy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/tracky-measurements-policy
+  AttachmentCount: 5
+  CreateDate: 2023-05-09 09:17:17+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5XVKDLN4OW
+  PolicyName: tracky-measurements-policy
+  UpdateDate: 2023-05-09 09:17:17+00:00
+...
+

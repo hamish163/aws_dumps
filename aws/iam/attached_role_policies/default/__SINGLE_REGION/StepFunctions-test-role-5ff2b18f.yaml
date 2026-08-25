@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: StepFunctions-test-role-5ff2b18f
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/service-role/XRayAccessPolicy-4cfca73c-a81c-4a5f-8804-11a508ca2280
+    PolicyName: XRayAccessPolicy-4cfca73c-a81c-4a5f-8804-11a508ca2280
+  - PolicyArn: arn:aws:iam::862793644923:policy/service-role/SQSSendMessageScopedAccessPolicy-f3af1107-6988-4091-9887-ce57b51ef682
+    PolicyName: SQSSendMessageScopedAccessPolicy-f3af1107-6988-4091-9887-ce57b51ef682
+...
+

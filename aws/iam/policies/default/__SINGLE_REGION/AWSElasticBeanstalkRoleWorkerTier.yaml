@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSElasticBeanstalkRoleWorkerTier
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleWorkerTier
+  AttachmentCount: 0
+  CreateDate: 2020-06-05 21:43:37+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4LTO4NS2Z5
+  PolicyName: AWSElasticBeanstalkRoleWorkerTier
+  UpdateDate: 2020-06-05 21:43:37+00:00
+...
+

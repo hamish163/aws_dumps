@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev57-mbx-trades-cluster-pgrp.myisam_data_pointer_size
+specifics:
+  AllowedValues: 2-7
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: The default pointer size in bytes, to be used by CREATE TABLE for MyISAM
+    tables when no MAX_ROWS option is specified.
+  IsModifiable: true
+  ParameterName: myisam_data_pointer_size
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

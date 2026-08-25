@@ -1,0 +1,14 @@
+---
+datatype: aws.iam.access_keys
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AKIA4RYUCHN57XUEVMEM
+  single_region: true
+specifics:
+  AccessKeyId: AKIA4RYUCHN57XUEVMEM
+  CreateDate: 2024-04-08 13:22:59+00:00
+  Status: Active
+  UserName: mbx-jenkins-jobcacher
+...
+

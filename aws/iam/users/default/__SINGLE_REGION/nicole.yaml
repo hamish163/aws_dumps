@@ -1,0 +1,16 @@
+---
+datatype: aws.iam.users
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: nicole
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/nicole
+  CreateDate: 2019-05-10 02:53:12+00:00
+  PasswordLastUsed: 2026-07-28 08:32:22+00:00
+  Path: /
+  UserId: AIDA4RYUCHN5XLUIXZKRU
+  UserName: nicole
+...
+

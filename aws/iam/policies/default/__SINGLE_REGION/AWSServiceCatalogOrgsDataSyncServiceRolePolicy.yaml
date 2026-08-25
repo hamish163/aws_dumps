@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSServiceCatalogOrgsDataSyncServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AWSServiceCatalogOrgsDataSyncServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2023-04-10 20:48:28+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4DUDGJ66JJ
+  PolicyName: AWSServiceCatalogOrgsDataSyncServiceRolePolicy
+  UpdateDate: 2025-12-08 19:04:09+00:00
+...
+

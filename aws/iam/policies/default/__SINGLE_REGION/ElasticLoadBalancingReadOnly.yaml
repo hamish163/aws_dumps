@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: ElasticLoadBalancingReadOnly
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/ElasticLoadBalancingReadOnly
+  AttachmentCount: 1
+  CreateDate: 2018-09-20 20:17:09+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJMO7B7SNFLQ6HH736
+  PolicyName: ElasticLoadBalancingReadOnly
+  UpdateDate: 2023-11-26 18:15:46+00:00
+...
+

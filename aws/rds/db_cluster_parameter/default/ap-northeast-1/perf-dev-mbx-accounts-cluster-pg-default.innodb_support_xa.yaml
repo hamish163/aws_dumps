@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-accounts-cluster-pg-default.innodb_support_xa
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Enables two phase commit in XA transactions
+  IsModifiable: true
+  ParameterName: innodb_support_xa
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

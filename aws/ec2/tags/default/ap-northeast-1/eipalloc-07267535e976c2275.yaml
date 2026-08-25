@@ -1,0 +1,13 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eipalloc-07267535e976c2275
+specifics:
+  Name: bitdj_bnb_testnet_bot1_ec2
+  env: testnet
+  project: testnet_bot
+  team: solutions
+...
+

@@ -1,0 +1,28 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-perf-thanos-store
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/mbx-bnb-perf-thanos-store
+  CreateDate: 2025-07-07 08:25:07+00:00
+  InstanceProfileId: AIPA4RYUCHN54J2N4JVIX
+  InstanceProfileName: mbx-bnb-perf-thanos-store
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/mbx-bnb-perf-thanos-store
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+      Version: '2012-10-17'
+    CreateDate: 2025-07-07 08:25:06+00:00
+    Path: /
+    RoleId: AROA4RYUCHN565PXFZDHR
+    RoleName: mbx-bnb-perf-thanos-store
+...
+

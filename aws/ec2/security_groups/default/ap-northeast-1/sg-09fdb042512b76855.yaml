@@ -1,0 +1,13 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-09fdb042512b76855
+specifics:
+  Description: rocketchat-test-sg
+  GroupId: sg-09fdb042512b76855
+  GroupName: rocketchat-test-sg
+  VpcId: vpc-07652e77a8fa0e0c2
+...
+

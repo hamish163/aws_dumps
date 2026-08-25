@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-key-cluster-pg.core-file
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: boolean
+  Description: Write a core file if mysqld dies.
+  IsModifiable: false
+  ParameterName: core-file
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

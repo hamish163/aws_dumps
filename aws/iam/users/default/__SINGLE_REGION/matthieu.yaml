@@ -1,0 +1,16 @@
+---
+datatype: aws.iam.users
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: matthieu
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/matthieu
+  CreateDate: 2020-08-04 09:24:45+00:00
+  PasswordLastUsed: 2026-05-05 14:04:02+00:00
+  Path: /
+  UserId: AIDA4RYUCHN5V4GUUX72W
+  UserName: matthieu
+...
+

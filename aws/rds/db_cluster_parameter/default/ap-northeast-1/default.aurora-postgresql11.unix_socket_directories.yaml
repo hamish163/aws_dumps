@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql11.unix_socket_directories
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: Sets the directory where the Unix-domain socket will be created.
+  IsModifiable: false
+  ParameterName: unix_socket_directories
+  ParameterValue: /tmp
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

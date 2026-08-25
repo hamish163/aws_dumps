@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: sleepy
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/AllowProdCloudwatchReadOnly
+    PolicyName: AllowProdCloudwatchReadOnly
+  - PolicyArn: arn:aws:iam::aws:policy/CloudWatchLogsFullAccess
+    PolicyName: CloudWatchLogsFullAccess
+...
+

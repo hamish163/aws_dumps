@@ -1,0 +1,18 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev57-mbx-klines-cluster-pgrp.aurora_select_into_s3_role
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: IAM role ARN used to select data into AWS S3
+  IsModifiable: true
+  ParameterName: aurora_select_into_s3_role
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

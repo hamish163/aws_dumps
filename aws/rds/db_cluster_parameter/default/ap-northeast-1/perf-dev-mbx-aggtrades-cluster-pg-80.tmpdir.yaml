@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-aggtrades-cluster-pg-80.tmpdir
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: The directory used for temporary files and temporary tables
+  IsModifiable: false
+  ParameterName: tmpdir
+  ParameterValue: /rdsdbdata/tmp/
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

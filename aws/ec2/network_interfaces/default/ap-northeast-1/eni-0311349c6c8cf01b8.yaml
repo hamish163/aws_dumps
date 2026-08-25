@@ -1,0 +1,38 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-0311349c6c8cf01b8
+specifics:
+  Attachment:
+    AttachmentId: ela-attach-064cb1514c0da0063
+    DeleteOnTermination: false
+    DeviceIndex: 1
+    InstanceOwnerId: amazon-aws
+    Status: attached
+  AvailabilityZone: ap-northeast-1a
+  Description: AWS Lambda VPC ENI-spooky-webview-api-dev
+  Groups:
+  - GroupId: sg-0286387aaf882eb52
+    GroupName: tracky-dev-spooky-lambda-clients
+  InterfaceType: lambda
+  Ipv6Addresses: []
+  MacAddress: 06:46:21:7c:68:cb
+  NetworkInterfaceId: eni-0311349c6c8cf01b8
+  OwnerId: '862793644923'
+  PrivateDnsName: ip-172-20-100-15.ap-northeast-1.compute.internal
+  PrivateIpAddress: 172.20.100.15
+  PrivateIpAddresses:
+  - Primary: true
+    PrivateDnsName: ip-172-20-100-15.ap-northeast-1.compute.internal
+    PrivateIpAddress: 172.20.100.15
+  RequesterId: AROA4RYUCHN5ZOVEH2ESA:919980925139
+  RequesterManaged: false
+  SourceDestCheck: true
+  Status: in-use
+  SubnetId: subnet-0c8bc75f4586bafc3
+  TagSet: []
+  VpcId: vpc-0a7d9bfaa80b951d9
+...
+

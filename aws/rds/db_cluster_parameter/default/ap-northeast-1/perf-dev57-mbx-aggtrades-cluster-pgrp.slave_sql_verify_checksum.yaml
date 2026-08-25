@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev57-mbx-aggtrades-cluster-pgrp.slave_sql_verify_checksum
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: When this option is enabled, the slave examines checksums read from
+    the relay log, in the event of a mismatch, the slave stops with an error.
+  IsModifiable: true
+  ParameterName: slave_sql_verify_checksum
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

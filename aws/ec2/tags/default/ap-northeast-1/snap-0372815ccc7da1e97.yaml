@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: snap-0372815ccc7da1e97
+specifics:
+  Name: 20200813-redmine-plugins-pv
+  env: test
+  project: mbx
+...
+

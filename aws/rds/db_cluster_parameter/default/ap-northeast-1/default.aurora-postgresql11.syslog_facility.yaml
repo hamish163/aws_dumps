@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql11.syslog_facility
+specifics:
+  AllowedValues: local0,local1,local2,local3,local4,local5,local6,local7
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Sets the syslog facility to be used when syslog enabled.
+  IsModifiable: false
+  ParameterName: syslog_facility
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-01b4f2831945ea55f
+specifics:
+  Name: prod_mbx_redmine1_ec2
+  env: prod
+  team: mbx
+...
+

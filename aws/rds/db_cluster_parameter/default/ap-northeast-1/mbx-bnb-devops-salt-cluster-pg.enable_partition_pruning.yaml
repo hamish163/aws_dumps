@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-devops-salt-cluster-pg.enable_partition_pruning
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Enable plan-time and run-time partition pruning.
+  IsModifiable: true
+  ParameterName: enable_partition_pruning
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

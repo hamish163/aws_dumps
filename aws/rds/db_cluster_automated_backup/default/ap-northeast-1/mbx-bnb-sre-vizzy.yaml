@@ -1,0 +1,33 @@
+---
+datatype: aws.rds.db_cluster_automated_backup
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-sre-vizzy
+specifics:
+  AllocatedStorage: 1
+  AvailabilityZones:
+  - ap-northeast-1c
+  - ap-northeast-1d
+  - ap-northeast-1a
+  BackupRetentionPeriod: 1
+  ClusterCreateTime: 2025-08-25 06:04:02+00:00
+  DBClusterArn: arn:aws:rds:ap-northeast-1:862793644923:cluster:mbx-bnb-sre-vizzy
+  DBClusterAutomatedBackupsArn: arn:aws:rds:ap-northeast-1:862793644923:cluster-auto-backup:cab-agmlmv6lcngwhcvm6e4p3hw6fcms5ym43bpc57a
+  DBClusterIdentifier: mbx-bnb-sre-vizzy
+  DbClusterResourceId: cluster-AGMLMV6LCNGWHCVM6E4P3HW6FA
+  Engine: neptune
+  EngineMode: provisioned
+  EngineVersion: 1.4.5.1
+  IAMDatabaseAuthenticationEnabled: true
+  KmsKeyId: arn:aws:kms:ap-northeast-1:862793644923:key/4d70afbb-e9b9-4bb7-83f2-8de31f8a5460
+  MasterUsername: admin
+  Port: 8182
+  Region: apne-1
+  RestoreWindow:
+    EarliestTime: 2026-08-23 17:17:28.678000+00:00
+    LatestTime: 2026-08-25 01:27:46.090000+00:00
+  Status: active
+  StorageEncrypted: true
+...
+

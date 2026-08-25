@@ -1,0 +1,26 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0bf665d9b00cdfa8d
+specifics:
+  Description: Managed by Terraform
+  GroupId: sg-0bf665d9b00cdfa8d
+  GroupName: mbx-bnb-perf-tracky
+  Tags:
+  - Key: mbx_secret_store
+    Value: none
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  - Key: Name
+    Value: mbx-bnb-perf-tracky
+  - Key: mbx_env_name
+    Value: perf
+  VpcId: vpc-013930e589c469574
+...
+

@@ -1,0 +1,17 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-055b13a5d68f879ac
+specifics:
+  Name: mbx-bnb-solutions-eks1-generic
+  biz: mbx
+  eks:cluster-name: mbx-bnb-solutions-eks1
+  eks:nodegroup-name: mbx-bnb-solutions-eks1-generic-20260709
+  kubernetes.io/cluster/mbx-bnb-solutions-eks1: owned
+  mbx_env_name: solutions
+  mbx_exchange_name: bnb
+  team: mbx
+...
+

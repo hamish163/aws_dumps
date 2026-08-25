@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSIoTDataAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSIoTDataAccess
+  AttachmentCount: 0
+  CreateDate: 2015-10-27 21:51:18+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJM2KI2UJDR24XPS2K
+  PolicyName: AWSIoTDataAccess
+  UpdateDate: 2021-06-23 21:34:47+00:00
+...
+

@@ -1,0 +1,29 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: hive-test-emrEc2InstanceProfile-LjTFDbwfWQcu
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/hive-test-emrEc2InstanceProfile-LjTFDbwfWQcu
+  CreateDate: 2023-02-20 03:33:30+00:00
+  InstanceProfileId: AIPA4RYUCHN56GVS5GVWA
+  InstanceProfileName: hive-test-emrEc2InstanceProfile-LjTFDbwfWQcu
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/hive-test-emrEc2Role-EKJ02I91AVSN
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+        Sid: ''
+      Version: '2008-10-17'
+    CreateDate: 2023-02-20 03:32:51+00:00
+    Path: /
+    RoleId: AROA4RYUCHN5UQGYPKVFR
+    RoleName: hive-test-emrEc2Role-EKJ02I91AVSN
+...
+

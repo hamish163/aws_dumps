@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonAPIGatewayInvokeFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonAPIGatewayInvokeFullAccess
+  AttachmentCount: 0
+  CreateDate: 2015-07-09 17:36:12+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIIWAX2NOOQJ4AIEQ6
+  PolicyName: AmazonAPIGatewayInvokeFullAccess
+  UpdateDate: 2018-12-18 18:25:10+00:00
+...
+

@@ -1,0 +1,16 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-05a847e0f70f3a176
+specifics:
+  Description: testnode-server
+  GroupId: sg-05a847e0f70f3a176
+  GroupName: testnode-server
+  Tags:
+  - Key: Name
+    Value: testnode-server
+  VpcId: vpc-07652e77a8fa0e0c2
+...
+

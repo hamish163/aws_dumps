@@ -1,0 +1,15 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx.tools.prod.salt-master1/A
+  single_region: true
+specifics:
+  Name: salt-master1.prod.tools.mbx.
+  ResourceRecords:
+  - Value: 10.220.19.187
+  TTL: 300
+  Type: A
+...
+

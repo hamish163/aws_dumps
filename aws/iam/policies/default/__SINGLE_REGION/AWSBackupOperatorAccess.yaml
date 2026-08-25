@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSBackupOperatorAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSBackupOperatorAccess
+  AttachmentCount: 0
+  CreateDate: 2019-11-18 22:23:17+00:00
+  DefaultVersionId: v28
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4KHXVYMY4O
+  PolicyName: AWSBackupOperatorAccess
+  UpdateDate: 2026-02-12 17:59:22+00:00
+...
+

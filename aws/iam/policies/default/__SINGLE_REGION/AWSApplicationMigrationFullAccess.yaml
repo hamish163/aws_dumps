@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSApplicationMigrationFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSApplicationMigrationFullAccess
+  AttachmentCount: 0
+  CreateDate: 2021-04-07 06:56:05+00:00
+  DefaultVersionId: v14
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4HPQNMM2HL
+  PolicyName: AWSApplicationMigrationFullAccess
+  UpdateDate: 2026-08-03 10:57:21+00:00
+...
+

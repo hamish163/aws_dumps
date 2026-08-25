@@ -1,0 +1,56 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-09de4493b50506fae
+specifics:
+  Association:
+    AllocationId: eipalloc-0bfa5d2cf909cba38
+    AssociationId: eipassoc-005ee972c205b2209
+    IpOwnerId: '862793644923'
+    PublicDnsName: ec2-35-72-144-111.ap-northeast-1.compute.amazonaws.com
+    PublicIp: 35.72.144.111
+  Attachment:
+    AttachTime: 2024-06-13 10:17:36+00:00
+    AttachmentId: eni-attach-04fdf5d6742debf87
+    DeleteOnTermination: true
+    DeviceIndex: 0
+    InstanceId: i-004569dd943be3ae3
+    InstanceOwnerId: '862793644923'
+    NetworkCardIndex: 0
+    Status: attached
+  AvailabilityZone: ap-northeast-1c
+  Description: ''
+  Groups:
+  - GroupId: sg-01bef8cd9d9d04055
+    GroupName: tky-prod-internal-slave-tracky-bitdj.com
+  - GroupId: sg-05e60d20221e31e45
+    GroupName: tky-prod-baserules-tracky-bitdj.com
+  - GroupId: sg-0e860051a2aff9e81
+    GroupName: mbx-bnb-prod-tracky-default
+  InterfaceType: interface
+  Ipv6Addresses: []
+  MacAddress: 0a:00:15:87:dd:b3
+  NetworkInterfaceId: eni-09de4493b50506fae
+  OwnerId: '862793644923'
+  PrivateDnsName: ip-172-27-8-21.ap-northeast-1.compute.internal
+  PrivateIpAddress: 172.27.8.21
+  PrivateIpAddresses:
+  - Association:
+      AllocationId: eipalloc-0bfa5d2cf909cba38
+      AssociationId: eipassoc-005ee972c205b2209
+      IpOwnerId: '862793644923'
+      PublicDnsName: ec2-35-72-144-111.ap-northeast-1.compute.amazonaws.com
+      PublicIp: 35.72.144.111
+    Primary: true
+    PrivateDnsName: ip-172-27-8-21.ap-northeast-1.compute.internal
+    PrivateIpAddress: 172.27.8.21
+  RequesterManaged: false
+  SourceDestCheck: true
+  Status: in-use
+  SubnetId: subnet-05c725ad0285e7296
+  TagSet: []
+  VpcId: vpc-03f5d2495fd8d95a3
+...
+

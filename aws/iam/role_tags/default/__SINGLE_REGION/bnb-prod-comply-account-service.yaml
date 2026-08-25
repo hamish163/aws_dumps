@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: bnb-prod-comply-account-service
+  single_region: true
+specifics:
+  app: comply
+  biz: mbx
+  env: prod
+  exchange_id: bnb
+  project: comply
+  role: comply-account-service
+  sre-app: comply
+  sre-component: comply-account-service
+  sre-env: prod
+  team: sre
+...
+

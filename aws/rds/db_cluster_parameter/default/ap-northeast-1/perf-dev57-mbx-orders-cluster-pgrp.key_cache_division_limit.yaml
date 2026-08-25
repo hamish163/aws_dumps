@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev57-mbx-orders-cluster-pgrp.key_cache_division_limit
+specifics:
+  AllowedValues: 1-100
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: The division point between the hot and warm sub-chains of the key cache
+    buffer chain. The value is the percentage of the buffer chain to use for the warm
+    sub-chain.
+  IsModifiable: true
+  ParameterName: key_cache_division_limit
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

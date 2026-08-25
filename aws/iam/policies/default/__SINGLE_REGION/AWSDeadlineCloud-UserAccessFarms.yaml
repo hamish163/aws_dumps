@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSDeadlineCloud-UserAccessFarms
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSDeadlineCloud-UserAccessFarms
+  AttachmentCount: 0
+  CreateDate: 2024-04-01 16:54:00+00:00
+  DefaultVersionId: v7
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4A7BV6IHOE
+  PolicyName: AWSDeadlineCloud-UserAccessFarms
+  UpdateDate: 2026-05-29 20:27:22+00:00
+...
+

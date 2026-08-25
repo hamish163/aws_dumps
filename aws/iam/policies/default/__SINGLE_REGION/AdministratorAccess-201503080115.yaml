@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AdministratorAccess-201503080115
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/AdministratorAccess-201503080115
+  AttachmentCount: 1
+  CreateDate: 2015-03-07 16:15:45+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJ4EN3ABHCHJ442URM
+  PolicyName: AdministratorAccess-201503080115
+  UpdateDate: 2016-12-01 03:02:29+00:00
+...
+

@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: igw-0d78ea234240ccb69
+specifics:
+  Name: tky_stage_mbx_igw
+  env: stage
+  project: mbx
+...
+

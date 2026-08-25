@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql17.cron.database_name
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: Sets the database to store pg_cron metadata tables
+  IsModifiable: true
+  ParameterName: cron.database_name
+  ParameterValue: postgres
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

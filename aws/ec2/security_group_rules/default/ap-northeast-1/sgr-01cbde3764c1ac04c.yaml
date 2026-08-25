@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-01cbde3764c1ac04c
+specifics:
+  Description: Allow TCP traffic from fix-api-orderentry SG on port 8350
+  FromPort: 8350
+  GroupId: sg-0922e9e4141519586
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-083fbc41f8436d742
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-01cbde3764c1ac04c
+  Tags: []
+  ToPort: 8350
+...
+

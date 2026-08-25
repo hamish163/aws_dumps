@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql11.enable_material
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Enables the planners use of materialization.
+  IsModifiable: true
+  ParameterName: enable_material
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+  - serverless
+...
+

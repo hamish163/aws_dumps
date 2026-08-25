@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-trades-cluster-pg-80.max_execution_time
+specifics:
+  AllowedValues: 0-18446744073709551615
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: The execution timeout for SELECT statements, in milliseconds.
+  IsModifiable: true
+  ParameterName: max_execution_time
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

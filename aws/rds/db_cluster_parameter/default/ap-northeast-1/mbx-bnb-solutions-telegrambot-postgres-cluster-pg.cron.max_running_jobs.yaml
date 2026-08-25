@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-solutions-telegrambot-postgres-cluster-pg.cron.max_running_jobs
+specifics:
+  AllowedValues: 0-1000
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: Maximum number of jobs that can run concurrently.
+  IsModifiable: true
+  ParameterName: cron.max_running_jobs
+  ParameterValue: '5'
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

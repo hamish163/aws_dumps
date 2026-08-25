@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonElasticMapReduceReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonElasticMapReduceReadOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2015-02-06 18:40:23+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIHP6NH2S6GYFCOINC
+  PolicyName: AmazonElasticMapReduceReadOnlyAccess
+  UpdateDate: 2020-07-29 23:14:09+00:00
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSQuickSetupPatchPolicyPermissionsBoundary
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSQuickSetupPatchPolicyPermissionsBoundary
+  AttachmentCount: 0
+  CreateDate: 2024-06-26 09:46:54+00:00
+  DefaultVersionId: v5
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4P7JLA3HXH
+  PolicyName: AWSQuickSetupPatchPolicyPermissionsBoundary
+  UpdateDate: 2026-03-05 16:57:14+00:00
+...
+

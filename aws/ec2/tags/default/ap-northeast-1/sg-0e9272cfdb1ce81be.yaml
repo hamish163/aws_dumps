@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0e9272cfdb1ce81be
+specifics:
+  aws:cloudformation:logical-id: SshSecurityGroup
+  aws:cloudformation:stack-id: arn:aws:cloudformation:ap-northeast-1:862793644923:stack/MbxChat/8dc7a310-d50f-11ed-8329-0aa476347c11
+  aws:cloudformation:stack-name: MbxChat
+...
+

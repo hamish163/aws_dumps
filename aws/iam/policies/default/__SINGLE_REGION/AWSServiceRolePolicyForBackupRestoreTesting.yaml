@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSServiceRolePolicyForBackupRestoreTesting
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AWSServiceRolePolicyForBackupRestoreTesting
+  AttachmentCount: 0
+  CreateDate: 2023-11-10 23:37:45+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4A6QQZKWX4
+  PolicyName: AWSServiceRolePolicyForBackupRestoreTesting
+  UpdateDate: 2026-03-18 22:12:13+00:00
+...
+

@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-system-cluster-pg-57.socket
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: (UNIX) socket file and (WINDOWS) named pipe used for local connections.
+  IsModifiable: false
+  ParameterName: socket
+  ParameterValue: /tmp/mysql.sock
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

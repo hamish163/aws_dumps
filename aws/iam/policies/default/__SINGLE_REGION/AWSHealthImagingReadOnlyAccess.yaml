@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSHealthImagingReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSHealthImagingReadOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2023-07-25 23:40:40+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4FVIFGT2GZ
+  PolicyName: AWSHealthImagingReadOnlyAccess
+  UpdateDate: 2023-08-01 15:18:49+00:00
+...
+

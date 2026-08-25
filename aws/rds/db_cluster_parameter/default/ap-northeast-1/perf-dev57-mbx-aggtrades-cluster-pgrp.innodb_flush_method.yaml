@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev57-mbx-aggtrades-cluster-pgrp.innodb_flush_method
+specifics:
+  AllowedValues: O_DIRECT
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: Determines Innodb flush method
+  IsModifiable: true
+  ParameterName: innodb_flush_method
+  ParameterValue: O_DIRECT
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

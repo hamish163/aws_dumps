@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-perf-swapchop-cluster-pg.innodb_status_output_locks
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Enables or disables the InnoDB Lock Monitor.
+  IsModifiable: true
+  ParameterName: innodb_status_output_locks
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

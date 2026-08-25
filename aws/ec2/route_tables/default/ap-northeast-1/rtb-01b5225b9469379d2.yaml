@@ -1,0 +1,31 @@
+---
+datatype: aws.ec2.route_tables
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rtb-01b5225b9469379d2
+specifics:
+  Associations:
+  - AssociationState:
+      State: associated
+    Main: true
+    RouteTableAssociationId: rtbassoc-02439e0e2922349b8
+    RouteTableId: rtb-01b5225b9469379d2
+  OwnerId: '862793644923'
+  PropagatingVgws: []
+  RouteTableId: rtb-01b5225b9469379d2
+  Routes:
+  - DestinationCidrBlock: 10.12.0.0/24
+    GatewayId: local
+    Origin: CreateRouteTable
+    State: active
+  - DestinationCidrBlock: 10.0.0.0/8
+    Origin: CreateRoute
+    State: active
+    TransitGatewayId: tgw-094ec8a8749ab72d4
+  Tags:
+  - Key: Name
+    Value: ClientVpnVPC Attachment Default Routing Table
+  VpcId: vpc-0beab044be33d1617
+...
+

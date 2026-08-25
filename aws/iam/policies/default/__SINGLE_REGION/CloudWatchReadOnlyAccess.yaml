@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: CloudWatchReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/CloudWatchReadOnlyAccess
+  AttachmentCount: 8
+  CreateDate: 2015-02-06 18:40:01+00:00
+  DefaultVersionId: v24
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJN23PDQP7SZQAE3QE
+  PolicyName: CloudWatchReadOnlyAccess
+  UpdateDate: 2026-02-12 18:01:50+00:00
+...
+

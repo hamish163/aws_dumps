@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: nip-08c7071480a213a22
+specifics:
+  Name: test-vpn-to-perf-tracky
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSSystemsManagerJustInTimeNodeAccessRolePropagationPolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSSystemsManagerJustInTimeNodeAccessRolePropagationPolicy
+  AttachmentCount: 0
+  CreateDate: 2025-04-21 20:52:05+00:00
+  DefaultVersionId: v6
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4KMHEU6F7E
+  PolicyName: AWSSystemsManagerJustInTimeNodeAccessRolePropagationPolicy
+  UpdateDate: 2026-02-12 17:59:46+00:00
+...
+

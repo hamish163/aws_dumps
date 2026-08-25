@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-005b2094f77dfe6a5
+specifics:
+  Description: Allow scrapping of pushgateway
+  FromPort: 9091
+  GroupId: sg-00a411696735972a8
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0fa52d7310719edaa
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-005b2094f77dfe6a5
+  Tags: []
+  ToPort: 9091
+...
+

@@ -1,0 +1,28 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: bastions.stage3.bitdj.com
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/bastions.stage3.bitdj.com
+  CreateDate: 2020-10-06 06:59:03+00:00
+  InstanceProfileId: AIPA4RYUCHN53KVKZYPBB
+  InstanceProfileName: bastions.stage3.bitdj.com
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/bastions.stage3.bitdj.com
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+      Version: '2012-10-17'
+    CreateDate: 2020-10-06 06:59:00+00:00
+    Path: /
+    RoleId: AROA4RYUCHN54ALSP4HJZ
+    RoleName: bastions.stage3.bitdj.com
+...
+

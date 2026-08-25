@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-perf-spade-account-cluster-pg.ft_stopword_file
+specifics:
+  AllowedValues: /dev/null
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: File for Full Search Stop Words. NULL uses Default, /dev/null to disable
+    Stop Words
+  IsModifiable: true
+  ParameterName: ft_stopword_file
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

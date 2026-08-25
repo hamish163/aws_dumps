@@ -1,0 +1,22 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev57-mbx-klines-cluster-pgrp.slave_preserve_commit_order
+specifics:
+  AllowedValues: ON,OFF
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: For a replica with binary logging enabled, setting slave_preserve_commit_order=ON
+    guarantees transactions are written to the replica binary log in the same order
+    they appear in the relay logs
+  IsModifiable: true
+  MinimumEngineVersion: 5.7.mysql_aurora.2.12.1
+  ParameterName: slave_preserve_commit_order
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

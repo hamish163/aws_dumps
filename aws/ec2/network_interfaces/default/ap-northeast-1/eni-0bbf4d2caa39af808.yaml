@@ -1,0 +1,38 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-0bbf4d2caa39af808
+specifics:
+  Attachment:
+    AttachmentId: ela-attach-063c7f495b96b6718
+    DeleteOnTermination: false
+    DeviceIndex: 1
+    InstanceOwnerId: amazon-aws
+    Status: attached
+  AvailabilityZone: ap-northeast-1c
+  Description: VPC Endpoint Interface vpce-03592a37f77634e04
+  Groups:
+  - GroupId: sg-04099fafea952564c
+    GroupName: dev-nexus.toolsfdg.net
+  InterfaceType: vpc_endpoint
+  Ipv6Addresses: []
+  MacAddress: 0a:6f:cd:dc:f3:31
+  NetworkInterfaceId: eni-0bbf4d2caa39af808
+  OwnerId: '862793644923'
+  PrivateDnsName: ip-10-12-0-37.ap-northeast-1.compute.internal
+  PrivateIpAddress: 10.12.0.37
+  PrivateIpAddresses:
+  - Primary: true
+    PrivateDnsName: ip-10-12-0-37.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.12.0.37
+  RequesterId: '727180483921'
+  RequesterManaged: true
+  SourceDestCheck: true
+  Status: in-use
+  SubnetId: subnet-01ca32129199dd40a
+  TagSet: []
+  VpcId: vpc-0beab044be33d1617
+...
+

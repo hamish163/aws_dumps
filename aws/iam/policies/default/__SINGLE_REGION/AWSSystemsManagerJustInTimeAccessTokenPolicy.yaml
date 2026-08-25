@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSSystemsManagerJustInTimeAccessTokenPolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSSystemsManagerJustInTimeAccessTokenPolicy
+  AttachmentCount: 0
+  CreateDate: 2025-04-17 21:07:06+00:00
+  DefaultVersionId: v6
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4KKEWYZFPU
+  PolicyName: AWSSystemsManagerJustInTimeAccessTokenPolicy
+  UpdateDate: 2026-02-12 18:02:43+00:00
+...
+

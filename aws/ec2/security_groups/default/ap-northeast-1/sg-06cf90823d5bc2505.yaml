@@ -1,0 +1,22 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-06cf90823d5bc2505
+specifics:
+  Description: Service security group
+  GroupId: sg-06cf90823d5bc2505
+  GroupName: tracky-dev-tracky
+  Tags:
+  - Key: env
+    Value: dev
+  - Key: project
+    Value: mbx
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  VpcId: vpc-0a7d9bfaa80b951d9
+...
+

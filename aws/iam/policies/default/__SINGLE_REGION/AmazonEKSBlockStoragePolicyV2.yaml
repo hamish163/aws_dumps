@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonEKSBlockStoragePolicyV2
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonEKSBlockStoragePolicyV2
+  AttachmentCount: 0
+  CreateDate: 2026-05-11 16:27:15+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4J5XY2SPNP
+  PolicyName: AmazonEKSBlockStoragePolicyV2
+  UpdateDate: 2026-05-11 16:27:15+00:00
+...
+

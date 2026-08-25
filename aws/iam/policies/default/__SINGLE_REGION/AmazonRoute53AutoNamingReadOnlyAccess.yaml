@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonRoute53AutoNamingReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonRoute53AutoNamingReadOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2018-01-18 03:02:59+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJBPMV2EFBFFKJ6SI4
+  PolicyName: AmazonRoute53AutoNamingReadOnlyAccess
+  UpdateDate: 2018-01-18 03:02:59+00:00
+...
+

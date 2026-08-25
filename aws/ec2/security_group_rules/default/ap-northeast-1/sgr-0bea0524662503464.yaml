@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0bea0524662503464
+specifics:
+  Description: Allow TCP traffic from key-shovel SG on port 9337
+  FromPort: 9337
+  GroupId: sg-05ee59d929635267a
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0c67f41aa0f8f8227
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0bea0524662503464
+  Tags: []
+  ToPort: 9337
+...
+

@@ -1,0 +1,16 @@
+---
+datatype: aws.iam.users
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: amer
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/amer
+  CreateDate: 2025-04-15 04:18:59+00:00
+  PasswordLastUsed: 2026-08-12 04:11:19+00:00
+  Path: /
+  UserId: AIDA4RYUCHN55X7CJODK2
+  UserName: amer
+...
+

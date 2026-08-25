@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSPanoramaServiceLinkedRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AWSPanoramaServiceLinkedRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2021-10-20 12:12:50+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4BQE5OFSDO
+  PolicyName: AWSPanoramaServiceLinkedRolePolicy
+  UpdateDate: 2021-10-20 12:12:50+00:00
+...
+

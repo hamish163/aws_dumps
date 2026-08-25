@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-devops-salt-cluster-pg.rdkit.do_chiral_sss
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Should stereochemistry be taken into account in substructure matching.
+    If false, no stereochemistry information is used in substructure matches.
+  IsModifiable: true
+  ParameterName: rdkit.do_chiral_sss
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSLambdaManagedEC2ResourceOperator
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSLambdaManagedEC2ResourceOperator
+  AttachmentCount: 0
+  CreateDate: 2025-11-30 08:34:09+00:00
+  DefaultVersionId: v5
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4LOIC3J7IX
+  PolicyName: AWSLambdaManagedEC2ResourceOperator
+  UpdateDate: 2026-06-10 20:27:31+00:00
+...
+

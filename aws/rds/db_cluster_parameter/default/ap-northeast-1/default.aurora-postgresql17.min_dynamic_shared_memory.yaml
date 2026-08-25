@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql17.min_dynamic_shared_memory
+specifics:
+  AllowedValues: 0-2147483647
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: (MB) Amount of dynamic shared memory reserved at startup.
+  IsModifiable: true
+  ParameterName: min_dynamic_shared_memory
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

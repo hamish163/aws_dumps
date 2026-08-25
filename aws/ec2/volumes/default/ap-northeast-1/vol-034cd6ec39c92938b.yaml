@@ -1,0 +1,33 @@
+---
+datatype: aws.ec2.volumes
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-034cd6ec39c92938b
+specifics:
+  Attachments:
+  - AttachTime: 2019-10-10 02:33:14+00:00
+    DeleteOnTermination: false
+    Device: /dev/xvda
+    InstanceId: i-052abd3ea6c7f6b9f
+    State: attached
+    VolumeId: vol-034cd6ec39c92938b
+  AvailabilityZone: ap-northeast-1a
+  CreateTime: 2019-10-10 02:33:14.356000+00:00
+  Encrypted: false
+  Iops: 300
+  MultiAttachEnabled: false
+  Size: 100
+  SnapshotId: snap-0d31172bb6e7d52ac
+  State: in-use
+  Tags:
+  - Key: Name
+    Value: perf_qa_test2_ec2
+  - Key: env
+    Value: dev
+  - Key: project
+    Value: mbx
+  VolumeId: vol-034cd6ec39c92938b
+  VolumeType: gp2
+...
+

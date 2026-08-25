@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-09a36fa60170440a3
+specifics:
+  Description: Allow TCP traffic from demo-key-engine SG on port 5483
+  FromPort: 5483
+  GroupId: sg-0b5a24639f815bd55
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0c270892079d87df4
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-09a36fa60170440a3
+  Tags: []
+  ToPort: 5483
+...
+

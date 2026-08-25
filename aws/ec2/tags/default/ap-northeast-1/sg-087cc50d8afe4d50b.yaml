@@ -1,0 +1,13 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-087cc50d8afe4d50b
+specifics:
+  Name: bnb_uat3_mbx_jenkins
+  env: uat3
+  exchange: bnb
+  project: mbx
+...
+

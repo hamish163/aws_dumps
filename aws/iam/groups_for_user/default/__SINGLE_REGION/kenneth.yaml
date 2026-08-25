@@ -1,0 +1,22 @@
+---
+datatype: aws.iam.groups_for_user
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: kenneth
+  single_region: true
+specifics:
+  Groups:
+  - Arn: arn:aws:iam::862793644923:group/SRE_TEAM
+    CreateDate: 2023-01-24 06:49:24+00:00
+    GroupId: AGPA4RYUCHN55GHA35HV3
+    GroupName: SRE_TEAM
+    Path: /
+  - Arn: arn:aws:iam::862793644923:group/mbx_bedrock
+    CreateDate: 2026-04-03 13:30:18+00:00
+    GroupId: AGPA4RYUCHN5RHTPHOYU3
+    GroupName: mbx_bedrock
+    Path: /
+  _UserName: kenneth
+...
+

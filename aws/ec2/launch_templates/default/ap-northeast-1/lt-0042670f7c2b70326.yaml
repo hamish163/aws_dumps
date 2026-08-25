@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.launch_templates
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: lt-0042670f7c2b70326
+specifics:
+  CreateTime: 2022-08-29 03:19:21+00:00
+  CreatedBy: arn:aws:iam::862793644923:user/dazelle
+  DefaultVersionNumber: 1
+  LatestVersionNumber: 1
+  LaunchTemplateId: lt-0042670f7c2b70326
+  LaunchTemplateName: slave-launch-template
+...
+

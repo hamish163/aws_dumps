@@ -1,0 +1,29 @@
+---
+datatype: aws.elbv2.target_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: MbxCha-AppTa-QJ1MIO2FB53D
+specifics:
+  HealthCheckEnabled: true
+  HealthCheckIntervalSeconds: 5
+  HealthCheckPath: /
+  HealthCheckPort: traffic-port
+  HealthCheckProtocol: HTTP
+  HealthCheckTimeoutSeconds: 2
+  HealthyThresholdCount: 5
+  IpAddressType: ipv4
+  LoadBalancerArns:
+  - arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:loadbalancer/app/MbxCh-AlbEx-1KYFZN0J4CLVC/cb979d9105970855
+  Matcher:
+    HttpCode: '200'
+  Port: 3000
+  Protocol: HTTP
+  ProtocolVersion: HTTP1
+  TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/MbxCha-AppTa-QJ1MIO2FB53D/9c5d6d51d0b654ac
+  TargetGroupName: MbxCha-AppTa-QJ1MIO2FB53D
+  TargetType: instance
+  UnhealthyThresholdCount: 2
+  VpcId: vpc-050b727e89fac853e
+...
+

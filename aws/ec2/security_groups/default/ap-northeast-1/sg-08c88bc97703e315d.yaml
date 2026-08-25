@@ -1,0 +1,28 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-08c88bc97703e315d
+specifics:
+  Description: Bitdj Bastion Security Group
+  GroupId: sg-08c88bc97703e315d
+  GroupName: usa_prod_mbx_bastion
+  Tags:
+  - Key: env
+    Value: prod
+  - Key: team
+    Value: mbx
+  - Key: exchange_id
+    Value: usa
+  - Key: Name
+    Value: usa_prod_mbx_bastion_sg
+  - Key: project
+    Value: mbx
+  - Key: role
+    Value: bastion
+  - Key: biz
+    Value: mbx
+  VpcId: vpc-041f1adf86f81b9e1
+...
+

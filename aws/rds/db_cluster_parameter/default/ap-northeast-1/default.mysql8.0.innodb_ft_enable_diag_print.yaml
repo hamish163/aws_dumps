@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.innodb_ft_enable_diag_print
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Whether to enable additional full-text search (FTS) diagnostic output.
+  IsModifiable: true
+  ParameterName: innodb_ft_enable_diag_print
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

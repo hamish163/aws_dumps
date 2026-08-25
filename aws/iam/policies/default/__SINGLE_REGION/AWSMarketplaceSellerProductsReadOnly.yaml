@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSMarketplaceSellerProductsReadOnly
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSMarketplaceSellerProductsReadOnly
+  AttachmentCount: 0
+  CreateDate: 2019-07-02 21:40:47+00:00
+  DefaultVersionId: v7
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4K5Y2Q5F7D
+  PolicyName: AWSMarketplaceSellerProductsReadOnly
+  UpdateDate: 2026-02-12 18:01:38+00:00
+...
+

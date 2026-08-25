@@ -1,0 +1,15 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: com.bitdj.chat.mongo3/A
+  single_region: true
+specifics:
+  Name: mongo3.chat.bitdj.com.
+  ResourceRecords:
+  - Value: 10.12.5.242
+  TTL: 300
+  Type: A
+...
+

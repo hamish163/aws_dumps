@@ -1,0 +1,16 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0bbd96cb252a70e3a
+specifics:
+  Name: mbx-bnb-solutions-telegrambot-db
+  biz: mbx
+  mbx_clustered_application: 'true'
+  mbx_env_name: solutions
+  mbx_exchange_name: bnb
+  mbx_secret_store: none
+  team: mbx
+...
+

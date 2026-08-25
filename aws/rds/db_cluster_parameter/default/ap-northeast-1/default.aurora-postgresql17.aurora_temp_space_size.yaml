@@ -1,0 +1,22 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql17.aurora_temp_space_size
+specifics:
+  AllowedValues: 0-2147483647
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: (MB) Amount of ephemeral space allocated for temporary objects on supported
+    instance classes.
+  IsModifiable: true
+  MinimumEngineVersion: '17.4'
+  ParameterName: aurora_temp_space_size
+  ParameterValue: '{DBInstanceClassMemory/524288}'
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

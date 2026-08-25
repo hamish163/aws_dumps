@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.innodb_purge_threads
+specifics:
+  AllowedValues: 1-32
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: The number of background threads devoted to the InnoDB purge operation
+  IsModifiable: true
+  ParameterName: innodb_purge_threads
+  ParameterValue: '4'
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,24 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-09b72e063986cc2ae
+specifics:
+  Description: Security group for ws-api NLB
+  GroupId: sg-09b72e063986cc2ae
+  GroupName: mbx-bnb-perf-ws-api-nlb-sg
+  Tags:
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  - Key: Name
+    Value: mbx-bnb-perf-ws-api-nlb-sg
+  - Key: mbx_env_name
+    Value: perf
+  - Key: biz
+    Value: mbx
+  VpcId: vpc-013930e589c469574
+...
+

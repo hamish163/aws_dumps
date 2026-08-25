@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: tgw-attach-01e7a404879e34b3d
+specifics:
+  Name: TGWTokyo-TGWUSA
+...
+

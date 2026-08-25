@@ -1,0 +1,46 @@
+---
+datatype: aws.ec2.volumes
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-03767eabafb37f03e
+specifics:
+  Attachments:
+  - AttachTime: 2022-09-07 22:09:24+00:00
+    DeleteOnTermination: true
+    Device: /dev/xvda
+    InstanceId: i-04a7854a5a0fba71a
+    State: attached
+    VolumeId: vol-03767eabafb37f03e
+  AvailabilityZone: ap-northeast-1a
+  CreateTime: 2022-09-07 22:09:24.746000+00:00
+  Encrypted: false
+  Iops: 3000
+  MultiAttachEnabled: false
+  Size: 40
+  SnapshotId: snap-06d3c99341f26e9bb
+  State: in-use
+  Tags:
+  - Key: exchange_id
+    Value: tracky
+  - Key: project
+    Value: spooky
+  - Key: role
+    Value: spooky
+  - Key: sre-env
+    Value: prod
+  - Key: team
+    Value: sre
+  - Key: sre-component
+    Value: spooky
+  - Key: biz
+    Value: mbx
+  - Key: sre-app
+    Value: spooky
+  - Key: env
+    Value: prod
+  Throughput: 125
+  VolumeId: vol-03767eabafb37f03e
+  VolumeType: gp3
+...
+

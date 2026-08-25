@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.key_pairs
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: key-0266c0422452cb794
+specifics:
+  CreateTime: 2018-06-25 02:41:08+00:00
+  KeyFingerprint: 44:94:8b:04:96:03:d9:6a:81:bd:a0:b0:92:a8:31:2f
+  KeyName: kubernetes.test-apnortheast1.bitdj.com-6f:62:96:40:32:0e:7a:03:59:7e:54:a8:44:b9:f4:3d
+  KeyPairId: key-0266c0422452cb794
+  KeyType: rsa
+  Tags: []
+...
+

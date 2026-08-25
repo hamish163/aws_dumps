@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSPartnerCentralMarketingManagement
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSPartnerCentralMarketingManagement
+  AttachmentCount: 0
+  CreateDate: 2025-12-01 00:34:10+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4EDTAKOI7T
+  PolicyName: AWSPartnerCentralMarketingManagement
+  UpdateDate: 2026-02-14 00:57:08+00:00
+...
+

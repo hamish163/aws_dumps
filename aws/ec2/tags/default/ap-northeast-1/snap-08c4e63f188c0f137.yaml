@@ -1,0 +1,23 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: snap-08c4e63f188c0f137
+specifics:
+  biz: mbx
+  git_author: Mike 'Traff' Traffanstead <michael.t@binance.com>
+  git_committer: Mike 'Traff' Traffanstead <michael.t@binance.com>
+  git_hash: 73796fc5b8ae87d69f632668bdd85bd478b063ba
+  git_message: 'Trim git tags so they fit, especially ''message''
+
+    '
+  git_timestamp: '2024-10-15T06:00:30Z'
+  managed: packer
+  project: mbx
+  role: ami-oci-builder
+  source_al2023_kernel: '6.1'
+  source_al2023_version: 2023.6.20241010.0
+  team: mbx
+...
+

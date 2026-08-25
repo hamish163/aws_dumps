@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: tgw-attach-0dcf16c378b927872
+specifics:
+  Name: mbx-velocity-qa
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-klines-cluster-pg.thread_handling
+specifics:
+  AllowedValues: multiple-connections-per-thread,no-threads,one-thread-per-connection,dynamically-loaded
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: The thread-handling model used by the server for connection threads.
+  IsModifiable: false
+  ParameterName: thread_handling
+  ParameterValue: multiple-connections-per-thread
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

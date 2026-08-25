@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: snap-06f9451484a420291
+specifics:
+  Name: 20200813-cibuild-jenkins-pv
+  env: test
+  project: mbx
+...
+

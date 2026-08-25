@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSIoTFleetHubFederationAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AWSIoTFleetHubFederationAccess
+  AttachmentCount: 0
+  CreateDate: 2020-12-15 08:08:05+00:00
+  DefaultVersionId: v5
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4H4EGQA254
+  PolicyName: AWSIoTFleetHubFederationAccess
+  UpdateDate: 2022-04-04 18:03:01+00:00
+...
+

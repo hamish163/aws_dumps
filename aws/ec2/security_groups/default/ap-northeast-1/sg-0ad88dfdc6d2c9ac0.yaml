@@ -1,0 +1,24 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0ad88dfdc6d2c9ac0
+specifics:
+  Description: Default SG for all resources
+  GroupId: sg-0ad88dfdc6d2c9ac0
+  GroupName: mbx-bnb-solutions-default
+  Tags:
+  - Key: mbx_env_name
+    Value: solutions
+  - Key: Name
+    Value: mbx-bnb-solutions-default
+  - Key: biz
+    Value: mbx
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  VpcId: vpc-0218545ff4351ce04
+...
+

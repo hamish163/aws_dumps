@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: EC2InstanceConnect
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/EC2InstanceConnect
+  AttachmentCount: 0
+  CreateDate: 2019-06-27 18:53:34+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4PBRCMEYY5
+  PolicyName: EC2InstanceConnect
+  UpdateDate: 2019-06-27 18:53:34+00:00
+...
+

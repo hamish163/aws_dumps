@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0b5476ffb29596cc5
+specifics:
+  Description: trace-agent --- fix-dropcopy on 9410
+  FromPort: 9410
+  GroupId: sg-008719f077895d287
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0a32d6a141a567d26
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0b5476ffb29596cc5
+  Tags: []
+  ToPort: 9410
+...
+

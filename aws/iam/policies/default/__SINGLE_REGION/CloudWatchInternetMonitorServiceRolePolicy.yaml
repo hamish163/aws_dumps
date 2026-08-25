@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: CloudWatchInternetMonitorServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/CloudWatchInternetMonitorServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2022-11-27 17:46:24+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4JXY6SBQJJ
+  PolicyName: CloudWatchInternetMonitorServiceRolePolicy
+  UpdateDate: 2023-07-20 04:46:37+00:00
+...
+

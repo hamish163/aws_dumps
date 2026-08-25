@@ -1,0 +1,137 @@
+---
+datatype: aws.ec2.instances
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-00a7e7249260b4613
+specifics:
+  AmiLaunchIndex: 0
+  Architecture: x86_64
+  BlockDeviceMappings:
+  - DeviceName: /dev/xvda
+    Ebs:
+      AttachTime: 2025-10-16 13:46:00+00:00
+      DeleteOnTermination: true
+      Status: attached
+      VolumeId: vol-01627a0d45f32e8bc
+  - DeviceName: /dev/sdf
+    Ebs:
+      AttachTime: 2025-10-16 13:46:32.445000+00:00
+      DeleteOnTermination: false
+      Status: attached
+      VolumeId: vol-0e8329706fb51f065
+  BootMode: uefi-preferred
+  CapacityReservationSpecification:
+    CapacityReservationPreference: open
+  ClientToken: terraform-20251016134558630600000001
+  CpuOptions:
+    CoreCount: 1
+    ThreadsPerCore: 2
+  CurrentInstanceBootMode: uefi
+  EbsOptimized: true
+  EnaSupport: true
+  EnclaveOptions:
+    Enabled: false
+  HibernationOptions:
+    Configured: false
+  Hypervisor: xen
+  IamInstanceProfile:
+    Arn: arn:aws:iam::862793644923:instance-profile/mbx-bnb-devops-sequencer
+    Id: AIPA4RYUCHN5XJXVS72QE
+  ImageId: ami-04378f993f6e0c419
+  InstanceId: i-00a7e7249260b4613
+  InstanceType: t3.medium
+  LaunchTime: 2025-10-16 13:45:59+00:00
+  MaintenanceOptions:
+    AutoRecovery: default
+  MetadataOptions:
+    HttpEndpoint: enabled
+    HttpProtocolIpv6: disabled
+    HttpPutResponseHopLimit: 2
+    HttpTokens: required
+    InstanceMetadataTags: enabled
+    State: applied
+  Monitoring:
+    State: disabled
+  NetworkInterfaces:
+  - Attachment:
+      AttachTime: 2025-10-16 13:45:59+00:00
+      AttachmentId: eni-attach-0219fa66869e0704a
+      DeleteOnTermination: true
+      DeviceIndex: 0
+      NetworkCardIndex: 0
+      Status: attached
+    Description: ''
+    Groups:
+    - GroupId: sg-0dcd16e585060d06c
+      GroupName: mbx-bnb-devops-monitoring
+    - GroupId: sg-0021bf00906cbb632
+      GroupName: mbx-bnb-devops-default
+    - GroupId: sg-0bab9de95a8a557fe
+      GroupName: mbx-bnb-devops-sequencer
+    InterfaceType: interface
+    Ipv6Addresses: []
+    MacAddress: 06:aa:ce:5a:35:a3
+    NetworkInterfaceId: eni-01fe637b07f794f6c
+    OwnerId: '862793644923'
+    PrivateDnsName: ip-10-200-19-52.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.200.19.52
+    PrivateIpAddresses:
+    - Primary: true
+      PrivateDnsName: ip-10-200-19-52.ap-northeast-1.compute.internal
+      PrivateIpAddress: 10.200.19.52
+    SourceDestCheck: true
+    Status: in-use
+    SubnetId: subnet-0c188e95cfba03f63
+    VpcId: vpc-07519eb63f1d932ac
+  Placement:
+    AvailabilityZone: ap-northeast-1a
+    GroupName: ''
+    Tenancy: default
+  PlatformDetails: Linux/UNIX
+  PrivateDnsName: ip-10-200-19-52.ap-northeast-1.compute.internal
+  PrivateDnsNameOptions:
+    EnableResourceNameDnsAAAARecord: false
+    EnableResourceNameDnsARecord: false
+    HostnameType: ip-name
+  PrivateIpAddress: 10.200.19.52
+  ProductCodes: []
+  PublicDnsName: ''
+  RootDeviceName: /dev/xvda
+  RootDeviceType: ebs
+  SecurityGroups:
+  - GroupId: sg-0dcd16e585060d06c
+    GroupName: mbx-bnb-devops-monitoring
+  - GroupId: sg-0021bf00906cbb632
+    GroupName: mbx-bnb-devops-default
+  - GroupId: sg-0bab9de95a8a557fe
+    GroupName: mbx-bnb-devops-sequencer
+  SourceDestCheck: true
+  State:
+    Code: 16
+    Name: running
+  StateTransitionReason: ''
+  SubnetId: subnet-0c188e95cfba03f63
+  Tags:
+  - Key: Name
+    Value: mbx-bnb-devops-sequencer3
+  - Key: biz
+    Value: mbx
+  - Key: mbx_application_name
+    Value: mbx-core-sequencer
+  - Key: mbx_env_name
+    Value: devops
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_host_index
+    Value: '3'
+  - Key: mbx_secret_store
+    Value: none
+  - Key: team
+    Value: mbx
+  UsageOperation: RunInstances
+  UsageOperationUpdateTime: 2025-10-16 13:45:59+00:00
+  VirtualizationType: hvm
+  VpcId: vpc-07519eb63f1d932ac
+...
+

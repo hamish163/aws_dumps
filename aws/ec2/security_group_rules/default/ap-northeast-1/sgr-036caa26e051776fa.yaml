@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-036caa26e051776fa
+specifics:
+  Description: Allow TCP traffic from mgmt-api SG on port 5493
+  FromPort: 5493
+  GroupId: sg-05ee59d929635267a
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0cb2d15d2f23065d8
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-036caa26e051776fa
+  Tags: []
+  ToPort: 5493
+...
+

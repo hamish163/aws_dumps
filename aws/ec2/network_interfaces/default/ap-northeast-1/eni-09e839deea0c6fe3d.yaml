@@ -1,0 +1,56 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-09e839deea0c6fe3d
+specifics:
+  Attachment:
+    AttachTime: 2026-07-09 22:55:47+00:00
+    AttachmentId: eni-attach-0814840dc2aa2b4d5
+    DeleteOnTermination: true
+    DeviceIndex: 0
+    InstanceId: i-0fb0fc53166e0ad72
+    InstanceOwnerId: '862793644923'
+    NetworkCardIndex: 0
+    Status: attached
+  AvailabilityZone: ap-northeast-1a
+  Description: ''
+  Groups:
+  - GroupId: sg-09bf903f5851bcb74
+    GroupName: mbx-bnb-sre-emu-generic-nodes
+  - GroupId: sg-0b1f965f179af2036
+    GroupName: mbx-bnb-sre-monitoring
+  - GroupId: sg-0fba27ebbca90c7a1
+    GroupName: mbx-bnb-sre-default
+  - GroupId: sg-009df548cfc588704
+    GroupName: mbx-bnb-sre-emu-shared
+  InterfaceType: interface
+  Ipv6Addresses: []
+  MacAddress: 06:f7:60:c9:4d:d5
+  NetworkInterfaceId: eni-09e839deea0c6fe3d
+  OwnerId: '862793644923'
+  PrivateDnsName: ip-10-240-14-240.ap-northeast-1.compute.internal
+  PrivateIpAddress: 10.240.14.240
+  PrivateIpAddresses:
+  - Primary: true
+    PrivateDnsName: ip-10-240-14-240.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.240.14.240
+  RequesterManaged: false
+  SourceDestCheck: true
+  Status: in-use
+  SubnetId: subnet-056bdbf07fe76a057
+  TagSet:
+  - Key: eks:eni:owner
+    Value: amazon-vpc-cni
+  - Key: cluster.k8s.amazonaws.com/name
+    Value: mbx-bnb-sre-emu
+  - Key: eks:cluster-name
+    Value: mbx-bnb-sre-emu
+  - Key: node.k8s.amazonaws.com/instance_id
+    Value: i-0fb0fc53166e0ad72
+  - Key: eks:nodegroup-name
+    Value: mbx-bnb-sre-emu-generic-20260710
+  VpcId: vpc-0ba76150fc7799f94
+...
+

@@ -1,0 +1,22 @@
+---
+datatype: aws.iam.account_authorization_details
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: jenkins_user
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/jenkins_user
+  AttachedManagedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/test-jenkins-artifacts-upload
+    PolicyName: test-jenkins-artifacts-upload
+  CreateDate: 2023-09-06 19:13:13+00:00
+  GroupList: []
+  Path: /
+  Tags:
+  - Key: AKIA4RYUCHN54RNSUAPH
+    Value: Used for tetsing artifatcs upload to s3
+  UserId: AIDA4RYUCHN5WEXPPFMVC
+  UserName: jenkins_user
+...
+

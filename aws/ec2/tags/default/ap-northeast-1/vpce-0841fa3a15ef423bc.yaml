@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vpce-0841fa3a15ef423bc
+specifics:
+  Name: static-iac-toolsfdg
+...
+

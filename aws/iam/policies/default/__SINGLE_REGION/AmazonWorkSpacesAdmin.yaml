@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonWorkSpacesAdmin
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonWorkSpacesAdmin
+  AttachmentCount: 0
+  CreateDate: 2015-09-22 22:21:15+00:00
+  DefaultVersionId: v6
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJ26AU6ATUQCT5KVJU
+  PolicyName: AmazonWorkSpacesAdmin
+  UpdateDate: 2024-06-27 17:16:27+00:00
+...
+

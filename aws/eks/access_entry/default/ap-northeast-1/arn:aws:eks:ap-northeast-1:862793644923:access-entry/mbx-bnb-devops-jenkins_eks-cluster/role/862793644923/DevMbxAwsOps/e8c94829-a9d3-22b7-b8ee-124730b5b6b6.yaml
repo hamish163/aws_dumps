@@ -1,0 +1,18 @@
+---
+datatype: aws.eks.access_entry
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:eks:ap-northeast-1:862793644923:access-entry/mbx-bnb-devops-jenkins_eks-cluster/role/862793644923/DevMbxAwsOps/e8c94829-a9d3-22b7-b8ee-124730b5b6b6
+specifics:
+  accessEntryArn: arn:aws:eks:ap-northeast-1:862793644923:access-entry/mbx-bnb-devops-jenkins_eks-cluster/role/862793644923/DevMbxAwsOps/e8c94829-a9d3-22b7-b8ee-124730b5b6b6
+  clusterName: mbx-bnb-devops-jenkins_eks-cluster
+  createdAt: 2024-10-16 00:17:13.052000+11:00
+  kubernetesGroups: []
+  modifiedAt: 2024-10-16 00:17:13.052000+11:00
+  principalArn: arn:aws:iam::862793644923:role/DevMbxAwsOps
+  tags: {}
+  type: STANDARD
+  username: arn:aws:sts::862793644923:assumed-role/DevMbxAwsOps/{{SessionName}}
+...
+

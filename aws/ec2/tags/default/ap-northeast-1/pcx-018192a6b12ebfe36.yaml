@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: pcx-018192a6b12ebfe36
+specifics:
+  Name: perf_dev_mbx
+...
+

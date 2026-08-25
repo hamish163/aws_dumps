@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: pcx-0033a924d785335cd
+specifics:
+  Name: monitoring_vpc_to_tracky
+...
+

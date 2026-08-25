@@ -1,0 +1,36 @@
+---
+datatype: aws.ec2.subnets
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: subnet-00fa2396026290a6f
+specifics:
+  AssignIpv6AddressOnCreation: false
+  AvailabilityZone: ap-northeast-1c
+  AvailabilityZoneId: apne1-az1
+  AvailableIpAddressCount: 8187
+  CidrBlock: 172.25.160.0/19
+  DefaultForAz: false
+  EnableDns64: false
+  Ipv6CidrBlockAssociationSet: []
+  Ipv6Native: false
+  MapCustomerOwnedIpOnLaunch: false
+  MapPublicIpOnLaunch: false
+  OwnerId: '862793644923'
+  PrivateDnsNameOptionsOnLaunch:
+    EnableResourceNameDnsAAAARecord: false
+    EnableResourceNameDnsARecord: false
+    HostnameType: ip-name
+  State: available
+  SubnetArn: arn:aws:ec2:ap-northeast-1:862793644923:subnet/subnet-00fa2396026290a6f
+  SubnetId: subnet-00fa2396026290a6f
+  Tags:
+  - Key: Name
+    Value: ap2-bitdj-backend-1
+  - Key: env
+    Value: ap2
+  - Key: project
+    Value: bitdj
+  VpcId: vpc-07652e77a8fa0e0c2
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-010a5ae3337da1364
+specifics:
+  Description: Security group for nodes
+  GroupId: sg-010a5ae3337da1364
+  GroupName: nodes.ap2.bitdj.com
+  Tags:
+  - Key: KubernetesCluster
+    Value: ap2.bitdj.com
+  - Key: Name
+    Value: nodes.ap2.bitdj.com
+  - Key: kubernetes.io/cluster/ap2.bitdj.com
+    Value: owned
+  VpcId: vpc-07652e77a8fa0e0c2
+...
+

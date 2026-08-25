@@ -1,0 +1,24 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-068955c74f5738551
+specifics:
+  Description: Security group for order-visualizer ALB
+  GroupId: sg-068955c74f5738551
+  GroupName: mbx-bnb-solutions-orderbook-lb
+  Tags:
+  - Key: Name
+    Value: mbx-bnb-solutions-orderbook-lb
+  - Key: Project
+    Value: order-visualizer-alb
+  - Key: Team
+    Value: Solutions
+  - Key: ManagedBy
+    Value: terraform
+  - Key: Environment
+    Value: solutions
+  VpcId: vpc-0218545ff4351ce04
+...
+

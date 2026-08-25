@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: dopt-6f8f960d
+specifics:
+  Name: ClientVpnVPC Attachment DHCP Option Set
+...
+

@@ -1,0 +1,34 @@
+---
+datatype: aws.iam.account_authorization_details
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: michael
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/michael
+  AttachedManagedPolicies: []
+  CreateDate: 2021-05-11 02:36:52+00:00
+  GroupList:
+  - DEVOPS_TEAM_DEPLOYMENT_MGMT
+  - mbx_bedrock
+  - DEVOPS_TEAM_INFRA_MGMT
+  - DEVOPS_TEAM_RO
+  - DEVOPS_TEAM_IAM_MGMT
+  - DEVOPS_TEAM
+  - devops
+  - MBX_EVERYONE_TEAM
+  Path: /
+  Tags:
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  - Key: mbx_iam
+    Value: michael
+  - Key: mbx_team
+    Value: devops
+  UserId: AIDA4RYUCHN5V7MNBLKI7
+  UserName: michael
+...
+

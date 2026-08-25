@@ -1,0 +1,17 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: tracky-event-writer
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::aws:policy/service-role/AWSLambdaVPCAccessExecutionRole
+    PolicyName: AWSLambdaVPCAccessExecutionRole
+  - PolicyArn: arn:aws:iam::aws:policy/service-role/AWSLambdaKinesisExecutionRole
+    PolicyName: AWSLambdaKinesisExecutionRole
+  - PolicyArn: arn:aws:iam::aws:policy/CloudWatchLambdaInsightsExecutionRolePolicy
+    PolicyName: CloudWatchLambdaInsightsExecutionRolePolicy
+...
+

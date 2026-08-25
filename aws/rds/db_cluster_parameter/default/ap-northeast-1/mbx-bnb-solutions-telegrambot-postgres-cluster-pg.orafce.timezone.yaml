@@ -1,0 +1,18 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-solutions-telegrambot-postgres-cluster-pg.orafce.timezone
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Specify timezone used for sysdate function.
+  IsModifiable: true
+  ParameterName: orafce.timezone
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

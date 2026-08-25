@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSElasticDisasterRecoveryServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AWSElasticDisasterRecoveryServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2021-11-17 10:56:17+00:00
+  DefaultVersionId: v8
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4HALZVJBJX
+  PolicyName: AWSElasticDisasterRecoveryServiceRolePolicy
+  UpdateDate: 2025-01-05 14:07:06+00:00
+...
+

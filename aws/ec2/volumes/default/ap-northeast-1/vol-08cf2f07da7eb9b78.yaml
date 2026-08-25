@@ -1,0 +1,48 @@
+---
+datatype: aws.ec2.volumes
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-08cf2f07da7eb9b78
+specifics:
+  Attachments:
+  - AttachTime: 2023-11-28 12:02:08+00:00
+    DeleteOnTermination: true
+    Device: /dev/xvda
+    InstanceId: i-056c6ef1cb1152283
+    State: attached
+    VolumeId: vol-08cf2f07da7eb9b78
+  AvailabilityZone: ap-northeast-1a
+  CreateTime: 2023-11-28 12:02:08.833000+00:00
+  Encrypted: false
+  Iops: 3000
+  MultiAttachEnabled: false
+  Size: 40
+  SnapshotId: snap-06d3c99341f26e9bb
+  State: in-use
+  Tags:
+  - Key: Name
+    Value: bnb_prod_mbx_mbx-portal1_ec2
+  - Key: sre-app
+    Value: portal
+  - Key: sre-env
+    Value: prod
+  - Key: sre-component
+    Value: portal-api
+  - Key: team
+    Value: sre
+  - Key: role
+    Value: mbx-portal
+  - Key: biz
+    Value: mbx
+  - Key: exchange_id
+    Value: bnb
+  - Key: project
+    Value: portal
+  - Key: env
+    Value: prod
+  Throughput: 125
+  VolumeId: vol-08cf2f07da7eb9b78
+  VolumeType: gp3
+...
+

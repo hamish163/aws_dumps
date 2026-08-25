@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonTimestreamConsoleFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonTimestreamConsoleFullAccess
+  AttachmentCount: 0
+  CreateDate: 2020-09-30 21:47:18+00:00
+  DefaultVersionId: v13
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4AZJLUKMAZ
+  PolicyName: AmazonTimestreamConsoleFullAccess
+  UpdateDate: 2026-02-12 18:00:50+00:00
+...
+

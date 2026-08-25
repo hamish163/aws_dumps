@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-devops-salt-cluster-pg.array_nulls
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Enable input of NULL elements in arrays.
+  IsModifiable: true
+  ParameterName: array_nulls
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

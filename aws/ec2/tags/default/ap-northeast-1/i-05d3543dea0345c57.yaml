@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-05d3543dea0345c57
+specifics:
+  Name: mbx-bnb-perf-publicstream2
+  biz: mbx
+  mbx_application_name: mbx-data-publicstream
+  mbx_clustered_application: 'false'
+  mbx_env_name: perf
+  mbx_env_type: na
+  mbx_exchange_name: bnb
+  mbx_host_index: '2'
+  mbx_secret_store: asm
+  team: mbx
+...
+

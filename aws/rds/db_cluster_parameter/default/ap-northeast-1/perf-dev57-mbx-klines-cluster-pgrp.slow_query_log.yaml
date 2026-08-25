@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev57-mbx-klines-cluster-pgrp.slow_query_log
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Enable or disable the slow query log
+  IsModifiable: true
+  ParameterName: slow_query_log
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+  - serverless
+...
+

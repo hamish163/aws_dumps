@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: OpensearchIngestionSelfManagedVpcePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/OpensearchIngestionSelfManagedVpcePolicy
+  AttachmentCount: 0
+  CreateDate: 2024-06-10 19:59:40+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4DWAL7NRX4
+  PolicyName: OpensearchIngestionSelfManagedVpcePolicy
+  UpdateDate: 2024-06-10 19:59:40+00:00
+...
+

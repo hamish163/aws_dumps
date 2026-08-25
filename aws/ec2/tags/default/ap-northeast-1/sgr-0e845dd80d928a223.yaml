@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0e845dd80d928a223
+specifics:
+  Name: dev-nexus.toolsfdg.net
+...
+

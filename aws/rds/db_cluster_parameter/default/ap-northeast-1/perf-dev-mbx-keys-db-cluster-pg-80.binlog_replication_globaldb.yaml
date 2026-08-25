@@ -1,0 +1,24 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-keys-db-cluster-pg-80.binlog_replication_globaldb
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: boolean
+  Description: This setting controls if binary log data will be replicated to global
+    database secondary clusters. This setting is only used with aurora_enhanced_binlog.  It
+    must be disabled when aurora_enhanced_binlog is enabled, and enabled when aurora_enhanced_binlog
+    is disabled.
+  IsModifiable: true
+  MinimumEngineVersion: 8.0.mysql_aurora.3.03.1
+  ParameterName: binlog_replication_globaldb
+  ParameterValue: '1'
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

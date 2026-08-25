@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonESFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonESFullAccess
+  AttachmentCount: 0
+  CreateDate: 2015-10-01 19:14:00+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJM6ZTCU24QL5PZCGC
+  PolicyName: AmazonESFullAccess
+  UpdateDate: 2015-10-01 19:14:00+00:00
+...
+

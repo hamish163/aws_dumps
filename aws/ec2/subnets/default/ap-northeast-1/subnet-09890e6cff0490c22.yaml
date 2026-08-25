@@ -1,0 +1,36 @@
+---
+datatype: aws.ec2.subnets
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: subnet-09890e6cff0490c22
+specifics:
+  AssignIpv6AddressOnCreation: false
+  AvailabilityZone: ap-northeast-1a
+  AvailabilityZoneId: apne1-az4
+  AvailableIpAddressCount: 65528
+  CidrBlock: 10.0.0.0/16
+  DefaultForAz: false
+  EnableDns64: false
+  Ipv6CidrBlockAssociationSet: []
+  Ipv6Native: false
+  MapCustomerOwnedIpOnLaunch: false
+  MapPublicIpOnLaunch: false
+  OwnerId: '862793644923'
+  PrivateDnsNameOptionsOnLaunch:
+    EnableResourceNameDnsAAAARecord: false
+    EnableResourceNameDnsARecord: false
+    HostnameType: ip-name
+  State: available
+  SubnetArn: arn:aws:ec2:ap-northeast-1:862793644923:subnet/subnet-09890e6cff0490c22
+  SubnetId: subnet-09890e6cff0490c22
+  Tags:
+  - Key: Name
+    Value: solution_infra_sol1_external0_net
+  - Key: env
+    Value: infra
+  - Key: project
+    Value: sol1
+  VpcId: vpc-03543e019e5fc8fbf
+...
+

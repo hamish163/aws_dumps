@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonHoneycodeTeamAssociationReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonHoneycodeTeamAssociationReadOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2020-06-24 20:27:46+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4KRI4FOLPG
+  PolicyName: AmazonHoneycodeTeamAssociationReadOnlyAccess
+  UpdateDate: 2020-06-24 20:27:46+00:00
+...
+

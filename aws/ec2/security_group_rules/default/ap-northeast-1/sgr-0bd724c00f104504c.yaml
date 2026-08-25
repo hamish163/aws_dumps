@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0bd724c00f104504c
+specifics:
+  Description: Allows EFA traffic, which is not matched by CIDR rules.
+  FromPort: -1
+  GroupId: sg-0c75fc346d9cdc0cf
+  GroupOwnerId: '862793644923'
+  IpProtocol: '-1'
+  IsEgress: true
+  ReferencedGroupInfo:
+    GroupId: sg-0c75fc346d9cdc0cf
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0bd724c00f104504c
+  Tags: []
+  ToPort: -1
+...
+

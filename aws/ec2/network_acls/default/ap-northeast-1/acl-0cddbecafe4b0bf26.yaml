@@ -1,0 +1,54 @@
+---
+datatype: aws.ec2.network_acls
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: acl-0cddbecafe4b0bf26
+specifics:
+  Associations:
+  - NetworkAclAssociationId: aclassoc-0f9702edfcea8b425
+    NetworkAclId: acl-0cddbecafe4b0bf26
+    SubnetId: subnet-004d7c3cfdb817782
+  - NetworkAclAssociationId: aclassoc-006951c20762d903b
+    NetworkAclId: acl-0cddbecafe4b0bf26
+    SubnetId: subnet-077d0fd18218f2d47
+  - NetworkAclAssociationId: aclassoc-0b7dbac865d730dab
+    NetworkAclId: acl-0cddbecafe4b0bf26
+    SubnetId: subnet-0baed55868986fdb9
+  - NetworkAclAssociationId: aclassoc-0888c3fb59748ba8e
+    NetworkAclId: acl-0cddbecafe4b0bf26
+    SubnetId: subnet-0177c2c57fbc2040e
+  - NetworkAclAssociationId: aclassoc-0a09a69fa0142c46d
+    NetworkAclId: acl-0cddbecafe4b0bf26
+    SubnetId: subnet-0301fef8bf049f09f
+  - NetworkAclAssociationId: aclassoc-0c5a83ddbad7910ae
+    NetworkAclId: acl-0cddbecafe4b0bf26
+    SubnetId: subnet-0bc802ffcc408cd32
+  Entries:
+  - CidrBlock: 0.0.0.0/0
+    Egress: true
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 100
+  - CidrBlock: 0.0.0.0/0
+    Egress: false
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 100
+  - CidrBlock: 0.0.0.0/0
+    Egress: true
+    Protocol: '-1'
+    RuleAction: deny
+    RuleNumber: 32767
+  - CidrBlock: 0.0.0.0/0
+    Egress: false
+    Protocol: '-1'
+    RuleAction: deny
+    RuleNumber: 32767
+  IsDefault: true
+  NetworkAclId: acl-0cddbecafe4b0bf26
+  OwnerId: '862793644923'
+  Tags: []
+  VpcId: vpc-001ab708836aeeb75
+...
+

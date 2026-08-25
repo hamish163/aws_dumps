@@ -1,0 +1,14 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-08cde7e133990fe6f
+specifics:
+  Description: Rocket.Chat Server-Rocket.Chat Installer 8.0.1-zrf-AutogenByAWSMP--1
+    created 2026-06-16T02:18:34.051Z
+  GroupId: sg-08cde7e133990fe6f
+  GroupName: Rocket.Chat Server-Rocket.Chat Installer 8.0.1-zrf-AutogenByAWSMP--1
+  VpcId: vpc-03f5d2495fd8d95a3
+...
+

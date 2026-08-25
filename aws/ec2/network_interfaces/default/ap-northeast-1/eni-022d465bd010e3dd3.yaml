@@ -1,0 +1,40 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-022d465bd010e3dd3
+specifics:
+  Attachment:
+    AttachTime: 2024-01-30 20:13:53+00:00
+    AttachmentId: eni-attach-06d017b659bb8eaba
+    DeleteOnTermination: true
+    DeviceIndex: 0
+    InstanceId: i-0b15c4373e0e9629a
+    InstanceOwnerId: '862793644923'
+    NetworkCardIndex: 0
+    Status: attached
+  AvailabilityZone: ap-northeast-1a
+  Description: ''
+  Groups:
+  - GroupId: sg-0b07988c910cd5cc8
+    GroupName: mbx_bnb_devops_jenkins
+  InterfaceType: interface
+  Ipv6Addresses: []
+  MacAddress: 06:c8:ba:1f:fe:57
+  NetworkInterfaceId: eni-022d465bd010e3dd3
+  OwnerId: '862793644923'
+  PrivateDnsName: ip-10-143-1-98.ap-northeast-1.compute.internal
+  PrivateIpAddress: 10.143.1.98
+  PrivateIpAddresses:
+  - Primary: true
+    PrivateDnsName: ip-10-143-1-98.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.143.1.98
+  RequesterManaged: false
+  SourceDestCheck: true
+  Status: in-use
+  SubnetId: subnet-0dd384f4778993aad
+  TagSet: []
+  VpcId: vpc-097095a8b70ef6727
+...
+

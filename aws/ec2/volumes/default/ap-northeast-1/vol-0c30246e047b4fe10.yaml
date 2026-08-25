@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.volumes
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-0c30246e047b4fe10
+specifics:
+  Attachments: []
+  AvailabilityZone: ap-northeast-1a
+  CreateTime: 2021-01-18 07:55:50.995000+00:00
+  Encrypted: false
+  Iops: 3000
+  MultiAttachEnabled: false
+  Size: 40
+  SnapshotId: snap-06d3c99341f26e9bb
+  State: available
+  Throughput: 125
+  VolumeId: vol-0c30246e047b4fe10
+  VolumeType: gp3
+...
+

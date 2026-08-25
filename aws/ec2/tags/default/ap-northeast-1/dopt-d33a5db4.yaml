@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: dopt-d33a5db4
+specifics:
+  KubernetesCluster: test-apnortheast1.bitdj.com
+  Name: test-apnortheast1.bitdj.com
+  kubernetes.io/cluster/test-apnortheast1.bitdj.com: owned
+...
+

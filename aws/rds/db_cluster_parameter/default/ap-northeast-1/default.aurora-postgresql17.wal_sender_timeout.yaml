@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql17.wal_sender_timeout
+specifics:
+  AllowedValues: 0-3600000
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: (ms) Sets the maximum time to wait for WAL replication.
+  IsModifiable: true
+  ParameterName: wal_sender_timeout
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

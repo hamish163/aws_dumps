@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0574977fff69e46f9
+specifics:
+  Description: Allow ingress from tracky-jp-slave
+  FromPort: 4906
+  GroupId: sg-083feb0ca10b44933
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0d86c115b6cb7286d
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0574977fff69e46f9
+  Tags: []
+  ToPort: 4906
+...
+

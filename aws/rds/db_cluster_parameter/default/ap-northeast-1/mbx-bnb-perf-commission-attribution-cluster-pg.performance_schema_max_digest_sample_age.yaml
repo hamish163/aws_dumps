@@ -1,0 +1,22 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-perf-commission-attribution-cluster-pg.performance_schema_max_digest_sample_age
+specifics:
+  AllowedValues: 0-1048576
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: The time in seconds after which a previous query sample is considered
+    old. When the value is 0, queries are sampled once. When the value is greater
+    than zero, queries are re sampled if the last sample is more than performance_schema_max_digest_sample_age
+    seconds old.
+  IsModifiable: true
+  ParameterName: performance_schema_max_digest_sample_age
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0fe0e46164b8ee359
+specifics:
+  Description: allow TCP query engine for usatest
+  FromPort: 9337
+  GroupId: sg-08f55a26e7f6279e8
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-067efc65cc83241c5
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0fe0e46164b8ee359
+  Tags: []
+  ToPort: 9337
+...
+

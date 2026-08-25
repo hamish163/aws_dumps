@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonDetectiveOrganizationsAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonDetectiveOrganizationsAccess
+  AttachmentCount: 0
+  CreateDate: 2023-03-02 15:20:50+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4PCZWC5CNA
+  PolicyName: AmazonDetectiveOrganizationsAccess
+  UpdateDate: 2023-03-02 15:20:50+00:00
+...
+

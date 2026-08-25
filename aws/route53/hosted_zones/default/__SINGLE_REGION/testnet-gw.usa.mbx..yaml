@@ -1,0 +1,17 @@
+---
+datatype: aws.route53.hosted_zones
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: testnet-gw.usa.mbx.
+  single_region: true
+specifics:
+  CallerReference: terraform-20260805103604665200000001
+  Config:
+    Comment: Managed by Terraform
+    PrivateZone: true
+  Id: /hostedzone/Z02383612MEDHA5UTUOZS
+  Name: testnet-gw.usa.mbx.
+  ResourceRecordSetCount: 4
+...
+

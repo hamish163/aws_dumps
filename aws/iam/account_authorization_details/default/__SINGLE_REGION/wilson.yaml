@@ -1,0 +1,44 @@
+---
+datatype: aws.iam.account_authorization_details
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: wilson
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/wilson
+  AttachedManagedPolicies: []
+  CreateDate: 2024-08-26 08:42:33+00:00
+  GroupList:
+  - DEVOPS_TEAM_IAM_MGMT_NON_PROD
+  - DEVOPS_TEAM_INFRA_MGMT_NON_PROD
+  - mbx_bedrock
+  - DEVOPS_TEAM_INFRA_MGMT
+  - DEVOPS_TEAM_RO
+  - DEVOPS_TEAM_IAM_MGMT
+  - DEVOPS_TEAM
+  - devops
+  - MBX_EVERYONE_TEAM
+  Path: /
+  Tags:
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  - Key: mbx_team
+    Value: devops
+  - Key: mbx_iam
+    Value: wilson
+  UserId: AIDA4RYUCHN55ZM2GZ65Z
+  UserName: wilson
+  UserPolicyList:
+  - PolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Resource: arn:aws:iam::*:role/DevMbxAwsOps
+        Sid: VisualEditor0
+      Version: '2012-10-17'
+    PolicyName: assume_DevMbxAwsOps_role
+...
+

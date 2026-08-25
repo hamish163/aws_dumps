@@ -1,0 +1,24 @@
+---
+datatype: aws.iam.attached_user_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: stefan
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/allowExecAthenaQuery
+    PolicyName: allowExecAthenaQuery
+  - PolicyArn: arn:aws:iam::862793644923:policy/AllowProdCloudwatchReadOnly
+    PolicyName: AllowProdCloudwatchReadOnly
+  - PolicyArn: arn:aws:iam::862793644923:policy/AllowUserManagedOwnAccount
+    PolicyName: AllowUserManagedOwnAccount
+  - PolicyArn: arn:aws:iam::862793644923:policy/allowGetAthenaVisionOutput
+    PolicyName: allowGetAthenaVisionOutput
+  - PolicyArn: arn:aws:iam::aws:policy/AWSSupportAccess
+    PolicyName: AWSSupportAccess
+  - PolicyArn: arn:aws:iam::aws:policy/IAMUserChangePassword
+    PolicyName: IAMUserChangePassword
+  _UserName: stefan
+...
+

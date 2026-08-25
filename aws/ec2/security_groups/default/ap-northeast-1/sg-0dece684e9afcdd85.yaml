@@ -1,0 +1,26 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0dece684e9afcdd85
+specifics:
+  Description: Security group for commission attribution rds
+  GroupId: sg-0dece684e9afcdd85
+  GroupName: mbx-bnb-perf-commission-attribution-db
+  Tags:
+  - Key: mbx_secret_store
+    Value: asm
+  - Key: Name
+    Value: mbx-bnb-perf-commission-attribution-db
+  - Key: biz
+    Value: mbx
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_env_name
+    Value: perf
+  - Key: team
+    Value: mbx
+  VpcId: vpc-013930e589c469574
+...
+

@@ -1,0 +1,22 @@
+---
+datatype: aws.elbv2.listeners
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener/net/mbx-bnb-perf-fix-api-oe-nlb/b63452156c8c9776/42865eb1158d772e
+specifics:
+  DefaultActions:
+  - ForwardConfig:
+      TargetGroupStickinessConfig:
+        Enabled: false
+      TargetGroups:
+      - TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-perf-fix-api-oe-tg/1cd1c18ae8ee8294
+    Order: 1
+    TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-perf-fix-api-oe-tg/1cd1c18ae8ee8294
+    Type: forward
+  ListenerArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener/net/mbx-bnb-perf-fix-api-oe-nlb/b63452156c8c9776/42865eb1158d772e
+  LoadBalancerArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:loadbalancer/net/mbx-bnb-perf-fix-api-oe-nlb/b63452156c8c9776
+  Port: 9000
+  Protocol: TCP
+...
+

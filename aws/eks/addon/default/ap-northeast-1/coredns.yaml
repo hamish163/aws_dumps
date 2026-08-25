@@ -1,0 +1,25 @@
+---
+datatype: aws.eks.addon
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: coredns
+specifics:
+  addonArn: arn:aws:eks:ap-northeast-1:862793644923:addon/mbx-bnb-sre-emu/coredns/98cfa47d-4d31-1bad-26b8-4d0e56c4879c
+  addonName: coredns
+  addonVersion: v1.14.3-eksbuild.3
+  clusterName: mbx-bnb-sre-emu
+  createdAt: 2026-07-10 08:23:31.120000+10:00
+  health:
+    issues: []
+  modifiedAt: 2026-07-10 08:23:42.781000+10:00
+  status: ACTIVE
+  tags:
+    biz: mbx
+    mbx_env_name: sre
+    mbx_exchange_name: bnb
+    mbx_secret_store: none
+    stack_path: bnb/sre/eks/emu/extras
+    team: mbx
+...
+

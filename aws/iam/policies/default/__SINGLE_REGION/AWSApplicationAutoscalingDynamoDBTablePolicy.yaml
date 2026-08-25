@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSApplicationAutoscalingDynamoDBTablePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingDynamoDBTablePolicy
+  AttachmentCount: 1
+  CreateDate: 2017-10-20 21:34:57+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJOVQMDI3JFCBW4LFO
+  PolicyName: AWSApplicationAutoscalingDynamoDBTablePolicy
+  UpdateDate: 2017-10-20 21:34:57+00:00
+...
+

@@ -1,0 +1,39 @@
+---
+datatype: aws.iam.account_authorization_details
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: dimitrisn442
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/dimitrisn442
+  AttachedManagedPolicies: []
+  CreateDate: 2024-12-12 08:21:19+00:00
+  GroupList:
+  - SRE_TEAM
+  - mbx_bedrock
+  - SOLUTIONS_TEAM
+  - MBX_EVERYONE_TEAM
+  Path: /
+  Tags:
+  - Key: mbx_team
+    Value: solutions
+  - Key: mbx_iam
+    Value: dimitrisn442
+  UserId: AIDA4RYUCHN5SOPOUUD6Q
+  UserName: dimitrisn442
+  UserPolicyList:
+  - PolicyDocument:
+      Statement:
+      - Action:
+        - '*'
+        Condition:
+          DateLessThan:
+            aws:TokenIssueTime: '2025-10-03T11:56:23.720Z'
+        Effect: Deny
+        Resource:
+        - '*'
+      Version: '2012-10-17'
+    PolicyName: AWSRevokeOlderSessions
+...
+

@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-solutions-telegrambot-postgres-cluster-pg.auto_explain.log_triggers
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Include trigger statistics in plans.
+  IsModifiable: true
+  ParameterName: auto_explain.log_triggers
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

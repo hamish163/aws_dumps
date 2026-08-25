@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql17.autovacuum_analyze_threshold
+specifics:
+  AllowedValues: 0-2147483647
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Minimum number of tuple inserts, updates or deletes prior to analyze.
+  IsModifiable: true
+  ParameterName: autovacuum_analyze_threshold
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,23 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-system-cluster-pg-57.aurora_binlog_use_large_read_buffer
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Switch for turning on the feature of replication improvement. When
+    it is ON, aurora_binlog_read_buffer_size (see below) is used by master dump thread
+    for binlog replication; otherwise default buffer size (8K) is used instead.
+  IsModifiable: true
+  MinimumEngineVersion: 5.7.mysql_aurora.2.04.5
+  ParameterName: aurora_binlog_use_large_read_buffer
+  ParameterValue: '1'
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

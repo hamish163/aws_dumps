@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: ami-06342c1adc0817119
+specifics:
+  Name: zipkin
+...
+

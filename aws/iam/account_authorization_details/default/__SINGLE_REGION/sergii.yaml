@@ -1,0 +1,122 @@
+---
+datatype: aws.iam.account_authorization_details
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: sergii
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/sergii
+  AttachedManagedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/AllowPerfRDSKMSKey
+    PolicyName: AllowPerfRDSKMSKey
+  - PolicyArn: arn:aws:iam::862793644923:policy/AllowRDSQATeam
+    PolicyName: AllowRDSQATeam
+  - PolicyArn: arn:aws:iam::862793644923:policy/AllowQAManageEC2Instance
+    PolicyName: AllowQAManageEC2Instance
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess
+    PolicyName: AmazonEC2ReadOnlyAccess
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonEC2FullAccess
+    PolicyName: AmazonEC2FullAccess
+  - PolicyArn: arn:aws:iam::aws:policy/CloudWatchReadOnlyAccess
+    PolicyName: CloudWatchReadOnlyAccess
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonMQReadOnlyAccess
+    PolicyName: AmazonMQReadOnlyAccess
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonElastiCacheReadOnlyAccess
+    PolicyName: AmazonElastiCacheReadOnlyAccess
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonRDSReadOnlyAccess
+    PolicyName: AmazonRDSReadOnlyAccess
+  - PolicyArn: arn:aws:iam::aws:policy/IAMUserChangePassword
+    PolicyName: IAMUserChangePassword
+  CreateDate: 2026-06-23 14:12:58+00:00
+  GroupList:
+  - QA_PERF_TEAM
+  - QA_TEAM
+  - mbx_bedrock
+  - MBX_BNB_UAT_GROUP
+  - qa
+  Path: /
+  Tags:
+  - Key: mbx_iam
+    Value: sergii
+  - Key: mbx_team
+    Value: qa
+  UserId: AIDA4RYUCHN53RJATK4R6
+  UserName: sergii
+  UserPolicyList:
+  - PolicyDocument:
+      Statement:
+      - Action: kms:ListAliases
+        Effect: Allow
+        Resource: '*'
+        Sid: VisualEditor0
+      Version: '2012-10-17'
+    PolicyName: AccesstoKMS
+  - PolicyDocument:
+      Statement:
+      - Action: pi:*
+        Effect: Allow
+        Resource: '*'
+        Sid: VisualEditor0
+      Version: '2012-10-17'
+    PolicyName: AccessToPerfInsights
+  - PolicyDocument:
+      Statement:
+      - Action:
+        - sqs:DeleteMessage
+        - sqs:GetQueueUrl
+        - sqs:ListQueues
+        - sqs:ChangeMessageVisibility
+        - sqs:SendMessageBatch
+        - sqs:UntagQueue
+        - sqs:ReceiveMessage
+        - sqs:SendMessage
+        - sqs:GetQueueAttributes
+        - sqs:ListQueueTags
+        - sqs:TagQueue
+        - sqs:ListDeadLetterSourceQueues
+        - sqs:DeleteMessageBatch
+        - sqs:PurgeQueue
+        - sqs:DeleteQueue
+        - sqs:CreateQueue
+        - sqs:ChangeMessageVisibilityBatch
+        - sqs:SetQueueAttributes
+        Effect: Allow
+        Resource: '*'
+        Sid: VisualEditor0
+      Version: '2012-10-17'
+    PolicyName: AccessToSQS
+  - PolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Resource:
+        - arn:aws:iam::369096419186:role/switchrole_mbx_pawan_role
+        Sid: VisualEditor0
+      Version: '2012-10-17'
+    PolicyName: SwitchRoleAccess
+  - PolicyDocument:
+      Statement:
+      - Action: organizations:ListDelegatedAdministrators
+        Condition:
+          StringEquals:
+            organizations:ServicePrincipal: reporting.trustedadvisor.amazonaws.com
+        Effect: Allow
+        Resource: '*'
+        Sid: VisualEditor0
+      - Action:
+        - trustedadvisor:DescribeAccount*
+        - compute-optimizer:*
+        - organizations:DescribeOrganization
+        - trustedadvisor:DescribeNotificationConfigurations
+        - trustedadvisor:DownloadRisk
+        - trustedadvisor:Describe*
+        - organizations:ListAWSServiceAccessForOrganization
+        - trustedadvisor:DescribeOrganization
+        Effect: Allow
+        Resource: '*'
+        Sid: VisualEditor1
+      Version: '2012-10-17'
+    PolicyName: Trusted-adviser-for-perf
+...
+

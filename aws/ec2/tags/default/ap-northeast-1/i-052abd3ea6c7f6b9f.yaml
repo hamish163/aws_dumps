@@ -1,0 +1,14 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-052abd3ea6c7f6b9f
+specifics:
+  Name: perf_qa_test2_ec2
+  app: lithium
+  env: dev
+  project: lithium
+  team: qa
+...
+

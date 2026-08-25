@@ -1,0 +1,29 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-dev-papermill-ecs-instance-20251008125705121500000003
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/batch/mbx-bnb-dev-papermill-ecs-instance-20251008125705121500000003
+  CreateDate: 2025-10-08 12:57:05+00:00
+  InstanceProfileId: AIPA4RYUCHN5WCDKCTRJ5
+  InstanceProfileName: mbx-bnb-dev-papermill-ecs-instance-20251008125705121500000003
+  Path: /batch/
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/batch/mbx-bnb-dev-papermill-ecs-instance-20251008125703823100000001
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+        Sid: ECSAssumeRole
+      Version: '2012-10-17'
+    CreateDate: 2025-10-08 12:57:04+00:00
+    Path: /batch/
+    RoleId: AROA4RYUCHN57ZFSFG6UI
+    RoleName: mbx-bnb-dev-papermill-ecs-instance-20251008125703823100000001
+...
+

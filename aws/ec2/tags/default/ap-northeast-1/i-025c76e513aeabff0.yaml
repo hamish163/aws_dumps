@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-025c76e513aeabff0
+specifics:
+  Name: jenkins-debug-version
+...
+

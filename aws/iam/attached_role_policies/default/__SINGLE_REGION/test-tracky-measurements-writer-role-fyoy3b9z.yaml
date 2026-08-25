@@ -1,0 +1,13 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: test-tracky-measurements-writer-role-fyoy3b9z
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/service-role/AWSLambdaBasicExecutionRole-b819ae06-d2f1-4fe6-963e-b6540d093f7d
+    PolicyName: AWSLambdaBasicExecutionRole-b819ae06-d2f1-4fe6-963e-b6540d093f7d
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0888fa463b2adc7be
+specifics:
+  FromPort: 6379
+  GroupId: sg-0dade93de4ec21802
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0ec731139210f9931
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0888fa463b2adc7be
+  Tags: []
+  ToPort: 6379
+...
+

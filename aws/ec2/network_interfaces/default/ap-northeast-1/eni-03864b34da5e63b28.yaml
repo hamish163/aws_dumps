@@ -1,0 +1,52 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-03864b34da5e63b28
+specifics:
+  Association:
+    AllocationId: eipalloc-05aeeb9e5a39b8b40
+    AssociationId: eipassoc-076b35bcf0f23cb5e
+    IpOwnerId: '862793644923'
+    PublicDnsName: ec2-3-113-203-188.ap-northeast-1.compute.amazonaws.com
+    PublicIp: 3.113.203.188
+  Attachment:
+    AttachTime: 2021-10-04 02:59:35+00:00
+    AttachmentId: eni-attach-0e971e96f2faf2610
+    DeleteOnTermination: true
+    DeviceIndex: 0
+    InstanceId: i-01b4f2831945ea55f
+    InstanceOwnerId: '862793644923'
+    NetworkCardIndex: 0
+    Status: attached
+  AvailabilityZone: ap-northeast-1a
+  Description: Primary network interface
+  Groups:
+  - GroupId: sg-03b9b410ea56a4282
+    GroupName: redmine.bitdj.com
+  InterfaceType: interface
+  Ipv6Addresses: []
+  MacAddress: 06:a5:0b:a0:67:e7
+  NetworkInterfaceId: eni-03864b34da5e63b28
+  OwnerId: '862793644923'
+  PrivateDnsName: ip-10-139-22-127.ap-northeast-1.compute.internal
+  PrivateIpAddress: 10.139.22.127
+  PrivateIpAddresses:
+  - Association:
+      AllocationId: eipalloc-05aeeb9e5a39b8b40
+      AssociationId: eipassoc-076b35bcf0f23cb5e
+      IpOwnerId: '862793644923'
+      PublicDnsName: ec2-3-113-203-188.ap-northeast-1.compute.amazonaws.com
+      PublicIp: 3.113.203.188
+    Primary: true
+    PrivateDnsName: ip-10-139-22-127.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.139.22.127
+  RequesterManaged: false
+  SourceDestCheck: true
+  Status: in-use
+  SubnetId: subnet-00e65b311851cf4c0
+  TagSet: []
+  VpcId: vpc-0c91879d6f0ffa921
+...
+

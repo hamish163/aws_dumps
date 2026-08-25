@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: tgw-attach-04b569fbd13730db5
+specifics:
+  Name: tky_stage_mbx_vpc
+...
+

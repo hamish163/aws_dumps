@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-00a19fa25d7e1f501
+specifics:
+  Description: Allow TCP traffic from rest-api SG to spade-order-db database
+  FromPort: 3306
+  GroupId: sg-0d166c50443619d7e
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-04b3f510e93357e8a
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-00a19fa25d7e1f501
+  Tags: []
+  ToPort: 3306
+...
+

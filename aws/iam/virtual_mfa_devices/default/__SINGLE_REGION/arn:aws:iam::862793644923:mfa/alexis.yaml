@@ -1,0 +1,19 @@
+---
+datatype: aws.iam.virtual_mfa_devices
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: arn:aws:iam::862793644923:mfa/alexis
+  single_region: true
+specifics:
+  EnableDate: 2020-02-12 03:06:37+00:00
+  SerialNumber: arn:aws:iam::862793644923:mfa/alexis
+  User:
+    Arn: arn:aws:iam::862793644923:user/alexis
+    CreateDate: 2018-08-13 03:25:40+00:00
+    PasswordLastUsed: 2026-05-07 07:03:59+00:00
+    Path: /
+    UserId: AIDAIGNCLUPIL4NCCFQ42
+    UserName: alexis
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-trades-cluster-pg-57.long_query_time
+specifics:
+  AllowedValues: 0-31536000
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: float
+  Description: Defines what MySQL considers long queries
+  IsModifiable: true
+  ParameterName: long_query_time
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+  - serverless
+...
+

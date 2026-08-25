@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: QA_PERF_TEAM_JMETER_CLUSTER_POLICY
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/QA_PERF_TEAM_JMETER_CLUSTER_POLICY
+  AttachmentCount: 0
+  CreateDate: 2022-03-01 05:04:19+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5SN3YALS4A
+  PolicyName: QA_PERF_TEAM_JMETER_CLUSTER_POLICY
+  UpdateDate: 2022-03-01 05:11:03+00:00
+...
+

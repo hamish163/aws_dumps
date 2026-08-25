@@ -1,0 +1,16 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: bnb_perf_journal-archive_role
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/bnb_perf_journal-archive_role
+  CreateDate: 2023-12-20 08:03:25+00:00
+  InstanceProfileId: AIPA4RYUCHN5TXTQEXMJU
+  InstanceProfileName: bnb_perf_journal-archive_role
+  Path: /
+  Roles: []
+...
+

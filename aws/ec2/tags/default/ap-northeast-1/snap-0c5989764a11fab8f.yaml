@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: snap-0c5989764a11fab8f
+specifics:
+  Name: 20200813-redmine-postgresql-pv
+  env: test
+  project: mbx
+...
+

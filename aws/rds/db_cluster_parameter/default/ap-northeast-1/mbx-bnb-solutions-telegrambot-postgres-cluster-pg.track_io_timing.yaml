@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-solutions-telegrambot-postgres-cluster-pg.track_io_timing
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Collects timing statistics on database IO activity.
+  IsModifiable: true
+  ParameterName: track_io_timing
+  ParameterValue: '1'
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

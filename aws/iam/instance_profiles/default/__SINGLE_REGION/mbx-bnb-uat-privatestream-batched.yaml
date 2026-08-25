@@ -1,0 +1,28 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-uat-privatestream-batched
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/mbx-bnb-uat-privatestream-batched
+  CreateDate: 2024-10-01 02:14:00+00:00
+  InstanceProfileId: AIPA4RYUCHN5UYMUWH2SV
+  InstanceProfileName: mbx-bnb-uat-privatestream-batched
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/mbx-bnb-uat-privatestream-batched
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+      Version: '2012-10-17'
+    CreateDate: 2024-10-01 02:13:59+00:00
+    Path: /
+    RoleId: AROA4RYUCHN53HYZW4QYS
+    RoleName: mbx-bnb-uat-privatestream-batched
+...
+

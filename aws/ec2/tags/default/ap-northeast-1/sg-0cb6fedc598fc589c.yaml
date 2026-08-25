@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0cb6fedc598fc589c
+specifics:
+  Name: nginx-ingress.ap2.bitdj.com
+  env: ap2
+  project: bitdj
+...
+

@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0964e0d1815d993db
+specifics:
+  Description: Allow TCP traffic from nginx-rest-api SG on port 4567
+  FromPort: 4567
+  GroupId: sg-004e8a6784fee663f
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-07cd947958d3b3d16
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0964e0d1815d993db
+  Tags: []
+  ToPort: 4567
+...
+

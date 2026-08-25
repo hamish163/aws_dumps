@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-solutions-telegrambot-postgres-cluster-pg.vacuum_cost_limit
+specifics:
+  AllowedValues: 1-10000
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Vacuum cost amount available before napping.
+  IsModifiable: true
+  ParameterName: vacuum_cost_limit
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

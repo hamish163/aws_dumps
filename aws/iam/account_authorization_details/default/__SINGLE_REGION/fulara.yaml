@@ -1,0 +1,43 @@
+---
+datatype: aws.iam.account_authorization_details
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: fulara
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/fulara
+  AttachedManagedPolicies: []
+  CreateDate: 2021-01-26 06:19:27+00:00
+  GroupList:
+  - developer
+  - mbx_bedrock
+  - AQUEDUCT_TEAM_REPORTS
+  Path: /
+  Tags:
+  - Key: team
+    Value: mbx
+  - Key: mbx_team
+    Value: dev
+  - Key: mbx_iam
+    Value: fulara
+  - Key: biz
+    Value: mbx
+  UserId: AIDA4RYUCHN5YWDJZY74H
+  UserName: fulara
+  UserPolicyList:
+  - PolicyDocument:
+      Statement:
+      - Action:
+        - ec2:Describe*
+        - ec2:StartInstances
+        - ec2:StopInstances
+        Effect: Allow
+        Resource:
+        - arn:aws:ec2:ap-northeast-1:862793644923:instance/i-0746c620dfe98e28f
+        - arn:aws:ec2:ap-northeast-1:862793644923:instance/i-093def1118821fe19
+        Sid: VisualEditor0
+      Version: '2012-10-17'
+    PolicyName: fulara_temp_instance_access
+...
+

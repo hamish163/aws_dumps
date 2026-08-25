@@ -1,0 +1,18 @@
+---
+datatype: aws.iam.account_authorization_details
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: test123
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/test123
+  AttachedManagedPolicies: []
+  CreateDate: 2021-05-19 03:32:55+00:00
+  GroupList: []
+  Path: /
+  Tags: []
+  UserId: AIDA4RYUCHN56V2HWKJJH
+  UserName: test123
+...
+

@@ -1,0 +1,16 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0930a283c4309c273
+specifics:
+  Description: CloudFront configured SecurityGroup
+  GroupId: sg-0930a283c4309c273
+  GroupName: CloudFront-VPCOrigins-Service-SG
+  Tags:
+  - Key: aws.cloudfront.vpcorigin
+    Value: enabled
+  VpcId: vpc-07519eb63f1d932ac
+...
+

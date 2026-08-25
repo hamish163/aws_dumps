@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSBCMDataExportsServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AWSBCMDataExportsServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2024-06-10 17:40:19+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4EW7YUR6GZ
+  PolicyName: AWSBCMDataExportsServiceRolePolicy
+  UpdateDate: 2024-06-10 17:40:19+00:00
+...
+

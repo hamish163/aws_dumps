@@ -1,0 +1,42 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-0507baca39a0a82bb
+specifics:
+  Attachment:
+    AttachTime: 2023-09-19 09:18:15+00:00
+    AttachmentId: eni-attach-0b9ec725b94b58028
+    DeleteOnTermination: false
+    DeviceIndex: 1
+    InstanceOwnerId: '554297490865'
+    NetworkCardIndex: 0
+    Status: attached
+  AvailabilityZone: ap-northeast-1c
+  Description: MEMORYDB tracky-cluster-0001-002
+  Groups:
+  - GroupId: sg-0a401557b6331c179
+    GroupName: tracky-memory-db
+  InterfaceType: interface
+  Ipv6Addresses: []
+  MacAddress: 0a:1c:23:f1:85:19
+  NetworkInterfaceId: eni-0507baca39a0a82bb
+  OwnerId: '862793644923'
+  PrivateDnsName: ip-172-27-12-172.ap-northeast-1.compute.internal
+  PrivateIpAddress: 172.27.12.172
+  PrivateIpAddresses:
+  - Primary: true
+    PrivateDnsName: ip-172-27-12-172.ap-northeast-1.compute.internal
+    PrivateIpAddress: 172.27.12.172
+  RequesterId: '554297490865'
+  RequesterManaged: true
+  SourceDestCheck: true
+  Status: in-use
+  SubnetId: subnet-05c725ad0285e7296
+  TagSet:
+  - Key: AmazonMemoryDBManaged
+    Value: 'true'
+  VpcId: vpc-03f5d2495fd8d95a3
+...
+

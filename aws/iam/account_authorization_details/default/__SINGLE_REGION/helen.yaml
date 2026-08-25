@@ -1,0 +1,32 @@
+---
+datatype: aws.iam.account_authorization_details
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: helen
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/helen
+  AttachedManagedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/AllowUserManagedOwnAccount
+    PolicyName: AllowUserManagedOwnAccount
+  CreateDate: 2024-11-22 06:43:53+00:00
+  GroupList:
+  - QA_TEAM
+  - mbx_bedrock
+  - MBX_BNB_UAT_GROUP
+  - qa
+  Path: /
+  Tags:
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  - Key: mbx_team
+    Value: qa
+  - Key: mbx_iam
+    Value: helen
+  UserId: AIDA4RYUCHN5VK4CM7QVY
+  UserName: helen
+...
+

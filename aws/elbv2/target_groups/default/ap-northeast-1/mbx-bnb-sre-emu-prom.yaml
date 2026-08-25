@@ -1,0 +1,29 @@
+---
+datatype: aws.elbv2.target_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-sre-emu-prom
+specifics:
+  HealthCheckEnabled: true
+  HealthCheckIntervalSeconds: 30
+  HealthCheckPath: /-/healthy
+  HealthCheckPort: traffic-port
+  HealthCheckProtocol: HTTP
+  HealthCheckTimeoutSeconds: 5
+  HealthyThresholdCount: 2
+  IpAddressType: ipv4
+  LoadBalancerArns:
+  - arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:loadbalancer/app/mbx-bnb-sre-emu-alb-int/91219fc6be5988e6
+  Matcher:
+    HttpCode: '200'
+  Port: 9090
+  Protocol: HTTP
+  ProtocolVersion: HTTP1
+  TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-sre-emu-prom/861c5a84d3c84b81
+  TargetGroupName: mbx-bnb-sre-emu-prom
+  TargetType: ip
+  UnhealthyThresholdCount: 2
+  VpcId: vpc-0ba76150fc7799f94
+...
+

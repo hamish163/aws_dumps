@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql16.autovacuum_vacuum_threshold
+specifics:
+  AllowedValues: 0-2147483647
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Minimum number of tuple updates or deletes prior to vacuum.
+  IsModifiable: true
+  ParameterName: autovacuum_vacuum_threshold
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

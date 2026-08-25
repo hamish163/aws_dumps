@@ -1,0 +1,25 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-accounts-cluster-pg.max_allowed_packet
+specifics:
+  AllowedValues: 1024-1073741824
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: 'This value by default is small, to catch large (possibly incorrect)
+    packets. Must be increased if using large BLOB columns or long strings. As big
+    as largest BLOB. '
+  IsModifiable: true
+  ParameterName: max_allowed_packet
+  Source: engine-default
+  SupportedEngineModes:
+  - mirroring
+  - global
+  - multimaster
+  - parallelquery
+  - provisioned
+...
+

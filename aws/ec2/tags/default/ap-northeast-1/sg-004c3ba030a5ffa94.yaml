@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-004c3ba030a5ffa94
+specifics:
+  Name: bnb_prod_mbx_mbx-portal_sg
+  biz: mbx
+  env: prod
+  exchange_id: bnb
+  project: portal
+  role: mbx-portal
+  sre-app: portal
+  sre-component: portal-api
+  sre-env: prod
+  team: sre
+...
+

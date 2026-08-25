@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSRolesAnywhereFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSRolesAnywhereFullAccess
+  AttachmentCount: 0
+  CreateDate: 2025-07-16 14:52:07+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4CSFXURAWW
+  PolicyName: AWSRolesAnywhereFullAccess
+  UpdateDate: 2026-02-12 18:00:57+00:00
+...
+

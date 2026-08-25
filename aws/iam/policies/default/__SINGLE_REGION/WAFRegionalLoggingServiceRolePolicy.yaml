@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: WAFRegionalLoggingServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/WAFRegionalLoggingServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2018-08-24 18:40:55+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJE43HAZMEH4CI6SU2
+  PolicyName: WAFRegionalLoggingServiceRolePolicy
+  UpdateDate: 2026-05-20 18:42:25+00:00
+...
+

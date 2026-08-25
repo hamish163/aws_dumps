@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-orders-cluster-pg-57.innodb_undo_directory
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: The relative or absolute directory path where InnoDB creates separate
+    tablespaces for the undo logs
+  IsModifiable: false
+  ParameterName: innodb_undo_directory
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

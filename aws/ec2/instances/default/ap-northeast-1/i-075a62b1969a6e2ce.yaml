@@ -1,0 +1,126 @@
+---
+datatype: aws.ec2.instances
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-075a62b1969a6e2ce
+specifics:
+  AmiLaunchIndex: 0
+  Architecture: x86_64
+  BlockDeviceMappings:
+  - DeviceName: /dev/xvda
+    Ebs:
+      AttachTime: 2023-10-23 10:29:16+00:00
+      DeleteOnTermination: true
+      Status: attached
+      VolumeId: vol-0d366dd13a00d443b
+  - DeviceName: /dev/sdf
+    Ebs:
+      AttachTime: 2023-10-23 10:29:37+00:00
+      DeleteOnTermination: false
+      Status: attached
+      VolumeId: vol-019bbe20ae1a368e1
+  CapacityReservationSpecification:
+    CapacityReservationPreference: open
+  ClientToken: terraform-20231023102906066800000002
+  CpuOptions:
+    CoreCount: 1
+    ThreadsPerCore: 2
+  CurrentInstanceBootMode: legacy-bios
+  EbsOptimized: true
+  EnaSupport: true
+  EnclaveOptions:
+    Enabled: false
+  HibernationOptions:
+    Configured: false
+  Hypervisor: xen
+  IamInstanceProfile:
+    Arn: arn:aws:iam::862793644923:instance-profile/usaMbxBastion
+    Id: AIPA4RYUCHN52LPYFRNAW
+  ImageId: ami-0e3f080552c6f3420
+  InstanceId: i-075a62b1969a6e2ce
+  InstanceType: t3.medium
+  LaunchTime: 2023-10-23 10:29:16+00:00
+  MaintenanceOptions:
+    AutoRecovery: default
+  MetadataOptions:
+    HttpEndpoint: enabled
+    HttpProtocolIpv6: disabled
+    HttpPutResponseHopLimit: 1
+    HttpTokens: optional
+    InstanceMetadataTags: enabled
+    State: applied
+  Monitoring:
+    State: disabled
+  NetworkInterfaces:
+  - Attachment:
+      AttachTime: 2023-10-23 10:29:16+00:00
+      AttachmentId: eni-attach-014de3ee20cda8b76
+      DeleteOnTermination: true
+      DeviceIndex: 0
+      NetworkCardIndex: 0
+      Status: attached
+    Description: ''
+    Groups:
+    - GroupId: sg-08c88bc97703e315d
+      GroupName: usa_prod_mbx_bastion
+    InterfaceType: interface
+    Ipv6Addresses: []
+    MacAddress: 06:de:a9:7a:82:d5
+    NetworkInterfaceId: eni-09afc95f2e93776ea
+    OwnerId: '862793644923'
+    PrivateIpAddress: 10.12.2.29
+    PrivateIpAddresses:
+    - Primary: true
+      PrivateIpAddress: 10.12.2.29
+    SourceDestCheck: true
+    Status: in-use
+    SubnetId: subnet-0acaddce878579935
+    VpcId: vpc-041f1adf86f81b9e1
+  Placement:
+    AvailabilityZone: ap-northeast-1a
+    GroupName: ''
+    Tenancy: default
+  PlatformDetails: Linux/UNIX
+  PrivateDnsName: ip-10-12-2-29.ap-northeast-1.compute.internal
+  PrivateDnsNameOptions:
+    EnableResourceNameDnsAAAARecord: false
+    EnableResourceNameDnsARecord: false
+    HostnameType: ip-name
+  PrivateIpAddress: 10.12.2.29
+  ProductCodes: []
+  PublicDnsName: ''
+  RootDeviceName: /dev/xvda
+  RootDeviceType: ebs
+  SecurityGroups:
+  - GroupId: sg-08c88bc97703e315d
+    GroupName: usa_prod_mbx_bastion
+  SourceDestCheck: true
+  State:
+    Code: 16
+    Name: running
+  StateTransitionReason: ''
+  SubnetId: subnet-0acaddce878579935
+  Tags:
+  - Key: Name
+    Value: usa_prod_mbx_bastion1_ec2
+  - Key: biz
+    Value: mbx
+  - Key: env
+    Value: prod
+  - Key: exchange_id
+    Value: usa
+  - Key: host_index
+    Value: '1'
+  - Key: project
+    Value: mbx
+  - Key: role
+    Value: bastion
+  - Key: team
+    Value: mbx
+  UsageOperation: RunInstances
+  UsageOperationUpdateTime: 2023-10-23 10:29:16+00:00
+  VirtualizationType: hvm
+  VpcId: vpc-041f1adf86f81b9e1
+...
+

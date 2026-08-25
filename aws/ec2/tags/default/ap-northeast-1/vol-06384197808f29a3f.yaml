@@ -1,0 +1,16 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-06384197808f29a3f
+specifics:
+  Name: mbx-bnb-devops-rest-api1
+  biz: mbx
+  mbx_application_name: mbx-api-rest
+  mbx_env_name: devops
+  mbx_exchange_name: bnb
+  mbx_secret_store: asm
+  team: mbx
+...
+

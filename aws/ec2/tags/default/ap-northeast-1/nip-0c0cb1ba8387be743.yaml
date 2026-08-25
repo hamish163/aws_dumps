@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: nip-0c0cb1ba8387be743
+specifics:
+  Name: perf-spade-shard-to-saltmaster
+...
+

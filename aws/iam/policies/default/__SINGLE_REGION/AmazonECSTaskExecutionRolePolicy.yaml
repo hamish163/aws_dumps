@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonECSTaskExecutionRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AmazonECSTaskExecutionRolePolicy
+  AttachmentCount: 3
+  CreateDate: 2017-11-16 18:48:22+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJG4T4G4PV56DE72PY
+  PolicyName: AmazonECSTaskExecutionRolePolicy
+  UpdateDate: 2017-11-16 18:48:22+00:00
+...
+

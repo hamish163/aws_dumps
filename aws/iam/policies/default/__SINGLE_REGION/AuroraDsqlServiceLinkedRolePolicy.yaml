@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AuroraDsqlServiceLinkedRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AuroraDsqlServiceLinkedRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2024-12-03 15:06:07+00:00
+  DefaultVersionId: v6
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4NLZGIT7C3
+  PolicyName: AuroraDsqlServiceLinkedRolePolicy
+  UpdateDate: 2026-02-12 18:01:12+00:00
+...
+

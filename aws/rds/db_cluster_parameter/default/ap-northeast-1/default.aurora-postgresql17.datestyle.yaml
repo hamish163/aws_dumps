@@ -1,0 +1,18 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql17.datestyle
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Sets the display format for date and time values.
+  IsModifiable: true
+  ParameterName: datestyle
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

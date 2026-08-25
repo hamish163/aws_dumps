@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-keys-db-cluster-pg-80.ngram_token_size
+specifics:
+  AllowedValues: 1-10
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: Defines the n-gram token size for n-gram full-text parser.
+  IsModifiable: true
+  ParameterName: ngram_token_size
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,31 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-05bbcbb96b7d1dbf0
+specifics:
+  Description: Allow TCP 3000 from LB - Managed by Terraform
+  FromPort: 3000
+  GroupId: sg-00a5eb9933c97e7ed
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-03d354fa6a6873c2a
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-05bbcbb96b7d1dbf0
+  Tags:
+  - Key: mbx_env_name
+    Value: devops
+  - Key: biz
+    Value: mbx
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  - Key: mbx_secret_store
+    Value: none
+  ToPort: 3000
+...
+

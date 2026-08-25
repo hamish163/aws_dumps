@@ -1,0 +1,29 @@
+---
+datatype: aws.elbv2.target_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: prod-spooky-sms-tg
+specifics:
+  HealthCheckEnabled: true
+  HealthCheckIntervalSeconds: 30
+  HealthCheckPath: /ping
+  HealthCheckPort: traffic-port
+  HealthCheckProtocol: HTTP
+  HealthCheckTimeoutSeconds: 5
+  HealthyThresholdCount: 5
+  IpAddressType: ipv4
+  LoadBalancerArns:
+  - arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:loadbalancer/app/prod-spooky-public-lb/d4fbbb2ac893130e
+  Matcher:
+    HttpCode: '200'
+  Port: 5002
+  Protocol: HTTP
+  ProtocolVersion: HTTP1
+  TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/prod-spooky-sms-tg/65cb6e18e2a2e4eb
+  TargetGroupName: prod-spooky-sms-tg
+  TargetType: instance
+  UnhealthyThresholdCount: 2
+  VpcId: vpc-03f5d2495fd8d95a3
+...
+

@@ -1,0 +1,32 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-02da33b3f30f470e1
+specifics:
+  Description: Smacky Prod Managed by Terraform
+  GroupId: sg-02da33b3f30f470e1
+  GroupName: smacky-prod-bnb.com
+  Tags:
+  - Key: Name
+    Value: smacky-prod-bnb.com
+  - Key: env
+    Value: prod
+  - Key: exchange_id
+    Value: bnb
+  - Key: team
+    Value: sre
+  - Key: sre-component
+    Value: smacky
+  - Key: project
+    Value: smacky
+  - Key: biz
+    Value: mbx
+  - Key: sre-env
+    Value: prod
+  - Key: sre-app
+    Value: smacky
+  VpcId: vpc-03f5d2495fd8d95a3
+...
+

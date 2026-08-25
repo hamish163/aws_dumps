@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.key_pairs
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: key-0fab80b3c3aa6a5d1
+specifics:
+  CreateTime: 2024-11-13 22:16:54.527000+00:00
+  KeyFingerprint: k25FVH2r47LjFJMTlhomcrV+1ixNrX3SwXtbLpgrFjU=
+  KeyName: miketraff-recovery-key
+  KeyPairId: key-0fab80b3c3aa6a5d1
+  KeyType: ed25519
+  Tags: []
+...
+

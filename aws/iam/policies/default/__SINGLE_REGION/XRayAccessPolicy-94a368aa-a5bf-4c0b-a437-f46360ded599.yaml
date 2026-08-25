@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: XRayAccessPolicy-94a368aa-a5bf-4c0b-a437-f46360ded599
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/service-role/XRayAccessPolicy-94a368aa-a5bf-4c0b-a437-f46360ded599
+  AttachmentCount: 0
+  CreateDate: 2022-09-28 03:17:41+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5ZFXCUFFKR
+  PolicyName: XRayAccessPolicy-94a368aa-a5bf-4c0b-a437-f46360ded599
+  UpdateDate: 2022-09-28 03:17:41+00:00
+...
+

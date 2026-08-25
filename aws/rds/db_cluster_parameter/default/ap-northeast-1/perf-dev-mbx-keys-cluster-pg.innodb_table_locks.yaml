@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-keys-cluster-pg.innodb_table_locks
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: If autocommit = 0, innodb honors LOCK TABLES
+  IsModifiable: true
+  ParameterName: innodb_table_locks
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

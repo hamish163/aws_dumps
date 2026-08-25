@@ -1,0 +1,13 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonEMR-InstanceProfile-20231129T120812
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/service-role/AmazonEMR-InstanceProfile-Policy-20231129T120812
+    PolicyName: AmazonEMR-InstanceProfile-Policy-20231129T120812
+...
+

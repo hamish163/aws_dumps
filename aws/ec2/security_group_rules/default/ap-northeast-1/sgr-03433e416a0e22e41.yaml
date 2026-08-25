@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-03433e416a0e22e41
+specifics:
+  Description: Allow TCP traffic from trade-cache SG to common-db database
+  FromPort: 3306
+  GroupId: sg-0790d3b7ad2e79230
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-082869133b107f103
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-03433e416a0e22e41
+  Tags: []
+  ToPort: 3306
+...
+

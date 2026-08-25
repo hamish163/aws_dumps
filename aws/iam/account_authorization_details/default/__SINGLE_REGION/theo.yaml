@@ -1,0 +1,25 @@
+---
+datatype: aws.iam.account_authorization_details
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: theo
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/theo
+  AttachedManagedPolicies: []
+  CreateDate: 2026-04-06 02:51:53+00:00
+  GroupList:
+  - SRE_TEAM
+  - mbx_bedrock
+  - SOLUTIONS_TEAM
+  Path: /
+  Tags:
+  - Key: mbx_team
+    Value: solutions
+  - Key: mbx_iam
+    Value: theo
+  UserId: AIDA4RYUCHN5REQNNAERJ
+  UserName: theo
+...
+

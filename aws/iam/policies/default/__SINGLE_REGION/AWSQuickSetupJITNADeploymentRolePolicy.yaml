@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSQuickSetupJITNADeploymentRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSQuickSetupJITNADeploymentRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2025-04-17 09:07:06+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4BS7E5X4LD
+  PolicyName: AWSQuickSetupJITNADeploymentRolePolicy
+  UpdateDate: 2026-02-12 18:01:45+00:00
+...
+

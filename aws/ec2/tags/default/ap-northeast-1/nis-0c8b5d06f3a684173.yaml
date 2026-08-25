@@ -1,0 +1,11 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: nis-0c8b5d06f3a684173
+specifics:
+  Description: Identify ingress paths from Internet Gateways to all Network Interfaces.
+  Name: All-IGW-Ingress (Amazon created)
+...
+

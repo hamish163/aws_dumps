@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.key_pairs
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: key-0344c868a7749a392
+specifics:
+  CreateTime: 2024-01-29 18:59:18.561000+00:00
+  KeyFingerprint: 38:a1:4f:24:d4:6a:d5:4b:4f:2f:e5:db:0e:4a:0a:80:7a:ed:c9:cc
+  KeyName: packer_65b7f572-2144-f43b-4f22-3bb4a8dbc29e
+  KeyPairId: key-0344c868a7749a392
+  KeyType: rsa
+  Tags: []
+...
+

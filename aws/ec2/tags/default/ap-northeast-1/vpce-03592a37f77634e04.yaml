@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vpce-03592a37f77634e04
+specifics:
+  Name: dev-nexus.toolsfdg.net
+...
+

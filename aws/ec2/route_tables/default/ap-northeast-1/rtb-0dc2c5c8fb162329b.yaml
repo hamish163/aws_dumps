@@ -1,0 +1,60 @@
+---
+datatype: aws.ec2.route_tables
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rtb-0dc2c5c8fb162329b
+specifics:
+  Associations:
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-0a2b3427fce268ec2
+    RouteTableId: rtb-0dc2c5c8fb162329b
+    SubnetId: subnet-06d37542eac765265
+  OwnerId: '862793644923'
+  PropagatingVgws: []
+  RouteTableId: rtb-0dc2c5c8fb162329b
+  Routes:
+  - DestinationCidrBlock: 10.240.0.0/20
+    GatewayId: local
+    Origin: CreateRouteTable
+    State: active
+  - DestinationCidrBlock: 192.168.0.0/16
+    Origin: CreateRoute
+    State: active
+    TransitGatewayId: tgw-02beb42d82ed09079
+  - DestinationCidrBlock: 10.99.0.0/16
+    Origin: CreateRoute
+    State: active
+    TransitGatewayId: tgw-02beb42d82ed09079
+  - DestinationCidrBlock: 10.198.0.0/16
+    Origin: CreateRoute
+    State: active
+    TransitGatewayId: tgw-02beb42d82ed09079
+  - DestinationCidrBlock: 100.64.0.0/16
+    GatewayId: local
+    Origin: CreateRouteTable
+    State: active
+  - DestinationCidrBlock: 10.0.0.0/8
+    Origin: CreateRoute
+    State: active
+    TransitGatewayId: tgw-094ec8a8749ab72d4
+  - DestinationCidrBlock: 0.0.0.0/0
+    NatGatewayId: nat-0c30bdec7d614e81b
+    Origin: CreateRoute
+    State: active
+  Tags:
+  - Key: biz
+    Value: mbx
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  - Key: mbx_env_name
+    Value: sre
+  - Key: Name
+    Value: mbx-bnb-sre-rtb-eksnodes2
+  VpcId: vpc-0ba76150fc7799f94
+...
+

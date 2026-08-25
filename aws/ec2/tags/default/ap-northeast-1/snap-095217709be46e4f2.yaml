@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: snap-095217709be46e4f2
+specifics:
+  claim: elasticsearch/data-elasticsearch-master-1
+...
+

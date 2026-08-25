@@ -1,0 +1,30 @@
+---
+datatype: aws.elbv2.rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener-rule/app/mbx-bnb-devops-eks1-alb-int/226467d28fcf0446/039f7be0790d1df5/f8c57ba06d1e9603
+specifics:
+  Actions:
+  - ForwardConfig:
+      TargetGroupStickinessConfig:
+        Enabled: false
+      TargetGroups:
+      - TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-devops-eks1-nginx-td-i/564c9d577d83297d
+        Weight: 1
+    Order: 1
+    TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-devops-eks1-nginx-td-i/564c9d577d83297d
+    Type: forward
+  Conditions:
+  - Field: host-header
+    HostHeaderConfig:
+      Values:
+      - mbx-bnb-devops-eks1-nginx-test-dev.bitdj.com
+    Values:
+    - mbx-bnb-devops-eks1-nginx-test-dev.bitdj.com
+  IsDefault: false
+  Priority: '100'
+  RuleArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener-rule/app/mbx-bnb-devops-eks1-alb-int/226467d28fcf0446/039f7be0790d1df5/f8c57ba06d1e9603
+  _listener_arn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener/app/mbx-bnb-devops-eks1-alb-int/226467d28fcf0446/039f7be0790d1df5
+...
+

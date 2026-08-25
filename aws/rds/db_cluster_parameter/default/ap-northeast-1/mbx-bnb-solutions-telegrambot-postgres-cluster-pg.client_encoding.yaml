@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-solutions-telegrambot-postgres-cluster-pg.client_encoding
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Sets the clients character set encoding.
+  IsModifiable: true
+  ParameterName: client_encoding
+  ParameterValue: UTF8
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

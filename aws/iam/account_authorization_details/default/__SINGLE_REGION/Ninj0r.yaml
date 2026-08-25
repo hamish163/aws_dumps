@@ -1,0 +1,27 @@
+---
+datatype: aws.iam.account_authorization_details
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: Ninj0r
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/Ninj0r
+  AttachedManagedPolicies: []
+  CreateDate: 2020-09-28 09:04:01+00:00
+  GroupList:
+  - mbx_bedrock
+  - DEVOPS_TEAM_INFRA_MGMT
+  - DEVOPS_TEAM_RO
+  - DEVOPS_TEAM_IAM_MGMT
+  - devops
+  Path: /
+  Tags:
+  - Key: mbx_iam
+    Value: Ninj0r
+  - Key: mbx_team
+    Value: no_internal_team
+  UserId: AIDA4RYUCHN57KQGEWO2O
+  UserName: Ninj0r
+...
+

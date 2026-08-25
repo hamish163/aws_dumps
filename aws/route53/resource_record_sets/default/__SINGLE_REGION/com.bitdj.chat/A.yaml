@@ -1,0 +1,16 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: com.bitdj.chat/A
+  single_region: true
+specifics:
+  AliasTarget:
+    DNSName: mbxch-albex-1kyfzn0j4clvc-1645765347.ap-northeast-1.elb.amazonaws.com.
+    EvaluateTargetHealth: false
+    HostedZoneId: Z14GRHDCWA56QT
+  Name: chat.bitdj.com.
+  Type: A
+...
+

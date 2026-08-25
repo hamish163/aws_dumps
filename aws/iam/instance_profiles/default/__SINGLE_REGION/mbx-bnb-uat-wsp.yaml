@@ -1,0 +1,28 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-uat-wsp
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/mbx-bnb-uat-wsp
+  CreateDate: 2024-10-01 02:30:28+00:00
+  InstanceProfileId: AIPA4RYUCHN5UOMVUTGPE
+  InstanceProfileName: mbx-bnb-uat-wsp
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/mbx-bnb-uat-wsp
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+      Version: '2012-10-17'
+    CreateDate: 2024-10-01 02:30:27+00:00
+    Path: /
+    RoleId: AROA4RYUCHN5TLYU7MZAA
+    RoleName: mbx-bnb-uat-wsp
+...
+

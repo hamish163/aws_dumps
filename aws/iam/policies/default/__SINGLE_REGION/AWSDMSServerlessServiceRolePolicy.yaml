@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSDMSServerlessServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AWSDMSServerlessServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2023-05-18 20:28:05+00:00
+  DefaultVersionId: v10
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4AIKMNBTIJ
+  PolicyName: AWSDMSServerlessServiceRolePolicy
+  UpdateDate: 2026-02-12 17:58:40+00:00
+...
+

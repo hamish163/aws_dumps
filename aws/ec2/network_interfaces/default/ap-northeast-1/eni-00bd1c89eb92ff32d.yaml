@@ -1,0 +1,56 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-00bd1c89eb92ff32d
+specifics:
+  Attachment:
+    AttachTime: 2026-07-09 22:30:39+00:00
+    AttachmentId: eni-attach-0a5e38534dacfeede
+    DeleteOnTermination: true
+    DeviceIndex: 0
+    InstanceId: i-07f5607a73c7b86ac
+    InstanceOwnerId: '862793644923'
+    NetworkCardIndex: 0
+    Status: attached
+  AvailabilityZone: ap-northeast-1c
+  Description: ''
+  Groups:
+  - GroupId: sg-0dcd16e585060d06c
+    GroupName: mbx-bnb-devops-monitoring
+  - GroupId: sg-0021bf00906cbb632
+    GroupName: mbx-bnb-devops-default
+  - GroupId: sg-029a507afd529170b
+    GroupName: mbx-bnb-devops-eks1-generic-nodes
+  - GroupId: sg-05844058fce311685
+    GroupName: mbx-bnb-devops-eks1-shared
+  InterfaceType: interface
+  Ipv6Addresses: []
+  MacAddress: 0a:17:2b:04:96:a3
+  NetworkInterfaceId: eni-00bd1c89eb92ff32d
+  OwnerId: '862793644923'
+  PrivateDnsName: ip-10-200-24-155.ap-northeast-1.compute.internal
+  PrivateIpAddress: 10.200.24.155
+  PrivateIpAddresses:
+  - Primary: true
+    PrivateDnsName: ip-10-200-24-155.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.200.24.155
+  RequesterManaged: false
+  SourceDestCheck: true
+  Status: in-use
+  SubnetId: subnet-0938165f3974597e0
+  TagSet:
+  - Key: cluster.k8s.amazonaws.com/name
+    Value: mbx-bnb-devops-eks1
+  - Key: eks:cluster-name
+    Value: mbx-bnb-devops-eks1
+  - Key: node.k8s.amazonaws.com/instance_id
+    Value: i-07f5607a73c7b86ac
+  - Key: eks:eni:owner
+    Value: amazon-vpc-cni
+  - Key: eks:nodegroup-name
+    Value: mbx-bnb-devops-eks1-generic-20260710
+  VpcId: vpc-07519eb63f1d932ac
+...
+

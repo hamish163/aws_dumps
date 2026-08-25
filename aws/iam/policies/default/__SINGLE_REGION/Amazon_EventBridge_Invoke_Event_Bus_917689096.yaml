@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: Amazon_EventBridge_Invoke_Event_Bus_917689096
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/service-role/Amazon_EventBridge_Invoke_Event_Bus_917689096
+  AttachmentCount: 1
+  CreateDate: 2025-06-13 11:16:04+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5YLCUN3BTQ
+  PolicyName: Amazon_EventBridge_Invoke_Event_Bus_917689096
+  UpdateDate: 2025-06-13 11:16:04+00:00
+...
+

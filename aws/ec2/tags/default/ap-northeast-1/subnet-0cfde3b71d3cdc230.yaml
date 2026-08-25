@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: subnet-0cfde3b71d3cdc230
+specifics:
+  Name: perf_dev_mbx_rustPubApp_1a
+...
+

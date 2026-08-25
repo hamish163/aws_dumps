@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AdministratorAccess-Amplify
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AdministratorAccess-Amplify
+  AttachmentCount: 0
+  CreateDate: 2020-12-01 19:03:08+00:00
+  DefaultVersionId: v12
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4AML23RALR
+  PolicyName: AdministratorAccess-Amplify
+  UpdateDate: 2024-04-04 20:35:31+00:00
+...
+

@@ -1,0 +1,19 @@
+---
+datatype: aws.eks.addon
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: amazon-cloudwatch-observability
+specifics:
+  addonArn: arn:aws:eks:ap-northeast-1:862793644923:addon/mbx_bnb_prod-comply-cluster/amazon-cloudwatch-observability/c6c90eaf-5339-60c9-f0fe-e9de3c010fa5
+  addonName: amazon-cloudwatch-observability
+  addonVersion: v4.10.3-eksbuild.1
+  clusterName: mbx_bnb_prod-comply-cluster
+  createdAt: 2024-09-23 15:33:15.498000+10:00
+  health:
+    issues: []
+  modifiedAt: 2026-05-27 00:16:53.467000+10:00
+  status: ACTIVE
+  tags: {}
+...
+

@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-03cebbfac8f18d68c
+specifics:
+  AmazonMemoryDBManaged: 'true'
+...
+

@@ -1,0 +1,44 @@
+---
+datatype: aws.ec2.volumes
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-098ec802960126ee0
+specifics:
+  Attachments:
+  - AttachTime: 2026-07-09 15:49:37+00:00
+    DeleteOnTermination: true
+    Device: /dev/xvda
+    InstanceId: i-0256954ae41f6aa3b
+    State: attached
+    VolumeId: vol-098ec802960126ee0
+  AvailabilityZone: ap-northeast-1c
+  CreateTime: 2026-07-09 15:49:37.464000+00:00
+  Encrypted: false
+  Iops: 3000
+  MultiAttachEnabled: false
+  Size: 500
+  SnapshotId: snap-06338e70b9a57a8bf
+  State: in-use
+  Tags:
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: eks:cluster-name
+    Value: mbx-bnb-solutions-eks1
+  - Key: mbx_env_name
+    Value: solutions
+  - Key: Name
+    Value: mbx-bnb-solutions-eks1-generic
+  - Key: kubernetes.io/cluster/mbx-bnb-solutions-eks1
+    Value: owned
+  - Key: eks:nodegroup-name
+    Value: mbx-bnb-solutions-eks1-generic-20260709
+  Throughput: 125
+  VolumeId: vol-098ec802960126ee0
+  VolumeType: gp3
+...
+

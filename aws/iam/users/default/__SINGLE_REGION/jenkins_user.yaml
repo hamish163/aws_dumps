@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.users
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: jenkins_user
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/jenkins_user
+  CreateDate: 2023-09-06 19:13:13+00:00
+  Path: /
+  UserId: AIDA4RYUCHN5WEXPPFMVC
+  UserName: jenkins_user
+...
+

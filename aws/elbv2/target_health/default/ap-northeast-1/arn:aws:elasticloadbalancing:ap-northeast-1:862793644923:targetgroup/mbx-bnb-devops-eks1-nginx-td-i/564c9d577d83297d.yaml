@@ -1,0 +1,17 @@
+---
+datatype: aws.elbv2.target_health
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-devops-eks1-nginx-td-i/564c9d577d83297d
+specifics:
+  TargetHealthDescriptions:
+    100.64.33.16/80:
+      HealthCheckPort: '80'
+      Target:
+        AvailabilityZone: ap-northeast-1c
+        Id: 100.64.33.16
+        Port: 80
+  _arn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-devops-eks1-nginx-td-i/564c9d577d83297d
+...
+

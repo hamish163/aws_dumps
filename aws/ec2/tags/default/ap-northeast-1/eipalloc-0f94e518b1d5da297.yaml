@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eipalloc-0f94e518b1d5da297
+specifics:
+  Name: bnb_uat_mbx_1a_natgw-eip
+  env: uat
+  project: mbx
+...
+

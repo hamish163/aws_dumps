@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-aggtrades-cluster-pg.end_markers_in_json
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Whether optimizer JSON output should add end markers.
+  IsModifiable: true
+  ParameterName: end_markers_in_json
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

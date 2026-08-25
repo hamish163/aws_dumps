@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql11.apg_plan_mgmt.pgss_min_calls
+specifics:
+  AllowedValues: 2-2147483647
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Minimum value of pg_stat_statements calls to be eligible for plan capture.
+  IsModifiable: true
+  ParameterName: apg_plan_mgmt.pgss_min_calls
+  ParameterValue: '2'
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

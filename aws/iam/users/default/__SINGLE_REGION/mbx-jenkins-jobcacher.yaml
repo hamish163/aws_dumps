@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.users
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-jenkins-jobcacher
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/mbx-jenkins-jobcacher
+  CreateDate: 2024-04-08 13:21:55+00:00
+  Path: /
+  UserId: AIDA4RYUCHN56SOZUDIUN
+  UserName: mbx-jenkins-jobcacher
+...
+

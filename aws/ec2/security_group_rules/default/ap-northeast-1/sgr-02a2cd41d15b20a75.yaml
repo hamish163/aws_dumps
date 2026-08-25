@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-02a2cd41d15b20a75
+specifics:
+  Description: 'fix-api-orderentry SG to spade-trade-db '
+  FromPort: 3306
+  GroupId: sg-08b17d1ed07d74958
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-04e802c27306d0955
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-02a2cd41d15b20a75
+  Tags: []
+  ToPort: 3306
+...
+

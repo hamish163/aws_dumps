@@ -1,0 +1,16 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: net.toolsfdg.futures-crates/A
+  single_region: true
+specifics:
+  AliasTarget:
+    DNSName: vpce-0dbafbe1ebd10b08b-hb6fr5i5.vpce-svc-03d66e2f3ecef463d.ap-northeast-1.vpce.amazonaws.com.
+    EvaluateTargetHealth: true
+    HostedZoneId: Z2E726K9Y6RL4W
+  Name: futures-crates.toolsfdg.net.
+  Type: A
+...
+

@@ -1,0 +1,16 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-08485bf2fe62281a1
+specifics:
+  Name: tungsten-cicd
+  biz: mbx
+  mbx.managed_by: mbx.devops
+  mbx.owner: devops
+  mbx.service: tungsten-cicd
+  project: mbx
+  team: mbx
+...
+

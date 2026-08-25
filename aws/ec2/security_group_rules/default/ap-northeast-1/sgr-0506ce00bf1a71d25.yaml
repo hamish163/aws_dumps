@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0506ce00bf1a71d25
+specifics:
+  Description: Allow TCP traffic from spot-aqueduct SG on port 9080
+  FromPort: 9080
+  GroupId: sg-0ba743feb1df032b5
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-09557bbd9561c1e3b
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0506ce00bf1a71d25
+  Tags: []
+  ToPort: 9080
+...
+

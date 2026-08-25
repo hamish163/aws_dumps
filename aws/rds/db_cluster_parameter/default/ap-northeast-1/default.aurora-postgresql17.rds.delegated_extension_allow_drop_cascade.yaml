@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql17.rds.delegated_extension_allow_drop_cascade
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Allow rds_extension to use DROP EXTENSION CASCADE.
+  IsModifiable: true
+  ParameterName: rds.delegated_extension_allow_drop_cascade
+  ParameterValue: 'off'
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

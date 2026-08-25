@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSSecurityHubServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AWSSecurityHubServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2018-11-27 23:47:51+00:00
+  DefaultVersionId: v16
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJQPCESDDYDLLSOGYO
+  PolicyName: AWSSecurityHubServiceRolePolicy
+  UpdateDate: 2026-06-27 00:42:14+00:00
+...
+

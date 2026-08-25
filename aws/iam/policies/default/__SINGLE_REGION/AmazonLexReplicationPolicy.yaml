@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonLexReplicationPolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AmazonLexReplicationPolicy
+  AttachmentCount: 0
+  CreateDate: 2024-01-31 23:29:42+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4PXKSNIWD4
+  PolicyName: AmazonLexReplicationPolicy
+  UpdateDate: 2025-06-24 21:52:07+00:00
+...
+

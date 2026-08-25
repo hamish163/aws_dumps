@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-orders-cluster-pg-default.innodb_buffer_pool_load_at_startup
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: boolean
+  Description: Specifies that, on MySQL server startup, the InnoDB buffer pool is
+    automatically warmed up by loading the same pages it held at an earlier time.
+  IsModifiable: false
+  ParameterName: innodb_buffer_pool_load_at_startup
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: WAFLoggingServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/WAFLoggingServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2018-08-24 21:05:47+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJZ7N545GUNUHNTYOM
+  PolicyName: WAFLoggingServiceRolePolicy
+  UpdateDate: 2026-05-20 19:12:17+00:00
+...
+

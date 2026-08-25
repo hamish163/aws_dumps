@@ -1,0 +1,13 @@
+---
+datatype: aws.rds.db_cluster_endpoint
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-devops-common-db-c1.cluster-cvmjht5arg7h.ap-northeast-1.rds.amazonaws.com
+specifics:
+  DBClusterIdentifier: mbx-bnb-devops-common-db-c1
+  Endpoint: mbx-bnb-devops-common-db-c1.cluster-cvmjht5arg7h.ap-northeast-1.rds.amazonaws.com
+  EndpointType: WRITER
+  Status: available
+...
+

@@ -1,0 +1,40 @@
+---
+datatype: aws.ec2.volumes
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-0ea040ce4f8fa6ae1
+specifics:
+  Attachments:
+  - AttachTime: 2025-03-28 07:51:51+00:00
+    DeleteOnTermination: false
+    Device: /dev/sdh
+    InstanceId: i-0cb2bf1f3c490fc8c
+    State: attached
+    VolumeId: vol-0ea040ce4f8fa6ae1
+  AvailabilityZone: ap-northeast-1a
+  CreateTime: 2025-03-28 07:51:31.199000+00:00
+  Encrypted: false
+  Iops: 3000
+  MultiAttachEnabled: false
+  Size: 300
+  SnapshotId: ''
+  State: in-use
+  Tags:
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_secret_store
+    Value: none
+  - Key: mbx_env_name
+    Value: solutions
+  - Key: Name
+    Value: mbx-bnb-solutions-prometheus1
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  Throughput: 125
+  VolumeId: vol-0ea040ce4f8fa6ae1
+  VolumeType: gp3
+...
+

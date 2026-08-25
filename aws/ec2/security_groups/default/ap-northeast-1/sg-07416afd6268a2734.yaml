@@ -1,0 +1,26 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-07416afd6268a2734
+specifics:
+  Description: Security group for rest api ALB
+  GroupId: sg-07416afd6268a2734
+  GroupName: mbx-bnb-perf-rest-api-alb
+  Tags:
+  - Key: mbx_secret_store
+    Value: asm
+  - Key: Name
+    Value: mbx-bnb-perf-rest-api-alb
+  - Key: mbx_env_name
+    Value: perf
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  - Key: mbx_exchange_name
+    Value: bnb
+  VpcId: vpc-013930e589c469574
+...
+

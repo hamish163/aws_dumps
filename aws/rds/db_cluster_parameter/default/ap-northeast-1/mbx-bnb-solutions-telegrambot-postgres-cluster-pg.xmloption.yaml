@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-solutions-telegrambot-postgres-cluster-pg.xmloption
+specifics:
+  AllowedValues: content,document
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Sets whether XML data in implicit parsing and serialization operations
+    is to be considered as documents or content fragments.
+  IsModifiable: true
+  ParameterName: xmloption
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

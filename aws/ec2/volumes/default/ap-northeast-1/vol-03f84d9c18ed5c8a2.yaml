@@ -1,0 +1,42 @@
+---
+datatype: aws.ec2.volumes
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-03f84d9c18ed5c8a2
+specifics:
+  Attachments:
+  - AttachTime: 2025-03-12 13:06:58+00:00
+    DeleteOnTermination: false
+    Device: /dev/sdf
+    InstanceId: i-097ba37b1f2e48472
+    State: attached
+    VolumeId: vol-03f84d9c18ed5c8a2
+  AvailabilityZone: ap-northeast-1a
+  CreateTime: 2025-03-12 13:06:37.973000+00:00
+  Encrypted: false
+  Iops: 3000
+  MultiAttachEnabled: false
+  Size: 80
+  SnapshotId: ''
+  State: in-use
+  Tags:
+  - Key: mbx_clustered_application
+    Value: 'true'
+  - Key: mbx_env_name
+    Value: solutions
+  - Key: mbx_secret_store
+    Value: none
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: Name
+    Value: mbx-bnb-solutions-telegrambot1
+  Throughput: 125
+  VolumeId: vol-03f84d9c18ed5c8a2
+  VolumeType: gp3
+...
+

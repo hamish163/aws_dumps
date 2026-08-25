@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-orders-cluster-pg-default.sql_select_limit
+specifics:
+  AllowedValues: 0-18446744073709551615
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: The maximum number of rows to return from SELECT statements.
+  IsModifiable: true
+  ParameterName: sql_select_limit
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,55 @@
+---
+datatype: aws.eks.nodegroup
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-devops-eks1-generic-20260710
+specifics:
+  amiType: CUSTOM
+  capacityType: ON_DEMAND
+  clusterName: mbx-bnb-devops-eks1
+  createdAt: 2026-07-10 08:29:55.069000+10:00
+  health:
+    issues: []
+  instanceTypes:
+  - c5.2xlarge
+  - c5a.2xlarge
+  - c6a.2xlarge
+  - c6i.2xlarge
+  - c7a.2xlarge
+  - c7i.2xlarge
+  - c8i.2xlarge
+  labels: {}
+  launchTemplate:
+    id: lt-0cf103c734a0bfd93
+    name: mbx-bnb-devops-eks1-generic-20260710
+    version: '1'
+  nodeRole: arn:aws:iam::862793644923:role/mbx-bnb-devops-eks1-nodegroup
+  nodegroupArn: arn:aws:eks:ap-northeast-1:862793644923:nodegroup/mbx-bnb-devops-eks1/mbx-bnb-devops-eks1-generic-20260710/40cfa480-35ca-e55b-e110-052ba76febb0
+  nodegroupName: mbx-bnb-devops-eks1-generic-20260710
+  releaseVersion: ami-05f7641377db4993e
+  resources:
+    autoScalingGroups:
+    - name: eks-mbx-bnb-devops-eks1-generic-20260710-40cfa480-35ca-e55b-e110-052ba76febb0
+  scalingConfig:
+    desiredSize: 2
+    maxSize: 6
+    minSize: 2
+  status: ACTIVE
+  subnets:
+  - subnet-0b28dbbbe71d77caa
+  - subnet-0938165f3974597e0
+  tags:
+    biz: mbx
+    k8s.io/cluster-autoscaler/enabled: 'true'
+    k8s.io/cluster-autoscaler/mbx-bnb-devops-eks1: owned
+    mbx_env_name: devops
+    mbx_exchange_name: bnb
+    mbx_secret_store: none
+    stack_path: bnb/devops/eks1/cluster
+    team: mbx
+  updateConfig:
+    maxUnavailable: 2
+  version: '1.36'
+...
+

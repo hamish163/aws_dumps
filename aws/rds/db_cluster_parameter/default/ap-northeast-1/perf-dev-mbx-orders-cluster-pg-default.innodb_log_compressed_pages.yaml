@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-orders-cluster-pg-default.innodb_log_compressed_pages
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: 'Specifies whether images of re-compressed pages are stored in InnoDB
+    redo logs. '
+  IsModifiable: false
+  ParameterName: innodb_log_compressed_pages
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

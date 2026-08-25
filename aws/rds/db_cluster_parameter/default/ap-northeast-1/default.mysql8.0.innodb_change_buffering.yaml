@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.innodb_change_buffering
+specifics:
+  AllowedValues: inserts,deletes,purges,changes,all,none
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Controls InnoDB change buffering
+  IsModifiable: true
+  ParameterName: innodb_change_buffering
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

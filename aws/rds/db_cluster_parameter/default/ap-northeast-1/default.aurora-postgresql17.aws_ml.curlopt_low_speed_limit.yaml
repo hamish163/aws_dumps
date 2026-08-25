@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql17.aws_ml.curlopt_low_speed_limit
+specifics:
+  AllowedValues: 0-65536
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Low speed transfer limit in bytes for inference calls.
+  IsModifiable: true
+  ParameterName: aws_ml.curlopt_low_speed_limit
+  ParameterValue: '1'
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

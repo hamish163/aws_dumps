@@ -1,0 +1,17 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-perf-lithium-regression
+  single_region: true
+specifics:
+  Name: mbx-bnb-perf-lithium-regression
+  biz: mbx
+  mbx_application_name: lithium-regression
+  mbx_env_name: perf
+  mbx_exchange_name: bnb
+  mbx_secret_store: none
+  team: mbx
+...
+

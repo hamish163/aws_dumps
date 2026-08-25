@@ -1,0 +1,28 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-005aaab5407820419
+specifics:
+  Description: Security group for EFS mount targets
+  GroupId: sg-005aaab5407820419
+  GroupName: mbx-bnb-devops-eks1-efs
+  Tags:
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: stack_path
+    Value: bnb/devops/eks1/extras
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  - Key: Name
+    Value: mbx-bnb-devops-eks1-efs
+  - Key: mbx_env_name
+    Value: devops
+  - Key: mbx_secret_store
+    Value: none
+  VpcId: vpc-07519eb63f1d932ac
+...
+

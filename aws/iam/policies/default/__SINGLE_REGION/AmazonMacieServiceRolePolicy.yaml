@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonMacieServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AmazonMacieServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2018-06-19 22:17:38+00:00
+  DefaultVersionId: v6
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJPLHONRH2HP2H6TNQ
+  PolicyName: AmazonMacieServiceRolePolicy
+  UpdateDate: 2022-05-19 19:16:56+00:00
+...
+

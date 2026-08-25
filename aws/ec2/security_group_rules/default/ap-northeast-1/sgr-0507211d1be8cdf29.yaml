@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0507211d1be8cdf29
+specifics:
+  Description: Allow traffic to atom
+  FromPort: 80
+  GroupId: sg-0e21e780410ebf056
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: true
+  ReferencedGroupInfo:
+    GroupId: sg-02c2a4125336a5f6a
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0507211d1be8cdf29
+  Tags: []
+  ToPort: 80
+...
+

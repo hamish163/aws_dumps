@@ -1,0 +1,252 @@
+---
+datatype: aws.ec2.instances
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-0f63ce60e3a436883
+specifics:
+  AmiLaunchIndex: 0
+  Architecture: x86_64
+  BlockDeviceMappings:
+  - DeviceName: /dev/xvda
+    Ebs:
+      AttachTime: 2026-06-23 14:24:50+00:00
+      DeleteOnTermination: true
+      Status: attached
+      VolumeId: vol-08f76b4390f9aeecf
+  - DeviceName: /dev/sdb
+    Ebs:
+      AttachTime: 2026-06-23 14:25:43.948000+00:00
+      DeleteOnTermination: false
+      Status: attached
+      VolumeId: vol-0bbde5ce434f7e634
+  - DeviceName: /dev/sdc
+    Ebs:
+      AttachTime: 2026-06-23 14:26:05.067000+00:00
+      DeleteOnTermination: false
+      Status: attached
+      VolumeId: vol-0cf7a125d87491799
+  - DeviceName: /dev/sdd
+    Ebs:
+      AttachTime: 2026-06-23 14:26:05.029000+00:00
+      DeleteOnTermination: false
+      Status: attached
+      VolumeId: vol-02ae32c365981794e
+  - DeviceName: /dev/sde
+    Ebs:
+      AttachTime: 2026-06-23 14:26:05.086000+00:00
+      DeleteOnTermination: false
+      Status: attached
+      VolumeId: vol-098534be94dca39ea
+  - DeviceName: /dev/sdf
+    Ebs:
+      AttachTime: 2026-06-23 14:25:43.996000+00:00
+      DeleteOnTermination: false
+      Status: attached
+      VolumeId: vol-085c5fd32e76e9592
+  - DeviceName: /dev/sdg
+    Ebs:
+      AttachTime: 2026-06-23 14:25:43.999000+00:00
+      DeleteOnTermination: false
+      Status: attached
+      VolumeId: vol-0efd1ee4145feacbc
+  - DeviceName: /dev/sdh
+    Ebs:
+      AttachTime: 2026-06-23 14:25:44.018000+00:00
+      DeleteOnTermination: false
+      Status: attached
+      VolumeId: vol-08865c12fc98974e9
+  - DeviceName: /dev/sdi
+    Ebs:
+      AttachTime: 2026-06-23 14:25:44.018000+00:00
+      DeleteOnTermination: false
+      Status: attached
+      VolumeId: vol-00f72ff6e7b542a5f
+  - DeviceName: /dev/sdj
+    Ebs:
+      AttachTime: 2026-06-23 14:25:44.007000+00:00
+      DeleteOnTermination: false
+      Status: attached
+      VolumeId: vol-0156f69ef89c8f71b
+  - DeviceName: /dev/sdk
+    Ebs:
+      AttachTime: 2026-06-23 14:26:04.982000+00:00
+      DeleteOnTermination: false
+      Status: attached
+      VolumeId: vol-0f3e9e2cd0b4c0137
+  - DeviceName: /dev/sdl
+    Ebs:
+      AttachTime: 2026-06-23 14:25:43.904000+00:00
+      DeleteOnTermination: false
+      Status: attached
+      VolumeId: vol-0bc2eec2db74088db
+  - DeviceName: /dev/sdm
+    Ebs:
+      AttachTime: 2026-06-23 14:26:05.099000+00:00
+      DeleteOnTermination: false
+      Status: attached
+      VolumeId: vol-063a0c3dd361c4aa1
+  - DeviceName: /dev/sdn
+    Ebs:
+      AttachTime: 2026-06-23 14:26:05.166000+00:00
+      DeleteOnTermination: false
+      Status: attached
+      VolumeId: vol-0a5f2437f717f5d11
+  - DeviceName: /dev/sdo
+    Ebs:
+      AttachTime: 2026-06-23 14:25:43.975000+00:00
+      DeleteOnTermination: false
+      Status: attached
+      VolumeId: vol-0296118dbe9b2bccc
+  - DeviceName: /dev/sdp
+    Ebs:
+      AttachTime: 2026-06-23 14:25:44.004000+00:00
+      DeleteOnTermination: false
+      Status: attached
+      VolumeId: vol-0d718cf1df78479d9
+  - DeviceName: /dev/sdq
+    Ebs:
+      AttachTime: 2026-06-23 14:25:43.968000+00:00
+      DeleteOnTermination: false
+      Status: attached
+      VolumeId: vol-08a646c4fa88240ac
+  - DeviceName: /dev/sdr
+    Ebs:
+      AttachTime: 2026-06-23 14:26:05.119000+00:00
+      DeleteOnTermination: false
+      Status: attached
+      VolumeId: vol-027950527eba8a3ba
+  - DeviceName: /dev/sds
+    Ebs:
+      AttachTime: 2026-06-23 14:26:05.115000+00:00
+      DeleteOnTermination: false
+      Status: attached
+      VolumeId: vol-07cf210fae34c5953
+  - DeviceName: /dev/sdt
+    Ebs:
+      AttachTime: 2026-06-23 14:26:05.121000+00:00
+      DeleteOnTermination: false
+      Status: attached
+      VolumeId: vol-0c930ee90336db554
+  - DeviceName: /dev/xvdf
+    Ebs:
+      AttachTime: 2026-06-23 14:26:05.113000+00:00
+      DeleteOnTermination: false
+      Status: attached
+      VolumeId: vol-00454ab3144e475d7
+  BootMode: uefi-preferred
+  CapacityReservationSpecification:
+    CapacityReservationPreference: open
+  ClientToken: terraform-20260623142448919000000001
+  CpuOptions:
+    CoreCount: 64
+    ThreadsPerCore: 1
+  CurrentInstanceBootMode: uefi
+  EbsOptimized: true
+  EnaSupport: true
+  EnclaveOptions:
+    Enabled: false
+  HibernationOptions:
+    Configured: false
+  Hypervisor: xen
+  IamInstanceProfile:
+    Arn: arn:aws:iam::862793644923:instance-profile/mbx-bnb-perf-journal-archive
+    Id: AIPA4RYUCHN57J4I6LEO3
+  ImageId: ami-06903006eaf547859
+  InstanceId: i-0f63ce60e3a436883
+  InstanceType: r8a.16xlarge
+  LaunchTime: 2026-08-17 06:43:41+00:00
+  MaintenanceOptions:
+    AutoRecovery: default
+  MetadataOptions:
+    HttpEndpoint: enabled
+    HttpProtocolIpv6: disabled
+    HttpPutResponseHopLimit: 2
+    HttpTokens: required
+    InstanceMetadataTags: enabled
+    State: applied
+  Monitoring:
+    State: disabled
+  NetworkInterfaces:
+  - Attachment:
+      AttachTime: 2026-06-23 14:24:50+00:00
+      AttachmentId: eni-attach-0fa02b2296329b29d
+      DeleteOnTermination: true
+      DeviceIndex: 0
+      NetworkCardIndex: 0
+      Status: attached
+    Description: ''
+    Groups:
+    - GroupId: sg-0930fe36728a6e31a
+      GroupName: mbx-bnb-perf-monitoring
+    - GroupId: sg-0976f45ee75722c46
+      GroupName: mbx-bnb-perf-journal-archive
+    - GroupId: sg-011d3bdd31cc014b3
+      GroupName: mbx-bnb-perf-default
+    InterfaceType: interface
+    Ipv6Addresses: []
+    MacAddress: 0a:3d:b7:f4:81:99
+    NetworkInterfaceId: eni-0a4d70397fcbcf858
+    OwnerId: '862793644923'
+    PrivateDnsName: ip-10-170-20-229.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.170.20.229
+    PrivateIpAddresses:
+    - Primary: true
+      PrivateDnsName: ip-10-170-20-229.ap-northeast-1.compute.internal
+      PrivateIpAddress: 10.170.20.229
+    SourceDestCheck: true
+    Status: in-use
+    SubnetId: subnet-0948699b8436c70dc
+    VpcId: vpc-013930e589c469574
+  Placement:
+    AvailabilityZone: ap-northeast-1c
+    GroupId: pg-0d5c6f20059602a71
+    GroupName: mbx-bnb-perf-m8a-1c
+    Tenancy: default
+  PlatformDetails: Linux/UNIX
+  PrivateDnsName: ip-10-170-20-229.ap-northeast-1.compute.internal
+  PrivateDnsNameOptions:
+    EnableResourceNameDnsAAAARecord: false
+    EnableResourceNameDnsARecord: false
+    HostnameType: ip-name
+  PrivateIpAddress: 10.170.20.229
+  ProductCodes: []
+  PublicDnsName: ''
+  RootDeviceName: /dev/xvda
+  RootDeviceType: ebs
+  SecurityGroups:
+  - GroupId: sg-0930fe36728a6e31a
+    GroupName: mbx-bnb-perf-monitoring
+  - GroupId: sg-0976f45ee75722c46
+    GroupName: mbx-bnb-perf-journal-archive
+  - GroupId: sg-011d3bdd31cc014b3
+    GroupName: mbx-bnb-perf-default
+  SourceDestCheck: true
+  State:
+    Code: 16
+    Name: running
+  StateTransitionReason: ''
+  SubnetId: subnet-0948699b8436c70dc
+  Tags:
+  - Key: Name
+    Value: mbx-bnb-perf-journal-archive11
+  - Key: biz
+    Value: mbx
+  - Key: mbx_application_name
+    Value: journal-archive
+  - Key: mbx_env_name
+    Value: perf
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_host_index
+    Value: '11'
+  - Key: mbx_secret_store
+    Value: none
+  - Key: team
+    Value: mbx
+  UsageOperation: RunInstances
+  UsageOperationUpdateTime: 2026-06-23 14:24:50+00:00
+  VirtualizationType: hvm
+  VpcId: vpc-013930e589c469574
+...
+

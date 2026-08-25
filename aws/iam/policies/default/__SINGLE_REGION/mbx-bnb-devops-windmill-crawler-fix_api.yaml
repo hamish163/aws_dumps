@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-devops-windmill-crawler-fix_api
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/mbx-bnb-devops-windmill-crawler-fix_api
+  AttachmentCount: 1
+  CreateDate: 2025-09-02 06:46:01+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5TOVK6SO4R
+  PolicyName: mbx-bnb-devops-windmill-crawler-fix_api
+  UpdateDate: 2025-09-02 06:46:01+00:00
+...
+

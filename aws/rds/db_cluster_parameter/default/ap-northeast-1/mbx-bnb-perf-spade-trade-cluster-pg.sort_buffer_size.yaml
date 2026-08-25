@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-perf-spade-trade-cluster-pg.sort_buffer_size
+specifics:
+  AllowedValues: 32768-18446744073709551615
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Larger value improves perf for ORDER BY or GROUP BY operations.
+  IsModifiable: true
+  ParameterName: sort_buffer_size
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

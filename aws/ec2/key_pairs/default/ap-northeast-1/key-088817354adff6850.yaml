@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.key_pairs
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: key-088817354adff6850
+specifics:
+  CreateTime: 2022-08-30 02:58:30+00:00
+  KeyFingerprint: ee:e0:a8:ec:82:3b:92:9b:3e:50:f6:f2:d3:1e:12:31:71:9a:4c:7b
+  KeyName: jenkins_master_mbxtools
+  KeyPairId: key-088817354adff6850
+  KeyType: rsa
+  Tags: []
+...
+

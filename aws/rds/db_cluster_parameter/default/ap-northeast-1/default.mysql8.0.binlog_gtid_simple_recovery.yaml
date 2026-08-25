@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.binlog_gtid_simple_recovery
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: boolean
+  Description: Controls how binary logs are iterated during GTID recovery
+  IsModifiable: true
+  ParameterName: binlog_gtid_simple_recovery
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

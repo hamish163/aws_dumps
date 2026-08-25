@@ -1,0 +1,24 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-perf-kline-cluster-pg.aurora_replica_read_consistency
+specifics:
+  AllowedValues: GLOBAL,SESSION,EVENTUAL
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Control the degree of read consistency on a forwarding reader instance
+    when using global write forwarding or in-Region write forwarding. Set aurora_replica_read_consistency
+    to one of the allowed values to use write forwarding. For the definition of each
+    allowed value, see the documentation on using write forwarding in an Amazon Aurora
+    MySQL DB cluster.
+  IsModifiable: true
+  MinimumEngineVersion: 8.0.mysql_aurora.3.04.0
+  ParameterName: aurora_replica_read_consistency
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

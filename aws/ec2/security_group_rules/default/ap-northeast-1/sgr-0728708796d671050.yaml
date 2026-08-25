@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0728708796d671050
+specifics:
+  Description: Allow TCP traffic from regifter SG on port 9810
+  FromPort: 9810
+  GroupId: sg-0ba743feb1df032b5
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0076b228edf6da548
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0728708796d671050
+  Tags: []
+  ToPort: 9810
+...
+

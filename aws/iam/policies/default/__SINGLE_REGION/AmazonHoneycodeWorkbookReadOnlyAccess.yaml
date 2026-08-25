@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonHoneycodeWorkbookReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonHoneycodeWorkbookReadOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2020-06-24 20:28:07+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4GUHKYOSNH
+  PolicyName: AmazonHoneycodeWorkbookReadOnlyAccess
+  UpdateDate: 2020-12-01 17:32:49+00:00
+...
+

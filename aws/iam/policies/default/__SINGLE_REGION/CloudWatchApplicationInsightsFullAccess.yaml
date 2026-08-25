@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: CloudWatchApplicationInsightsFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/CloudWatchApplicationInsightsFullAccess
+  AttachmentCount: 0
+  CreateDate: 2020-11-24 18:44:14+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4MSQN23AKX
+  PolicyName: CloudWatchApplicationInsightsFullAccess
+  UpdateDate: 2022-01-25 17:51:29+00:00
+...
+

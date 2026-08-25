@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSTransformServerMigrationAgentPolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSTransformServerMigrationAgentPolicy
+  AttachmentCount: 0
+  CreateDate: 2026-08-06 15:27:14+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4KVIHBDOCE
+  PolicyName: AWSTransformServerMigrationAgentPolicy
+  UpdateDate: 2026-08-06 15:27:14+00:00
+...
+

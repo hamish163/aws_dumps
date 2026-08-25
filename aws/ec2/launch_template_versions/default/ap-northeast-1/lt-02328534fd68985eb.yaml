@@ -1,0 +1,49 @@
+---
+datatype: aws.ec2.launch_template_versions
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: lt-02328534fd68985eb
+specifics:
+  CreateTime: 2026-01-12 14:32:52+00:00
+  CreatedBy: arn:aws:sts::862793644923:assumed-role/mbx-bnb-devops-aws-ops/i-04be815a0891d079f
+  DefaultVersion: false
+  LaunchTemplateData:
+    BlockDeviceMappings:
+    - DeviceName: /dev/xvda
+      Ebs:
+        DeleteOnTermination: true
+        VolumeSize: 250
+        VolumeType: gp3
+    ImageId: ami-0983ad6654fc00777
+    InstanceType: r7g.large
+    KeyName: devops_ec2-id_ed25519
+    MetadataOptions:
+      HttpPutResponseHopLimit: 2
+      HttpTokens: required
+    NetworkInterfaces:
+    - AssociatePublicIpAddress: false
+      DeviceIndex: 0
+      Groups:
+      - sg-06cd73cf7224fa764
+      - sg-0dcd16e585060d06c
+      - sg-06d8aeb750f984392
+      - sg-0021bf00906cbb632
+      NetworkCardIndex: 0
+    TagSpecifications:
+    - ResourceType: instance
+      Tags:
+      - Key: mbx_env_name
+        Value: devops
+      - Key: Name
+        Value: mbx-bnb-devops-jenkins_eks-generic-generic_al2023_arm64_standard
+      - Key: mbx_exchange_name
+        Value: bnb
+      - Key: team
+        Value: mbx
+    UserData: LS0tCmFwaVZlcnNpb246IG5vZGUuZWtzLmF3cy92MWFscGhhMQpraW5kOiBOb2RlQ29uZmlnCnNwZWM6CiAgY2x1c3RlcjoKICAgIG5hbWU6IG1ieC1ibmItZGV2b3BzLWplbmtpbnNfZWtzLWNsdXN0ZXIKICAgIGFwaVNlcnZlckVuZHBvaW50OiBodHRwczovLzcyRUIxM0Q5ODI0N0I0QjhCNjM2RTlCODJGQjc0NjFFLnlsNC5hcC1ub3J0aGVhc3QtMS5la3MuYW1hem9uYXdzLmNvbQogICAgY2VydGlmaWNhdGVBdXRob3JpdHk6IExTMHRMUzFDUlVkSlRpQkRSVkpVU1VaSlEwRlVSUzB0TFMwdENrMUpTVVJDVkVORFFXVXlaMEYzU1VKQlowbEpRbVJ2ZDJOUllXdDBPSGQzUkZGWlNrdHZXa2xvZG1OT1FWRkZURUpSUVhkR1ZFVlVUVUpGUjBFeFZVVUtRWGhOUzJFelZtbGFXRXAxV2xoU2JHTjZRV1ZHZHpCNVRrUkZkMDFVVlhoTmVrVXlUWHBrWVVaM01IcE9SRVYzVFZSTmVFMTZTWGhOZW1SaFRVSlZlQXBGZWtGU1FtZE9Wa0pCVFZSRGJYUXhXVzFXZVdKdFZqQmFXRTEzWjJkRmFVMUJNRWREVTNGSFUwbGlNMFJSUlVKQlVWVkJRVFJKUWtSM1FYZG5aMFZMQ2tGdlNVSkJVVU0wUldoWVdtOTRhUzlDZEU4dmNuRXhVQzhyT0VoclRrVlRTM0Y0ZWt0bWNIcGtNQ3RxT1Zkdk1rWllOMFF2ZW5VeVUycFdNelpYZERNS1Rqa3pLM05GYm5wQk5FOU9VM0pVZDJKSGNsZE1hRGx4ZDBaeFRIQmlLelkxTjFRd1YwMUpWMEV3VDJwR1dGUldOM1pHSzFOcFZsRmlNRU5VVVZwNUx3cFhSbTAzY3l0Q2JIazVNSG8wTnpSMFJXUXJaazVRZDJKVVRWbExVbEV4TnpobE0yZHNObGt2ZFhJNWRtWlFVMlZzV0ZGV1JuWlJTemxCUkdOVFpFOWlDakZOWkZaWFdtOW5lVVZ4WlhweVp6VnVXVkUwUzFSeFVuRm5jRWRSZDBSVFZuSkhXR3BXTTNZMlYzSXhRblZMTDNOSGFHazBXRmxWVG5jMGEwUk9kRGNLVGxKR2IwbHdRMlZVVWpWM2FtSjVaWGRVVUUxek5VTnVia2xQYzIxMFNVc3pSVWRvZDJsUmJrWTNVVkYwUjBOemFGbElVM1ZUV2twdlpFTTBXbXhtUmdwMlprMXBWblZGTkVoRFMzcElUR3BOVmpCbk0yUjNWRGMwYkhCU1FXZE5Ra0ZCUjJwWFZFSllUVUUwUjBFeFZXUkVkMFZDTDNkUlJVRjNTVU53UkVGUUNrSm5UbFpJVWsxQ1FXWTRSVUpVUVVSQlVVZ3ZUVUl3UjBFeFZXUkVaMUZYUWtKUlNXVmxNMXB6VmtaRFFWQXlUbnAzVjNSSWNpdGFhRTluVG05VVFWWUtRbWRPVmtoU1JVVkVha0ZOWjJkd2NtUlhTbXhqYlRWc1pFZFdlazFCTUVkRFUzRkhVMGxpTTBSUlJVSkRkMVZCUVRSSlFrRlJRbUY0UVZSVE5IRTBXUXB6VVRSNVZXVnpiV2RhUzNReVQyMWpUa3R5Um1FM2EzSldTVGhrTUdkYU5ubElSWHAwYlU1UGVrbEpUa3R5T1dWU1FWbHpabUpTY1hKUmFVRmxSR1I0Q2xSeVlWcE9iaTl6TjBKS01XVlhOa3RPU1VzMVRubERlbFI2YVZOMFoyWnBObk0wY1VkWmQwdDBPREJYYVU4ME5uTlNRMFZKWWtFMGMxUkJNekozVGxVS015czVSa2hYZDFRelFURlllWGxKVWxvMlEwYzRPRk5PVDJkc1UwdzVTVWczT1hFMGFWZGhaMjUxVEVOVFJtNVRSV1ZNTDNaNVFrWjRTR3c0TW5Sb2R3cFJUbXM1VTBNNGVuRjZZVVpuVEZGSkwzZElkbE55YVRJd0x6azFTRGN4WW5OVVdVRkZZbHBGYldwSWVVeDNUbU5DYW1kQ2J6aHdXbE5EWVZOeE0yaDVDbHBEYWs0emRqRllOMFl2UzA5YVkzWnBObWt6YVZkeVJVSkVNRXB4VlVSbFVXczVORFkzVHprMWJFUlNNMFZKT1Vkc1YzbFhaRFJaYmpWcVFuaDZTazhLVUhaQk5rRXdhQzh2ZGtaakNpMHRMUzB0UlU1RUlFTkZVbFJKUmtsRFFWUkZMUzB0TFMwSwogICAgY2lkcjogMTAuMS4wLjAvMTYKICBrdWJlbGV0OgogICAgZmxhZ3M6CiAgICAgICAgLSAiLS1ub2RlLWxhYmVscz1la3MuYW1hem9uYXdzLmNvbS9ub2RlZ3JvdXAtaW1hZ2U9YW1pLTA5ODNhZDY2NTRmYzAwNzc3LGVrcy5hbWF6b25hd3MuY29tL2NhcGFjaXR5VHlwZT1PTl9ERU1BTkQsYml0ZGouY29tL2FwcD1nZW5lcmljLGJpdGRqLmNvbS9saW51eD1nZW5lcmljX2FsMjAyM19hcm02NF9zdGFuZGFyZCIK
+  LaunchTemplateId: lt-02328534fd68985eb
+  LaunchTemplateName: mbx-bnb-devops-jenkins_eks-generic-generic_al2023_arm64_standard
+  VersionNumber: 5
+...
+

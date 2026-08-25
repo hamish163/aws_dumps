@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonS3ReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess
+  AttachmentCount: 3
+  CreateDate: 2015-02-06 18:40:59+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIZTJ4DXE7G6AGAE6M
+  PolicyName: AmazonS3ReadOnlyAccess
+  UpdateDate: 2023-08-10 21:31:39+00:00
+...
+

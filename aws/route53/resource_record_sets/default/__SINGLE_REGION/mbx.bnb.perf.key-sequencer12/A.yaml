@@ -1,0 +1,15 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx.bnb.perf.key-sequencer12/A
+  single_region: true
+specifics:
+  Name: key-sequencer12.perf.bnb.mbx.
+  ResourceRecords:
+  - Value: 10.170.20.119
+  TTL: 300
+  Type: A
+...
+

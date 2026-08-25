@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: Billing
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/job-function/Billing
+  AttachmentCount: 0
+  CreateDate: 2016-11-10 17:33:18+00:00
+  DefaultVersionId: v30
+  IsAttachable: true
+  Path: /job-function/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIFTHXT6FFMIRT7ZEA
+  PolicyName: Billing
+  UpdateDate: 2026-07-30 22:12:16+00:00
+...
+

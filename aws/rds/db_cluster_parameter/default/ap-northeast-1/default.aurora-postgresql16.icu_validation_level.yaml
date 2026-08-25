@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql16.icu_validation_level
+specifics:
+  AllowedValues: disabled,debug5,debug4,debug3,debug2,debug1,log,notice,warning,error
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Log level for reporting invalid ICU locale strings.
+  IsModifiable: true
+  ParameterName: icu_validation_level
+  ParameterValue: error
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

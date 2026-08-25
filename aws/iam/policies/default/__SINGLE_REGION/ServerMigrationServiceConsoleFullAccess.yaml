@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: ServerMigrationServiceConsoleFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/ServerMigrationServiceConsoleFullAccess
+  AttachmentCount: 0
+  CreateDate: 2020-05-09 17:18:57+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4IIEMRGEYB
+  PolicyName: ServerMigrationServiceConsoleFullAccess
+  UpdateDate: 2020-07-20 22:00:37+00:00
+...
+

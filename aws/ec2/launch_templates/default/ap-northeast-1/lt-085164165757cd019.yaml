@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.launch_templates
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: lt-085164165757cd019
+specifics:
+  CreateTime: 2023-04-03 04:17:07+00:00
+  CreatedBy: arn:aws:iam::862793644923:user/jeff
+  DefaultVersionNumber: 1
+  LatestVersionNumber: 3
+  LaunchTemplateId: lt-085164165757cd019
+  LaunchTemplateName: RocketChatLaunchTemplate_v0VRuJkHAEc4
+...
+

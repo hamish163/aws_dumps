@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql16.log_parser_stats
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Writes parser performance statistics to the server log.
+  IsModifiable: true
+  ParameterName: log_parser_stats
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

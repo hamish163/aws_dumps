@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-044164d489477b683
+specifics:
+  CidrIpv4: 10.12.0.0/16
+  Description: Allow tcp for port range 22 to 22
+  FromPort: 22
+  GroupId: sg-0f951059aa7eec828
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-044164d489477b683
+  Tags: []
+  ToPort: 22
+...
+

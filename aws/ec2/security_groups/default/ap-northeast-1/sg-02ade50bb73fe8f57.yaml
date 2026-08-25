@@ -1,0 +1,28 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-02ade50bb73fe8f57
+specifics:
+  Description: Managed by Terraform
+  GroupId: sg-02ade50bb73fe8f57
+  GroupName: mbx-bnb-perf-privatestream-audit
+  Tags:
+  - Key: biz
+    Value: mbx
+  - Key: mbx_env_name
+    Value: perf
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_secret_store
+    Value: none
+  - Key: team
+    Value: mbx
+  - Key: mbx_application_name
+    Value: mbx-data-privatestream
+  - Key: Name
+    Value: mbx-bnb-perf-privatestream-audit
+  VpcId: vpc-013930e589c469574
+...
+

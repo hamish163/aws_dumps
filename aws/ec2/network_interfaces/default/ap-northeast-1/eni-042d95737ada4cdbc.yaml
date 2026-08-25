@@ -1,0 +1,36 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-042d95737ada4cdbc
+specifics:
+  Attachment:
+    AttachmentId: ela-attach-0e6f2a9843117369c
+    DeleteOnTermination: false
+    DeviceIndex: 1
+    InstanceOwnerId: amazon-aws
+    Status: attached
+  AvailabilityZone: ap-northeast-1c
+  Description: Network Interface for Transit Gateway Attachment tgw-attach-043204ff6b4b00919
+  Groups: []
+  InterfaceType: transit_gateway
+  Ipv6Addresses: []
+  MacAddress: 0a:d6:63:3f:2d:cd
+  NetworkInterfaceId: eni-042d95737ada4cdbc
+  OwnerId: '862793644923'
+  PrivateDnsName: ip-172-27-36-217.ap-northeast-1.compute.internal
+  PrivateIpAddress: 172.27.36.217
+  PrivateIpAddresses:
+  - Primary: true
+    PrivateDnsName: ip-172-27-36-217.ap-northeast-1.compute.internal
+    PrivateIpAddress: 172.27.36.217
+  RequesterId: '942978693842'
+  RequesterManaged: false
+  SourceDestCheck: false
+  Status: in-use
+  SubnetId: subnet-0899be7b94796ea56
+  TagSet: []
+  VpcId: vpc-03f5d2495fd8d95a3
+...
+

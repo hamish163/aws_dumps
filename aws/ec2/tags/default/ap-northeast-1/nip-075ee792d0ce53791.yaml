@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: nip-075ee792d0ce53791
+specifics:
+  Name: collector1-to-salt
+...
+

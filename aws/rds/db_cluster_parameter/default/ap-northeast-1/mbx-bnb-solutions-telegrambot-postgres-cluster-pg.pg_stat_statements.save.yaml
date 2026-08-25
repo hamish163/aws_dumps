@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-solutions-telegrambot-postgres-cluster-pg.pg_stat_statements.save
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Save pg_stat_statements statistics across server shutdowns.
+  IsModifiable: true
+  ParameterName: pg_stat_statements.save
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

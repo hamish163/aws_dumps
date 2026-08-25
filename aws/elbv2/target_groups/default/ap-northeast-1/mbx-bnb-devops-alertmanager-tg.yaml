@@ -1,0 +1,29 @@
+---
+datatype: aws.elbv2.target_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-devops-alertmanager-tg
+specifics:
+  HealthCheckEnabled: true
+  HealthCheckIntervalSeconds: 30
+  HealthCheckPath: /-/healthy
+  HealthCheckPort: '9093'
+  HealthCheckProtocol: HTTP
+  HealthCheckTimeoutSeconds: 5
+  HealthyThresholdCount: 3
+  IpAddressType: ipv4
+  LoadBalancerArns:
+  - arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:loadbalancer/app/mbx-bnb-devops-monitoring-int/f35b24f68c073458
+  Matcher:
+    HttpCode: '200'
+  Port: 9093
+  Protocol: HTTP
+  ProtocolVersion: HTTP1
+  TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-devops-alertmanager-tg/15277e16ca7e9a5e
+  TargetGroupName: mbx-bnb-devops-alertmanager-tg
+  TargetType: instance
+  UnhealthyThresholdCount: 3
+  VpcId: vpc-07519eb63f1d932ac
+...
+

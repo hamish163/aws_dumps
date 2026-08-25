@@ -1,0 +1,25 @@
+---
+datatype: aws.elbv2.listeners
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener/app/mbx-bnb-sre-emu-alb-int/91219fc6be5988e6/6445581b16fd2ebd
+specifics:
+  Certificates:
+  - CertificateArn: arn:aws:acm:ap-northeast-1:862793644923:certificate/1acebbab-519e-4b9f-b663-514ba5e22d81
+  DefaultActions:
+  - FixedResponseConfig:
+      ContentType: text/plain
+      MessageBody: Not Found
+      StatusCode: '404'
+    Order: 1
+    Type: fixed-response
+  ListenerArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener/app/mbx-bnb-sre-emu-alb-int/91219fc6be5988e6/6445581b16fd2ebd
+  LoadBalancerArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:loadbalancer/app/mbx-bnb-sre-emu-alb-int/91219fc6be5988e6
+  MutualAuthentication:
+    Mode: 'off'
+  Port: 443
+  Protocol: HTTPS
+  SslPolicy: ELBSecurityPolicy-2016-08
+...
+

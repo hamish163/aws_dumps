@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: SageMakerStudioProjectUserRolePermissionsBoundary
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/SageMakerStudioProjectUserRolePermissionsBoundary
+  AttachmentCount: 0
+  CreateDate: 2024-11-20 21:57:42+00:00
+  DefaultVersionId: v19
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4FU36Z3GEL
+  PolicyName: SageMakerStudioProjectUserRolePermissionsBoundary
+  UpdateDate: 2026-02-12 17:58:21+00:00
+...
+

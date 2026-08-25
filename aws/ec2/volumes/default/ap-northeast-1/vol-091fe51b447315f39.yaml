@@ -1,0 +1,44 @@
+---
+datatype: aws.ec2.volumes
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-091fe51b447315f39
+specifics:
+  Attachments:
+  - AttachTime: 2026-07-08 08:27:31+00:00
+    DeleteOnTermination: true
+    Device: /dev/xvda
+    InstanceId: i-0d351d2405e1d9781
+    State: attached
+    VolumeId: vol-091fe51b447315f39
+  AvailabilityZone: ap-northeast-1a
+  CreateTime: 2026-07-08 08:27:31.343000+00:00
+  Encrypted: false
+  Iops: 3000
+  MultiAttachEnabled: false
+  Size: 40
+  SnapshotId: snap-0d970e09fd1d8cbac
+  State: in-use
+  Tags:
+  - Key: mbx_application_name
+    Value: mbx-data-kline
+  - Key: mbx_host_index
+    Value: '1'
+  - Key: mbx_secret_store
+    Value: asm
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  - Key: mbx_env_name
+    Value: uat
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: Name
+    Value: mbx-bnb-uat-kline-persist1
+  Throughput: 125
+  VolumeId: vol-091fe51b447315f39
+  VolumeType: gp3
+...
+

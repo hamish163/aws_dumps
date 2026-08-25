@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSBudgetsReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSBudgetsReadOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2020-10-15 17:18:28+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4EZCFS6BHW
+  PolicyName: AWSBudgetsReadOnlyAccess
+  UpdateDate: 2024-06-17 17:41:25+00:00
+...
+

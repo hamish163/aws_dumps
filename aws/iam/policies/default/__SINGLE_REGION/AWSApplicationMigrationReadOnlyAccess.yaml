@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSApplicationMigrationReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSApplicationMigrationReadOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2021-04-07 07:15:26+00:00
+  DefaultVersionId: v6
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4M2IUSVNLL
+  PolicyName: AWSApplicationMigrationReadOnlyAccess
+  UpdateDate: 2026-07-01 14:57:15+00:00
+...
+

@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0fb2db02957d8c00d
+specifics:
+  Description: Allow TCP traffic from mgmt-api-algo-alb SG on port 8080
+  FromPort: 8080
+  GroupId: sg-048251e12a33477aa
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0ca45088902a76710
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0fb2db02957d8c00d
+  Tags: []
+  ToPort: 8080
+...
+

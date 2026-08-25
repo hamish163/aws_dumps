@@ -1,0 +1,28 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-072edd253d9822237
+specifics:
+  Description: Managed by Terraform
+  GroupId: sg-072edd253d9822237
+  GroupName: mbx-bnb-uat-kline-persist
+  Tags:
+  - Key: mbx_secret_store
+    Value: asm
+  - Key: biz
+    Value: mbx
+  - Key: team
+    Value: mbx
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_application_name
+    Value: mbx-data-kline
+  - Key: mbx_env_name
+    Value: uat
+  - Key: Name
+    Value: mbx-bnb-uat-kline-persist
+  VpcId: vpc-0b3ce57b4c748893b
+...
+

@@ -1,0 +1,29 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: crunchy_bnb_prod_instance_profile
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/crunchy_bnb_prod_instance_profile
+  CreateDate: 2024-04-04 13:15:24+00:00
+  InstanceProfileId: AIPA4RYUCHN5RQKL6AUYG
+  InstanceProfileName: crunchy_bnb_prod_instance_profile
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/crunchy_bnb_prod_instance_role
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+        Sid: ''
+      Version: '2012-10-17'
+    CreateDate: 2024-04-04 13:15:22+00:00
+    Path: /
+    RoleId: AROA4RYUCHN55SSX267AR
+    RoleName: crunchy_bnb_prod_instance_role
+...
+

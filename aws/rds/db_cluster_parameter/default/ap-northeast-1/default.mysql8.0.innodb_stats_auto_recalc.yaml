@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.innodb_stats_auto_recalc
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Causes InnoDB to automatically recalculate persistent statistics after
+    the data in a table is changed substantially.
+  IsModifiable: true
+  ParameterName: innodb_stats_auto_recalc
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

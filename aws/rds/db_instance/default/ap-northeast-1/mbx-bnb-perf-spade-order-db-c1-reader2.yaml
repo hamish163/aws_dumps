@@ -1,0 +1,120 @@
+---
+datatype: aws.rds.db_instance
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-perf-spade-order-db-c1-reader2
+specifics:
+  AllocatedStorage: 1
+  AssociatedRoles: []
+  AutoMinorVersionUpgrade: false
+  AvailabilityZone: ap-northeast-1a
+  BackupRetentionPeriod: 7
+  BackupTarget: region
+  CACertificateIdentifier: rds-ca-ecc384-g1
+  CertificateDetails:
+    CAIdentifier: rds-ca-ecc384-g1
+    ValidTill: 2027-06-26 20:30:10+00:00
+  CopyTagsToSnapshot: false
+  CustomerOwnedIpEnabled: false
+  DBClusterIdentifier: mbx-bnb-perf-spade-order-db-c1
+  DBInstanceArn: arn:aws:rds:ap-northeast-1:862793644923:db:mbx-bnb-perf-spade-order-db-c1-reader2
+  DBInstanceClass: db.r6i.12xlarge
+  DBInstanceIdentifier: mbx-bnb-perf-spade-order-db-c1-reader2
+  DBInstanceStatus: available
+  DBParameterGroups:
+  - DBParameterGroupName: mbx-bnb-perf-spade-order-instance-pg
+    ParameterApplyStatus: in-sync
+  DBSecurityGroups: []
+  DBSubnetGroup:
+    DBSubnetGroupDescription: Subnet group for mbx bnb perf
+    DBSubnetGroupName: mbx-bnb-perf-db
+    SubnetGroupStatus: Complete
+    Subnets:
+    - SubnetAvailabilityZone:
+        Name: ap-northeast-1a
+      SubnetIdentifier: subnet-06de5fba9900135d8
+      SubnetOutpost: {}
+      SubnetStatus: Active
+    - SubnetAvailabilityZone:
+        Name: ap-northeast-1c
+      SubnetIdentifier: subnet-0948699b8436c70dc
+      SubnetOutpost: {}
+      SubnetStatus: Active
+    - SubnetAvailabilityZone:
+        Name: ap-northeast-1a
+      SubnetIdentifier: subnet-09ad55b1ce00d3c14
+      SubnetOutpost: {}
+      SubnetStatus: Active
+    - SubnetAvailabilityZone:
+        Name: ap-northeast-1c
+      SubnetIdentifier: subnet-03af5d6dad4c26760
+      SubnetOutpost: {}
+      SubnetStatus: Active
+    - SubnetAvailabilityZone:
+        Name: ap-northeast-1a
+      SubnetIdentifier: subnet-09134100e474d8109
+      SubnetOutpost: {}
+      SubnetStatus: Active
+    - SubnetAvailabilityZone:
+        Name: ap-northeast-1c
+      SubnetIdentifier: subnet-044c5dee971e8b8af
+      SubnetOutpost: {}
+      SubnetStatus: Active
+    VpcId: vpc-013930e589c469574
+  DbInstancePort: 0
+  DbiResourceId: db-NH55JARGGGVRE5ZQDIS5Y4MOME
+  DedicatedLogVolume: false
+  DeletionProtection: false
+  DomainMemberships: []
+  Endpoint:
+    Address: mbx-bnb-perf-spade-order-db-c1-reader2.cvmjht5arg7h.ap-northeast-1.rds.amazonaws.com
+    HostedZoneId: Z24O6O9L7SGTNB
+    Port: 3306
+  Engine: aurora-mysql
+  EngineVersion: 8.0.mysql_aurora.3.10.4
+  EnhancedMonitoringResourceArn: arn:aws:logs:ap-northeast-1:862793644923:log-group:RDSOSMetrics:log-stream:db-NH55JARGGGVRE5ZQDIS5Y4MOME
+  IAMDatabaseAuthenticationEnabled: false
+  InstanceCreateTime: 2024-12-17 11:40:11.561000+00:00
+  KmsKeyId: arn:aws:kms:ap-northeast-1:862793644923:key/4d70afbb-e9b9-4bb7-83f2-8de31f8a5460
+  LicenseModel: general-public-license
+  MasterUsername: mbxprd
+  MonitoringInterval: 60
+  MonitoringRoleArn: arn:aws:iam::862793644923:role/rds-monitoring-role
+  MultiAZ: false
+  NetworkType: IPV4
+  OptionGroupMemberships:
+  - OptionGroupName: default:aurora-mysql-8-0
+    Status: in-sync
+  PendingModifiedValues: {}
+  PerformanceInsightsEnabled: true
+  PerformanceInsightsKMSKeyId: arn:aws:kms:ap-northeast-1:862793644923:key/4d70afbb-e9b9-4bb7-83f2-8de31f8a5460
+  PerformanceInsightsRetentionPeriod: 7
+  PreferredBackupWindow: 13:22-13:52
+  PreferredMaintenanceWindow: fri:20:30-fri:21:00
+  PromotionTier: 1
+  PubliclyAccessible: false
+  ReadReplicaDBInstanceIdentifiers: []
+  StorageEncrypted: true
+  StorageThroughput: 0
+  StorageType: aurora
+  TagList:
+  - Key: biz
+    Value: mbx
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_secret_store
+    Value: asm
+  - Key: cluster_group
+    Value: spade-order_c1
+  - Key: mbx_env_name
+    Value: perf
+  - Key: team
+    Value: mbx
+  - Key: Name
+    Value: mbx-bnb-perf-spade-order-db-c1-reader2
+  VpcSecurityGroups:
+  - Status: active
+    VpcSecurityGroupId: sg-0d166c50443619d7e
+...
+

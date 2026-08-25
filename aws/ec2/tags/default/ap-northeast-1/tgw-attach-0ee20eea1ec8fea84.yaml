@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: tgw-attach-0ee20eea1ec8fea84
+specifics:
+  Name: ProdGatewayVPC Attachment
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-devops-fix-api-marketdata-asm-ro
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/mbx-bnb-devops-fix-api-marketdata-asm-ro
+  AttachmentCount: 1
+  CreateDate: 2025-09-23 12:51:29+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN54TB5TYHAG
+  PolicyName: mbx-bnb-devops-fix-api-marketdata-asm-ro
+  UpdateDate: 2025-09-23 12:51:29+00:00
+...
+

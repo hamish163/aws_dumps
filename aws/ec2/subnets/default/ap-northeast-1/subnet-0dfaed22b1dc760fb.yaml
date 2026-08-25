@@ -1,0 +1,38 @@
+---
+datatype: aws.ec2.subnets
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: subnet-0dfaed22b1dc760fb
+specifics:
+  AssignIpv6AddressOnCreation: false
+  AvailabilityZone: ap-northeast-1a
+  AvailabilityZoneId: apne1-az4
+  AvailableIpAddressCount: 123
+  CidrBlock: 10.12.18.0/25
+  DefaultForAz: false
+  EnableDns64: false
+  Ipv6CidrBlockAssociationSet: []
+  Ipv6Native: false
+  MapCustomerOwnedIpOnLaunch: false
+  MapPublicIpOnLaunch: false
+  OwnerId: '862793644923'
+  PrivateDnsNameOptionsOnLaunch:
+    EnableResourceNameDnsAAAARecord: false
+    EnableResourceNameDnsARecord: false
+    HostnameType: ip-name
+  State: available
+  SubnetArn: arn:aws:ec2:ap-northeast-1:862793644923:subnet/subnet-0dfaed22b1dc760fb
+  SubnetId: subnet-0dfaed22b1dc760fb
+  Tags:
+  - Key: Name
+    Value: TestRocketChat Subnet 1
+  - Key: aws:cloudformation:logical-id
+    Value: Subnet1
+  - Key: aws:cloudformation:stack-id
+    Value: arn:aws:cloudformation:ap-northeast-1:862793644923:stack/rocketchat-test/b73446e0-d1d1-11ed-8457-0e76f1c22281
+  - Key: aws:cloudformation:stack-name
+    Value: rocketchat-test
+  VpcId: vpc-06f40d5e429c4aac6
+...
+

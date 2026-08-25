@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonECSInfrastructureRolePolicyForVolumes
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AmazonECSInfrastructureRolePolicyForVolumes
+  AttachmentCount: 0
+  CreateDate: 2024-01-10 22:56:41+00:00
+  DefaultVersionId: v5
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4JRAUMLGMS
+  PolicyName: AmazonECSInfrastructureRolePolicyForVolumes
+  UpdateDate: 2026-02-12 18:02:34+00:00
+...
+

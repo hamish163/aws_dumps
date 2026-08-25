@@ -1,0 +1,25 @@
+---
+datatype: aws.iam.account_authorization_details
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: monastery-wade
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/monastery-wade
+  AttachedManagedPolicies: []
+  CreateDate: 2026-08-17 05:39:24+00:00
+  GroupList:
+  - mbx-monastery-aws-group-devops
+  Path: /
+  Tags:
+  - Key: monastery-team
+    Value: devops
+  - Key: biz
+    Value: mbx
+  - Key: team
+    Value: mbx
+  UserId: AIDA4RYUCHN52JI4D55W2
+  UserName: monastery-wade
+...
+

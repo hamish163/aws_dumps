@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonGuardDutyServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AmazonGuardDutyServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2017-11-28 20:12:59+00:00
+  DefaultVersionId: v12
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIHZREZOWNSSA6FWQO
+  PolicyName: AmazonGuardDutyServiceRolePolicy
+  UpdateDate: 2026-04-24 20:12:17+00:00
+...
+

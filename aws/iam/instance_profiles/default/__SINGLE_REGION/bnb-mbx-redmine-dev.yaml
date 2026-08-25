@@ -1,0 +1,29 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: bnb-mbx-redmine-dev
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/bnb-mbx-redmine-dev
+  CreateDate: 2024-05-27 13:54:54+00:00
+  InstanceProfileId: AIPA4RYUCHN5VMIT6BXNU
+  InstanceProfileName: bnb-mbx-redmine-dev
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/bnb-mbx-redmine-dev
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+        Sid: ''
+      Version: '2012-10-17'
+    CreateDate: 2024-05-27 13:54:54+00:00
+    Path: /
+    RoleId: AROA4RYUCHN5Z7P7MZSUU
+    RoleName: bnb-mbx-redmine-dev
+...
+

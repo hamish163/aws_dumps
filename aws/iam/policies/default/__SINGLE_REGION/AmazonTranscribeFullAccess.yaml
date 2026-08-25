@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonTranscribeFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonTranscribeFullAccess
+  AttachmentCount: 0
+  CreateDate: 2018-04-04 16:06:16+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAINAV45F5NT5RMFO7K
+  PolicyName: AmazonTranscribeFullAccess
+  UpdateDate: 2018-04-04 16:06:16+00:00
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: CloudwatchApplicationInsightsServiceLinkedRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/CloudwatchApplicationInsightsServiceLinkedRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2018-12-01 16:22:12+00:00
+  DefaultVersionId: v25
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJH3SHQERZRQMQOQ44
+  PolicyName: CloudwatchApplicationInsightsServiceLinkedRolePolicy
+  UpdateDate: 2024-07-25 16:24:03+00:00
+...
+

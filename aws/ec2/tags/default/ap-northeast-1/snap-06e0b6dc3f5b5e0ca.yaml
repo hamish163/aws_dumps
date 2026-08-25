@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: snap-06e0b6dc3f5b5e0ca
+specifics:
+  Name: 20200217-tky_prod_tracky_slave9_ebs_snapshot
+...
+

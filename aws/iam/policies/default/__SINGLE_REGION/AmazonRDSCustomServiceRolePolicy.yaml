@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonRDSCustomServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AmazonRDSCustomServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2021-10-08 21:39:12+00:00
+  DefaultVersionId: v19
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4F2M3XYA7J
+  PolicyName: AmazonRDSCustomServiceRolePolicy
+  UpdateDate: 2026-02-12 17:57:39+00:00
+...
+

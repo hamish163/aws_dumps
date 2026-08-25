@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql11.unix_socket_group
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: Sets the owning group of the Unix-domain socket.
+  IsModifiable: false
+  ParameterName: unix_socket_group
+  ParameterValue: rdsdb
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

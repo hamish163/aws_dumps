@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: sgprodEC2RoleTrackySlave
+  single_region: true
+specifics:
+  biz: mbx
+  mbx_env_name: prod
+  mbx_exchange_name: bnb
+  sre-env: prod
+  team: sre
+...
+

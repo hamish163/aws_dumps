@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql16.debug_parallel_query
+specifics:
+  AllowedValues: off,on,regress
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Forces the planners use parallel query nodes.
+  IsModifiable: false
+  ParameterName: debug_parallel_query
+  ParameterValue: 'off'
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

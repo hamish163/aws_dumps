@@ -1,0 +1,14 @@
+---
+datatype: aws.iam.access_keys
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AKIA4RYUCHN5V4H3L5MO
+  single_region: true
+specifics:
+  AccessKeyId: AKIA4RYUCHN5V4H3L5MO
+  CreateDate: 2026-08-12 09:31:54+00:00
+  Status: Active
+  UserName: monastery-vasanth
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonDMSVPCManagementRole
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AmazonDMSVPCManagementRole
+  AttachmentCount: 0
+  CreateDate: 2015-11-18 16:33:19+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJHKIGMBQI4AEFFSYO
+  PolicyName: AmazonDMSVPCManagementRole
+  UpdateDate: 2024-07-25 15:19:01+00:00
+...
+

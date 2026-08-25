@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonKeyspacesFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonKeyspacesFullAccess
+  AttachmentCount: 0
+  CreateDate: 2020-04-23 17:06:37+00:00
+  DefaultVersionId: v8
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4HMS72N6JG
+  PolicyName: AmazonKeyspacesFullAccess
+  UpdateDate: 2026-02-12 18:00:58+00:00
+...
+

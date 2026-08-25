@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql17.idle_session_timeout
+specifics:
+  AllowedValues: 0-2147483647
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Terminate any session that has been idle (that is, waiting for a client
+    query), but not within an open transaction, for longer than the specified amount
+    of time
+  IsModifiable: true
+  ParameterName: idle_session_timeout
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

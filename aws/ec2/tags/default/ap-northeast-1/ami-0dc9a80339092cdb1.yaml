@@ -1,0 +1,27 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: ami-0dc9a80339092cdb1
+specifics:
+  biz: mbx
+  git_author: Tom Lejeune <234121729+tom-lejeune-2@users.noreply.github.com>
+  git_branch: main
+  git_committer: GitHub <noreply@github.com>
+  git_hash: 51c1de0da8e9e24f47d375ad5f8c59742a9f1fa3
+  git_message: 'Merge pull request #33 from BitDJ/redmine-16687-ami-volume-size-bug
+
+
+    [Redmine-16687] [MBX/AL2023] Increase volume size and other minor improvements'
+  git_timestamp: '2025-10-27T08:51:45Z'
+  managed: packer
+  project: mbx
+  role: ami-oci-builder
+  source_al2023_kernel: '6.1'
+  source_al2023_version: 2023.9.20251020.0
+  source_ami_id: ami-060a0e23514f1a3c5
+  source_ami_name: al2023-ami-minimal-2023.9.20251020.0-kernel-6.1-arm64
+  team: mbx
+...
+

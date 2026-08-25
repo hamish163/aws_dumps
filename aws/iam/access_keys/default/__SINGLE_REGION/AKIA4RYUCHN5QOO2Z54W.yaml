@@ -1,0 +1,14 @@
+---
+datatype: aws.iam.access_keys
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AKIA4RYUCHN5QOO2Z54W
+  single_region: true
+specifics:
+  AccessKeyId: AKIA4RYUCHN5QOO2Z54W
+  CreateDate: 2019-11-06 01:13:38+00:00
+  Status: Inactive
+  UserName: ap2-k8s-user
+...
+

@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-klines-cluster-pg-80.myisam_use_mmap
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Memory mapping for reading and writing MyISAM tables.
+  IsModifiable: true
+  ParameterName: myisam_use_mmap
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

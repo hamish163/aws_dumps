@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-0a068aa427bc9c1b6
+specifics:
+  Name: monitoring_dev_mbx_prometheus1_ec2
+  env: dev
+  project: mbx
+...
+

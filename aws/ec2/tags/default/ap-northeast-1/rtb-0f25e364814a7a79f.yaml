@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rtb-0f25e364814a7a79f
+specifics:
+  Name: ExitVPC Attachment Default RouteTable
+...
+

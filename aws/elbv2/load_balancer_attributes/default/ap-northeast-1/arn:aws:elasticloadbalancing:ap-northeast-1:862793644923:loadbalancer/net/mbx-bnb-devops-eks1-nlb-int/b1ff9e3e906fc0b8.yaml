@@ -1,0 +1,17 @@
+---
+datatype: aws.elbv2.load_balancer_attributes
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:loadbalancer/net/mbx-bnb-devops-eks1-nlb-int/b1ff9e3e906fc0b8
+specifics:
+  access_logs.s3.bucket: ''
+  access_logs.s3.enabled: 'false'
+  access_logs.s3.prefix: ''
+  deletion_protection.enabled: 'false'
+  dns_record.client_routing_policy: any_availability_zone
+  load_balancing.cross_zone.enabled: 'false'
+  secondary_ips.auto_assigned.per_subnet: '0'
+  zonal_shift.config.enabled: 'false'
+...
+

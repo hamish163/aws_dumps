@@ -1,0 +1,17 @@
+---
+datatype: aws.route53.hosted_zones
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: chat.bitdj.com.
+  single_region: true
+specifics:
+  CallerReference: '2023-04-07 06:43:54.880'
+  Config:
+    Comment: Primary Namespace for MbxChat
+    PrivateZone: true
+  Id: /hostedzone/Z004962138BKKE9GZ9N0F
+  Name: chat.bitdj.com.
+  ResourceRecordSetCount: 13
+...
+

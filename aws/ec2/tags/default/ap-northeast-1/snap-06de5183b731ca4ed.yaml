@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: snap-06de5183b731ca4ed
+specifics:
+  Name: 20200811-prometheus-test-ebs
+  env: test
+  project: mbx
+...
+

@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-00ce432ec4a19747d
+specifics:
+  Description: Allow traffic from mbx-bnb-uat tracky
+  FromPort: 5000
+  GroupId: sg-051d10d7a77e36101
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0d86c115b6cb7286d
+    VpcId: vpc-0b3ce57b4c748893b
+  SecurityGroupRuleId: sgr-00ce432ec4a19747d
+  Tags: []
+  ToPort: 5010
+...
+

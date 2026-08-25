@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql16.pgtle.enable_clientauth
+specifics:
+  AllowedValues: on,off,require
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Sets the behavior for interacting with clientauth feature.
+  IsModifiable: true
+  MinimumEngineVersion: '16.2'
+  ParameterName: pgtle.enable_clientauth
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

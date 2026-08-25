@@ -1,0 +1,15 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: net.toolsfdg.boffice/CNAME
+  single_region: true
+specifics:
+  Name: boffice.toolsfdg.net.
+  ResourceRecords:
+  - Value: bsuite.wfabx.io
+  TTL: 300
+  Type: CNAME
+...
+

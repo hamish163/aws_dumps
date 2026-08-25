@@ -1,0 +1,17 @@
+---
+datatype: aws.ec2.key_pairs
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: key-0b5daa84fc7fda88f
+specifics:
+  CreateTime: 2022-09-14 02:13:12+00:00
+  KeyFingerprint: /FK+X6DgMeE1MlTQgMQ2TVbA0ZKMNxWk8hk0wtaImUg=
+  KeyName: tungsten-backup
+  KeyPairId: key-0b5daa84fc7fda88f
+  KeyType: ed25519
+  Tags:
+  - Key: team_mbx
+    Value: devops
+...
+

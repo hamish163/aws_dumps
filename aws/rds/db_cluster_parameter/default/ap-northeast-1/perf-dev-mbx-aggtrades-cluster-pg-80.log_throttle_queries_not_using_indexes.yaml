@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-aggtrades-cluster-pg-80.log_throttle_queries_not_using_indexes
+specifics:
+  AllowedValues: 0-4294967295
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Limits the number of such queries per minute that can be written to
+    the slow query log.
+  IsModifiable: true
+  ParameterName: log_throttle_queries_not_using_indexes
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

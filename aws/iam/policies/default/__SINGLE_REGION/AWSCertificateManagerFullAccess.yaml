@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSCertificateManagerFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSCertificateManagerFullAccess
+  AttachmentCount: 0
+  CreateDate: 2016-01-21 17:02:36+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJYCHABBP6VQIVBCBQ
+  PolicyName: AWSCertificateManagerFullAccess
+  UpdateDate: 2020-08-17 22:18:28+00:00
+...
+

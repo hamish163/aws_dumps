@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.block_encryption_mode
+specifics:
+  AllowedValues: aes-128-ecb,aes-192-ecb,aes-256-ecb,aes-128-cbc,aes-192-cbc,aes-256-cbc
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: This variable controls the block encryption mode for block-based algorithms
+    such as AES. It affects encryption for AES_ENCRYPT() and AES_DECRYPT().
+  IsModifiable: true
+  ParameterName: block_encryption_mode
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

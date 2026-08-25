@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0a2a42c0317645153
+specifics:
+  CidrIpv4: 10.12.0.0/16
+  Description: Allow TCP traffic from mbx VPN on port 8088
+  FromPort: 8088
+  GroupId: sg-05e74ff7fcee2510f
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-0a2a42c0317645153
+  Tags: []
+  ToPort: 8088
+...
+

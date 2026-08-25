@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonPrometheusConsoleFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonPrometheusConsoleFullAccess
+  AttachmentCount: 0
+  CreateDate: 2020-12-15 18:11:10+00:00
+  DefaultVersionId: v9
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4P7IR2JZ6H
+  PolicyName: AmazonPrometheusConsoleFullAccess
+  UpdateDate: 2026-02-12 17:59:47+00:00
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonRoute53ProfilesReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonRoute53ProfilesReadOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2024-04-30 18:29:25+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4KTR6UWE5Y
+  PolicyName: AmazonRoute53ProfilesReadOnlyAccess
+  UpdateDate: 2024-08-27 18:59:57+00:00
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-spade-account-cluster-pg.long_query_time
+specifics:
+  AllowedValues: 0-31536000
+  ApplyMethod: immediate
+  ApplyType: dynamic
+  DataType: float
+  Description: Defines what MySQL considers long queries
+  IsModifiable: true
+  ParameterName: long_query_time
+  ParameterValue: '60'
+  Source: user
+  SupportedEngineModes:
+  - provisioned
+...
+

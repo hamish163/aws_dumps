@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonECSInfrastructureRoleforExpressGatewayServices
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AmazonECSInfrastructureRoleforExpressGatewayServices
+  AttachmentCount: 0
+  CreateDate: 2025-11-12 20:34:08+00:00
+  DefaultVersionId: v6
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4CC3NUMV6O
+  PolicyName: AmazonECSInfrastructureRoleforExpressGatewayServices
+  UpdateDate: 2026-02-12 18:01:54+00:00
+...
+

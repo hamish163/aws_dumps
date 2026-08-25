@@ -1,0 +1,51 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: DEVOPS_TEAM_INFRA_MGMT_ROLE
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/DEVOPS_TEAM_INFRA_MGMT_SECURITY_GROUP_ADMIN
+    PolicyName: DEVOPS_TEAM_INFRA_MGMT_SECURITY_GROUP_ADMIN
+  - PolicyArn: arn:aws:iam::862793644923:policy/LambdaAllowAllActions
+    PolicyName: LambdaAllowAllActions
+  - PolicyArn: arn:aws:iam::862793644923:policy/DEVOPS_TEAM_RDS_EVENT_MGMT
+    PolicyName: DEVOPS_TEAM_RDS_EVENT_MGMT
+  - PolicyArn: arn:aws:iam::862793644923:policy/DEVOPS_TEAM_INFRA_MGMT_POLICY
+    PolicyName: DEVOPS_TEAM_INFRA_MGMT_POLICY
+  - PolicyArn: arn:aws:iam::862793644923:policy/DEVOPS_TEAM_INFRA_IAM_PASS_ROLE
+    PolicyName: DEVOPS_TEAM_INFRA_IAM_PASS_ROLE
+  - PolicyArn: arn:aws:iam::aws:policy/AWSWAFFullAccess
+    PolicyName: AWSWAFFullAccess
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonEC2ContainerRegistryFullAccess
+    PolicyName: AmazonEC2ContainerRegistryFullAccess
+  - PolicyArn: arn:aws:iam::aws:policy/CloudFrontFullAccess
+    PolicyName: CloudFrontFullAccess
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonEC2FullAccess
+    PolicyName: AmazonEC2FullAccess
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonRDSFullAccess
+    PolicyName: AmazonRDSFullAccess
+  - PolicyArn: arn:aws:iam::aws:policy/ReadOnlyAccess
+    PolicyName: ReadOnlyAccess
+  - PolicyArn: arn:aws:iam::aws:policy/SecretsManagerReadWrite
+    PolicyName: SecretsManagerReadWrite
+  - PolicyArn: arn:aws:iam::aws:policy/job-function/SupportUser
+    PolicyName: SupportUser
+  - PolicyArn: arn:aws:iam::aws:policy/AWSCodeCommitFullAccess
+    PolicyName: AWSCodeCommitFullAccess
+  - PolicyArn: arn:aws:iam::aws:policy/ResourceGroupsandTagEditorReadOnlyAccess
+    PolicyName: ResourceGroupsandTagEditorReadOnlyAccess
+  - PolicyArn: arn:aws:iam::aws:policy/CloudWatchEventsFullAccess
+    PolicyName: CloudWatchEventsFullAccess
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonDynamoDBFullAccess
+    PolicyName: AmazonDynamoDBFullAccess
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonS3FullAccess
+    PolicyName: AmazonS3FullAccess
+  - PolicyArn: arn:aws:iam::aws:policy/AWSWAFConsoleFullAccess
+    PolicyName: AWSWAFConsoleFullAccess
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonHealthLakeFullAccess
+    PolicyName: AmazonHealthLakeFullAccess
+...
+

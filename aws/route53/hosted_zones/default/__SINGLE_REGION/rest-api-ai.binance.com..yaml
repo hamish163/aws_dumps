@@ -1,0 +1,18 @@
+---
+datatype: aws.route53.hosted_zones
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: rest-api-ai.binance.com.
+  single_region: true
+specifics:
+  CallerReference: terraform-20260407145442904200000001
+  Config:
+    Comment: Private HostedZone to be able to resolve and access rest-api-ai.binance.com
+      through the VPC Endpoint
+    PrivateZone: true
+  Id: /hostedzone/Z0556436OQZBRQSJLWB3
+  Name: rest-api-ai.binance.com.
+  ResourceRecordSetCount: 3
+...
+

@@ -1,0 +1,28 @@
+---
+datatype: aws.iam.account_authorization_details
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: evgeny
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/evgeny
+  AttachedManagedPolicies: []
+  CreateDate: 2019-10-16 01:58:44+00:00
+  GroupList:
+  - mbx_bedrock
+  - qa
+  Path: /
+  Tags:
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  - Key: mbx_team
+    Value: qa
+  - Key: mbx_iam
+    Value: evgeny
+  UserId: AIDA4RYUCHN5VOWOKCF3N
+  UserName: evgeny
+...
+

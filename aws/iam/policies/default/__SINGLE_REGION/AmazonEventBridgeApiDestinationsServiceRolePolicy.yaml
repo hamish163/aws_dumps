@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonEventBridgeApiDestinationsServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AmazonEventBridgeApiDestinationsServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2021-02-11 20:52:05+00:00
+  DefaultVersionId: v7
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4GHQV22EVJ
+  PolicyName: AmazonEventBridgeApiDestinationsServiceRolePolicy
+  UpdateDate: 2026-02-12 17:58:23+00:00
+...
+

@@ -1,0 +1,34 @@
+---
+datatype: aws.ec2.volumes
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-0590717049d645a3b
+specifics:
+  Attachments:
+  - AttachTime: 2019-10-10 02:33:14+00:00
+    DeleteOnTermination: false
+    Device: /dev/sdf
+    InstanceId: i-052abd3ea6c7f6b9f
+    State: attached
+    VolumeId: vol-0590717049d645a3b
+  AvailabilityZone: ap-northeast-1a
+  CreateTime: 2019-10-10 02:33:14.492000+00:00
+  Encrypted: false
+  Iops: 3000
+  MultiAttachEnabled: false
+  Size: 150
+  SnapshotId: ''
+  State: in-use
+  Tags:
+  - Key: project
+    Value: mbx
+  - Key: env
+    Value: dev
+  - Key: Name
+    Value: perf_qa_test2_ec2
+  Throughput: 125
+  VolumeId: vol-0590717049d645a3b
+  VolumeType: gp3
+...
+

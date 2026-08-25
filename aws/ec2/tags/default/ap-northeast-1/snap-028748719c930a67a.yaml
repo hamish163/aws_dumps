@@ -1,0 +1,24 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: snap-028748719c930a67a
+specifics:
+  biz: mbx
+  git_author: Nicola Feltrin <190716056+nicola-feltrin@users.noreply.github.com>
+  git_committer: GitHub <noreply@github.com>
+  git_hash: 0a2e96c4a0e2a2ec030c9396b08280bfa1470f45
+  git_message: 'Merge pull request #16 from BitDJ/redmine-15305-remove-ami-deprecation
+
+
+    disable image deprecation'
+  git_timestamp: '2025-07-08T12:49:05Z'
+  managed: packer
+  project: mbx
+  role: ami-oci-builder
+  source_al2023_kernel: '6.1'
+  source_al2023_version: 2023.7.20250623.1
+  team: mbx
+...
+

@@ -1,0 +1,14 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0b87ec0773f9f612e
+specifics:
+  Description: Amazon ECS-Optimized Amazon Linux 2 (AL2) x86_64 AMI-2.0.20240611-AutogenByAWSMP--1
+    created 2024-06-18T12:30:54.876Z
+  GroupId: sg-0b87ec0773f9f612e
+  GroupName: Amazon ECS-Optimized Amazon Linux 2 (AL2) x86_64 AMI-2.0.20240611-AutogenByAWSMP--1
+  VpcId: vpc-03f5d2495fd8d95a3
+...
+

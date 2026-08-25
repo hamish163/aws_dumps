@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonElastiCacheFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonElastiCacheFullAccess
+  AttachmentCount: 1
+  CreateDate: 2015-02-06 18:40:20+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIA2V44CPHAUAAECKG
+  PolicyName: AmazonElastiCacheFullAccess
+  UpdateDate: 2023-11-28 03:49:56+00:00
+...
+

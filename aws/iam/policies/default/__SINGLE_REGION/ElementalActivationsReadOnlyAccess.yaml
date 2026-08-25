@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: ElementalActivationsReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/ElementalActivationsReadOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2020-08-28 16:51:01+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4JBRIPMTYG
+  PolicyName: ElementalActivationsReadOnlyAccess
+  UpdateDate: 2020-08-28 16:51:01+00:00
+...
+

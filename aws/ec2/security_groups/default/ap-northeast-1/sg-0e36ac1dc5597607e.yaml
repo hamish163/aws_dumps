@@ -1,0 +1,24 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0e36ac1dc5597607e
+specifics:
+  Description: Security group for database resources
+  GroupId: sg-0e36ac1dc5597607e
+  GroupName: mbx-bnb-perf-database
+  Tags:
+  - Key: Name
+    Value: mbx-bnb-perf-database
+  - Key: mbx_env_name
+    Value: perf
+  - Key: biz
+    Value: mbx
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  VpcId: vpc-013930e589c469574
+...
+

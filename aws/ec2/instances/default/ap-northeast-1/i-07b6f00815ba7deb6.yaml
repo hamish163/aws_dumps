@@ -1,0 +1,138 @@
+---
+datatype: aws.ec2.instances
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-07b6f00815ba7deb6
+specifics:
+  AmiLaunchIndex: 0
+  Architecture: x86_64
+  BlockDeviceMappings:
+  - DeviceName: /dev/xvda
+    Ebs:
+      AttachTime: 2022-01-19 12:38:11+00:00
+      DeleteOnTermination: true
+      Status: attached
+      VolumeId: vol-0c577175e76cb2f7e
+  - DeviceName: /dev/sdi
+    Ebs:
+      AttachTime: 2025-07-02 06:09:30.101000+00:00
+      DeleteOnTermination: false
+      Status: attached
+      VolumeId: vol-085c7170d55f6739e
+  - DeviceName: /dev/sdj
+    Ebs:
+      AttachTime: 2025-07-02 06:09:42.957000+00:00
+      DeleteOnTermination: false
+      Status: attached
+      VolumeId: vol-075381b2c527e7ebb
+  CapacityReservationSpecification:
+    CapacityReservationPreference: open
+  ClientToken: ''
+  CpuOptions:
+    CoreCount: 16
+    ThreadsPerCore: 2
+  CurrentInstanceBootMode: legacy-bios
+  EbsOptimized: true
+  EnaSupport: true
+  EnclaveOptions:
+    Enabled: false
+  HibernationOptions:
+    Configured: false
+  Hypervisor: xen
+  ImageId: ami-031bb31765f122fc4
+  InstanceId: i-07b6f00815ba7deb6
+  InstanceType: m5.8xlarge
+  KeyName: jeff
+  LaunchTime: 2024-08-22 13:36:59+00:00
+  MaintenanceOptions:
+    AutoRecovery: default
+  MetadataOptions:
+    HttpEndpoint: enabled
+    HttpProtocolIpv6: disabled
+    HttpPutResponseHopLimit: 1
+    HttpTokens: optional
+    InstanceMetadataTags: disabled
+    State: applied
+  Monitoring:
+    State: disabled
+  NetworkInterfaces:
+  - Attachment:
+      AttachTime: 2022-01-19 12:38:11+00:00
+      AttachmentId: eni-attach-0e5c94f3d1b76c9d3
+      DeleteOnTermination: true
+      DeviceIndex: 0
+      NetworkCardIndex: 0
+      Status: attached
+    Description: Primary network interface
+    Groups:
+    - GroupId: sg-05e60d20221e31e45
+      GroupName: tky-prod-baserules-tracky-bitdj.com
+    - GroupId: sg-08b5f2b18621ff553
+      GroupName: clickhouse
+    - GroupId: sg-0e860051a2aff9e81
+      GroupName: mbx-bnb-prod-tracky-default
+    InterfaceType: interface
+    Ipv6Addresses: []
+    MacAddress: 0a:f2:99:d7:54:3d
+    NetworkInterfaceId: eni-0b994f1150f65d3aa
+    OwnerId: '862793644923'
+    PrivateDnsName: ip-172-27-36-155.ap-northeast-1.compute.internal
+    PrivateIpAddress: 172.27.36.155
+    PrivateIpAddresses:
+    - Primary: true
+      PrivateDnsName: ip-172-27-36-155.ap-northeast-1.compute.internal
+      PrivateIpAddress: 172.27.36.155
+    SourceDestCheck: true
+    Status: in-use
+    SubnetId: subnet-0899be7b94796ea56
+    VpcId: vpc-03f5d2495fd8d95a3
+  Placement:
+    AvailabilityZone: ap-northeast-1c
+    GroupName: ''
+    Tenancy: default
+  PlatformDetails: Linux/UNIX
+  PrivateDnsName: ip-172-27-36-155.ap-northeast-1.compute.internal
+  PrivateDnsNameOptions:
+    EnableResourceNameDnsAAAARecord: false
+    EnableResourceNameDnsARecord: false
+    HostnameType: ip-name
+  PrivateIpAddress: 172.27.36.155
+  ProductCodes: []
+  PublicDnsName: ''
+  RootDeviceName: /dev/xvda
+  RootDeviceType: ebs
+  SecurityGroups:
+  - GroupId: sg-05e60d20221e31e45
+    GroupName: tky-prod-baserules-tracky-bitdj.com
+  - GroupId: sg-08b5f2b18621ff553
+    GroupName: clickhouse
+  - GroupId: sg-0e860051a2aff9e81
+    GroupName: mbx-bnb-prod-tracky-default
+  SourceDestCheck: true
+  State:
+    Code: 16
+    Name: running
+  StateTransitionReason: ''
+  SubnetId: subnet-0899be7b94796ea56
+  Tags:
+  - Key: Name
+    Value: clickhouse2.prod.tracky.mbx
+  - Key: biz
+    Value: mbx
+  - Key: project
+    Value: tracky
+  - Key: sre-app
+    Value: tracky
+  - Key: sre-component
+    Value: clickhouse
+  - Key: sre-env
+    Value: prod
+  - Key: team
+    Value: sre
+  UsageOperation: RunInstances
+  UsageOperationUpdateTime: 2022-01-19 12:38:11+00:00
+  VirtualizationType: hvm
+  VpcId: vpc-03f5d2495fd8d95a3
+...
+

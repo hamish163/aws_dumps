@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0bc3988de46176fa1
+specifics:
+  Description: Zookeeper Follower Port
+  FromPort: 2181
+  GroupId: sg-0fa16a4f347f73be1
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-08b5f2b18621ff553
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0bc3988de46176fa1
+  Tags: []
+  ToPort: 2181
+...
+

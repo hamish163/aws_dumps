@@ -1,0 +1,48 @@
+---
+datatype: aws.ec2.volumes
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-02261fa5c1d79410a
+specifics:
+  Attachments:
+  - AttachTime: 2023-02-13 05:42:04+00:00
+    DeleteOnTermination: true
+    Device: /dev/xvda
+    InstanceId: i-02853ea117a11206f
+    State: attached
+    VolumeId: vol-02261fa5c1d79410a
+  AvailabilityZone: ap-northeast-1a
+  CreateTime: 2023-02-13 05:42:04.811000+00:00
+  Encrypted: false
+  Iops: 3000
+  MultiAttachEnabled: false
+  Size: 40
+  SnapshotId: snap-074d680a1d102b5a7
+  State: in-use
+  Tags:
+  - Key: project
+    Value: smacky
+  - Key: env
+    Value: prod
+  - Key: exchange_id
+    Value: bnb
+  - Key: sre-env
+    Value: prod
+  - Key: sre-component
+    Value: smacky
+  - Key: Name
+    Value: bnb_prod_mbx_smacky1_ec2
+  - Key: biz
+    Value: mbx
+  - Key: sre-app
+    Value: smacky
+  - Key: role
+    Value: smacky
+  - Key: team
+    Value: sre
+  Throughput: 125
+  VolumeId: vol-02261fa5c1d79410a
+  VolumeType: gp3
+...
+

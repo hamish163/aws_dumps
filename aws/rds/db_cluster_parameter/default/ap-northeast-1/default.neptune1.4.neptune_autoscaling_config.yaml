@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.neptune1.4.neptune_autoscaling_config
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: Reader Configs for Autoscaled Readers
+  IsModifiable: true
+  ParameterName: neptune_autoscaling_config
+  ParameterValue: ''
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

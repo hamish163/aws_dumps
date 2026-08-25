@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev57-mbx-orders-cluster-pgrp.query_cache_wlock_invalidate
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Setting this variable to 1 causes acquisition of a WRITE lock for a
+    table to invalidate any queries in the query cache that refer to the table
+  IsModifiable: true
+  ParameterName: query_cache_wlock_invalidate
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

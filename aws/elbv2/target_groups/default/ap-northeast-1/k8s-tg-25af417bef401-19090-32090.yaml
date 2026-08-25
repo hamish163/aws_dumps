@@ -1,0 +1,27 @@
+---
+datatype: aws.elbv2.target_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: k8s-tg-25af417bef401-19090-32090
+specifics:
+  HealthCheckEnabled: true
+  HealthCheckIntervalSeconds: 30
+  HealthCheckPath: /healthz
+  HealthCheckPort: '31011'
+  HealthCheckProtocol: HTTP
+  HealthCheckTimeoutSeconds: 6
+  HealthyThresholdCount: 3
+  IpAddressType: ipv4
+  LoadBalancerArns: []
+  Matcher:
+    HttpCode: 200-399
+  Port: 32090
+  Protocol: TCP
+  TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/k8s-tg-25af417bef401-19090-32090/2d2cb14e7a200c37
+  TargetGroupName: k8s-tg-25af417bef401-19090-32090
+  TargetType: instance
+  UnhealthyThresholdCount: 3
+  VpcId: vpc-07652e77a8fa0e0c2
+...
+

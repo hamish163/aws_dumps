@@ -1,0 +1,16 @@
+---
+datatype: aws.iam.users
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: alexh
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/alexh
+  CreateDate: 2026-04-08 10:11:12+00:00
+  PasswordLastUsed: 2026-07-24 08:19:29+00:00
+  Path: /
+  UserId: AIDA4RYUCHN5RF7MLRKIP
+  UserName: alexh
+...
+

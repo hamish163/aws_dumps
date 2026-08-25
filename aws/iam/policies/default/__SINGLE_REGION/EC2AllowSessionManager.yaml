@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: EC2AllowSessionManager
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/EC2AllowSessionManager
+  AttachmentCount: 1
+  CreateDate: 2019-05-13 01:50:52+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5QMEM4AJL3
+  PolicyName: EC2AllowSessionManager
+  UpdateDate: 2019-05-13 01:50:52+00:00
+...
+

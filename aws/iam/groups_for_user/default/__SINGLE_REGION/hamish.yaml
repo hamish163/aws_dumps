@@ -1,0 +1,32 @@
+---
+datatype: aws.iam.groups_for_user
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: hamish
+  single_region: true
+specifics:
+  Groups:
+  - Arn: arn:aws:iam::862793644923:group/DEVOPS_TEAM_IAM_MGMT_NON_PROD
+    CreateDate: 2023-09-29 03:02:18+00:00
+    GroupId: AGPA4RYUCHN52KXIKAQOE
+    GroupName: DEVOPS_TEAM_IAM_MGMT_NON_PROD
+    Path: /
+  - Arn: arn:aws:iam::862793644923:group/DEVOPS_TEAM_INFRA_MGMT_NON_PROD
+    CreateDate: 2023-09-29 02:58:44+00:00
+    GroupId: AGPA4RYUCHN5QXCBNUL2C
+    GroupName: DEVOPS_TEAM_INFRA_MGMT_NON_PROD
+    Path: /
+  - Arn: arn:aws:iam::862793644923:group/DEVOPS_TEAM_RO
+    CreateDate: 2022-02-02 05:26:12+00:00
+    GroupId: AGPA4RYUCHN5UMZLRU6XR
+    GroupName: DEVOPS_TEAM_RO
+    Path: /
+  - Arn: arn:aws:iam::862793644923:group/devops
+    CreateDate: 2019-08-15 07:56:30+00:00
+    GroupId: AGPA4RYUCHN5ZJ3QIHSTJ
+    GroupName: devops
+    Path: /
+  _UserName: hamish
+...
+

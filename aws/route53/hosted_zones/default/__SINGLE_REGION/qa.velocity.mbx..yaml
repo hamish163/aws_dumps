@@ -1,0 +1,17 @@
+---
+datatype: aws.route53.hosted_zones
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: qa.velocity.mbx.
+  single_region: true
+specifics:
+  CallerReference: 09dd8421-fa28-4c2d-a966-cf1c3b413165
+  Config:
+    Comment: ''
+    PrivateZone: false
+  Id: /hostedzone/Z0761231318JIRRI0GKS3
+  Name: qa.velocity.mbx.
+  ResourceRecordSetCount: 2
+...
+

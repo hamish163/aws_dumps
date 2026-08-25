@@ -1,0 +1,18 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql17.temp_tablespaces
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Sets the tablespace(s) to use for temporary tables and sort files.
+  IsModifiable: true
+  ParameterName: temp_tablespaces
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

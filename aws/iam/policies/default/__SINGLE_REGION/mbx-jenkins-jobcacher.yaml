@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-jenkins-jobcacher
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/mbx-jenkins-jobcacher
+  AttachmentCount: 1
+  CreateDate: 2024-04-08 13:20:37+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN57ZPWQNL4K
+  PolicyName: mbx-jenkins-jobcacher
+  UpdateDate: 2024-04-09 05:50:12+00:00
+...
+

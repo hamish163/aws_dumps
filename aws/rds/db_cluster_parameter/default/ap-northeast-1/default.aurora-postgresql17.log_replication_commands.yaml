@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql17.log_replication_commands
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Logs each replication command.
+  IsModifiable: true
+  ParameterName: log_replication_commands
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

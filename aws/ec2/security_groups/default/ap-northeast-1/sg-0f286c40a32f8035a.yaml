@@ -1,0 +1,16 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0f286c40a32f8035a
+specifics:
+  Description: Service access group for Elastic MapReduce created on 2023-02-09T23:29:08.545Z
+  GroupId: sg-0f286c40a32f8035a
+  GroupName: ElasticMapReduce-ServiceAccess
+  Tags:
+  - Key: for-use-with-amazon-emr-managed-policies
+    Value: 'true'
+  VpcId: vpc-0beab044be33d1617
+...
+

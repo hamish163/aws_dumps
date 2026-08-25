@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-spot-aqueduct-papers-cluster-pg.tls_ciphersuites
+specifics:
+  AllowedValues: TLS_AES_128_GCM_SHA256,TLS_AES_256_GCM_SHA384,TLS_CHACHA20_POLY1305_SHA256
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: list
+  Description: The ciphersuites permitted by the server for encrypted connections
+    that use TLSv1.3.
+  IsModifiable: true
+  MinimumEngineVersion: 8.0.mysql_aurora.3.04.0
+  ParameterName: tls_ciphersuites
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

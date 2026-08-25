@@ -1,0 +1,18 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0286387aaf882eb52
+specifics:
+  biz: mbx
+  env: dev
+  exchange_id: tracky
+  project: spooky
+  role: spooky
+  sre-app: spooky
+  sre-component: spooky
+  sre-env: staging
+  team: sre
+...
+

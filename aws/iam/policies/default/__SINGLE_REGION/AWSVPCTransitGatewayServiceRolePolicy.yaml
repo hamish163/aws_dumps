@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSVPCTransitGatewayServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AWSVPCTransitGatewayServiceRolePolicy
+  AttachmentCount: 1
+  CreateDate: 2018-11-26 16:21:17+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJS2PBJSYV2EZW3MIQ
+  PolicyName: AWSVPCTransitGatewayServiceRolePolicy
+  UpdateDate: 2021-04-15 16:31:44+00:00
+...
+

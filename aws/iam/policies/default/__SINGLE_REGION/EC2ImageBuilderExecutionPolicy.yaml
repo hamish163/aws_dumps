@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: EC2ImageBuilderExecutionPolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/EC2ImageBuilderExecutionPolicy
+  AttachmentCount: 0
+  CreateDate: 2026-06-04 17:12:14+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4GT75OHC7J
+  PolicyName: EC2ImageBuilderExecutionPolicy
+  UpdateDate: 2026-07-08 16:27:23+00:00
+...
+

@@ -1,0 +1,12 @@
+---
+datatype: aws.iam.user_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: anton
+  single_region: true
+specifics:
+  PolicyNames:
+  - anton-selfmfa
+...
+

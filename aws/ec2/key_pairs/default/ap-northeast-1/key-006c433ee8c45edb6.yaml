@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.key_pairs
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: key-006c433ee8c45edb6
+specifics:
+  CreateTime: 2018-05-09 01:48:45+00:00
+  KeyFingerprint: 61:11:fc:26:69:ad:0b:ec:a7:bf:17:be:4d:07:42:b9:d3:99:27:0e
+  KeyName: swole-key
+  KeyPairId: key-006c433ee8c45edb6
+  KeyType: rsa
+  Tags: []
+...
+

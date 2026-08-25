@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-trades-cluster-pg-default.binlog_format
+specifics:
+  AllowedValues: ROW,STATEMENT,MIXED,OFF
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: Binary logging format for replication
+  IsModifiable: true
+  ParameterName: binlog_format
+  ParameterValue: 'OFF'
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

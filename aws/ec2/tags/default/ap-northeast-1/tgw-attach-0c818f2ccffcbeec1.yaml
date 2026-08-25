@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: tgw-attach-0c818f2ccffcbeec1
+specifics:
+  Name: mbx-bnb-uat
+...
+

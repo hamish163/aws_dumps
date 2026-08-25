@@ -1,0 +1,16 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: net.toolsfdg.git/A
+  single_region: true
+specifics:
+  AliasTarget:
+    DNSName: vpce-06971ac4389daba72-bpd6fsk6.vpce-svc-03b0dca4c5a0c2503.ap-northeast-1.vpce.amazonaws.com.
+    EvaluateTargetHealth: true
+    HostedZoneId: Z2E726K9Y6RL4W
+  Name: git.toolsfdg.net.
+  Type: A
+...
+

@@ -1,0 +1,16 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0f479244b32e2d60c
+specifics:
+  Name: mbx-bnb-solutions-eks1-efs
+  biz: mbx
+  mbx_env_name: solutions
+  mbx_exchange_name: bnb
+  mbx_secret_store: none
+  stack_path: bnb/solutions/eks1/extras
+  team: mbx
+...
+

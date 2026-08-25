@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: tgw-attach-0b65ad8f2572ed39c
+specifics:
+  Name: ExitVPC Attachment
+...
+

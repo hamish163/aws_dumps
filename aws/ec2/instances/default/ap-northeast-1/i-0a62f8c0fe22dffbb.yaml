@@ -1,0 +1,138 @@
+---
+datatype: aws.ec2.instances
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-0a62f8c0fe22dffbb
+specifics:
+  AmiLaunchIndex: 0
+  Architecture: x86_64
+  BlockDeviceMappings:
+  - DeviceName: /dev/xvda
+    Ebs:
+      AttachTime: 2025-03-03 23:05:51+00:00
+      DeleteOnTermination: true
+      Status: attached
+      VolumeId: vol-0c679cf976d8ab270
+  - DeviceName: /dev/sdf
+    Ebs:
+      AttachTime: 2025-03-03 23:06:23+00:00
+      DeleteOnTermination: false
+      Status: attached
+      VolumeId: vol-0bccaa3227365919e
+  CapacityReservationSpecification:
+    CapacityReservationPreference: open
+  ClientToken: terraform-20250303230549674200000004
+  CpuOptions:
+    CoreCount: 6
+    ThreadsPerCore: 2
+  CurrentInstanceBootMode: legacy-bios
+  EbsOptimized: true
+  EnaSupport: true
+  EnclaveOptions:
+    Enabled: false
+  HibernationOptions:
+    Configured: false
+  Hypervisor: xen
+  IamInstanceProfile:
+    Arn: arn:aws:iam::862793644923:instance-profile/mbx-bnb-perf-sre-fpe-test-al2-m5zn
+    Id: AIPA4RYUCHN5VPGZLRNPC
+  ImageId: ami-0e3f080552c6f3420
+  InstanceId: i-0a62f8c0fe22dffbb
+  InstanceType: m5zn.3xlarge
+  LaunchTime: 2025-03-03 23:05:50+00:00
+  MaintenanceOptions:
+    AutoRecovery: default
+  MetadataOptions:
+    HttpEndpoint: enabled
+    HttpProtocolIpv6: disabled
+    HttpPutResponseHopLimit: 1
+    HttpTokens: optional
+    InstanceMetadataTags: enabled
+    State: applied
+  Monitoring:
+    State: disabled
+  NetworkInterfaces:
+  - Attachment:
+      AttachTime: 2025-03-03 23:05:50+00:00
+      AttachmentId: eni-attach-0ee99e7bb2f991b77
+      DeleteOnTermination: true
+      DeviceIndex: 0
+      NetworkCardIndex: 0
+      Status: attached
+    Description: ''
+    Groups:
+    - GroupId: sg-02c4f6fb86f5f648b
+      GroupName: mbx-bnb-perf-sre-fpe-test-al2-m5zn
+    - GroupId: sg-0930fe36728a6e31a
+      GroupName: mbx-bnb-perf-monitoring
+    - GroupId: sg-011d3bdd31cc014b3
+      GroupName: mbx-bnb-perf-default
+    InterfaceType: interface
+    Ipv6Addresses: []
+    MacAddress: 06:fd:3f:a9:a5:0f
+    NetworkInterfaceId: eni-0f0a8987470f4cec6
+    OwnerId: '862793644923'
+    PrivateDnsName: ip-10-170-19-152.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.170.19.152
+    PrivateIpAddresses:
+    - Primary: true
+      PrivateDnsName: ip-10-170-19-152.ap-northeast-1.compute.internal
+      PrivateIpAddress: 10.170.19.152
+    SourceDestCheck: true
+    Status: in-use
+    SubnetId: subnet-09134100e474d8109
+    VpcId: vpc-013930e589c469574
+  Placement:
+    AvailabilityZone: ap-northeast-1a
+    GroupName: ''
+    Tenancy: default
+  PlatformDetails: Linux/UNIX
+  PrivateDnsName: ip-10-170-19-152.ap-northeast-1.compute.internal
+  PrivateDnsNameOptions:
+    EnableResourceNameDnsAAAARecord: false
+    EnableResourceNameDnsARecord: false
+    HostnameType: ip-name
+  PrivateIpAddress: 10.170.19.152
+  ProductCodes: []
+  PublicDnsName: ''
+  RootDeviceName: /dev/xvda
+  RootDeviceType: ebs
+  SecurityGroups:
+  - GroupId: sg-02c4f6fb86f5f648b
+    GroupName: mbx-bnb-perf-sre-fpe-test-al2-m5zn
+  - GroupId: sg-0930fe36728a6e31a
+    GroupName: mbx-bnb-perf-monitoring
+  - GroupId: sg-011d3bdd31cc014b3
+    GroupName: mbx-bnb-perf-default
+  SourceDestCheck: true
+  State:
+    Code: 16
+    Name: running
+  StateTransitionReason: ''
+  SubnetId: subnet-09134100e474d8109
+  Tags:
+  - Key: Name
+    Value: mbx-bnb-perf-sre-fpe-test-al2-m5zn1
+  - Key: biz
+    Value: mbx
+  - Key: mbx_clustered_application
+    Value: 'false'
+  - Key: mbx_env_name
+    Value: perf
+  - Key: mbx_env_type
+    Value: na
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_host_index
+    Value: '1'
+  - Key: mbx_secret_store
+    Value: asm
+  - Key: team
+    Value: sre
+  UsageOperation: RunInstances
+  UsageOperationUpdateTime: 2025-03-03 23:05:50+00:00
+  VirtualizationType: hvm
+  VpcId: vpc-013930e589c469574
+...
+

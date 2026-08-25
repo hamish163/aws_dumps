@@ -1,0 +1,40 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-0681fdee101231b6a
+specifics:
+  Attachment:
+    AttachTime: 2024-10-28 04:58:29+00:00
+    AttachmentId: eni-attach-0e47eebf02c1a9ee8
+    DeleteOnTermination: false
+    DeviceIndex: 1
+    InstanceOwnerId: amazon-elasticache
+    NetworkCardIndex: 0
+    Status: attached
+  AvailabilityZone: ap-northeast-1a
+  Description: ElastiCache mbx-bnb-uat-prvdrp
+  Groups:
+  - GroupId: sg-0b3875dddc099c8ad
+    GroupName: mbx-bnb-uat-redis
+  InterfaceType: interface
+  Ipv6Addresses: []
+  MacAddress: 06:6d:74:b3:d0:99
+  NetworkInterfaceId: eni-0681fdee101231b6a
+  OwnerId: '862793644923'
+  PrivateDnsName: ip-10-190-19-240.ap-northeast-1.compute.internal
+  PrivateIpAddress: 10.190.19.240
+  PrivateIpAddresses:
+  - Primary: true
+    PrivateDnsName: ip-10-190-19-240.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.190.19.240
+  RequesterId: amazon-elasticache
+  RequesterManaged: true
+  SourceDestCheck: true
+  Status: in-use
+  SubnetId: subnet-0406f0295a5b5145e
+  TagSet: []
+  VpcId: vpc-0b3ce57b4c748893b
+...
+

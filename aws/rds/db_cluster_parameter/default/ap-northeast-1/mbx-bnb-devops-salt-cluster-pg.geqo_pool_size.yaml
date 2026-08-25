@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-devops-salt-cluster-pg.geqo_pool_size
+specifics:
+  AllowedValues: 0-2147483647
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: 'GEQO: number of individuals in the population.'
+  IsModifiable: true
+  ParameterName: geqo_pool_size
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

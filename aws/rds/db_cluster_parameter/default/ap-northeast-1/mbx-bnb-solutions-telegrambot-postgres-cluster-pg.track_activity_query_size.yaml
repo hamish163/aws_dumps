@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-solutions-telegrambot-postgres-cluster-pg.track_activity_query_size
+specifics:
+  AllowedValues: 100-1048576
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: Sets the size reserved for pg_stat_activity.current_query, in bytes.
+  IsModifiable: true
+  ParameterName: track_activity_query_size
+  ParameterValue: '4096'
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

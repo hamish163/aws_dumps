@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: nip-02959fc8bc0ce1cbd
+specifics:
+  Name: new-vpn-to-allure
+...
+

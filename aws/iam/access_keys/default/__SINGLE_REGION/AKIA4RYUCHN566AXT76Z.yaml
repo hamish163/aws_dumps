@@ -1,0 +1,14 @@
+---
+datatype: aws.iam.access_keys
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AKIA4RYUCHN566AXT76Z
+  single_region: true
+specifics:
+  AccessKeyId: AKIA4RYUCHN566AXT76Z
+  CreateDate: 2021-02-08 05:13:43+00:00
+  Status: Active
+  UserName: vision-futures
+...
+

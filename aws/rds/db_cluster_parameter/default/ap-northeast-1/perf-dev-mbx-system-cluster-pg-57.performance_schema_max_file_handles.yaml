@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-system-cluster-pg-57.performance_schema_max_file_handles
+specifics:
+  AllowedValues: 0-1048576
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: The maximum number of opened file objects.
+  IsModifiable: true
+  ParameterName: performance_schema_max_file_handles
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,13 @@
+---
+datatype: aws.rds.db_cluster_parameter_group
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev57-mbx-system-cluster-pgrp
+specifics:
+  DBClusterParameterGroupArn: arn:aws:rds:ap-northeast-1:862793644923:cluster-pg:perf-dev57-mbx-system-cluster-pgrp
+  DBClusterParameterGroupName: perf-dev57-mbx-system-cluster-pgrp
+  DBParameterGroupFamily: aurora-mysql5.7
+  Description: Managed by Terraform
+...
+

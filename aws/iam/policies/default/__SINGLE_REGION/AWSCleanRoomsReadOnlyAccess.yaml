@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSCleanRoomsReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSCleanRoomsReadOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2023-01-12 16:10:48+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4FRFM45XQJ
+  PolicyName: AWSCleanRoomsReadOnlyAccess
+  UpdateDate: 2023-01-12 16:10:48+00:00
+...
+

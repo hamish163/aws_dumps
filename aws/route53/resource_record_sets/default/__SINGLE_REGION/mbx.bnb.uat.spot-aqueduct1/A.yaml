@@ -1,0 +1,15 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx.bnb.uat.spot-aqueduct1/A
+  single_region: true
+specifics:
+  Name: spot-aqueduct1.uat.bnb.mbx.
+  ResourceRecords:
+  - Value: 10.190.19.18
+  TTL: 300
+  Type: A
+...
+

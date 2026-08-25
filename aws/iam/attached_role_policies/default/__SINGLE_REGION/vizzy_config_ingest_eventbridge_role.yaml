@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: vizzy_config_ingest_eventbridge_role
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/vizzy_allow_ingest_kinesis_role
+    PolicyName: vizzy_allow_ingest_kinesis_role
+  - PolicyArn: arn:aws:iam::862793644923:policy/service-role/vizzy_config_ingest_eventbridge_role
+    PolicyName: vizzy_config_ingest_eventbridge_role
+...
+

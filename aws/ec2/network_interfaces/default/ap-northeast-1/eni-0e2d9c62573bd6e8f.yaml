@@ -1,0 +1,40 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-0e2d9c62573bd6e8f
+specifics:
+  Attachment:
+    AttachTime: 2024-05-27 13:55:01+00:00
+    AttachmentId: eni-attach-02518b85c410289a5
+    DeleteOnTermination: true
+    DeviceIndex: 0
+    InstanceId: i-0d9123ac30a6e9182
+    InstanceOwnerId: '862793644923'
+    NetworkCardIndex: 0
+    Status: attached
+  AvailabilityZone: ap-northeast-1a
+  Description: ''
+  Groups:
+  - GroupId: sg-06430d27e327b57ba
+    GroupName: bnb_devops-sandbox_mbx_redmine-dev
+  InterfaceType: interface
+  Ipv6Addresses: []
+  MacAddress: 06:d3:27:b2:77:01
+  NetworkInterfaceId: eni-0e2d9c62573bd6e8f
+  OwnerId: '862793644923'
+  PrivateDnsName: ip-10-143-1-42.ap-northeast-1.compute.internal
+  PrivateIpAddress: 10.143.1.42
+  PrivateIpAddresses:
+  - Primary: true
+    PrivateDnsName: ip-10-143-1-42.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.143.1.42
+  RequesterManaged: false
+  SourceDestCheck: true
+  Status: in-use
+  SubnetId: subnet-0dd384f4778993aad
+  TagSet: []
+  VpcId: vpc-097095a8b70ef6727
+...
+

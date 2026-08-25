@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonInspector2FullAccess_v2
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonInspector2FullAccess_v2
+  AttachmentCount: 0
+  CreateDate: 2025-07-03 16:07:07+00:00
+  DefaultVersionId: v9
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4LAYOUDP4B
+  PolicyName: AmazonInspector2FullAccess_v2
+  UpdateDate: 2026-07-08 19:12:18+00:00
+...
+

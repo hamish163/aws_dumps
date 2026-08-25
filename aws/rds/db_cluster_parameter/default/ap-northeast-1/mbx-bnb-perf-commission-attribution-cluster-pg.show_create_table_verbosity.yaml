@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-perf-commission-attribution-cluster-pg.show_create_table_verbosity
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Enabling show_create_table_verbosity causes SHOW CREATE TABLE to display
+    ROW_FORMAT regardless of whether it is the default format
+  IsModifiable: true
+  ParameterName: show_create_table_verbosity
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

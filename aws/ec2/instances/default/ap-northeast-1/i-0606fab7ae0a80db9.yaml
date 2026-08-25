@@ -1,0 +1,127 @@
+---
+datatype: aws.ec2.instances
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-0606fab7ae0a80db9
+specifics:
+  AmiLaunchIndex: 0
+  Architecture: x86_64
+  BlockDeviceMappings:
+  - DeviceName: /dev/xvda
+    Ebs:
+      AttachTime: 2021-02-26 11:18:08+00:00
+      DeleteOnTermination: true
+      Status: attached
+      VolumeId: vol-0f6d3a042f32717a5
+  CapacityReservationSpecification:
+    CapacityReservationPreference: open
+  ClientToken: ''
+  CpuOptions:
+    CoreCount: 1
+    ThreadsPerCore: 2
+  CurrentInstanceBootMode: legacy-bios
+  EbsOptimized: true
+  EnaSupport: true
+  EnclaveOptions:
+    Enabled: false
+  HibernationOptions:
+    Configured: false
+  Hypervisor: xen
+  IamInstanceProfile:
+    Arn: arn:aws:iam::862793644923:instance-profile/sleepy
+    Id: AIPA4RYUCHN5UWCT65HD2
+  ImageId: ami-0e3f080552c6f3420
+  InstanceId: i-0606fab7ae0a80db9
+  InstanceType: t3.micro
+  LaunchTime: 2026-01-16 12:11:57+00:00
+  MaintenanceOptions:
+    AutoRecovery: default
+  MetadataOptions:
+    HttpEndpoint: enabled
+    HttpProtocolIpv6: disabled
+    HttpPutResponseHopLimit: 1
+    HttpTokens: optional
+    InstanceMetadataTags: enabled
+    State: applied
+  Monitoring:
+    State: disabled
+  NetworkInterfaces:
+  - Attachment:
+      AttachTime: 2021-02-26 11:18:07+00:00
+      AttachmentId: eni-attach-0612715d17b172afc
+      DeleteOnTermination: true
+      DeviceIndex: 0
+      NetworkCardIndex: 0
+      Status: attached
+    Description: Primary network interface
+    Groups:
+    - GroupId: sg-05e60d20221e31e45
+      GroupName: tky-prod-baserules-tracky-bitdj.com
+    - GroupId: sg-06db3797eaec1bdbc
+      GroupName: tky.prod-sleepy-tracky-bitdj.com
+    - GroupId: sg-0e860051a2aff9e81
+      GroupName: mbx-bnb-prod-tracky-default
+    InterfaceType: interface
+    Ipv6Addresses: []
+    MacAddress: 06:37:e1:21:a2:00
+    NetworkInterfaceId: eni-08da9fcec85b2f2ff
+    OwnerId: '862793644923'
+    PrivateDnsName: ip-172-27-25-166.ap-northeast-1.compute.internal
+    PrivateIpAddress: 172.27.25.166
+    PrivateIpAddresses:
+    - Primary: true
+      PrivateDnsName: ip-172-27-25-166.ap-northeast-1.compute.internal
+      PrivateIpAddress: 172.27.25.166
+    SourceDestCheck: true
+    Status: in-use
+    SubnetId: subnet-0d92f19d082a3909e
+    VpcId: vpc-03f5d2495fd8d95a3
+  Placement:
+    AvailabilityZone: ap-northeast-1a
+    GroupName: ''
+    Tenancy: default
+  PlatformDetails: Linux/UNIX
+  PrivateDnsName: ip-172-27-25-166.ap-northeast-1.compute.internal
+  PrivateDnsNameOptions: {}
+  PrivateIpAddress: 172.27.25.166
+  ProductCodes: []
+  PublicDnsName: ''
+  RootDeviceName: /dev/xvda
+  RootDeviceType: ebs
+  SecurityGroups:
+  - GroupId: sg-05e60d20221e31e45
+    GroupName: tky-prod-baserules-tracky-bitdj.com
+  - GroupId: sg-06db3797eaec1bdbc
+    GroupName: tky.prod-sleepy-tracky-bitdj.com
+  - GroupId: sg-0e860051a2aff9e81
+    GroupName: mbx-bnb-prod-tracky-default
+  SourceDestCheck: true
+  State:
+    Code: 16
+    Name: running
+  StateTransitionReason: ''
+  SubnetId: subnet-0d92f19d082a3909e
+  Tags:
+  - Key: Name
+    Value: tky_prod_sleepy1
+  - Key: biz
+    Value: mbx
+  - Key: env
+    Value: prod
+  - Key: project
+    Value: sleepy
+  - Key: sre-app
+    Value: sleepy
+  - Key: sre-component
+    Value: sleepy
+  - Key: sre-env
+    Value: prod
+  - Key: team
+    Value: sre
+  UsageOperation: RunInstances
+  UsageOperationUpdateTime: 2021-02-26 11:18:07+00:00
+  VirtualizationType: hvm
+  VpcId: vpc-03f5d2495fd8d95a3
+...
+

@@ -1,0 +1,14 @@
+---
+datatype: aws.iam.access_keys
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AKIA4RYUCHN5W5GQ3BDR
+  single_region: true
+specifics:
+  AccessKeyId: AKIA4RYUCHN5W5GQ3BDR
+  CreateDate: 2020-02-05 05:04:36+00:00
+  Status: Active
+  UserName: ses-smtp-user.apisharing
+...
+

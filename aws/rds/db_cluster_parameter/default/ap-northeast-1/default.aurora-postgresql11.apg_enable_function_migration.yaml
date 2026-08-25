@@ -1,0 +1,22 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql11.apg_enable_function_migration
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Enables the planner to migrate eligible scalar functions to the FROM
+    clause.
+  IsModifiable: true
+  MinimumEngineVersion: '11.6'
+  ParameterName: apg_enable_function_migration
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+  - serverless
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: DEVOPS_TEAM_INFRA_MGMT_POLICY
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/DEVOPS_TEAM_INFRA_MGMT_POLICY
+  AttachmentCount: 1
+  CreateDate: 2023-04-18 05:30:41+00:00
+  DefaultVersionId: v6
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN54SKB7YDMD
+  PolicyName: DEVOPS_TEAM_INFRA_MGMT_POLICY
+  UpdateDate: 2025-06-27 07:33:56+00:00
+...
+

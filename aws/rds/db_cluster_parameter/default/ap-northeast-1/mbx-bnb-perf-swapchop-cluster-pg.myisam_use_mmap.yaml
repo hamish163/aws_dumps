@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-perf-swapchop-cluster-pg.myisam_use_mmap
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Memory mapping for reading and writing MyISAM tables.
+  IsModifiable: true
+  ParameterName: myisam_use_mmap
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-042462bf3257552e7
+specifics:
+  Description: Allow TCP traffic from key-sequencer SG on port 9337
+  FromPort: 9337
+  GroupId: sg-0384e01dac01b87e2
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0384e01dac01b87e2
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-042462bf3257552e7
+  Tags: []
+  ToPort: 9337
+...
+

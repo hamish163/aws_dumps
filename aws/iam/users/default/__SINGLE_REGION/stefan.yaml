@@ -1,0 +1,16 @@
+---
+datatype: aws.iam.users
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: stefan
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/stefan
+  CreateDate: 2019-07-17 02:13:46+00:00
+  PasswordLastUsed: 2026-05-25 13:17:06+00:00
+  Path: /
+  UserId: AIDA4RYUCHN5WB4COT2A4
+  UserName: stefan
+...
+

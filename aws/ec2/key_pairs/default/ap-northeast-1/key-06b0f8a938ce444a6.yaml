@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.key_pairs
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: key-06b0f8a938ce444a6
+specifics:
+  CreateTime: 2018-06-26 09:25:52+00:00
+  KeyFingerprint: 1c:e7:11:b2:df:b0:00:21:24:f9:e6:b3:25:29:ab:54
+  KeyName: kubernetes-spc0svegi6
+  KeyPairId: key-06b0f8a938ce444a6
+  KeyType: rsa
+  Tags: []
+...
+

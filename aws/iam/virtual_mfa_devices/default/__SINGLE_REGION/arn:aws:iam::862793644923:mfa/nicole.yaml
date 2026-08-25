@@ -1,0 +1,19 @@
+---
+datatype: aws.iam.virtual_mfa_devices
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: arn:aws:iam::862793644923:mfa/nicole
+  single_region: true
+specifics:
+  EnableDate: 2019-08-16 06:53:12+00:00
+  SerialNumber: arn:aws:iam::862793644923:mfa/nicole
+  User:
+    Arn: arn:aws:iam::862793644923:user/nicole
+    CreateDate: 2019-05-10 02:53:12+00:00
+    PasswordLastUsed: 2026-07-28 08:32:22+00:00
+    Path: /
+    UserId: AIDA4RYUCHN5XLUIXZKRU
+    UserName: nicole
+...
+

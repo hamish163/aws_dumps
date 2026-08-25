@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-097646c6887323e82
+specifics:
+  Name: mbx-bnb-uat-engine3
+  biz: mbx
+  mbx_application_name: mbx-core-engine
+  mbx_clustered_application: 'false'
+  mbx_env_name: uat
+  mbx_env_type: multi-node
+  mbx_exchange_name: bnb
+  mbx_host_index: '3'
+  mbx_secret_store: none
+  team: mbx
+...
+

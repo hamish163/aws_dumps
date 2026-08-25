@@ -1,0 +1,42 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-07ee0d7d890ffdb6c
+specifics:
+  Attachment:
+    AttachTime: 2023-03-29 04:18:45+00:00
+    AttachmentId: eni-attach-0ddc2e8f59423bbf8
+    DeleteOnTermination: true
+    DeviceIndex: 0
+    InstanceId: i-0fde9751b31159dfb
+    InstanceOwnerId: '862793644923'
+    NetworkCardIndex: 0
+    Status: attached
+  AvailabilityZone: ap-northeast-1c
+  Description: ''
+  Groups:
+  - GroupId: sg-08af797f054906373
+    GroupName: tungsten-cicd-HTTP
+  - GroupId: sg-06cd9ceed1c8d2c37
+    GroupName: tungsten-cicd
+  InterfaceType: interface
+  Ipv6Addresses: []
+  MacAddress: 0a:e2:a5:40:d5:c7
+  NetworkInterfaceId: eni-07ee0d7d890ffdb6c
+  OwnerId: '862793644923'
+  PrivateDnsName: ip-172-30-0-158.ap-northeast-1.compute.internal
+  PrivateIpAddress: 172.30.0.158
+  PrivateIpAddresses:
+  - Primary: true
+    PrivateDnsName: ip-172-30-0-158.ap-northeast-1.compute.internal
+    PrivateIpAddress: 172.30.0.158
+  RequesterManaged: false
+  SourceDestCheck: true
+  Status: in-use
+  SubnetId: subnet-0bc214c6dfb25c0a2
+  TagSet: []
+  VpcId: vpc-0602642b581cc4039
+...
+

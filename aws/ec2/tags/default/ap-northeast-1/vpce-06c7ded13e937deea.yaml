@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vpce-06c7ded13e937deea
+specifics:
+  Name: s3_endpoint_ perf_dev_mbx_vpc
+...
+

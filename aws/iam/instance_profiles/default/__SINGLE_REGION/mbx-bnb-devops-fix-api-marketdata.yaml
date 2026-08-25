@@ -1,0 +1,28 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-devops-fix-api-marketdata
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/mbx-bnb-devops-fix-api-marketdata
+  CreateDate: 2025-05-19 17:19:32+00:00
+  InstanceProfileId: AIPA4RYUCHN57X24WOT2B
+  InstanceProfileName: mbx-bnb-devops-fix-api-marketdata
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/mbx-bnb-devops-fix-api-marketdata
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+      Version: '2012-10-17'
+    CreateDate: 2025-05-19 17:19:31+00:00
+    Path: /
+    RoleId: AROA4RYUCHN53XGO3RWNS
+    RoleName: mbx-bnb-devops-fix-api-marketdata
+...
+

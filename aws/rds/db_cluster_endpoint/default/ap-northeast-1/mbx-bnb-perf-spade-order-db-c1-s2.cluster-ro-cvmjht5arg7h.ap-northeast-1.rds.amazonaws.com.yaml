@@ -1,0 +1,13 @@
+---
+datatype: aws.rds.db_cluster_endpoint
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-perf-spade-order-db-c1-s2.cluster-ro-cvmjht5arg7h.ap-northeast-1.rds.amazonaws.com
+specifics:
+  DBClusterIdentifier: mbx-bnb-perf-spade-order-db-c1-s2
+  Endpoint: mbx-bnb-perf-spade-order-db-c1-s2.cluster-ro-cvmjht5arg7h.ap-northeast-1.rds.amazonaws.com
+  EndpointType: READER
+  Status: available
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-perf-kline-persist-asm-ro
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/mbx-bnb-perf-kline-persist-asm-ro
+  AttachmentCount: 1
+  CreateDate: 2025-07-18 08:15:17+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5QVO5P7QHO
+  PolicyName: mbx-bnb-perf-kline-persist-asm-ro
+  UpdateDate: 2025-07-18 08:15:17+00:00
+...
+

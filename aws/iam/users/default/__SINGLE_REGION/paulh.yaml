@@ -1,0 +1,16 @@
+---
+datatype: aws.iam.users
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: paulh
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/paulh
+  CreateDate: 2024-06-18 06:32:24+00:00
+  PasswordLastUsed: 2026-05-05 09:40:46+00:00
+  Path: /
+  UserId: AIDA4RYUCHN57K5YE3SSH
+  UserName: paulh
+...
+

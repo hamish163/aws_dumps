@@ -1,0 +1,20 @@
+---
+datatype: aws.elbv2.listeners
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener/app/mbx-bnb-uat-ws-shim-api-alb/e51bef87654c29cb/1956551532a33bb1
+specifics:
+  DefaultActions:
+  - FixedResponseConfig:
+      ContentType: text/plain
+      MessageBody: ''
+      StatusCode: '403'
+    Order: 1
+    Type: fixed-response
+  ListenerArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener/app/mbx-bnb-uat-ws-shim-api-alb/e51bef87654c29cb/1956551532a33bb1
+  LoadBalancerArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:loadbalancer/app/mbx-bnb-uat-ws-shim-api-alb/e51bef87654c29cb
+  Port: 80
+  Protocol: HTTP
+...
+

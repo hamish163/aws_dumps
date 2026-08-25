@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev57-mbx-trades-cluster-pgrp.optimizer_trace_features
+specifics:
+  AllowedValues: greedy_search=on,greedy_search=off,range_optimizer=on,range_optimizer=off,dynamic_range=on,dynamic_range=off,repeated_subselect=on,repeated_subselect=off
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Controls optimizations during statement tracing.
+  IsModifiable: true
+  ParameterName: optimizer_trace_features
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

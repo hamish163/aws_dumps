@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-perf-spade-system-cluster-pg.mandatory_roles
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Roles the server should treat as mandatory. In effect, these roles
+    are automatically granted to every user, although setting mandatory_roles does
+    not actually change any user accounts. Please consult MySQL documentation for
+    more infomation on usage.
+  IsModifiable: true
+  ParameterName: mandatory_roles
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

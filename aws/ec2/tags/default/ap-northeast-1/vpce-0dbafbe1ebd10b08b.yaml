@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vpce-0dbafbe1ebd10b08b
+specifics:
+  Name: new-vpn-to-futures-crates
+  biz: mbx
+  team: mbx
+...
+

@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0f637a37eabf7e779
+specifics:
+  Description: Allow TCP traffic from atom-alb SG on port 80
+  FromPort: 80
+  GroupId: sg-02c2a4125336a5f6a
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0e21e780410ebf056
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0f637a37eabf7e779
+  Tags: []
+  ToPort: 80
+...
+

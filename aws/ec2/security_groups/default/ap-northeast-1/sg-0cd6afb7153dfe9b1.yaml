@@ -1,0 +1,13 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0cd6afb7153dfe9b1
+specifics:
+  Description: Pawan-rmq-testing
+  GroupId: sg-0cd6afb7153dfe9b1
+  GroupName: Pawan-rmq-testing
+  VpcId: vpc-07652e77a8fa0e0c2
+...
+

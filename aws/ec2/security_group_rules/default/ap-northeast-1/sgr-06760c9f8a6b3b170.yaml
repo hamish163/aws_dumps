@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-06760c9f8a6b3b170
+specifics:
+  CidrIpv4: 172.25.0.0/16
+  Description: kubernetes.io/rule/nlb/client=a0a6093825ee711ea96970651db21d43
+  FromPort: 32090
+  GroupId: sg-010a5ae3337da1364
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-06760c9f8a6b3b170
+  Tags: []
+  ToPort: 32090
+...
+

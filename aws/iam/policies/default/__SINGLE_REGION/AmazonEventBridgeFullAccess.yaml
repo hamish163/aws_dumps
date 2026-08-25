@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonEventBridgeFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonEventBridgeFullAccess
+  AttachmentCount: 0
+  CreateDate: 2019-07-11 14:08:55+00:00
+  DefaultVersionId: v7
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4BUM4GCASI
+  PolicyName: AmazonEventBridgeFullAccess
+  UpdateDate: 2026-02-12 17:58:25+00:00
+...
+

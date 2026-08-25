@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSCloud9Administrator
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSCloud9Administrator
+  AttachmentCount: 0
+  CreateDate: 2017-11-30 16:17:28+00:00
+  DefaultVersionId: v7
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIQ4KWP455WDTCBGWK
+  PolicyName: AWSCloud9Administrator
+  UpdateDate: 2026-02-12 18:00:39+00:00
+...
+

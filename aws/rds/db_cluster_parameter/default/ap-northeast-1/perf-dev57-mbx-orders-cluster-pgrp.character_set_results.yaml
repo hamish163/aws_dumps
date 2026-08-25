@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev57-mbx-orders-cluster-pgrp.character_set_results
+specifics:
+  AllowedValues: big5,dec8,cp850,hp8,koi8r,latin1,latin2,swe7,ascii,ujis,sjis,hebrew,tis620,euckr,koi8u,gb2312,greek,cp1250,gbk,latin5,armscii8,utf8,ucs2,cp866,keybcs2,macce,macroman,cp852,latin7,utf8mb4,cp1251,utf16,cp1256,cp1257,utf32,binary,geostd8,cp932,eucjpms
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: The character set used for returning query results to the client.
+  IsModifiable: true
+  ParameterName: character_set_results
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-devops-journal-pipeline-asm-ro
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/mbx-bnb-devops-journal-pipeline-asm-ro
+  AttachmentCount: 2
+  CreateDate: 2026-08-20 16:23:40+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5XN3MTMFYF
+  PolicyName: mbx-bnb-devops-journal-pipeline-asm-ro
+  UpdateDate: 2026-08-20 16:23:40+00:00
+...
+

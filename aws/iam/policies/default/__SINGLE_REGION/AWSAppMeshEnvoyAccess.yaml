@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSAppMeshEnvoyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSAppMeshEnvoyAccess
+  AttachmentCount: 0
+  CreateDate: 2019-07-03 21:29:37+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4PMG6ZGSZZ
+  PolicyName: AWSAppMeshEnvoyAccess
+  UpdateDate: 2019-07-03 21:29:37+00:00
+...
+

@@ -1,0 +1,15 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx.bnb.devops.key-sequencer1/A
+  single_region: true
+specifics:
+  Name: key-sequencer1.devops.bnb.mbx.
+  ResourceRecords:
+  - Value: 10.200.19.47
+  TTL: 300
+  Type: A
+...
+

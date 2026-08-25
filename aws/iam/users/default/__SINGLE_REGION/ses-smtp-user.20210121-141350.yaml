@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.users
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: ses-smtp-user.20210121-141350
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/ses-smtp-user.20210121-141350
+  CreateDate: 2021-01-21 05:14:16+00:00
+  Path: /
+  UserId: AIDA4RYUCHN55CXIF6CBT
+  UserName: ses-smtp-user.20210121-141350
+...
+

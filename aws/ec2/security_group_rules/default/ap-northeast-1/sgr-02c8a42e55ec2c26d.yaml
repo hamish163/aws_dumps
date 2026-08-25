@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-02c8a42e55ec2c26d
+specifics:
+  Description: Allow access from Forum instance to Atom for webhooks
+  FromPort: 80
+  GroupId: sg-02c2a4125336a5f6a
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-04d42271a7731feac
+    VpcId: vpc-029b4f4077bf50002
+  SecurityGroupRuleId: sgr-02c8a42e55ec2c26d
+  Tags: []
+  ToPort: 80
+...
+

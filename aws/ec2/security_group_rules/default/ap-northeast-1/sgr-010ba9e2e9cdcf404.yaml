@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-010ba9e2e9cdcf404
+specifics:
+  Description: Allow TCP traffic from ws-shim-api SG on port 5483
+  FromPort: 5483
+  GroupId: sg-05db8b5a2e78e5155
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0c368493208835d26
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-010ba9e2e9cdcf404
+  Tags: []
+  ToPort: 5483
+...
+

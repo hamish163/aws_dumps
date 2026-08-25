@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0b71dff2900e04f6c
+specifics:
+  CidrIpv4: 10.0.42.179/32
+  Description: Test Tom - Allow testnet minions to reach nginx on port 8080
+  FromPort: 8080
+  GroupId: sg-0e1897f11e747200f
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-0b71dff2900e04f6c
+  Tags: []
+  ToPort: 8080
+...
+

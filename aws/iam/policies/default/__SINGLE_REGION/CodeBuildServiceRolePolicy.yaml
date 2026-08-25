@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: CodeBuildServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/CodeBuildServiceRolePolicy
+  AttachmentCount: 1
+  CreateDate: 2022-10-07 09:24:01+00:00
+  DefaultVersionId: v12
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5TPHQ2F7R3
+  PolicyName: CodeBuildServiceRolePolicy
+  UpdateDate: 2026-05-12 14:59:29+00:00
+...
+

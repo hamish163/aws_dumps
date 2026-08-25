@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonInspector2AmiScanServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AmazonInspector2AmiScanServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2026-07-30 17:57:10+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4J27MIOIP5
+  PolicyName: AmazonInspector2AmiScanServiceRolePolicy
+  UpdateDate: 2026-07-30 17:57:10+00:00
+...
+

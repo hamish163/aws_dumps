@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql16.cron.log_run
+specifics:
+  AllowedValues: on,off
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: Log all jobs runs into the job_run_details table
+  IsModifiable: true
+  ParameterName: cron.log_run
+  ParameterValue: 'on'
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

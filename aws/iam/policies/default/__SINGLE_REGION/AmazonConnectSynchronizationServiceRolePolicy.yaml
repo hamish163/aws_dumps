@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonConnectSynchronizationServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AmazonConnectSynchronizationServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2023-10-27 22:38:25+00:00
+  DefaultVersionId: v5
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4J2PE2WH3Y
+  PolicyName: AmazonConnectSynchronizationServiceRolePolicy
+  UpdateDate: 2025-11-21 20:19:09+00:00
+...
+

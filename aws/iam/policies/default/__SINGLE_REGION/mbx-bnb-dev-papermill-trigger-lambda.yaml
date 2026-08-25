@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-dev-papermill-trigger-lambda
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/mbx-bnb-dev-papermill-trigger-lambda
+  AttachmentCount: 1
+  CreateDate: 2025-05-01 09:07:09+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5Y5B7H6IPN
+  PolicyName: mbx-bnb-dev-papermill-trigger-lambda
+  UpdateDate: 2025-05-01 18:29:26+00:00
+...
+

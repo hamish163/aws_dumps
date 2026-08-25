@@ -1,0 +1,28 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: test-archiver-role
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/test-archiver-role
+  CreateDate: 2024-07-24 14:20:41+00:00
+  InstanceProfileId: AIPA4RYUCHN5STAMESLXC
+  InstanceProfileName: test-archiver-role
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/test-archiver-role
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+      Version: '2012-10-17'
+    CreateDate: 2024-07-24 14:20:40+00:00
+    Path: /
+    RoleId: AROA4RYUCHN5SDK3UYTMK
+    RoleName: test-archiver-role
+...
+

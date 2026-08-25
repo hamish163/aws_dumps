@@ -1,0 +1,29 @@
+---
+datatype: aws.elbv2.target_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-devops-rate-pairs-tg
+specifics:
+  HealthCheckEnabled: true
+  HealthCheckIntervalSeconds: 5
+  HealthCheckPath: /ping
+  HealthCheckPort: '5679'
+  HealthCheckProtocol: HTTP
+  HealthCheckTimeoutSeconds: 2
+  HealthyThresholdCount: 5
+  IpAddressType: ipv4
+  LoadBalancerArns:
+  - arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:loadbalancer/app/mbx-bnb-devops-rates-alb/48de0f6b0cb071f8
+  Matcher:
+    HttpCode: '200'
+  Port: 5678
+  Protocol: HTTP
+  ProtocolVersion: HTTP1
+  TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-devops-rate-pairs-tg/6a40599658e6c8ba
+  TargetGroupName: mbx-bnb-devops-rate-pairs-tg
+  TargetType: instance
+  UnhealthyThresholdCount: 2
+  VpcId: vpc-07519eb63f1d932ac
+...
+

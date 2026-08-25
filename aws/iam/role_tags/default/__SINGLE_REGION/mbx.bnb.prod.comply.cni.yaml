@@ -1,0 +1,19 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx.bnb.prod.comply.cni
+  single_region: true
+specifics:
+  biz: mbx
+  mbx_application_name: comply
+  mbx_env_name: prod
+  mbx_exchange_name: bnb
+  mbx_secret_store: asm
+  project: comply
+  sre-app: comply
+  sre-env: prod
+  team: sre
+...
+

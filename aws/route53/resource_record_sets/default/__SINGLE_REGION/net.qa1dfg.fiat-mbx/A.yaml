@@ -1,0 +1,16 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: net.qa1dfg.fiat-mbx/A
+  single_region: true
+specifics:
+  AliasTarget:
+    DNSName: a847e4bf4fd2541e285c50f89190966c-efc47cd266effb7d.elb.ap-northeast-1.amazonaws.com.
+    EvaluateTargetHealth: false
+    HostedZoneId: Z31USIVHYNEOWT
+  Name: fiat-mbx.qa1dfg.net.
+  Type: A
+...
+

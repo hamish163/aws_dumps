@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-0e55fdfb13576a89e
+specifics:
+  Name: mbx-bnb-devops-spade-cache2
+  biz: mbx
+  mbx_env_name: devops
+  mbx_exchange_name: bnb
+  mbx_host_index: '2'
+  team: mbx
+...
+

@@ -1,0 +1,17 @@
+---
+datatype: aws.route53.hosted_zones
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: rocketchat.bitdj.com.
+  single_region: true
+specifics:
+  CallerReference: '2023-04-03 04:17:05.247'
+  Config:
+    Comment: Primary Namespace for TestRocketChat
+    PrivateZone: true
+  Id: /hostedzone/Z09121432TIQ1TOTHI7RQ
+  Name: rocketchat.bitdj.com.
+  ResourceRecordSetCount: 6
+...
+

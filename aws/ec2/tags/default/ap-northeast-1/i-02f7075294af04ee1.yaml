@@ -1,0 +1,16 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-02f7075294af04ee1
+specifics:
+  Name: zookeeper3.prod.tracky.mbx
+  biz: mbx
+  project: tracky
+  sre-app: tracky
+  sre-component: zookeeper
+  sre-env: prod
+  team: sre
+...
+

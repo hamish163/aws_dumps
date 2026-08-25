@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-spot-aqueduct-papers-cluster-pg.replica_transaction_retries
+specifics:
+  AllowedValues: 0-4294967295
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Sets the maximum number of times for replication SQL threads on a single-threaded
+    or multithreaded replica to automatically retry failed transactions before stopping.
+  IsModifiable: true
+  ParameterName: replica_transaction_retries
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

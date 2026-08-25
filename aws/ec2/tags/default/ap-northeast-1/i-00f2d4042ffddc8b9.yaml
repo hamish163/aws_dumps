@@ -1,0 +1,23 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-00f2d4042ffddc8b9
+specifics:
+  Name: mbx-bnb-devops-jenkins_eks-builder-builder_al2023_x86_standard
+  aws:autoscaling:groupName: eks-mbx-bnb-devops-jenkins_eks-builder_al2023_x86_standard-4ec9901c-965e-ebb2-6854-f4c4e413dd4a
+  aws:ec2:fleet-id: fleet-4ea435a5-d316-eb1c-0492-26a8a5efad52
+  aws:ec2launchtemplate:id: lt-032cb3f5d1aa3a1dd
+  aws:ec2launchtemplate:version: '6'
+  aws:eks:cluster-name: mbx-bnb-devops-jenkins_eks-cluster
+  eks:cluster-name: mbx-bnb-devops-jenkins_eks-cluster
+  eks:nodegroup-name: mbx-bnb-devops-jenkins_eks-builder_al2023_x86_standard
+  k8s.io/cluster-autoscaler/enabled: 'true'
+  k8s.io/cluster-autoscaler/mbx-bnb-devops-jenkins_eks-cluster: owned
+  kubernetes.io/cluster/mbx-bnb-devops-jenkins_eks-cluster: owned
+  mbx_env_name: devops
+  mbx_exchange_name: bnb
+  team: mbx
+...
+

@@ -1,0 +1,28 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-00b6a00899c168f31
+specifics:
+  Description: Managed by Terraform
+  GroupId: sg-00b6a00899c168f31
+  GroupName: mbx-bnb-uat-db-archiver
+  Tags:
+  - Key: mbx_application_name
+    Value: db-archiver
+  - Key: mbx_secret_store
+    Value: asm
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  - Key: mbx_env_name
+    Value: uat
+  - Key: biz
+    Value: mbx
+  - Key: Name
+    Value: mbx-bnb-uat-db-archiver
+  VpcId: vpc-0b3ce57b4c748893b
+...
+

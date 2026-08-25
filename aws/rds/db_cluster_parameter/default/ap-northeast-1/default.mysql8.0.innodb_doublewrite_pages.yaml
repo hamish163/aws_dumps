@@ -1,0 +1,23 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.innodb_doublewrite_pages
+specifics:
+  AllowedValues: 1-512
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: Defines the maximum number of doublewrite pages per thread for a batch
+    write. If no value is specified, innodb_doublewrite_pages is set to the innodb_write_io_threads
+    value.
+  IsModifiable: true
+  MinimumEngineVersion: 8.0.20
+  ParameterName: innodb_doublewrite_pages
+  ParameterValue: '32'
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

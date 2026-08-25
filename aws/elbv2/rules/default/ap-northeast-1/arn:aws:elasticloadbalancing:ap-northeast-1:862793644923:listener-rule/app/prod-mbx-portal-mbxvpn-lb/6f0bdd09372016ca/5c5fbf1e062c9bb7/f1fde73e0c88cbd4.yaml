@@ -1,0 +1,30 @@
+---
+datatype: aws.elbv2.rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener-rule/app/prod-mbx-portal-mbxvpn-lb/6f0bdd09372016ca/5c5fbf1e062c9bb7/f1fde73e0c88cbd4
+specifics:
+  Actions:
+  - ForwardConfig:
+      TargetGroupStickinessConfig:
+        DurationSeconds: 3600
+        Enabled: true
+      TargetGroups:
+      - TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/prod-portal-api-mbxvpn-tg/2e5ada118d948c01
+        Weight: 1
+    Order: 1
+    TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/prod-portal-api-mbxvpn-tg/2e5ada118d948c01
+    Type: forward
+  Conditions:
+  - Field: http-header
+    HttpHeaderConfig:
+      HttpHeaderName: Connection
+      Values:
+      - Upgrade
+  IsDefault: false
+  Priority: '1'
+  RuleArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener-rule/app/prod-mbx-portal-mbxvpn-lb/6f0bdd09372016ca/5c5fbf1e062c9bb7/f1fde73e0c88cbd4
+  _listener_arn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener/app/prod-mbx-portal-mbxvpn-lb/6f0bdd09372016ca/5c5fbf1e062c9bb7
+...
+

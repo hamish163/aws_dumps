@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-perf-key-cluster-pg.thread_cache_size
+specifics:
+  AllowedValues: 0-16384
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Number of threads to be cached. Doesn't improve perf for good thread
+    implementations.
+  IsModifiable: true
+  ParameterName: thread_cache_size
+  ParameterValue: '{DBInstanceClassMemory/1005785088}'
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

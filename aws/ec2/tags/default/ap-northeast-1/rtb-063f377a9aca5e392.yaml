@@ -1,0 +1,14 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rtb-063f377a9aca5e392
+specifics:
+  Name: mbx-bnb-bastion-rtb-private1
+  biz: mbx
+  mbx_env_name: prod
+  mbx_exchange_name: bnb
+  team: mbx
+...
+

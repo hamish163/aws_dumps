@@ -1,0 +1,15 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx.tracky.prod.clickhouse2/A
+  single_region: true
+specifics:
+  Name: clickhouse2.prod.tracky.mbx.
+  ResourceRecords:
+  - Value: 172.27.36.155
+  TTL: 3600
+  Type: A
+...
+

@@ -1,0 +1,89 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-0cb73ca2981c70b5b
+specifics:
+  Attachment:
+    AttachTime: 2026-06-07 17:04:06+00:00
+    AttachmentId: eni-attach-0ad57c4ed9fdcb681
+    DeleteOnTermination: true
+    DeviceIndex: 1
+    InstanceId: i-0f8f90447d4dbd8d2
+    InstanceOwnerId: '862793644923'
+    NetworkCardIndex: 0
+    Status: attached
+  AvailabilityZone: ap-northeast-1a
+  Description: aws-K8S-i-0f8f90447d4dbd8d2
+  Groups:
+  - GroupId: sg-02242eedea0f96004
+    GroupName: mbx_bnb_prod-comply
+  InterfaceType: interface
+  Ipv6Addresses: []
+  MacAddress: 06:23:8b:7f:2a:8d
+  NetworkInterfaceId: eni-0cb73ca2981c70b5b
+  OwnerId: '862793644923'
+  PrivateDnsName: ip-172-27-27-91.ap-northeast-1.compute.internal
+  PrivateIpAddress: 172.27.27.91
+  PrivateIpAddresses:
+  - Primary: true
+    PrivateDnsName: ip-172-27-27-91.ap-northeast-1.compute.internal
+    PrivateIpAddress: 172.27.27.91
+  - Primary: false
+    PrivateDnsName: ip-172-27-26-25.ap-northeast-1.compute.internal
+    PrivateIpAddress: 172.27.26.25
+  - Primary: false
+    PrivateDnsName: ip-172-27-27-121.ap-northeast-1.compute.internal
+    PrivateIpAddress: 172.27.27.121
+  - Primary: false
+    PrivateDnsName: ip-172-27-28-223.ap-northeast-1.compute.internal
+    PrivateIpAddress: 172.27.28.223
+  - Primary: false
+    PrivateDnsName: ip-172-27-24-113.ap-northeast-1.compute.internal
+    PrivateIpAddress: 172.27.24.113
+  - Primary: false
+    PrivateDnsName: ip-172-27-24-247.ap-northeast-1.compute.internal
+    PrivateIpAddress: 172.27.24.247
+  - Primary: false
+    PrivateDnsName: ip-172-27-28-119.ap-northeast-1.compute.internal
+    PrivateIpAddress: 172.27.28.119
+  - Primary: false
+    PrivateDnsName: ip-172-27-30-20.ap-northeast-1.compute.internal
+    PrivateIpAddress: 172.27.30.20
+  - Primary: false
+    PrivateDnsName: ip-172-27-29-180.ap-northeast-1.compute.internal
+    PrivateIpAddress: 172.27.29.180
+  - Primary: false
+    PrivateDnsName: ip-172-27-29-84.ap-northeast-1.compute.internal
+    PrivateIpAddress: 172.27.29.84
+  - Primary: false
+    PrivateDnsName: ip-172-27-26-107.ap-northeast-1.compute.internal
+    PrivateIpAddress: 172.27.26.107
+  - Primary: false
+    PrivateDnsName: ip-172-27-24-173.ap-northeast-1.compute.internal
+    PrivateIpAddress: 172.27.24.173
+  - Primary: false
+    PrivateDnsName: ip-172-27-25-45.ap-northeast-1.compute.internal
+    PrivateIpAddress: 172.27.25.45
+  - Primary: false
+    PrivateDnsName: ip-172-27-31-101.ap-northeast-1.compute.internal
+    PrivateIpAddress: 172.27.31.101
+  - Primary: false
+    PrivateDnsName: ip-172-27-27-196.ap-northeast-1.compute.internal
+    PrivateIpAddress: 172.27.27.196
+  RequesterId: AROA4RYUCHN56TGHPFQF7:i-0f8f90447d4dbd8d2
+  RequesterManaged: false
+  SourceDestCheck: true
+  Status: in-use
+  SubnetId: subnet-0d92f19d082a3909e
+  TagSet:
+  - Key: node.k8s.amazonaws.com/createdAt
+    Value: '2026-06-07T17:04:04Z'
+  - Key: cluster.k8s.amazonaws.com/name
+    Value: mbx_bnb_prod-comply-cluster
+  - Key: node.k8s.amazonaws.com/instance_id
+    Value: i-0f8f90447d4dbd8d2
+  VpcId: vpc-03f5d2495fd8d95a3
+...
+

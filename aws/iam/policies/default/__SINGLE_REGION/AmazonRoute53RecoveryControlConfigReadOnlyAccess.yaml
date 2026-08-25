@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonRoute53RecoveryControlConfigReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonRoute53RecoveryControlConfigReadOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2021-08-18 18:01:12+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4DBQWX62W5
+  PolicyName: AmazonRoute53RecoveryControlConfigReadOnlyAccess
+  UpdateDate: 2023-10-18 17:15:33+00:00
+...
+

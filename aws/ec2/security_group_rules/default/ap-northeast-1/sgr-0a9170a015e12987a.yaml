@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0a9170a015e12987a
+specifics:
+  Description: Allow TCP from kafka pipe1
+  FromPort: 9092
+  GroupId: sg-0766cabbc189ca4c4
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-08962f811c3efbc33
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0a9170a015e12987a
+  Tags: []
+  ToPort: 9092
+...
+

@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-orders-cluster-pg-80.query_alloc_block_size
+specifics:
+  AllowedValues: 1024-18446744073709547520
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: The allocation size of memory blocks that are allocated for objects
+    created during statement parsing and execution. May help resolve fragmentation
+    problems.
+  IsModifiable: true
+  ParameterName: query_alloc_block_size
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

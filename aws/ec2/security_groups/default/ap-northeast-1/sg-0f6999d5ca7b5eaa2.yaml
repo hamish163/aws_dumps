@@ -1,0 +1,24 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0f6999d5ca7b5eaa2
+specifics:
+  Description: Managed by Terraform
+  GroupId: sg-0f6999d5ca7b5eaa2
+  GroupName: mbx-bnb-devops-jenkins_eks-builder-node
+  Tags:
+  - Key: mbx_env_name
+    Value: devops
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_secret_store
+    Value: none
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  VpcId: vpc-07519eb63f1d932ac
+...
+

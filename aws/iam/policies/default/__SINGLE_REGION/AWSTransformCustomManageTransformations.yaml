@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSTransformCustomManageTransformations
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSTransformCustomManageTransformations
+  AttachmentCount: 0
+  CreateDate: 2025-12-05 15:49:07+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4MBD6F5EQV
+  PolicyName: AWSTransformCustomManageTransformations
+  UpdateDate: 2026-04-27 19:27:10+00:00
+...
+

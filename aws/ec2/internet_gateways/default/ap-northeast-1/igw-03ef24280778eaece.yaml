@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.internet_gateways
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: igw-03ef24280778eaece
+specifics:
+  Attachments: []
+  InternetGatewayId: igw-03ef24280778eaece
+  OwnerId: '862793644923'
+  Tags:
+  - Key: env
+    Value: daz
+  - Key: project
+    Value: mbx
+  - Key: Name
+    Value: tky_daz_mbx_igw
+...
+

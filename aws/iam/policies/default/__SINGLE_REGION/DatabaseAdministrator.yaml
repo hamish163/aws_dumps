@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: DatabaseAdministrator
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/job-function/DatabaseAdministrator
+  AttachmentCount: 0
+  CreateDate: 2016-11-10 17:25:43+00:00
+  DefaultVersionId: v5
+  IsAttachable: true
+  Path: /job-function/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIGBMAW4VUQKOQNVT6
+  PolicyName: DatabaseAdministrator
+  UpdateDate: 2026-02-12 18:02:20+00:00
+...
+

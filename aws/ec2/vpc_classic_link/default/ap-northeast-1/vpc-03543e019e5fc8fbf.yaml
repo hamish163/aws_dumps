@@ -1,0 +1,18 @@
+---
+datatype: aws.ec2.vpc_classic_link
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vpc-03543e019e5fc8fbf
+specifics:
+  ClassicLinkEnabled: false
+  Tags:
+  - Key: project
+    Value: sol1
+  - Key: Name
+    Value: solution_infra_sol1_vpc
+  - Key: env
+    Value: infra
+  VpcId: vpc-03543e019e5fc8fbf
+...
+

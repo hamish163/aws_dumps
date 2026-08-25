@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0757d6a67f396f347
+specifics:
+  Description: Allow TCP traffic from ws-shim-api-alb SG on port 4908
+  FromPort: 4908
+  GroupId: sg-0e8ba622f4ae60829
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0b84a540e58774052
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0757d6a67f396f347
+  Tags: []
+  ToPort: 4908
+...
+

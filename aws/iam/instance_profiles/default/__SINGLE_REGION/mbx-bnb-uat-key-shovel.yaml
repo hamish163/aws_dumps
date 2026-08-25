@@ -1,0 +1,28 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-uat-key-shovel
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/mbx-bnb-uat-key-shovel
+  CreateDate: 2024-10-01 03:07:13+00:00
+  InstanceProfileId: AIPA4RYUCHN5QNRS5LKY3
+  InstanceProfileName: mbx-bnb-uat-key-shovel
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/mbx-bnb-uat-key-shovel
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+      Version: '2012-10-17'
+    CreateDate: 2024-10-01 03:07:12+00:00
+    Path: /
+    RoleId: AROA4RYUCHN5Z355BCOKT
+    RoleName: mbx-bnb-uat-key-shovel
+...
+

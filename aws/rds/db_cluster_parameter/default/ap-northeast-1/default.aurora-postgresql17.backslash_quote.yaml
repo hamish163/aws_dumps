@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql17.backslash_quote
+specifics:
+  AllowedValues: safe_encoding,on,off
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Sets whether \ is allowed in string literals.
+  IsModifiable: true
+  ParameterName: backslash_quote
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

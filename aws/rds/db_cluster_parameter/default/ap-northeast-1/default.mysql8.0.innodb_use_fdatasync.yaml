@@ -1,0 +1,22 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.innodb_use_fdatasync
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Controls whether or not MySQL uses fdatasync() instead of fsync() for
+    operating system flushes.
+  IsModifiable: true
+  MinimumEngineVersion: 8.0.35
+  ParameterName: innodb_use_fdatasync
+  ParameterValue: '1'
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

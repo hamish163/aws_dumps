@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: ROSAIngressOperatorPolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/ROSAIngressOperatorPolicy
+  AttachmentCount: 0
+  CreateDate: 2023-04-20 22:37:08+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4DPFRRLYGW
+  PolicyName: ROSAIngressOperatorPolicy
+  UpdateDate: 2026-02-12 17:58:27+00:00
+...
+

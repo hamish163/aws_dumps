@@ -1,0 +1,11 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: NetworkPipeline-CodeBuildRole-1JS76JJ2S6BSM
+  single_region: true
+specifics:
+  AttachedPolicies: []
+...
+

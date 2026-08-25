@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSRoboMakerServicePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AWSRoboMakerServicePolicy
+  AttachmentCount: 0
+  CreateDate: 2018-11-26 06:30:08+00:00
+  DefaultVersionId: v6
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJYLVVUUQMAEEZ3ZNY
+  PolicyName: AWSRoboMakerServicePolicy
+  UpdateDate: 2021-11-11 22:23:45+00:00
+...
+

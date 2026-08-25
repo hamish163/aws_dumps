@@ -1,0 +1,16 @@
+---
+datatype: aws.iam.users
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: kenneth
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/kenneth
+  CreateDate: 2022-10-04 13:08:42+00:00
+  PasswordLastUsed: 2026-08-19 07:01:22+00:00
+  Path: /
+  UserId: AIDA4RYUCHN54NMXDDVMK
+  UserName: kenneth
+...
+

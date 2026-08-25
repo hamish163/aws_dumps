@@ -1,0 +1,19 @@
+---
+datatype: aws.iam.virtual_mfa_devices
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: arn:aws:iam::862793644923:mfa/ritwij
+  single_region: true
+specifics:
+  EnableDate: 2022-07-21 06:37:39+00:00
+  SerialNumber: arn:aws:iam::862793644923:mfa/ritwij
+  User:
+    Arn: arn:aws:iam::862793644923:user/ritwij
+    CreateDate: 2022-07-21 05:26:12+00:00
+    PasswordLastUsed: 2026-08-16 22:30:16+00:00
+    Path: /
+    UserId: AIDA4RYUCHN5556TFNTG4
+    UserName: ritwij
+...
+

@@ -1,0 +1,13 @@
+---
+datatype: aws.iam.user_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: alex.tanti
+  single_region: true
+specifics:
+  PolicyNames:
+  - cost-explorer-report
+  - team-sre-lambda-resources-allow-edit
+...
+

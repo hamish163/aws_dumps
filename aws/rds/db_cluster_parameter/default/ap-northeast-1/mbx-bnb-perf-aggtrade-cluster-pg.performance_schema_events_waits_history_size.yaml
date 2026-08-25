@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-perf-aggtrade-cluster-pg.performance_schema_events_waits_history_size
+specifics:
+  AllowedValues: -1-1024
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: The number of rows per thread in the events_waits_history table.
+  IsModifiable: true
+  ParameterName: performance_schema_events_waits_history_size
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

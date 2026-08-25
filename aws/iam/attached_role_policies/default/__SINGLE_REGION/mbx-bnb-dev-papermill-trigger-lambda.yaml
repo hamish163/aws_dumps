@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-dev-papermill-trigger-lambda
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/mbx-bnb-dev-papermill-trigger-lambda
+    PolicyName: mbx-bnb-dev-papermill-trigger-lambda
+  - PolicyArn: arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+    PolicyName: AWSLambdaBasicExecutionRole
+...
+

@@ -1,0 +1,141 @@
+---
+datatype: aws.ec2.network_acls
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: acl-09b3be9ea8850b50a
+specifics:
+  Associations:
+  - NetworkAclAssociationId: aclassoc-0c814539fe45f5d81
+    NetworkAclId: acl-09b3be9ea8850b50a
+    SubnetId: subnet-0f3fa0906d5a2549b
+  - NetworkAclAssociationId: aclassoc-01c80d5f5f7065870
+    NetworkAclId: acl-09b3be9ea8850b50a
+    SubnetId: subnet-013180beb7ee3ef2b
+  - NetworkAclAssociationId: aclassoc-0224959625e3e6d19
+    NetworkAclId: acl-09b3be9ea8850b50a
+    SubnetId: subnet-0f3422e1bcafdbd9a
+  - NetworkAclAssociationId: aclassoc-011f3f0bf7461d700
+    NetworkAclId: acl-09b3be9ea8850b50a
+    SubnetId: subnet-05e68bf1b02f86b1d
+  - NetworkAclAssociationId: aclassoc-0bfe822a7d750e298
+    NetworkAclId: acl-09b3be9ea8850b50a
+    SubnetId: subnet-07c7018b6ffe56b37
+  - NetworkAclAssociationId: aclassoc-00113db3f5f3bf563
+    NetworkAclId: acl-09b3be9ea8850b50a
+    SubnetId: subnet-03f4471321da68b5e
+  - NetworkAclAssociationId: aclassoc-051ac4f9aa75fa480
+    NetworkAclId: acl-09b3be9ea8850b50a
+    SubnetId: subnet-0cfde3b71d3cdc230
+  - NetworkAclAssociationId: aclassoc-01b5e904d46f5c039
+    NetworkAclId: acl-09b3be9ea8850b50a
+    SubnetId: subnet-05c1dfa06dff5653e
+  - NetworkAclAssociationId: aclassoc-059ee0411c323b5dd
+    NetworkAclId: acl-09b3be9ea8850b50a
+    SubnetId: subnet-0c8bc75f4586bafc3
+  - NetworkAclAssociationId: aclassoc-04e8e9224ecfac008
+    NetworkAclId: acl-09b3be9ea8850b50a
+    SubnetId: subnet-09b56d08523f753ad
+  - NetworkAclAssociationId: aclassoc-007739ad2a90df568
+    NetworkAclId: acl-09b3be9ea8850b50a
+    SubnetId: subnet-0281fd0cc707143c1
+  - NetworkAclAssociationId: aclassoc-0e68ac5aa09d82510
+    NetworkAclId: acl-09b3be9ea8850b50a
+    SubnetId: subnet-0e68a0eedd12da176
+  - NetworkAclAssociationId: aclassoc-0abff4cd444ba9d9c
+    NetworkAclId: acl-09b3be9ea8850b50a
+    SubnetId: subnet-017cbabde55873d1e
+  - NetworkAclAssociationId: aclassoc-0c5e3c056ce6d2361
+    NetworkAclId: acl-09b3be9ea8850b50a
+    SubnetId: subnet-0f9a04363d10a07ed
+  - NetworkAclAssociationId: aclassoc-09a913d255bc19c1c
+    NetworkAclId: acl-09b3be9ea8850b50a
+    SubnetId: subnet-048d566dc7f5a8c17
+  - NetworkAclAssociationId: aclassoc-05ca0c1936011712b
+    NetworkAclId: acl-09b3be9ea8850b50a
+    SubnetId: subnet-0f4383b02afdf0987
+  - NetworkAclAssociationId: aclassoc-060bad06f5b7f6787
+    NetworkAclId: acl-09b3be9ea8850b50a
+    SubnetId: subnet-0bdc6d151c7441570
+  Entries:
+  - CidrBlock: 0.0.0.0/0
+    Egress: true
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 100
+  - CidrBlock: 172.20.255.0/24
+    Egress: false
+    PortRange:
+      From: 22
+      To: 22
+    Protocol: '6'
+    RuleAction: allow
+    RuleNumber: 1000
+  - CidrBlock: 172.20.19.0/24
+    Egress: false
+    PortRange:
+      From: 22
+      To: 22
+    Protocol: '6'
+    RuleAction: allow
+    RuleNumber: 1001
+  - CidrBlock: 172.18.0.0/16
+    Egress: false
+    PortRange:
+      From: 22
+      To: 22
+    Protocol: '6'
+    RuleAction: allow
+    RuleNumber: 1002
+  - CidrBlock: 10.0.0.0/8
+    Egress: false
+    PortRange:
+      From: 22
+      To: 22
+    Protocol: '6'
+    RuleAction: allow
+    RuleNumber: 1003
+  - CidrBlock: 172.25.27.162/32
+    Egress: false
+    PortRange:
+      From: 22
+      To: 22
+    Protocol: '6'
+    RuleAction: allow
+    RuleNumber: 1100
+  - CidrBlock: 0.0.0.0/0
+    Egress: false
+    PortRange:
+      From: 22
+      To: 22
+    Protocol: '6'
+    RuleAction: deny
+    RuleNumber: 2000
+  - CidrBlock: 0.0.0.0/0
+    Egress: false
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 9000
+  - CidrBlock: 0.0.0.0/0
+    Egress: true
+    Protocol: '-1'
+    RuleAction: deny
+    RuleNumber: 32767
+  - CidrBlock: 0.0.0.0/0
+    Egress: false
+    Protocol: '-1'
+    RuleAction: deny
+    RuleNumber: 32767
+  IsDefault: false
+  NetworkAclId: acl-09b3be9ea8850b50a
+  OwnerId: '862793644923'
+  Tags:
+  - Key: Name
+    Value: perf_dev_mbx_internal_nacl
+  - Key: project
+    Value: mbx
+  - Key: env
+    Value: dev
+  VpcId: vpc-0a7d9bfaa80b951d9
+...
+

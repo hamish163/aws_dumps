@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.innodb_log_buffer_size
+specifics:
+  AllowedValues: 262144-4294967295
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: The size in bytes of the buffer that innodb uses to write to the log
+    files on disk
+  IsModifiable: true
+  ParameterName: innodb_log_buffer_size
+  ParameterValue: '8388608'
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,26 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0f4b9ff4428b7d21e
+specifics:
+  Description: Security group for exchange rates ALB
+  GroupId: sg-0f4b9ff4428b7d21e
+  GroupName: mbx-bnb-uat-rates-alb
+  Tags:
+  - Key: biz
+    Value: mbx
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_env_name
+    Value: uat
+  - Key: Name
+    Value: mbx-bnb-uat-rates-alb
+  - Key: mbx_secret_store
+    Value: asm
+  - Key: team
+    Value: mbx
+  VpcId: vpc-0b3ce57b4c748893b
+...
+

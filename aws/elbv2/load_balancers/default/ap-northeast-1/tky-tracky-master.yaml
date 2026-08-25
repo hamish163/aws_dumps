@@ -1,0 +1,32 @@
+---
+datatype: aws.elbv2.load_balancers
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: tky-tracky-master
+specifics:
+  AvailabilityZones:
+  - LoadBalancerAddresses: []
+    SubnetId: subnet-017ec9e731308dd5d
+    ZoneName: ap-northeast-1d
+  - LoadBalancerAddresses: []
+    SubnetId: subnet-05c725ad0285e7296
+    ZoneName: ap-northeast-1c
+  - LoadBalancerAddresses: []
+    SubnetId: subnet-09d026f6e1a1cd1f7
+    ZoneName: ap-northeast-1a
+  CanonicalHostedZoneId: Z14GRHDCWA56QT
+  CreatedTime: 2021-02-25 10:48:13.970000+00:00
+  DNSName: tky-tracky-master-1405387157.ap-northeast-1.elb.amazonaws.com
+  IpAddressType: ipv4
+  LoadBalancerArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:loadbalancer/app/tky-tracky-master/0f7db55853ce08a5
+  LoadBalancerName: tky-tracky-master
+  Scheme: internet-facing
+  SecurityGroups:
+  - sg-08579dfe3dc446033
+  State:
+    Code: active
+  Type: application
+  VpcId: vpc-03f5d2495fd8d95a3
+...
+

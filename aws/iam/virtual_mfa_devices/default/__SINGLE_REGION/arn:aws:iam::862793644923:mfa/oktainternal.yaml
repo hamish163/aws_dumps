@@ -1,0 +1,19 @@
+---
+datatype: aws.iam.virtual_mfa_devices
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: arn:aws:iam::862793644923:mfa/oktainternal
+  single_region: true
+specifics:
+  EnableDate: 2026-04-01 02:22:44+00:00
+  SerialNumber: arn:aws:iam::862793644923:mfa/oktainternal
+  User:
+    Arn: arn:aws:iam::862793644923:user/vasanth
+    CreateDate: 2026-03-31 12:51:43+00:00
+    PasswordLastUsed: 2026-08-24 03:07:33+00:00
+    Path: /
+    UserId: AIDA4RYUCHN5Q7GEHXL3H
+    UserName: vasanth
+...
+

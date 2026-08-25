@@ -1,0 +1,42 @@
+---
+datatype: aws.ec2.volumes
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-07c9d5af129f2465a
+specifics:
+  Attachments:
+  - AttachTime: 2025-07-22 08:55:51+00:00
+    DeleteOnTermination: false
+    Device: /dev/sdg
+    InstanceId: i-05458917675a3e57d
+    State: attached
+    VolumeId: vol-07c9d5af129f2465a
+  AvailabilityZone: ap-northeast-1a
+  CreateTime: 2025-07-22 08:55:30.291000+00:00
+  Encrypted: false
+  Iops: 3000
+  MultiAttachEnabled: false
+  Size: 500
+  SnapshotId: ''
+  State: in-use
+  Tags:
+  - Key: mbx_env_name
+    Value: perf
+  - Key: biz
+    Value: mbx
+  - Key: team
+    Value: mbx
+  - Key: Name
+    Value: mbx-bnb-perf-engine3
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_secret_store
+    Value: none
+  - Key: mbx_application_name
+    Value: mbx-core-engine
+  Throughput: 250
+  VolumeId: vol-07c9d5af129f2465a
+  VolumeType: gp3
+...
+

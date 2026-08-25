@@ -1,0 +1,16 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: com.bitdj.mbx.bnb.prometheus/A
+  single_region: true
+specifics:
+  AliasTarget:
+    DNSName: vpce-025fba96060b6219e-y6iaiifp.vpce-svc-0a62d236d64c5719a.ap-northeast-1.vpce.amazonaws.com.
+    EvaluateTargetHealth: true
+    HostedZoneId: Z2E726K9Y6RL4W
+  Name: prometheus.bnb.mbx.bitdj.com.
+  Type: A
+...
+

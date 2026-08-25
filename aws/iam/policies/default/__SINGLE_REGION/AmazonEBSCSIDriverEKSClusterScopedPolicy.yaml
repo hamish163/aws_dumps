@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonEBSCSIDriverEKSClusterScopedPolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonEBSCSIDriverEKSClusterScopedPolicy
+  AttachmentCount: 0
+  CreateDate: 2026-04-16 17:27:16+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4KUWAGAMWF
+  PolicyName: AmazonEBSCSIDriverEKSClusterScopedPolicy
+  UpdateDate: 2026-05-28 17:27:10+00:00
+...
+

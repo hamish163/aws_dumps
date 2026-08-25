@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0f943324d4c116fe5
+specifics:
+  CidrIpv4: 13.113.245.109/32
+  Description: tungsten-cicd
+  FromPort: 443
+  GroupId: sg-02d4019b206d948d9
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-0f943324d4c116fe5
+  Tags: []
+  ToPort: 443
+...
+

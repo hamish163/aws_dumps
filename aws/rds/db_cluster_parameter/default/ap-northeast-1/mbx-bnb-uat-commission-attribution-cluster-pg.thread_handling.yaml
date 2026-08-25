@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-commission-attribution-cluster-pg.thread_handling
+specifics:
+  AllowedValues: thread-pools,no-threads,one-thread-per-connection,dynamically-loaded
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: The thread-handling model used by the server for connection threads.
+  IsModifiable: false
+  ParameterName: thread_handling
+  ParameterValue: thread-pools
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

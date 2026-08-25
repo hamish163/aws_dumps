@@ -1,0 +1,16 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: subnet-06876eaba3d338653
+specifics:
+  KubernetesCluster: ap2.bitdj.com
+  Name: ap2-bitdj-internal-1
+  env: ap2
+  kubernetes.io/cluster/ap2.bitdj.com: shared
+  kubernetes.io/role/alb-ingress: ''
+  kubernetes.io/role/internal-elb: ''
+  project: bitdj
+...
+

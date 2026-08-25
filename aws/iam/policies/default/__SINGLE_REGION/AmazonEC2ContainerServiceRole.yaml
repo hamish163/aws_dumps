@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonEC2ContainerServiceRole
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AmazonEC2ContainerServiceRole
+  AttachmentCount: 0
+  CreateDate: 2015-04-09 16:14:19+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJO53W2XHNACG7V77Q
+  PolicyName: AmazonEC2ContainerServiceRole
+  UpdateDate: 2016-08-11 13:08:01+00:00
+...
+

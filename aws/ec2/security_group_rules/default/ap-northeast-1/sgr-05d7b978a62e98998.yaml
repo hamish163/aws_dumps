@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-05d7b978a62e98998
+specifics:
+  Description: Allow traffic to tracky master
+  FromPort: 5555
+  GroupId: sg-0238f57a24d06597f
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: true
+  ReferencedGroupInfo:
+    GroupId: sg-051d10d7a77e36101
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-05d7b978a62e98998
+  Tags: []
+  ToPort: 5555
+...
+

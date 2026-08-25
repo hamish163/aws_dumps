@@ -1,0 +1,16 @@
+---
+datatype: aws.iam.users
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: test-new-ui
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/test-new-ui
+  CreateDate: 2023-03-28 05:28:04+00:00
+  PasswordLastUsed: 2023-03-28 05:29:22+00:00
+  Path: /
+  UserId: AIDA4RYUCHN534GR2ZWX5
+  UserName: test-new-ui
+...
+

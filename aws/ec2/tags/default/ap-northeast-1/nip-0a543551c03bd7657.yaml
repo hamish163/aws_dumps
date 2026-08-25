@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: nip-0a543551c03bd7657
+specifics:
+  Name: old-vpn-to-chat
+...
+

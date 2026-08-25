@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AllowUserManagedOwnAccount
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/AllowUserManagedOwnAccount
+  AttachmentCount: 12
+  CreateDate: 2019-05-20 03:31:26+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN52KJR6ZG4Y
+  PolicyName: AllowUserManagedOwnAccount
+  UpdateDate: 2023-03-28 09:26:14+00:00
+...
+

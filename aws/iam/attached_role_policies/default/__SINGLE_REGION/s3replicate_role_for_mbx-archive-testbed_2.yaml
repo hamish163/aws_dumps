@@ -1,0 +1,13 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: s3replicate_role_for_mbx-archive-testbed_2
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/service-role/s3replicate_for_mbx-archive-testbed_31109c
+    PolicyName: s3replicate_for_mbx-archive-testbed_31109c
+...
+

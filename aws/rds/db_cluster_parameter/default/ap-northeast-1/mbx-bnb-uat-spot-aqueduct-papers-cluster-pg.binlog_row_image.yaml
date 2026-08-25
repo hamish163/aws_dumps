@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-spot-aqueduct-papers-cluster-pg.binlog_row_image
+specifics:
+  AllowedValues: full,minimal,noblob
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Whether the server logs full or minimal rows with row-based replication.
+  IsModifiable: true
+  ParameterName: binlog_row_image
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,28 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-08962f811c3efbc33
+specifics:
+  Description: Managed by Terraform
+  GroupId: sg-08962f811c3efbc33
+  GroupName: mbx-bnb-perf-kafka-pipe
+  Tags:
+  - Key: mbx_secret_store
+    Value: none
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_env_name
+    Value: perf
+  - Key: team
+    Value: mbx
+  - Key: mbx_application_name
+    Value: kafka-pipe
+  - Key: Name
+    Value: mbx-bnb-perf-kafka-pipe
+  - Key: biz
+    Value: mbx
+  VpcId: vpc-013930e589c469574
+...
+

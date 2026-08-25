@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-devops-papermill-ecs-instance-20251105154858115800000002
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonSSMManagedInstanceCore
+    PolicyName: AmazonSSMManagedInstanceCore
+  - PolicyArn: arn:aws:iam::aws:policy/service-role/AmazonEC2ContainerServiceforEC2Role
+    PolicyName: AmazonEC2ContainerServiceforEC2Role
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql17.autovacuum_vacuum_insert_threshold
+specifics:
+  AllowedValues: -1-2147483647
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Minimum number of tuple inserts prior to vacuum, or -1 to disable insert
+    vacuums.
+  IsModifiable: true
+  ParameterName: autovacuum_vacuum_insert_threshold
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,15 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: net.secfdg.safugpt/CNAME
+  single_region: true
+specifics:
+  Name: safugpt.secfdg.net.
+  ResourceRecords:
+  - Value: tf-safugptprod-alb-675756126.ap-northeast-1.elb.amazonaws.com
+  TTL: 300
+  Type: CNAME
+...
+

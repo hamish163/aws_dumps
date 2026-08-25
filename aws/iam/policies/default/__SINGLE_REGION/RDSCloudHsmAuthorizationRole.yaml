@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: RDSCloudHsmAuthorizationRole
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/RDSCloudHsmAuthorizationRole
+  AttachmentCount: 0
+  CreateDate: 2015-02-06 18:41:29+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIWKFXRLQG2ROKKXLE
+  PolicyName: RDSCloudHsmAuthorizationRole
+  UpdateDate: 2019-09-26 22:14:29+00:00
+...
+

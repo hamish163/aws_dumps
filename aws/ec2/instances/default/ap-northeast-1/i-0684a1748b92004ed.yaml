@@ -1,0 +1,141 @@
+---
+datatype: aws.ec2.instances
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-0684a1748b92004ed
+specifics:
+  AmiLaunchIndex: 0
+  Architecture: x86_64
+  BlockDeviceMappings:
+  - DeviceName: /dev/xvda
+    Ebs:
+      AttachTime: 2026-02-10 05:15:35+00:00
+      DeleteOnTermination: true
+      Status: attached
+      VolumeId: vol-034cbd59595403907
+  - DeviceName: /dev/sdf
+    Ebs:
+      AttachTime: 2026-02-10 05:16:07.705000+00:00
+      DeleteOnTermination: false
+      Status: attached
+      VolumeId: vol-0354e322fb613a6aa
+  BootMode: uefi-preferred
+  CapacityReservationSpecification:
+    CapacityReservationPreference: open
+  ClientToken: terraform-20260210051533907900000001
+  CpuOptions:
+    CoreCount: 16
+    ThreadsPerCore: 2
+  CurrentInstanceBootMode: uefi
+  EbsOptimized: true
+  EnaSupport: true
+  EnclaveOptions:
+    Enabled: false
+  HibernationOptions:
+    Configured: false
+  Hypervisor: xen
+  IamInstanceProfile:
+    Arn: arn:aws:iam::862793644923:instance-profile/mbx-bnb-perf-kline-push
+    Id: AIPA4RYUCHN5XYSWCTP7K
+  ImageId: ami-042bb437a2169b093
+  InstanceId: i-0684a1748b92004ed
+  InstanceType: c6i.8xlarge
+  LaunchTime: 2026-02-10 05:15:35+00:00
+  MaintenanceOptions:
+    AutoRecovery: default
+  MetadataOptions:
+    HttpEndpoint: enabled
+    HttpProtocolIpv6: disabled
+    HttpPutResponseHopLimit: 2
+    HttpTokens: required
+    InstanceMetadataTags: enabled
+    State: applied
+  Monitoring:
+    State: disabled
+  NetworkInterfaces:
+  - Attachment:
+      AttachTime: 2026-02-10 05:15:35+00:00
+      AttachmentId: eni-attach-09faabf355db56f65
+      DeleteOnTermination: true
+      DeviceIndex: 0
+      NetworkCardIndex: 0
+      Status: attached
+    Description: ''
+    Groups:
+    - GroupId: sg-0d95d0915c602741b
+      GroupName: mbx-bnb-perf-kline-push
+    - GroupId: sg-0930fe36728a6e31a
+      GroupName: mbx-bnb-perf-monitoring
+    - GroupId: sg-011d3bdd31cc014b3
+      GroupName: mbx-bnb-perf-default
+    InterfaceType: interface
+    Ipv6Addresses: []
+    MacAddress: 06:5f:80:fa:44:b3
+    NetworkInterfaceId: eni-0801fbe3817767d04
+    OwnerId: '862793644923'
+    PrivateDnsName: ip-10-170-19-218.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.170.19.218
+    PrivateIpAddresses:
+    - Primary: true
+      PrivateDnsName: ip-10-170-19-218.ap-northeast-1.compute.internal
+      PrivateIpAddress: 10.170.19.218
+    SourceDestCheck: true
+    Status: in-use
+    SubnetId: subnet-09134100e474d8109
+    VpcId: vpc-013930e589c469574
+  Placement:
+    AvailabilityZone: ap-northeast-1a
+    GroupId: pg-08f1d09fabee1d117
+    GroupName: mbx-bnb-perf-az-1a
+    Tenancy: default
+  PlatformDetails: Linux/UNIX
+  PrivateDnsName: ip-10-170-19-218.ap-northeast-1.compute.internal
+  PrivateDnsNameOptions:
+    EnableResourceNameDnsAAAARecord: false
+    EnableResourceNameDnsARecord: false
+    HostnameType: ip-name
+  PrivateIpAddress: 10.170.19.218
+  ProductCodes: []
+  PublicDnsName: ''
+  RootDeviceName: /dev/xvda
+  RootDeviceType: ebs
+  SecurityGroups:
+  - GroupId: sg-0d95d0915c602741b
+    GroupName: mbx-bnb-perf-kline-push
+  - GroupId: sg-0930fe36728a6e31a
+    GroupName: mbx-bnb-perf-monitoring
+  - GroupId: sg-011d3bdd31cc014b3
+    GroupName: mbx-bnb-perf-default
+  SourceDestCheck: true
+  State:
+    Code: 80
+    Name: stopped
+  StateReason:
+    Code: Client.InstanceInitiatedShutdown
+    Message: 'Client.InstanceInitiatedShutdown: Instance initiated shutdown'
+  StateTransitionReason: User initiated
+  SubnetId: subnet-09134100e474d8109
+  Tags:
+  - Key: Name
+    Value: mbx-bnb-perf-kline-push2
+  - Key: biz
+    Value: mbx
+  - Key: mbx_application_name
+    Value: mbx-data-kline
+  - Key: mbx_env_name
+    Value: perf
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_host_index
+    Value: '2'
+  - Key: mbx_secret_store
+    Value: asm
+  - Key: team
+    Value: mbx
+  UsageOperation: RunInstances
+  UsageOperationUpdateTime: 2026-02-10 05:15:35+00:00
+  VirtualizationType: hvm
+  VpcId: vpc-013930e589c469574
+...
+

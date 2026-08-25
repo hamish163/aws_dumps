@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-perf-swapchop-cluster-pg.binlog_transaction_dependency_tracking
+specifics:
+  AllowedValues: COMMIT_ORDER,WRITESET,WRITESET_SESSION
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: For a replication source server that has multithreaded replicas, specifies
+    the source of dependency information that the source records in the binary log
+    to help replicas determine which transactions can be executed in parallel.
+  IsModifiable: true
+  ParameterName: binlog_transaction_dependency_tracking
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql11.default_with_oids
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Create new tables with OIDs by default.
+  IsModifiable: true
+  ParameterName: default_with_oids
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+  - serverless
+...
+

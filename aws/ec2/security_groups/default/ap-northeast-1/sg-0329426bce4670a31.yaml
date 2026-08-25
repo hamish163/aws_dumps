@@ -1,0 +1,28 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0329426bce4670a31
+specifics:
+  Description: Security group for mbx-bnb-solutions-eks1-nlb-int LB
+  GroupId: sg-0329426bce4670a31
+  GroupName: mbx-bnb-solutions-eks1-nlb-int-sg
+  Tags:
+  - Key: mbx_secret_store
+    Value: none
+  - Key: mbx_env_name
+    Value: solutions
+  - Key: biz
+    Value: mbx
+  - Key: stack_path
+    Value: bnb/solutions/eks1/extras
+  - Key: Name
+    Value: mbx-bnb-solutions-eks1-nlb-int-sg
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  VpcId: vpc-0218545ff4351ce04
+...
+

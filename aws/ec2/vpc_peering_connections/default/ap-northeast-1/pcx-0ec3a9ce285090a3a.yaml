@@ -1,0 +1,34 @@
+---
+datatype: aws.ec2.vpc_peering_connections
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: pcx-0ec3a9ce285090a3a
+specifics:
+  AccepterVpcInfo:
+    CidrBlock: 10.80.0.0/16
+    CidrBlockSet:
+    - CidrBlock: 10.80.0.0/16
+    OwnerId: '369096419186'
+    Region: ap-northeast-1
+    VpcId: vpc-029b4f4077bf50002
+  RequesterVpcInfo:
+    CidrBlock: 10.143.0.0/16
+    CidrBlockSet:
+    - CidrBlock: 10.143.0.0/16
+    OwnerId: '862793644923'
+    PeeringOptions:
+      AllowDnsResolutionFromRemoteVpc: false
+      AllowEgressFromLocalClassicLinkToRemoteVpc: false
+      AllowEgressFromLocalVpcToRemoteClassicLink: false
+    Region: ap-northeast-1
+    VpcId: vpc-097095a8b70ef6727
+  Status:
+    Code: active
+    Message: Active
+  Tags:
+  - Key: Name
+    Value: saltmaster-vpc_to_testnet
+  VpcPeeringConnectionId: pcx-0ec3a9ce285090a3a
+...
+

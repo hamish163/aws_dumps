@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-devops-common-cluster-pg.innodb_thread_sleep_delay
+specifics:
+  AllowedValues: 0-9223372036854775807
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: How long innodb threads sleep before joining the innodb queue, in microseconds.
+  IsModifiable: true
+  ParameterName: innodb_thread_sleep_delay
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

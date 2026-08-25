@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSApplicationMigrationAgentInstallationPolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSApplicationMigrationAgentInstallationPolicy
+  AttachmentCount: 0
+  CreateDate: 2022-06-19 07:51:04+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4CCKR37CNT
+  PolicyName: AWSApplicationMigrationAgentInstallationPolicy
+  UpdateDate: 2022-09-20 11:21:24+00:00
+...
+

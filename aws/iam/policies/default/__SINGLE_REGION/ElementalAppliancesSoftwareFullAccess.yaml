@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: ElementalAppliancesSoftwareFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/ElementalAppliancesSoftwareFullAccess
+  AttachmentCount: 0
+  CreateDate: 2019-07-31 16:28:53+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4DHARJPIR5
+  PolicyName: ElementalAppliancesSoftwareFullAccess
+  UpdateDate: 2021-02-05 21:01:25+00:00
+...
+

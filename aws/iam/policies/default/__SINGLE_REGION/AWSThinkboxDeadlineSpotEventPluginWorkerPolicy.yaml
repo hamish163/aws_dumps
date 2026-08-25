@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSThinkboxDeadlineSpotEventPluginWorkerPolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSThinkboxDeadlineSpotEventPluginWorkerPolicy
+  AttachmentCount: 0
+  CreateDate: 2020-05-27 19:35:00+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4JS2KSV4B2
+  PolicyName: AWSThinkboxDeadlineSpotEventPluginWorkerPolicy
+  UpdateDate: 2020-12-07 23:31:31+00:00
+...
+

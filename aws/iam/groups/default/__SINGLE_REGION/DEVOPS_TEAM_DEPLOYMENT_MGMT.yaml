@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.groups
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: DEVOPS_TEAM_DEPLOYMENT_MGMT
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:group/DEVOPS_TEAM_DEPLOYMENT_MGMT
+  CreateDate: 2022-02-08 09:39:50+00:00
+  GroupId: AGPA4RYUCHN57LKEBZWAF
+  GroupName: DEVOPS_TEAM_DEPLOYMENT_MGMT
+  Path: /
+...
+

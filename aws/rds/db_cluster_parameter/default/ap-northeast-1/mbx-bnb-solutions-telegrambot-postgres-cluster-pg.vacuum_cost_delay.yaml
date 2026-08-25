@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-solutions-telegrambot-postgres-cluster-pg.vacuum_cost_delay
+specifics:
+  AllowedValues: 0-100
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: (ms) Vacuum cost delay in milliseconds.
+  IsModifiable: true
+  ParameterName: vacuum_cost_delay
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,18 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql11.server_encoding
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: Sets the server (database) character set encoding.
+  IsModifiable: false
+  ParameterName: server_encoding
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-perf-key-cluster-pg.table_cache_element_entry_ttl
+specifics:
+  AllowedValues: '5'
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: table_cache_element_entry_ttl
+  IsModifiable: false
+  ParameterName: table_cache_element_entry_ttl
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

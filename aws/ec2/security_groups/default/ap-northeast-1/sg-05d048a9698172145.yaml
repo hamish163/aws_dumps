@@ -1,0 +1,26 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-05d048a9698172145
+specifics:
+  Description: Security group for mbx-bnb-solutions-mcp-server-prod valkey cluster
+  GroupId: sg-05d048a9698172145
+  GroupName: mbx-bnb-solutions-mcp-server-prod-valkey
+  Tags:
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  - Key: mbx_env_name
+    Value: solutions
+  - Key: mbx_secret_store
+    Value: none
+  - Key: mbx_tf_stack
+    Value: /bnb/solutions/mcp_server/elasticache
+  - Key: biz
+    Value: mbx
+  VpcId: vpc-0218545ff4351ce04
+...
+

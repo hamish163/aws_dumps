@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vpce-08cd8b33e5995ae2e
+specifics:
+  Name: test-s3-endpoint
+...
+

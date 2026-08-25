@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-perf-spade-system-cluster-pg.max_join_size
+specifics:
+  AllowedValues: 1-18446744073709551615
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: 'Catch SELECT statements where keys are not used properly and would
+    probably take a long time. '
+  IsModifiable: true
+  ParameterName: max_join_size
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

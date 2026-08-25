@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonLookoutEquipmentReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonLookoutEquipmentReadOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2021-05-05 16:47:55+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4DNIMPJYBT
+  PolicyName: AmazonLookoutEquipmentReadOnlyAccess
+  UpdateDate: 2022-11-10 22:04:33+00:00
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonSSMServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AmazonSSMServiceRolePolicy
+  AttachmentCount: 1
+  CreateDate: 2017-11-13 19:20:08+00:00
+  DefaultVersionId: v17
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIXJ26NUGBA3TCV7EC
+  PolicyName: AmazonSSMServiceRolePolicy
+  UpdateDate: 2026-06-26 19:12:18+00:00
+...
+

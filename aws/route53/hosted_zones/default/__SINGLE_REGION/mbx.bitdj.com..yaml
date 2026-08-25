@@ -1,0 +1,17 @@
+---
+datatype: aws.route53.hosted_zones
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx.bitdj.com.
+  single_region: true
+specifics:
+  CallerReference: 95c492e9-0a60-4060-9192-694c27eb2942
+  Config:
+    Comment: private hosted zone for only MBX Hub
+    PrivateZone: true
+  Id: /hostedzone/Z07481473QNBEELH3EMVX
+  Name: mbx.bitdj.com.
+  ResourceRecordSetCount: 9
+...
+

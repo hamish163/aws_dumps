@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-04dff4389d80f6042
+specifics:
+  Description: Allow TCP traffic from fix-api-dropcopy SG to Memcache
+  FromPort: 11211
+  GroupId: sg-063867aea1346f589
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-003fd6089b98cefe3
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-04dff4389d80f6042
+  Tags: []
+  ToPort: 11211
+...
+

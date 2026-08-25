@@ -1,0 +1,13 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: test-role-bgjnogje
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/service-role/AWSLambdaBasicExecutionRole-05b19350-938a-4066-8ef2-045c6324d6a9
+    PolicyName: AWSLambdaBasicExecutionRole-05b19350-938a-4066-8ef2-045c6324d6a9
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonCognitoPowerUser
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonCognitoPowerUser
+  AttachmentCount: 0
+  CreateDate: 2015-03-24 17:14:56+00:00
+  DefaultVersionId: v9
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJKW5H2HNCPGCYGR6Y
+  PolicyName: AmazonCognitoPowerUser
+  UpdateDate: 2026-02-12 18:00:09+00:00
+...
+

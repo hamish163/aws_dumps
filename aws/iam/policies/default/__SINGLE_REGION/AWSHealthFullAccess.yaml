@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSHealthFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSHealthFullAccess
+  AttachmentCount: 1
+  CreateDate: 2016-12-06 12:30:31+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAI3CUMPCPEUPCSXC4Y
+  PolicyName: AWSHealthFullAccess
+  UpdateDate: 2020-11-16 18:11:34+00:00
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSQuickSetupCFGCPacksPermissionsBoundary
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSQuickSetupCFGCPacksPermissionsBoundary
+  AttachmentCount: 0
+  CreateDate: 2024-06-26 09:52:11+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4LKE6YGWKG
+  PolicyName: AWSQuickSetupCFGCPacksPermissionsBoundary
+  UpdateDate: 2024-06-26 09:52:11+00:00
+...
+

@@ -1,0 +1,16 @@
+---
+datatype: aws.iam.users
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: fulara
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/fulara
+  CreateDate: 2021-01-26 06:19:27+00:00
+  PasswordLastUsed: 2026-07-10 05:28:45+00:00
+  Path: /
+  UserId: AIDA4RYUCHN5YWDJZY74H
+  UserName: fulara
+...
+

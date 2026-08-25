@@ -1,0 +1,28 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql11.rds.extensions
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: List of extensions provided by RDS
+  IsModifiable: false
+  ParameterName: rds.extensions
+  ParameterValue: address_standardizer, address_standardizer_data_us, apg_plan_mgmt,
+    aurora_stat_utils, amcheck, aws_commons, aws_lambda, aws_ml, aws_s3, bloom, btree_gin,
+    btree_gist, citext, cube, dblink, dict_int, dict_xsyn, earthdistance, fuzzystrmatch,
+    hll, hstore, hstore_plperl, intagg, intarray, ip4r, isn, jsonb_plperl, lo, log_fdw,
+    ltree, orafce, pgaudit, pgcrypto, pglogical, pgrouting, pgrowlocks, pgstattuple,
+    pgtap, pg_bigm, pg_buffercache, pg_freespacemap, pg_hint_plan, pg_prewarm, pg_proctab,
+    pg_repack, pg_similarity, pg_stat_statements, pg_trgm, pg_visibility, plcoffee,
+    plls, plperl, plpgsql, plprofiler, pltcl, plv8, postgis, postgis_raster, postgis_tiger_geocoder,
+    postgis_topology, postgres_fdw, prefix, rdkit, rds_tools, seg, sslinfo, tablefunc,
+    tcn, tsm_system_rows, tsm_system_time, unaccent, uuid-ossp
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,16 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-06b413074de5367c9
+specifics:
+  Description: perf_mbx_tracky_sg
+  GroupId: sg-06b413074de5367c9
+  GroupName: perf_mbx_tracky_sg
+  Tags:
+  - Key: Name
+    Value: perf_mbx_tracky_sg
+  VpcId: vpc-0a7d9bfaa80b951d9
+...
+

@@ -1,0 +1,31 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: tungsten-cicd-test1
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/mbx/devops/service/tungsten-cicd-test1
+  CreateDate: 2024-03-28 10:16:02+00:00
+  InstanceProfileId: AIPA4RYUCHN53DATKK6XE
+  InstanceProfileName: tungsten-cicd-test1
+  Path: /mbx/devops/service/
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/mbx/devops/service/tungsten-cicd-test1
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service:
+          - ec2.amazonaws.com
+          - cloudformation.amazonaws.com
+          - states.amazonaws.com
+      Version: '2012-10-17'
+    CreateDate: 2024-03-28 10:16:02+00:00
+    Path: /mbx/devops/service/
+    RoleId: AROA4RYUCHN5QU32IUMEL
+    RoleName: tungsten-cicd-test1
+...
+

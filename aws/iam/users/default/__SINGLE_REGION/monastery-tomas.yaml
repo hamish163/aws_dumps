@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.users
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: monastery-tomas
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/monastery-tomas
+  CreateDate: 2026-08-17 05:39:24+00:00
+  Path: /
+  UserId: AIDA4RYUCHN5UMA4VCVNN
+  UserName: monastery-tomas
+...
+

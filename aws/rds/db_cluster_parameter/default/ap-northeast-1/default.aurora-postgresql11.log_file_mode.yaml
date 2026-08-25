@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql11.log_file_mode
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Sets the file permissions for log files.
+  IsModifiable: false
+  ParameterName: log_file_mode
+  ParameterValue: '0644'
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,102 @@
+---
+datatype: aws.rds.db_instance
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-spade-account-db-c1-s1-writer
+specifics:
+  AllocatedStorage: 1
+  AssociatedRoles: []
+  AutoMinorVersionUpgrade: false
+  AvailabilityZone: ap-northeast-1a
+  BackupRetentionPeriod: 7
+  BackupTarget: region
+  CACertificateIdentifier: rds-ca-ecc384-g1
+  CertificateDetails:
+    CAIdentifier: rds-ca-ecc384-g1
+    ValidTill: 2027-04-26 14:53:29+00:00
+  CopyTagsToSnapshot: false
+  CustomerOwnedIpEnabled: false
+  DBClusterIdentifier: mbx-bnb-uat-spade-account-db-c1-s1
+  DBInstanceArn: arn:aws:rds:ap-northeast-1:862793644923:db:mbx-bnb-uat-spade-account-db-c1-s1-writer
+  DBInstanceClass: db.t3.medium
+  DBInstanceIdentifier: mbx-bnb-uat-spade-account-db-c1-s1-writer
+  DBInstanceStatus: available
+  DBParameterGroups:
+  - DBParameterGroupName: mbx-bnb-uat-spade-account-instance-pg
+    ParameterApplyStatus: in-sync
+  DBSecurityGroups: []
+  DBSubnetGroup:
+    DBSubnetGroupDescription: Managed by Terraform
+    DBSubnetGroupName: mbx-bnb-uat-db
+    SubnetGroupStatus: Complete
+    Subnets:
+    - SubnetAvailabilityZone:
+        Name: ap-northeast-1a
+      SubnetIdentifier: subnet-0032f8c1960aa302c
+      SubnetOutpost: {}
+      SubnetStatus: Active
+    - SubnetAvailabilityZone:
+        Name: ap-northeast-1c
+      SubnetIdentifier: subnet-024f8c516c6e8b31b
+      SubnetOutpost: {}
+      SubnetStatus: Active
+    VpcId: vpc-0b3ce57b4c748893b
+  DbInstancePort: 0
+  DbiResourceId: db-2JNVS4UZNOAFA3RR2SSXK67EZ4
+  DedicatedLogVolume: false
+  DeletionProtection: false
+  DomainMemberships: []
+  Endpoint:
+    Address: mbx-bnb-uat-spade-account-db-c1-s1-writer.cvmjht5arg7h.ap-northeast-1.rds.amazonaws.com
+    HostedZoneId: Z24O6O9L7SGTNB
+    Port: 3306
+  Engine: aurora-mysql
+  EngineVersion: 8.0.mysql_aurora.3.04.3
+  EnhancedMonitoringResourceArn: arn:aws:logs:ap-northeast-1:862793644923:log-group:RDSOSMetrics:log-stream:db-2JNVS4UZNOAFA3RR2SSXK67EZ4
+  IAMDatabaseAuthenticationEnabled: false
+  InstanceCreateTime: 2024-10-18 08:32:54.366000+00:00
+  KmsKeyId: arn:aws:kms:ap-northeast-1:862793644923:key/4d70afbb-e9b9-4bb7-83f2-8de31f8a5460
+  LicenseModel: general-public-license
+  MasterUsername: mbxprd
+  MonitoringInterval: 60
+  MonitoringRoleArn: arn:aws:iam::862793644923:role/rds-monitoring-role
+  MultiAZ: false
+  NetworkType: IPV4
+  OptionGroupMemberships:
+  - OptionGroupName: default:aurora-mysql-8-0
+    Status: in-sync
+  PendingModifiedValues: {}
+  PerformanceInsightsEnabled: false
+  PreferredBackupWindow: 15:12-15:42
+  PreferredMaintenanceWindow: sun:14:42-sun:15:12
+  PromotionTier: 0
+  PubliclyAccessible: false
+  ReadReplicaDBInstanceIdentifiers: []
+  StorageEncrypted: true
+  StorageThroughput: 0
+  StorageType: aurora
+  TagList:
+  - Key: biz
+    Value: mbx
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_clustered_application
+    Value: 'false'
+  - Key: mbx_secret_store
+    Value: asm
+  - Key: cluster_group
+    Value: spade-account_c1
+  - Key: mbx_env_name
+    Value: uat
+  - Key: mbx_env_type
+    Value: multi-node
+  - Key: team
+    Value: mbx
+  - Key: Name
+    Value: mbx-bnb-uat-spade-account-db-c1-s1-writer
+  VpcSecurityGroups:
+  - Status: active
+    VpcSecurityGroupId: sg-02f92eb38a86a3934
+...
+

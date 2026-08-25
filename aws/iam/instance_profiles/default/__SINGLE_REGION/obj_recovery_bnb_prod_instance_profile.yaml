@@ -1,0 +1,16 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: obj_recovery_bnb_prod_instance_profile
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/obj_recovery_bnb_prod_instance_profile
+  CreateDate: 2023-05-02 05:29:00+00:00
+  InstanceProfileId: AIPA4RYUCHN57KJFQ52WG
+  InstanceProfileName: obj_recovery_bnb_prod_instance_profile
+  Path: /
+  Roles: []
+...
+

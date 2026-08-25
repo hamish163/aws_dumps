@@ -1,0 +1,28 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-uat-privatestream-audit
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/mbx-bnb-uat-privatestream-audit
+  CreateDate: 2024-12-26 03:36:30+00:00
+  InstanceProfileId: AIPA4RYUCHN5S2CYJFECI
+  InstanceProfileName: mbx-bnb-uat-privatestream-audit
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/mbx-bnb-uat-privatestream-audit
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+      Version: '2012-10-17'
+    CreateDate: 2024-12-26 03:36:29+00:00
+    Path: /
+    RoleId: AROA4RYUCHN52CAW2QEZA
+    RoleName: mbx-bnb-uat-privatestream-audit
+...
+

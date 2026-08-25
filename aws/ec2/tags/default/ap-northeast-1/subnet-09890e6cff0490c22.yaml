@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: subnet-09890e6cff0490c22
+specifics:
+  Name: solution_infra_sol1_external0_net
+  env: infra
+  project: sol1
+...
+

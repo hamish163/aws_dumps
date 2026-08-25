@@ -1,0 +1,22 @@
+---
+datatype: aws.ec2.volume_status
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-06f39e84ba91cfede
+specifics:
+  Actions: []
+  AvailabilityZone: ap-northeast-1a
+  Events: []
+  VolumeId: vol-06f39e84ba91cfede
+  VolumeStatus:
+    Details:
+    - Name: io-enabled
+      Status: passed
+    - Name: io-performance
+      Status: not-applicable
+    - Name: initialization-state
+      Status: completed
+    Status: ok
+...
+

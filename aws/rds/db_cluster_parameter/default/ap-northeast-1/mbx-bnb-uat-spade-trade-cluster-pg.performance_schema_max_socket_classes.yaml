@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-spade-trade-cluster-pg.performance_schema_max_socket_classes
+specifics:
+  AllowedValues: 0-256
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: The maximum number of socket instruments.
+  IsModifiable: true
+  ParameterName: performance_schema_max_socket_classes
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonRekognitionServiceRole
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AmazonRekognitionServiceRole
+  AttachmentCount: 0
+  CreateDate: 2017-11-29 16:52:13+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJI6Q3CUQAVBJ2CTE2
+  PolicyName: AmazonRekognitionServiceRole
+  UpdateDate: 2017-11-29 16:52:13+00:00
+...
+

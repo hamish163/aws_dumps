@@ -1,0 +1,22 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0822b58129b7967cf
+specifics:
+  Description: Monitoring SG for bnb prod-gw bastion instances
+  GroupId: sg-0822b58129b7967cf
+  GroupName: mbx-bnb-prod-gw-monitoring
+  Tags:
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: biz
+    Value: mbx
+  - Key: team
+    Value: mbx
+  - Key: mbx_env_name
+    Value: prod
+  VpcId: vpc-02b8e59b778077bf9
+...
+

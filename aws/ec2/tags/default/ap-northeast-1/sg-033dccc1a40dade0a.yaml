@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-033dccc1a40dade0a
+specifics:
+  ingress.k8s.aws/cluster: ap2.bitdj.com
+  ingress.k8s.aws/resource: ManagedLBSecurityGroup
+  ingress.k8s.aws/stack: rest
+...
+

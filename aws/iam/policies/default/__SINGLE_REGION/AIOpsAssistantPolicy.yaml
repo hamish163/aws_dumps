@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AIOpsAssistantPolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AIOpsAssistantPolicy
+  AttachmentCount: 0
+  CreateDate: 2024-12-02 16:21:06+00:00
+  DefaultVersionId: v15
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4LSO5ZZZOE
+  PolicyName: AIOpsAssistantPolicy
+  UpdateDate: 2026-02-12 17:57:22+00:00
+...
+

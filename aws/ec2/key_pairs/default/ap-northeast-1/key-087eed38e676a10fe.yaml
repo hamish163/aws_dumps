@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.key_pairs
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: key-087eed38e676a10fe
+specifics:
+  CreateTime: 2018-07-03 14:41:43+00:00
+  KeyFingerprint: d9:de:ba:73:14:d8:2e:4f:5d:25:2e:62:c2:74:68:d6:48:5c:b7:5d
+  KeyName: omar-bastion-ssh
+  KeyPairId: key-087eed38e676a10fe
+  KeyType: rsa
+  Tags: []
+...
+

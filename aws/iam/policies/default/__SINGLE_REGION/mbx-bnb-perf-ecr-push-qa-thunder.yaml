@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-perf-ecr-push-qa-thunder
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/mbx-bnb-perf-ecr-push-qa-thunder
+  AttachmentCount: 1
+  CreateDate: 2026-08-04 02:36:51+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5QVS7JKCYG
+  PolicyName: mbx-bnb-perf-ecr-push-qa-thunder
+  UpdateDate: 2026-08-04 02:36:51+00:00
+...
+

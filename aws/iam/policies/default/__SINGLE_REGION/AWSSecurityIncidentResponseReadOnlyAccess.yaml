@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSSecurityIncidentResponseReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSSecurityIncidentResponseReadOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2024-12-01 23:06:06+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4BW45DRUEH
+  PolicyName: AWSSecurityIncidentResponseReadOnlyAccess
+  UpdateDate: 2026-04-22 16:12:20+00:00
+...
+

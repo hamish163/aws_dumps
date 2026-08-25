@@ -1,0 +1,14 @@
+---
+datatype: aws.iam.mfa_devices
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: helen
+  single_region: true
+specifics:
+  MFADevices:
+  - EnableDate: 2026-01-06 10:19:47+00:00
+    SerialNumber: arn:aws:iam::862793644923:u2f/user/helen/yubiKey-Z444EN42JBGWTAHVPQ44ZBL7WA
+    UserName: helen
+...
+

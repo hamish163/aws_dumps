@@ -1,0 +1,28 @@
+---
+datatype: aws.iam.account_authorization_details
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: philippe
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/philippe
+  AttachedManagedPolicies: []
+  CreateDate: 2026-04-09 08:41:03+00:00
+  GroupList:
+  - developer
+  - mbx_bedrock
+  Path: /
+  Tags:
+  - Key: team
+    Value: ''
+  - Key: biz
+    Value: ''
+  - Key: mbx_team
+    Value: dev
+  - Key: mbx_iam
+    Value: philippe
+  UserId: AIDA4RYUCHN5T2XIPT7ZO
+  UserName: philippe
+...
+

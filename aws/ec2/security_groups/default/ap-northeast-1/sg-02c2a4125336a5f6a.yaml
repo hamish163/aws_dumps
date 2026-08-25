@@ -1,0 +1,28 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-02c2a4125336a5f6a
+specifics:
+  Description: Managed by Terraform
+  GroupId: sg-02c2a4125336a5f6a
+  GroupName: mbx-bnb-solutions-telegrambot
+  Tags:
+  - Key: Name
+    Value: mbx-bnb-solutions-telegrambot
+  - Key: biz
+    Value: mbx
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_secret_store
+    Value: none
+  - Key: team
+    Value: mbx
+  - Key: mbx_clustered_application
+    Value: 'true'
+  - Key: mbx_env_name
+    Value: solutions
+  VpcId: vpc-0218545ff4351ce04
+...
+

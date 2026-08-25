@@ -1,0 +1,18 @@
+---
+datatype: aws.iam.user_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: stan
+  single_region: true
+specifics:
+  PolicyNames:
+  - api-gateway
+  - Assume-Prod-Windmill-Papermill-role
+  - EKSAccess
+  - EMRStudioAccess
+  - Execute_step_functions_from_console
+  - Upload-nginx-image-builder
+  - vizzy-config
+...
+

@@ -1,0 +1,16 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-0732364fe52fd0bd1
+specifics:
+  Name: mbx-bnb-perf-account-cache11
+  biz: mbx
+  mbx_env_name: perf
+  mbx_exchange_name: bnb
+  mbx_host_index: '11'
+  mbx_secret_store: none
+  team: mbx
+...
+

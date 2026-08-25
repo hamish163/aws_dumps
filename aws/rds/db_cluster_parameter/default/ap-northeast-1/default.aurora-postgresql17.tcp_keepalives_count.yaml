@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql17.tcp_keepalives_count
+specifics:
+  AllowedValues: 0-2147483647
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Maximum number of TCP keepalive retransmits.
+  IsModifiable: true
+  ParameterName: tcp_keepalives_count
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

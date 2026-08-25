@@ -1,0 +1,38 @@
+---
+datatype: aws.ec2.volumes
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-0241b458a20ea63f1
+specifics:
+  Attachments:
+  - AttachTime: 2026-02-16 10:38:35+00:00
+    DeleteOnTermination: false
+    Device: /dev/sdf
+    InstanceId: i-096167e07d26b01e5
+    State: attached
+    VolumeId: vol-0241b458a20ea63f1
+  AvailabilityZone: ap-northeast-1a
+  CreateTime: 2026-02-16 10:38:11.605000+00:00
+  Encrypted: false
+  Iops: 3000
+  MultiAttachEnabled: false
+  Size: 20
+  SnapshotId: ''
+  State: in-use
+  Tags:
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  - Key: Name
+    Value: mbx-bnb-devops-redshirts-al2023-graviton1
+  - Key: mbx_env_name
+    Value: devops
+  Throughput: 125
+  VolumeId: vol-0241b458a20ea63f1
+  VolumeType: gp3
+...
+

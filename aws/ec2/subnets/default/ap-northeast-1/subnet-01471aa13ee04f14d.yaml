@@ -1,0 +1,40 @@
+---
+datatype: aws.ec2.subnets
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: subnet-01471aa13ee04f14d
+specifics:
+  AssignIpv6AddressOnCreation: false
+  AvailabilityZone: ap-northeast-1a
+  AvailabilityZoneId: apne1-az4
+  AvailableIpAddressCount: 251
+  CidrBlock: 10.220.21.0/24
+  DefaultForAz: false
+  EnableDns64: false
+  Ipv6CidrBlockAssociationSet: []
+  Ipv6Native: false
+  MapCustomerOwnedIpOnLaunch: false
+  MapPublicIpOnLaunch: false
+  OwnerId: '862793644923'
+  PrivateDnsNameOptionsOnLaunch:
+    EnableResourceNameDnsAAAARecord: false
+    EnableResourceNameDnsARecord: false
+    HostnameType: ip-name
+  State: available
+  SubnetArn: arn:aws:ec2:ap-northeast-1:862793644923:subnet/subnet-01471aa13ee04f14d
+  SubnetId: subnet-01471aa13ee04f14d
+  Tags:
+  - Key: Name
+    Value: mbx-tools-prod-subnet-db1-az-1a
+  - Key: biz
+    Value: mbx
+  - Key: mbx_env_name
+    Value: prod
+  - Key: mbx_exchange_name
+    Value: tools
+  - Key: team
+    Value: mbx
+  VpcId: vpc-0f055c381f89cb200
+...
+

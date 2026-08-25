@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonSageMakerCanvasAIServicesAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonSageMakerCanvasAIServicesAccess
+  AttachmentCount: 0
+  CreateDate: 2023-03-23 22:36:43+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4IA6MZINCJ
+  PolicyName: AmazonSageMakerCanvasAIServicesAccess
+  UpdateDate: 2023-11-29 14:47:09+00:00
+...
+

@@ -1,0 +1,140 @@
+---
+datatype: aws.ec2.instances
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-0338d5d7dbd3b148a
+specifics:
+  AmiLaunchIndex: 0
+  Architecture: x86_64
+  BlockDeviceMappings:
+  - DeviceName: /dev/xvda
+    Ebs:
+      AttachTime: 2019-09-18 02:09:36+00:00
+      DeleteOnTermination: true
+      Status: attached
+      VolumeId: vol-06c7938d6d7339a75
+  CapacityReservationSpecification:
+    CapacityReservationPreference: open
+  ClientToken: ''
+  CpuOptions:
+    CoreCount: 8
+    ThreadsPerCore: 2
+  CurrentInstanceBootMode: legacy-bios
+  EbsOptimized: true
+  EnaSupport: true
+  EnclaveOptions:
+    Enabled: false
+  HibernationOptions:
+    Configured: false
+  Hypervisor: xen
+  IamInstanceProfile:
+    Arn: arn:aws:iam::862793644923:instance-profile/tkyprodEC2RoleTrackyMaster
+    Id: AIPAIUBRSH7MBK5PUNKEM
+  ImageId: ami-0b0513a7120991c09
+  InstanceId: i-0338d5d7dbd3b148a
+  InstanceType: m5.4xlarge
+  LaunchTime: 2021-09-14 09:13:48+00:00
+  MaintenanceOptions:
+    AutoRecovery: default
+  MetadataOptions:
+    HttpEndpoint: enabled
+    HttpProtocolIpv6: disabled
+    HttpPutResponseHopLimit: 1
+    HttpTokens: optional
+    InstanceMetadataTags: enabled
+    State: applied
+  Monitoring:
+    State: disabled
+  NetworkInterfaces:
+  - Association:
+      IpOwnerId: '862793644923'
+      PublicDnsName: ec2-3-113-176-60.ap-northeast-1.compute.amazonaws.com
+      PublicIp: 3.113.176.60
+    Attachment:
+      AttachTime: 2019-09-18 02:09:35+00:00
+      AttachmentId: eni-attach-0a189c21854e47e83
+      DeleteOnTermination: true
+      DeviceIndex: 0
+      NetworkCardIndex: 0
+      Status: attached
+    Description: ''
+    Groups:
+    - GroupId: sg-05e60d20221e31e45
+      GroupName: tky-prod-baserules-tracky-bitdj.com
+    - GroupId: sg-051d10d7a77e36101
+      GroupName: tky-prod-master-tracky-bitdj.com
+    - GroupId: sg-0e860051a2aff9e81
+      GroupName: mbx-bnb-prod-tracky-default
+    InterfaceType: interface
+    Ipv6Addresses: []
+    MacAddress: 06:36:3c:b8:f8:6a
+    NetworkInterfaceId: eni-02227aa9a9bfdd055
+    OwnerId: '862793644923'
+    PrivateDnsName: ip-172-27-2-126.ap-northeast-1.compute.internal
+    PrivateIpAddress: 172.27.2.126
+    PrivateIpAddresses:
+    - Association:
+        IpOwnerId: '862793644923'
+        PublicDnsName: ec2-3-113-176-60.ap-northeast-1.compute.amazonaws.com
+        PublicIp: 3.113.176.60
+      Primary: true
+      PrivateDnsName: ip-172-27-2-126.ap-northeast-1.compute.internal
+      PrivateIpAddress: 172.27.2.126
+    SourceDestCheck: true
+    Status: in-use
+    SubnetId: subnet-09d026f6e1a1cd1f7
+    VpcId: vpc-03f5d2495fd8d95a3
+  Placement:
+    AvailabilityZone: ap-northeast-1a
+    GroupName: ''
+    Tenancy: default
+  PlatformDetails: Linux/UNIX
+  PrivateDnsName: ip-172-27-2-126.ap-northeast-1.compute.internal
+  PrivateDnsNameOptions: {}
+  PrivateIpAddress: 172.27.2.126
+  ProductCodes: []
+  PublicDnsName: ec2-3-113-176-60.ap-northeast-1.compute.amazonaws.com
+  PublicIpAddress: 3.113.176.60
+  RootDeviceName: /dev/xvda
+  RootDeviceType: ebs
+  SecurityGroups:
+  - GroupId: sg-05e60d20221e31e45
+    GroupName: tky-prod-baserules-tracky-bitdj.com
+  - GroupId: sg-051d10d7a77e36101
+    GroupName: tky-prod-master-tracky-bitdj.com
+  - GroupId: sg-0e860051a2aff9e81
+    GroupName: mbx-bnb-prod-tracky-default
+  SourceDestCheck: true
+  State:
+    Code: 16
+    Name: running
+  StateTransitionReason: ''
+  SubnetId: subnet-09d026f6e1a1cd1f7
+  Tags:
+  - Key: Name
+    Value: bnb_prod_mbx_tracky-master1_ec2
+  - Key: biz
+    Value: mbx
+  - Key: mbx_env_name
+    Value: prod
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_host_index
+    Value: '1'
+  - Key: role
+    Value: tracky
+  - Key: sre-app
+    Value: tracky
+  - Key: sre-component
+    Value: tracky
+  - Key: sre-env
+    Value: prod
+  - Key: team
+    Value: sre
+  UsageOperation: RunInstances
+  UsageOperationUpdateTime: 2019-09-18 02:09:35+00:00
+  VirtualizationType: hvm
+  VpcId: vpc-03f5d2495fd8d95a3
+...
+

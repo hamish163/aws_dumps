@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-aggtrade-cluster-pg.log_error
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: Location  of error log.
+  IsModifiable: false
+  ParameterName: log_error
+  ParameterValue: /rdsdbdata/log/error/mysql-error.log
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

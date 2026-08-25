@@ -1,0 +1,38 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-030d86acd28004f08
+specifics:
+  Attachment:
+    AttachmentId: ela-attach-066582e1e1a718b28
+    DeleteOnTermination: false
+    DeviceIndex: 1
+    InstanceOwnerId: amazon-aws
+    Status: attached
+  AvailabilityZone: ap-northeast-1c
+  Description: VPC Endpoint Interface vpce-0a24a8df06ff9b918
+  Groups:
+  - GroupId: sg-0bd170becaa31c015
+    GroupName: mbx-bnb-solutions-rest-api-ai-vpc-endpoint
+  InterfaceType: vpc_endpoint
+  Ipv6Addresses: []
+  MacAddress: 0a:ca:7c:bf:da:41
+  NetworkInterfaceId: eni-030d86acd28004f08
+  OwnerId: '862793644923'
+  PrivateDnsName: ip-10-230-4-140.ap-northeast-1.compute.internal
+  PrivateIpAddress: 10.230.4.140
+  PrivateIpAddresses:
+  - Primary: true
+    PrivateDnsName: ip-10-230-4-140.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.230.4.140
+  RequesterId: '727180483921'
+  RequesterManaged: true
+  SourceDestCheck: true
+  Status: in-use
+  SubnetId: subnet-05b36c9e615f5ae49
+  TagSet: []
+  VpcId: vpc-0218545ff4351ce04
+...
+

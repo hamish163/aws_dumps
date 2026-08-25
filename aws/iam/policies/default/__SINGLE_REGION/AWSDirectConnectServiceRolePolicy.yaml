@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSDirectConnectServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AWSDirectConnectServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2021-01-14 18:35:27+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4O7743JCTQ
+  PolicyName: AWSDirectConnectServiceRolePolicy
+  UpdateDate: 2021-01-14 18:35:27+00:00
+...
+

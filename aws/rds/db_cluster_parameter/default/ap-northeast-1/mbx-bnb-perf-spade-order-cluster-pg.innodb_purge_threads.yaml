@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-perf-spade-order-cluster-pg.innodb_purge_threads
+specifics:
+  AllowedValues: 1-32
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: The number of background threads devoted to the InnoDB purge operation
+  IsModifiable: true
+  ParameterName: innodb_purge_threads
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

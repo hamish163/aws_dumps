@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSBackupGuardDutyRolePolicyForScans
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSBackupGuardDutyRolePolicyForScans
+  AttachmentCount: 0
+  CreateDate: 2025-11-20 03:34:12+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4N3UZUTJU2
+  PolicyName: AWSBackupGuardDutyRolePolicyForScans
+  UpdateDate: 2026-02-12 17:59:22+00:00
+...
+

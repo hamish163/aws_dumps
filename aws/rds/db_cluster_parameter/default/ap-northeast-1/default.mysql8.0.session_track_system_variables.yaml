@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.session_track_system_variables
+specifics:
+  AllowedValues: time_zone,autocommit,character_set_client,character_set_results,character_set_connection
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: list
+  Description: Whether the server tracks changes to the session system variables and
+    notifies the client when changes occur.
+  IsModifiable: true
+  ParameterName: session_track_system_variables
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

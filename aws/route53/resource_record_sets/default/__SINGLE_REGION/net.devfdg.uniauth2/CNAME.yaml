@@ -1,0 +1,15 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: net.devfdg.uniauth2/CNAME
+  single_region: true
+specifics:
+  Name: uniauth2.devfdg.net.
+  ResourceRecords:
+  - Value: internal-k8s-infratoo-traefiki-40c0b97d4a-1745077933.ap-northeast-1.elb.amazonaws.com
+  TTL: 300
+  Type: CNAME
+...
+

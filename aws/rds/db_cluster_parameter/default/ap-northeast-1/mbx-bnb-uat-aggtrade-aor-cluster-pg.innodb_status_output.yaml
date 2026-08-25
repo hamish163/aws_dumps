@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-aggtrade-aor-cluster-pg.innodb_status_output
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Enables or disables periodic output for the standard InnoDB Monitor.
+  IsModifiable: true
+  ParameterName: innodb_status_output
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

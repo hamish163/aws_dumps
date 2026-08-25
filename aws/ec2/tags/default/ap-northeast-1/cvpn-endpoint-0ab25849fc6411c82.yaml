@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: cvpn-endpoint-0ab25849fc6411c82
+specifics:
+  Name: MbxSplitClientVPN Endpoint
+...
+

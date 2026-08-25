@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-098fe7862c8402e95
+specifics:
+  CidrIpv4: 10.12.0.0/16
+  Description: Allow access to tracky Master URL
+  FromPort: 443
+  GroupId: sg-0238f57a24d06597f
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-098fe7862c8402e95
+  Tags: []
+  ToPort: 443
+...
+

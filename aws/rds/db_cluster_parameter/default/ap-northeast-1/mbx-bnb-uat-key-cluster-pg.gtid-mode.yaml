@@ -1,0 +1,22 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-key-cluster-pg.gtid-mode
+specifics:
+  AllowedValues: OFF,OFF_PERMISSIVE,ON_PERMISSIVE,ON
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: Controls whether GTID based logging is enabled and what type of transactions
+    the logs can contain
+  IsModifiable: true
+  MinimumEngineVersion: 8.0.mysql_aurora.3.01.0
+  ParameterName: gtid-mode
+  ParameterValue: OFF_PERMISSIVE
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

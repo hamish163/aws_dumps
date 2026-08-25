@@ -1,0 +1,26 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-07cd947958d3b3d16
+specifics:
+  Description: Managed by Terraform
+  GroupId: sg-07cd947958d3b3d16
+  GroupName: mbx-bnb-devops-nginx-rest-api
+  Tags:
+  - Key: mbx_secret_store
+    Value: none
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: Name
+    Value: mbx-bnb-devops-nginx-rest-api
+  - Key: mbx_env_name
+    Value: devops
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  VpcId: vpc-07519eb63f1d932ac
+...
+

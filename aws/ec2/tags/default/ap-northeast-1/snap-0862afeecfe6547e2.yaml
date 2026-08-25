@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: snap-0862afeecfe6547e2
+specifics:
+  Name: 20200115-mgmt-nginx-logs
+...
+

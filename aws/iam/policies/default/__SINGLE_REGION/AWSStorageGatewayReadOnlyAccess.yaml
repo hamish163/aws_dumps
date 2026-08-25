@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSStorageGatewayReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSStorageGatewayReadOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2015-02-06 18:41:10+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIFKCTUVOPD5NICXJK
+  PolicyName: AWSStorageGatewayReadOnlyAccess
+  UpdateDate: 2022-09-06 20:24:17+00:00
+...
+

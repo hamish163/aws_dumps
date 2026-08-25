@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonMQServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AmazonMQServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2020-11-04 16:07:17+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4LFY3JJDI6
+  PolicyName: AmazonMQServiceRolePolicy
+  UpdateDate: 2020-11-04 16:07:17+00:00
+...
+

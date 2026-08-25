@@ -1,0 +1,29 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-009df548cfc588704
+specifics:
+  Description: Shared security group, applied to the EKS Control Plane and the EKS
+    Worker Nodes.
+  GroupId: sg-009df548cfc588704
+  GroupName: mbx-bnb-sre-emu-shared
+  Tags:
+  - Key: Name
+    Value: mbx-bnb-sre-emu-shared
+  - Key: biz
+    Value: mbx
+  - Key: mbx_env_name
+    Value: sre
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  - Key: mbx_secret_store
+    Value: none
+  - Key: stack_path
+    Value: bnb/sre/eks/emu/cluster
+  VpcId: vpc-0ba76150fc7799f94
+...
+

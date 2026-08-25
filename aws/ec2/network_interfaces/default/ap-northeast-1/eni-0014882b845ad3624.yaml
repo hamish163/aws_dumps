@@ -1,0 +1,38 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-0014882b845ad3624
+specifics:
+  Attachment:
+    AttachTime: 2023-10-23 09:02:38+00:00
+    AttachmentId: eni-attach-0d20d7c9440c61550
+    DeleteOnTermination: true
+    DeviceIndex: 0
+    InstanceId: i-0bd5b737af7784fa3
+    InstanceOwnerId: '862793644923'
+    NetworkCardIndex: 0
+    Status: attached
+  AvailabilityZone: ap-northeast-1a
+  Description: ''
+  Groups:
+  - GroupId: sg-06063a3a222681b1d
+    GroupName: bnb_prod_mbx_bastion
+  InterfaceType: interface
+  Ipv6Addresses: []
+  MacAddress: 06:86:5f:f2:14:47
+  NetworkInterfaceId: eni-0014882b845ad3624
+  OwnerId: '862793644923'
+  PrivateIpAddress: 10.12.2.5
+  PrivateIpAddresses:
+  - Primary: true
+    PrivateIpAddress: 10.12.2.5
+  RequesterManaged: false
+  SourceDestCheck: true
+  Status: in-use
+  SubnetId: subnet-0acaddce878579935
+  TagSet: []
+  VpcId: vpc-041f1adf86f81b9e1
+...
+

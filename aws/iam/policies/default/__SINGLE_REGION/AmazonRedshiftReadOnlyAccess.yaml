@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonRedshiftReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonRedshiftReadOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2015-02-06 18:40:51+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIGD46KSON64QBSEZM
+  PolicyName: AmazonRedshiftReadOnlyAccess
+  UpdateDate: 2024-02-08 00:24:13+00:00
+...
+

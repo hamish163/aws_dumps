@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0323dcc76cface97e
+specifics:
+  AutoUpdate: 'true'
+  Name: cloudfront_g
+  Protocol: http
+...
+

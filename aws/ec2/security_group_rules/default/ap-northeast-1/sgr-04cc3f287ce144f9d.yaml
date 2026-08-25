@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-04cc3f287ce144f9d
+specifics:
+  CidrIpv4: 0.0.0.0/0
+  Description: Allow all outbound traffic from Redis
+  FromPort: -1
+  GroupId: sg-0b3875dddc099c8ad
+  GroupOwnerId: '862793644923'
+  IpProtocol: '-1'
+  IsEgress: true
+  SecurityGroupRuleId: sgr-04cc3f287ce144f9d
+  Tags: []
+  ToPort: -1
+...
+

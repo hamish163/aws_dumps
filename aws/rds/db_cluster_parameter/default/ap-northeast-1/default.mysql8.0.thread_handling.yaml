@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.thread_handling
+specifics:
+  AllowedValues: no-threads,one-thread-per-connection,loaded-dynamically
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: list
+  Description: ' '
+  IsModifiable: false
+  ParameterName: thread_handling
+  ParameterValue: one-thread-per-connection
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

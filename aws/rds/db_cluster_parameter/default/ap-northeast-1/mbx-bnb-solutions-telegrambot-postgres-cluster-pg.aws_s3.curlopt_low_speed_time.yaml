@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-solutions-telegrambot-postgres-cluster-pg.aws_s3.curlopt_low_speed_time
+specifics:
+  AllowedValues: 0-2147483647
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Sets S3 import low speed limit time period in seconds.
+  IsModifiable: true
+  ParameterName: aws_s3.curlopt_low_speed_time
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql11.rds.force_admin_logging_level
+specifics:
+  AllowedValues: disabled,debug5,debug4,debug3,debug2,debug1,info,notice,warning,error,log,fatal,panic
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: See log messages for RDS admin user actions in customer databases.
+  IsModifiable: true
+  ParameterName: rds.force_admin_logging_level
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+  - serverless
+...
+

@@ -1,0 +1,42 @@
+---
+datatype: aws.ec2.route_tables
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rtb-0c1cc925731c0e2d7
+specifics:
+  Associations:
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-068c75313893a2358
+    RouteTableId: rtb-0c1cc925731c0e2d7
+    SubnetId: subnet-0d599351143ac9bac
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-09c81bb128d16267a
+    RouteTableId: rtb-0c1cc925731c0e2d7
+    SubnetId: subnet-00fa2396026290a6f
+  OwnerId: '862793644923'
+  PropagatingVgws: []
+  RouteTableId: rtb-0c1cc925731c0e2d7
+  Routes:
+  - DestinationCidrBlock: 172.25.0.0/16
+    GatewayId: local
+    Origin: CreateRouteTable
+    State: active
+  - DestinationCidrBlock: 0.0.0.0/0
+    GatewayId: igw-0f4515616bfcb2f75
+    Origin: CreateRoute
+    State: active
+  Tags:
+  - Key: env
+    Value: ap2
+  - Key: Name
+    Value: ap2-bitdj-backend
+  - Key: project
+    Value: bitdj
+  VpcId: vpc-07652e77a8fa0e0c2
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AllowLambdaToStopRDS
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/AllowLambdaToStopRDS
+  AttachmentCount: 1
+  CreateDate: 2019-08-14 02:29:54+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN54M2EIY74W
+  PolicyName: AllowLambdaToStopRDS
+  UpdateDate: 2019-08-14 04:19:08+00:00
+...
+

@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: subnet-017ec9e731308dd5d
+specifics:
+  KubernetesCluster: tracky.bitdj.com
+  Name: prod-tracky-external-2
+  kubernetes.io/role/elb: ''
+...
+

@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: tgw-attach-043204ff6b4b00919
+specifics:
+  Name: ClientVPN-Tracky
+...
+

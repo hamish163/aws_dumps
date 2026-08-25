@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: nat-053494152b657e782
+specifics:
+  Name: monitoring_dev_mbx_vpc-ap-northeast-1a
+  env: dev
+  project: mbx
+...
+

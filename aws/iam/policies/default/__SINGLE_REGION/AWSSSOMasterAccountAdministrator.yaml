@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSSSOMasterAccountAdministrator
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSSSOMasterAccountAdministrator
+  AttachmentCount: 0
+  CreateDate: 2018-06-27 20:36:51+00:00
+  DefaultVersionId: v13
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIHXAQZIS3GOYIETUC
+  PolicyName: AWSSSOMasterAccountAdministrator
+  UpdateDate: 2026-02-12 18:01:23+00:00
+...
+

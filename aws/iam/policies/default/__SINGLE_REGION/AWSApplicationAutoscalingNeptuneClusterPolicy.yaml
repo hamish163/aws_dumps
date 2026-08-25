@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSApplicationAutoscalingNeptuneClusterPolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingNeptuneClusterPolicy
+  AttachmentCount: 0
+  CreateDate: 2021-09-02 21:14:55+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4LJVNMME6T
+  PolicyName: AWSApplicationAutoscalingNeptuneClusterPolicy
+  UpdateDate: 2021-09-02 21:14:55+00:00
+...
+

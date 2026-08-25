@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql16.pgtle.clientauth_databases_to_skip
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: List of databases to skip for clientauth feature.
+  IsModifiable: true
+  MinimumEngineVersion: '16.2'
+  ParameterName: pgtle.clientauth_databases_to_skip
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,24 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0450c5be6bb49b27a
+specifics:
+  Description: From testnet prometheus
+  FromPort: 9100
+  GroupId: sg-0f4a816612bdd0e8e
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0aa2fb560ff8e5c35
+    PeeringStatus: active
+    UserId: '369096419186'
+    VpcId: vpc-029b4f4077bf50002
+    VpcPeeringConnectionId: pcx-0000816bf8a2d47cb
+  SecurityGroupRuleId: sgr-0450c5be6bb49b27a
+  Tags: []
+  ToPort: 9100
+...
+

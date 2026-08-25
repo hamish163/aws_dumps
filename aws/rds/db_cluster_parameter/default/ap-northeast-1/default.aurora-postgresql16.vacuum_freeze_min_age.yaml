@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql16.vacuum_freeze_min_age
+specifics:
+  AllowedValues: 0-1000000000
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Minimum age at which VACUUM should freeze a table row.
+  IsModifiable: true
+  ParameterName: vacuum_freeze_min_age
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

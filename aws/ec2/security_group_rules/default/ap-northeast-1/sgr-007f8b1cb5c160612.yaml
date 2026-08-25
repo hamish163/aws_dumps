@@ -1,0 +1,24 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-007f8b1cb5c160612
+specifics:
+  Description: Allow tcp for port range 22 to 22 from Salt-Master
+  FromPort: 22
+  GroupId: sg-019425a8809909e3b
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-03481e07085f86732
+    PeeringStatus: active
+    UserId: '862793644923'
+    VpcId: vpc-097095a8b70ef6727
+    VpcPeeringConnectionId: pcx-04bdea66620ddce9b
+  SecurityGroupRuleId: sgr-007f8b1cb5c160612
+  Tags: []
+  ToPort: 22
+...
+

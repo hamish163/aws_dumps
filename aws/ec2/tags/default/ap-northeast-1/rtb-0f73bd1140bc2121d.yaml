@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rtb-0f73bd1140bc2121d
+specifics:
+  Name: perf_dev_mbx_db_1c_rt
+  env: dev
+  project: mbx
+...
+

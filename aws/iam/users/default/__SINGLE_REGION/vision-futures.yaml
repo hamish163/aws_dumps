@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.users
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: vision-futures
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/vision-futures
+  CreateDate: 2021-02-05 08:49:52+00:00
+  Path: /
+  UserId: AIDA4RYUCHN5XYVOE6FH4
+  UserName: vision-futures
+...
+

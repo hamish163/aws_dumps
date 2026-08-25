@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSShieldDRTAccessPolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AWSShieldDRTAccessPolicy
+  AttachmentCount: 0
+  CreateDate: 2018-06-05 22:29:39+00:00
+  DefaultVersionId: v6
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJWNCSZ4PARLO37VVY
+  PolicyName: AWSShieldDRTAccessPolicy
+  UpdateDate: 2020-12-15 17:28:15+00:00
+...
+

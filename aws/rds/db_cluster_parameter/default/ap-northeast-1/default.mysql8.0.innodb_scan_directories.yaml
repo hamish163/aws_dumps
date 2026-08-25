@@ -1,0 +1,22 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.innodb_scan_directories
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: If tablespace map files are lost or corrupted, the innodb_scan_directories
+    startup option can be used to specify tablespace file directories. This option
+    causes InnoDB to read the first page of each tablespace file in the specified
+    directories and recreate tablespace map files so that the recovery process can
+    apply redo logs to affected tablespaces.
+  IsModifiable: false
+  ParameterName: innodb_scan_directories
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

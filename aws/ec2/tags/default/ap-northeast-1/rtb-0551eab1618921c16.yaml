@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rtb-0551eab1618921c16
+specifics:
+  Name: monitoring_dev_mbx_vpc-public
+  env: dev
+  project: mbx
+...
+

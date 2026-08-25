@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.attached_group_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: devops
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/AllowUserManagedOwnAccount
+    PolicyName: AllowUserManagedOwnAccount
+  - PolicyArn: arn:aws:iam::862793644923:policy/AdministratorAccess-201503080115
+    PolicyName: AdministratorAccess-201503080115
+...
+

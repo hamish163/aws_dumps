@@ -1,0 +1,14 @@
+---
+datatype: aws.iam.access_keys
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AKIA4RYUCHN53HQGWI63
+  single_region: true
+specifics:
+  AccessKeyId: AKIA4RYUCHN53HQGWI63
+  CreateDate: 2026-08-18 08:58:30+00:00
+  Status: Active
+  UserName: monastery-alex.tanti
+...
+

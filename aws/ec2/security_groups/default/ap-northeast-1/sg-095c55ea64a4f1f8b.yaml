@@ -1,0 +1,20 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-095c55ea64a4f1f8b
+specifics:
+  Description: perf_dev_mbx_pubOps_sg
+  GroupId: sg-095c55ea64a4f1f8b
+  GroupName: perf_dev_mbx_pubOps_sg
+  Tags:
+  - Key: Name
+    Value: perf_dev_mbx_pubOps_sg
+  - Key: project
+    Value: mbx
+  - Key: env
+    Value: dev
+  VpcId: vpc-0a7d9bfaa80b951d9
+...
+

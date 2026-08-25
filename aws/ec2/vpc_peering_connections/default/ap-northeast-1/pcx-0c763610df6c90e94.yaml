@@ -1,0 +1,38 @@
+---
+datatype: aws.ec2.vpc_peering_connections
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: pcx-0c763610df6c90e94
+specifics:
+  AccepterVpcInfo:
+    CidrBlock: 172.29.0.0/16
+    CidrBlockSet:
+    - CidrBlock: 172.29.0.0/16
+    OwnerId: '862793644923'
+    PeeringOptions:
+      AllowDnsResolutionFromRemoteVpc: false
+      AllowEgressFromLocalClassicLinkToRemoteVpc: false
+      AllowEgressFromLocalVpcToRemoteClassicLink: false
+    Region: eu-central-1
+    VpcId: vpc-0b57a781465f22868
+  RequesterVpcInfo:
+    CidrBlock: 172.27.0.0/16
+    CidrBlockSet:
+    - CidrBlock: 172.27.0.0/16
+    OwnerId: '862793644923'
+    PeeringOptions:
+      AllowDnsResolutionFromRemoteVpc: false
+      AllowEgressFromLocalClassicLinkToRemoteVpc: false
+      AllowEgressFromLocalVpcToRemoteClassicLink: false
+    Region: ap-northeast-1
+    VpcId: vpc-03f5d2495fd8d95a3
+  Status:
+    Code: active
+    Message: Active
+  Tags:
+  - Key: Name
+    Value: tracky_tokyo_to_frankfurt
+  VpcPeeringConnectionId: pcx-0c763610df6c90e94
+...
+

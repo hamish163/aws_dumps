@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.innodb_log_spin_cpu_abs_lwm
+specifics:
+  AllowedValues: 0-4294967295
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Defines the minimum amount of CPU usage below which user threads no
+    longer spin while waiting for flushed redo.
+  IsModifiable: true
+  ParameterName: innodb_log_spin_cpu_abs_lwm
+  ParameterValue: '80'
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

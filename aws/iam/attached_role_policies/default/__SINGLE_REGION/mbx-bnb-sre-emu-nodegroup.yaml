@@ -1,0 +1,21 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-sre-emu-nodegroup
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonEKS_CNI_Policy
+    PolicyName: AmazonEKS_CNI_Policy
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonEC2ContainerRegistryReadOnly
+    PolicyName: AmazonEC2ContainerRegistryReadOnly
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonEKSWorkerNodePolicy
+    PolicyName: AmazonEKSWorkerNodePolicy
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonEC2ContainerRegistryPullOnly
+    PolicyName: AmazonEC2ContainerRegistryPullOnly
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonEKSBlockStoragePolicy
+    PolicyName: AmazonEKSBlockStoragePolicy
+...
+

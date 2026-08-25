@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql17.trace_connection_negotiation
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: boolean
+  Description: Logs details of pre-authentication connection handshake.
+  IsModifiable: true
+  ParameterName: trace_connection_negotiation
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

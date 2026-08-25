@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: ElementalAppliancesSoftwareReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/ElementalAppliancesSoftwareReadOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2020-04-01 22:31:09+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4CLKYU5WOM
+  PolicyName: ElementalAppliancesSoftwareReadOnlyAccess
+  UpdateDate: 2020-04-01 22:31:09+00:00
+...
+

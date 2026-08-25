@@ -1,0 +1,29 @@
+---
+datatype: aws.elbv2.load_balancers
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-devops-jenkins-eks-thns
+specifics:
+  AvailabilityZones:
+  - LoadBalancerAddresses: []
+    SubnetId: subnet-0b46f1b63e4b55f14
+    ZoneName: ap-northeast-1c
+  - LoadBalancerAddresses: []
+    SubnetId: subnet-0c188e95cfba03f63
+    ZoneName: ap-northeast-1a
+  CanonicalHostedZoneId: Z31USIVHYNEOWT
+  CreatedTime: 2024-11-12 14:00:25.530000+00:00
+  DNSName: mbx-bnb-devops-jenkins-eks-thns-bcfa870060bf8f3e.elb.ap-northeast-1.amazonaws.com
+  IpAddressType: ipv4
+  LoadBalancerArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:loadbalancer/net/mbx-bnb-devops-jenkins-eks-thns/bcfa870060bf8f3e
+  LoadBalancerName: mbx-bnb-devops-jenkins-eks-thns
+  Scheme: internal
+  SecurityGroups:
+  - sg-05e21a400ec8bf8c8
+  State:
+    Code: active
+  Type: network
+  VpcId: vpc-07519eb63f1d932ac
+...
+

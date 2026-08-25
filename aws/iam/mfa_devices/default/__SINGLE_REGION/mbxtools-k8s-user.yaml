@@ -1,0 +1,11 @@
+---
+datatype: aws.iam.mfa_devices
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbxtools-k8s-user
+  single_region: true
+specifics:
+  MFADevices: []
+...
+

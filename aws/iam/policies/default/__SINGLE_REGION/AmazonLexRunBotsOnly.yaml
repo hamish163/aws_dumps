@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonLexRunBotsOnly
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonLexRunBotsOnly
+  AttachmentCount: 0
+  CreateDate: 2017-04-11 23:06:24+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJVZGB5CM3N6YWJHBE
+  PolicyName: AmazonLexRunBotsOnly
+  UpdateDate: 2021-08-18 00:15:48+00:00
+...
+

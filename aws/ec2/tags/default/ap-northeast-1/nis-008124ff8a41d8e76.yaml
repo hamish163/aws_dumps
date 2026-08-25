@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: nis-008124ff8a41d8e76
+specifics:
+  Description: Identify ingress paths into your VPCs from Internet Gateways, Peering
+    Connections, VPC Service Endpoints, VPN and Transit Gateways.
+  Name: AWS-VPC-Ingress (Amazon created)
+...
+

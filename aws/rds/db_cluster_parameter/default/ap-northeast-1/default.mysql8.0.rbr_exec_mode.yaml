@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.rbr_exec_mode
+specifics:
+  AllowedValues: IDEMPOTENT,STRICT
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: ' '
+  IsModifiable: false
+  ParameterName: rbr_exec_mode
+  ParameterValue: STRICT
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

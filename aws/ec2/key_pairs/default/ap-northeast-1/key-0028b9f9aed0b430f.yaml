@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.key_pairs
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: key-0028b9f9aed0b430f
+specifics:
+  CreateTime: 2015-02-26 02:47:17+00:00
+  KeyFingerprint: 9f:fd:b2:8b:5b:71:61:93:61:fc:5f:b5:87:14:65:e5:20:19:2f:95
+  KeyName: BitDJ Prototype
+  KeyPairId: key-0028b9f9aed0b430f
+  KeyType: rsa
+  Tags: []
+...
+

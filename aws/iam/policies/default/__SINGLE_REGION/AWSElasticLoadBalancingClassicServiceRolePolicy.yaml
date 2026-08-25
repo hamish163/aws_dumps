@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSElasticLoadBalancingClassicServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AWSElasticLoadBalancingClassicServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2017-09-19 22:36:18+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIUMWW3QP7DPZPNVU4
+  PolicyName: AWSElasticLoadBalancingClassicServiceRolePolicy
+  UpdateDate: 2019-10-07 23:04:27+00:00
+...
+

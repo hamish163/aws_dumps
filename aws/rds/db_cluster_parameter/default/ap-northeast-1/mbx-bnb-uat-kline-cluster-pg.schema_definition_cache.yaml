@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-kline-cluster-pg.schema_definition_cache
+specifics:
+  AllowedValues: 256-524288
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Defines a limit for the number of schema definition objects, both used
+    and unused, that can be kept in the dictionary object cache.
+  IsModifiable: true
+  ParameterName: schema_definition_cache
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

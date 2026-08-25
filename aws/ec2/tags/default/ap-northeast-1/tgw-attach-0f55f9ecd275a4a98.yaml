@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: tgw-attach-0f55f9ecd275a4a98
+specifics:
+  Name: mbx-hub-hk-to-mbx-hub-tokyo
+...
+

@@ -1,0 +1,16 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-usa-testnet-gw-bastion
+  single_region: true
+specifics:
+  Name: mbx-usa-testnet-gw-bastion
+  biz: mbx
+  mbx_application_name: bastion
+  mbx_env_name: testnet-gw
+  mbx_exchange_name: usa
+  team: mbx
+...
+

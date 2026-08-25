@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: pcx-0805b5b3852708808
+specifics:
+  Name: tracky_to_mbx
+  env: prod
+  project: mbx
+...
+

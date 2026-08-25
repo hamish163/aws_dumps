@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: pcx-066104aafff4dcf23
+specifics:
+  Name: mbxtools_to_tracky_tky
+...
+

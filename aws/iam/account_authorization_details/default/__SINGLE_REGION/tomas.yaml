@@ -1,0 +1,33 @@
+---
+datatype: aws.iam.account_authorization_details
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: tomas
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/tomas
+  AttachedManagedPolicies: []
+  CreateDate: 2023-04-27 08:24:58+00:00
+  GroupList:
+  - mbx_bedrock
+  - DEVOPS_TEAM_INFRA_MGMT
+  - DEVOPS_TEAM_RO
+  - DEVOPS_TEAM_IAM_MGMT
+  - DEVOPS_TEAM
+  - devops
+  - MBX_EVERYONE_TEAM
+  Path: /
+  Tags:
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  - Key: mbx_team
+    Value: devops
+  - Key: mbx_iam
+    Value: tomas
+  UserId: AIDA4RYUCHN5WEQWZYN3K
+  UserName: tomas
+...
+

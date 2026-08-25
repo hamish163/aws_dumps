@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-devops-ws-shim-api-papermill-sync-to-folder
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/mbx-bnb-devops-ws-shim-api-papermill-sync-to-folder
+  AttachmentCount: 1
+  CreateDate: 2026-07-22 04:25:27+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN543MWAQFIJ
+  PolicyName: mbx-bnb-devops-ws-shim-api-papermill-sync-to-folder
+  UpdateDate: 2026-07-22 04:25:27+00:00
+...
+

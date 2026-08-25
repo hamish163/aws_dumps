@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0423f1eda9f69212a
+specifics:
+  Description: Allow TCP traffic from aggtrade-persist SG to aggtrade-db database
+  FromPort: 3306
+  GroupId: sg-0e035bdb3fb1db2f2
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-071ae18308d13ece5
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0423f1eda9f69212a
+  Tags: []
+  ToPort: 3306
+...
+

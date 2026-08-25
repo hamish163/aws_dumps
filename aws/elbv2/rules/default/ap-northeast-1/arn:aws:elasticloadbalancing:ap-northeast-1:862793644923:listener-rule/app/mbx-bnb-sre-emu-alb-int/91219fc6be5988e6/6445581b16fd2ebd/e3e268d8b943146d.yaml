@@ -1,0 +1,21 @@
+---
+datatype: aws.elbv2.rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener-rule/app/mbx-bnb-sre-emu-alb-int/91219fc6be5988e6/6445581b16fd2ebd/e3e268d8b943146d
+specifics:
+  Actions:
+  - FixedResponseConfig:
+      ContentType: text/plain
+      MessageBody: Not Found
+      StatusCode: '404'
+    Order: 1
+    Type: fixed-response
+  Conditions: []
+  IsDefault: true
+  Priority: default
+  RuleArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener-rule/app/mbx-bnb-sre-emu-alb-int/91219fc6be5988e6/6445581b16fd2ebd/e3e268d8b943146d
+  _listener_arn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener/app/mbx-bnb-sre-emu-alb-int/91219fc6be5988e6/6445581b16fd2ebd
+...
+

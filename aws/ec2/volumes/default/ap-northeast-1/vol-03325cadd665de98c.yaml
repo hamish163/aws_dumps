@@ -1,0 +1,40 @@
+---
+datatype: aws.ec2.volumes
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-03325cadd665de98c
+specifics:
+  Attachments: []
+  AvailabilityZone: ap-northeast-1c
+  CreateTime: 2026-06-08 21:46:01.271000+00:00
+  Encrypted: false
+  Iops: 3000
+  MultiAttachEnabled: false
+  Size: 10
+  SnapshotId: ''
+  State: available
+  Tags:
+  - Key: Name
+    Value: mbx-bnb-sre-emu-dynamic-pvc-81c55ec4-96c6-4554-91bc-b13c1cd802a9
+  - Key: kubernetes.io/created-for/pvc/namespace
+    Value: monitoring
+  - Key: CSIVolumeName
+    Value: pvc-81c55ec4-96c6-4554-91bc-b13c1cd802a9
+  - Key: KubernetesCluster
+    Value: mbx-bnb-sre-emu
+  - Key: ebs.csi.aws.com/cluster
+    Value: 'true'
+  - Key: ebs.csi.aws.com/cluster-name
+    Value: mbx-bnb-sre-emu
+  - Key: kubernetes.io/cluster/mbx-bnb-sre-emu
+    Value: owned
+  - Key: kubernetes.io/created-for/pvc/name
+    Value: prometheus-kube-prometheus-stack-prometheus-db-prometheus-kube-prometheus-stack-prometheus-0
+  - Key: kubernetes.io/created-for/pv/name
+    Value: pvc-81c55ec4-96c6-4554-91bc-b13c1cd802a9
+  Throughput: 125
+  VolumeId: vol-03325cadd665de98c
+  VolumeType: gp3
+...
+

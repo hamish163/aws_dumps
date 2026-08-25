@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-trades-cluster-pg-80.aurora_binlog_replication_max_yield_seconds
+specifics:
+  AllowedValues: 0-36000
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Controls the number of seconds that binary log dump thread waits up
+    to for the current binlog file to be filled by transactions. This wait period
+    avoids contention that can arise from replicating each binlog event individually.
+  IsModifiable: true
+  ParameterName: aurora_binlog_replication_max_yield_seconds
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

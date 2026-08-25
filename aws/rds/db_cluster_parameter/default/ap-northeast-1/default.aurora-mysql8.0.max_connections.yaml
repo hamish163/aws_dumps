@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-mysql8.0.max_connections
+specifics:
+  AllowedValues: 1-16000
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: The number of simultaneous client connections allowed.
+  IsModifiable: true
+  ParameterName: max_connections
+  ParameterValue: GREATEST({log(DBInstanceClassMemory/805306368)*45},{log(DBInstanceClassMemory/8187281408)*1000})
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

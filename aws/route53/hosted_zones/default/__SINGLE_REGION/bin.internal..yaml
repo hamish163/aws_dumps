@@ -1,0 +1,17 @@
+---
+datatype: aws.route53.hosted_zones
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: bin.internal.
+  single_region: true
+specifics:
+  CallerReference: terraform-20260430072928530200000001
+  Config:
+    Comment: Managed by Terraform
+    PrivateZone: true
+  Id: /hostedzone/Z02793572IHL4JL7K0965
+  Name: bin.internal.
+  ResourceRecordSetCount: 14
+...
+

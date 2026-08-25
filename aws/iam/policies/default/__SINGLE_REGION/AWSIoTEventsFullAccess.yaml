@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSIoTEventsFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSIoTEventsFullAccess
+  AttachmentCount: 0
+  CreateDate: 2019-01-10 22:51:57+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJGA726P7LVUWJZ2LM
+  PolicyName: AWSIoTEventsFullAccess
+  UpdateDate: 2019-01-10 22:51:57+00:00
+...
+

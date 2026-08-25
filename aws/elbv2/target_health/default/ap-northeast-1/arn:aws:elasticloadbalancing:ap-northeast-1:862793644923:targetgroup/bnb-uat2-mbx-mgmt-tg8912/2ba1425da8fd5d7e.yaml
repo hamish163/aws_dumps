@@ -1,0 +1,11 @@
+---
+datatype: aws.elbv2.target_health
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/bnb-uat2-mbx-mgmt-tg8912/2ba1425da8fd5d7e
+specifics:
+  TargetHealthDescriptions: {}
+  _arn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/bnb-uat2-mbx-mgmt-tg8912/2ba1425da8fd5d7e
+...
+

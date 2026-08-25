@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-trades-cluster-pg.key_cache_age_threshold
+specifics:
+  AllowedValues: 100-18446744073709547520
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Controls the demotion of buffers from the hot sub-chain of a key cache
+    to the warm sub-chain. Lower values cause demotion to happen more quickly.
+  IsModifiable: true
+  ParameterName: key_cache_age_threshold
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

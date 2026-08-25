@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSEC2CapacityManagerServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AWSEC2CapacityManagerServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2025-10-09 22:04:07+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4H2JGMEAFS
+  PolicyName: AWSEC2CapacityManagerServiceRolePolicy
+  UpdateDate: 2025-10-09 22:04:07+00:00
+...
+

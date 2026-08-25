@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: tgw-attach-044f10588f4e875ae
+specifics:
+  Name: PerfVPC
+...
+

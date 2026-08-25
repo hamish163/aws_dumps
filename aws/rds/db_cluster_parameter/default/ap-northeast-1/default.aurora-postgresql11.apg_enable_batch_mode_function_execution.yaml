@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql11.apg_enable_batch_mode_function_execution
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Enables batch-mode functions to process sets of rows at a time.
+  IsModifiable: true
+  MinimumEngineVersion: '11.6'
+  ParameterName: apg_enable_batch_mode_function_execution
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+  - serverless
+...
+

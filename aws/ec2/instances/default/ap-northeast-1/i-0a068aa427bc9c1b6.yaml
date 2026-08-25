@@ -1,0 +1,104 @@
+---
+datatype: aws.ec2.instances
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-0a068aa427bc9c1b6
+specifics:
+  AmiLaunchIndex: 0
+  Architecture: x86_64
+  BlockDeviceMappings:
+  - DeviceName: /dev/xvda
+    Ebs:
+      AttachTime: 2021-07-08 10:22:16+00:00
+      DeleteOnTermination: true
+      Status: attached
+      VolumeId: vol-0853d2e5522b1d814
+  CapacityReservationSpecification:
+    CapacityReservationPreference: open
+  ClientToken: 085D2FB5-C553-42CF-B1B9-C03FFF9495DF
+  CpuOptions:
+    CoreCount: 2
+    ThreadsPerCore: 2
+  CurrentInstanceBootMode: legacy-bios
+  EbsOptimized: true
+  EnaSupport: true
+  EnclaveOptions:
+    Enabled: false
+  HibernationOptions:
+    Configured: false
+  Hypervisor: xen
+  ImageId: ami-0b0513a7120991c09
+  InstanceId: i-0a068aa427bc9c1b6
+  InstanceType: t3.xlarge
+  LaunchTime: 2021-07-08 10:22:15+00:00
+  MaintenanceOptions:
+    AutoRecovery: default
+  MetadataOptions:
+    HttpEndpoint: enabled
+    HttpProtocolIpv6: disabled
+    HttpPutResponseHopLimit: 1
+    HttpTokens: optional
+    InstanceMetadataTags: disabled
+    State: applied
+  Monitoring:
+    State: disabled
+  NetworkInterfaces:
+  - Attachment:
+      AttachTime: 2021-07-08 10:22:15+00:00
+      AttachmentId: eni-attach-078a53e3778e4ee97
+      DeleteOnTermination: true
+      DeviceIndex: 0
+      NetworkCardIndex: 0
+      Status: attached
+    Description: ''
+    Groups:
+    - GroupId: sg-0798a70621db0ddd5
+      GroupName: monitoring_dev_mbx_prometheus
+    InterfaceType: interface
+    Ipv6Addresses: []
+    MacAddress: 06:99:6a:21:73:85
+    NetworkInterfaceId: eni-0dd4ce687d7653d37
+    OwnerId: '862793644923'
+    PrivateIpAddress: 10.141.11.152
+    PrivateIpAddresses:
+    - Primary: true
+      PrivateIpAddress: 10.141.11.152
+    SourceDestCheck: true
+    Status: in-use
+    SubnetId: subnet-005484dfdcea3b79f
+    VpcId: vpc-015ad3eb773d46983
+  Placement:
+    AvailabilityZone: ap-northeast-1a
+    GroupName: ''
+    Tenancy: default
+  PlatformDetails: Linux/UNIX
+  PrivateDnsName: ip-10-141-11-152.ap-northeast-1.compute.internal
+  PrivateDnsNameOptions: {}
+  PrivateIpAddress: 10.141.11.152
+  ProductCodes: []
+  PublicDnsName: ''
+  RootDeviceName: /dev/xvda
+  RootDeviceType: ebs
+  SecurityGroups:
+  - GroupId: sg-0798a70621db0ddd5
+    GroupName: monitoring_dev_mbx_prometheus
+  SourceDestCheck: true
+  State:
+    Code: 16
+    Name: running
+  StateTransitionReason: ''
+  SubnetId: subnet-005484dfdcea3b79f
+  Tags:
+  - Key: Name
+    Value: monitoring_dev_mbx_prometheus1_ec2
+  - Key: env
+    Value: dev
+  - Key: project
+    Value: mbx
+  UsageOperation: RunInstances
+  UsageOperationUpdateTime: 2021-07-08 10:22:15+00:00
+  VirtualizationType: hvm
+  VpcId: vpc-015ad3eb773d46983
+...
+

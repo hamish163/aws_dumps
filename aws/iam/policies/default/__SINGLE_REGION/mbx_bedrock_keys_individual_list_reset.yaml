@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx_bedrock_keys_individual_list_reset
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/mbx_bedrock_keys_individual_list_reset
+  AttachmentCount: 3
+  CreateDate: 2026-04-03 12:06:55+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN57SIMQXEOM
+  PolicyName: mbx_bedrock_keys_individual_list_reset
+  UpdateDate: 2026-04-03 12:23:00+00:00
+...
+

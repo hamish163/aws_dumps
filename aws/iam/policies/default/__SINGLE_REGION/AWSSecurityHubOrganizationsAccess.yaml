@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSSecurityHubOrganizationsAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSSecurityHubOrganizationsAccess
+  AttachmentCount: 0
+  CreateDate: 2021-03-15 20:53:03+00:00
+  DefaultVersionId: v8
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4KVIUTRVOZ
+  PolicyName: AWSSecurityHubOrganizationsAccess
+  UpdateDate: 2026-02-12 17:59:09+00:00
+...
+

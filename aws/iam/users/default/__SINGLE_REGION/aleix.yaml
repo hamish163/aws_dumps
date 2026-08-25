@@ -1,0 +1,16 @@
+---
+datatype: aws.iam.users
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: aleix
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/aleix
+  CreateDate: 2026-04-13 06:29:22+00:00
+  PasswordLastUsed: 2026-05-14 01:26:53+00:00
+  Path: /
+  UserId: AIDA4RYUCHN54OB4ZENZY
+  UserName: aleix
+...
+

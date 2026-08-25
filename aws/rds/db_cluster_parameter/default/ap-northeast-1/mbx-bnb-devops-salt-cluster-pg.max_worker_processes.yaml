@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-devops-salt-cluster-pg.max_worker_processes
+specifics:
+  AllowedValues: 0-262143
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: Sets the maximum number of concurrent worker processes.
+  IsModifiable: true
+  ParameterName: max_worker_processes
+  ParameterValue: GREATEST(${DBInstanceVCPU*2},8)
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

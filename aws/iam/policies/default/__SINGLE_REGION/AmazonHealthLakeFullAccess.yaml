@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonHealthLakeFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonHealthLakeFullAccess
+  AttachmentCount: 2
+  CreateDate: 2021-02-17 01:07:05+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4OMJS7NARX
+  PolicyName: AmazonHealthLakeFullAccess
+  UpdateDate: 2021-02-17 01:07:05+00:00
+...
+

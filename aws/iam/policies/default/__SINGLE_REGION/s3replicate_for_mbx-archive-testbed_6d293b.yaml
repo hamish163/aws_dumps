@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: s3replicate_for_mbx-archive-testbed_6d293b
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/service-role/s3replicate_for_mbx-archive-testbed_6d293b
+  AttachmentCount: 1
+  CreateDate: 2024-07-10 12:38:54+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN55BUQFNV2E
+  PolicyName: s3replicate_for_mbx-archive-testbed_6d293b
+  UpdateDate: 2024-07-10 12:38:54+00:00
+...
+

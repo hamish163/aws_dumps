@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.groups
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: DEVOPS_TEAM_INFRA_MGMT_NON_PROD
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:group/DEVOPS_TEAM_INFRA_MGMT_NON_PROD
+  CreateDate: 2023-09-29 02:58:44+00:00
+  GroupId: AGPA4RYUCHN5QXCBNUL2C
+  GroupName: DEVOPS_TEAM_INFRA_MGMT_NON_PROD
+  Path: /
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonCognitoUnAuthedIdentitiesSessionPolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonCognitoUnAuthedIdentitiesSessionPolicy
+  AttachmentCount: 0
+  CreateDate: 2023-07-19 23:04:05+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4MQ5TUJ5ET
+  PolicyName: AmazonCognitoUnAuthedIdentitiesSessionPolicy
+  UpdateDate: 2026-05-01 19:57:11+00:00
+...
+

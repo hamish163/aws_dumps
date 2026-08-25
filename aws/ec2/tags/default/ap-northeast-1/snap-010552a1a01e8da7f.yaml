@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: snap-010552a1a01e8da7f
+specifics:
+  Name: 20200822-ap2-jenkins-pv
+...
+

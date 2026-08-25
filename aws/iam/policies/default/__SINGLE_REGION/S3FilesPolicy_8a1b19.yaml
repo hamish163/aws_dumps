@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: S3FilesPolicy_8a1b19
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/service-role/S3FilesPolicy_8a1b19
+  AttachmentCount: 1
+  CreateDate: 2026-04-14 05:43:15+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN56ZZJGZBZY
+  PolicyName: S3FilesPolicy_8a1b19
+  UpdateDate: 2026-04-14 05:43:15+00:00
+...
+

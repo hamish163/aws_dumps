@@ -1,0 +1,14 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: bnb_mbx_dev_vizzy_config_ingest_role_mbxdev
+  single_region: true
+specifics:
+  biz: mbx
+  env: dev
+  project: mbx
+  team: mbx
+...
+

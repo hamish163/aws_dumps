@@ -1,0 +1,38 @@
+---
+datatype: aws.ec2.subnets
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: subnet-0301fef8bf049f09f
+specifics:
+  AssignIpv6AddressOnCreation: false
+  AvailabilityZone: ap-northeast-1a
+  AvailabilityZoneId: apne1-az4
+  AvailableIpAddressCount: 26
+  CidrBlock: 10.12.1.0/27
+  DefaultForAz: false
+  EnableDns64: false
+  Ipv6CidrBlockAssociationSet: []
+  Ipv6Native: false
+  MapCustomerOwnedIpOnLaunch: false
+  MapPublicIpOnLaunch: false
+  OwnerId: '862793644923'
+  PrivateDnsNameOptionsOnLaunch:
+    EnableResourceNameDnsAAAARecord: false
+    EnableResourceNameDnsARecord: false
+    HostnameType: ip-name
+  State: available
+  SubnetArn: arn:aws:ec2:ap-northeast-1:862793644923:subnet/subnet-0301fef8bf049f09f
+  SubnetId: subnet-0301fef8bf049f09f
+  Tags:
+  - Key: Name
+    Value: ExitVPC Attachment Subnet 1
+  - Key: aws:cloudformation:logical-id
+    Value: AttachmentSubnet1
+  - Key: aws:cloudformation:stack-id
+    Value: arn:aws:cloudformation:ap-northeast-1:862793644923:stack/BitdjNetwork-ExitVPC-WC4249ZZPWOY/c3a0fef0-aec2-11ed-83f3-0a7e71c04499
+  - Key: aws:cloudformation:stack-name
+    Value: BitdjNetwork-ExitVPC-WC4249ZZPWOY
+  VpcId: vpc-001ab708836aeeb75
+...
+

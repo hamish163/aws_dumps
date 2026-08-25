@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: nip-049894b98cca2ff80
+specifics:
+  Name: test 4
+...
+

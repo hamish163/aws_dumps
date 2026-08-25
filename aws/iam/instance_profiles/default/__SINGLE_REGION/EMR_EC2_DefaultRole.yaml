@@ -1,0 +1,29 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: EMR_EC2_DefaultRole
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/EMR_EC2_DefaultRole
+  CreateDate: 2018-03-20 07:34:31+00:00
+  InstanceProfileId: AIPAJLX5WI65J3D5E4GTA
+  InstanceProfileName: EMR_EC2_DefaultRole
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/EMR_EC2_DefaultRole
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+        Sid: ''
+      Version: '2008-10-17'
+    CreateDate: 2018-03-20 07:34:30+00:00
+    Path: /
+    RoleId: AROAJEYAHKG6YXXJ2YYPQ
+    RoleName: EMR_EC2_DefaultRole
+...
+

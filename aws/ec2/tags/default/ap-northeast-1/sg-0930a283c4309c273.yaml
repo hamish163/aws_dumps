@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0930a283c4309c273
+specifics:
+  aws.cloudfront.vpcorigin: enabled
+...
+

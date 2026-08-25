@@ -1,0 +1,25 @@
+---
+datatype: aws.ec2.internet_gateways
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: igw-0748c724c32794019
+specifics:
+  Attachments:
+  - State: available
+    VpcId: vpc-0e8d78d562c500d57
+  InternetGatewayId: igw-0748c724c32794019
+  OwnerId: '862793644923'
+  Tags:
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  - Key: mbx_env_name
+    Value: colo-perf
+  - Key: biz
+    Value: mbx
+  - Key: Name
+    Value: mbx-bnb-colo-perf-igw1
+...
+

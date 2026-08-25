@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0f859da6e18953b86
+specifics:
+  Description: Allow TCP traffic from rats SG on port 5860
+  FromPort: 5860
+  GroupId: sg-0b0fc1de9e814ded3
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0b0fc1de9e814ded3
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0f859da6e18953b86
+  Tags: []
+  ToPort: 5860
+...
+

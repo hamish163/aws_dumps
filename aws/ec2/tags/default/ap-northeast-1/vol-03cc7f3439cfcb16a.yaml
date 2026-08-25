@@ -1,0 +1,16 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-03cc7f3439cfcb16a
+specifics:
+  Name: mbx-usa-prod-gw-bastion2
+  biz: mbx
+  mbx_application_name: bastion
+  mbx_env_name: prod-gw
+  mbx_exchange_name: usa
+  mbx_host_index: '2'
+  team: mbx
+...
+

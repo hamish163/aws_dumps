@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSCodePipelineApproverAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSCodePipelineApproverAccess
+  AttachmentCount: 0
+  CreateDate: 2016-07-28 18:59:17+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAICXNWK42SQ6LMDXM2
+  PolicyName: AWSCodePipelineApproverAccess
+  UpdateDate: 2017-08-02 17:24:58+00:00
+...
+

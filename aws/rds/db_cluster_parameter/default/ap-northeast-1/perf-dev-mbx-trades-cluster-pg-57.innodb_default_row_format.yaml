@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-trades-cluster-pg-57.innodb_default_row_format
+specifics:
+  AllowedValues: DYNAMIC,COMPACT,REDUNDANT
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Defines the default row format for InnoDB tables (including user-created
+    InnoDB temporary tables).
+  IsModifiable: true
+  ParameterName: innodb_default_row_format
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

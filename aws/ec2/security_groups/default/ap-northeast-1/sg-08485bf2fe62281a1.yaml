@@ -1,0 +1,28 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-08485bf2fe62281a1
+specifics:
+  Description: Security Group for tungsten-cicd-test1 instances
+  GroupId: sg-08485bf2fe62281a1
+  GroupName: tungsten-cicd-test1
+  Tags:
+  - Key: team
+    Value: mbx
+  - Key: project
+    Value: mbx
+  - Key: mbx.service
+    Value: tungsten-cicd
+  - Key: mbx.managed_by
+    Value: mbx.devops
+  - Key: Name
+    Value: tungsten-cicd
+  - Key: mbx.owner
+    Value: devops
+  - Key: biz
+    Value: mbx
+  VpcId: vpc-0602642b581cc4039
+...
+

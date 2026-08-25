@@ -1,0 +1,41 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-0737ff29bc52726e8
+specifics:
+  Attachment:
+    AttachTime: 2025-11-07 06:19:42+00:00
+    AttachmentId: eni-attach-05ad0d836aae651f4
+    DeleteOnTermination: false
+    DeviceIndex: 1
+    InstanceOwnerId: '983378227177'
+    NetworkCardIndex: 0
+    Status: attached
+  AvailabilityZone: ap-northeast-1a
+  DenyAllIgwTraffic: true
+  Description: RDSNetworkInterface
+  Groups:
+  - GroupId: sg-0bb18a6a1f3a97df4
+    GroupName: mbx-bnb-devops-salt-db
+  InterfaceType: interface
+  Ipv6Addresses: []
+  MacAddress: 06:22:b6:a0:ad:93
+  NetworkInterfaceId: eni-0737ff29bc52726e8
+  OwnerId: '862793644923'
+  PrivateDnsName: ip-10-200-21-149.ap-northeast-1.compute.internal
+  PrivateIpAddress: 10.200.21.149
+  PrivateIpAddresses:
+  - Primary: true
+    PrivateDnsName: ip-10-200-21-149.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.200.21.149
+  RequesterId: '983378227177'
+  RequesterManaged: true
+  SourceDestCheck: true
+  Status: in-use
+  SubnetId: subnet-0292a6bf1cfcbc7cf
+  TagSet: []
+  VpcId: vpc-07519eb63f1d932ac
+...
+

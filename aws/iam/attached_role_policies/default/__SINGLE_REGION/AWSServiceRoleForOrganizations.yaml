@@ -1,0 +1,13 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSServiceRoleForOrganizations
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::aws:policy/aws-service-role/AWSOrganizationsServiceTrustPolicy
+    PolicyName: AWSOrganizationsServiceTrustPolicy
+...
+

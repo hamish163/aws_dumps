@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql17.stats_fetch_consistency
+specifics:
+  AllowedValues: none,cache,snapshot
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Sets the consistency of accesses to statistics data
+  IsModifiable: true
+  ParameterName: stats_fetch_consistency
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

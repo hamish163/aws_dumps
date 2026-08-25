@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonQDeveloperAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonQDeveloperAccess
+  AttachmentCount: 0
+  CreateDate: 2024-07-09 08:35:15+00:00
+  DefaultVersionId: v7
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4C4YINGFPW
+  PolicyName: AmazonQDeveloperAccess
+  UpdateDate: 2026-05-20 23:12:16+00:00
+...
+

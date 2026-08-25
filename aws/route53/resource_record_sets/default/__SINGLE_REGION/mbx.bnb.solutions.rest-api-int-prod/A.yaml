@@ -1,0 +1,16 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx.bnb.solutions.rest-api-int-prod/A
+  single_region: true
+specifics:
+  AliasTarget:
+    DNSName: vpce-0b3f8991de0953ac1-bwrardpp.vpce-svc-00717b7041a318035.ap-northeast-1.vpce.amazonaws.com.
+    EvaluateTargetHealth: false
+    HostedZoneId: Z2E726K9Y6RL4W
+  Name: rest-api-int-prod.solutions.bnb.mbx.
+  Type: A
+...
+

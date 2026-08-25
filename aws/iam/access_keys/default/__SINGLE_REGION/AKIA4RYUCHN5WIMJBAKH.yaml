@@ -1,0 +1,14 @@
+---
+datatype: aws.iam.access_keys
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AKIA4RYUCHN5WIMJBAKH
+  single_region: true
+specifics:
+  AccessKeyId: AKIA4RYUCHN5WIMJBAKH
+  CreateDate: 2019-08-16 06:57:52+00:00
+  Status: Active
+  UserName: jenkins-build-ci
+...
+

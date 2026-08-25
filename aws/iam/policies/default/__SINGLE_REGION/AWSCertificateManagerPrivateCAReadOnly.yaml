@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSCertificateManagerPrivateCAReadOnly
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSCertificateManagerPrivateCAReadOnly
+  AttachmentCount: 0
+  CreateDate: 2018-10-23 16:57:04+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJQAQT3WIXOXY7TD4A
+  PolicyName: AWSCertificateManagerPrivateCAReadOnly
+  UpdateDate: 2020-08-17 22:54:22+00:00
+...
+

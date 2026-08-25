@@ -1,0 +1,13 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSAppConfigServiceRoleForSRE
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/service-role/AppConfigPolicyTemplateForSSMGetParameter-ap-northeast-1-spookydevplatformweasecretstest-S3Eh
+    PolicyName: AppConfigPolicyTemplateForSSMGetParameter-ap-northeast-1-spookydevplatformweasecretstest-S3Eh
+...
+

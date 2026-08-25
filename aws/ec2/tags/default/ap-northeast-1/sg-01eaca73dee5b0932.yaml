@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-01eaca73dee5b0932
+specifics:
+  Name: tky.test-baserules-tracky-bitdj.com
+...
+

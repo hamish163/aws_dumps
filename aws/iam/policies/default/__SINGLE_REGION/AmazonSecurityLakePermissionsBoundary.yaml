@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonSecurityLakePermissionsBoundary
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonSecurityLakePermissionsBoundary
+  AttachmentCount: 0
+  CreateDate: 2022-11-29 14:11:12+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4B7P5TB4TG
+  PolicyName: AmazonSecurityLakePermissionsBoundary
+  UpdateDate: 2024-05-14 20:39:20+00:00
+...
+

@@ -1,0 +1,17 @@
+---
+datatype: aws.iam.mfa_devices
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: alex.tanti
+  single_region: true
+specifics:
+  MFADevices:
+  - EnableDate: 2026-08-06 09:02:17+00:00
+    SerialNumber: arn:aws:iam::862793644923:u2f/user/alex.tanti/lap-ORMNWB7X5BGLTDMRV2FB2NGRRE
+    UserName: alex.tanti
+  - EnableDate: 2026-08-04 13:07:32+00:00
+    SerialNumber: arn:aws:iam::862793644923:u2f/user/alex.tanti/yubi-SQD6Q5GRUNDJ3JI774B3W7ZOKU
+    UserName: alex.tanti
+...
+

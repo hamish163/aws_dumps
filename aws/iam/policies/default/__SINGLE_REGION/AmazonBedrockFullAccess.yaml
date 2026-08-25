@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonBedrockFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonBedrockFullAccess
+  AttachmentCount: 0
+  CreateDate: 2023-12-06 15:47:17+00:00
+  DefaultVersionId: v11
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4IZPIPC3GC
+  PolicyName: AmazonBedrockFullAccess
+  UpdateDate: 2026-08-04 05:42:21+00:00
+...
+

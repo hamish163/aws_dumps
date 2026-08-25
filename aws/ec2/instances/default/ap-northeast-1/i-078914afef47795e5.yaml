@@ -1,0 +1,137 @@
+---
+datatype: aws.ec2.instances
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-078914afef47795e5
+specifics:
+  AmiLaunchIndex: 0
+  Architecture: x86_64
+  BlockDeviceMappings:
+  - DeviceName: /dev/xvda
+    Ebs:
+      AttachTime: 2026-08-20 13:53:48+00:00
+      DeleteOnTermination: true
+      Status: attached
+      VolumeId: vol-01cdd36e5bbade833
+  - DeviceName: /dev/sdf
+    Ebs:
+      AttachTime: 2026-08-20 13:54:20.935000+00:00
+      DeleteOnTermination: false
+      Status: attached
+      VolumeId: vol-0d5378446a185c0a3
+  BootMode: uefi-preferred
+  CapacityReservationSpecification:
+    CapacityReservationPreference: open
+  ClientToken: terraform-20260820135346957700000002
+  CpuOptions:
+    CoreCount: 1
+    ThreadsPerCore: 2
+  CurrentInstanceBootMode: uefi
+  EbsOptimized: true
+  EnaSupport: true
+  EnclaveOptions:
+    Enabled: false
+  HibernationOptions:
+    Configured: false
+  Hypervisor: xen
+  IamInstanceProfile:
+    Arn: arn:aws:iam::862793644923:instance-profile/mbx-bnb-colo-perf-sandbox
+    Id: AIPA4RYUCHN5SQFKRZLTY
+  ImageId: ami-06903006eaf547859
+  InstanceId: i-078914afef47795e5
+  InstanceType: t3.medium
+  LaunchTime: 2026-08-20 13:53:48+00:00
+  MaintenanceOptions:
+    AutoRecovery: default
+  MetadataOptions:
+    HttpEndpoint: enabled
+    HttpProtocolIpv6: disabled
+    HttpPutResponseHopLimit: 2
+    HttpTokens: required
+    InstanceMetadataTags: enabled
+    State: applied
+  Monitoring:
+    State: disabled
+  NetworkInterfaces:
+  - Attachment:
+      AttachTime: 2026-08-20 13:53:48+00:00
+      AttachmentId: eni-attach-0932ef22c50d2a668
+      DeleteOnTermination: true
+      DeviceIndex: 0
+      NetworkCardIndex: 0
+      Status: attached
+    Description: ''
+    Groups:
+    - GroupId: sg-07da4f76c36556ca2
+      GroupName: mbx-bnb-colo-perf-default
+    - GroupId: sg-08e06c2fcca39d99b
+      GroupName: mbx-bnb-colo-perf-monitoring
+    - GroupId: sg-06435c4ee717b3505
+      GroupName: mbx-bnb-colo-perf-sandbox
+    InterfaceType: interface
+    Ipv6Addresses: []
+    MacAddress: 06:12:09:23:01:37
+    NetworkInterfaceId: eni-0504d100a8c393471
+    OwnerId: '862793644923'
+    PrivateDnsName: ip-10-170-34-186.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.170.34.186
+    PrivateIpAddresses:
+    - Primary: true
+      PrivateDnsName: ip-10-170-34-186.ap-northeast-1.compute.internal
+      PrivateIpAddress: 10.170.34.186
+    SourceDestCheck: true
+    Status: in-use
+    SubnetId: subnet-04acba95395cc7338
+    VpcId: vpc-0e8d78d562c500d57
+  Placement:
+    AvailabilityZone: ap-northeast-1a
+    GroupName: ''
+    Tenancy: default
+  PlatformDetails: Linux/UNIX
+  PrivateDnsName: ip-10-170-34-186.ap-northeast-1.compute.internal
+  PrivateDnsNameOptions:
+    EnableResourceNameDnsAAAARecord: false
+    EnableResourceNameDnsARecord: false
+    HostnameType: ip-name
+  PrivateIpAddress: 10.170.34.186
+  ProductCodes: []
+  PublicDnsName: ''
+  RootDeviceName: /dev/xvda
+  RootDeviceType: ebs
+  SecurityGroups:
+  - GroupId: sg-07da4f76c36556ca2
+    GroupName: mbx-bnb-colo-perf-default
+  - GroupId: sg-08e06c2fcca39d99b
+    GroupName: mbx-bnb-colo-perf-monitoring
+  - GroupId: sg-06435c4ee717b3505
+    GroupName: mbx-bnb-colo-perf-sandbox
+  SourceDestCheck: true
+  State:
+    Code: 16
+    Name: running
+  StateTransitionReason: ''
+  SubnetId: subnet-04acba95395cc7338
+  Tags:
+  - Key: Name
+    Value: mbx-bnb-colo-perf-sandbox21
+  - Key: biz
+    Value: mbx
+  - Key: mbx_application_name
+    Value: mbx-sandbox
+  - Key: mbx_env_name
+    Value: colo-perf
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_host_index
+    Value: '21'
+  - Key: mbx_secret_store
+    Value: none
+  - Key: team
+    Value: mbx
+  UsageOperation: RunInstances
+  UsageOperationUpdateTime: 2026-08-20 13:53:48+00:00
+  VirtualizationType: hvm
+  VpcId: vpc-0e8d78d562c500d57
+...
+

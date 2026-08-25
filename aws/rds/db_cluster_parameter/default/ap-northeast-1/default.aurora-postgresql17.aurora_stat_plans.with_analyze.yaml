@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql17.aurora_stat_plans.with_analyze
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Show actual run time statistics for the plan.
+  IsModifiable: true
+  ParameterName: aurora_stat_plans.with_analyze
+  ParameterValue: 'off'
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

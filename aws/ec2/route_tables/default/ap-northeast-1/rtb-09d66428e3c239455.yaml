@@ -1,0 +1,72 @@
+---
+datatype: aws.ec2.route_tables
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rtb-09d66428e3c239455
+specifics:
+  Associations:
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-000930cd574c7ef53
+    RouteTableId: rtb-09d66428e3c239455
+    SubnetId: subnet-029e0d0977fff194e
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-0312c525b28127eb0
+    RouteTableId: rtb-09d66428e3c239455
+    SubnetId: subnet-03f5fef76f8620db7
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-07ff47473a2c61076
+    RouteTableId: rtb-09d66428e3c239455
+    SubnetId: subnet-0dfaed22b1dc760fb
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-086e3e588054ec1dc
+    RouteTableId: rtb-09d66428e3c239455
+    SubnetId: subnet-06b6735a7ad7247e2
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-094e38590d1659d27
+    RouteTableId: rtb-09d66428e3c239455
+    SubnetId: subnet-06f76a788f16625fd
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-0d664b3ca9c433f26
+    RouteTableId: rtb-09d66428e3c239455
+    SubnetId: subnet-02fe26e25de880257
+  OwnerId: '862793644923'
+  PropagatingVgws: []
+  RouteTableId: rtb-09d66428e3c239455
+  Routes:
+  - DestinationCidrBlock: 10.12.16.0/20
+    GatewayId: local
+    Origin: CreateRouteTable
+    State: active
+  - DestinationCidrBlock: 0.0.0.0/0
+    Origin: CreateRoute
+    State: active
+    TransitGatewayId: tgw-094ec8a8749ab72d4
+  - DestinationPrefixListId: pl-61a54008
+    GatewayId: vpce-08cd8b33e5995ae2e
+    Origin: CreateRoute
+    State: active
+  Tags:
+  - Key: aws:cloudformation:logical-id
+    Value: RouteTable
+  - Key: aws:cloudformation:stack-id
+    Value: arn:aws:cloudformation:ap-northeast-1:862793644923:stack/BitdjNetwork-DevOpsVPC-1X0P4XEMTNI7L/7255fc60-ae83-11ed-8db9-0a9bb1588b87
+  - Key: Name
+    Value: DevOpsVPC Main RouteTable
+  - Key: aws:cloudformation:stack-name
+    Value: BitdjNetwork-DevOpsVPC-1X0P4XEMTNI7L
+  VpcId: vpc-06f40d5e429c4aac6
+...
+

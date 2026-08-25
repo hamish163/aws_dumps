@@ -1,0 +1,14 @@
+---
+datatype: aws.iam.mfa_devices
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: aleix
+  single_region: true
+specifics:
+  MFADevices:
+  - EnableDate: 2026-04-13 08:11:31+00:00
+    SerialNumber: arn:aws:iam::862793644923:u2f/user/aleix/yubi-key-LFK72VYVPRAK3FXTBG6GR4U62I
+    UserName: aleix
+...
+

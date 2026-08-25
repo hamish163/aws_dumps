@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSEC2SpotFleetServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AWSEC2SpotFleetServiceRolePolicy
+  AttachmentCount: 1
+  CreateDate: 2017-10-23 19:13:06+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAILWCVTZD57EMYWMBO
+  PolicyName: AWSEC2SpotFleetServiceRolePolicy
+  UpdateDate: 2020-03-16 19:16:21+00:00
+...
+

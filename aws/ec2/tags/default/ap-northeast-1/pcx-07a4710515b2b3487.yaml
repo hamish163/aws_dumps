@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: pcx-07a4710515b2b3487
+specifics:
+  Name: perf_to_futures_testnet
+...
+

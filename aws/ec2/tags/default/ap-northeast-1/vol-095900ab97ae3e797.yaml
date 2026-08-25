@@ -1,0 +1,18 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-095900ab97ae3e797
+specifics:
+  CSIVolumeName: pvc-e3327905-0f4d-46ae-b74a-3ba05fbbd051
+  KubernetesCluster: mbx-bnb-sre-emu
+  Name: mbx-bnb-sre-emu-dynamic-pvc-e3327905-0f4d-46ae-b74a-3ba05fbbd051
+  ebs.csi.aws.com/cluster: 'true'
+  ebs.csi.aws.com/cluster-name: mbx-bnb-sre-emu
+  kubernetes.io/cluster/mbx-bnb-sre-emu: owned
+  kubernetes.io/created-for/pv/name: pvc-e3327905-0f4d-46ae-b74a-3ba05fbbd051
+  kubernetes.io/created-for/pvc/name: prometheus-kube-prometheus-stack-prometheus-db-prometheus-kube-prometheus-stack-prometheus-0
+  kubernetes.io/created-for/pvc/namespace: monitoring
+...
+

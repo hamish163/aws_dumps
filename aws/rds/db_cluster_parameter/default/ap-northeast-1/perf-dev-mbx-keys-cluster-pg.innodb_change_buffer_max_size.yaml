@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-keys-cluster-pg.innodb_change_buffer_max_size
+specifics:
+  AllowedValues: 0-50
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Maximum size for the InnoDB change buffer, as a percentage of the total
+    size of the buffer pool.
+  IsModifiable: false
+  ParameterName: innodb_change_buffer_max_size
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

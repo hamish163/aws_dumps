@@ -1,0 +1,16 @@
+---
+datatype: aws.elbv2.target_health
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/tracky-sleepy/86e8644c3edbba48
+specifics:
+  TargetHealthDescriptions:
+    i-0606fab7ae0a80db9/6100:
+      HealthCheckPort: '6100'
+      Target:
+        Id: i-0606fab7ae0a80db9
+        Port: 6100
+  _arn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/tracky-sleepy/86e8644c3edbba48
+...
+

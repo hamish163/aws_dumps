@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-08191ae279d3e715c
+specifics:
+  Description: Allow TCP traffic from rest-api-alb SG on port 4567
+  FromPort: 4567
+  GroupId: sg-0ce4f7161781a1e46
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-07416afd6268a2734
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-08191ae279d3e715c
+  Tags: []
+  ToPort: 4567
+...
+

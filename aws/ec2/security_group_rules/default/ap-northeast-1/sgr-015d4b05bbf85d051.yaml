@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-015d4b05bbf85d051
+specifics:
+  Description: Allow TCP traffic from mgmt-api SG on port 8350
+  FromPort: 8350
+  GroupId: sg-0d0d0d3dc7d5079bf
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0cb2d15d2f23065d8
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-015d4b05bbf85d051
+  Tags: []
+  ToPort: 8350
+...
+

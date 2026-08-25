@@ -1,0 +1,16 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: net.toolsfdg.it-support/A
+  single_region: true
+specifics:
+  AliasTarget:
+    DNSName: vpce-0943bfe345f977018-j8330jkq-ap-northeast-1c.vpce-svc-0c8fcc7767e271f4b.ap-northeast-1.vpce.amazonaws.com.
+    EvaluateTargetHealth: true
+    HostedZoneId: Z2E726K9Y6RL4W
+  Name: it-support.toolsfdg.net.
+  Type: A
+...
+

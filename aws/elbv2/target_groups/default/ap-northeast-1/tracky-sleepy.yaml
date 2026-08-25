@@ -1,0 +1,29 @@
+---
+datatype: aws.elbv2.target_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: tracky-sleepy
+specifics:
+  HealthCheckEnabled: true
+  HealthCheckIntervalSeconds: 5
+  HealthCheckPath: /api/v1/health
+  HealthCheckPort: traffic-port
+  HealthCheckProtocol: HTTP
+  HealthCheckTimeoutSeconds: 2
+  HealthyThresholdCount: 5
+  IpAddressType: ipv4
+  LoadBalancerArns:
+  - arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:loadbalancer/app/tky-tracky-master/0f7db55853ce08a5
+  Matcher:
+    HttpCode: '200'
+  Port: 6100
+  Protocol: HTTP
+  ProtocolVersion: HTTP1
+  TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/tracky-sleepy/86e8644c3edbba48
+  TargetGroupName: tracky-sleepy
+  TargetType: instance
+  UnhealthyThresholdCount: 2
+  VpcId: vpc-03f5d2495fd8d95a3
+...
+

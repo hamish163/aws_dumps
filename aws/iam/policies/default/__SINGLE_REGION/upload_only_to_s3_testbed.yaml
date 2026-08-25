@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: upload_only_to_s3_testbed
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/upload_only_to_s3_testbed
+  AttachmentCount: 1
+  CreateDate: 2024-07-24 14:20:05+00:00
+  DefaultVersionId: v5
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5R3MHOTDKC
+  PolicyName: upload_only_to_s3_testbed
+  UpdateDate: 2024-07-24 14:33:26+00:00
+...
+

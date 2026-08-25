@@ -1,0 +1,42 @@
+---
+datatype: aws.ec2.volumes
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-0156f69ef89c8f71b
+specifics:
+  Attachments:
+  - AttachTime: 2026-06-23 14:25:44+00:00
+    DeleteOnTermination: false
+    Device: /dev/sdj
+    InstanceId: i-0f63ce60e3a436883
+    State: attached
+    VolumeId: vol-0156f69ef89c8f71b
+  AvailabilityZone: ap-northeast-1c
+  CreateTime: 2026-06-23 14:25:12.664000+00:00
+  Encrypted: false
+  Iops: 3000
+  MultiAttachEnabled: false
+  Size: 1024
+  SnapshotId: ''
+  State: in-use
+  Tags:
+  - Key: mbx_env_name
+    Value: perf
+  - Key: biz
+    Value: mbx
+  - Key: mbx_application_name
+    Value: journal-archive
+  - Key: team
+    Value: mbx
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_secret_store
+    Value: none
+  - Key: Name
+    Value: mbx-bnb-perf-journal-archive11
+  Throughput: 125
+  VolumeId: vol-0156f69ef89c8f71b
+  VolumeType: gp3
+...
+

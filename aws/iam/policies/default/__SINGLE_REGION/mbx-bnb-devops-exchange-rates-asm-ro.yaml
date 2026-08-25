@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-devops-exchange-rates-asm-ro
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/mbx-bnb-devops-exchange-rates-asm-ro
+  AttachmentCount: 1
+  CreateDate: 2026-02-13 16:27:04+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5RQWAAR4AL
+  PolicyName: mbx-bnb-devops-exchange-rates-asm-ro
+  UpdateDate: 2026-02-13 16:27:04+00:00
+...
+

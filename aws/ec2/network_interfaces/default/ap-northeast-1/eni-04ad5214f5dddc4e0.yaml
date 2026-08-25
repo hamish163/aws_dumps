@@ -1,0 +1,41 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-04ad5214f5dddc4e0
+specifics:
+  Attachment:
+    AttachTime: 2026-02-04 02:37:32+00:00
+    AttachmentId: eni-attach-0f52881f6f81bf274
+    DeleteOnTermination: false
+    DeviceIndex: 1
+    InstanceOwnerId: 049300578640
+    NetworkCardIndex: 0
+    Status: attached
+  AvailabilityZone: ap-northeast-1a
+  DenyAllIgwTraffic: true
+  Description: RDSNetworkInterface
+  Groups:
+  - GroupId: sg-0790d3b7ad2e79230
+    GroupName: mbx-bnb-devops-common-db
+  InterfaceType: interface
+  Ipv6Addresses: []
+  MacAddress: 06:35:e7:f5:c4:f5
+  NetworkInterfaceId: eni-04ad5214f5dddc4e0
+  OwnerId: '862793644923'
+  PrivateDnsName: ip-10-200-21-128.ap-northeast-1.compute.internal
+  PrivateIpAddress: 10.200.21.128
+  PrivateIpAddresses:
+  - Primary: true
+    PrivateDnsName: ip-10-200-21-128.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.200.21.128
+  RequesterId: 049300578640
+  RequesterManaged: true
+  SourceDestCheck: true
+  Status: in-use
+  SubnetId: subnet-0292a6bf1cfcbc7cf
+  TagSet: []
+  VpcId: vpc-07519eb63f1d932ac
+...
+

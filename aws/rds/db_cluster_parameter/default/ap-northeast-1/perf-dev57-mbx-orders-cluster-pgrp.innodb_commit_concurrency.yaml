@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev57-mbx-orders-cluster-pgrp.innodb_commit_concurrency
+specifics:
+  AllowedValues: 0-1000
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: The number of threads that can commit at the same time.
+  IsModifiable: true
+  ParameterName: innodb_commit_concurrency
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

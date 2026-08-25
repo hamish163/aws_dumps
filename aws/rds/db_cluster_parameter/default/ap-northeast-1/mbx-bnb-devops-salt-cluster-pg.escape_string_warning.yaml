@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-devops-salt-cluster-pg.escape_string_warning
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Warn about backslash escapes in ordinary string literals.
+  IsModifiable: true
+  ParameterName: escape_string_warning
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

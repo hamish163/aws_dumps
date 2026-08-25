@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-0ec501f8411e75fd3
+specifics:
+  cluster.k8s.amazonaws.com/name: mbx-bnb-devops-jenkins_eks-cluster
+  node.k8s.amazonaws.com/createdAt: '2026-01-12T14:33:59Z'
+  node.k8s.amazonaws.com/instance_id: i-0551c4b55c3f7fa8b
+...
+

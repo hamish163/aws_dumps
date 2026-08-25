@@ -1,0 +1,40 @@
+---
+datatype: aws.ec2.volumes
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-029f5efcaa32891b7
+specifics:
+  Attachments:
+  - AttachTime: 2026-06-11 11:18:54+00:00
+    DeleteOnTermination: false
+    Device: /dev/sdf
+    InstanceId: i-09016c0aaad366372
+    State: attached
+    VolumeId: vol-029f5efcaa32891b7
+  AvailabilityZone: ap-northeast-1a
+  CreateTime: 2026-06-11 11:18:32.799000+00:00
+  Encrypted: false
+  Iops: 3000
+  MultiAttachEnabled: false
+  Size: 20
+  SnapshotId: ''
+  State: in-use
+  Tags:
+  - Key: mbx_env_name
+    Value: prod
+  - Key: Name
+    Value: mbx-tools-prod-salt-master1
+  - Key: biz
+    Value: mbx
+  - Key: team
+    Value: mbx
+  - Key: mbx_exchange_name
+    Value: tools
+  - Key: mbx_secret_store
+    Value: ''
+  Throughput: 125
+  VolumeId: vol-029f5efcaa32891b7
+  VolumeType: gp3
+...
+

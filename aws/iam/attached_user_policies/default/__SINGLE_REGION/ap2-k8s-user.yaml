@@ -1,0 +1,12 @@
+---
+datatype: aws.iam.attached_user_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: ap2-k8s-user
+  single_region: true
+specifics:
+  AttachedPolicies: []
+  _UserName: ap2-k8s-user
+...
+

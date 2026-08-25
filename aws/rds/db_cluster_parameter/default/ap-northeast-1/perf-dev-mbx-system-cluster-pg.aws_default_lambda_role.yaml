@@ -1,0 +1,18 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-system-cluster-pg.aws_default_lambda_role
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Default IAM role ARN used to access AWS Lambda Service
+  IsModifiable: true
+  ParameterName: aws_default_lambda_role
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

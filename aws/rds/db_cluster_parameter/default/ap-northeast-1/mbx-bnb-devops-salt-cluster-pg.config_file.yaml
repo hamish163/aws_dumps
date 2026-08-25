@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-devops-salt-cluster-pg.config_file
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: Sets the servers main configuration file.
+  IsModifiable: false
+  ParameterName: config_file
+  ParameterValue: /rdsdbdata/config/postgresql.conf
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

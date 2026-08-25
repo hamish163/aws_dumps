@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-spade-order-cluster-pg.performance_schema_accounts_size
+specifics:
+  AllowedValues: -1-1048576
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: The number of rows in the Performance Schema accounts table.
+  IsModifiable: true
+  ParameterName: performance_schema_accounts_size
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSConfigReadOnlyAccessAdditional
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/AWSConfigReadOnlyAccessAdditional
+  AttachmentCount: 1
+  CreateDate: 2022-04-14 04:17:25+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5QU7B5CZK6
+  PolicyName: AWSConfigReadOnlyAccessAdditional
+  UpdateDate: 2022-04-14 04:17:25+00:00
+...
+

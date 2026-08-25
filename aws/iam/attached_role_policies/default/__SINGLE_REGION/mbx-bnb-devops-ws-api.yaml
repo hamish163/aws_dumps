@@ -1,0 +1,25 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-devops-ws-api
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/vizzy-ingest-bnb-devops
+    PolicyName: vizzy-ingest-bnb-devops
+  - PolicyArn: arn:aws:iam::862793644923:policy/ro-s3-jenkins-devops
+    PolicyName: ro-s3-jenkins-devops
+  - PolicyArn: arn:aws:iam::862793644923:policy/mbx-bnb-devops-ws-api-asm-ro
+    PolicyName: mbx-bnb-devops-ws-api-asm-ro
+  - PolicyArn: arn:aws:iam::862793644923:policy/temp-mbx-bnb-devops-ro-secrets
+    PolicyName: temp-mbx-bnb-devops-ro-secrets
+  - PolicyArn: arn:aws:iam::862793644923:policy/mbx-bnb-devops-windmill-ws_api-writeonly
+    PolicyName: mbx-bnb-devops-windmill-ws_api-writeonly
+  - PolicyArn: arn:aws:iam::862793644923:policy/mbx-bnb-devops-ws-api-papermill
+    PolicyName: mbx-bnb-devops-ws-api-papermill
+  - PolicyArn: arn:aws:iam::862793644923:policy/mbx-bnb-devops-ws-api-windmill
+    PolicyName: mbx-bnb-devops-ws-api-windmill
+...
+

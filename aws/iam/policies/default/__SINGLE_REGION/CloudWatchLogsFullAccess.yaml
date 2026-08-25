@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: CloudWatchLogsFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/CloudWatchLogsFullAccess
+  AttachmentCount: 4
+  CreateDate: 2015-02-06 18:40:02+00:00
+  DefaultVersionId: v8
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJ3ZGNWK2R5HW5BQFO
+  PolicyName: CloudWatchLogsFullAccess
+  UpdateDate: 2026-02-12 18:00:33+00:00
+...
+

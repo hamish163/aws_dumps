@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.neptune1.4.neptune_lab_mode
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: Enables Neptune engine experimental features
+  IsModifiable: true
+  ParameterName: neptune_lab_mode
+  ParameterValue: ''
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

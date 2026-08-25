@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonRedshiftQueryEditorV2ReadSharing
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonRedshiftQueryEditorV2ReadSharing
+  AttachmentCount: 0
+  CreateDate: 2021-09-24 14:22:21+00:00
+  DefaultVersionId: v9
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4G5PCICHSV
+  PolicyName: AmazonRedshiftQueryEditorV2ReadSharing
+  UpdateDate: 2024-02-21 17:27:40+00:00
+...
+

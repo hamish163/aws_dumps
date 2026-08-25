@@ -1,0 +1,135 @@
+---
+datatype: aws.ec2.instances
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-09016c0aaad366372
+specifics:
+  AmiLaunchIndex: 0
+  Architecture: x86_64
+  BlockDeviceMappings:
+  - DeviceName: /dev/xvda
+    Ebs:
+      AttachTime: 2026-06-11 11:18:16+00:00
+      DeleteOnTermination: true
+      Status: attached
+      VolumeId: vol-006d0321bd758a249
+  - DeviceName: /dev/sdf
+    Ebs:
+      AttachTime: 2026-06-11 11:18:54.923000+00:00
+      DeleteOnTermination: false
+      Status: attached
+      VolumeId: vol-029f5efcaa32891b7
+  BootMode: uefi-preferred
+  CapacityReservationSpecification:
+    CapacityReservationPreference: open
+  ClientToken: terraform-20260611111814108600000003
+  CpuOptions:
+    CoreCount: 2
+    ThreadsPerCore: 2
+  CurrentInstanceBootMode: uefi
+  EbsOptimized: true
+  EnaSupport: true
+  EnclaveOptions:
+    Enabled: false
+  HibernationOptions:
+    Configured: false
+  Hypervisor: xen
+  IamInstanceProfile:
+    Arn: arn:aws:iam::862793644923:instance-profile/mbx-tools-prod-salt-master
+    Id: AIPA4RYUCHN5RH37ALON2
+  ImageId: ami-06903006eaf547859
+  InstanceId: i-09016c0aaad366372
+  InstanceType: c7i.xlarge
+  LaunchTime: 2026-06-11 11:18:16+00:00
+  MaintenanceOptions:
+    AutoRecovery: default
+  MetadataOptions:
+    HttpEndpoint: enabled
+    HttpProtocolIpv6: disabled
+    HttpPutResponseHopLimit: 2
+    HttpTokens: required
+    InstanceMetadataTags: enabled
+    State: applied
+  Monitoring:
+    State: disabled
+  NetworkInterfaces:
+  - Attachment:
+      AttachTime: 2026-06-11 11:18:16+00:00
+      AttachmentId: eni-attach-0c7eb914334c14d5e
+      DeleteOnTermination: true
+      DeviceIndex: 0
+      NetworkCardIndex: 0
+      Status: attached
+    Description: ''
+    Groups:
+    - GroupId: sg-0582793f7a346a651
+      GroupName: mbx-tools-prod-default
+    - GroupId: sg-0a44e08d9874c9ab8
+      GroupName: mbx-tools-prod-salt-master
+    - GroupId: sg-08b2697844d30d208
+      GroupName: mbx-tools-prod-monitoring
+    InterfaceType: interface
+    Ipv6Addresses: []
+    MacAddress: 06:56:ea:f4:50:03
+    NetworkInterfaceId: eni-0584a12c926c473c4
+    OwnerId: '862793644923'
+    PrivateDnsName: ip-10-220-19-187.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.220.19.187
+    PrivateIpAddresses:
+    - Primary: true
+      PrivateDnsName: ip-10-220-19-187.ap-northeast-1.compute.internal
+      PrivateIpAddress: 10.220.19.187
+    SourceDestCheck: true
+    Status: in-use
+    SubnetId: subnet-0af1f194c19754cfb
+    VpcId: vpc-0f055c381f89cb200
+  Placement:
+    AvailabilityZone: ap-northeast-1a
+    GroupName: ''
+    Tenancy: default
+  PlatformDetails: Linux/UNIX
+  PrivateDnsName: ip-10-220-19-187.ap-northeast-1.compute.internal
+  PrivateDnsNameOptions:
+    EnableResourceNameDnsAAAARecord: false
+    EnableResourceNameDnsARecord: false
+    HostnameType: ip-name
+  PrivateIpAddress: 10.220.19.187
+  ProductCodes: []
+  PublicDnsName: ''
+  RootDeviceName: /dev/xvda
+  RootDeviceType: ebs
+  SecurityGroups:
+  - GroupId: sg-0582793f7a346a651
+    GroupName: mbx-tools-prod-default
+  - GroupId: sg-0a44e08d9874c9ab8
+    GroupName: mbx-tools-prod-salt-master
+  - GroupId: sg-08b2697844d30d208
+    GroupName: mbx-tools-prod-monitoring
+  SourceDestCheck: true
+  State:
+    Code: 16
+    Name: running
+  StateTransitionReason: ''
+  SubnetId: subnet-0af1f194c19754cfb
+  Tags:
+  - Key: Name
+    Value: mbx-tools-prod-salt-master1
+  - Key: biz
+    Value: mbx
+  - Key: mbx_env_name
+    Value: prod
+  - Key: mbx_exchange_name
+    Value: tools
+  - Key: mbx_host_index
+    Value: '1'
+  - Key: mbx_secret_store
+    Value: ''
+  - Key: team
+    Value: mbx
+  UsageOperation: RunInstances
+  UsageOperationUpdateTime: 2026-06-11 11:18:16+00:00
+  VirtualizationType: hvm
+  VpcId: vpc-0f055c381f89cb200
+...
+

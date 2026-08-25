@@ -1,0 +1,41 @@
+---
+datatype: aws.ec2.volumes
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-00ffeb11f48091057
+specifics:
+  Attachments:
+  - AttachTime: 2021-09-02 06:11:49+00:00
+    DeleteOnTermination: true
+    Device: /dev/xvda
+    InstanceId: i-0def5373c6f8a72e0
+    State: attached
+    VolumeId: vol-00ffeb11f48091057
+  AvailabilityZone: ap-northeast-1a
+  CreateTime: 2021-09-02 06:11:49.085000+00:00
+  Encrypted: false
+  Iops: 180
+  MultiAttachEnabled: false
+  Size: 60
+  SnapshotId: snap-06d3c99341f26e9bb
+  State: in-use
+  Tags:
+  - Key: Name
+    Value: bnb_testnet_mbx_bot1_ec2
+  - Key: project
+    Value: mbx
+  - Key: role
+    Value: trading_bot
+  - Key: env
+    Value: testnet
+  - Key: exchange_id
+    Value: bnb
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  VolumeId: vol-00ffeb11f48091057
+  VolumeType: gp2
+...
+

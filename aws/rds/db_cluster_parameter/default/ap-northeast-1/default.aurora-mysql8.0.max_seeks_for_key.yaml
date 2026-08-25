@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-mysql8.0.max_seeks_for_key
+specifics:
+  AllowedValues: 1-18446744073709547520
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: A low value can force MySQL to prefer indexes instead of table scans.
+  IsModifiable: true
+  ParameterName: max_seeks_for_key
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,135 @@
+---
+datatype: aws.ec2.instances
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-0c5517a2d070ab3d7
+specifics:
+  AmiLaunchIndex: 0
+  Architecture: x86_64
+  BlockDeviceMappings:
+  - DeviceName: /dev/xvda
+    Ebs:
+      AttachTime: 2023-04-19 09:47:32+00:00
+      DeleteOnTermination: true
+      Status: attached
+      VolumeId: vol-0369cfeb94a4ee40e
+  - DeviceName: /dev/xvdb
+    Ebs:
+      AttachTime: 2023-04-19 09:47:32+00:00
+      DeleteOnTermination: true
+      Status: attached
+      VolumeId: vol-074f2f6702b013b4c
+  CapacityReservationSpecification:
+    CapacityReservationPreference: open
+  ClientToken: MbxCha-App3-15KMJDWCCG0BL
+  CpuOptions:
+    CoreCount: 2
+    ThreadsPerCore: 2
+  CurrentInstanceBootMode: legacy-bios
+  EbsOptimized: true
+  EnaSupport: true
+  EnclaveOptions:
+    Enabled: false
+  HibernationOptions:
+    Configured: false
+  Hypervisor: xen
+  IamInstanceProfile:
+    Arn: arn:aws:iam::862793644923:instance-profile/MbxChat-Mongo-19FEZSTWMJZQR-AppProfile-Q8TTzXsrDTja
+    Id: AIPA4RYUCHN5YGCOC7ISX
+  ImageId: ami-0ffac3e16de16665e
+  InstanceId: i-0c5517a2d070ab3d7
+  InstanceType: t3.xlarge
+  KeyName: jeff
+  LaunchTime: 2026-02-10 15:28:43+00:00
+  MaintenanceOptions:
+    AutoRecovery: default
+  MetadataOptions:
+    HttpEndpoint: enabled
+    HttpProtocolIpv6: disabled
+    HttpPutResponseHopLimit: 1
+    HttpTokens: optional
+    InstanceMetadataTags: enabled
+    State: applied
+  Monitoring:
+    State: disabled
+  NetworkInterfaces:
+  - Attachment:
+      AttachTime: 2023-04-19 09:47:31+00:00
+      AttachmentId: eni-attach-06a9910e8e1d93385
+      DeleteOnTermination: true
+      DeviceIndex: 0
+      NetworkCardIndex: 0
+      Status: attached
+    Description: ''
+    Groups:
+    - GroupId: sg-00e1892fdd6a2392d
+      GroupName: MbxChat-Mongo-19FEZSTWMJZQR-AppSecurityGroup-1KMXZZJUWUVCB
+    - GroupId: sg-0e9272cfdb1ce81be
+      GroupName: MbxChat-SshSecurityGroup-IKAYE1T8KQ3Z
+    InterfaceType: interface
+    Ipv6Addresses: []
+    MacAddress: 0e:35:8c:8b:b4:dd
+    NetworkInterfaceId: eni-045743b06d8b2d345
+    OwnerId: '862793644923'
+    PrivateDnsName: ip-10-12-5-242.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.12.5.242
+    PrivateIpAddresses:
+    - Primary: true
+      PrivateDnsName: ip-10-12-5-242.ap-northeast-1.compute.internal
+      PrivateIpAddress: 10.12.5.242
+    SourceDestCheck: true
+    Status: in-use
+    SubnetId: subnet-09e57a801e42927f0
+    VpcId: vpc-050b727e89fac853e
+  Placement:
+    AvailabilityZone: ap-northeast-1d
+    GroupName: ''
+    Tenancy: default
+  PlatformDetails: Linux/UNIX
+  PrivateDnsName: ip-10-12-5-242.ap-northeast-1.compute.internal
+  PrivateDnsNameOptions:
+    EnableResourceNameDnsAAAARecord: false
+    EnableResourceNameDnsARecord: false
+    HostnameType: ip-name
+  PrivateIpAddress: 10.12.5.242
+  ProductCodes: []
+  PublicDnsName: ''
+  RootDeviceName: /dev/xvda
+  RootDeviceType: ebs
+  SecurityGroups:
+  - GroupId: sg-00e1892fdd6a2392d
+    GroupName: MbxChat-Mongo-19FEZSTWMJZQR-AppSecurityGroup-1KMXZZJUWUVCB
+  - GroupId: sg-0e9272cfdb1ce81be
+    GroupName: MbxChat-SshSecurityGroup-IKAYE1T8KQ3Z
+  SourceDestCheck: true
+  State:
+    Code: 16
+    Name: running
+  StateTransitionReason: ''
+  SubnetId: subnet-09e57a801e42927f0
+  Tags:
+  - Key: Name
+    Value: mongo3.chat.bitdj.com
+  - Key: aws:cloudformation:logical-id
+    Value: App3
+  - Key: aws:cloudformation:stack-id
+    Value: arn:aws:cloudformation:ap-northeast-1:862793644923:stack/MbxChat-Mongo-19FEZSTWMJZQR/df250780-de96-11ed-ae5c-06c5754c9893
+  - Key: aws:cloudformation:stack-name
+    Value: MbxChat-Mongo-19FEZSTWMJZQR
+  - Key: aws:ec2launchtemplate:id
+    Value: lt-0bb5970664c20ada2
+  - Key: aws:ec2launchtemplate:version
+    Value: '1'
+  - Key: reflect:hostname
+    Value: mongo3.chat.bitdj.com
+  - Key: reflect:parent_stack_name
+    Value: MbxChat
+  - Key: reflect:stack_name
+    Value: MbxChat-Mongo-19FEZSTWMJZQR
+  UsageOperation: RunInstances
+  UsageOperationUpdateTime: 2023-04-19 09:47:31+00:00
+  VirtualizationType: hvm
+  VpcId: vpc-050b727e89fac853e
+...
+

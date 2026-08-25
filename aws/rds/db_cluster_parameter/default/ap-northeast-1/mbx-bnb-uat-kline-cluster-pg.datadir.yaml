@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-kline-cluster-pg.datadir
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: MySQL data directory
+  IsModifiable: false
+  ParameterName: datadir
+  ParameterValue: /rdsdbdata/db/
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

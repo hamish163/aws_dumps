@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: nip-03ba5f12fdfc96eea
+specifics:
+  Name: split-vpntestbox-to-allure
+...
+

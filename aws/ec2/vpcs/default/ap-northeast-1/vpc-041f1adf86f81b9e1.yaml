@@ -1,0 +1,30 @@
+---
+datatype: aws.ec2.vpcs
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vpc-041f1adf86f81b9e1
+specifics:
+  CidrBlock: 10.12.2.0/24
+  CidrBlockAssociationSet:
+  - AssociationId: vpc-cidr-assoc-06d21541a3e2feca1
+    CidrBlock: 10.12.2.0/24
+    CidrBlockState:
+      State: associated
+  DhcpOptionsId: dopt-6f8f960d
+  InstanceTenancy: default
+  IsDefault: false
+  OwnerId: '862793644923'
+  State: available
+  Tags:
+  - Key: Name
+    Value: ProdGatewayVPC Attachment VPC
+  - Key: aws:cloudformation:stack-name
+    Value: BitdjNetwork-ProdGatewayVPC-1PZSWRWOLEH8E
+  - Key: aws:cloudformation:stack-id
+    Value: arn:aws:cloudformation:ap-northeast-1:862793644923:stack/BitdjNetwork-ProdGatewayVPC-1PZSWRWOLEH8E/4abb5a50-6cca-11ee-a1b9-0e55d09e0867
+  - Key: aws:cloudformation:logical-id
+    Value: VPC
+  VpcId: vpc-041f1adf86f81b9e1
+...
+

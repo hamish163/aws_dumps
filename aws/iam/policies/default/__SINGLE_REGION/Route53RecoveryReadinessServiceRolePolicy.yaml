@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: Route53RecoveryReadinessServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/Route53RecoveryReadinessServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2021-07-15 16:06:21+00:00
+  DefaultVersionId: v5
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4J7MSL2FYD
+  PolicyName: Route53RecoveryReadinessServiceRolePolicy
+  UpdateDate: 2023-02-14 18:08:46+00:00
+...
+

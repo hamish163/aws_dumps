@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: igw-00743bea791b8c4f3
+specifics:
+  Name: ofc_bcknd_bitdj_mbx_igw
+  env: bitdj
+  project: mbx
+...
+

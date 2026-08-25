@@ -1,0 +1,32 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0286387aaf882eb52
+specifics:
+  Description: Security group to access spooky from lambdas
+  GroupId: sg-0286387aaf882eb52
+  GroupName: tracky-dev-spooky-lambda-clients
+  Tags:
+  - Key: exchange_id
+    Value: tracky
+  - Key: env
+    Value: dev
+  - Key: role
+    Value: spooky
+  - Key: team
+    Value: sre
+  - Key: sre-app
+    Value: spooky
+  - Key: sre-component
+    Value: spooky
+  - Key: biz
+    Value: mbx
+  - Key: project
+    Value: spooky
+  - Key: sre-env
+    Value: staging
+  VpcId: vpc-0a7d9bfaa80b951d9
+...
+

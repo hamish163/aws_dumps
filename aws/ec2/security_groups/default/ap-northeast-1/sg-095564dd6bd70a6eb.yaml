@@ -1,0 +1,24 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-095564dd6bd70a6eb
+specifics:
+  Description: Security Group for SH shared VPC Endpoint
+  GroupId: sg-095564dd6bd70a6eb
+  GroupName: mbx-bnb-sre-sh-shared-vpce
+  Tags:
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  - Key: mbx_env_name
+    Value: sre
+  - Key: Name
+    Value: mbx-bnb-sre-sh-shared-vpce
+  VpcId: vpc-0ba76150fc7799f94
+...
+

@@ -1,0 +1,25 @@
+---
+datatype: aws.eks.addon
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: metrics-server
+specifics:
+  addonArn: arn:aws:eks:ap-northeast-1:862793644923:addon/mbx-bnb-sre-emu/metrics-server/70cf54aa-6752-2133-daf8-aa0140782f7c
+  addonName: metrics-server
+  addonVersion: v0.8.1-eksbuild.10
+  clusterName: mbx-bnb-sre-emu
+  createdAt: 2026-06-09 08:22:48.199000+10:00
+  health:
+    issues: []
+  modifiedAt: 2026-06-09 08:23:23.494000+10:00
+  status: ACTIVE
+  tags:
+    biz: mbx
+    mbx_env_name: sre
+    mbx_exchange_name: bnb
+    mbx_secret_store: none
+    stack_path: bnb/sre/eks/emu/extras
+    team: mbx
+...
+

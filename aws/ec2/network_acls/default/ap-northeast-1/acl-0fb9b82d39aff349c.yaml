@@ -1,0 +1,97 @@
+---
+datatype: aws.ec2.network_acls
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: acl-0fb9b82d39aff349c
+specifics:
+  Associations:
+  - NetworkAclAssociationId: aclassoc-0e96d88e7041595f8
+    NetworkAclId: acl-0fb9b82d39aff349c
+    SubnetId: subnet-0fa22c1bfa9df87d8
+  - NetworkAclAssociationId: aclassoc-0d536c69702755863
+    NetworkAclId: acl-0fb9b82d39aff349c
+    SubnetId: subnet-0324c414627a2e998
+  - NetworkAclAssociationId: aclassoc-01f3bf4a9ef85d912
+    NetworkAclId: acl-0fb9b82d39aff349c
+    SubnetId: subnet-074cb43103e037ad8
+  Entries:
+  - CidrBlock: 172.27.48.0/21
+    Egress: true
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 5
+  - CidrBlock: 172.27.48.0/21
+    Egress: false
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 5
+  - CidrBlock: 172.27.56.0/21
+    Egress: true
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 6
+  - CidrBlock: 172.27.56.0/21
+    Egress: false
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 6
+  - CidrBlock: 172.27.64.0/21
+    Egress: true
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 7
+  - CidrBlock: 172.27.64.0/21
+    Egress: false
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 7
+  - CidrBlock: 172.27.24.0/21
+    Egress: true
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 10
+  - CidrBlock: 172.27.24.0/21
+    Egress: false
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 10
+  - CidrBlock: 172.27.32.0/21
+    Egress: true
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 11
+  - CidrBlock: 172.27.32.0/21
+    Egress: false
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 11
+  - CidrBlock: 172.27.40.0/21
+    Egress: true
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 12
+  - CidrBlock: 172.27.40.0/21
+    Egress: false
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 12
+  - CidrBlock: 0.0.0.0/0
+    Egress: true
+    Protocol: '-1'
+    RuleAction: deny
+    RuleNumber: 32767
+  - CidrBlock: 0.0.0.0/0
+    Egress: false
+    Protocol: '-1'
+    RuleAction: deny
+    RuleNumber: 32767
+  IsDefault: false
+  NetworkAclId: acl-0fb9b82d39aff349c
+  OwnerId: '862793644923'
+  Tags:
+  - Key: Name
+    Value: prod-tracky-backend
+  VpcId: vpc-03f5d2495fd8d95a3
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-kline-cluster-pg.log_queries_not_using_indexes
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: immediate
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Logs queries that are expected to retrieve all rows to slow query log
+  IsModifiable: true
+  ParameterName: log_queries_not_using_indexes
+  ParameterValue: '0'
+  Source: user
+  SupportedEngineModes:
+  - provisioned
+...
+

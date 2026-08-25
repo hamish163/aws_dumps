@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSPrivateCAUser
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSPrivateCAUser
+  AttachmentCount: 0
+  CreateDate: 2023-02-14 18:16:08+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4GKEATZA7L
+  PolicyName: AWSPrivateCAUser
+  UpdateDate: 2026-02-12 18:01:42+00:00
+...
+

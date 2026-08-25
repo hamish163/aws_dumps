@@ -1,0 +1,16 @@
+---
+datatype: aws.iam.users
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: pawan
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/pawan
+  CreateDate: 2018-11-09 03:41:07+00:00
+  PasswordLastUsed: 2026-08-04 07:05:11+00:00
+  Path: /
+  UserId: AIDAJB4ZKICQ3EE6GDZ6E
+  UserName: pawan
+...
+

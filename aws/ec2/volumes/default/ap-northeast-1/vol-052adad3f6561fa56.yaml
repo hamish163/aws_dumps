@@ -1,0 +1,42 @@
+---
+datatype: aws.ec2.volumes
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-052adad3f6561fa56
+specifics:
+  Attachments:
+  - AttachTime: 2024-11-25 11:31:27+00:00
+    DeleteOnTermination: false
+    Device: /dev/sdf
+    InstanceId: i-00a78614cf17878d3
+    State: attached
+    VolumeId: vol-052adad3f6561fa56
+  AvailabilityZone: ap-northeast-1a
+  CreateTime: 2024-07-18 15:19:45.161000+00:00
+  Encrypted: false
+  Iops: 3000
+  MultiAttachEnabled: false
+  Size: 120
+  SnapshotId: ''
+  State: in-use
+  Tags:
+  - Key: mbx_env_name
+    Value: perf
+  - Key: Name
+    Value: mbx-bnb-perf-tungsten1
+  - Key: biz
+    Value: mbx
+  - Key: mbx_application_name
+    Value: thanos-store
+  - Key: mbx_secret_store
+    Value: none
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  Throughput: 125
+  VolumeId: vol-052adad3f6561fa56
+  VolumeType: gp3
+...
+

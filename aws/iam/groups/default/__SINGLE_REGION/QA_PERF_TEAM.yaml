@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.groups
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: QA_PERF_TEAM
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:group/QA_PERF_TEAM
+  CreateDate: 2022-02-04 05:50:45+00:00
+  GroupId: AGPA4RYUCHN52KF5D773Y
+  GroupName: QA_PERF_TEAM
+  Path: /
+...
+

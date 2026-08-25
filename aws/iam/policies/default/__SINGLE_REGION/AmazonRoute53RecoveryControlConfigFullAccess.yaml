@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonRoute53RecoveryControlConfigFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonRoute53RecoveryControlConfigFullAccess
+  AttachmentCount: 0
+  CreateDate: 2021-08-18 17:48:35+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4BNPPOPVZM
+  PolicyName: AmazonRoute53RecoveryControlConfigFullAccess
+  UpdateDate: 2021-08-18 17:48:35+00:00
+...
+

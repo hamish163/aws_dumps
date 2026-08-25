@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSCodeBuildReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSCodeBuildReadOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2016-12-01 19:03:41+00:00
+  DefaultVersionId: v15
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJIZZWN6557F5HVP2K
+  PolicyName: AWSCodeBuildReadOnlyAccess
+  UpdateDate: 2026-02-12 18:02:34+00:00
+...
+

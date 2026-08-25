@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-devops-management
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/mbx-devops-management
+  AttachmentCount: 1
+  CreateDate: 2021-11-23 05:52:46+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5VYGW7XHEZ
+  PolicyName: mbx-devops-management
+  UpdateDate: 2021-11-23 05:52:46+00:00
+...
+

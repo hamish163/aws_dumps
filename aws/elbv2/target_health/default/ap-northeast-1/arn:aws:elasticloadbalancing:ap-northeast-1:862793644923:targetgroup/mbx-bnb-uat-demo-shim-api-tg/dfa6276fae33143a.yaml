@@ -1,0 +1,16 @@
+---
+datatype: aws.elbv2.target_health
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-uat-demo-shim-api-tg/dfa6276fae33143a
+specifics:
+  TargetHealthDescriptions:
+    i-0e571befa530120ba/4906:
+      HealthCheckPort: '4906'
+      Target:
+        Id: i-0e571befa530120ba
+        Port: 4906
+  _arn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-uat-demo-shim-api-tg/dfa6276fae33143a
+...
+

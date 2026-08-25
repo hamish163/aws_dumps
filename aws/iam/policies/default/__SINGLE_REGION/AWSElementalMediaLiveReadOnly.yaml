@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSElementalMediaLiveReadOnly
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSElementalMediaLiveReadOnly
+  AttachmentCount: 0
+  CreateDate: 2020-07-08 16:38:07+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4L7DTGZPRO
+  PolicyName: AWSElementalMediaLiveReadOnly
+  UpdateDate: 2024-07-22 17:08:46+00:00
+...
+

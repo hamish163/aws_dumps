@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonEVSServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AmazonEVSServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2025-05-16 23:37:06+00:00
+  DefaultVersionId: v10
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4HOHZBKDBX
+  PolicyName: AmazonEVSServiceRolePolicy
+  UpdateDate: 2026-03-22 18:12:13+00:00
+...
+

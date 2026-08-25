@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonRedshiftAllCommandsFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonRedshiftAllCommandsFullAccess
+  AttachmentCount: 0
+  CreateDate: 2021-11-04 00:48:08+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4FLN3TI7CS
+  PolicyName: AmazonRedshiftAllCommandsFullAccess
+  UpdateDate: 2021-11-25 02:27:31+00:00
+...
+

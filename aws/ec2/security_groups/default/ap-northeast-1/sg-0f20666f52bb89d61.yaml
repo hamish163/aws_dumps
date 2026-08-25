@@ -1,0 +1,26 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0f20666f52bb89d61
+specifics:
+  Description: Security group for account rds
+  GroupId: sg-0f20666f52bb89d61
+  GroupName: mbx-bnb-perf-kline-db
+  Tags:
+  - Key: mbx_secret_store
+    Value: asm
+  - Key: mbx_env_name
+    Value: perf
+  - Key: Name
+    Value: mbx-bnb-perf-kline-db
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: biz
+    Value: mbx
+  - Key: team
+    Value: mbx
+  VpcId: vpc-013930e589c469574
+...
+

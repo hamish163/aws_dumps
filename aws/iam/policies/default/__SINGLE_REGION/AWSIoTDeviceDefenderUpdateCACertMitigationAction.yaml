@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSIoTDeviceDefenderUpdateCACertMitigationAction
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderUpdateCACertMitigationAction
+  AttachmentCount: 0
+  CreateDate: 2019-08-07 17:05:49+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4KLBGET6KX
+  PolicyName: AWSIoTDeviceDefenderUpdateCACertMitigationAction
+  UpdateDate: 2019-08-07 17:05:49+00:00
+...
+

@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql16.apg_enable_subquery_cache
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Enables the use of cache for correlated scalar subqueries.
+  IsModifiable: true
+  MinimumEngineVersion: '16.3'
+  ParameterName: apg_enable_subquery_cache
+  ParameterValue: 'off'
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,52 @@
+---
+datatype: aws.ec2.route_tables
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rtb-0c821d62a47871cc7
+specifics:
+  Associations:
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-000ad8e943d1e2062
+    RouteTableId: rtb-0c821d62a47871cc7
+    SubnetId: subnet-0b4c0d7a3b41215f8
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-00718b2b37e60d273
+    RouteTableId: rtb-0c821d62a47871cc7
+    SubnetId: subnet-0e933c84410c06b05
+  OwnerId: '862793644923'
+  PropagatingVgws: []
+  RouteTableId: rtb-0c821d62a47871cc7
+  Routes:
+  - DestinationCidrBlock: 10.12.0.0/16
+    Origin: CreateRoute
+    State: active
+    TransitGatewayId: tgw-094ec8a8749ab72d4
+  - DestinationCidrBlock: 10.143.0.0/16
+    GatewayId: local
+    Origin: CreateRouteTable
+    State: active
+  - DestinationCidrBlock: 0.0.0.0/0
+    NatGatewayId: nat-016ecd9e7f81911d5
+    Origin: CreateRoute
+    State: active
+  Tags:
+  - Key: biz
+    Value: mbx
+  - Key: team
+    Value: mbx
+  - Key: Name
+    Value: mbx-bnb-devops-atlantis-rt
+  - Key: mbx_env_name
+    Value: devops
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_application_name
+    Value: atlantis
+  VpcId: vpc-097095a8b70ef6727
+...
+

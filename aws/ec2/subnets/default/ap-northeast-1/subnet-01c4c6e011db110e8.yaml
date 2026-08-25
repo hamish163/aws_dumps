@@ -1,0 +1,44 @@
+---
+datatype: aws.ec2.subnets
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: subnet-01c4c6e011db110e8
+specifics:
+  AssignIpv6AddressOnCreation: false
+  AvailabilityZone: ap-northeast-1a
+  AvailabilityZoneId: apne1-az4
+  AvailableIpAddressCount: 8187
+  CidrBlock: 172.25.64.0/19
+  DefaultForAz: false
+  EnableDns64: false
+  Ipv6CidrBlockAssociationSet: []
+  Ipv6Native: false
+  MapCustomerOwnedIpOnLaunch: false
+  MapPublicIpOnLaunch: false
+  OwnerId: '862793644923'
+  PrivateDnsNameOptionsOnLaunch:
+    EnableResourceNameDnsAAAARecord: false
+    EnableResourceNameDnsARecord: false
+    HostnameType: ip-name
+  State: available
+  SubnetArn: arn:aws:ec2:ap-northeast-1:862793644923:subnet/subnet-01c4c6e011db110e8
+  SubnetId: subnet-01c4c6e011db110e8
+  Tags:
+  - Key: KubernetesCluster
+    Value: ap2.bitdj.com
+  - Key: Name
+    Value: ap2-bitdj-internal-0
+  - Key: env
+    Value: ap2
+  - Key: kubernetes.io/cluster/ap2.bitdj.com
+    Value: shared
+  - Key: kubernetes.io/role/alb-ingress
+    Value: ''
+  - Key: kubernetes.io/role/internal-elb
+    Value: ''
+  - Key: project
+    Value: bitdj
+  VpcId: vpc-07652e77a8fa0e0c2
+...
+

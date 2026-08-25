@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-system-cluster-pg-57.aurora_enable_replica_log_compression
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Enable compression of replication payloads to improve network bandwidth
+    utilization between the master and Aurora replicas.
+  IsModifiable: true
+  ParameterName: aurora_enable_replica_log_compression
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

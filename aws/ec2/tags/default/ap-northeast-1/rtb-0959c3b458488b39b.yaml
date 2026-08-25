@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rtb-0959c3b458488b39b
+specifics:
+  Name: ap2-bitdj-internal
+  env: ap2
+  project: bitdj
+...
+

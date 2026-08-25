@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSOutpostsServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AWSOutpostsServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2020-11-09 22:55:56+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4NM7FW2RO7
+  PolicyName: AWSOutpostsServiceRolePolicy
+  UpdateDate: 2025-04-17 17:37:07+00:00
+...
+

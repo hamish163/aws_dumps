@@ -1,0 +1,30 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0b3875dddc099c8ad
+specifics:
+  Description: Security group for redis
+  GroupId: sg-0b3875dddc099c8ad
+  GroupName: mbx-bnb-uat-redis
+  Tags:
+  - Key: mbx_clustered_application
+    Value: 'false'
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  - Key: mbx_secret_store
+    Value: asm
+  - Key: Name
+    Value: mbx-bnb-uat-redis
+  - Key: mbx_env_name
+    Value: uat
+  - Key: mbx_env_type
+    Value: multi-node
+  VpcId: vpc-0b3ce57b4c748893b
+...
+

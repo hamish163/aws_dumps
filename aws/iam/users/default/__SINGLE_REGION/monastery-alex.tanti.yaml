@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.users
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: monastery-alex.tanti
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/monastery-alex.tanti
+  CreateDate: 2026-08-12 09:29:52+00:00
+  Path: /
+  UserId: AIDA4RYUCHN5QK7FPB6GO
+  UserName: monastery-alex.tanti
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonChimeSDK
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonChimeSDK
+  AttachmentCount: 0
+  CreateDate: 2020-02-04 21:53:37+00:00
+  DefaultVersionId: v5
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4ACM6EA4B7
+  PolicyName: AmazonChimeSDK
+  UpdateDate: 2023-01-10 18:05:12+00:00
+...
+

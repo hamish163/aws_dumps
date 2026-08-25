@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: igw-03ef24280778eaece
+specifics:
+  Name: tky_daz_mbx_igw
+  env: daz
+  project: mbx
+...
+

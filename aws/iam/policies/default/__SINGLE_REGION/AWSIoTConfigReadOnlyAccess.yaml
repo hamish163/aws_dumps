@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSIoTConfigReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSIoTConfigReadOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2015-10-27 21:52:31+00:00
+  DefaultVersionId: v8
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJHENEMXGX4XMFOIOI
+  PolicyName: AWSIoTConfigReadOnlyAccess
+  UpdateDate: 2019-09-27 20:52:40+00:00
+...
+

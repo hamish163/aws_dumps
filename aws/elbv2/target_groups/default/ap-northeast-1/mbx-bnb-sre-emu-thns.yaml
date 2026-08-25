@@ -1,0 +1,25 @@
+---
+datatype: aws.elbv2.target_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-sre-emu-thns
+specifics:
+  HealthCheckEnabled: true
+  HealthCheckIntervalSeconds: 30
+  HealthCheckPort: '10901'
+  HealthCheckProtocol: TCP
+  HealthCheckTimeoutSeconds: 10
+  HealthyThresholdCount: 3
+  IpAddressType: ipv4
+  LoadBalancerArns:
+  - arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:loadbalancer/net/mbx-bnb-sre-emu-nlb-int/f1917d125a0b7cf5
+  Port: 10901
+  Protocol: TCP
+  TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-sre-emu-thns/d3d5ee7a793ecd2f
+  TargetGroupName: mbx-bnb-sre-emu-thns
+  TargetType: ip
+  UnhealthyThresholdCount: 3
+  VpcId: vpc-0ba76150fc7799f94
+...
+

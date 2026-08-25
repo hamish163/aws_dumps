@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWS_Events_Invoke_Action_On_EBS_Volume_135991787
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/service-role/AWS_Events_Invoke_Action_On_EBS_Volume_135991787
+  AttachmentCount: 1
+  CreateDate: 2020-01-22 09:04:27+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN54VM5XPZZZ
+  PolicyName: AWS_Events_Invoke_Action_On_EBS_Volume_135991787
+  UpdateDate: 2020-01-22 09:04:27+00:00
+...
+

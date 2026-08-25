@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-perf-swapchop-cluster-pg.table_open_cache_instances
+specifics:
+  AllowedValues: 1-64
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: The number of open tables cache instances.
+  IsModifiable: true
+  ParameterName: table_open_cache_instances
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

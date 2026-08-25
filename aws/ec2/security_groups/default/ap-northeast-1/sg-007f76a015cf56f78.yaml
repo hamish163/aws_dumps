@@ -1,0 +1,13 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-007f76a015cf56f78
+specifics:
+  Description: bitdj_es_dev
+  GroupId: sg-007f76a015cf56f78
+  GroupName: bitdj_es_dev
+  VpcId: vpc-0c91879d6f0ffa921
+...
+

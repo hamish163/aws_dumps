@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonECSInfrastructureRolePolicyForServiceConnectTransportLayerSecurity
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AmazonECSInfrastructureRolePolicyForServiceConnectTransportLayerSecurity
+  AttachmentCount: 0
+  CreateDate: 2024-01-19 20:08:36+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4OIQQFRIAH
+  PolicyName: AmazonECSInfrastructureRolePolicyForServiceConnectTransportLayerSecurity
+  UpdateDate: 2026-02-12 18:02:05+00:00
+...
+

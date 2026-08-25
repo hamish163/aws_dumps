@@ -1,0 +1,13 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-044855dfbb46ae5c3
+specifics:
+  Description: test
+  GroupId: sg-044855dfbb46ae5c3
+  GroupName: mbx_bnb_perf-rest-api
+  VpcId: vpc-013930e589c469574
+...
+

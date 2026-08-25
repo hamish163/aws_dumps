@@ -1,0 +1,11 @@
+---
+datatype: aws.elbv2.listener_certificates
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener/app/mbx-bnb-prod-tracky/b705f04c5985c726/6330cc1558d06c44
+specifics:
+- CertificateArn: arn:aws:acm:ap-northeast-1:862793644923:certificate/2ea130a9-3d46-4002-ac05-78726890cec6
+  IsDefault: true
+...
+

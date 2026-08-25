@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-0dce3f9a96d1c3e50
+specifics:
+  Name: mbx-bnb-perf-key-sequencer1
+  biz: mbx
+  mbx_env_name: perf
+  mbx_exchange_name: bnb
+  mbx_host_index: '1'
+  team: mbx
+...
+

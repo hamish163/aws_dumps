@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-022b499dd645504da
+specifics:
+  Description: Allow TCP traffic from journal-archive SG on port 22
+  FromPort: 22
+  GroupId: sg-08f55a26e7f6279e8
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0976f45ee75722c46
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-022b499dd645504da
+  Tags: []
+  ToPort: 22
+...
+

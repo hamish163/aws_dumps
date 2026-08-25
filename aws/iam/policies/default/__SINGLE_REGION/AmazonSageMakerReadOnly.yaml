@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonSageMakerReadOnly
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonSageMakerReadOnly
+  AttachmentCount: 0
+  CreateDate: 2017-11-29 13:07:09+00:00
+  DefaultVersionId: v11
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJTZ2FTFCQ6CFLQA2O
+  PolicyName: AmazonSageMakerReadOnly
+  UpdateDate: 2021-12-01 16:29:20+00:00
+...
+

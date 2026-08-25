@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql16.debug_pretty_print
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Indents parse and plan tree displays.
+  IsModifiable: true
+  ParameterName: debug_pretty_print
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

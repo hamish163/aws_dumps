@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-07f4c0bac36beea50
+specifics:
+  CidrIpv4: 10.12.0.0/16
+  Description: Allow prometheus from vpn client
+  FromPort: 9090
+  GroupId: sg-085d696911b24637c
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-07f4c0bac36beea50
+  Tags: []
+  ToPort: 9090
+...
+

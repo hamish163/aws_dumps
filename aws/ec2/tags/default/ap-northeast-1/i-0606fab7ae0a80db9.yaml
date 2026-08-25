@@ -1,0 +1,17 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-0606fab7ae0a80db9
+specifics:
+  Name: tky_prod_sleepy1
+  biz: mbx
+  env: prod
+  project: sleepy
+  sre-app: sleepy
+  sre-component: sleepy
+  sre-env: prod
+  team: sre
+...
+

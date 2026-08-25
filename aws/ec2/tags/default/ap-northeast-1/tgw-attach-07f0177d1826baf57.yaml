@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: tgw-attach-07f0177d1826baf57
+specifics:
+  Name: ClientVPN-BNB-Monitoring
+...
+

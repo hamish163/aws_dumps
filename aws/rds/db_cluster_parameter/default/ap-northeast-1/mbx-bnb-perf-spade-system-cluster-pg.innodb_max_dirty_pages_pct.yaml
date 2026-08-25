@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-perf-spade-system-cluster-pg.innodb_max_dirty_pages_pct
+specifics:
+  AllowedValues: 0-99
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Maximum percentage of dirty pages in the buffer pool
+  IsModifiable: true
+  ParameterName: innodb_max_dirty_pages_pct
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

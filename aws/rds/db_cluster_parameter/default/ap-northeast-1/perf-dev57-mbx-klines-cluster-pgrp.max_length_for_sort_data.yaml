@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev57-mbx-klines-cluster-pgrp.max_length_for_sort_data
+specifics:
+  AllowedValues: 4-8388608
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: ORDER BY Optimization. The cutoff on the size of index values that
+    determines which filesort algorithm to use.
+  IsModifiable: true
+  ParameterName: max_length_for_sort_data
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

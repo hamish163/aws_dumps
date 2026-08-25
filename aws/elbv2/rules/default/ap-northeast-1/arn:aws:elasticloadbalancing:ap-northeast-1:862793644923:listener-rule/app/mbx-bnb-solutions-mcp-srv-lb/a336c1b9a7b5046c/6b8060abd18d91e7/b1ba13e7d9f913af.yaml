@@ -1,0 +1,24 @@
+---
+datatype: aws.elbv2.rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener-rule/app/mbx-bnb-solutions-mcp-srv-lb/a336c1b9a7b5046c/6b8060abd18d91e7/b1ba13e7d9f913af
+specifics:
+  Actions:
+  - ForwardConfig:
+      TargetGroupStickinessConfig:
+        Enabled: false
+      TargetGroups:
+      - TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-solutions-mcp-srv-tg/c8e9c98bd1f2f3fa
+        Weight: 1
+    Order: 1
+    TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-solutions-mcp-srv-tg/c8e9c98bd1f2f3fa
+    Type: forward
+  Conditions: []
+  IsDefault: true
+  Priority: default
+  RuleArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener-rule/app/mbx-bnb-solutions-mcp-srv-lb/a336c1b9a7b5046c/6b8060abd18d91e7/b1ba13e7d9f913af
+  _listener_arn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener/app/mbx-bnb-solutions-mcp-srv-lb/a336c1b9a7b5046c/6b8060abd18d91e7
+...
+

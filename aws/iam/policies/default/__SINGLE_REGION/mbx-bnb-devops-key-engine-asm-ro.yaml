@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-devops-key-engine-asm-ro
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/mbx-bnb-devops-key-engine-asm-ro
+  AttachmentCount: 1
+  CreateDate: 2025-11-06 13:17:31+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN54F5NNZFOQ
+  PolicyName: mbx-bnb-devops-key-engine-asm-ro
+  UpdateDate: 2025-11-06 13:17:31+00:00
+...
+

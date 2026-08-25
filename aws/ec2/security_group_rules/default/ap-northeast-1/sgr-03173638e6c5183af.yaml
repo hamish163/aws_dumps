@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-03173638e6c5183af
+specifics:
+  Description: Allow TCP traffic from demo-mgmt-api SG on port 5480
+  FromPort: 5480
+  GroupId: sg-06c78f3ba9ba0f862
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0f79820943f2d9570
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-03173638e6c5183af
+  Tags: []
+  ToPort: 5480
+...
+

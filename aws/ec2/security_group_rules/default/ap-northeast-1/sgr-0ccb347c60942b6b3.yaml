@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0ccb347c60942b6b3
+specifics:
+  CidrIpv4: 10.12.10.0/24
+  Description: Allow access from MBX Client VPN
+  FromPort: 4880
+  GroupId: sg-09b72e063986cc2ae
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-0ccb347c60942b6b3
+  Tags: []
+  ToPort: 4880
+...
+

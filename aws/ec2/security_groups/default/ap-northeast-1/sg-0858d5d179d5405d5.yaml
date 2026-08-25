@@ -1,0 +1,24 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0858d5d179d5405d5
+specifics:
+  Description: SG for mbx-jenkins - Managed by Terraform
+  GroupId: sg-0858d5d179d5405d5
+  GroupName: mbx-bnb-devops-public-alb-sg
+  Tags:
+  - Key: mbx_env_name
+    Value: devops
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  - Key: mbx_secret_store
+    Value: none
+  - Key: biz
+    Value: mbx
+  VpcId: vpc-07519eb63f1d932ac
+...
+

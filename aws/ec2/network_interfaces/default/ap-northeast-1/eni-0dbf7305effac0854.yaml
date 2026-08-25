@@ -1,0 +1,42 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-0dbf7305effac0854
+specifics:
+  Attachment:
+    AttachTime: 2022-09-21 10:22:06+00:00
+    AttachmentId: eni-attach-089562ab51343252b
+    DeleteOnTermination: true
+    DeviceIndex: 0
+    InstanceId: i-06d39c4434307df8d
+    InstanceOwnerId: '862793644923'
+    NetworkCardIndex: 0
+    Status: attached
+  AvailabilityZone: ap-northeast-1a
+  Description: ''
+  Groups:
+  - GroupId: sg-09a11e33cc9550522
+    GroupName: tracky-dev-spooky
+  - GroupId: sg-0a04690c2f2da3779
+    GroupName: perf_dev_mbx_pingable_sg
+  InterfaceType: interface
+  Ipv6Addresses: []
+  MacAddress: 06:b3:04:b7:e9:5f
+  NetworkInterfaceId: eni-0dbf7305effac0854
+  OwnerId: '862793644923'
+  PrivateDnsName: ip-172-20-100-131.ap-northeast-1.compute.internal
+  PrivateIpAddress: 172.20.100.131
+  PrivateIpAddresses:
+  - Primary: true
+    PrivateDnsName: ip-172-20-100-131.ap-northeast-1.compute.internal
+    PrivateIpAddress: 172.20.100.131
+  RequesterManaged: false
+  SourceDestCheck: true
+  Status: in-use
+  SubnetId: subnet-0c8bc75f4586bafc3
+  TagSet: []
+  VpcId: vpc-0a7d9bfaa80b951d9
+...
+

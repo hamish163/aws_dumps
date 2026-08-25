@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: LakeFormationDataAccessServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/LakeFormationDataAccessServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2019-06-20 20:46:19+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4N342E3KHW
+  PolicyName: LakeFormationDataAccessServiceRolePolicy
+  UpdateDate: 2024-02-06 18:37:31+00:00
+...
+

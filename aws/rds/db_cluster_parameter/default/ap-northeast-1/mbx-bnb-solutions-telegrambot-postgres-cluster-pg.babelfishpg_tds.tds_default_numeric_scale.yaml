@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-solutions-telegrambot-postgres-cluster-pg.babelfishpg_tds.tds_default_numeric_scale
+specifics:
+  AllowedValues: 0-38
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Sets the default scale of numeric type to be sent in the TDS column
+    metadata if the engine does not specify one.
+  IsModifiable: true
+  ParameterName: babelfishpg_tds.tds_default_numeric_scale
+  ParameterValue: '8'
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

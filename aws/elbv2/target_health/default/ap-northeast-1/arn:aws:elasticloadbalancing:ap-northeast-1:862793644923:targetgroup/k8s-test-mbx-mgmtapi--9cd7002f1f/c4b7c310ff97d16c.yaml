@@ -1,0 +1,11 @@
+---
+datatype: aws.elbv2.target_health
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/k8s-test-mbx-mgmtapi--9cd7002f1f/c4b7c310ff97d16c
+specifics:
+  TargetHealthDescriptions: {}
+  _arn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/k8s-test-mbx-mgmtapi--9cd7002f1f/c4b7c310ff97d16c
+...
+

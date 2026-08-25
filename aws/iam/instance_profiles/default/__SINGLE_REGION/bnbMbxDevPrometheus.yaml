@@ -1,0 +1,29 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: bnbMbxDevPrometheus
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/bnbMbxDevPrometheus
+  CreateDate: 2022-10-13 08:39:46+00:00
+  InstanceProfileId: AIPA4RYUCHN5Q2WJQ4FVW
+  InstanceProfileName: bnbMbxDevPrometheus
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/bnbMbxDevPrometheus
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+        Sid: ''
+      Version: '2012-10-17'
+    CreateDate: 2022-10-13 08:39:45+00:00
+    Path: /
+    RoleId: AROA4RYUCHN55QZXPYFEG
+    RoleName: bnbMbxDevPrometheus
+...
+

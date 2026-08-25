@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vpce-0cd2de2c911a37fe1
+specifics:
+  Name: risk-team-dev-prv-alb-endpoint
+...
+

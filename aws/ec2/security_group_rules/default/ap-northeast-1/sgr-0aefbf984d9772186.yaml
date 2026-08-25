@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0aefbf984d9772186
+specifics:
+  Description: Allow TCP traffic from jmeter SG on port 22
+  FromPort: 22
+  GroupId: sg-094da60e74c01ddfa
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-026692aa9064fbcf6
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0aefbf984d9772186
+  Tags: []
+  ToPort: 22
+...
+

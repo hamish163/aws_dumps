@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSResourceExplorerServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AWSResourceExplorerServiceRolePolicy
+  AttachmentCount: 1
+  CreateDate: 2022-10-25 20:35:29+00:00
+  DefaultVersionId: v52
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4K2H54PAUL
+  PolicyName: AWSResourceExplorerServiceRolePolicy
+  UpdateDate: 2026-07-31 20:57:12+00:00
+...
+

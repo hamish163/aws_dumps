@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0383855476fe6ca3f
+specifics:
+  CidrIpv4: 10.190.16.0/20
+  Description: From mbx-bnb-uat VPC
+  FromPort: 9080
+  GroupId: sg-0518e319d3540f921
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-0383855476fe6ca3f
+  Tags: []
+  ToPort: 9080
+...
+

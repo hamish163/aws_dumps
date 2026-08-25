@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0f72389cb6993c479
+specifics:
+  CidrIpv4: 10.190.19.0/24
+  Description: From journal-archive
+  FromPort: 111
+  GroupId: sg-05859743f7b6e0c36
+  GroupOwnerId: '862793644923'
+  IpProtocol: udp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-0f72389cb6993c479
+  Tags: []
+  ToPort: 111
+...
+

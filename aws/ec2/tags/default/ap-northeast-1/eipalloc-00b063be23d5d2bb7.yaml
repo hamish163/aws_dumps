@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eipalloc-00b063be23d5d2bb7
+specifics:
+  Name: telegrambot
+  application: telegrambot
+  owner: mbx-devops
+...
+

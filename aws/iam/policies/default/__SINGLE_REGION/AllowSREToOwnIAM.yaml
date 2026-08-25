@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AllowSREToOwnIAM
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/AllowSREToOwnIAM
+  AttachmentCount: 1
+  CreateDate: 2022-10-06 07:37:58+00:00
+  DefaultVersionId: v8
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN55Y722JXVL
+  PolicyName: AllowSREToOwnIAM
+  UpdateDate: 2022-11-01 11:55:01+00:00
+...
+

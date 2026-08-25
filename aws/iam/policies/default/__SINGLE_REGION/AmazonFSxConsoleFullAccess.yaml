@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonFSxConsoleFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonFSxConsoleFullAccess
+  AttachmentCount: 0
+  CreateDate: 2018-11-28 16:36:05+00:00
+  DefaultVersionId: v20
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAITDDJ23Y5UZ2WCZRQ
+  PolicyName: AmazonFSxConsoleFullAccess
+  UpdateDate: 2026-02-12 18:02:11+00:00
+...
+

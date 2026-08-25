@@ -1,0 +1,145 @@
+---
+datatype: aws.ec2.instances
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-0e0ba4151852fcf23
+specifics:
+  AmiLaunchIndex: 0
+  Architecture: x86_64
+  BlockDeviceMappings:
+  - DeviceName: /dev/xvda
+    Ebs:
+      AttachTime: 2024-06-13 10:44:18+00:00
+      DeleteOnTermination: true
+      Status: attached
+      VolumeId: vol-0fdaf465d79750bbb
+  BootMode: uefi-preferred
+  CapacityReservationSpecification:
+    CapacityReservationPreference: open
+  ClientToken: terraform-20240613104417030300000001
+  CpuOptions:
+    CoreCount: 4
+    ThreadsPerCore: 2
+  CurrentInstanceBootMode: uefi
+  EbsOptimized: true
+  EnaSupport: true
+  EnclaveOptions:
+    Enabled: false
+  HibernationOptions:
+    Configured: false
+  Hypervisor: xen
+  IamInstanceProfile:
+    Arn: arn:aws:iam::862793644923:instance-profile/tkyprodEC2RoleTrackySlave
+    Id: AIPAIPZMH2AK2SRJJDGIE
+  ImageId: ami-0b0820482bda609a1
+  InstanceId: i-0e0ba4151852fcf23
+  InstanceType: c6i.2xlarge
+  LaunchTime: 2026-08-12 13:44:37+00:00
+  MaintenanceOptions:
+    AutoRecovery: default
+  MetadataOptions:
+    HttpEndpoint: enabled
+    HttpProtocolIpv6: disabled
+    HttpPutResponseHopLimit: 2
+    HttpTokens: required
+    InstanceMetadataTags: enabled
+    State: applied
+  Monitoring:
+    State: disabled
+  NetworkInterfaces:
+  - Association:
+      IpOwnerId: '862793644923'
+      PublicDnsName: ec2-3-113-39-87.ap-northeast-1.compute.amazonaws.com
+      PublicIp: 3.113.39.87
+    Attachment:
+      AttachTime: 2024-06-13 10:44:18+00:00
+      AttachmentId: eni-attach-0c49acb4f642acf83
+      DeleteOnTermination: true
+      DeviceIndex: 0
+      NetworkCardIndex: 0
+      Status: attached
+    Description: ''
+    Groups:
+    - GroupId: sg-01bef8cd9d9d04055
+      GroupName: tky-prod-internal-slave-tracky-bitdj.com
+    - GroupId: sg-05e60d20221e31e45
+      GroupName: tky-prod-baserules-tracky-bitdj.com
+    - GroupId: sg-0e860051a2aff9e81
+      GroupName: mbx-bnb-prod-tracky-default
+    InterfaceType: interface
+    Ipv6Addresses: []
+    MacAddress: 06:01:2f:5b:f8:09
+    NetworkInterfaceId: eni-0bb395bb8396d4c48
+    OwnerId: '862793644923'
+    PrivateDnsName: ip-172-27-6-118.ap-northeast-1.compute.internal
+    PrivateIpAddress: 172.27.6.118
+    PrivateIpAddresses:
+    - Association:
+        IpOwnerId: '862793644923'
+        PublicDnsName: ec2-3-113-39-87.ap-northeast-1.compute.amazonaws.com
+        PublicIp: 3.113.39.87
+      Primary: true
+      PrivateDnsName: ip-172-27-6-118.ap-northeast-1.compute.internal
+      PrivateIpAddress: 172.27.6.118
+    SourceDestCheck: true
+    Status: in-use
+    SubnetId: subnet-09d026f6e1a1cd1f7
+    VpcId: vpc-03f5d2495fd8d95a3
+  Placement:
+    AvailabilityZone: ap-northeast-1a
+    GroupId: pg-03ae1e5b458dea7d4
+    GroupName: tky_prod_tracky_1a_placementGroup
+    Tenancy: default
+  PlatformDetails: Linux/UNIX
+  PrivateDnsName: ip-172-27-6-118.ap-northeast-1.compute.internal
+  PrivateDnsNameOptions:
+    EnableResourceNameDnsAAAARecord: false
+    EnableResourceNameDnsARecord: false
+    HostnameType: ip-name
+  PrivateIpAddress: 172.27.6.118
+  ProductCodes: []
+  PublicDnsName: ec2-3-113-39-87.ap-northeast-1.compute.amazonaws.com
+  PublicIpAddress: 3.113.39.87
+  RootDeviceName: /dev/xvda
+  RootDeviceType: ebs
+  SecurityGroups:
+  - GroupId: sg-01bef8cd9d9d04055
+    GroupName: tky-prod-internal-slave-tracky-bitdj.com
+  - GroupId: sg-05e60d20221e31e45
+    GroupName: tky-prod-baserules-tracky-bitdj.com
+  - GroupId: sg-0e860051a2aff9e81
+    GroupName: mbx-bnb-prod-tracky-default
+  SourceDestCheck: true
+  State:
+    Code: 16
+    Name: running
+  StateTransitionReason: ''
+  SubnetId: subnet-09d026f6e1a1cd1f7
+  Tags:
+  - Key: Name
+    Value: bnb_prod_mbx_tracky-jp-internal-slave1_ec2
+  - Key: biz
+    Value: mbx
+  - Key: mbx_env_name
+    Value: prod
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_host_index
+    Value: '1'
+  - Key: role
+    Value: tracky
+  - Key: sre-app
+    Value: tracky-slave
+  - Key: sre-component
+    Value: tracky-slave
+  - Key: sre-env
+    Value: prod
+  - Key: team
+    Value: sre
+  UsageOperation: RunInstances
+  UsageOperationUpdateTime: 2024-06-13 10:44:17+00:00
+  VirtualizationType: hvm
+  VpcId: vpc-03f5d2495fd8d95a3
+...
+

@@ -1,0 +1,16 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0f2bc34e7005e39a1
+specifics:
+  Description: tky.prod-master-tracky-proxy-bitdj.com
+  GroupId: sg-0f2bc34e7005e39a1
+  GroupName: tky.prod-master-tracky-proxy-bitdj.com
+  Tags:
+  - Key: Name
+    Value: tky.prod-master-tracky-proxy-bitdj.com
+  VpcId: vpc-03f5d2495fd8d95a3
+...
+

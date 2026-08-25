@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-solutions-telegrambot-cluster-pg.tmp_table_size
+specifics:
+  AllowedValues: 1024-18446744073709551615
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Defines the maximum size of internal in-memory temporary tables created
+    by the MEMORY storage engine and, as of Aurora 3.04, the TempTable storage engine
+    when aurora_tmptable_enable_per_table_limit is ON.
+  IsModifiable: true
+  ParameterName: tmp_table_size
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

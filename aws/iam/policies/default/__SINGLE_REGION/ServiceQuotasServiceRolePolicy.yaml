@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: ServiceQuotasServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/ServiceQuotasServiceRolePolicy
+  AttachmentCount: 1
+  CreateDate: 2019-05-22 20:44:17+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4FCG7EVJIR
+  PolicyName: ServiceQuotasServiceRolePolicy
+  UpdateDate: 2019-06-24 14:52:56+00:00
+...
+

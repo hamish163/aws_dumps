@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSMigrationHubStrategyCollector
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSMigrationHubStrategyCollector
+  AttachmentCount: 0
+  CreateDate: 2021-10-19 20:15:15+00:00
+  DefaultVersionId: v6
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4LHUI3MFF6
+  PolicyName: AWSMigrationHubStrategyCollector
+  UpdateDate: 2024-04-01 16:21:02+00:00
+...
+

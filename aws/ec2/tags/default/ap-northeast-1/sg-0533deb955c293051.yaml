@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0533deb955c293051
+specifics:
+  Name: memcached.ap2.bitdj.com
+...
+

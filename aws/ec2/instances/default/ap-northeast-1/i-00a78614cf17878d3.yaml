@@ -1,0 +1,142 @@
+---
+datatype: aws.ec2.instances
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-00a78614cf17878d3
+specifics:
+  AmiLaunchIndex: 0
+  Architecture: x86_64
+  BlockDeviceMappings:
+  - DeviceName: /dev/xvda
+    Ebs:
+      AttachTime: 2024-11-25 11:29:16+00:00
+      DeleteOnTermination: true
+      Status: attached
+      VolumeId: vol-0577072f2164039b5
+  - DeviceName: /dev/sdf
+    Ebs:
+      AttachTime: 2024-11-25 11:31:27+00:00
+      DeleteOnTermination: false
+      Status: attached
+      VolumeId: vol-052adad3f6561fa56
+  BootMode: uefi-preferred
+  CapacityReservationSpecification:
+    CapacityReservationPreference: open
+  ClientToken: terraform-20241125112915029000000001
+  CpuOptions:
+    CoreCount: 4
+    ThreadsPerCore: 2
+  CurrentInstanceBootMode: uefi
+  EbsOptimized: true
+  EnaSupport: true
+  EnclaveOptions:
+    Enabled: false
+  HibernationOptions:
+    Configured: false
+  Hypervisor: xen
+  IamInstanceProfile:
+    Arn: arn:aws:iam::862793644923:instance-profile/mbx-bnb-perf-tungsten
+    Id: AIPA4RYUCHN5ZV57STC4M
+  ImageId: ami-0e07ad63c236dd503
+  InstanceId: i-00a78614cf17878d3
+  InstanceType: m6i.2xlarge
+  LaunchTime: 2024-11-25 11:29:16+00:00
+  MaintenanceOptions:
+    AutoRecovery: default
+  MetadataOptions:
+    HttpEndpoint: enabled
+    HttpProtocolIpv6: disabled
+    HttpPutResponseHopLimit: 2
+    HttpTokens: required
+    InstanceMetadataTags: enabled
+    State: applied
+  Monitoring:
+    State: disabled
+  NetworkInterfaces:
+  - Attachment:
+      AttachTime: 2024-11-25 11:29:16+00:00
+      AttachmentId: eni-attach-096f175d941646f2a
+      DeleteOnTermination: true
+      DeviceIndex: 0
+      NetworkCardIndex: 0
+      Status: attached
+    Description: ''
+    Groups:
+    - GroupId: sg-0c303f79354c2d6d9
+      GroupName: mbx-bnb-perf-tungsten
+    - GroupId: sg-0930fe36728a6e31a
+      GroupName: mbx-bnb-perf-monitoring
+    - GroupId: sg-011d3bdd31cc014b3
+      GroupName: mbx-bnb-perf-default
+    InterfaceType: interface
+    Ipv6Addresses: []
+    MacAddress: 06:d3:8e:f4:af:81
+    NetworkInterfaceId: eni-0013b09e00c11497d
+    OwnerId: '862793644923'
+    PrivateDnsName: ip-10-170-19-138.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.170.19.138
+    PrivateIpAddresses:
+    - Primary: true
+      PrivateDnsName: ip-10-170-19-138.ap-northeast-1.compute.internal
+      PrivateIpAddress: 10.170.19.138
+    SourceDestCheck: true
+    Status: in-use
+    SubnetId: subnet-09134100e474d8109
+    VpcId: vpc-013930e589c469574
+  Placement:
+    AvailabilityZone: ap-northeast-1a
+    GroupId: pg-08f1d09fabee1d117
+    GroupName: mbx-bnb-perf-az-1a
+    Tenancy: default
+  PlatformDetails: Linux/UNIX
+  PrivateDnsName: ip-10-170-19-138.ap-northeast-1.compute.internal
+  PrivateDnsNameOptions:
+    EnableResourceNameDnsAAAARecord: false
+    EnableResourceNameDnsARecord: false
+    HostnameType: ip-name
+  PrivateIpAddress: 10.170.19.138
+  ProductCodes: []
+  PublicDnsName: ''
+  RootDeviceName: /dev/xvda
+  RootDeviceType: ebs
+  SecurityGroups:
+  - GroupId: sg-0c303f79354c2d6d9
+    GroupName: mbx-bnb-perf-tungsten
+  - GroupId: sg-0930fe36728a6e31a
+    GroupName: mbx-bnb-perf-monitoring
+  - GroupId: sg-011d3bdd31cc014b3
+    GroupName: mbx-bnb-perf-default
+  SourceDestCheck: true
+  State:
+    Code: 16
+    Name: running
+  StateTransitionReason: ''
+  SubnetId: subnet-09134100e474d8109
+  Tags:
+  - Key: Name
+    Value: mbx-bnb-perf-tungsten1
+  - Key: biz
+    Value: mbx
+  - Key: mbx_application_name
+    Value: thanos-store
+  - Key: mbx_clustered_application
+    Value: 'false'
+  - Key: mbx_env_name
+    Value: perf
+  - Key: mbx_env_type
+    Value: na
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_host_index
+    Value: '1'
+  - Key: mbx_secret_store
+    Value: asm
+  - Key: team
+    Value: mbx
+  UsageOperation: RunInstances
+  UsageOperationUpdateTime: 2024-11-25 11:29:16+00:00
+  VirtualizationType: hvm
+  VpcId: vpc-013930e589c469574
+...
+

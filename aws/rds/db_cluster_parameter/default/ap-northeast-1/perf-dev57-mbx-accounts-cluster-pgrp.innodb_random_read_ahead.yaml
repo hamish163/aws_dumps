@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev57-mbx-accounts-cluster-pgrp.innodb_random_read_ahead
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Enables or disables Innodb Random Read Ahead
+  IsModifiable: true
+  ParameterName: innodb_random_read_ahead
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

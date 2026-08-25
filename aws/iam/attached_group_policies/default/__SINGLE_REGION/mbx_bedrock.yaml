@@ -1,0 +1,17 @@
+---
+datatype: aws.iam.attached_group_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx_bedrock
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/mbx_bedrock_keys_individual_list_reset
+    PolicyName: mbx_bedrock_keys_individual_list_reset
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonBedrockLimitedAccess
+    PolicyName: AmazonBedrockLimitedAccess
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonBedrockMarketplaceAccess
+    PolicyName: AmazonBedrockMarketplaceAccess
+...
+

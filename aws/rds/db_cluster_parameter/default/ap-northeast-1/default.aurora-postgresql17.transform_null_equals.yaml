@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql17.transform_null_equals
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Treats expr=NULL as expr IS NULL.
+  IsModifiable: true
+  ParameterName: transform_null_equals
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

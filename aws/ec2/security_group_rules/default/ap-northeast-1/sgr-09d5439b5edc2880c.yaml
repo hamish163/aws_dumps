@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-09d5439b5edc2880c
+specifics:
+  Description: Allow tcp for port range 9100 to 9100
+  FromPort: 9100
+  GroupId: sg-0dcd16e585060d06c
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0fa52d7310719edaa
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-09d5439b5edc2880c
+  Tags: []
+  ToPort: 9100
+...
+

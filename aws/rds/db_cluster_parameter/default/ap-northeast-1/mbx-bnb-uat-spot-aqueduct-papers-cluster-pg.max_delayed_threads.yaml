@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-spot-aqueduct-papers-cluster-pg.max_delayed_threads
+specifics:
+  AllowedValues: 0-16384
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Do not start more than this number of threads to handle INSERT DELAYED
+    statements.
+  IsModifiable: true
+  ParameterName: max_delayed_threads
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

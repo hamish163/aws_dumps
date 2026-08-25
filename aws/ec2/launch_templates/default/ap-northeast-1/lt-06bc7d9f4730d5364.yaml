@@ -1,0 +1,20 @@
+---
+datatype: aws.ec2.launch_templates
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: lt-06bc7d9f4730d5364
+specifics:
+  CreateTime: 2025-05-28 15:02:02+00:00
+  CreatedBy: arn:aws:sts::862793644923:assumed-role/AWSServiceRoleForAmazonEKSNodegroup/EKS
+  DefaultVersionNumber: 1
+  LatestVersionNumber: 5
+  LaunchTemplateId: lt-06bc7d9f4730d5364
+  LaunchTemplateName: eks-24cb8bb5-0375-3504-63c4-40b89895412e
+  Tags:
+  - Key: eks:cluster-name
+    Value: mbx_bnb_prod-comply-cluster
+  - Key: eks:nodegroup-name
+    Value: mbx_bnb_prod-comply-ng
+...
+

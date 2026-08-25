@@ -1,0 +1,17 @@
+---
+datatype: aws.route53.hosted_zones
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: emu.sre.bnb.mbx.
+  single_region: true
+specifics:
+  CallerReference: terraform-20260619061337012100000001
+  Config:
+    Comment: Zone dedicated for EKS cluster mbx-bnb-sre-emu
+    PrivateZone: true
+  Id: /hostedzone/Z08895138LDUF27XKQ5K
+  Name: emu.sre.bnb.mbx.
+  ResourceRecordSetCount: 8
+...
+

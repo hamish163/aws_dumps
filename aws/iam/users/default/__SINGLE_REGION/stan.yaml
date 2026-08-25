@@ -1,0 +1,16 @@
+---
+datatype: aws.iam.users
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: stan
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/stan
+  CreateDate: 2024-02-16 12:35:45+00:00
+  PasswordLastUsed: 2026-08-24 09:31:33+00:00
+  Path: /
+  UserId: AIDA4RYUCHN5RLROENOGS
+  UserName: stan
+...
+

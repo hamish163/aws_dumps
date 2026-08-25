@@ -1,0 +1,24 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-0256954ae41f6aa3b
+specifics:
+  Name: mbx-bnb-solutions-eks1-generic
+  aws:autoscaling:groupName: eks-mbx-bnb-solutions-eks1-generic-20260709-9ecfa373-d4b5-07da-ece8-68de6e29d035
+  aws:ec2:fleet-id: fleet-6c3d1405-21a7-6e16-2698-0da8874b0985
+  aws:ec2launchtemplate:id: lt-092d5d9e2f32a07f3
+  aws:ec2launchtemplate:version: '2'
+  aws:eks:cluster-name: mbx-bnb-solutions-eks1
+  biz: mbx
+  eks:cluster-name: mbx-bnb-solutions-eks1
+  eks:nodegroup-name: mbx-bnb-solutions-eks1-generic-20260709
+  k8s.io/cluster-autoscaler/enabled: 'true'
+  k8s.io/cluster-autoscaler/mbx-bnb-solutions-eks1: owned
+  kubernetes.io/cluster/mbx-bnb-solutions-eks1: owned
+  mbx_env_name: solutions
+  mbx_exchange_name: bnb
+  team: mbx
+...
+

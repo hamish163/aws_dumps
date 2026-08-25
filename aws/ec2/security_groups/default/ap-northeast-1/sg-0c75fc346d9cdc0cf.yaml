@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0c75fc346d9cdc0cf
+specifics:
+  Description: EKS created security group applied to ENI that is attached to EKS Control
+    Plane master nodes, as well as any managed workloads.
+  GroupId: sg-0c75fc346d9cdc0cf
+  GroupName: eks-cluster-sg-mbx-bnb-sre-emu-1752518117
+  Tags:
+  - Key: Name
+    Value: eks-cluster-sg-mbx-bnb-sre-emu-1752518117
+  - Key: kubernetes.io/cluster/mbx-bnb-sre-emu
+    Value: owned
+  - Key: aws:eks:cluster-name
+    Value: mbx-bnb-sre-emu
+  VpcId: vpc-0ba76150fc7799f94
+...
+

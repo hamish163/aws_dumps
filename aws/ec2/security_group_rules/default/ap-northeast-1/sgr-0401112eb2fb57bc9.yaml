@@ -1,0 +1,22 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0401112eb2fb57bc9
+specifics:
+  Description: Rule to allow connections to mbx-bnb-devops-tfe-db-c1 from any instances
+    this security group is attached to
+  FromPort: 5432
+  GroupId: sg-0f0411705c27e82a3
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: true
+  ReferencedGroupInfo:
+    GroupId: sg-0003bc1d432b615e4
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0401112eb2fb57bc9
+  Tags: []
+  ToPort: 5432
+...
+

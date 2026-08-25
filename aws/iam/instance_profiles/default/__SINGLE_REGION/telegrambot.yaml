@@ -1,0 +1,28 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: telegrambot
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/telegrambot
+  CreateDate: 2021-11-19 05:54:04+00:00
+  InstanceProfileId: AIPA4RYUCHN5ZZEAZLVEA
+  InstanceProfileName: telegrambot
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/mbx/devops/service/telegrambot/telegrambot
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+      Version: '2012-10-17'
+    CreateDate: 2021-11-19 05:53:59+00:00
+    Path: /mbx/devops/service/telegrambot/
+    RoleId: AROA4RYUCHN5YHQWIRVYD
+    RoleName: telegrambot
+...
+

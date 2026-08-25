@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSRolesAnywhereReadOnly
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSRolesAnywhereReadOnly
+  AttachmentCount: 0
+  CreateDate: 2025-07-16 15:07:07+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4CS4GC5WVX
+  PolicyName: AWSRolesAnywhereReadOnly
+  UpdateDate: 2026-02-12 18:00:43+00:00
+...
+

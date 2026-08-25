@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSGrafanaAccountAdministrator
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSGrafanaAccountAdministrator
+  AttachmentCount: 0
+  CreateDate: 2021-02-23 00:20:38+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4KHVCM25DH
+  PolicyName: AWSGrafanaAccountAdministrator
+  UpdateDate: 2022-02-15 22:36:18+00:00
+...
+

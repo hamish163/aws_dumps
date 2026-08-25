@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql17.rds_aurora.limitless_auto_scale_options
+specifics:
+  AllowedValues: split_shard,add_router
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: list
+  Description: A list of limitless scale operations that are allowed to be performed
+    automatically
+  IsModifiable: true
+  ParameterName: rds_aurora.limitless_auto_scale_options
+  ParameterValue: split_shard,add_router
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

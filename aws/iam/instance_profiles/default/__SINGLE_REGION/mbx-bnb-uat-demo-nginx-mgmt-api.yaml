@@ -1,0 +1,28 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-uat-demo-nginx-mgmt-api
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/mbx-bnb-uat-demo-nginx-mgmt-api
+  CreateDate: 2025-09-25 11:17:30+00:00
+  InstanceProfileId: AIPA4RYUCHN5TH2VQ3OO6
+  InstanceProfileName: mbx-bnb-uat-demo-nginx-mgmt-api
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/mbx-bnb-uat-demo-nginx-mgmt-api
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+      Version: '2012-10-17'
+    CreateDate: 2025-09-25 11:17:29+00:00
+    Path: /
+    RoleId: AROA4RYUCHN5UYFZQ3PQG
+    RoleName: mbx-bnb-uat-demo-nginx-mgmt-api
+...
+

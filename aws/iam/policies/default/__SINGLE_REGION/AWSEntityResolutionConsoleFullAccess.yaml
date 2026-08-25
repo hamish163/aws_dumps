@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSEntityResolutionConsoleFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSEntityResolutionConsoleFullAccess
+  AttachmentCount: 0
+  CreateDate: 2023-08-17 17:54:14+00:00
+  DefaultVersionId: v5
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4HPFJ6XDUE
+  PolicyName: AWSEntityResolutionConsoleFullAccess
+  UpdateDate: 2026-02-12 18:02:20+00:00
+...
+

@@ -1,0 +1,29 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: bnb-prod-comply-account-service
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/bnb-prod-comply-account-service
+  CreateDate: 2023-11-28 12:00:13+00:00
+  InstanceProfileId: AIPA4RYUCHN5QU472PIHE
+  InstanceProfileName: bnb-prod-comply-account-service
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/bnb-prod-comply-account-service
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+        Sid: ''
+      Version: '2012-10-17'
+    CreateDate: 2023-11-28 12:00:12+00:00
+    Path: /
+    RoleId: AROA4RYUCHN54UQB3VGYC
+    RoleName: bnb-prod-comply-account-service
+...
+

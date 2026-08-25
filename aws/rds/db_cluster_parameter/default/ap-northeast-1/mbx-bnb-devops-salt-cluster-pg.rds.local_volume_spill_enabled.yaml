@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-devops-salt-cluster-pg.rds.local_volume_spill_enabled
+specifics:
+  AllowedValues: on,off
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: Enables writing logical spill files to the local volume
+  IsModifiable: true
+  ParameterName: rds.local_volume_spill_enabled
+  ParameterValue: 'on'
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

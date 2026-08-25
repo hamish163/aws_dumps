@@ -1,0 +1,9 @@
+---
+datatype: aws.elbv2.listener_certificates
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener/net/mbx-bnb-uat-fix-api-dc-nlb/25c747d03605fc6c/87a8ea07fbc463b8
+specifics: []
+...
+

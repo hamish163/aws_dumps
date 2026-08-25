@@ -1,0 +1,13 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-04eecb7fa221a409b
+specifics:
+  Description: perf_qa_test_sg
+  GroupId: sg-04eecb7fa221a409b
+  GroupName: perf_qa_test_sg
+  VpcId: vpc-0a7d9bfaa80b951d9
+...
+

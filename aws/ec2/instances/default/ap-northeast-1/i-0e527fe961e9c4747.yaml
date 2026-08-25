@@ -1,0 +1,141 @@
+---
+datatype: aws.ec2.instances
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-0e527fe961e9c4747
+specifics:
+  AmiLaunchIndex: 0
+  Architecture: x86_64
+  BlockDeviceMappings:
+  - DeviceName: /dev/xvda
+    Ebs:
+      AttachTime: 2025-05-19 17:47:16+00:00
+      DeleteOnTermination: true
+      Status: attached
+      VolumeId: vol-05676c4916033e86f
+  - DeviceName: /dev/sdf
+    Ebs:
+      AttachTime: 2025-05-19 17:47:53.352000+00:00
+      DeleteOnTermination: false
+      Status: attached
+      VolumeId: vol-0af2bb3dedfcfae3d
+  BootMode: uefi-preferred
+  CapacityReservationSpecification:
+    CapacityReservationPreference: open
+  ClientToken: terraform-20250519174714272100000002
+  CpuOptions:
+    CoreCount: 1
+    ThreadsPerCore: 2
+  CurrentInstanceBootMode: uefi
+  EbsOptimized: true
+  EnaSupport: true
+  EnclaveOptions:
+    Enabled: false
+  HibernationOptions:
+    Configured: false
+  Hypervisor: xen
+  IamInstanceProfile:
+    Arn: arn:aws:iam::862793644923:instance-profile/mbx-bnb-devops-wsp
+    Id: AIPA4RYUCHN537CDLM2DU
+  ImageId: ami-04378f993f6e0c419
+  InstanceId: i-0e527fe961e9c4747
+  InstanceType: c7i.large
+  LaunchTime: 2025-05-19 17:47:16+00:00
+  MaintenanceOptions:
+    AutoRecovery: default
+  MetadataOptions:
+    HttpEndpoint: enabled
+    HttpProtocolIpv6: disabled
+    HttpPutResponseHopLimit: 2
+    HttpTokens: required
+    InstanceMetadataTags: enabled
+    State: applied
+  Monitoring:
+    State: disabled
+  NetworkInterfaces:
+  - Attachment:
+      AttachTime: 2025-05-19 17:47:16+00:00
+      AttachmentId: eni-attach-074c28611179d2966
+      DeleteOnTermination: true
+      DeviceIndex: 0
+      NetworkCardIndex: 0
+      Status: attached
+    Description: ''
+    Groups:
+    - GroupId: sg-04eb9c78891cd0dcf
+      GroupName: mbx-bnb-devops-wsp
+    - GroupId: sg-0dcd16e585060d06c
+      GroupName: mbx-bnb-devops-monitoring
+    - GroupId: sg-0021bf00906cbb632
+      GroupName: mbx-bnb-devops-default
+    InterfaceType: interface
+    Ipv6Addresses: []
+    MacAddress: 06:67:66:0a:29:cd
+    NetworkInterfaceId: eni-0c886cfbd510b10d4
+    OwnerId: '862793644923'
+    PrivateDnsName: ip-10-200-19-154.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.200.19.154
+    PrivateIpAddresses:
+    - Primary: true
+      PrivateDnsName: ip-10-200-19-154.ap-northeast-1.compute.internal
+      PrivateIpAddress: 10.200.19.154
+    SourceDestCheck: true
+    Status: in-use
+    SubnetId: subnet-0c188e95cfba03f63
+    VpcId: vpc-07519eb63f1d932ac
+  Placement:
+    AvailabilityZone: ap-northeast-1a
+    GroupName: ''
+    Tenancy: default
+  PlatformDetails: Linux/UNIX
+  PrivateDnsName: ip-10-200-19-154.ap-northeast-1.compute.internal
+  PrivateDnsNameOptions:
+    EnableResourceNameDnsAAAARecord: false
+    EnableResourceNameDnsARecord: false
+    HostnameType: ip-name
+  PrivateIpAddress: 10.200.19.154
+  ProductCodes: []
+  PublicDnsName: ''
+  RootDeviceName: /dev/xvda
+  RootDeviceType: ebs
+  SecurityGroups:
+  - GroupId: sg-04eb9c78891cd0dcf
+    GroupName: mbx-bnb-devops-wsp
+  - GroupId: sg-0dcd16e585060d06c
+    GroupName: mbx-bnb-devops-monitoring
+  - GroupId: sg-0021bf00906cbb632
+    GroupName: mbx-bnb-devops-default
+  SourceDestCheck: true
+  State:
+    Code: 16
+    Name: running
+  StateTransitionReason: ''
+  SubnetId: subnet-0c188e95cfba03f63
+  Tags:
+  - Key: Name
+    Value: mbx-bnb-devops-wsp1
+  - Key: biz
+    Value: mbx
+  - Key: mbx_application_name
+    Value: mbx-data-wsp
+  - Key: mbx_clustered_application
+    Value: 'false'
+  - Key: mbx_env_name
+    Value: devops
+  - Key: mbx_env_type
+    Value: multi-node
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_host_index
+    Value: '1'
+  - Key: mbx_secret_store
+    Value: none
+  - Key: team
+    Value: mbx
+  UsageOperation: RunInstances
+  UsageOperationUpdateTime: 2025-05-19 17:47:16+00:00
+  VirtualizationType: hvm
+  VpcId: vpc-07519eb63f1d932ac
+...
+

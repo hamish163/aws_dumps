@@ -1,0 +1,15 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx.bnb.perf.key-shovel21/A
+  single_region: true
+specifics:
+  Name: key-shovel21.perf.bnb.mbx.
+  ResourceRecords:
+  - Value: 10.170.20.228
+  TTL: 300
+  Type: A
+...
+

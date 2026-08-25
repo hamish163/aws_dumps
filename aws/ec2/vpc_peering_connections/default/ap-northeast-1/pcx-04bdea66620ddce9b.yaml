@@ -1,0 +1,46 @@
+---
+datatype: aws.ec2.vpc_peering_connections
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: pcx-04bdea66620ddce9b
+specifics:
+  AccepterVpcInfo:
+    CidrBlock: 10.143.0.0/16
+    CidrBlockSet:
+    - CidrBlock: 10.143.0.0/16
+    OwnerId: '862793644923'
+    PeeringOptions:
+      AllowDnsResolutionFromRemoteVpc: false
+      AllowEgressFromLocalClassicLinkToRemoteVpc: false
+      AllowEgressFromLocalVpcToRemoteClassicLink: false
+    Region: ap-northeast-1
+    VpcId: vpc-097095a8b70ef6727
+  RequesterVpcInfo:
+    CidrBlock: 10.210.16.0/20
+    CidrBlockSet:
+    - CidrBlock: 10.210.16.0/20
+    OwnerId: '862793644923'
+    PeeringOptions:
+      AllowDnsResolutionFromRemoteVpc: false
+      AllowEgressFromLocalClassicLinkToRemoteVpc: false
+      AllowEgressFromLocalVpcToRemoteClassicLink: false
+    Region: ap-northeast-1
+    VpcId: vpc-0b35c69638f22b129
+  Status:
+    Code: active
+    Message: Active
+  Tags:
+  - Key: Name
+    Value: mbx-tools-dev_to_saltmaster-vpc
+  - Key: biz
+    Value: mbx
+  - Key: mbx_exchange_name
+    Value: tools
+  - Key: mbx_env_name
+    Value: dev
+  - Key: team
+    Value: mbx
+  VpcPeeringConnectionId: pcx-04bdea66620ddce9b
+...
+

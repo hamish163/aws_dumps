@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonDataZoneSageMakerProvisioningRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonDataZoneSageMakerProvisioningRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2024-04-23 23:32:28+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4DAPKPYMDW
+  PolicyName: AmazonDataZoneSageMakerProvisioningRolePolicy
+  UpdateDate: 2026-02-12 18:01:20+00:00
+...
+

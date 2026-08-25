@@ -1,0 +1,15 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx.velocity.perf.v2spade1-order1/A
+  single_region: true
+specifics:
+  Name: v2spade1-order1.perf.velocity.mbx.
+  ResourceRecords:
+  - Value: 10.100.81.55
+  TTL: 3600
+  Type: A
+...
+

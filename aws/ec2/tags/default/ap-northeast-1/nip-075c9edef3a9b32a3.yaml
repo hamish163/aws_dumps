@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: nip-075c9edef3a9b32a3
+specifics:
+  Name: new-vpn-to-monitoring
+...
+

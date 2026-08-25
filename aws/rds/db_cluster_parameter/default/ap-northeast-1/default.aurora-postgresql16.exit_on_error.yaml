@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql16.exit_on_error
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Terminate session on any error.
+  IsModifiable: false
+  ParameterName: exit_on_error
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

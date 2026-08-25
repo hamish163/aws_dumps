@@ -1,0 +1,15 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: com.bitdj.rocketchat.rocketchat1/A
+  single_region: true
+specifics:
+  Name: rocketchat1.rocketchat.bitdj.com.
+  ResourceRecords:
+  - Value: 10.12.18.66
+  TTL: 300
+  Type: A
+...
+

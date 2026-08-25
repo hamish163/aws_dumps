@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonDetectiveFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonDetectiveFullAccess
+  AttachmentCount: 0
+  CreateDate: 2020-04-30 17:57:15+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4IRLX3QVOO
+  PolicyName: AmazonDetectiveFullAccess
+  UpdateDate: 2023-05-17 19:39:57+00:00
+...
+

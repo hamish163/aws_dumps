@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-solutions-telegrambot-postgres-cluster-pg.log_statement
+specifics:
+  AllowedValues: none,ddl,mod,all
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Sets the type of statements logged.
+  IsModifiable: true
+  ParameterName: log_statement
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

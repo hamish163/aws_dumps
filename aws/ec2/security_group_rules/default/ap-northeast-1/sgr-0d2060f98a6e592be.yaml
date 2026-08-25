@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0d2060f98a6e592be
+specifics:
+  Description: Allow TCP traffic from qa-thunder-runner-task SG on port 5483
+  FromPort: 5483
+  GroupId: sg-0a8fa34d4c05fa443
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-08876988888b493a3
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0d2060f98a6e592be
+  Tags: []
+  ToPort: 5483
+...
+

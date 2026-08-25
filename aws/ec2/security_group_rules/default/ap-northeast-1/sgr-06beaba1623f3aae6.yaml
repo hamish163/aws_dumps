@@ -1,0 +1,24 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-06beaba1623f3aae6
+specifics:
+  Description: Allow access from thanos-Query to thanos-sidecar gRPC
+  FromPort: 19181
+  GroupId: sg-0aca5d690585ad2ad
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-098c95ddcba2d3f40
+    PeeringStatus: active
+    UserId: '369096419186'
+    VpcId: vpc-0f159d755b0087dbc
+    VpcPeeringConnectionId: pcx-0b242cd31726e34aa
+  SecurityGroupRuleId: sgr-06beaba1623f3aae6
+  Tags: []
+  ToPort: 19181
+...
+

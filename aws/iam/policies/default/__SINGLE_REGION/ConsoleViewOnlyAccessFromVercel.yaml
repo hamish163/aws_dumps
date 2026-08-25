@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: ConsoleViewOnlyAccessFromVercel
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/ConsoleViewOnlyAccessFromVercel
+  AttachmentCount: 0
+  CreateDate: 2025-12-11 16:49:11+00:00
+  DefaultVersionId: v5
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4BUPY7IZ5Y
+  PolicyName: ConsoleViewOnlyAccessFromVercel
+  UpdateDate: 2026-04-09 18:27:08+00:00
+...
+

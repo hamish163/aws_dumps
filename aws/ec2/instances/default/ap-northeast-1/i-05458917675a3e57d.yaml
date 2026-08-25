@@ -1,0 +1,159 @@
+---
+datatype: aws.ec2.instances
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-05458917675a3e57d
+specifics:
+  AmiLaunchIndex: 0
+  Architecture: x86_64
+  BlockDeviceMappings:
+  - DeviceName: /dev/xvda
+    Ebs:
+      AttachTime: 2025-07-22 08:55:17+00:00
+      DeleteOnTermination: true
+      Status: attached
+      VolumeId: vol-0ffb2d77547d70953
+  - DeviceName: /dev/sdf
+    Ebs:
+      AttachTime: 2025-07-22 08:55:51.786000+00:00
+      DeleteOnTermination: false
+      Status: attached
+      VolumeId: vol-0d166c6c438b571f7
+  - DeviceName: /dev/sdg
+    Ebs:
+      AttachTime: 2025-07-22 08:55:51.842000+00:00
+      DeleteOnTermination: false
+      Status: attached
+      VolumeId: vol-07c9d5af129f2465a
+  - DeviceName: /dev/sdh
+    Ebs:
+      AttachTime: 2025-10-01 05:18:09.706000+00:00
+      DeleteOnTermination: false
+      Status: attached
+      VolumeId: vol-06d6859a850ad051a
+  - DeviceName: /dev/sdi
+    Ebs:
+      AttachTime: 2025-10-01 05:18:09.777000+00:00
+      DeleteOnTermination: false
+      Status: attached
+      VolumeId: vol-0db78868d8e7b4065
+  BootMode: uefi-preferred
+  CapacityReservationSpecification:
+    CapacityReservationPreference: open
+  ClientToken: terraform-20250722085515868200000001
+  CpuOptions:
+    CoreCount: 24
+    ThreadsPerCore: 2
+  CurrentInstanceBootMode: uefi
+  EbsOptimized: true
+  EnaSupport: true
+  EnclaveOptions:
+    Enabled: false
+  HibernationOptions:
+    Configured: false
+  Hypervisor: xen
+  IamInstanceProfile:
+    Arn: arn:aws:iam::862793644923:instance-profile/mbx-bnb-perf-engine
+    Id: AIPA4RYUCHN572M5GHFVT
+  ImageId: ami-08e3af699c9971cff
+  InstanceId: i-05458917675a3e57d
+  InstanceType: r7iz.12xlarge
+  LaunchTime: 2026-04-07 04:13:08+00:00
+  MaintenanceOptions:
+    AutoRecovery: default
+  MetadataOptions:
+    HttpEndpoint: enabled
+    HttpProtocolIpv6: disabled
+    HttpPutResponseHopLimit: 2
+    HttpTokens: required
+    InstanceMetadataTags: enabled
+    State: applied
+  Monitoring:
+    State: disabled
+  NetworkInterfaces:
+  - Attachment:
+      AttachTime: 2025-07-22 08:55:17+00:00
+      AttachmentId: eni-attach-0109eeae8bc0ae8a1
+      DeleteOnTermination: true
+      DeviceIndex: 0
+      NetworkCardIndex: 0
+      Status: attached
+    Description: ''
+    Groups:
+    - GroupId: sg-0930fe36728a6e31a
+      GroupName: mbx-bnb-perf-monitoring
+    - GroupId: sg-08f55a26e7f6279e8
+      GroupName: mbx-bnb-perf-engine
+    - GroupId: sg-011d3bdd31cc014b3
+      GroupName: mbx-bnb-perf-default
+    InterfaceType: interface
+    Ipv6Addresses: []
+    MacAddress: 06:48:40:c7:21:8d
+    NetworkInterfaceId: eni-01ea071305803c196
+    OwnerId: '862793644923'
+    PrivateDnsName: ip-10-170-19-217.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.170.19.217
+    PrivateIpAddresses:
+    - Primary: true
+      PrivateDnsName: ip-10-170-19-217.ap-northeast-1.compute.internal
+      PrivateIpAddress: 10.170.19.217
+    SourceDestCheck: true
+    Status: in-use
+    SubnetId: subnet-09134100e474d8109
+    VpcId: vpc-013930e589c469574
+  Placement:
+    AvailabilityZone: ap-northeast-1a
+    GroupId: pg-08f1d09fabee1d117
+    GroupName: mbx-bnb-perf-az-1a
+    Tenancy: default
+  PlatformDetails: Linux/UNIX
+  PrivateDnsName: ip-10-170-19-217.ap-northeast-1.compute.internal
+  PrivateDnsNameOptions:
+    EnableResourceNameDnsAAAARecord: false
+    EnableResourceNameDnsARecord: false
+    HostnameType: ip-name
+  PrivateIpAddress: 10.170.19.217
+  ProductCodes: []
+  PublicDnsName: ''
+  RootDeviceName: /dev/xvda
+  RootDeviceType: ebs
+  SecurityGroups:
+  - GroupId: sg-0930fe36728a6e31a
+    GroupName: mbx-bnb-perf-monitoring
+  - GroupId: sg-08f55a26e7f6279e8
+    GroupName: mbx-bnb-perf-engine
+  - GroupId: sg-011d3bdd31cc014b3
+    GroupName: mbx-bnb-perf-default
+  SourceDestCheck: true
+  State:
+    Code: 80
+    Name: stopped
+  StateReason:
+    Code: Client.UserInitiatedShutdown
+    Message: 'Client.UserInitiatedShutdown: User initiated shutdown'
+  StateTransitionReason: User initiated (2026-07-14 08:26:41 GMT)
+  SubnetId: subnet-09134100e474d8109
+  Tags:
+  - Key: Name
+    Value: mbx-bnb-perf-engine3
+  - Key: biz
+    Value: mbx
+  - Key: mbx_application_name
+    Value: mbx-core-engine
+  - Key: mbx_env_name
+    Value: perf
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_host_index
+    Value: '3'
+  - Key: mbx_secret_store
+    Value: none
+  - Key: team
+    Value: mbx
+  UsageOperation: RunInstances
+  UsageOperationUpdateTime: 2025-07-22 08:55:17+00:00
+  VirtualizationType: hvm
+  VpcId: vpc-013930e589c469574
+...
+

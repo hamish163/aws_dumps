@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0f96054ff5169d1d9
+specifics:
+  CidrIpv4: 10.143.1.0/24
+  Description: From Saltmaster bitdj
+  FromPort: 8912
+  GroupId: sg-040d9ce0bd21f7ff4
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-0f96054ff5169d1d9
+  Tags: []
+  ToPort: 8912
+...
+

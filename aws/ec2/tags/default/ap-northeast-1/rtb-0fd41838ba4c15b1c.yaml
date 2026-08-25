@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rtb-0fd41838ba4c15b1c
+specifics:
+  Name: prod-tracky-external
+...
+

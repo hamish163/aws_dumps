@@ -1,0 +1,13 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: snap-0d73330e92a9ae10b
+specifics:
+  biz: mbx
+  project: mbx
+  role: jenkins
+  team: mbx
+...
+

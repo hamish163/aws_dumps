@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonSageMakerFeatureStoreAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonSageMakerFeatureStoreAccess
+  AttachmentCount: 0
+  CreateDate: 2020-12-01 16:24:05+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4FO5MQNGJU
+  PolicyName: AmazonSageMakerFeatureStoreAccess
+  UpdateDate: 2022-12-05 14:19:58+00:00
+...
+

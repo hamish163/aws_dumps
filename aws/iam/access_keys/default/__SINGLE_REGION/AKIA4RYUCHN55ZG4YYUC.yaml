@@ -1,0 +1,14 @@
+---
+datatype: aws.iam.access_keys
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AKIA4RYUCHN55ZG4YYUC
+  single_region: true
+specifics:
+  AccessKeyId: AKIA4RYUCHN55ZG4YYUC
+  CreateDate: 2025-11-24 17:59:04+00:00
+  Status: Active
+  UserName: alex.tanti
+...
+

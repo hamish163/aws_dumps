@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0f7d4f88e5adaad00
+specifics:
+  Description: Allow ingress from ops
+  FromPort: 4906
+  GroupId: sg-0e4bc27fd2f10b136
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-057b3e40d34d01d46
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0f7d4f88e5adaad00
+  Tags: []
+  ToPort: 4906
+...
+

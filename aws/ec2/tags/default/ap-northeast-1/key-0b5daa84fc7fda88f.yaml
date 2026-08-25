@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: key-0b5daa84fc7fda88f
+specifics:
+  team_mbx: devops
+...
+

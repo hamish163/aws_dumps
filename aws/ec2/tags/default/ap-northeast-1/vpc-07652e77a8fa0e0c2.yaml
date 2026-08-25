@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vpc-07652e77a8fa0e0c2
+specifics:
+  Name: ap2-bitdj
+  env: ap2
+  project: bitdj
+...
+

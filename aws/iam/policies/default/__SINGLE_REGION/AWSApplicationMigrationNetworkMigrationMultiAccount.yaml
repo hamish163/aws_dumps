@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSApplicationMigrationNetworkMigrationMultiAccount
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSApplicationMigrationNetworkMigrationMultiAccount
+  AttachmentCount: 0
+  CreateDate: 2025-11-10 09:04:09+00:00
+  DefaultVersionId: v6
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4CTZCLDWVS
+  PolicyName: AWSApplicationMigrationNetworkMigrationMultiAccount
+  UpdateDate: 2026-07-30 07:42:10+00:00
+...
+

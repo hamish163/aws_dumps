@@ -1,0 +1,14 @@
+---
+datatype: aws.iam.user_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: pawan
+  single_region: true
+specifics:
+  biz: ''
+  mbx_iam: pawan
+  mbx_team: qa
+  team: ''
+...
+

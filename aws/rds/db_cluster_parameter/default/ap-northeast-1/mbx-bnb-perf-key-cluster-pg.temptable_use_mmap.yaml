@@ -1,0 +1,25 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-perf-key-cluster-pg.temptable_use_mmap
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Defines whether the TempTable storage engine allocates space for internal
+    in-memory temporary tables as memory-mapped temporary files when the amount of
+    memory occupied by the TempTable storage engine exceeds the limit defined by the
+    temptable_max_ram variable. When temptable_use_mmap is disabled, the TempTable
+    storage engine uses InnoDB on-disk internal temporary tables instead. Deprecated
+    in MySQL Community 8.0.26
+  IsModifiable: true
+  ParameterName: temptable_use_mmap
+  ParameterValue: '1'
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

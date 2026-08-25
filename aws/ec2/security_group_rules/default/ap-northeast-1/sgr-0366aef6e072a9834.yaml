@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0366aef6e072a9834
+specifics:
+  Description: Allow TCP traffic from fix-api-dropcopy SG on port 5493
+  FromPort: 5493
+  GroupId: sg-030abd5aa8d5b0a53
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0a32d6a141a567d26
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0366aef6e072a9834
+  Tags: []
+  ToPort: 5493
+...
+

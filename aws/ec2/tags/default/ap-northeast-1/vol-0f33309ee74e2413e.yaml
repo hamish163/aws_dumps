@@ -1,0 +1,17 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-0f33309ee74e2413e
+specifics:
+  Name: mbx-bnb-perf-lithium1
+  biz: mbx
+  mbx_application_name: lithium
+  mbx_env_name: perf
+  mbx_exchange_name: bnb
+  mbx_host_index: '1'
+  mbx_secret_store: none
+  team: mbx
+...
+

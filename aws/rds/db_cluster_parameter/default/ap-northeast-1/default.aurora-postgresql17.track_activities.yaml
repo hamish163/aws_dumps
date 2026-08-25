@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql17.track_activities
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Collects information about executing commands.
+  IsModifiable: true
+  ParameterName: track_activities
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

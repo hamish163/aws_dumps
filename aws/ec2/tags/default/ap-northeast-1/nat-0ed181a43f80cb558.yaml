@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: nat-0ed181a43f80cb558
+specifics:
+  Environment: sandbox
+  ManagedBy: terraform
+  Name: mbx-sandbox-ngw-1
+  Project: mbx.io
+  Role: private
+  VPC: vpc-0e757bbb24fbe6b04
+...
+

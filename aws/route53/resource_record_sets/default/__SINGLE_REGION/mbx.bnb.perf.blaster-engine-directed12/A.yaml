@@ -1,0 +1,15 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx.bnb.perf.blaster-engine-directed12/A
+  single_region: true
+specifics:
+  Name: blaster-engine-directed12.perf.bnb.mbx.
+  ResourceRecords:
+  - Value: 10.170.20.173
+  TTL: 300
+  Type: A
+...
+

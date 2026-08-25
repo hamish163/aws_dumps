@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0a4375aab5e3afbcb
+specifics:
+  Description: Allow TCP traffic from tracky SG on port 8912
+  FromPort: 8912
+  GroupId: sg-067efc65cc83241c5
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0bf665d9b00cdfa8d
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0a4375aab5e3afbcb
+  Tags: []
+  ToPort: 8912
+...
+

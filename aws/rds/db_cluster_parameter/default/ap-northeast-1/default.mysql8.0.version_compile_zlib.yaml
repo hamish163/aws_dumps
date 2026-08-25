@@ -1,0 +1,18 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.version_compile_zlib
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: ' '
+  IsModifiable: false
+  ParameterName: version_compile_zlib
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

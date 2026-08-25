@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSCodeDeployDeployerAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSCodeDeployDeployerAccess
+  AttachmentCount: 0
+  CreateDate: 2015-05-19 18:18:43+00:00
+  DefaultVersionId: v6
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJUWEPOMGLMVXJAPUI
+  PolicyName: AWSCodeDeployDeployerAccess
+  UpdateDate: 2026-02-12 18:02:10+00:00
+...
+

@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql11.apg_plan_mgmt.log_plan_enforcement_result
+specifics:
+  AllowedValues: all,on_error,none
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: list
+  Description: Log the plan enforcement result in the server log.
+  IsModifiable: true
+  MinimumEngineVersion: '11.20'
+  ParameterName: apg_plan_mgmt.log_plan_enforcement_result
+  ParameterValue: none
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,38 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-019a3f83c84f70ab7
+specifics:
+  Attachment:
+    AttachmentId: ela-attach-02fd7e557ad75f374
+    DeleteOnTermination: false
+    DeviceIndex: 1
+    InstanceOwnerId: amazon-aws
+    Status: attached
+  AvailabilityZone: ap-northeast-1c
+  Description: ELB net/mbx-bnb-sre-emu-nlb-int/f1917d125a0b7cf5
+  Groups:
+  - GroupId: sg-0e17b3751185ddfb1
+    GroupName: mbx-bnb-sre-emu-nlb-int-sg
+  InterfaceType: network_load_balancer
+  Ipv6Addresses: []
+  MacAddress: 0a:c8:6b:eb:19:d3
+  NetworkInterfaceId: eni-019a3f83c84f70ab7
+  OwnerId: '862793644923'
+  PrivateDnsName: ip-10-240-15-151.ap-northeast-1.compute.internal
+  PrivateIpAddress: 10.240.15.151
+  PrivateIpAddresses:
+  - Primary: true
+    PrivateDnsName: ip-10-240-15-151.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.240.15.151
+  RequesterId: '720472936100'
+  RequesterManaged: true
+  SourceDestCheck: false
+  Status: in-use
+  SubnetId: subnet-06d37542eac765265
+  TagSet: []
+  VpcId: vpc-0ba76150fc7799f94
+...
+

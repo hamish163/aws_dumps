@@ -1,0 +1,44 @@
+---
+datatype: aws.ec2.volumes
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-0b1c6ad8c3bc85a06
+specifics:
+  Attachments:
+  - AttachTime: 2026-05-21 14:54:07+00:00
+    DeleteOnTermination: true
+    Device: /dev/sda1
+    InstanceId: i-03226afc4109e678f
+    State: attached
+    VolumeId: vol-0b1c6ad8c3bc85a06
+  AvailabilityZone: ap-northeast-1c
+  CreateTime: 2026-05-21 14:54:07.897000+00:00
+  Encrypted: false
+  Iops: 3000
+  MultiAttachEnabled: false
+  Size: 60
+  SnapshotId: snap-03b0234fe386ced35
+  State: in-use
+  Tags:
+  - Key: jenkins-master
+    Value: mbx-bnb-devops-jenkins_dev
+  - Key: mbx_env_name
+    Value: devops
+  - Key: jenkins_server_url
+    Value: https://jenkins.bitdj.com/
+  - Key: Name
+    Value: mbx-bnb-devops-jenkins_dev-dynamic-agent-podman
+  - Key: jenkins_cloud_name
+    Value: ec2-qa
+  - Key: jenkins_slave_type
+    Value: demand_podman
+  - Key: biz
+    Value: mbx
+  - Key: team
+    Value: mbx
+  Throughput: 125
+  VolumeId: vol-0b1c6ad8c3bc85a06
+  VolumeType: gp3
+...
+

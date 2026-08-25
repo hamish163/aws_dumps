@@ -1,0 +1,32 @@
+---
+datatype: aws.iam.attached_user_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: pawan
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/AllowPerfRDSKMSKey
+    PolicyName: AllowPerfRDSKMSKey
+  - PolicyArn: arn:aws:iam::862793644923:policy/AllowRDSQATeam
+    PolicyName: AllowRDSQATeam
+  - PolicyArn: arn:aws:iam::862793644923:policy/AllowQAManageEC2Instance
+    PolicyName: AllowQAManageEC2Instance
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess
+    PolicyName: AmazonEC2ReadOnlyAccess
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonEC2FullAccess
+    PolicyName: AmazonEC2FullAccess
+  - PolicyArn: arn:aws:iam::aws:policy/CloudWatchReadOnlyAccess
+    PolicyName: CloudWatchReadOnlyAccess
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonMQReadOnlyAccess
+    PolicyName: AmazonMQReadOnlyAccess
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonElastiCacheReadOnlyAccess
+    PolicyName: AmazonElastiCacheReadOnlyAccess
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonRDSReadOnlyAccess
+    PolicyName: AmazonRDSReadOnlyAccess
+  - PolicyArn: arn:aws:iam::aws:policy/IAMUserChangePassword
+    PolicyName: IAMUserChangePassword
+  _UserName: pawan
+...
+

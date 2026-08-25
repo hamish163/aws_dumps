@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql16.auto_explain.log_verbose
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Use EXPLAIN VERBOSE for plan logging.
+  IsModifiable: true
+  ParameterName: auto_explain.log_verbose
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

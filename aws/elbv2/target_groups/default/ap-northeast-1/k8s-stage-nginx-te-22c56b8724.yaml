@@ -1,0 +1,28 @@
+---
+datatype: aws.elbv2.target_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: k8s-stage-nginx-te-22c56b8724
+specifics:
+  HealthCheckEnabled: true
+  HealthCheckIntervalSeconds: 5
+  HealthCheckPath: /
+  HealthCheckPort: traffic-port
+  HealthCheckProtocol: HTTP
+  HealthCheckTimeoutSeconds: 2
+  HealthyThresholdCount: 5
+  IpAddressType: ipv4
+  LoadBalancerArns: []
+  Matcher:
+    HttpCode: '200'
+  Port: 1
+  Protocol: HTTP
+  ProtocolVersion: HTTP1
+  TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/k8s-stage-nginx-te-22c56b8724/c92fc4d338ba5b08
+  TargetGroupName: k8s-stage-nginx-te-22c56b8724
+  TargetType: instance
+  UnhealthyThresholdCount: 2
+  VpcId: vpc-0edd5a91ef3f82730
+...
+

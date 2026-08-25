@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSCodeDeployRoleForCloudFormation
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AWSCodeDeployRoleForCloudFormation
+  AttachmentCount: 0
+  CreateDate: 2020-05-19 17:12:52+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4CO24UTMFH
+  PolicyName: AWSCodeDeployRoleForCloudFormation
+  UpdateDate: 2020-05-19 17:12:52+00:00
+...
+

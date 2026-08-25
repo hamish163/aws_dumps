@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql16.max_slot_wal_keep_size
+specifics:
+  AllowedValues: -1-2147483647
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: (MB) Replication slots will be marked as failed, and segments released
+    for deletion or recycling, if this much space is occupied by WAL on disk.
+  IsModifiable: true
+  ParameterName: max_slot_wal_keep_size
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSGroundStationAgentInstancePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSGroundStationAgentInstancePolicy
+  AttachmentCount: 0
+  CreateDate: 2023-03-29 15:23:12+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4GN6CBCPGK
+  PolicyName: AWSGroundStationAgentInstancePolicy
+  UpdateDate: 2026-02-12 18:02:36+00:00
+...
+

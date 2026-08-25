@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSBackupServiceRolePolicyForBackup
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AWSBackupServiceRolePolicyForBackup
+  AttachmentCount: 1
+  CreateDate: 2019-01-10 21:01:28+00:00
+  DefaultVersionId: v30
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIOOYZSLZZXWFJJ5N2
+  PolicyName: AWSBackupServiceRolePolicyForBackup
+  UpdateDate: 2026-02-23 19:42:11+00:00
+...
+

@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-spade-system-cluster-pg.performance-schema-instrument
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: Configure a Performance Schema instrument. The name may be given as
+    a pattern to configure instruments that match the pattern.
+  IsModifiable: true
+  ParameterName: performance-schema-instrument
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

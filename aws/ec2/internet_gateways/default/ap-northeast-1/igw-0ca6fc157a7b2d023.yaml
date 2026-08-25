@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.internet_gateways
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: igw-0ca6fc157a7b2d023
+specifics:
+  Attachments:
+  - State: available
+    VpcId: vpc-0a7d9bfaa80b951d9
+  InternetGatewayId: igw-0ca6fc157a7b2d023
+  OwnerId: '862793644923'
+  Tags:
+  - Key: Name
+    Value: perf_dev_mbx_igw
+  - Key: project
+    Value: mbx
+  - Key: env
+    Value: dev
+...
+

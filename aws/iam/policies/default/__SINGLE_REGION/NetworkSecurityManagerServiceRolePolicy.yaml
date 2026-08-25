@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: NetworkSecurityManagerServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/NetworkSecurityManagerServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2026-08-18 18:27:18+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4N7QSJELX4
+  PolicyName: NetworkSecurityManagerServiceRolePolicy
+  UpdateDate: 2026-08-18 18:27:18+00:00
+...
+

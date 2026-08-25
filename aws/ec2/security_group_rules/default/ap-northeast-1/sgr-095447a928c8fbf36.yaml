@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-095447a928c8fbf36
+specifics:
+  Description: Allow tcp from mbx-bnb-uat-fix-api-oe-nlb on port 6789
+  FromPort: 6789
+  GroupId: sg-083fbc41f8436d742
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-066f44058f7081dfb
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-095447a928c8fbf36
+  Tags: []
+  ToPort: 6789
+...
+

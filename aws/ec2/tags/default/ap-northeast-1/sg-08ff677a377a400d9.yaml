@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-08ff677a377a400d9
+specifics:
+  Name: mbx-bnb-uat-spot-aqueduct-papers-db
+  biz: mbx
+  mbx_env_name: uat
+  mbx_exchange_name: bnb
+  mbx_secret_store: asm
+  team: mbx
+...
+

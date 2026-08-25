@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSSystemsManagerForSAPFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSSystemsManagerForSAPFullAccess
+  AttachmentCount: 0
+  CreateDate: 2022-11-17 02:11:09+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4HXSMPOKVI
+  PolicyName: AWSSystemsManagerForSAPFullAccess
+  UpdateDate: 2024-07-10 21:54:54+00:00
+...
+

@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0dd3a2be3eef81a7d
+specifics:
+  Description: From old vpn sg
+  FromPort: 22
+  GroupId: sg-05e60d20221e31e45
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0f4af1c792e9fb528
+    VpcId: vpc-0aba11d56d0a3d516
+  SecurityGroupRuleId: sgr-0dd3a2be3eef81a7d
+  Tags: []
+  ToPort: 22
+...
+

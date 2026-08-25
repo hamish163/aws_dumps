@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: lumber-lambda-emr
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::aws:policy/AmazonElasticMapReduceFullAccess
+    PolicyName: AmazonElasticMapReduceFullAccess
+  - PolicyArn: arn:aws:iam::aws:policy/AWSLambdaFullAccess
+    PolicyName: AWSLambdaFullAccess
+...
+

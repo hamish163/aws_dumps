@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonBedrockMarketplaceAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonBedrockMarketplaceAccess
+  AttachmentCount: 2
+  CreateDate: 2025-06-29 22:22:07+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4DDKNABK3M
+  PolicyName: AmazonBedrockMarketplaceAccess
+  UpdateDate: 2026-02-12 17:57:09+00:00
+...
+

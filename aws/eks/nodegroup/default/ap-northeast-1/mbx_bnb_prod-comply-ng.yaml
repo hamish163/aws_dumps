@@ -1,0 +1,50 @@
+---
+datatype: aws.eks.nodegroup
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx_bnb_prod-comply-ng
+specifics:
+  amiType: CUSTOM
+  capacityType: ON_DEMAND
+  clusterName: mbx_bnb_prod-comply-cluster
+  createdAt: 2025-05-29 01:01:56.906000+10:00
+  health:
+    issues: []
+  labels:
+    comply-runtime-android: 'false'
+    comply-runtime-api: 'true'
+    comply-runtime-browser: 'true'
+  launchTemplate:
+    id: lt-0e0da1e9215dc636d
+    name: mbx_bnb_prod-comply-ng
+    version: '6'
+  nodeRole: arn:aws:iam::862793644923:role/mbx.bnb.prod.comply.nodegroup
+  nodegroupArn: arn:aws:eks:ap-northeast-1:862793644923:nodegroup/mbx_bnb_prod-comply-cluster/mbx_bnb_prod-comply-ng/24cb8bb5-0375-3504-63c4-40b89895412e
+  nodegroupName: mbx_bnb_prod-comply-ng
+  releaseVersion: ami-00c93aedbdef7fad8
+  resources:
+    autoScalingGroups:
+    - name: eks-mbx_bnb_prod-comply-ng-24cb8bb5-0375-3504-63c4-40b89895412e
+  scalingConfig:
+    desiredSize: 7
+    maxSize: 7
+    minSize: 4
+  status: ACTIVE
+  subnets:
+  - subnet-0d92f19d082a3909e
+  tags:
+    biz: mbx
+    mbx_application_name: comply
+    mbx_env_name: prod
+    mbx_exchange_name: bnb
+    mbx_secret_store: asm
+    project: comply
+    sre-app: comply
+    sre-env: prod
+    team: sre
+  updateConfig:
+    maxUnavailable: 1
+  version: '1.35'
+...
+

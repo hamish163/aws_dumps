@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSElasticBeanstalkRoleRDS
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleRDS
+  AttachmentCount: 0
+  CreateDate: 2020-06-05 21:46:55+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4G5JWEESE4
+  PolicyName: AWSElasticBeanstalkRoleRDS
+  UpdateDate: 2020-06-05 21:46:55+00:00
+...
+

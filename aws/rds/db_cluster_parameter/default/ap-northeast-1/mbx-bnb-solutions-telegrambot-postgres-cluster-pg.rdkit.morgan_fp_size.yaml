@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-solutions-telegrambot-postgres-cluster-pg.rdkit.morgan_fp_size
+specifics:
+  AllowedValues: 64-9192
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Size (in bits) of morgan fingerprints
+  IsModifiable: true
+  ParameterName: rdkit.morgan_fp_size
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

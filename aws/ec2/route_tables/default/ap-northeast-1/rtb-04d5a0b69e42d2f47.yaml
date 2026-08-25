@@ -1,0 +1,56 @@
+---
+datatype: aws.ec2.route_tables
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rtb-04d5a0b69e42d2f47
+specifics:
+  Associations:
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-0b1390be775ef95a1
+    RouteTableId: rtb-04d5a0b69e42d2f47
+    SubnetId: subnet-03b19fe4c993f79ca
+  OwnerId: '862793644923'
+  PropagatingVgws: []
+  RouteTableId: rtb-04d5a0b69e42d2f47
+  Routes:
+  - DestinationCidrBlock: 10.12.0.0/24
+    Origin: CreateRoute
+    State: active
+    TransitGatewayId: tgw-094ec8a8749ab72d4
+  - DestinationCidrBlock: 10.12.10.0/24
+    Origin: CreateRoute
+    State: active
+    TransitGatewayId: tgw-094ec8a8749ab72d4
+  - DestinationCidrBlock: 10.250.10.0/24
+    GatewayId: local
+    Origin: CreateRouteTable
+    State: active
+  - DestinationCidrBlock: 10.62.192.0/20
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-04a9102267e51929e
+  - DestinationCidrBlock: 10.63.0.0/16
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-0d08e4327c1c60a06
+  - DestinationCidrBlock: 0.0.0.0/0
+    Origin: CreateRoute
+    State: active
+    TransitGatewayId: tgw-094ec8a8749ab72d4
+  Tags:
+  - Key: biz
+    Value: mbx
+  - Key: Name
+    Value: mbx-usa-bastion-rtb-private2
+  - Key: mbx_exchange_name
+    Value: usa
+  - Key: team
+    Value: mbx
+  - Key: mbx_env_name
+    Value: prod
+  VpcId: vpc-02e50a328c4ab1393
+...
+

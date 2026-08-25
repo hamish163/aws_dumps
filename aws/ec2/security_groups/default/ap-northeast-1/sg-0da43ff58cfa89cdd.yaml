@@ -1,0 +1,24 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0da43ff58cfa89cdd
+specifics:
+  Description: Security group for monitoring resources
+  GroupId: sg-0da43ff58cfa89cdd
+  GroupName: mbx-bnb-solutions-monitoring
+  Tags:
+  - Key: team
+    Value: mbx
+  - Key: mbx_env_name
+    Value: solutions
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: Name
+    Value: mbx-bnb-solutions-monitoring
+  - Key: biz
+    Value: mbx
+  VpcId: vpc-0218545ff4351ce04
+...
+

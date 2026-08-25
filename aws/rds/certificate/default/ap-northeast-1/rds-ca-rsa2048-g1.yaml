@@ -1,0 +1,16 @@
+---
+datatype: aws.rds.certificate
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rds-ca-rsa2048-g1
+specifics:
+  CertificateArn: arn:aws:rds:ap-northeast-1::cert:rds-ca-rsa2048-g1
+  CertificateIdentifier: rds-ca-rsa2048-g1
+  CertificateType: CA
+  CustomerOverride: false
+  Thumbprint: d790bbb661bafa4101829f103d639befa300f9a4
+  ValidFrom: 2021-05-25 21:54:58+00:00
+  ValidTill: 2061-05-25 22:54:58+00:00
+...
+

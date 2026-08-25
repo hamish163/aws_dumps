@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-008026e6a8eae5484
+specifics:
+  Description: cloudfront
+  FromPort: 5002
+  GroupId: sg-0aaa782cdad38ea77
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  PrefixListId: pl-58a04531
+  SecurityGroupRuleId: sgr-008026e6a8eae5484
+  Tags: []
+  ToPort: 5002
+...
+

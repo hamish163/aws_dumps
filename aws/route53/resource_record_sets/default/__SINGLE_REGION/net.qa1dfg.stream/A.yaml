@@ -1,0 +1,16 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: net.qa1dfg.stream/A
+  single_region: true
+specifics:
+  AliasTarget:
+    DNSName: dualstack.internal-k8s-websocket-86154383f8-726710774.ap-northeast-1.elb.amazonaws.com.
+    EvaluateTargetHealth: false
+    HostedZoneId: Z14GRHDCWA56QT
+  Name: stream.qa1dfg.net.
+  Type: A
+...
+

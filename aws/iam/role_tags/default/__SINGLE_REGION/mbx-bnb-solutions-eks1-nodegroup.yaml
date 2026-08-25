@@ -1,0 +1,16 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-solutions-eks1-nodegroup
+  single_region: true
+specifics:
+  biz: mbx
+  mbx_env_name: solutions
+  mbx_exchange_name: bnb
+  mbx_secret_store: none
+  stack_path: bnb/solutions/eks1/cluster
+  team: mbx
+...
+

@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-perf-swapchop-cluster-pg.innodb_buffer_pool_filename
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Specifies the file that holds the list of page numbers produced by
+    innodb_buffer_pool_dump_at_shutdown or innodb_buffer_pool_dump_now.
+  IsModifiable: false
+  ParameterName: innodb_buffer_pool_filename
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

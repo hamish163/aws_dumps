@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-keys-db-cluster-pg-80.gtid_purged
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: The set of all GTIDs that have been purged from the binary log
+  IsModifiable: false
+  MinimumEngineVersion: 8.0.mysql_aurora.3.01.0
+  ParameterName: gtid_purged
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

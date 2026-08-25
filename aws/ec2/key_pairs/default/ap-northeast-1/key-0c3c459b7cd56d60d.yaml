@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.key_pairs
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: key-0c3c459b7cd56d60d
+specifics:
+  CreateTime: 2018-06-26 09:32:26+00:00
+  KeyFingerprint: 92:f1:68:b8:8c:d5:1c:f9:6d:bf:29:62:d8:f1:32:9a:fc:47:1a:f4
+  KeyName: secOps2
+  KeyPairId: key-0c3c459b7cd56d60d
+  KeyType: rsa
+  Tags: []
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: StackPointCloudPolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/StackPointCloudPolicy
+  AttachmentCount: 0
+  CreateDate: 2018-06-20 03:33:56+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJ5X4EBS264JT3AQCQ
+  PolicyName: StackPointCloudPolicy
+  UpdateDate: 2018-06-20 05:49:20+00:00
+...
+

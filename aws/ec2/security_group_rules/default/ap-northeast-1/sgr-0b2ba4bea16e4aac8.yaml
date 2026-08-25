@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0b2ba4bea16e4aac8
+specifics:
+  Description: salt-master
+  FromPort: -1
+  GroupId: sg-0b07988c910cd5cc8
+  GroupOwnerId: '862793644923'
+  IpProtocol: '-1'
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0e1897f11e747200f
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0b2ba4bea16e4aac8
+  Tags: []
+  ToPort: -1
+...
+

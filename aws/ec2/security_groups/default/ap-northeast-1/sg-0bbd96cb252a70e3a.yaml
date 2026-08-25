@@ -1,0 +1,28 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0bbd96cb252a70e3a
+specifics:
+  Description: Security group for account rds
+  GroupId: sg-0bbd96cb252a70e3a
+  GroupName: mbx-bnb-solutions-telegrambot-db
+  Tags:
+  - Key: Name
+    Value: mbx-bnb-solutions-telegrambot-db
+  - Key: mbx_clustered_application
+    Value: 'true'
+  - Key: biz
+    Value: mbx
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_env_name
+    Value: solutions
+  - Key: mbx_secret_store
+    Value: none
+  - Key: team
+    Value: mbx
+  VpcId: vpc-0218545ff4351ce04
+...
+

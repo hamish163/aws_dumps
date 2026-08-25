@@ -1,0 +1,13 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: pg-06cc4c5afb0bfceca
+specifics:
+  Name: bnb_uat2_mbx_1d_placementGroup
+  env: uat2
+  exchange: bnb
+  project: mbx
+...
+

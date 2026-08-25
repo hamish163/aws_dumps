@@ -1,0 +1,16 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-01eaca73dee5b0932
+specifics:
+  Description: Managed by Terraform
+  GroupId: sg-01eaca73dee5b0932
+  GroupName: tky-test-baserules-tracky-bitdj.com
+  Tags:
+  - Key: Name
+    Value: tky.test-baserules-tracky-bitdj.com
+  VpcId: vpc-03f5d2495fd8d95a3
+...
+

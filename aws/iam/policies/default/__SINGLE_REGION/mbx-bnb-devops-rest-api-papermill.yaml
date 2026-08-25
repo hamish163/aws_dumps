@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-devops-rest-api-papermill
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/mbx-bnb-devops-rest-api-papermill
+  AttachmentCount: 1
+  CreateDate: 2025-10-07 13:52:10+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5TAMRIHHYM
+  PolicyName: mbx-bnb-devops-rest-api-papermill
+  UpdateDate: 2025-11-05 16:32:21+00:00
+...
+

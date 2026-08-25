@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: acl-0a1bfabe6e05d7161
+specifics:
+  Name: perf_dev_mbx_external_nacl
+  env: dev
+  project: mbx
+...
+

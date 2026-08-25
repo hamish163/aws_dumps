@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: bnb-mbx-vision-logs-restricted_s3-glue-policy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/bnb-mbx-vision-logs-restricted_s3-glue-policy
+  AttachmentCount: 1
+  CreateDate: 2021-06-22 03:02:41+00:00
+  DefaultVersionId: v10
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5TG3EVH5WI
+  PolicyName: bnb-mbx-vision-logs-restricted_s3-glue-policy
+  UpdateDate: 2021-06-29 22:53:07+00:00
+...
+

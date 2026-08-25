@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: VMImportExportRoleForAWSConnector
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/VMImportExportRoleForAWSConnector
+  AttachmentCount: 0
+  CreateDate: 2015-09-03 20:48:59+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJFLQOOJ6F5XNX4LAW
+  PolicyName: VMImportExportRoleForAWSConnector
+  UpdateDate: 2015-09-03 20:48:59+00:00
+...
+

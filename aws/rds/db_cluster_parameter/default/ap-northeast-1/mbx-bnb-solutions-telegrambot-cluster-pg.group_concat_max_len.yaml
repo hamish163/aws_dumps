@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-solutions-telegrambot-cluster-pg.group_concat_max_len
+specifics:
+  AllowedValues: 4-18446744073709547520
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Maximum allowed result length in bytes for the GROUP_CONCAT().
+  IsModifiable: true
+  ParameterName: group_concat_max_len
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

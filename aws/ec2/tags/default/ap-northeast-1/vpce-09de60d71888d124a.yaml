@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vpce-09de60d71888d124a
+specifics:
+  Name: authproxy.soc.toolfdg.net
+...
+

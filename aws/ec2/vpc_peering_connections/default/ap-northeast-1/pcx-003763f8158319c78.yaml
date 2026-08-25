@@ -1,0 +1,38 @@
+---
+datatype: aws.ec2.vpc_peering_connections
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: pcx-003763f8158319c78
+specifics:
+  AccepterVpcInfo:
+    CidrBlock: 172.28.0.0/16
+    CidrBlockSet:
+    - CidrBlock: 172.28.0.0/16
+    OwnerId: '862793644923'
+    PeeringOptions:
+      AllowDnsResolutionFromRemoteVpc: false
+      AllowEgressFromLocalClassicLinkToRemoteVpc: false
+      AllowEgressFromLocalVpcToRemoteClassicLink: false
+    Region: eu-west-1
+    VpcId: vpc-0b783e3f1e9b9e6c4
+  RequesterVpcInfo:
+    CidrBlock: 172.25.0.0/16
+    CidrBlockSet:
+    - CidrBlock: 172.25.0.0/16
+    OwnerId: '862793644923'
+    PeeringOptions:
+      AllowDnsResolutionFromRemoteVpc: false
+      AllowEgressFromLocalClassicLinkToRemoteVpc: false
+      AllowEgressFromLocalVpcToRemoteClassicLink: false
+    Region: ap-northeast-1
+    VpcId: vpc-07652e77a8fa0e0c2
+  Status:
+    Code: active
+    Message: Active
+  Tags:
+  - Key: Name
+    Value: ap2_to_tracky_jey
+  VpcPeeringConnectionId: pcx-003763f8158319c78
+...
+

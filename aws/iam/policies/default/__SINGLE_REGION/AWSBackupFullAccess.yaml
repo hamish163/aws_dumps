@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSBackupFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSBackupFullAccess
+  AttachmentCount: 0
+  CreateDate: 2019-11-18 22:21:52+00:00
+  DefaultVersionId: v30
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4LL52EIPJX
+  PolicyName: AWSBackupFullAccess
+  UpdateDate: 2026-02-12 18:02:46+00:00
+...
+

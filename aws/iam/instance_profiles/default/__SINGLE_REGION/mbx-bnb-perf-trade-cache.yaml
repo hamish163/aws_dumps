@@ -1,0 +1,28 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-perf-trade-cache
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/mbx-bnb-perf-trade-cache
+  CreateDate: 2024-07-18 15:19:28+00:00
+  InstanceProfileId: AIPA4RYUCHN5SHPUWJGN6
+  InstanceProfileName: mbx-bnb-perf-trade-cache
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/mbx-bnb-perf-trade-cache
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+      Version: '2012-10-17'
+    CreateDate: 2024-07-18 15:19:27+00:00
+    Path: /
+    RoleId: AROA4RYUCHN5X6YOZAALM
+    RoleName: mbx-bnb-perf-trade-cache
+...
+

@@ -1,0 +1,40 @@
+---
+datatype: aws.ec2.route_tables
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rtb-04567ee1705a2c0c2
+specifics:
+  Associations:
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-0d895953c30d1cc0c
+    RouteTableId: rtb-04567ee1705a2c0c2
+    SubnetId: subnet-0491e190198498606
+  OwnerId: '862793644923'
+  PropagatingVgws: []
+  RouteTableId: rtb-04567ee1705a2c0c2
+  Routes:
+  - DestinationCidrBlock: 10.170.32.0/21
+    GatewayId: local
+    Origin: CreateRouteTable
+    State: active
+  - DestinationCidrBlock: 0.0.0.0/0
+    GatewayId: igw-0748c724c32794019
+    Origin: CreateRoute
+    State: active
+  Tags:
+  - Key: mbx_env_name
+    Value: colo-perf
+  - Key: biz
+    Value: mbx
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  - Key: Name
+    Value: mbx-bnb-colo-perf-rtb-public1
+  VpcId: vpc-0e8d78d562c500d57
+...
+

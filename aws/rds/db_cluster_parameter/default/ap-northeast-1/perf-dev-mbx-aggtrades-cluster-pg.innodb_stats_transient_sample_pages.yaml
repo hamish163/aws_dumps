@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-aggtrades-cluster-pg.innodb_stats_transient_sample_pages
+specifics:
+  AllowedValues: 0-18446744073709551615
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: The number of index pages to sample when estimating cardinality and
+    other statistics for an indexed column, such as those calculated by ANALYZE TABLE.
+  IsModifiable: true
+  ParameterName: innodb_stats_transient_sample_pages
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,14 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-068955c74f5738551
+specifics:
+  Environment: solutions
+  ManagedBy: terraform
+  Name: mbx-bnb-solutions-orderbook-lb
+  Project: order-visualizer-alb
+  Team: Solutions
+...
+

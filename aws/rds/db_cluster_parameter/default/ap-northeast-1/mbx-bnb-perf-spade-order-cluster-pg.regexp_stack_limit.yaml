@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-perf-spade-order-cluster-pg.regexp_stack_limit
+specifics:
+  AllowedValues: 0-2147483647
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Stack size limit for regular expressions matches.
+  IsModifiable: true
+  ParameterName: regexp_stack_limit
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSManagementConsoleAdministratorAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/job-function/AWSManagementConsoleAdministratorAccess
+  AttachmentCount: 0
+  CreateDate: 2025-08-14 21:19:07+00:00
+  DefaultVersionId: v7
+  IsAttachable: true
+  Path: /job-function/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4FJDPMMCIQ
+  PolicyName: AWSManagementConsoleAdministratorAccess
+  UpdateDate: 2026-03-23 16:42:15+00:00
+...
+

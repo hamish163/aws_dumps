@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-trades-cluster-pg-80.profiling_history_size
+specifics:
+  AllowedValues: 0-100
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: The number of statements for which to maintain profiling if profiling
+    is enabled.
+  IsModifiable: true
+  ParameterName: profiling_history_size
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

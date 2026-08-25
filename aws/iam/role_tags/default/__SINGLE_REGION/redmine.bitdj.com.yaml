@@ -1,0 +1,11 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: redmine.bitdj.com
+  single_region: true
+specifics:
+  project: mbx
+...
+

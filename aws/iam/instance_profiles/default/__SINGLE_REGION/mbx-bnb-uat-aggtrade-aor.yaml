@@ -1,0 +1,28 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-uat-aggtrade-aor
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/mbx-bnb-uat-aggtrade-aor
+  CreateDate: 2026-08-11 14:22:22+00:00
+  InstanceProfileId: AIPA4RYUCHN56YHTLMUVN
+  InstanceProfileName: mbx-bnb-uat-aggtrade-aor
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/mbx-bnb-uat-aggtrade-aor
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+      Version: '2012-10-17'
+    CreateDate: 2026-08-11 14:22:21+00:00
+    Path: /
+    RoleId: AROA4RYUCHN57IDJZBPR4
+    RoleName: mbx-bnb-uat-aggtrade-aor
+...
+

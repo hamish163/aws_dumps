@@ -1,0 +1,30 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0aa98b421cada4d35
+specifics:
+  Description: Managed by Terraform
+  GroupId: sg-0aa98b421cada4d35
+  GroupName: mbx-bnb-perf-wsp-epyc
+  Tags:
+  - Key: biz
+    Value: mbx
+  - Key: team
+    Value: mbx
+  - Key: mbx_env_name
+    Value: perf
+  - Key: mbx_secret_store
+    Value: asm
+  - Key: Name
+    Value: mbx-bnb-perf-wsp-epyc
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_clustered_application
+    Value: 'false'
+  - Key: mbx_env_type
+    Value: na
+  VpcId: vpc-013930e589c469574
+...
+

@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-aggtrades-cluster-pg-80.replica_parallel_workers
+specifics:
+  AllowedValues: 0-1024
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Sets the number of replica worker threads for executing replication
+    events (transactions) in parallel. Setting this variable to 0 (the default) disables
+    parallel execution.
+  IsModifiable: true
+  ParameterName: replica_parallel_workers
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.users
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbxtools-k8s-user
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/mbxtools-k8s-user
+  CreateDate: 2020-08-20 07:00:42+00:00
+  Path: /
+  UserId: AIDA4RYUCHN56WY64NVAD
+  UserName: mbxtools-k8s-user
+...
+

@@ -1,0 +1,29 @@
+---
+datatype: aws.elbv2.load_balancers
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-solutions-orderbook-lb
+specifics:
+  AvailabilityZones:
+  - LoadBalancerAddresses: []
+    SubnetId: subnet-02ee88c43d1408221
+    ZoneName: ap-northeast-1a
+  - LoadBalancerAddresses: []
+    SubnetId: subnet-0ddfbb5b7429f168f
+    ZoneName: ap-northeast-1c
+  CanonicalHostedZoneId: Z14GRHDCWA56QT
+  CreatedTime: 2026-04-06 09:10:06.341000+00:00
+  DNSName: mbx-bnb-solutions-orderbook-lb-1518106959.ap-northeast-1.elb.amazonaws.com
+  IpAddressType: ipv4
+  LoadBalancerArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:loadbalancer/app/mbx-bnb-solutions-orderbook-lb/a5864dde9b8b3b50
+  LoadBalancerName: mbx-bnb-solutions-orderbook-lb
+  Scheme: internet-facing
+  SecurityGroups:
+  - sg-068955c74f5738551
+  State:
+    Code: active
+  Type: application
+  VpcId: vpc-0218545ff4351ce04
+...
+

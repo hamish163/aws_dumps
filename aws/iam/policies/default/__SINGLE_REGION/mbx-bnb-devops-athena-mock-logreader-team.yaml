@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-devops-athena-mock-logreader-team
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/mbx-bnb-devops-athena-mock-logreader-team
+  AttachmentCount: 1
+  CreateDate: 2026-08-17 06:42:59+00:00
+  DefaultVersionId: v7
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN55HHX6VEHU
+  PolicyName: mbx-bnb-devops-athena-mock-logreader-team
+  UpdateDate: 2026-08-17 08:30:42+00:00
+...
+

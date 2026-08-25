@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: BedrockAgentCoreNetworkServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/BedrockAgentCoreNetworkServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2025-09-19 22:04:06+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4KSISIYJN2
+  PolicyName: BedrockAgentCoreNetworkServiceRolePolicy
+  UpdateDate: 2025-09-19 22:04:06+00:00
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSEnhancedClassicNetworkingMangementPolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AWSEnhancedClassicNetworkingMangementPolicy
+  AttachmentCount: 0
+  CreateDate: 2017-09-20 17:29:09+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAI7T4V2HZTS72QVO52
+  PolicyName: AWSEnhancedClassicNetworkingMangementPolicy
+  UpdateDate: 2017-09-20 17:29:09+00:00
+...
+

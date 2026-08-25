@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.binlog_group_commit_sync_delay
+specifics:
+  AllowedValues: 0-1000000
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Controls how many microseconds the binary log commit waits before synchronizing
+    the binary log file to disk.
+  IsModifiable: true
+  ParameterName: binlog_group_commit_sync_delay
+  ParameterValue: '30'
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

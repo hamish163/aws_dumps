@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.groups
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: qa
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:group/qa
+  CreateDate: 2018-08-30 09:32:39+00:00
+  GroupId: AGPAIQM6WHEIQIVCNLXKA
+  GroupName: qa
+  Path: /
+...
+

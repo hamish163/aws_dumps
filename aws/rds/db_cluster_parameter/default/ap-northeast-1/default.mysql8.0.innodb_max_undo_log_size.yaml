@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.innodb_max_undo_log_size
+specifics:
+  AllowedValues: 10485760-18446744073709551615
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Defines a threshold size for undo tablespaces.
+  IsModifiable: true
+  ParameterName: innodb_max_undo_log_size
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

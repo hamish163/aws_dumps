@@ -1,0 +1,46 @@
+---
+datatype: aws.ec2.volumes
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-04843f78b77ae36bd
+specifics:
+  Attachments:
+  - AttachTime: 2026-07-09 22:35:16+00:00
+    DeleteOnTermination: false
+    Device: /dev/xvdaa
+    InstanceId: i-02da8ca210e191fa6
+    State: attached
+    VolumeId: vol-04843f78b77ae36bd
+  AvailabilityZone: ap-northeast-1a
+  CreateTime: 2026-05-19 10:17:55.025000+00:00
+  Encrypted: false
+  Iops: 3000
+  MultiAttachEnabled: false
+  Size: 5
+  SnapshotId: ''
+  State: in-use
+  Tags:
+  - Key: ebs.csi.aws.com/cluster
+    Value: 'true'
+  - Key: KubernetesCluster
+    Value: mbx-bnb-devops-eks1
+  - Key: kubernetes.io/created-for/pvc/name
+    Value: alertmanager-kube-prometheus-stack-alertmanager-db-alertmanager-kube-prometheus-stack-alertmanager-0
+  - Key: Name
+    Value: mbx-bnb-devops-eks1-dynamic-pvc-8e5cda28-1159-4f82-9010-79fffeb226f0
+  - Key: ebs.csi.aws.com/cluster-name
+    Value: mbx-bnb-devops-eks1
+  - Key: kubernetes.io/created-for/pv/name
+    Value: pvc-8e5cda28-1159-4f82-9010-79fffeb226f0
+  - Key: kubernetes.io/cluster/mbx-bnb-devops-eks1
+    Value: owned
+  - Key: CSIVolumeName
+    Value: pvc-8e5cda28-1159-4f82-9010-79fffeb226f0
+  - Key: kubernetes.io/created-for/pvc/namespace
+    Value: monitoring
+  Throughput: 125
+  VolumeId: vol-04843f78b77ae36bd
+  VolumeType: gp3
+...
+

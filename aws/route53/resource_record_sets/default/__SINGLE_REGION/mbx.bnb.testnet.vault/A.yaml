@@ -1,0 +1,16 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx.bnb.testnet.vault/A
+  single_region: true
+specifics:
+  AliasTarget:
+    DNSName: bnb-testnet-mbx-vault-nlb-3978db9a898fa200.elb.ap-northeast-1.amazonaws.com.
+    EvaluateTargetHealth: true
+    HostedZoneId: Z31USIVHYNEOWT
+  Name: vault.testnet.bnb.mbx.
+  Type: A
+...
+

@@ -1,0 +1,22 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-00bff8437c6204c2e
+specifics:
+  Description: Managed by Terraform
+  GroupId: sg-00bff8437c6204c2e
+  GroupName: bnb_uat2_mbx_jenkins
+  Tags:
+  - Key: Name
+    Value: bnb_uat2_mbx_jenkins
+  - Key: exchange
+    Value: bnb
+  - Key: env
+    Value: uat2
+  - Key: project
+    Value: mbx
+  VpcId: vpc-0c91879d6f0ffa921
+...
+

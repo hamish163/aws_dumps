@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: perfQALithiumAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/perfQALithiumAccess
+  AttachmentCount: 1
+  CreateDate: 2020-03-06 05:44:59+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5QCPAUSSMO
+  PolicyName: perfQALithiumAccess
+  UpdateDate: 2020-03-06 05:44:59+00:00
+...
+

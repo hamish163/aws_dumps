@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-kline-cluster-pg.auto_increment_increment
+specifics:
+  AllowedValues: 1-65535
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Intended for use with source-to-source replication, and can be used
+    to control the operation of AUTO_INCREMENT columns
+  IsModifiable: true
+  ParameterName: auto_increment_increment
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

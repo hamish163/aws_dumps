@@ -1,0 +1,14 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: igw-02d3938fe131ea489
+specifics:
+  Name: mbx-bnb-solutions-igw1
+  biz: mbx
+  mbx_env_name: solutions
+  mbx_exchange_name: bnb
+  team: mbx
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: BatchServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/BatchServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2021-03-10 06:55:36+00:00
+  DefaultVersionId: v8
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4COHHXEWBT
+  PolicyName: BatchServiceRolePolicy
+  UpdateDate: 2026-08-05 17:12:14+00:00
+...
+

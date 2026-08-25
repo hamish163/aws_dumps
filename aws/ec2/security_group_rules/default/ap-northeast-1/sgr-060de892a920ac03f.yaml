@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-060de892a920ac03f
+specifics:
+  Description: Allow TCP traffic from fix-api-dropcopy SG to key-db database
+  FromPort: 3306
+  GroupId: sg-0a4210f4c6fefc044
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0a32d6a141a567d26
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-060de892a920ac03f
+  Tags: []
+  ToPort: 3306
+...
+

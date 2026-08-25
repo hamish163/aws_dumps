@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSWAFConsoleFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSWAFConsoleFullAccess
+  AttachmentCount: 1
+  CreateDate: 2020-04-06 18:38:38+00:00
+  DefaultVersionId: v22
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4AZOTQ7KAT
+  PolicyName: AWSWAFConsoleFullAccess
+  UpdateDate: 2026-07-01 04:12:13+00:00
+...
+

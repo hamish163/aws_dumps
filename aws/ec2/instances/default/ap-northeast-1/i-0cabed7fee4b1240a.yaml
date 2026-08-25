@@ -1,0 +1,141 @@
+---
+datatype: aws.ec2.instances
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-0cabed7fee4b1240a
+specifics:
+  AmiLaunchIndex: 0
+  Architecture: x86_64
+  BlockDeviceMappings:
+  - DeviceName: /dev/xvda
+    Ebs:
+      AttachTime: 2026-03-18 10:30:33+00:00
+      DeleteOnTermination: true
+      Status: attached
+      VolumeId: vol-0896c541ea50bf080
+  - DeviceName: /dev/sdf
+    Ebs:
+      AttachTime: 2026-03-18 10:31:07.851000+00:00
+      DeleteOnTermination: false
+      Status: attached
+      VolumeId: vol-0f55a41d403ce3e7f
+  BootMode: uefi-preferred
+  CapacityReservationSpecification:
+    CapacityReservationPreference: open
+  ClientToken: terraform-20260318103030914100000002
+  CpuOptions:
+    CoreCount: 2
+    ThreadsPerCore: 2
+  CurrentInstanceBootMode: uefi
+  EbsOptimized: true
+  EnaSupport: true
+  EnclaveOptions:
+    Enabled: false
+  HibernationOptions:
+    Configured: false
+  Hypervisor: xen
+  IamInstanceProfile:
+    Arn: arn:aws:iam::862793644923:instance-profile/mbx-bnb-solutions-orderbook-visualizer
+    Id: AIPA4RYUCHN5QL7CBAO6I
+  ImageId: ami-042bb437a2169b093
+  InstanceId: i-0cabed7fee4b1240a
+  InstanceType: r7i.xlarge
+  LaunchTime: 2026-07-29 07:46:59+00:00
+  MaintenanceOptions:
+    AutoRecovery: default
+  MetadataOptions:
+    HttpEndpoint: enabled
+    HttpProtocolIpv6: disabled
+    HttpPutResponseHopLimit: 2
+    HttpTokens: required
+    InstanceMetadataTags: enabled
+    State: applied
+  Monitoring:
+    State: disabled
+  NetworkInterfaces:
+  - Attachment:
+      AttachTime: 2026-03-18 10:30:33+00:00
+      AttachmentId: eni-attach-02edb076096721ee4
+      DeleteOnTermination: true
+      DeviceIndex: 0
+      NetworkCardIndex: 0
+      Status: attached
+    Description: ''
+    Groups:
+    - GroupId: sg-0ad88dfdc6d2c9ac0
+      GroupName: mbx-bnb-solutions-default
+    - GroupId: sg-0da43ff58cfa89cdd
+      GroupName: mbx-bnb-solutions-monitoring
+    - GroupId: sg-0cdd53413583a6719
+      GroupName: mbx-bnb-solutions-orderbook-visualizer
+    InterfaceType: interface
+    Ipv6Addresses: []
+    MacAddress: 06:2e:07:36:03:8b
+    NetworkInterfaceId: eni-071c3403273217ab3
+    OwnerId: '862793644923'
+    PrivateDnsName: ip-10-230-3-82.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.230.3.82
+    PrivateIpAddresses:
+    - Primary: true
+      PrivateDnsName: ip-10-230-3-82.ap-northeast-1.compute.internal
+      PrivateIpAddress: 10.230.3.82
+    SourceDestCheck: true
+    Status: in-use
+    SubnetId: subnet-099bb70a2101e3db2
+    VpcId: vpc-0218545ff4351ce04
+  Placement:
+    AvailabilityZone: ap-northeast-1a
+    GroupName: ''
+    Tenancy: default
+  PlatformDetails: Linux/UNIX
+  PrivateDnsName: ip-10-230-3-82.ap-northeast-1.compute.internal
+  PrivateDnsNameOptions:
+    EnableResourceNameDnsAAAARecord: false
+    EnableResourceNameDnsARecord: false
+    HostnameType: ip-name
+  PrivateIpAddress: 10.230.3.82
+  ProductCodes: []
+  PublicDnsName: ''
+  RootDeviceName: /dev/xvda
+  RootDeviceType: ebs
+  SecurityGroups:
+  - GroupId: sg-0ad88dfdc6d2c9ac0
+    GroupName: mbx-bnb-solutions-default
+  - GroupId: sg-0da43ff58cfa89cdd
+    GroupName: mbx-bnb-solutions-monitoring
+  - GroupId: sg-0cdd53413583a6719
+    GroupName: mbx-bnb-solutions-orderbook-visualizer
+  SourceDestCheck: true
+  State:
+    Code: 16
+    Name: running
+  StateTransitionReason: ''
+  SubnetId: subnet-099bb70a2101e3db2
+  Tags:
+  - Key: Name
+    Value: mbx-bnb-solutions-orderbook-visualizer1
+  - Key: biz
+    Value: mbx
+  - Key: mbx_env_name
+    Value: solutions
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_host_index
+    Value: '1'
+  - Key: mbx_secret_store
+    Value: none
+  - Key: sre-app
+    Value: orderbook-visualiser
+  - Key: sre-component
+    Value: orderbook-visualiser
+  - Key: sre-env
+    Value: prod
+  - Key: team
+    Value: mbx
+  UsageOperation: RunInstances
+  UsageOperationUpdateTime: 2026-03-18 10:30:33+00:00
+  VirtualizationType: hvm
+  VpcId: vpc-0218545ff4351ce04
+...
+

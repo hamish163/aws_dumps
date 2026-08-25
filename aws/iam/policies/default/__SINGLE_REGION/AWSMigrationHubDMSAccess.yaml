@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSMigrationHubDMSAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AWSMigrationHubDMSAccess
+  AttachmentCount: 0
+  CreateDate: 2017-08-14 14:00:06+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIUQB56VA4JHLN7G2W
+  PolicyName: AWSMigrationHubDMSAccess
+  UpdateDate: 2019-10-07 17:51:53+00:00
+...
+

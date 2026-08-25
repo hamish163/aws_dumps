@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql16.cron.log_min_messages
+specifics:
+  AllowedValues: debug5,debug4,debug3,debug2,debug1,info,notice,warning,error,log,fatal,panic
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: log_min_messages for the launcher bgworker
+  IsModifiable: true
+  ParameterName: cron.log_min_messages
+  ParameterValue: fatal
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

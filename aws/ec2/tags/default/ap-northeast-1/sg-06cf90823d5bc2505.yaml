@@ -1,0 +1,13 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-06cf90823d5bc2505
+specifics:
+  biz: mbx
+  env: dev
+  project: mbx
+  team: mbx
+...
+

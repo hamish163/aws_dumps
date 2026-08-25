@@ -1,0 +1,28 @@
+---
+datatype: aws.eks.access_entry
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:eks:ap-northeast-1:862793644923:access-entry/mbx_bnb_prod-comply-cluster/user/862793644923/tom/14cf8be8-f76e-3b7f-121d-2693ee2de1a4
+specifics:
+  accessEntryArn: arn:aws:eks:ap-northeast-1:862793644923:access-entry/mbx_bnb_prod-comply-cluster/user/862793644923/tom/14cf8be8-f76e-3b7f-121d-2693ee2de1a4
+  clusterName: mbx_bnb_prod-comply-cluster
+  createdAt: 2026-06-30 19:17:42.478000+10:00
+  kubernetesGroups:
+  - admin
+  modifiedAt: 2026-06-30 19:17:42.478000+10:00
+  principalArn: arn:aws:iam::862793644923:user/tom
+  tags:
+    biz: mbx
+    mbx_application_name: comply
+    mbx_env_name: prod
+    mbx_exchange_name: bnb
+    mbx_secret_store: asm
+    project: comply
+    sre-app: comply
+    sre-env: prod
+    team: sre
+  type: STANDARD
+  username: arn:aws:iam::862793644923:user/tom
+...
+

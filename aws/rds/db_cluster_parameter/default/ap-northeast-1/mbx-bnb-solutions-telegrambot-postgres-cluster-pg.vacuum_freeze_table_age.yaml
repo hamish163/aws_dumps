@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-solutions-telegrambot-postgres-cluster-pg.vacuum_freeze_table_age
+specifics:
+  AllowedValues: 0-2000000000
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Age at which VACUUM should scan whole table to freeze tuples.
+  IsModifiable: true
+  ParameterName: vacuum_freeze_table_age
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

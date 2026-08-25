@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.rpl_semi_sync_master_enabled
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Controls whether semisynchronous replication is enabled on the master.
+  IsModifiable: false
+  ParameterName: rpl_semi_sync_master_enabled
+  ParameterValue: '{isSemiSyncMaster}'
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: nip-073e8449a2916b794
+specifics:
+  Name: vpn-jenkins
+...
+

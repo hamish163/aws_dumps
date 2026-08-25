@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSLakeFormationCrossAccountManager
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSLakeFormationCrossAccountManager
+  AttachmentCount: 0
+  CreateDate: 2020-08-04 20:59:46+00:00
+  DefaultVersionId: v9
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4HPT7Y7QL3
+  PolicyName: AWSLakeFormationCrossAccountManager
+  UpdateDate: 2026-02-12 18:01:14+00:00
+...
+

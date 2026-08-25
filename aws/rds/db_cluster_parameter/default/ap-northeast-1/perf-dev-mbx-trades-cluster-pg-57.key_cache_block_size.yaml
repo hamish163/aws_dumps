@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-trades-cluster-pg-57.key_cache_block_size
+specifics:
+  AllowedValues: 512-16384
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Size in bytes of blocks in the key cache.
+  IsModifiable: true
+  ParameterName: key_cache_block_size
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

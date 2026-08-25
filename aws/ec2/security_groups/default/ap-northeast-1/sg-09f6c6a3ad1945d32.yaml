@@ -1,0 +1,28 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-09f6c6a3ad1945d32
+specifics:
+  Description: Managed by Terraform
+  GroupId: sg-09f6c6a3ad1945d32
+  GroupName: mbx-bnb-sre-emu-resolver-inbound
+  Tags:
+  - Key: mbx_env_name
+    Value: sre
+  - Key: stack_path
+    Value: bnb/sre/eks/emu/extras
+  - Key: mbx_secret_store
+    Value: none
+  - Key: team
+    Value: mbx
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: biz
+    Value: mbx
+  - Key: Name
+    Value: mbx-bnb-sre-emu-resolver-inbound
+  VpcId: vpc-0ba76150fc7799f94
+...
+

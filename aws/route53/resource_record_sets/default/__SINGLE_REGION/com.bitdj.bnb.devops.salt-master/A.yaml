@@ -1,0 +1,15 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: com.bitdj.bnb.devops.salt-master/A
+  single_region: true
+specifics:
+  Name: salt-master.devops.bnb.bitdj.com.
+  ResourceRecords:
+  - Value: 10.200.19.254
+  TTL: 300
+  Type: A
+...
+

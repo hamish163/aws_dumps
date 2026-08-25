@@ -1,0 +1,46 @@
+---
+datatype: aws.ec2.launch_template_versions
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: lt-0042670f7c2b70326
+specifics:
+  CreateTime: 2022-08-29 03:19:21+00:00
+  CreatedBy: arn:aws:iam::862793644923:user/dazelle
+  DefaultVersion: true
+  LaunchTemplateData:
+    DisableApiTermination: false
+    IamInstanceProfile:
+      Name: perfMbxLoadGenerator
+    ImageId: ami-0e3f080552c6f3420
+    InstanceType: t2.small
+    SecurityGroupIds:
+    - sg-0a9f1a739a99bb3da
+    - sg-0a04690c2f2da3779
+    TagSpecifications:
+    - ResourceType: instance
+      Tags:
+      - Key: Name
+        Value: bnb_perf_load_generator_slave
+      - Key: env
+        Value: perf
+      - Key: biz
+        Value: mbx
+      - Key: team
+        Value: qa
+    - ResourceType: volume
+      Tags:
+      - Key: Name
+        Value: bnb_perf_load_generator_slave
+      - Key: env
+        Value: perf
+      - Key: biz
+        Value: mbx
+      - Key: team
+        Value: qa
+    UserData: CiMhL2Jpbi9iYXNoCiMgQWRkIGJhY2t1cCBlYzItdXNlciBzc2gga2V5cwoKSk1FVEVSX1ZFUlNJT049YXBhY2hlLWptZXRlci01LjUKSk1FVEVSX1BLRz0iaHR0cHM6Ly9kbGNkbi5hcGFjaGUub3JnL2ptZXRlci9zb3VyY2UvIiRKTUVURVJfVkVSU0lPTiJfc3JjLnRneiIKSE9NRV9ESVI9L2hvbWUvZWMyLXVzZXIKV09SS0lOR19ESVI9L3NlcnZlci9sb2FkdGVzdGVyCgpjYXQgPj4gL2hvbWUvZWMyLXVzZXIvLnNzaC9hdXRob3JpemVkX2tleXMgPDwgRU1FUkdFTkNZX0tFWVMKc3NoLWVkMjU1MTkgQUFBQUMzTnphQzFsWkRJMU5URTVBQUFBSUNTYXR0R1Qvd2sxaUNKSWxydHg5YmRkU0NraDhEM1NOR3VGaVRDRjMwVSsgZWMyLXVzZXJfZGV2b3BzCnNzaC1yc2EgQUFBQUIzTnphQzF5YzJFQUFBQURBUUFCQUFBQkFRRFBmMmtHbTVCaVRIdjA3dk5YZU1nUjdzTStiME5uclJ4dkZTQWJNM0dOMXB2dUN6NnB2MHpJeHNNWGEyVTllK2VhY3gwNFBGaDM3OVdXZ2ozUldlWFNxV2Ewc2puNSs4UFgwRXNOV3dFRVgzRzJZNEVKMS83MEFZMDFBbVF5Uk9WVmYzT0JFVUxHV1RlVWNWVWxmVHExRHIvNUNhUHZLVlVBWnFUeENPMk84K2ZwcHBjTnF3bEQwc1pmaCtiQWs5R0dyU1AxMjNrZm5lZjJETUFjazNTbDl4YnhqYWgrcWZkOC96RG1aT2FiUm1TM2ptRnZuZTl2Y2tiZVp5VFVaL3NuZDFVbHpFVzVWYUd2bGdmZXdZQ3Nma1RlL0F6dTNaVzhNTFRObGFqRlRmdm10MGxhUGUrbEJsdW9WeDBaUXljbDNhMmNxbVZVMHZseHN1dUMxV1V2IGRhemVsbGUKc3NoLXJzYSBBQUFBQjNOemFDMXljMkVBQUFBREFRQUJBQUFCQVFEczU5dUsxSG5xaTdXVEV3akpaSWl3RHRnNXJpTVB2eFRBcHd2Tml5ejZFWG9NeUZSbGVGYzgzbjhqTm54NXRSaEhyNUpTaEp4eUlhUEI0MVltbDljZi9rSTBGSTFQYmIvMnBKNWc0UVJUTSs1dU5KQjhDdG0xYXhOeHN2UkRrSFVuclc2aXNrUEdIc1AwMS9wWit2WGFDWW95MEFGY2tiMGErYk5Ia1ZWZWFQVUhhNFhteXBqZUthcmwraU5pbCtyVnVETUxkcmkzOVdwNUUyb0FCWjc0dWF3NHBBNkRwTlQ2ZHp5dWErTUI5M0VObkovQ0NiUlVhQVplcGVnVmEwdW9JWTFkZFp6RVpRSVlVUVFQcXIyRjZyZGp4UVJxUUh4N0lOMWoxN3Z0ZVN0SmZPMlpwWG0xdWY0bzFxMkgvNklScGNRbjVTaVljYTZjMWdiQzFnU2IgcGF3YW4KRU1FUkdFTkNZX0tFWVMKCmhvc3RuYW1lIGptZXRlci1zbGF2ZS5wZXJmLmJuYi5tYngKZWNobyBqbWV0ZXItc2xhdmUucGVyZi5ibmIubWJ4ID4gL2V0Yy9ob3N0bmFtZQplY2hvICJQUzE9XCJbXHVAXEggXFddXCQgXCIiID4+IC9ldGMvZW52aXJvbm1lbnQKCmNkICRIT01FX0RJUgphd3MgczMgY3AgczM6Ly9ibmItcGVyZi1tYngvZmlsZXMvam1ldGVyL2pkay04dTIwMi1saW51eC14NjQucnBtIC4KeXVtIGluc3RhbGwgLXkgJEhPTUVfRElSL2pkay04dTIwMi1saW51eC14NjQucnBtCgpta2RpciAtcCAkV09SS0lOR19ESVIKd2dldCAkSk1FVEVSX1BLRwp0YXIgLXh2emYgIiRIT01FX0RJUi8iJEpNRVRFUl9WRVJTSU9OIl9zcmMudGd6IiAtLWRpcmVjdG9yeSAkV09SS0lOR19ESVIKZWNobyAiZXhwb3J0IEpNRVRFUl9IT01FPSRXT1JLSU5HX0RJUi8kSk1FVEVSX1ZFUlNJT04iID4+ICRIT01FX0RJUi8uYmFzaHJjCmVjaG8gImV4cG9ydCBQQVRIPS91c3IvbG9jYWwvYmluOi91c3IvYmluOi91c3IvbG9jYWwvc2JpbjovdXNyL3NiaW46JEhPTUVfRElSLy5sb2NhbC9iaW46JEhPTUVfRElSL2JpbjovYmluOiRXT1JLSU5HX0RJUi8kSk1FVEVSX1ZFUlNJT04vYmluIiA+PiAkSE9NRV9ESVIvLmJhc2hyYwpzb3VyY2UgJEhPTUVfRElSLy5iYXNocmMKCmNob3duIC1SIGVjMi11c2VyLiAvc2VydmVyCgp5dW0gdXBkYXRlIC15CnJlYm9vdAo=
+  LaunchTemplateId: lt-0042670f7c2b70326
+  LaunchTemplateName: slave-launch-template
+  VersionNumber: 1
+...
+

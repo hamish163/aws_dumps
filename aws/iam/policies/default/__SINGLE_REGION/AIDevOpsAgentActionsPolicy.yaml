@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AIDevOpsAgentActionsPolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AIDevOpsAgentActionsPolicy
+  AttachmentCount: 0
+  CreateDate: 2026-06-23 22:27:27+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4CFKTYWRT7
+  PolicyName: AIDevOpsAgentActionsPolicy
+  UpdateDate: 2026-08-19 22:47:28+00:00
+...
+

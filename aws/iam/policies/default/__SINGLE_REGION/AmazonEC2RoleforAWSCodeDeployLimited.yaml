@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonEC2RoleforAWSCodeDeployLimited
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AmazonEC2RoleforAWSCodeDeployLimited
+  AttachmentCount: 0
+  CreateDate: 2020-08-24 17:55:18+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4NN2A7WC6C
+  PolicyName: AmazonEC2RoleforAWSCodeDeployLimited
+  UpdateDate: 2022-01-20 21:37:31+00:00
+...
+

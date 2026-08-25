@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: nip-090dc1360ba8ff102
+specifics:
+  Name: vpn-to-keter
+...
+

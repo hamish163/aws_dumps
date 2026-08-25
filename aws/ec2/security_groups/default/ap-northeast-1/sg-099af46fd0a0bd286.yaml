@@ -1,0 +1,24 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-099af46fd0a0bd286
+specifics:
+  Description: Managed by Terraform
+  GroupId: sg-099af46fd0a0bd286
+  GroupName: mbx-bnb-devops-redshirts-al2023-epyc
+  Tags:
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  - Key: Name
+    Value: mbx-bnb-devops-redshirts-al2023-epyc
+  - Key: mbx_env_name
+    Value: devops
+  - Key: mbx_exchange_name
+    Value: bnb
+  VpcId: vpc-07519eb63f1d932ac
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-prod-comply-comply-policy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/mbx-bnb-prod-comply-comply-policy
+  AttachmentCount: 1
+  CreateDate: 2024-05-28 13:40:37+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN55SZII7NFS
+  PolicyName: mbx-bnb-prod-comply-comply-policy
+  UpdateDate: 2024-05-28 13:40:37+00:00
+...
+

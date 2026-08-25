@@ -1,0 +1,13 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-04099fafea952564c
+specifics:
+  Description: dev-nexus.toolsfdg.net allow access from MBX VPN
+  GroupId: sg-04099fafea952564c
+  GroupName: dev-nexus.toolsfdg.net
+  VpcId: vpc-0beab044be33d1617
+...
+

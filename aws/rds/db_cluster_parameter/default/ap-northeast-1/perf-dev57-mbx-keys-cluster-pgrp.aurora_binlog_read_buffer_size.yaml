@@ -1,0 +1,22 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev57-mbx-keys-cluster-pgrp.aurora_binlog_read_buffer_size
+specifics:
+  AllowedValues: 8192-536870912
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Read buffer size used by master dump thread when the switch aurora_binlog_use_large_read_buffer
+    is ON.
+  IsModifiable: true
+  MinimumEngineVersion: 5.7.mysql_aurora.2.04.5
+  ParameterName: aurora_binlog_read_buffer_size
+  ParameterValue: '5242880'
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

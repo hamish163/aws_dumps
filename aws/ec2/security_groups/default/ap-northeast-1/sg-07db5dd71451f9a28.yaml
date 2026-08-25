@@ -1,0 +1,26 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-07db5dd71451f9a28
+specifics:
+  Description: Allow access to CloudWatch Logs VPC Endpoint
+  GroupId: sg-07db5dd71451f9a28
+  GroupName: mbx-bnb-prod-tracky-vpce-cloudwatch-logs
+  Tags:
+  - Key: team
+    Value: sre
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: biz
+    Value: mbx
+  - Key: sre-env
+    Value: prod
+  - Key: Name
+    Value: mbx-bnb-prod-tracky-vpce-cloudwatch-logs
+  - Key: mbx_env_name
+    Value: prod
+  VpcId: vpc-03f5d2495fd8d95a3
+...
+

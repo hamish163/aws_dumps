@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora5.6.connect_timeout
+specifics:
+  AllowedValues: 2-31536000
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: The number of seconds that the MySQLd  server waits for a connect packet
+    before responding with Bad handshake.
+  IsModifiable: true
+  ParameterName: connect_timeout
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSQuickSetupEnableAREXExecutionPolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSQuickSetupEnableAREXExecutionPolicy
+  AttachmentCount: 0
+  CreateDate: 2024-11-15 22:45:53+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4B4VUJZWXE
+  PolicyName: AWSQuickSetupEnableAREXExecutionPolicy
+  UpdateDate: 2024-11-15 22:45:53+00:00
+...
+

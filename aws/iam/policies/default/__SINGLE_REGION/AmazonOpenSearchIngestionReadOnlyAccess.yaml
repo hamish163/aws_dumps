@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonOpenSearchIngestionReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonOpenSearchIngestionReadOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2023-04-26 18:09:52+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4G7EWDJ7DQ
+  PolicyName: AmazonOpenSearchIngestionReadOnlyAccess
+  UpdateDate: 2023-04-26 18:09:52+00:00
+...
+

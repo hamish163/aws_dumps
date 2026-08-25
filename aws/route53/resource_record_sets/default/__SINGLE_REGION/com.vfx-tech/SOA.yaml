@@ -1,0 +1,16 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: com.vfx-tech/SOA
+  single_region: true
+specifics:
+  Name: vfx-tech.com.
+  ResourceRecords:
+  - Value: ns-144.awsdns-18.com. awsdns-hostmaster.amazon.com. 1 7200 900 1209600
+      86400
+  TTL: 900
+  Type: SOA
+...
+

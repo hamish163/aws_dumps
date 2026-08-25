@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-perf-spade-account-cluster-pg.innodb_aurora_instant_alter_column_allowed
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Controls whether the INSTANT algorithm can be used for ALTER COLUMN
+    operations at the global level.
+  IsModifiable: true
+  MinimumEngineVersion: 8.0.mysql_aurora.3.05.0
+  ParameterName: innodb_aurora_instant_alter_column_allowed
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

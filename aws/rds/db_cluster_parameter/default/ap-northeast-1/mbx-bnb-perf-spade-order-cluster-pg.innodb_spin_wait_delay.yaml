@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-perf-spade-order-cluster-pg.innodb_spin_wait_delay
+specifics:
+  AllowedValues: 0-4294967295
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: The maximum delay between polls for a spin lock.
+  IsModifiable: true
+  ParameterName: innodb_spin_wait_delay
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

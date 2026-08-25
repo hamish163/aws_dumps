@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.key_pairs
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: key-08d9570310ac28768
+specifics:
+  CreateTime: 2017-08-13 09:57:01+00:00
+  KeyFingerprint: 37:5f:78:81:a0:a6:ab:1f:72:ed:a6:04:c8:93:a7:19:e9:c3:82:c0
+  KeyName: czVpn
+  KeyPairId: key-08d9570310ac28768
+  KeyType: rsa
+  Tags: []
+...
+

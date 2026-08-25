@@ -1,0 +1,18 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-kline-cluster-pg.ft_boolean_syntax
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: The list of operators supported by boolean full-text searches
+  IsModifiable: false
+  ParameterName: ft_boolean_syntax
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

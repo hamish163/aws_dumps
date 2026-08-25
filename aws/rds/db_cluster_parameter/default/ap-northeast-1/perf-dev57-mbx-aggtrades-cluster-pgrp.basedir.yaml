@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev57-mbx-aggtrades-cluster-pgrp.basedir
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: string
+  Description: The MySQL installation base directory.
+  IsModifiable: false
+  ParameterName: basedir
+  ParameterValue: /rdsdbbin/oscar
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

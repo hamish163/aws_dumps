@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev57-mbx-system-cluster-pgrp.safe-user-create
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: boolean
+  Description: If this option is enabled, a user cannot create new MySQL users by
+    using the GRANT  statement unless the user has the INSERT privilege for the mysql.user
+    table or any column in the table.
+  IsModifiable: true
+  ParameterName: safe-user-create
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

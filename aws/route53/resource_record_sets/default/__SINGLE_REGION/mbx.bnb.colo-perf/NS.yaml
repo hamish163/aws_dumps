@@ -1,0 +1,18 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx.bnb.colo-perf/NS
+  single_region: true
+specifics:
+  Name: colo-perf.bnb.mbx.
+  ResourceRecords:
+  - Value: ns-1536.awsdns-00.co.uk.
+  - Value: ns-0.awsdns-00.com.
+  - Value: ns-1024.awsdns-00.org.
+  - Value: ns-512.awsdns-00.net.
+  TTL: 172800
+  Type: NS
+...
+

@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-orders-cluster-pg-default.innodb_ft_max_token_size
+specifics:
+  AllowedValues: 10-252
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: Maximum length of words that are stored in an InnoDB FULLTEXT index.
+  IsModifiable: true
+  ParameterName: innodb_ft_max_token_size
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

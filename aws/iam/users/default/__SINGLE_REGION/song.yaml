@@ -1,0 +1,16 @@
+---
+datatype: aws.iam.users
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: song
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/song
+  CreateDate: 2026-04-27 06:53:46+00:00
+  PasswordLastUsed: 2026-08-18 10:31:49+00:00
+  Path: /
+  UserId: AIDA4RYUCHN5QVJS6VM3G
+  UserName: song
+...
+

@@ -1,0 +1,30 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0ea9d4364e0f10167
+specifics:
+  Description: Managed by Terraform
+  GroupId: sg-0ea9d4364e0f10167
+  GroupName: mbx-bnb-perf-sre-fpe-test-al2023-m5zn
+  Tags:
+  - Key: mbx_secret_store
+    Value: asm
+  - Key: mbx_env_type
+    Value: na
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: biz
+    Value: mbx
+  - Key: mbx_env_name
+    Value: perf
+  - Key: Name
+    Value: mbx-bnb-perf-sre-fpe-test-al2023-m5zn
+  - Key: mbx_clustered_application
+    Value: 'false'
+  - Key: team
+    Value: sre
+  VpcId: vpc-013930e589c469574
+...
+

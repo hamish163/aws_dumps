@@ -1,0 +1,28 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0e17b3751185ddfb1
+specifics:
+  Description: Security group for mbx-bnb-sre-emu-nlb-int LB
+  GroupId: sg-0e17b3751185ddfb1
+  GroupName: mbx-bnb-sre-emu-nlb-int-sg
+  Tags:
+  - Key: mbx_secret_store
+    Value: none
+  - Key: stack_path
+    Value: bnb/sre/eks/emu/extras
+  - Key: biz
+    Value: mbx
+  - Key: team
+    Value: mbx
+  - Key: Name
+    Value: mbx-bnb-sre-emu-nlb-int-sg
+  - Key: mbx_env_name
+    Value: sre
+  - Key: mbx_exchange_name
+    Value: bnb
+  VpcId: vpc-0ba76150fc7799f94
+...
+

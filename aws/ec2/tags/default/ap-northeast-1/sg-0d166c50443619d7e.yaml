@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0d166c50443619d7e
+specifics:
+  Name: mbx-bnb-perf-spade-order-db
+  biz: mbx
+  mbx_env_name: perf
+  mbx_exchange_name: bnb
+  mbx_secret_store: asm
+  team: mbx
+...
+

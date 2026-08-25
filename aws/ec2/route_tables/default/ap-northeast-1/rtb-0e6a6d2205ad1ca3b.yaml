@@ -1,0 +1,78 @@
+---
+datatype: aws.ec2.route_tables
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rtb-0e6a6d2205ad1ca3b
+specifics:
+  Associations:
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-018355f00e45fa621
+    RouteTableId: rtb-0e6a6d2205ad1ca3b
+    SubnetId: subnet-01ca32129199dd40a
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-036eb55d4fdae4189
+    RouteTableId: rtb-0e6a6d2205ad1ca3b
+    SubnetId: subnet-049244395f4e090c3
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-0d0aca5fe23833b63
+    RouteTableId: rtb-0e6a6d2205ad1ca3b
+    SubnetId: subnet-0abf898e256a6bce5
+  OwnerId: '862793644923'
+  PropagatingVgws: []
+  RouteTableId: rtb-0e6a6d2205ad1ca3b
+  Routes:
+  - DestinationCidrBlock: 172.31.10.177/32
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-0319213552d00371a
+  - DestinationCidrBlock: 10.12.0.0/24
+    GatewayId: local
+    Origin: CreateRouteTable
+    State: active
+  - DestinationCidrBlock: 10.251.0.0/24
+    Origin: CreateRoute
+    State: active
+    TransitGatewayId: tgw-080db6bc3573cff1b
+  - DestinationCidrBlock: 172.21.0.0/16
+    Origin: CreateRoute
+    State: active
+    TransitGatewayId: tgw-02beb42d82ed09079
+  - DestinationCidrBlock: 172.29.0.0/16
+    Origin: CreateRoute
+    State: active
+    TransitGatewayId: tgw-094ec8a8749ab72d4
+  - DestinationCidrBlock: 10.21.0.0/16
+    Origin: CreateRoute
+    State: active
+    TransitGatewayId: tgw-094ec8a8749ab72d4
+  - DestinationCidrBlock: 10.100.0.0/16
+    Origin: CreateRoute
+    State: active
+    TransitGatewayId: tgw-02beb42d82ed09079
+  - DestinationCidrBlock: 10.101.0.0/16
+    Origin: CreateRoute
+    State: active
+    TransitGatewayId: tgw-02beb42d82ed09079
+  - DestinationCidrBlock: 0.0.0.0/0
+    Origin: CreateRoute
+    State: active
+    TransitGatewayId: tgw-094ec8a8749ab72d4
+  Tags:
+  - Key: aws:cloudformation:stack-name
+    Value: BitdjNetwork-ClientVpnVPC-ARIM2UO7ZOFH
+  - Key: Name
+    Value: ClientVpnVPC Attachment Main RouteTable
+  - Key: aws:cloudformation:logical-id
+    Value: RouteTable
+  - Key: aws:cloudformation:stack-id
+    Value: arn:aws:cloudformation:ap-northeast-1:862793644923:stack/BitdjNetwork-ClientVpnVPC-ARIM2UO7ZOFH/e78792c0-ac01-11ed-8f65-0a2a596332ef
+  VpcId: vpc-0beab044be33d1617
+...
+

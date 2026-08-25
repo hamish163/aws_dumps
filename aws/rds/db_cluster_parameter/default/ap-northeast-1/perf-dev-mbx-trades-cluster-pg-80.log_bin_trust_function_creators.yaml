@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-trades-cluster-pg-80.log_bin_trust_function_creators
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Enforces restrictions on stored functions / triggers - logging for
+    replication.
+  IsModifiable: true
+  ParameterName: log_bin_trust_function_creators
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

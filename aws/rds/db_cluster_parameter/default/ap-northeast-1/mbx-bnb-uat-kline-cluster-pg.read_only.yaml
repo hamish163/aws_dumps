@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-kline-cluster-pg.read_only
+specifics:
+  AllowedValues: 0,1,{TrueIfClusterReplica}
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: When it is enabled, the server permits no updates except from updates
+    performed by replica threads.
+  IsModifiable: true
+  ParameterName: read_only
+  ParameterValue: '0'
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

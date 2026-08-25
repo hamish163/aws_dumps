@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql11.aws_lambda.connect_timeout_ms
+specifics:
+  AllowedValues: 10-900000
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Sets the maximum time to wait while connecting to AWS Lambda.
+  IsModifiable: true
+  MinimumEngineVersion: '11.9'
+  ParameterName: aws_lambda.connect_timeout_ms
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+  - serverless
+...
+

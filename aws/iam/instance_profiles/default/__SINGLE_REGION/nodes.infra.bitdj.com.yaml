@@ -1,0 +1,28 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: nodes.infra.bitdj.com
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/nodes.infra.bitdj.com
+  CreateDate: 2018-09-27 09:07:41+00:00
+  InstanceProfileId: AIPAJH27LUPQTDZYJRBP2
+  InstanceProfileName: nodes.infra.bitdj.com
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/nodes.infra.bitdj.com
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+      Version: '2012-10-17'
+    CreateDate: 2018-09-27 09:07:34+00:00
+    Path: /
+    RoleId: AROAJLO3VFNKYK4SJ2SEW
+    RoleName: nodes.infra.bitdj.com
+...
+

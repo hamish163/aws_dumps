@@ -1,0 +1,15 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx.bnb.uat.ws-shim-api2/A
+  single_region: true
+specifics:
+  Name: ws-shim-api2.uat.bnb.mbx.
+  ResourceRecords:
+  - Value: 10.190.19.100
+  TTL: 300
+  Type: A
+...
+

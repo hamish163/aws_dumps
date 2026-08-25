@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSQuickSightDescribeRDS
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AWSQuickSightDescribeRDS
+  AttachmentCount: 0
+  CreateDate: 2015-11-10 23:24:50+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJU5J6OAMCJD3OO76O
+  PolicyName: AWSQuickSightDescribeRDS
+  UpdateDate: 2015-11-10 23:24:50+00:00
+...
+

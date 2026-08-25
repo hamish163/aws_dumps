@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.innodb_adaptive_flushing_lwm
+specifics:
+  AllowedValues: 0-70
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Low water mark representing percentage of redo log capacity at which
+    adaptive flushing is enabled.
+  IsModifiable: true
+  ParameterName: innodb_adaptive_flushing_lwm
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

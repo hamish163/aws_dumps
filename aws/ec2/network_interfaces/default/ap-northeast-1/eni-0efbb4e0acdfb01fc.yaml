@@ -1,0 +1,42 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-0efbb4e0acdfb01fc
+specifics:
+  Attachment:
+    AttachmentId: ela-attach-01c8e0e1546d736ce
+    DeleteOnTermination: false
+    DeviceIndex: 1
+    InstanceOwnerId: amazon-aws
+    Status: attached
+  AvailabilityZone: ap-northeast-1c
+  Description: AWS Lambda VPC ENI-tracky-escalation-trigger-bf633b92-102c-498a-97df-4c0bfa2f5939
+  Groups:
+  - GroupId: sg-05e60d20221e31e45
+    GroupName: tky-prod-baserules-tracky-bitdj.com
+  - GroupId: sg-08b5f2b18621ff553
+    GroupName: clickhouse
+  - GroupId: sg-01cd32ee0d399f529
+    GroupName: default
+  InterfaceType: lambda
+  Ipv6Addresses: []
+  MacAddress: 0a:79:c1:df:84:6d
+  NetworkInterfaceId: eni-0efbb4e0acdfb01fc
+  OwnerId: '862793644923'
+  PrivateDnsName: ip-172-27-38-104.ap-northeast-1.compute.internal
+  PrivateIpAddress: 172.27.38.104
+  PrivateIpAddresses:
+  - Primary: true
+    PrivateDnsName: ip-172-27-38-104.ap-northeast-1.compute.internal
+    PrivateIpAddress: 172.27.38.104
+  RequesterId: AROA4RYUCHN5SRN5M2Z3J:919980925139
+  RequesterManaged: false
+  SourceDestCheck: true
+  Status: in-use
+  SubnetId: subnet-0899be7b94796ea56
+  TagSet: []
+  VpcId: vpc-03f5d2495fd8d95a3
+...
+

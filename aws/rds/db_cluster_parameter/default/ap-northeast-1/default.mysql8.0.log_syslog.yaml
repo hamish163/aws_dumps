@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.log_syslog
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Whether to write error log output to syslog.
+  IsModifiable: false
+  ParameterName: log_syslog
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

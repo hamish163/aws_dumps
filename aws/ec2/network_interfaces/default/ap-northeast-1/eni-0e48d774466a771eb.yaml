@@ -1,0 +1,41 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-0e48d774466a771eb
+specifics:
+  Attachment:
+    AttachTime: 2025-08-28 03:33:16+00:00
+    AttachmentId: eni-attach-0a3d975be8cae7472
+    DeleteOnTermination: false
+    DeviceIndex: 1
+    InstanceOwnerId: '983378227177'
+    NetworkCardIndex: 0
+    Status: attached
+  AvailabilityZone: ap-northeast-1a
+  DenyAllIgwTraffic: true
+  Description: RDSNetworkInterface
+  Groups:
+  - GroupId: sg-022ccfd830757ca0d
+    GroupName: mbx-bnb-solutions-telegrambot-postgres-db
+  InterfaceType: interface
+  Ipv6Addresses: []
+  MacAddress: 06:56:35:5d:07:83
+  NetworkInterfaceId: eni-0e48d774466a771eb
+  OwnerId: '862793644923'
+  PrivateDnsName: ip-10-230-5-107.ap-northeast-1.compute.internal
+  PrivateIpAddress: 10.230.5.107
+  PrivateIpAddresses:
+  - Primary: true
+    PrivateDnsName: ip-10-230-5-107.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.230.5.107
+  RequesterId: '983378227177'
+  RequesterManaged: true
+  SourceDestCheck: true
+  Status: in-use
+  SubnetId: subnet-0681eb5fe84736c76
+  TagSet: []
+  VpcId: vpc-0218545ff4351ce04
+...
+

@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: nip-0448e466389a5ef7c
+specifics:
+  Name: tungsten-jenkins dev
+...
+

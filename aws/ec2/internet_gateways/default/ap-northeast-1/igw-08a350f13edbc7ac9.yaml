@@ -1,0 +1,17 @@
+---
+datatype: aws.ec2.internet_gateways
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: igw-08a350f13edbc7ac9
+specifics:
+  Attachments:
+  - State: available
+    VpcId: vpc-097095a8b70ef6727
+  InternetGatewayId: igw-08a350f13edbc7ac9
+  OwnerId: '862793644923'
+  Tags:
+  - Key: Name
+    Value: saltmaster-vpc
+...
+

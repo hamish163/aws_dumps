@@ -1,0 +1,26 @@
+---
+datatype: aws.iam.account_authorization_details
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: ses-smtp-user.apisharing
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/ses-smtp-user.apisharing
+  AttachedManagedPolicies: []
+  CreateDate: 2020-02-05 05:04:36+00:00
+  GroupList: []
+  Path: /
+  Tags: []
+  UserId: AIDA4RYUCHN5VNFVOTKGW
+  UserName: ses-smtp-user.apisharing
+  UserPolicyList:
+  - PolicyDocument:
+      Statement:
+      - Action: ses:SendRawEmail
+        Effect: Allow
+        Resource: '*'
+      Version: '2012-10-17'
+    PolicyName: AmazonSesSendingAccess
+...
+

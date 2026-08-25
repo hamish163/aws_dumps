@@ -1,0 +1,22 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql16.aws_ml.curlopt_low_speed_time
+specifics:
+  AllowedValues: 0-30000
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Time the transfer should be below aws_ml.curlopt_low_speed_limit to
+    abort inference call.
+  IsModifiable: true
+  MinimumEngineVersion: '16.1'
+  ParameterName: aws_ml.curlopt_low_speed_time
+  ParameterValue: '0'
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: nis-0e57fa9b71ffc17c5
+specifics:
+  Name: vpn-to-mbxdev
+...
+

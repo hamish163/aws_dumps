@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: igw-0be9a9f418e457666
+specifics:
+  Name: solution_infra_sol1_igw
+  env: infra
+  project: sol1
+...
+

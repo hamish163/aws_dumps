@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-keys-cluster-pg.innodb_purge_batch_size
+specifics:
+  AllowedValues: 1-5000
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: The granularity of changes, expressed in units of redo log records,
+    that trigger a purge operation, flushing the changed buffer pool blocks to disk
+  IsModifiable: true
+  ParameterName: innodb_purge_batch_size
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

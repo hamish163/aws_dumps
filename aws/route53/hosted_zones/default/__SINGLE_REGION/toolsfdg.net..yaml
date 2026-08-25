@@ -1,0 +1,17 @@
+---
+datatype: aws.route53.hosted_zones
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: toolsfdg.net.
+  single_region: true
+specifics:
+  CallerReference: a2b4a299-6fa1-48e0-b492-58d2171e16cc
+  Config:
+    Comment: Hosted Zone for DNS requests from MBX Hub (Client VPN)
+    PrivateZone: true
+  Id: /hostedzone/Z01381763BWDLCPFTVJ42
+  Name: toolsfdg.net.
+  ResourceRecordSetCount: 50
+...
+

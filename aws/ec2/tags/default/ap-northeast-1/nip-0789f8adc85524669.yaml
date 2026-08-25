@@ -1,0 +1,11 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: nip-0789f8adc85524669
+specifics:
+  Name: prod-bastion-to-gazelle-prod
+  "team\_": mbx
+...
+

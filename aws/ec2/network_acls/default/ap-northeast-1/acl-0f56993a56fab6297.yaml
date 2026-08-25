@@ -1,0 +1,208 @@
+---
+datatype: aws.ec2.network_acls
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: acl-0f56993a56fab6297
+specifics:
+  Associations:
+  - NetworkAclAssociationId: aclassoc-0adc9c5a97f041b78
+    NetworkAclId: acl-0f56993a56fab6297
+    SubnetId: subnet-082ee151875c3ea18
+  - NetworkAclAssociationId: aclassoc-02b4244be704b6b27
+    NetworkAclId: acl-0f56993a56fab6297
+    SubnetId: subnet-00e65b311851cf4c0
+  Entries:
+  - CidrBlock: 10.139.0.0/19
+    Egress: true
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 5
+  - CidrBlock: 10.139.0.0/19
+    Egress: false
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 5
+  - CidrBlock: 10.139.32.0/19
+    Egress: true
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 6
+  - CidrBlock: 10.139.32.0/19
+    Egress: false
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 6
+  - CidrBlock: 10.139.64.0/19
+    Egress: true
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 10
+  - CidrBlock: 10.139.64.0/19
+    Egress: false
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 10
+  - CidrBlock: 10.139.96.0/19
+    Egress: true
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 11
+  - CidrBlock: 10.139.96.0/19
+    Egress: false
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 11
+  - CidrBlock: 0.0.0.0/0
+    Egress: true
+    PortRange:
+      From: 0
+      To: 65535
+    Protocol: '6'
+    RuleAction: allow
+    RuleNumber: 30
+  - CidrBlock: 0.0.0.0/0
+    Egress: false
+    PortRange:
+      From: 80
+      To: 80
+    Protocol: '6'
+    RuleAction: allow
+    RuleNumber: 30
+  - CidrBlock: 0.0.0.0/0
+    Egress: true
+    PortRange:
+      From: 123
+      To: 123
+    Protocol: '17'
+    RuleAction: allow
+    RuleNumber: 40
+  - CidrBlock: 0.0.0.0/0
+    Egress: false
+    PortRange:
+      From: 443
+      To: 443
+    Protocol: '6'
+    RuleAction: allow
+    RuleNumber: 40
+  - CidrBlock: 39.110.202.219/32
+    Egress: false
+    PortRange:
+      From: 22
+      To: 22
+    Protocol: '6'
+    RuleAction: allow
+    RuleNumber: 50
+  - CidrBlock: 0.0.0.0/0
+    Egress: false
+    PortRange:
+      From: 1024
+      To: 65535
+    Protocol: '6'
+    RuleAction: allow
+    RuleNumber: 60
+  - CidrBlock: 0.0.0.0/0
+    Egress: false
+    PortRange:
+      From: 123
+      To: 65535
+    Protocol: '17'
+    RuleAction: allow
+    RuleNumber: 70
+  - CidrBlock: 3.112.141.211/32
+    Egress: false
+    PortRange:
+      From: 22
+      To: 22
+    Protocol: '6'
+    RuleAction: allow
+    RuleNumber: 80
+  - CidrBlock: 3.113.135.74/32
+    Egress: false
+    PortRange:
+      From: 22
+      To: 22
+    Protocol: '6'
+    RuleAction: allow
+    RuleNumber: 90
+  - CidrBlock: 153.166.180.221/32
+    Egress: false
+    PortRange:
+      From: 22
+      To: 22
+    Protocol: '6'
+    RuleAction: allow
+    RuleNumber: 100
+  - CidrBlock: 182.170.238.86/32
+    Egress: false
+    PortRange:
+      From: 22
+      To: 22
+    Protocol: '6'
+    RuleAction: allow
+    RuleNumber: 110
+  - CidrBlock: 10.139.128.0/19
+    Egress: false
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 120
+  - CidrBlock: 10.139.160.0/19
+    Egress: false
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 130
+  - CidrBlock: 54.238.64.231/32
+    Egress: false
+    PortRange:
+      From: 22
+      To: 22
+    Protocol: '6'
+    RuleAction: allow
+    RuleNumber: 140
+  - CidrBlock: 52.69.80.124/32
+    Egress: false
+    PortRange:
+      From: 22
+      To: 22
+    Protocol: '6'
+    RuleAction: allow
+    RuleNumber: 141
+  - CidrBlock: 52.196.201.125/32
+    Egress: false
+    PortRange:
+      From: 22
+      To: 22
+    Protocol: '6'
+    RuleAction: allow
+    RuleNumber: 142
+  - CidrBlock: 10.0.0.0/8
+    Egress: false
+    PortRange:
+      From: 22
+      To: 22
+    Protocol: '6'
+    RuleAction: allow
+    RuleNumber: 150
+  - CidrBlock: 0.0.0.0/0
+    Egress: true
+    Protocol: '-1'
+    RuleAction: deny
+    RuleNumber: 32767
+  - CidrBlock: 0.0.0.0/0
+    Egress: false
+    Protocol: '-1'
+    RuleAction: deny
+    RuleNumber: 32767
+  IsDefault: false
+  NetworkAclId: acl-0f56993a56fab6297
+  OwnerId: '862793644923'
+  Tags:
+  - Key: env
+    Value: stage
+  - Key: project
+    Value: mbx
+  - Key: Name
+    Value: tky_stage_mbx_external_nacl
+  VpcId: vpc-0c91879d6f0ffa921
+...
+

@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.dhcp_options
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: dopt-d33a5db4
+specifics:
+  OwnerId: '862793644923'
+  Tags:
+  - Key: kubernetes.io/cluster/test-apnortheast1.bitdj.com
+    Value: owned
+  - Key: KubernetesCluster
+    Value: test-apnortheast1.bitdj.com
+  - Key: Name
+    Value: test-apnortheast1.bitdj.com
+  domain-name: ap-northeast-1.compute.internal
+  domain-name-servers: AmazonProvidedDNS
+...
+

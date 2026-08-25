@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.thread_cache_size
+specifics:
+  AllowedValues: 0-16384
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Number of threads to be cached. Doesn't improve perf for good thread
+    implementations.
+  IsModifiable: true
+  ParameterName: thread_cache_size
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,41 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-080c1aa4f0a8fc64d
+specifics:
+  Attachment:
+    AttachTime: 2024-11-21 08:12:04+00:00
+    AttachmentId: eni-attach-035edd6b90e452f89
+    DeleteOnTermination: false
+    DeviceIndex: 1
+    InstanceOwnerId: 049300578640
+    NetworkCardIndex: 0
+    Status: attached
+  AvailabilityZone: ap-northeast-1a
+  DenyAllIgwTraffic: true
+  Description: RDSNetworkInterface
+  Groups:
+  - GroupId: sg-02f92eb38a86a3934
+    GroupName: mbx-bnb-uat-spade-account-db
+  InterfaceType: interface
+  Ipv6Addresses: []
+  MacAddress: 06:8e:de:b1:4c:0d
+  NetworkInterfaceId: eni-080c1aa4f0a8fc64d
+  OwnerId: '862793644923'
+  PrivateDnsName: ip-10-190-21-105.ap-northeast-1.compute.internal
+  PrivateIpAddress: 10.190.21.105
+  PrivateIpAddresses:
+  - Primary: true
+    PrivateDnsName: ip-10-190-21-105.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.190.21.105
+  RequesterId: 049300578640
+  RequesterManaged: true
+  SourceDestCheck: true
+  Status: in-use
+  SubnetId: subnet-0032f8c1960aa302c
+  TagSet: []
+  VpcId: vpc-0b3ce57b4c748893b
+...
+

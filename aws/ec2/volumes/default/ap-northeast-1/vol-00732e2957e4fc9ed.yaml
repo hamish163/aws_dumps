@@ -1,0 +1,42 @@
+---
+datatype: aws.ec2.volumes
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-00732e2957e4fc9ed
+specifics:
+  Attachments:
+  - AttachTime: 2023-10-23 09:03:00+00:00
+    DeleteOnTermination: false
+    Device: /dev/sdf
+    InstanceId: i-0bd5b737af7784fa3
+    State: attached
+    VolumeId: vol-00732e2957e4fc9ed
+  AvailabilityZone: ap-northeast-1a
+  CreateTime: 2023-10-23 09:02:18.407000+00:00
+  Encrypted: false
+  Iops: 3000
+  MultiAttachEnabled: false
+  Size: 80
+  SnapshotId: ''
+  State: in-use
+  Tags:
+  - Key: project
+    Value: mbx
+  - Key: team
+    Value: mbx
+  - Key: Name
+    Value: bnb_prod_mbx_bastion1_ec2
+  - Key: role
+    Value: bastion
+  - Key: biz
+    Value: mbx
+  - Key: env
+    Value: prod
+  - Key: exchange_id
+    Value: bnb
+  Throughput: 125
+  VolumeId: vol-00732e2957e4fc9ed
+  VolumeType: gp3
+...
+

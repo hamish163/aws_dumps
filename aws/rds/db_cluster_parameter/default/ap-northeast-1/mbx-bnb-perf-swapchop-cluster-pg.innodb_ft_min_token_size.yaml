@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-perf-swapchop-cluster-pg.innodb_ft_min_token_size
+specifics:
+  AllowedValues: 0-16
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: Minimum length of words that are stored in an InnoDB FULLTEXT index.
+  IsModifiable: true
+  ParameterName: innodb_ft_min_token_size
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

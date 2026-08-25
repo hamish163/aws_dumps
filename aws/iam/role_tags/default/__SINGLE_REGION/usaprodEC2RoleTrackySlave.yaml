@@ -1,0 +1,13 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: usaprodEC2RoleTrackySlave
+  single_region: true
+specifics:
+  Name: usaprodEC2RoleTrackySlave
+  env: prod
+  project: tracky
+...
+

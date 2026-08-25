@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-00018d08cd27590cf
+specifics:
+  Description: Allow TCP traffic from blaster-engine-outbound SG on port 9090
+  FromPort: 9090
+  GroupId: sg-01385863c2fcc9c67
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-05db8b5a2e78e5155
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-00018d08cd27590cf
+  Tags: []
+  ToPort: 9090
+...
+

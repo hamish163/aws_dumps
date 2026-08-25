@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: SageMakerStudioUserIAMPermissiveExecutionPolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/SageMakerStudioUserIAMPermissiveExecutionPolicy
+  AttachmentCount: 0
+  CreateDate: 2025-08-18 17:19:08+00:00
+  DefaultVersionId: v24
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4MQ2K3CR4F
+  PolicyName: SageMakerStudioUserIAMPermissiveExecutionPolicy
+  UpdateDate: 2026-08-13 18:37:09+00:00
+...
+

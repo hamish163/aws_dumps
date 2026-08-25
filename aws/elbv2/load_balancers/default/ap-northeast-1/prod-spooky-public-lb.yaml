@@ -1,0 +1,29 @@
+---
+datatype: aws.elbv2.load_balancers
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: prod-spooky-public-lb
+specifics:
+  AvailabilityZones:
+  - LoadBalancerAddresses: []
+    SubnetId: subnet-05c725ad0285e7296
+    ZoneName: ap-northeast-1c
+  - LoadBalancerAddresses: []
+    SubnetId: subnet-09d026f6e1a1cd1f7
+    ZoneName: ap-northeast-1a
+  CanonicalHostedZoneId: Z14GRHDCWA56QT
+  CreatedTime: 2023-06-14 08:22:44.110000+00:00
+  DNSName: prod-spooky-public-lb-1388865287.ap-northeast-1.elb.amazonaws.com
+  IpAddressType: ipv4
+  LoadBalancerArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:loadbalancer/app/prod-spooky-public-lb/d4fbbb2ac893130e
+  LoadBalancerName: prod-spooky-public-lb
+  Scheme: internet-facing
+  SecurityGroups:
+  - sg-0aaa782cdad38ea77
+  State:
+    Code: active
+  Type: application
+  VpcId: vpc-03f5d2495fd8d95a3
+...
+

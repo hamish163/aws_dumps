@@ -1,0 +1,20 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-00d6da6612184a704
+specifics:
+  Description: SSH Access
+  GroupId: sg-00d6da6612184a704
+  GroupName: BitdjNetwork-ClientVPN-KSG2APQFB97B-VpnSecurityGroup-6J8A4I3OON6P
+  Tags:
+  - Key: aws:cloudformation:logical-id
+    Value: VpnSecurityGroup
+  - Key: aws:cloudformation:stack-id
+    Value: arn:aws:cloudformation:ap-northeast-1:862793644923:stack/BitdjNetwork-ClientVPN-KSG2APQFB97B/8b1071f0-b026-11ed-95f4-06f681af1689
+  - Key: aws:cloudformation:stack-name
+    Value: BitdjNetwork-ClientVPN-KSG2APQFB97B
+  VpcId: vpc-0beab044be33d1617
+...
+

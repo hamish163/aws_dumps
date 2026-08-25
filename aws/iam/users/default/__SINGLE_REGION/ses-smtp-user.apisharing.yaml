@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.users
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: ses-smtp-user.apisharing
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/ses-smtp-user.apisharing
+  CreateDate: 2020-02-05 05:04:36+00:00
+  Path: /
+  UserId: AIDA4RYUCHN5VNFVOTKGW
+  UserName: ses-smtp-user.apisharing
+...
+

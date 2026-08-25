@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: SageMakerStudioDomainExecutionRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/SageMakerStudioDomainExecutionRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2024-11-20 21:56:55+00:00
+  DefaultVersionId: v23
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4IBNDNDGG3
+  PolicyName: SageMakerStudioDomainExecutionRolePolicy
+  UpdateDate: 2026-08-12 17:27:19+00:00
+...
+

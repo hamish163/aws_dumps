@@ -1,0 +1,28 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-uat-spade-cache
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/mbx-bnb-uat-spade-cache
+  CreateDate: 2025-01-29 06:57:53+00:00
+  InstanceProfileId: AIPA4RYUCHN5URSDJCB5U
+  InstanceProfileName: mbx-bnb-uat-spade-cache
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/mbx-bnb-uat-spade-cache
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+      Version: '2012-10-17'
+    CreateDate: 2025-01-29 06:57:52+00:00
+    Path: /
+    RoleId: AROA4RYUCHN57GHKZGC3L
+    RoleName: mbx-bnb-uat-spade-cache
+...
+

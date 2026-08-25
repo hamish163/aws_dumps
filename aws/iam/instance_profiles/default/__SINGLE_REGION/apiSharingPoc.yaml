@@ -1,0 +1,28 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: apiSharingPoc
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/apiSharingPoc
+  CreateDate: 2020-02-04 10:09:52+00:00
+  InstanceProfileId: AIPA4RYUCHN5VQEOBMEDQ
+  InstanceProfileName: apiSharingPoc
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/apiSharingPoc
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+      Version: '2012-10-17'
+    CreateDate: 2020-02-04 10:09:51+00:00
+    Path: /
+    RoleId: AROA4RYUCHN52DRCYT62L
+    RoleName: apiSharingPoc
+...
+

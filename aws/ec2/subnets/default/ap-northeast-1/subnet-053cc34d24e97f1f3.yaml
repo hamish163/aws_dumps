@@ -1,0 +1,36 @@
+---
+datatype: aws.ec2.subnets
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: subnet-053cc34d24e97f1f3
+specifics:
+  AssignIpv6AddressOnCreation: false
+  AvailabilityZone: ap-northeast-1c
+  AvailabilityZoneId: apne1-az1
+  AvailableIpAddressCount: 251
+  CidrBlock: 10.143.3.0/24
+  DefaultForAz: false
+  EnableDns64: false
+  Ipv6CidrBlockAssociationSet: []
+  Ipv6Native: false
+  MapCustomerOwnedIpOnLaunch: false
+  MapPublicIpOnLaunch: false
+  OwnerId: '862793644923'
+  PrivateDnsNameOptionsOnLaunch:
+    EnableResourceNameDnsAAAARecord: false
+    EnableResourceNameDnsARecord: false
+    HostnameType: ip-name
+  State: available
+  SubnetArn: arn:aws:ec2:ap-northeast-1:862793644923:subnet/subnet-053cc34d24e97f1f3
+  SubnetId: subnet-053cc34d24e97f1f3
+  Tags:
+  - Key: Name
+    Value: saltmaster-vpc-public-ap-northeast-1c
+  - Key: biz
+    Value: mtx
+  - Key: team
+    Value: mbx
+  VpcId: vpc-097095a8b70ef6727
+...
+

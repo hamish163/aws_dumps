@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev57-mbx-aggtrades-cluster-pgrp.flush_time
+specifics:
+  AllowedValues: 0-31536000
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Frees up resources and synchronize unflushed data to disk. Recommended
+    only on systems with minimal resources.
+  IsModifiable: true
+  ParameterName: flush_time
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0282f21a00af3f8fe
+specifics:
+  Description: Allow TCP traffic from privatestream-normal SG on port 9090
+  FromPort: 9090
+  GroupId: sg-0ba743feb1df032b5
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-075a29c8476817d3a
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0282f21a00af3f8fe
+  Tags: []
+  ToPort: 9090
+...
+

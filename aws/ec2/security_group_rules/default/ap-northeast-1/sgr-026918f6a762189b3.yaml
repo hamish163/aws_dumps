@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-026918f6a762189b3
+specifics:
+  Description: kline-persist to system-db
+  FromPort: 3306
+  GroupId: sg-0962e8e2b2611787c
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-087d78f2346ea825a
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-026918f6a762189b3
+  Tags: []
+  ToPort: 3306
+...
+

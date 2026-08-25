@@ -1,0 +1,15 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx.usa.prod-gw.bastion1/A
+  single_region: true
+specifics:
+  Name: bastion1.prod-gw.usa.mbx.
+  ResourceRecords:
+  - Value: 10.250.10.21
+  TTL: 300
+  Type: A
+...
+

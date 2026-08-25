@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSDeepLensLambdaFunctionAccessPolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSDeepLensLambdaFunctionAccessPolicy
+  AttachmentCount: 0
+  CreateDate: 2017-11-29 15:47:18+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIKIEE4PRM54V4G3ZG
+  PolicyName: AWSDeepLensLambdaFunctionAccessPolicy
+  UpdateDate: 2019-06-11 23:11:55+00:00
+...
+

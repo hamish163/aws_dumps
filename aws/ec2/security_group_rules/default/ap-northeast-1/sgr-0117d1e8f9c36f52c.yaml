@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0117d1e8f9c36f52c
+specifics:
+  CidrIpv4: 10.170.19.66/32
+  Description: From From jmeter
+  FromPort: 4567
+  GroupId: sg-0c694324e24efb5ad
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-0117d1e8f9c36f52c
+  Tags: []
+  ToPort: 4567
+...
+

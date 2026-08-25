@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql11.pglogical.conflict_log_level
+specifics:
+  AllowedValues: debug5,debug4,debug3,debug2,debug1,info,notice,warning,error,log,fatal,panic
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Sets log level used for logging resolved conflicts.
+  IsModifiable: true
+  MinimumEngineVersion: '11.8'
+  ParameterName: pglogical.conflict_log_level
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-mysql5.7.port
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: The number of the port on which the server listens for TCP/IP connections.
+  IsModifiable: false
+  ParameterName: port
+  ParameterValue: '{EndPointPort}'
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

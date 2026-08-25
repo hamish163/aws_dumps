@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonMonitronFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonMonitronFullAccess
+  AttachmentCount: 0
+  CreateDate: 2020-12-02 22:40:28+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4MHDVZEITQ
+  PolicyName: AmazonMonitronFullAccess
+  UpdateDate: 2022-06-08 16:27:42+00:00
+...
+

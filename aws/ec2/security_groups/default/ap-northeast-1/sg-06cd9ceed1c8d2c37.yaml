@@ -1,0 +1,34 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-06cd9ceed1c8d2c37
+specifics:
+  Description: Security Group for tungsten-cicd instances
+  GroupId: sg-06cd9ceed1c8d2c37
+  GroupName: tungsten-cicd
+  Tags:
+  - Key: aws:cloudformation:logical-id
+    Value: SecurityGroup
+  - Key: team
+    Value: mbx
+  - Key: mbx.managed_by
+    Value: mbx.devops
+  - Key: mbx.service
+    Value: tungsten-cicd
+  - Key: biz
+    Value: mbx
+  - Key: mbx.owner
+    Value: devops
+  - Key: project
+    Value: mbx
+  - Key: Name
+    Value: tungsten-cicd
+  - Key: aws:cloudformation:stack-name
+    Value: tungsten-cicd-base
+  - Key: aws:cloudformation:stack-id
+    Value: arn:aws:cloudformation:ap-northeast-1:862793644923:stack/tungsten-cicd-base/a15c8df0-d5bf-11ec-9b81-0ed508706001
+  VpcId: vpc-0602642b581cc4039
+...
+

@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora5.6.innodb_buffer_pool_dump_now
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: Immediately records the pages cached in the InnoDB buffer pool.
+  IsModifiable: false
+  ParameterName: innodb_buffer_pool_dump_now
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

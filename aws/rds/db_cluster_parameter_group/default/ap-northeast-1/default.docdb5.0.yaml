@@ -1,0 +1,13 @@
+---
+datatype: aws.rds.db_cluster_parameter_group
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.docdb5.0
+specifics:
+  DBClusterParameterGroupArn: arn:aws:rds:ap-northeast-1:862793644923:cluster-pg:default.docdb5.0
+  DBClusterParameterGroupName: default.docdb5.0
+  DBParameterGroupFamily: docdb5.0
+  Description: Default cluster parameter group for docdb5.0
+...
+

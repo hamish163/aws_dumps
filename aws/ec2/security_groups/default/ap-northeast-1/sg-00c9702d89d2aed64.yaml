@@ -1,0 +1,22 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-00c9702d89d2aed64
+specifics:
+  Description: Monitoring SG for usa prod-gw bastion instances
+  GroupId: sg-00c9702d89d2aed64
+  GroupName: mbx-usa-prod-gw-monitoring
+  Tags:
+  - Key: mbx_env_name
+    Value: prod
+  - Key: biz
+    Value: mbx
+  - Key: mbx_exchange_name
+    Value: usa
+  - Key: team
+    Value: mbx
+  VpcId: vpc-02e50a328c4ab1393
+...
+

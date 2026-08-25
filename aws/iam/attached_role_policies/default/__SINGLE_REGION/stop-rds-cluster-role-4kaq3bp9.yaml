@@ -1,0 +1,15 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: stop-rds-cluster-role-4kaq3bp9
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/service-role/AWSLambdaBasicExecutionRole-4ec7ebc5-46bd-401d-9d14-7fc962ffc3d2
+    PolicyName: AWSLambdaBasicExecutionRole-4ec7ebc5-46bd-401d-9d14-7fc962ffc3d2
+  - PolicyArn: arn:aws:iam::862793644923:policy/AllowLambdaToStopRDS
+    PolicyName: AllowLambdaToStopRDS
+...
+

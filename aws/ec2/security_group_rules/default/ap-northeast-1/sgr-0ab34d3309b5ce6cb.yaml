@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0ab34d3309b5ce6cb
+specifics:
+  CidrIpv4: 10.143.1.189/32
+  Description: Allow tcp from Salt master
+  FromPort: 22
+  GroupId: sg-011d3bdd31cc014b3
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-0ab34d3309b5ce6cb
+  Tags: []
+  ToPort: 22
+...
+

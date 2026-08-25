@@ -1,0 +1,14 @@
+---
+datatype: aws.iam.mfa_devices
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: ning
+  single_region: true
+specifics:
+  MFADevices:
+  - EnableDate: 2024-10-31 08:28:04+00:00
+    SerialNumber: arn:aws:iam::862793644923:u2f/user/ning/yubikey-T5BZ3TFJ7RDANNLN7CMHF25LMA
+    UserName: ning
+...
+

@@ -1,0 +1,16 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-03a07808e102a4108
+specifics:
+  Description: ansible-server
+  GroupId: sg-03a07808e102a4108
+  GroupName: ansible-server
+  Tags:
+  - Key: Name
+    Value: ansible-server
+  VpcId: vpc-07652e77a8fa0e0c2
+...
+

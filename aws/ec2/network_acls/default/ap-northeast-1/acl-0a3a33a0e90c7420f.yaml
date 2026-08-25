@@ -1,0 +1,42 @@
+---
+datatype: aws.ec2.network_acls
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: acl-0a3a33a0e90c7420f
+specifics:
+  Associations:
+  - NetworkAclAssociationId: aclassoc-0699dec629947121c
+    NetworkAclId: acl-0a3a33a0e90c7420f
+    SubnetId: subnet-03b19fe4c993f79ca
+  - NetworkAclAssociationId: aclassoc-02b923e47cf22ee1f
+    NetworkAclId: acl-0a3a33a0e90c7420f
+    SubnetId: subnet-02847a3b552ac096b
+  Entries:
+  - CidrBlock: 0.0.0.0/0
+    Egress: true
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 100
+  - CidrBlock: 0.0.0.0/0
+    Egress: false
+    Protocol: '-1'
+    RuleAction: allow
+    RuleNumber: 100
+  - CidrBlock: 0.0.0.0/0
+    Egress: true
+    Protocol: '-1'
+    RuleAction: deny
+    RuleNumber: 32767
+  - CidrBlock: 0.0.0.0/0
+    Egress: false
+    Protocol: '-1'
+    RuleAction: deny
+    RuleNumber: 32767
+  IsDefault: true
+  NetworkAclId: acl-0a3a33a0e90c7420f
+  OwnerId: '862793644923'
+  Tags: []
+  VpcId: vpc-02e50a328c4ab1393
+...
+

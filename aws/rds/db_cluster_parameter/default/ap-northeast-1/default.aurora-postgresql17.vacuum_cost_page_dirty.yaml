@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql17.vacuum_cost_page_dirty
+specifics:
+  AllowedValues: 0-10000
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Vacuum cost for a page dirtied by vacuum.
+  IsModifiable: true
+  ParameterName: vacuum_cost_page_dirty
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

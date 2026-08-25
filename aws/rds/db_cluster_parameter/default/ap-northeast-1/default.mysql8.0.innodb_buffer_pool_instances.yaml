@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.mysql8.0.innodb_buffer_pool_instances
+specifics:
+  AllowedValues: 1-64
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: The number of regions that the InnoDB buffer pool is divided into
+  IsModifiable: true
+  ParameterName: innodb_buffer_pool_instances
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

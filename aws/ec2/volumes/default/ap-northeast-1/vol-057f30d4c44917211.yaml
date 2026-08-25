@@ -1,0 +1,42 @@
+---
+datatype: aws.ec2.volumes
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-057f30d4c44917211
+specifics:
+  Attachments:
+  - AttachTime: 2026-08-05 11:00:55+00:00
+    DeleteOnTermination: true
+    Device: /dev/xvda
+    InstanceId: i-04c96863ff92b0c9f
+    State: attached
+    VolumeId: vol-057f30d4c44917211
+  AvailabilityZone: ap-northeast-1a
+  CreateTime: 2026-08-05 11:00:55.651000+00:00
+  Encrypted: false
+  Iops: 3000
+  MultiAttachEnabled: false
+  Size: 40
+  SnapshotId: snap-0e57c816f82653b15
+  State: in-use
+  Tags:
+  - Key: biz
+    Value: mbx
+  - Key: mbx_env_name
+    Value: testnet-gw
+  - Key: mbx_exchange_name
+    Value: usa
+  - Key: team
+    Value: mbx
+  - Key: Name
+    Value: mbx-usa-testnet-gw-bastion2
+  - Key: mbx_application_name
+    Value: bastion
+  - Key: mbx_host_index
+    Value: '2'
+  Throughput: 125
+  VolumeId: vol-057f30d4c44917211
+  VolumeType: gp3
+...
+

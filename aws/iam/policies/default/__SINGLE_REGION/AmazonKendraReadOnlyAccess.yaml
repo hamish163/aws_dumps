@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonKendraReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonKendraReadOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2019-12-03 16:13:45+00:00
+  DefaultVersionId: v2
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4POKTT2LDN
+  PolicyName: AmazonKendraReadOnlyAccess
+  UpdateDate: 2021-05-27 17:01:20+00:00
+...
+

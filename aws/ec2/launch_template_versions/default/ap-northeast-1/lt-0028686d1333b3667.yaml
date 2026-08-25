@@ -1,0 +1,85 @@
+---
+datatype: aws.ec2.launch_template_versions
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: lt-0028686d1333b3667
+specifics:
+  CreateTime: 2026-07-09 22:55:08+00:00
+  CreatedBy: arn:aws:sts::862793644923:assumed-role/AWSServiceRoleForAmazonEKSNodegroup/EKS
+  DefaultVersion: true
+  LaunchTemplateData:
+    BlockDeviceMappings:
+    - DeviceName: /dev/xvda
+      Ebs:
+        DeleteOnTermination: true
+        VolumeSize: 200
+        VolumeType: gp3
+    IamInstanceProfile:
+      Name: eks-5ccfa48b-ba26-c8ce-a0f6-ee27eae7dd31
+    ImageId: ami-0e98b346a8ee3ccad
+    KeyName: devops_ec2-id_ed25519
+    MetadataOptions:
+      HttpEndpoint: enabled
+      HttpPutResponseHopLimit: 2
+      HttpTokens: required
+      InstanceMetadataTags: disabled
+    NetworkInterfaces:
+    - AssociatePublicIpAddress: false
+      DeleteOnTermination: true
+      DeviceIndex: 0
+      Groups:
+      - sg-0fba27ebbca90c7a1
+      - sg-09bf903f5851bcb74
+      - sg-0b1f965f179af2036
+      - sg-009df548cfc588704
+      NetworkCardIndex: 0
+    TagSpecifications:
+    - ResourceType: volume
+      Tags:
+      - Key: eks:cluster-name
+        Value: mbx-bnb-sre-emu
+      - Key: Name
+        Value: mbx-bnb-sre-emu-generic
+      - Key: mbx_env_name
+        Value: sre
+      - Key: team
+        Value: mbx
+      - Key: kubernetes.io/cluster/mbx-bnb-sre-emu
+        Value: owned
+      - Key: eks:nodegroup-name
+        Value: mbx-bnb-sre-emu-generic-20260710
+      - Key: mbx_exchange_name
+        Value: bnb
+      - Key: biz
+        Value: mbx
+    - ResourceType: instance
+      Tags:
+      - Key: eks:cluster-name
+        Value: mbx-bnb-sre-emu
+      - Key: Name
+        Value: mbx-bnb-sre-emu-generic
+      - Key: mbx_env_name
+        Value: sre
+      - Key: team
+        Value: mbx
+      - Key: kubernetes.io/cluster/mbx-bnb-sre-emu
+        Value: owned
+      - Key: eks:nodegroup-name
+        Value: mbx-bnb-sre-emu-generic-20260710
+      - Key: mbx_exchange_name
+        Value: bnb
+      - Key: biz
+        Value: mbx
+    - ResourceType: network-interface
+      Tags:
+      - Key: eks:cluster-name
+        Value: mbx-bnb-sre-emu
+      - Key: eks:nodegroup-name
+        Value: mbx-bnb-sre-emu-generic-20260710
+    UserData: LS0tCmFwaVZlcnNpb246IG5vZGUuZWtzLmF3cy92MWFscGhhMQpraW5kOiBOb2RlQ29uZmlnCnNwZWM6CiAgY2x1c3RlcjoKICAgIG5hbWU6IG1ieC1ibmItc3JlLWVtdQogICAgYXBpU2VydmVyRW5kcG9pbnQ6IGh0dHBzOi8vNzZFREI1QTRCQUU1Mjk5NjdENkE4RTlERTdENUMxQzAuZ3I3LmFwLW5vcnRoZWFzdC0xLmVrcy5hbWF6b25hd3MuY29tCiAgICBjZXJ0aWZpY2F0ZUF1dGhvcml0eTogTFMwdExTMUNSVWRKVGlCRFJWSlVTVVpKUTBGVVJTMHRMUzB0Q2sxSlNVUkNWRU5EUVdVeVowRjNTVUpCWjBsSlZ6ZDNiWEpZTmpWM1JHOTNSRkZaU2t0dldrbG9kbU5PUVZGRlRFSlJRWGRHVkVWVVRVSkZSMEV4VlVVS1FYaE5TMkV6Vm1sYVdFcDFXbGhTYkdONlFXVkdkekI1VG1wQk1rMUVaM2hOZWtreFRWUldZVVozTUhwT2FrRXlUVVJWZUUxNlRYZE5WRlpoVFVKVmVBcEZla0ZTUW1kT1ZrSkJUVlJEYlhReFdXMVdlV0p0VmpCYVdFMTNaMmRGYVUxQk1FZERVM0ZIVTBsaU0wUlJSVUpCVVZWQlFUUkpRa1IzUVhkblowVkxDa0Z2U1VKQlVVTTNheTl2VlVjMFFtNHlSSFl3WjBSTWNXOUJZVlJxUTJKNWNsYzJiMjFpVUZWVVZUZHlXWGdyZDJKdmFUUnhXbEY0VDFGbVZqVkxjV2tLY1c5SGRHeFpabVp0Y0hacmJEWnlhekUzYlhRMU9WcFlkR0pXVjJrelJHMW1NR3hxT0RocGVVeGFiRE5vY0hWWFlrcGtiakoyVWpJMmFsSXhhWFpVYndveWRtTnFWV3BTVFdsQk1WbzFiRkZ0TkRGdFFsQXdNamxhTVVZcmExVm1RMWg2YTBNeVkxUnJkMDgyYTFaaFkwaEZjSGhsU0dZeU1WcEZNelk1UnpCd0NqWlZaWEZGVEVGNWNWUkROVlJ4V0ROcFltdHZjbFpMU0ZkSFNHdFJTVGN5YWs1Uk0yMVpSMnB4U21WTWJVcFBaR2hHTkV0dlNXWkpMM0YxTVc5RVlqVUtOamd6V0V0R1RHTlRRM2RrYkVkeWRVWlJUMlZsY2tKYVozbzVORVpGVDBGb1QxUkxjMmxCTld3M1NFSkhjRGN4YzNCWmVtaFNSRXB6ZEV4WlNVVnljQW8xWTNaSk5sSjFZVk5JYUdWbU1uZFNla2xIYm5oWVpEbEdWR2hFUVdkTlFrRkJSMnBYVkVKWVRVRTBSMEV4VldSRWQwVkNMM2RSUlVGM1NVTndSRUZRQ2tKblRsWklVazFDUVdZNFJVSlVRVVJCVVVndlRVSXdSMEV4VldSRVoxRlhRa0pSUTI1WFpIbE9TVVpzUW1nMFkzQkpSelJVYjBGek4ySlFlRkZVUVZZS1FtZE9Wa2hTUlVWRWFrRk5aMmR3Y21SWFNteGpiVFZzWkVkV2VrMUJNRWREVTNGSFUwbGlNMFJSUlVKRGQxVkJRVFJKUWtGUlFrMDVSazByV1haSU13cFhSaXRrVVVoQlEzaDNWMkV5T0Vnd1QxQlBMMGhwUkhoa1VrTlVabmhqWW5aTVlWcEZVQ3RFVVdSNmJ6Y3JZa05KWTNKeVVVNXVZMWxMUVZjMlFtWTBDa3BYWkhoNVpHVkxVRTFSWTFJNFltUkdWRXhrTVZGdE4zQlNabkYwZDBveU0wMTNMMUZWZW0weWMyRmtiblZ5Vm0xa2FXVlNWV3B6UjNGVGJtcEtVWGtLTlUxTlRVTkdSMkp3YlhRdk5GWktSVEpHU3pCUVZVMTZXVGxLZURCTlZreEtibGxPVjI1Nk56bFBTazVzU3pkV1RrczFUM3BWWTFkV1VFVTVOVVZUU3dwb1RXYzNLMlJYUlVObWFYVldRVFpoZFZseFZVWnNTRzFaUTFGbU5tNWpTVmRFY2tacVFWa3ZWekJWUXpZM1EyVTFUWE5JVGs1VmQyNXJZV05XUnpZMENuTktXRlJNTkZKTVJTOXVObHBEY1dwUFlWcFNTbGxDWVc5NFdDdFpSMWtyVjBZM1RYQlJkV1kwZDFSdWRrY3JaamtyZVVaYU1sZDRjVm8xUTBKcldEWUtZMk42YmpFeFJYZ3ZNV3BEQ2kwdExTMHRSVTVFSUVORlVsUkpSa2xEUVZSRkxTMHRMUzBLCiAgICBjaWRyOiAxMC4xLjAuMC8xNgogIGt1YmVsZXQ6CiAgICBmbGFnczoKICAgICAgICAtICItLW5vZGUtbGFiZWxzPWVrcy5hbWF6b25hd3MuY29tL25vZGVncm91cC1pbWFnZT1hbWktMGU5OGIzNDZhOGVlM2NjYWQsZWtzLmFtYXpvbmF3cy5jb20vY2FwYWNpdHlUeXBlPU9OX0RFTUFORCxiaXRkai5jb20vY2x1c3Rlcj1tYngtYm5iLXNyZS1lbXUsYml0ZGouY29tL2xpbnV4PWdlbmVyaWMtMjAyNjA3MTAsYml0ZGouY29tL25vZGVncm91cC10eXBlPWdlbmVyaWMiCg==
+  LaunchTemplateId: lt-0028686d1333b3667
+  LaunchTemplateName: eks-5ccfa48b-ba26-c8ce-a0f6-ee27eae7dd31
+  VersionNumber: 1
+...
+

@@ -1,0 +1,17 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-032af65629482653f
+specifics:
+  Name: mbx-bnb-perf-margin-guard-stream1
+  biz: mbx
+  mbx_application_name: mbx-data-margin-guard-stream
+  mbx_env_name: perf
+  mbx_exchange_name: bnb
+  mbx_host_index: '1'
+  mbx_secret_store: none
+  team: mbx
+...
+

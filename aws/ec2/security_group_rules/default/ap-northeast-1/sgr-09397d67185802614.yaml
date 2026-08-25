@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-09397d67185802614
+specifics:
+  Description: Allow all traffic from the NLB
+  FromPort: -1
+  GroupId: sg-05844058fce311685
+  GroupOwnerId: '862793644923'
+  IpProtocol: '-1'
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-05e401cd0de3a336c
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-09397d67185802614
+  Tags: []
+  ToPort: -1
+...
+

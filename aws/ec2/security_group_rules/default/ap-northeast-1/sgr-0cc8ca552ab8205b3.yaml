@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0cc8ca552ab8205b3
+specifics:
+  Description: Allow TCP traffic from swapchop SG on port 5483
+  FromPort: 5483
+  GroupId: sg-0fe3c286618c83ce7
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-05c9e563309c087ce
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0cc8ca552ab8205b3
+  Tags: []
+  ToPort: 5483
+...
+

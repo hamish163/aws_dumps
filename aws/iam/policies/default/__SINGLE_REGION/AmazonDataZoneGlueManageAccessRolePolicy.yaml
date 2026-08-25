@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonDataZoneGlueManageAccessRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AmazonDataZoneGlueManageAccessRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2023-09-22 20:21:53+00:00
+  DefaultVersionId: v18
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4IFGMBEEIW
+  PolicyName: AmazonDataZoneGlueManageAccessRolePolicy
+  UpdateDate: 2026-02-12 18:00:04+00:00
+...
+

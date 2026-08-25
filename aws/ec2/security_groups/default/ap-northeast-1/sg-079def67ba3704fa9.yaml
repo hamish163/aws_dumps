@@ -1,0 +1,13 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-079def67ba3704fa9
+specifics:
+  Description: launch-wizard-14 created 2023-03-30T10:17:06.281Z
+  GroupId: sg-079def67ba3704fa9
+  GroupName: launch-wizard-14
+  VpcId: vpc-097095a8b70ef6727
+...
+

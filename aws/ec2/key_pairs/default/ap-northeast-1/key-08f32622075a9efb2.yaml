@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.key_pairs
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: key-08f32622075a9efb2
+specifics:
+  CreateTime: 2018-06-28 05:47:00+00:00
+  KeyFingerprint: 1f:4c:4b:9f:ee:50:de:30:93:a1:2f:4f:ce:22:42:c6:70:24:6b:55
+  KeyName: scopstokyo
+  KeyPairId: key-08f32622075a9efb2
+  KeyType: rsa
+  Tags: []
+...
+

@@ -1,0 +1,13 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-08150df41fd13b560
+specifics:
+  Description: test-k8s-alb-sg
+  GroupId: sg-08150df41fd13b560
+  GroupName: test-k8s-alb-sg
+  VpcId: vpc-07652e77a8fa0e0c2
+...
+

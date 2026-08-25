@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonDataZoneFullUserAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonDataZoneFullUserAccess
+  AttachmentCount: 0
+  CreateDate: 2023-09-22 21:06:41+00:00
+  DefaultVersionId: v9
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4ADLK3YDWW
+  PolicyName: AmazonDataZoneFullUserAccess
+  UpdateDate: 2024-11-19 21:38:59+00:00
+...
+

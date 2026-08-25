@@ -1,0 +1,24 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0bd170becaa31c015
+specifics:
+  Description: Security Group for rest-api-ai VPC Endpoint
+  GroupId: sg-0bd170becaa31c015
+  GroupName: mbx-bnb-solutions-rest-api-ai-vpc-endpoint
+  Tags:
+  - Key: Name
+    Value: mbx-bnb-solutions-rest-api-ai-vpc-endpoint
+  - Key: biz
+    Value: mbx
+  - Key: team
+    Value: mbx
+  - Key: mbx_env_name
+    Value: solutions
+  - Key: mbx_exchange_name
+    Value: bnb
+  VpcId: vpc-0218545ff4351ce04
+...
+

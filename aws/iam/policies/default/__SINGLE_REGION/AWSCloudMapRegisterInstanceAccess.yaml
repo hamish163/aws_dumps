@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSCloudMapRegisterInstanceAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSCloudMapRegisterInstanceAccess
+  AttachmentCount: 0
+  CreateDate: 2018-11-29 00:04:57+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAI4P5Z5HXVWJ75WQBC
+  PolicyName: AWSCloudMapRegisterInstanceAccess
+  UpdateDate: 2023-09-20 21:47:06+00:00
+...
+

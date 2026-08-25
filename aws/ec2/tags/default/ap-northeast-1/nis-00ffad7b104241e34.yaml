@@ -1,0 +1,12 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: nis-00ffad7b104241e34
+specifics:
+  Description: Identify egress paths to Internet Gateways, Peering Connections, VPC
+    Endpoints, VPN and Transit Gateways from all of your VPCs.
+  Name: AWS-VPC-Egress (Amazon created)
+...
+

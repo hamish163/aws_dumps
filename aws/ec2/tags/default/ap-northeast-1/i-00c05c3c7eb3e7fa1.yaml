@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-00c05c3c7eb3e7fa1
+specifics:
+  Name: mbx-bnb-perf-blaster-engine-outbound5
+  biz: mbx
+  mbx_application_name: blaster
+  mbx_clustered_application: 'false'
+  mbx_env_name: perf
+  mbx_env_type: na
+  mbx_exchange_name: bnb
+  mbx_host_index: '5'
+  mbx_secret_store: asm
+  team: mbx
+...
+

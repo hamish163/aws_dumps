@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSIoTSiteWiseReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSIoTSiteWiseReadOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2018-12-04 20:55:11+00:00
+  DefaultVersionId: v5
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJLHEAFKME2QL64WKK
+  PolicyName: AWSIoTSiteWiseReadOnlyAccess
+  UpdateDate: 2026-02-12 18:00:49+00:00
+...
+

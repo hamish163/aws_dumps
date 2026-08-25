@@ -1,0 +1,28 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: masters.ap2.bitdj.com
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/masters.ap2.bitdj.com
+  CreateDate: 2018-12-21 14:17:35+00:00
+  InstanceProfileId: AIPAJYZIZ3VT36KLAHITY
+  InstanceProfileName: masters.ap2.bitdj.com
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/masters.ap2.bitdj.com
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+      Version: '2012-10-17'
+    CreateDate: 2018-12-21 14:17:26+00:00
+    Path: /
+    RoleId: AROAJIQZYGB3WOQZSIUS2
+    RoleName: masters.ap2.bitdj.com
+...
+

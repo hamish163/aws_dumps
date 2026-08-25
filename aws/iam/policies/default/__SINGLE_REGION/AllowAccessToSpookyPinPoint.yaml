@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AllowAccessToSpookyPinPoint
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/AllowAccessToSpookyPinPoint
+  AttachmentCount: 0
+  CreateDate: 2023-01-09 09:52:14+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5SKFWTHBHX
+  PolicyName: AllowAccessToSpookyPinPoint
+  UpdateDate: 2023-01-09 09:52:14+00:00
+...
+

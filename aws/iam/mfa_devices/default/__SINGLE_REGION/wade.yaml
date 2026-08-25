@@ -1,0 +1,17 @@
+---
+datatype: aws.iam.mfa_devices
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: wade
+  single_region: true
+specifics:
+  MFADevices:
+  - EnableDate: 2025-07-25 02:39:41+00:00
+    SerialNumber: arn:aws:iam::862793644923:mfa/duo
+    UserName: wade
+  - EnableDate: 2025-02-26 07:43:38+00:00
+    SerialNumber: arn:aws:iam::862793644923:mfa/wade-yubico
+    UserName: wade
+...
+

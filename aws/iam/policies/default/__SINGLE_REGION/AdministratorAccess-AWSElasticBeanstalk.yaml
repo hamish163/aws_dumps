@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AdministratorAccess-AWSElasticBeanstalk
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AdministratorAccess-AWSElasticBeanstalk
+  AttachmentCount: 0
+  CreateDate: 2021-01-22 19:36:54+00:00
+  DefaultVersionId: v10
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4AX52KWGWY
+  PolicyName: AdministratorAccess-AWSElasticBeanstalk
+  UpdateDate: 2026-05-19 20:12:27+00:00
+...
+

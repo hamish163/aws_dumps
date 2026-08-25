@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-019bb67d93ad4590f
+specifics:
+  Description: Allow TCP traffic from mgmt-api SG on port 7631
+  FromPort: 7631
+  GroupId: sg-0e5a2b29ed1103706
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-067efc65cc83241c5
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-019bb67d93ad4590f
+  Tags: []
+  ToPort: 7631
+...
+

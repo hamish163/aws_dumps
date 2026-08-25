@@ -1,0 +1,13 @@
+---
+datatype: aws.iam.user_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: paulh
+  single_region: true
+specifics:
+  PolicyNames:
+  - AllowASMaccess
+  - mbx-bnb-perf-test-asm-secret-full-access
+...
+

@@ -1,0 +1,22 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql16.rds_aurora.limitless_finalize_split_shard_mode
+specifics:
+  AllowedValues: user_initiated,immediate
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: The mode to be used for finalizing the limitless database shard split
+    operations.
+  IsModifiable: true
+  MinimumEngineVersion: '16.2'
+  ParameterName: rds_aurora.limitless_finalize_split_shard_mode
+  ParameterValue: user_initiated
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

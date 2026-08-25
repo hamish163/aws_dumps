@@ -1,0 +1,28 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: test-vault-aws-auth
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/test-vault-aws-auth
+  CreateDate: 2023-06-07 07:51:31+00:00
+  InstanceProfileId: AIPA4RYUCHN5XTWS5TKBJ
+  InstanceProfileName: test-vault-aws-auth
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/test-vault-aws-auth
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+      Version: '2012-10-17'
+    CreateDate: 2023-06-07 07:51:30+00:00
+    Path: /
+    RoleId: AROA4RYUCHN5RXAJ63CI3
+    RoleName: test-vault-aws-auth
+...
+

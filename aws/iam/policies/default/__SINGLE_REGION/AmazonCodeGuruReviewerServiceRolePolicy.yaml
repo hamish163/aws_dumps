@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonCodeGuruReviewerServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AmazonCodeGuruReviewerServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2019-12-03 05:31:12+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4NJY3GAUD2
+  PolicyName: AmazonCodeGuruReviewerServiceRolePolicy
+  UpdateDate: 2020-11-27 15:09:46+00:00
+...
+

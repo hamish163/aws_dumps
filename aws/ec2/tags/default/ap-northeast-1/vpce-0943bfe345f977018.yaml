@@ -1,0 +1,11 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vpce-0943bfe345f977018
+specifics:
+  Name: SH_services-jira-confluence-hris
+  team: mbx
+...
+

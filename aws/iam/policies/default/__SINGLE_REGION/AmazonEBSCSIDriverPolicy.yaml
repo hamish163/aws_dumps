@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonEBSCSIDriverPolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AmazonEBSCSIDriverPolicy
+  AttachmentCount: 4
+  CreateDate: 2022-04-04 17:24:29+00:00
+  DefaultVersionId: v15
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4IV6FHD2UE
+  PolicyName: AmazonEBSCSIDriverPolicy
+  UpdateDate: 2026-05-13 17:42:22+00:00
+...
+

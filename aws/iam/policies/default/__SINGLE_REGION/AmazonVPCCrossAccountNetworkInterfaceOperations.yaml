@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonVPCCrossAccountNetworkInterfaceOperations
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonVPCCrossAccountNetworkInterfaceOperations
+  AttachmentCount: 0
+  CreateDate: 2017-07-18 20:47:16+00:00
+  DefaultVersionId: v5
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAJ53Y4ZY5OHP4CNRJC
+  PolicyName: AmazonVPCCrossAccountNetworkInterfaceOperations
+  UpdateDate: 2023-09-25 15:12:17+00:00
+...
+

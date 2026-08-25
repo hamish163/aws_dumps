@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonDataZoneSageMakerManageAccessRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonDataZoneSageMakerManageAccessRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2024-04-23 23:34:52+00:00
+  DefaultVersionId: v4
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4GDFOKW2RW
+  PolicyName: AmazonDataZoneSageMakerManageAccessRolePolicy
+  UpdateDate: 2026-02-12 18:03:09+00:00
+...
+

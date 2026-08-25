@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.key_pairs
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: key-0dc7f9778d3c7e5d8
+specifics:
+  CreateTime: 2020-10-06 06:59:00+00:00
+  KeyFingerprint: 8e:35:56:3b:23:9c:8d:db:6c:b6:71:64:44:b4:50:10
+  KeyName: kubernetes.stage3.bitdj.com-f1:38:dc:d3:f7:e2:9f:86:e3:94:46:ec:7b:64:84:59
+  KeyPairId: key-0dc7f9778d3c7e5d8
+  KeyType: rsa
+  Tags: []
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSLambdaBasicDurableExecutionRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/AWSLambdaBasicDurableExecutionRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2025-12-02 15:04:12+00:00
+  DefaultVersionId: v3
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4HWJVJYCLW
+  PolicyName: AWSLambdaBasicDurableExecutionRolePolicy
+  UpdateDate: 2026-02-12 18:01:44+00:00
+...
+

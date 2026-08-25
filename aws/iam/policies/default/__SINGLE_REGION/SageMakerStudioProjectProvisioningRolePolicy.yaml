@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: SageMakerStudioProjectProvisioningRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/service-role/SageMakerStudioProjectProvisioningRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2024-11-20 21:58:39+00:00
+  DefaultVersionId: v82
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4NQZUIPVLH
+  PolicyName: SageMakerStudioProjectProvisioningRolePolicy
+  UpdateDate: 2026-08-24 20:37:11+00:00
+...
+

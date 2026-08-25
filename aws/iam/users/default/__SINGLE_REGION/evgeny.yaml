@@ -1,0 +1,16 @@
+---
+datatype: aws.iam.users
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: evgeny
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/evgeny
+  CreateDate: 2019-10-16 01:58:44+00:00
+  PasswordLastUsed: 2026-07-09 05:54:35+00:00
+  Path: /
+  UserId: AIDA4RYUCHN5VOWOKCF3N
+  UserName: evgeny
+...
+

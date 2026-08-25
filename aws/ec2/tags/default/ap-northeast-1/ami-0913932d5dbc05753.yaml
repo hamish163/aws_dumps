@@ -1,0 +1,23 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: ami-0913932d5dbc05753
+specifics:
+  GitAuthor: Mike 'Traff' Traffanstead <michael.t@binance.com>
+  GitCommitter: Mike 'Traff' Traffanstead <michael.t@binance.com>
+  GitHash: 9291fc8017609d127dbc974bcc0f8db6a351682d
+  GitMessage: 'Restructure, reformat, automate source amis, add tags, add some recommended
+    settings (ena, srvio, imds, etc.)
+
+    '
+  GitTimestamp: '2024-09-12T05:28:59Z'
+  biz: mbx
+  env_type: devops
+  managed: packer
+  project: mbx
+  role: ami-oci-builder
+  team: devops
+...
+

@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-devops-eks1-yace
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/mbx-bnb-devops-eks1-yace
+  AttachmentCount: 1
+  CreateDate: 2026-03-03 00:00:26+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5VOAYZXTIP
+  PolicyName: mbx-bnb-devops-eks1-yace
+  UpdateDate: 2026-03-03 00:00:26+00:00
+...
+

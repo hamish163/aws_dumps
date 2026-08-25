@@ -1,0 +1,23 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-accounts-cluster-pg.aurora_pq
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: This parameter can be used to enable and disable Aurora Parallel Query.
+    The parameter is deprecated as of release 1.23.0. In release 1.23.0 and later,
+    use parameter aurora_parallel_query instead.
+  IsModifiable: true
+  MinimumEngineVersion: 5.6.parallelquery_10a
+  ParameterName: aurora_pq
+  ParameterValue: '1'
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

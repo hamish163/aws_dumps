@@ -1,0 +1,13 @@
+---
+datatype: aws.iam.role_tags
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSAppConfigServiceRole-test
+  single_region: true
+specifics:
+  project: spooky
+  team: mbx
+  team.mbx: sre
+...
+

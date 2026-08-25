@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: allowGetAthenaVisionOutput
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/allowGetAthenaVisionOutput
+  AttachmentCount: 3
+  CreateDate: 2021-02-04 03:36:55+00:00
+  DefaultVersionId: v7
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5W5JJMPMVI
+  PolicyName: allowGetAthenaVisionOutput
+  UpdateDate: 2024-03-14 14:34:01+00:00
+...
+

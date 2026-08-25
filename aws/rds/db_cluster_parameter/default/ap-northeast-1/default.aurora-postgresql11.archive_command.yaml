@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql11.archive_command
+specifics:
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Sets the shell command that will be called to archive a WAL file.
+  IsModifiable: false
+  ParameterName: archive_command
+  ParameterValue: /etc/rds/dbbin/pgscripts/rds_wal_archive %p
+  Source: system
+  SupportedEngineModes:
+  - provisioned
+...
+

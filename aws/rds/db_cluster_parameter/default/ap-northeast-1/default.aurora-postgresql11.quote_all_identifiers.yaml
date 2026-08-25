@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: default.aurora-postgresql11.quote_all_identifiers
+specifics:
+  AllowedValues: 0,1
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: boolean
+  Description: When generating SQL fragments, quote all identifiers.
+  IsModifiable: true
+  ParameterName: quote_all_identifiers
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+  - serverless
+...
+

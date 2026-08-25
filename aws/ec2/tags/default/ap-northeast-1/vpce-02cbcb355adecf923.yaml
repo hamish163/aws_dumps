@@ -1,0 +1,14 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vpce-02cbcb355adecf923
+specifics:
+  Name: mbx_webtools
+  SH_team_contact: David (Infra-Tech), Ben Wu
+  biz: mbx
+  endpoint: https://web.devfdg.net/
+  team: mbx
+...
+

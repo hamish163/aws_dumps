@@ -1,0 +1,28 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-perf-jmeter
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/mbx-bnb-perf-jmeter
+  CreateDate: 2024-07-18 14:53:11+00:00
+  InstanceProfileId: AIPA4RYUCHN5ZWBZBX3Q7
+  InstanceProfileName: mbx-bnb-perf-jmeter
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/mbx-bnb-perf-jmeter
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+      Version: '2012-10-17'
+    CreateDate: 2024-07-18 14:53:10+00:00
+    Path: /
+    RoleId: AROA4RYUCHN56EO4NBYTI
+    RoleName: mbx-bnb-perf-jmeter
+...
+

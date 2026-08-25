@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonBedrockMantleFullAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AmazonBedrockMantleFullAccess
+  AttachmentCount: 0
+  CreateDate: 2025-12-04 07:19:09+00:00
+  DefaultVersionId: v5
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4LNP2QFHX7
+  PolicyName: AmazonBedrockMantleFullAccess
+  UpdateDate: 2026-08-04 04:42:21+00:00
+...
+

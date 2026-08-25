@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AmazonBedrockAgentCoreHarnessExecutionPolicy_7moc4
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/service-role/AmazonBedrockAgentCoreHarnessExecutionPolicy_7moc4
+  AttachmentCount: 1
+  CreateDate: 2026-08-06 14:41:43+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5Y7Y3RLQMV
+  PolicyName: AmazonBedrockAgentCoreHarnessExecutionPolicy_7moc4
+  UpdateDate: 2026-08-06 14:41:43+00:00
+...
+

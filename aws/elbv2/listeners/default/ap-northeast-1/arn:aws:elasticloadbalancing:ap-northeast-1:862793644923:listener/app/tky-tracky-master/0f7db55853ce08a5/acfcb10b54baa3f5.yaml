@@ -1,0 +1,24 @@
+---
+datatype: aws.elbv2.listeners
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener/app/tky-tracky-master/0f7db55853ce08a5/acfcb10b54baa3f5
+specifics:
+  Certificates:
+  - CertificateArn: arn:aws:acm:ap-northeast-1:862793644923:certificate/8450e44d-01c8-45fe-8c73-29cec268ac6e
+  DefaultActions:
+  - FixedResponseConfig:
+      ContentType: application/javascript
+      StatusCode: '404'
+    Order: 1
+    Type: fixed-response
+  ListenerArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:listener/app/tky-tracky-master/0f7db55853ce08a5/acfcb10b54baa3f5
+  LoadBalancerArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:loadbalancer/app/tky-tracky-master/0f7db55853ce08a5
+  MutualAuthentication:
+    Mode: 'off'
+  Port: 443
+  Protocol: HTTPS
+  SslPolicy: ELBSecurityPolicy-2016-08
+...
+

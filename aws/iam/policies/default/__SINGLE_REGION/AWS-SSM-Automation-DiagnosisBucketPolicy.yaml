@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWS-SSM-Automation-DiagnosisBucketPolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWS-SSM-Automation-DiagnosisBucketPolicy
+  AttachmentCount: 0
+  CreateDate: 2024-11-15 23:31:17+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4IAEITR63G
+  PolicyName: AWS-SSM-Automation-DiagnosisBucketPolicy
+  UpdateDate: 2024-11-15 23:31:17+00:00
+...
+

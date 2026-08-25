@@ -1,0 +1,21 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-swapchop-cluster-pg.performance_schema_max_sql_text_length
+specifics:
+  AllowedValues: -1-1048576
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: The maximum number of bytes used to store SQL statements in the SQL_TEXT
+    column of the events_statements_current, events_statements_history, and events_statements_history_long
+    statement event tables.
+  IsModifiable: true
+  ParameterName: performance_schema_max_sql_text_length
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

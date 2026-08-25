@@ -1,0 +1,88 @@
+---
+datatype: aws.rds.db_instance
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-sre-vizzy-1
+specifics:
+  AllocatedStorage: 1
+  AssociatedRoles: []
+  AutoMinorVersionUpgrade: true
+  AvailabilityZone: ap-northeast-1c
+  BackupRetentionPeriod: 1
+  BackupTarget: region
+  CopyTagsToSnapshot: false
+  CustomerOwnedIpEnabled: false
+  DBClusterIdentifier: mbx-bnb-sre-vizzy
+  DBInstanceArn: arn:aws:rds:ap-northeast-1:862793644923:db:mbx-bnb-sre-vizzy-1
+  DBInstanceClass: db.serverless
+  DBInstanceIdentifier: mbx-bnb-sre-vizzy-1
+  DBInstanceStatus: available
+  DBParameterGroups:
+  - DBParameterGroupName: default.neptune1.4
+    ParameterApplyStatus: in-sync
+  DBSecurityGroups: []
+  DBSubnetGroup:
+    DBSubnetGroupDescription: Managed by Terraform
+    DBSubnetGroupName: mbx-bnb-sre-vizzy
+    SubnetGroupStatus: Complete
+    Subnets:
+    - SubnetAvailabilityZone:
+        Name: ap-northeast-1a
+      SubnetIdentifier: subnet-092b2a8803fe80577
+      SubnetOutpost: {}
+      SubnetStatus: Active
+    - SubnetAvailabilityZone:
+        Name: ap-northeast-1c
+      SubnetIdentifier: subnet-087722e2881b48d12
+      SubnetOutpost: {}
+      SubnetStatus: Active
+    VpcId: vpc-0ba76150fc7799f94
+  DbInstancePort: 0
+  DbiResourceId: db-CXGXY62TDF75JDAGHNH7EKJS5U
+  DedicatedLogVolume: false
+  DeletionProtection: false
+  DomainMemberships: []
+  Endpoint:
+    Address: mbx-bnb-sre-vizzy-1.cvmjht5arg7h.ap-northeast-1.neptune.amazonaws.com
+    HostedZoneId: Z18TTAJO2K2WSU
+    Port: 8182
+  Engine: neptune
+  EngineVersion: 1.4.5.1
+  IAMDatabaseAuthenticationEnabled: true
+  InstanceCreateTime: 2025-08-25 06:15:41.587000+00:00
+  KmsKeyId: arn:aws:kms:ap-northeast-1:862793644923:key/4d70afbb-e9b9-4bb7-83f2-8de31f8a5460
+  LicenseModel: amazon-license
+  MasterUsername: admin
+  MonitoringInterval: 0
+  MultiAZ: false
+  NetworkType: IPV4
+  OptionGroupMemberships:
+  - OptionGroupName: default:neptune-1-4
+    Status: in-sync
+  PendingModifiedValues: {}
+  PerformanceInsightsEnabled: false
+  PreferredBackupWindow: 17:06-17:36
+  PreferredMaintenanceWindow: wed:20:06-wed:20:36
+  PromotionTier: 1
+  PubliclyAccessible: false
+  ReadReplicaDBInstanceIdentifiers: []
+  StorageEncrypted: true
+  StorageThroughput: 0
+  StorageType: standard
+  TagList:
+  - Key: mbx_env_name
+    Value: sre
+  - Key: biz
+    Value: mbx
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  - Key: Name
+    Value: mbx-bnb-sre-vizzy-1
+  VpcSecurityGroups:
+  - Status: active
+    VpcSecurityGroupId: sg-0993f267fbe52d160
+...
+

@@ -1,0 +1,29 @@
+---
+datatype: aws.elbv2.target_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: prod-portal-mbxvpn-tg
+specifics:
+  HealthCheckEnabled: true
+  HealthCheckIntervalSeconds: 30
+  HealthCheckPath: /
+  HealthCheckPort: traffic-port
+  HealthCheckProtocol: HTTP
+  HealthCheckTimeoutSeconds: 5
+  HealthyThresholdCount: 5
+  IpAddressType: ipv4
+  LoadBalancerArns:
+  - arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:loadbalancer/app/prod-mbx-portal-mbxvpn-lb/6f0bdd09372016ca
+  Matcher:
+    HttpCode: '200'
+  Port: 8000
+  Protocol: HTTP
+  ProtocolVersion: HTTP1
+  TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/prod-portal-mbxvpn-tg/7f21dad0a8a2eaed
+  TargetGroupName: prod-portal-mbxvpn-tg
+  TargetType: instance
+  UnhealthyThresholdCount: 2
+  VpcId: vpc-03f5d2495fd8d95a3
+...
+

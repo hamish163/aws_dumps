@@ -1,0 +1,16 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0c62d975f1476c817
+specifics:
+  Description: Secondary security group for nginx-ingress ELB
+  GroupId: sg-0c62d975f1476c817
+  GroupName: nginx-ingress.tracky.bitdj.com
+  Tags:
+  - Key: Name
+    Value: nginx-ingress.tracky.bitdj.com
+  VpcId: vpc-03f5d2495fd8d95a3
+...
+

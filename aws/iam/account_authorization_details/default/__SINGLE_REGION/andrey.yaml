@@ -1,0 +1,43 @@
+---
+datatype: aws.iam.account_authorization_details
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: andrey
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:user/andrey
+  AttachedManagedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/QaTungstenInvocationPolicy
+    PolicyName: QaTungstenInvocationPolicy
+  - PolicyArn: arn:aws:iam::862793644923:policy/mbx_bedrock_keys_individual_list_reset
+    PolicyName: mbx_bedrock_keys_individual_list_reset
+  CreateDate: 2023-02-03 09:20:41+00:00
+  GroupList:
+  - developer
+  - mbx_bedrock
+  - DEVOPS_TEAM_RO
+  Path: /
+  Tags:
+  - Key: mbx_team
+    Value: dev
+  - Key: mbx_iam
+    Value: andrey
+  - Key: biz
+    Value: mbx
+  - Key: team
+    Value: mbx
+  UserId: AIDA4RYUCHN56XJKUX4SN
+  UserName: andrey
+  UserPolicyList:
+  - PolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Resource:
+        - arn:aws:iam::369096419186:role/AllowAccessJournalsBucketFromBitdj
+        Sid: VisualEditor0
+      Version: '2012-10-17'
+    PolicyName: SwitchRoleAccessForProd
+...
+

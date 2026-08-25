@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSMediaTailorServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AWSMediaTailorServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2021-09-17 22:27:10+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4N46XCSH76
+  PolicyName: AWSMediaTailorServiceRolePolicy
+  UpdateDate: 2021-09-17 22:27:10+00:00
+...
+

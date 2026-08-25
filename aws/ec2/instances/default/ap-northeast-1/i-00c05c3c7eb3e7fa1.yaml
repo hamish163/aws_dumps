@@ -1,0 +1,145 @@
+---
+datatype: aws.ec2.instances
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-00c05c3c7eb3e7fa1
+specifics:
+  AmiLaunchIndex: 0
+  Architecture: arm64
+  BlockDeviceMappings:
+  - DeviceName: /dev/xvda
+    Ebs:
+      AttachTime: 2025-05-27 04:39:43+00:00
+      DeleteOnTermination: true
+      Status: attached
+      VolumeId: vol-09d42909c54b514d5
+  - DeviceName: /dev/sdf
+    Ebs:
+      AttachTime: 2025-05-27 04:40:15.620000+00:00
+      DeleteOnTermination: false
+      Status: attached
+      VolumeId: vol-0661c08d658b61c32
+  BootMode: uefi
+  CapacityReservationSpecification:
+    CapacityReservationPreference: open
+  ClientToken: terraform-20250527043941583700000001
+  CpuOptions:
+    CoreCount: 32
+    ThreadsPerCore: 1
+  CurrentInstanceBootMode: uefi
+  EbsOptimized: true
+  EnaSupport: true
+  EnclaveOptions:
+    Enabled: false
+  HibernationOptions:
+    Configured: false
+  Hypervisor: xen
+  IamInstanceProfile:
+    Arn: arn:aws:iam::862793644923:instance-profile/mbx-bnb-perf-blaster-engine-outbound
+    Id: AIPA4RYUCHN5QPA5DFQBN
+  ImageId: ami-08076c63372e153f3
+  InstanceId: i-00c05c3c7eb3e7fa1
+  InstanceType: c7gn.8xlarge
+  LaunchTime: 2025-05-27 04:39:42+00:00
+  MaintenanceOptions:
+    AutoRecovery: default
+  MetadataOptions:
+    HttpEndpoint: enabled
+    HttpProtocolIpv6: disabled
+    HttpPutResponseHopLimit: 2
+    HttpTokens: required
+    InstanceMetadataTags: enabled
+    State: applied
+  Monitoring:
+    State: disabled
+  NetworkInterfaces:
+  - Attachment:
+      AttachTime: 2025-05-27 04:39:42+00:00
+      AttachmentId: eni-attach-04f9a7a63f3b89add
+      DeleteOnTermination: true
+      DeviceIndex: 0
+      NetworkCardIndex: 0
+      Status: attached
+    Description: ''
+    Groups:
+    - GroupId: sg-0245d0e0615396ed5
+      GroupName: mbx-bnb-perf-blaster-engine-outbound
+    - GroupId: sg-0930fe36728a6e31a
+      GroupName: mbx-bnb-perf-monitoring
+    - GroupId: sg-011d3bdd31cc014b3
+      GroupName: mbx-bnb-perf-default
+    InterfaceType: interface
+    Ipv6Addresses: []
+    MacAddress: 06:c8:cc:37:73:89
+    NetworkInterfaceId: eni-0db43f007dfb8472b
+    OwnerId: '862793644923'
+    PrivateDnsName: ip-10-170-19-170.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.170.19.170
+    PrivateIpAddresses:
+    - Primary: true
+      PrivateDnsName: ip-10-170-19-170.ap-northeast-1.compute.internal
+      PrivateIpAddress: 10.170.19.170
+    SourceDestCheck: true
+    Status: in-use
+    SubnetId: subnet-09134100e474d8109
+    VpcId: vpc-013930e589c469574
+  Placement:
+    AvailabilityZone: ap-northeast-1a
+    GroupId: pg-08f1d09fabee1d117
+    GroupName: mbx-bnb-perf-az-1a
+    Tenancy: default
+  PlatformDetails: Linux/UNIX
+  PrivateDnsName: ip-10-170-19-170.ap-northeast-1.compute.internal
+  PrivateDnsNameOptions:
+    EnableResourceNameDnsAAAARecord: false
+    EnableResourceNameDnsARecord: false
+    HostnameType: ip-name
+  PrivateIpAddress: 10.170.19.170
+  ProductCodes: []
+  PublicDnsName: ''
+  RootDeviceName: /dev/xvda
+  RootDeviceType: ebs
+  SecurityGroups:
+  - GroupId: sg-0245d0e0615396ed5
+    GroupName: mbx-bnb-perf-blaster-engine-outbound
+  - GroupId: sg-0930fe36728a6e31a
+    GroupName: mbx-bnb-perf-monitoring
+  - GroupId: sg-011d3bdd31cc014b3
+    GroupName: mbx-bnb-perf-default
+  SourceDestCheck: true
+  State:
+    Code: 80
+    Name: stopped
+  StateReason:
+    Code: Client.UserInitiatedShutdown
+    Message: 'Client.UserInitiatedShutdown: User initiated shutdown'
+  StateTransitionReason: User initiated (2026-07-14 08:39:53 GMT)
+  SubnetId: subnet-09134100e474d8109
+  Tags:
+  - Key: Name
+    Value: mbx-bnb-perf-blaster-engine-outbound5
+  - Key: biz
+    Value: mbx
+  - Key: mbx_application_name
+    Value: blaster
+  - Key: mbx_clustered_application
+    Value: 'false'
+  - Key: mbx_env_name
+    Value: perf
+  - Key: mbx_env_type
+    Value: na
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_host_index
+    Value: '5'
+  - Key: mbx_secret_store
+    Value: asm
+  - Key: team
+    Value: mbx
+  UsageOperation: RunInstances
+  UsageOperationUpdateTime: 2025-05-27 04:39:42+00:00
+  VirtualizationType: hvm
+  VpcId: vpc-013930e589c469574
+...
+

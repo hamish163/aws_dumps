@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSXrayReadOnlyAccess
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSXrayReadOnlyAccess
+  AttachmentCount: 0
+  CreateDate: 2016-12-01 18:27:02+00:00
+  DefaultVersionId: v8
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAIH4OFXWPS6ZX6OPGQ
+  PolicyName: AWSXrayReadOnlyAccess
+  UpdateDate: 2024-02-14 00:35:02+00:00
+...
+

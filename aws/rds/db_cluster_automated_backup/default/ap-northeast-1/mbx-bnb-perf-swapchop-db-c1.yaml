@@ -1,0 +1,33 @@
+---
+datatype: aws.rds.db_cluster_automated_backup
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-perf-swapchop-db-c1
+specifics:
+  AllocatedStorage: 1
+  AvailabilityZones:
+  - ap-northeast-1c
+  - ap-northeast-1d
+  - ap-northeast-1a
+  BackupRetentionPeriod: 7
+  ClusterCreateTime: 2026-07-16 10:04:48+00:00
+  DBClusterArn: arn:aws:rds:ap-northeast-1:862793644923:cluster:mbx-bnb-perf-swapchop-db-c1
+  DBClusterAutomatedBackupsArn: arn:aws:rds:ap-northeast-1:862793644923:cluster-auto-backup:cab-hvxq6cck6yqpdep5lw2n7oxh2rjgab2cxtlnc5pnkeqbw6vji2n3ozgoub4odz65
+  DBClusterIdentifier: mbx-bnb-perf-swapchop-db-c1
+  DbClusterResourceId: cluster-HVXQ6CCK6YQPDEP5LW2N7OXH2Q
+  Engine: aurora-mysql
+  EngineMode: provisioned
+  EngineVersion: 8.0.mysql_aurora.3.10.4
+  IAMDatabaseAuthenticationEnabled: false
+  KmsKeyId: arn:aws:kms:ap-northeast-1:862793644923:key/4d70afbb-e9b9-4bb7-83f2-8de31f8a5460
+  MasterUsername: mbxprd
+  Port: 3306
+  Region: apne-1
+  RestoreWindow:
+    EarliestTime: 2026-08-17 14:01:21.592000+00:00
+    LatestTime: 2026-08-25 01:28:13.628000+00:00
+  Status: active
+  StorageEncrypted: true
+...
+

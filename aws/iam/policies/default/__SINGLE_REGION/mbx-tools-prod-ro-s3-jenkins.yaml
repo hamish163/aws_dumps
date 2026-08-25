@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-tools-prod-ro-s3-jenkins
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:policy/mbx-tools-prod-ro-s3-jenkins
+  AttachmentCount: 1
+  CreateDate: 2026-06-11 10:28:53+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPA4RYUCHN5XH2HESGV7
+  PolicyName: mbx-tools-prod-ro-s3-jenkins
+  UpdateDate: 2026-06-11 10:28:53+00:00
+...
+

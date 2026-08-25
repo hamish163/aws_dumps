@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: perf-dev-mbx-orders-cluster-pg-80.delay_key_write
+specifics:
+  AllowedValues: OFF,ON,ALL
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: string
+  Description: Determines when keys are flushed for MyISAM tables
+  IsModifiable: true
+  ParameterName: delay_key_write
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

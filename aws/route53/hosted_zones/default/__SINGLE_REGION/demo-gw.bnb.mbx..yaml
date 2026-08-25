@@ -1,0 +1,17 @@
+---
+datatype: aws.route53.hosted_zones
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: demo-gw.bnb.mbx.
+  single_region: true
+specifics:
+  CallerReference: terraform-20260617085148532700000003
+  Config:
+    Comment: Managed by Terraform
+    PrivateZone: true
+  Id: /hostedzone/Z06209641LUHBC66OGIY
+  Name: demo-gw.bnb.mbx.
+  ResourceRecordSetCount: 4
+...
+

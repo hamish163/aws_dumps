@@ -1,0 +1,86 @@
+---
+datatype: aws.ec2.route_tables
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rtb-0251e4f3d30d40e99
+specifics:
+  Associations:
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-06c5572dc85a25e8e
+    RouteTableId: rtb-0251e4f3d30d40e99
+    SubnetId: subnet-0fb4bfe27a30baf27
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-095ff0ac0abfceb80
+    RouteTableId: rtb-0251e4f3d30d40e99
+    SubnetId: subnet-0dd384f4778993aad
+  OwnerId: '862793644923'
+  PropagatingVgws: []
+  RouteTableId: rtb-0251e4f3d30d40e99
+  Routes:
+  - DestinationCidrBlock: 10.210.16.0/20
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-04bdea66620ddce9b
+  - DestinationCidrBlock: 10.220.16.0/20
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-0349555d3be327dc3
+  - DestinationCidrBlock: 172.20.0.0/16
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-065843cbe2336f289
+  - DestinationCidrBlock: 172.21.0.0/16
+    Origin: CreateRoute
+    State: blackhole
+    VpcPeeringConnectionId: pcx-064fbb96a28c00171
+  - DestinationCidrBlock: 172.27.0.0/16
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-03c720e7be501b0cc
+  - DestinationCidrBlock: 10.21.0.0/16
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-0b242cd31726e34aa
+  - DestinationCidrBlock: 10.54.0.0/16
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-00022b8d66a4030a7
+  - DestinationCidrBlock: 10.57.0.0/16
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-008dbf2edf5feac9d
+  - DestinationCidrBlock: 10.80.0.0/16
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-0ec3a9ce285090a3a
+  - DestinationCidrBlock: 10.100.0.0/16
+    Origin: CreateRoute
+    State: blackhole
+    VpcPeeringConnectionId: pcx-0dffa14fe76985516
+  - DestinationCidrBlock: 10.139.0.0/16
+    Origin: CreateRoute
+    State: active
+    VpcPeeringConnectionId: pcx-08c90cd9f6fc869ef
+  - DestinationCidrBlock: 10.143.0.0/16
+    GatewayId: local
+    Origin: CreateRouteTable
+    State: active
+  - DestinationCidrBlock: 10.0.0.0/8
+    Origin: CreateRoute
+    State: active
+    TransitGatewayId: tgw-094ec8a8749ab72d4
+  - DestinationCidrBlock: 0.0.0.0/0
+    NatGatewayId: nat-016ecd9e7f81911d5
+    Origin: CreateRoute
+    State: active
+  Tags:
+  - Key: Name
+    Value: saltmaster-vpc-private-ap-northeast-1a
+  VpcId: vpc-097095a8b70ef6727
+...
+

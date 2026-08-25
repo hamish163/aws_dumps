@@ -1,0 +1,10 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: nip-034b3bc0b6296c774
+specifics:
+  Name: mbx-bnb-solutions-eks1-pod-to-rest-api-ai
+...
+

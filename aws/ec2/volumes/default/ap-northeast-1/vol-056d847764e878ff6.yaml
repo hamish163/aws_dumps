@@ -1,0 +1,42 @@
+---
+datatype: aws.ec2.volumes
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-056d847764e878ff6
+specifics:
+  Attachments:
+  - AttachTime: 2025-10-02 13:07:48+00:00
+    DeleteOnTermination: true
+    Device: /dev/xvda
+    InstanceId: i-025fe4e7995cc4de3
+    State: attached
+    VolumeId: vol-056d847764e878ff6
+  AvailabilityZone: ap-northeast-1a
+  CreateTime: 2025-10-02 13:07:48.976000+00:00
+  Encrypted: false
+  Iops: 3000
+  MultiAttachEnabled: false
+  Size: 40
+  SnapshotId: snap-03e353770bfa93533
+  State: in-use
+  Tags:
+  - Key: mbx_host_index
+    Value: '1'
+  - Key: mbx_secret_store
+    Value: none
+  - Key: Name
+    Value: mbx-bnb-devops-redmine1
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  - Key: mbx_env_name
+    Value: devops
+  - Key: mbx_exchange_name
+    Value: bnb
+  Throughput: 125
+  VolumeId: vol-056d847764e878ff6
+  VolumeType: gp3
+...
+

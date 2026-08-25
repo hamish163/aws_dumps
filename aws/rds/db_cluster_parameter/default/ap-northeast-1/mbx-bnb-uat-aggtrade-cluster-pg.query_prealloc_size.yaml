@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-aggtrade-cluster-pg.query_prealloc_size
+specifics:
+  AllowedValues: 8192-18446744073709547520
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: integer
+  Description: Increased size might help improve perf for complex queries (i.e. Reduces
+    server memory allocation)
+  IsModifiable: true
+  ParameterName: query_prealloc_size
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

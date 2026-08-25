@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSAuditManagerServiceRolePolicy
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/aws-service-role/AWSAuditManagerServiceRolePolicy
+  AttachmentCount: 0
+  CreateDate: 2020-12-08 15:12:12+00:00
+  DefaultVersionId: v11
+  IsAttachable: true
+  Path: /aws-service-role/
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4C5N52UWST
+  PolicyName: AWSAuditManagerServiceRolePolicy
+  UpdateDate: 2026-06-02 20:12:13+00:00
+...
+

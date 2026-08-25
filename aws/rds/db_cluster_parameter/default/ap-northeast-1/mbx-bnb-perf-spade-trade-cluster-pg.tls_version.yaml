@@ -1,0 +1,19 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-perf-spade-trade-cluster-pg.tls_version
+specifics:
+  AllowedValues: TLSv1,TLSv1.1,TLSv1.2,TLSv1.3
+  ApplyMethod: pending-reboot
+  ApplyType: dynamic
+  DataType: list
+  Description: The protocols permitted by the server for encrypted connections.
+  IsModifiable: true
+  ParameterName: tls_version
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

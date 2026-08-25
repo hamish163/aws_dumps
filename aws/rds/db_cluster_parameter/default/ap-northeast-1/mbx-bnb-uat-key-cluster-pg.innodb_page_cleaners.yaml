@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-uat-key-cluster-pg.innodb_page_cleaners
+specifics:
+  AllowedValues: 1-64
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: The number of page cleaner threads that flush dirty pages from buffer
+    pool instances.
+  IsModifiable: true
+  ParameterName: innodb_page_cleaners
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

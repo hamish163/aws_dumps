@@ -1,0 +1,38 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-0b6929c12b76b83b7
+specifics:
+  Attachment:
+    AttachmentId: ela-attach-037e5f4a7752cadd1
+    DeleteOnTermination: false
+    DeviceIndex: 1
+    InstanceOwnerId: amazon-aws
+    Status: attached
+  AvailabilityZone: ap-northeast-1c
+  Description: VPC Endpoint Interface vpce-0dbafbe1ebd10b08b
+  Groups:
+  - GroupId: sg-06baaab88a40823d7
+    GroupName: VPNForFuturesCrates
+  InterfaceType: vpc_endpoint
+  Ipv6Addresses: []
+  MacAddress: 0a:07:08:9a:65:03
+  NetworkInterfaceId: eni-0b6929c12b76b83b7
+  OwnerId: '862793644923'
+  PrivateDnsName: ip-10-12-0-50.ap-northeast-1.compute.internal
+  PrivateIpAddress: 10.12.0.50
+  PrivateIpAddresses:
+  - Primary: true
+    PrivateDnsName: ip-10-12-0-50.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.12.0.50
+  RequesterId: '727180483921'
+  RequesterManaged: true
+  SourceDestCheck: true
+  Status: in-use
+  SubnetId: subnet-01ca32129199dd40a
+  TagSet: []
+  VpcId: vpc-0beab044be33d1617
+...
+

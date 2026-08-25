@@ -1,0 +1,20 @@
+---
+datatype: aws.rds.db_cluster_parameter
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: mbx-bnb-solutions-telegrambot-postgres-cluster-pg.commit_timestamp_buffers
+specifics:
+  AllowedValues: 0-131072
+  ApplyMethod: pending-reboot
+  ApplyType: static
+  DataType: integer
+  Description: Sets the size of the dedicated buffer pool used for the commit timestamp
+    cache.
+  IsModifiable: true
+  ParameterName: commit_timestamp_buffers
+  Source: engine-default
+  SupportedEngineModes:
+  - provisioned
+...
+

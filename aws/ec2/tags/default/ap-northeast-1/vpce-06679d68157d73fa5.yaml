@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vpce-06679d68157d73fa5
+specifics:
+  Name: mbx-bnb-clientvpn-to-prometheus-prod-usa
+  biz: mbx
+  managed_from: bnb/clientvpn/privatelink/endpoints/prometheus_prod_usa
+  mbx_env_name: clientvpn
+  mbx_exchange_name: bnb
+  team: mbx
+...
+

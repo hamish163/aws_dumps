@@ -1,0 +1,21 @@
+---
+datatype: aws.elbv2.target_health
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-solutions-mcp-srv-tg/c8e9c98bd1f2f3fa
+specifics:
+  TargetHealthDescriptions:
+    i-0b691ca210b2286be/8000:
+      HealthCheckPort: '8000'
+      Target:
+        Id: i-0b691ca210b2286be
+        Port: 8000
+    i-0cbb45cb6b0b8caa9/8000:
+      HealthCheckPort: '8000'
+      Target:
+        Id: i-0cbb45cb6b0b8caa9
+        Port: 8000
+  _arn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-solutions-mcp-srv-tg/c8e9c98bd1f2f3fa
+...
+

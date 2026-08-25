@@ -1,0 +1,13 @@
+---
+datatype: aws.iam.attached_role_policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-perf-convert-to-epochtime-role-6rx95p17
+  single_region: true
+specifics:
+  AttachedPolicies:
+  - PolicyArn: arn:aws:iam::862793644923:policy/service-role/AWSLambdaBasicExecutionRole-ff5c1ccf-5468-4369-80f3-cc4225b46cd5
+    PolicyName: AWSLambdaBasicExecutionRole-ff5c1ccf-5468-4369-80f3-cc4225b46cd5
+...
+

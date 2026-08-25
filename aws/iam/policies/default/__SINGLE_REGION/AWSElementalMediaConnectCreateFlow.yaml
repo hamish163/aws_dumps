@@ -1,0 +1,20 @@
+---
+datatype: aws.iam.policies
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: AWSElementalMediaConnectCreateFlow
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::aws:policy/AWSElementalMediaConnectCreateFlow
+  AttachmentCount: 0
+  CreateDate: 2026-03-19 16:57:07+00:00
+  DefaultVersionId: v1
+  IsAttachable: true
+  Path: /
+  PermissionsBoundaryUsageCount: 0
+  PolicyId: ANPAZKAPJZG4FWZAT6OCL
+  PolicyName: AWSElementalMediaConnectCreateFlow
+  UpdateDate: 2026-03-19 16:57:07+00:00
+...
+
