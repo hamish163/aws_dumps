@@ -54,6 +54,8 @@ specifics:
     Value: mbx
   - Key: biz
     Value: mbx
+  - Key: role
+    Value: client
   VpcId: vpc-0e8d78d562c500d57
 ...
 

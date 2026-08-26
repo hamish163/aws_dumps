@@ -11,6 +11,7 @@ specifics:
   mbx_env_name: colo-perf
   mbx_exchange_name: bnb
   mbx_secret_store: none
+  role: client
   team: mbx
 ...
 

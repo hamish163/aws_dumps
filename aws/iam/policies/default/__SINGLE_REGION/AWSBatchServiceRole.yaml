@@ -9,12 +9,12 @@ specifics:
   Arn: arn:aws:iam::aws:policy/service-role/AWSBatchServiceRole
   AttachmentCount: 2
   CreateDate: 2016-12-06 19:36:24+00:00
-  DefaultVersionId: v13
+  DefaultVersionId: v14
   IsAttachable: true
   Path: /service-role/
   PermissionsBoundaryUsageCount: 0
   PolicyId: ANPAIUETIXPCKASQJURFE
   PolicyName: AWSBatchServiceRole
-  UpdateDate: 2023-12-05 18:49:44+00:00
+  UpdateDate: 2026-08-25 22:27:28+00:00
 ...
 

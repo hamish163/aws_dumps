@@ -1,0 +1,16 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-074fa99a0913f7da6
+specifics:
+  Name: mbx-bnb-devops-kline-aor-push1
+  biz: mbx
+  mbx_application_name: mbx-data-kline
+  mbx_env_name: devops
+  mbx_exchange_name: bnb
+  mbx_secret_store: asm
+  team: mbx
+...
+

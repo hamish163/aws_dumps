@@ -99,14 +99,14 @@ specifics:
       PrivateDnsName: ip-10-200-19-239.ap-northeast-1.compute.internal
       PrivateIpAddress: 10.200.19.239
     - Primary: false
-      PrivateDnsName: ip-10-200-19-15.ap-northeast-1.compute.internal
-      PrivateIpAddress: 10.200.19.15
-    - Primary: false
-      PrivateDnsName: ip-10-200-19-144.ap-northeast-1.compute.internal
-      PrivateIpAddress: 10.200.19.144
+      PrivateDnsName: ip-10-200-19-218.ap-northeast-1.compute.internal
+      PrivateIpAddress: 10.200.19.218
     - Primary: false
       PrivateDnsName: ip-10-200-19-201.ap-northeast-1.compute.internal
       PrivateIpAddress: 10.200.19.201
+    - Primary: false
+      PrivateDnsName: ip-10-200-19-224.ap-northeast-1.compute.internal
+      PrivateIpAddress: 10.200.19.224
     SourceDestCheck: true
     Status: in-use
     SubnetId: subnet-0c188e95cfba03f63

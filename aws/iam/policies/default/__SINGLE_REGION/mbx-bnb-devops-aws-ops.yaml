@@ -9,12 +9,12 @@ specifics:
   Arn: arn:aws:iam::862793644923:policy/mbx-bnb-devops-aws-ops
   AttachmentCount: 1
   CreateDate: 2026-01-19 12:04:29+00:00
-  DefaultVersionId: v17
+  DefaultVersionId: v13
   IsAttachable: true
   Path: /
   PermissionsBoundaryUsageCount: 0
   PolicyId: ANPA4RYUCHN5STMPEVFTT
   PolicyName: mbx-bnb-devops-aws-ops
-  UpdateDate: 2026-08-24 09:53:32+00:00
+  UpdateDate: 2026-08-25 11:26:07+00:00
 ...
 

@@ -114,6 +114,36 @@ specifics:
     Status: in-use
     SubnetId: subnet-04acba95395cc7338
     VpcId: vpc-0e8d78d562c500d57
+  - Attachment:
+      AttachTime: 2026-08-25 08:37:57+00:00
+      AttachmentId: eni-attach-0f6b1f3ba1c84d19d
+      DeleteOnTermination: false
+      DeviceIndex: 2
+      NetworkCardIndex: 0
+      Status: attached
+    Description: external interface for tproxy-splicer41
+    Groups:
+    - GroupId: sg-07da4f76c36556ca2
+      GroupName: mbx-bnb-colo-perf-default
+    - GroupId: sg-08e06c2fcca39d99b
+      GroupName: mbx-bnb-colo-perf-monitoring
+    - GroupId: sg-08e11fd2a63dc4af9
+      GroupName: mbx-bnb-colo-perf-tproxy-splicer
+    InterfaceType: interface
+    Ipv6Addresses: []
+    MacAddress: 06:98:a2:27:8d:a9
+    NetworkInterfaceId: eni-080a89f14590bf8e5
+    OwnerId: '862793644923'
+    PrivateDnsName: ip-10-170-34-224.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.170.34.224
+    PrivateIpAddresses:
+    - Primary: true
+      PrivateDnsName: ip-10-170-34-224.ap-northeast-1.compute.internal
+      PrivateIpAddress: 10.170.34.224
+    SourceDestCheck: false
+    Status: in-use
+    SubnetId: subnet-04acba95395cc7338
+    VpcId: vpc-0e8d78d562c500d57
   Placement:
     AvailabilityZone: ap-northeast-1a
     GroupName: ''

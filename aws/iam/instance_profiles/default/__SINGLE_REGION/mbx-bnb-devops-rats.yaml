@@ -1,0 +1,28 @@
+---
+datatype: aws.iam.instance_profiles
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx-bnb-devops-rats
+  single_region: true
+specifics:
+  Arn: arn:aws:iam::862793644923:instance-profile/mbx-bnb-devops-rats
+  CreateDate: 2026-08-25 11:55:40+00:00
+  InstanceProfileId: AIPA4RYUCHN575VPKVUKC
+  InstanceProfileName: mbx-bnb-devops-rats
+  Path: /
+  Roles:
+  - Arn: arn:aws:iam::862793644923:role/mbx-bnb-devops-rats
+    AssumeRolePolicyDocument:
+      Statement:
+      - Action: sts:AssumeRole
+        Effect: Allow
+        Principal:
+          Service: ec2.amazonaws.com
+      Version: '2012-10-17'
+    CreateDate: 2026-08-25 11:55:39+00:00
+    Path: /
+    RoleId: AROA4RYUCHN5Q7O3DYOLQ
+    RoleName: mbx-bnb-devops-rats
+...
+

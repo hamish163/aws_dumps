@@ -29,7 +29,7 @@ specifics:
   DbClusterResourceId: cluster-GEHXBQ4Q76YTKMGK2QJ7KCB2JU
   DeletionProtection: true
   DomainMemberships: []
-  EarliestRestorableTime: 2026-08-17 19:00:23.863000+00:00
+  EarliestRestorableTime: 2026-08-18 19:00:31.820000+00:00
   Endpoint: mbx-bnb-uat-swapchop-db-c1.cluster-cvmjht5arg7h.ap-northeast-1.rds.amazonaws.com
   Engine: aurora-mysql
   EngineMode: provisioned
@@ -38,7 +38,7 @@ specifics:
   HttpEndpointEnabled: false
   IAMDatabaseAuthenticationEnabled: false
   KmsKeyId: arn:aws:kms:ap-northeast-1:862793644923:key/4d70afbb-e9b9-4bb7-83f2-8de31f8a5460
-  LatestRestorableTime: 2026-08-25 01:30:04.395000+00:00
+  LatestRestorableTime: 2026-08-26 01:16:54.458000+00:00
   LocalWriteForwardingStatus: disabled
   MasterUserSecret:
     KmsKeyId: arn:aws:kms:ap-northeast-1:862793644923:key/f9e1e3c6-619c-47d6-a17c-f83b8c436093

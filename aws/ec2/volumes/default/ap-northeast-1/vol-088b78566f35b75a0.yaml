@@ -1,0 +1,38 @@
+---
+datatype: aws.ec2.volumes
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-088b78566f35b75a0
+specifics:
+  Attachments:
+  - AttachTime: 2026-08-25 23:10:37+00:00
+    DeleteOnTermination: true
+    Device: /dev/xvda
+    InstanceId: i-08c20931ac458cc71
+    State: attached
+    VolumeId: vol-088b78566f35b75a0
+  AvailabilityZone: ap-northeast-1c
+  CreateTime: 2026-08-25 23:10:37.167000+00:00
+  Encrypted: false
+  Iops: 3000
+  MultiAttachEnabled: false
+  Size: 40
+  SnapshotId: snap-0e57c816f82653b15
+  State: in-use
+  Tags:
+  - Key: Name
+    Value: mbx-bnb-perf-jmeter_perf-load-generators-java
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  - Key: biz
+    Value: mbx
+  - Key: mbx_env_name
+    Value: perf
+  Throughput: 125
+  VolumeId: vol-088b78566f35b75a0
+  VolumeType: gp3
+...
+

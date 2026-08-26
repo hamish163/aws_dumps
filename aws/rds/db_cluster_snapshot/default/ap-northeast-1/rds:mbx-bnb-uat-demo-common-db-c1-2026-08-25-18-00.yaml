@@ -1,0 +1,46 @@
+---
+datatype: aws.rds.db_cluster_snapshot
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rds:mbx-bnb-uat-demo-common-db-c1-2026-08-25-18-00
+specifics:
+  AllocatedStorage: 1
+  AvailabilityZones:
+  - ap-northeast-1a
+  - ap-northeast-1c
+  - ap-northeast-1d
+  ClusterCreateTime: 2025-09-25 12:14:24.786000+00:00
+  DBClusterIdentifier: mbx-bnb-uat-demo-common-db-c1
+  DBClusterSnapshotArn: arn:aws:rds:ap-northeast-1:862793644923:cluster-snapshot:rds:mbx-bnb-uat-demo-common-db-c1-2026-08-25-18-00
+  DBClusterSnapshotIdentifier: rds:mbx-bnb-uat-demo-common-db-c1-2026-08-25-18-00
+  DbClusterResourceId: cluster-LILRPK2B35REKK2WG7LQKYR5EI
+  Engine: aurora-mysql
+  EngineMode: provisioned
+  EngineVersion: 8.0.mysql_aurora.3.04.3
+  IAMDatabaseAuthenticationEnabled: false
+  KmsKeyId: arn:aws:kms:ap-northeast-1:862793644923:key/4d70afbb-e9b9-4bb7-83f2-8de31f8a5460
+  LicenseModel: aurora-mysql
+  MasterUsername: mbxprd
+  PercentProgress: 100
+  Port: 0
+  SnapshotCreateTime: 2026-08-25 18:01:24.226000+00:00
+  SnapshotType: automated
+  Status: available
+  StorageEncrypted: true
+  TagList:
+  - Key: mbx_env_name
+    Value: uat
+  - Key: biz
+    Value: mbx
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  - Key: cluster_group
+    Value: demo-common_c1
+  - Key: Name
+    Value: mbx-bnb-uat-demo-common-db-c1
+  VpcId: vpc-0b3ce57b4c748893b
+...
+

@@ -12,6 +12,6 @@ specifics:
     PrivateZone: true
   Id: /hostedzone/Z064784433C3RR141AMIT
   Name: devops.bnb.mbx.
-  ResourceRecordSetCount: 88
+  ResourceRecordSetCount: 96
 ...
 

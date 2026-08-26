@@ -25,8 +25,8 @@ specifics:
   Port: 8182
   Region: apne-1
   RestoreWindow:
-    EarliestTime: 2026-08-23 17:17:28.678000+00:00
-    LatestTime: 2026-08-25 01:27:46.090000+00:00
+    EarliestTime: 2026-08-24 17:17:25.825000+00:00
+    LatestTime: 2026-08-26 01:16:44.546000+00:00
   Status: active
   StorageEncrypted: true
 ...

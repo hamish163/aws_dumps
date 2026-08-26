@@ -1,0 +1,14 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-0f51531f2a3e75710
+specifics:
+  Name: mbx-bnb-perf-jmeter_perf-load-generators-java
+  biz: mbx
+  mbx_env_name: perf
+  mbx_exchange_name: bnb
+  team: mbx
+...
+

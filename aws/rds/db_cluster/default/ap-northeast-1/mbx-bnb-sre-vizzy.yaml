@@ -29,7 +29,7 @@ specifics:
   DbClusterResourceId: cluster-AGMLMV6LCNGWHCVM6E4P3HW6FA
   DeletionProtection: false
   DomainMemberships: []
-  EarliestRestorableTime: 2026-08-23 17:17:28.678000+00:00
+  EarliestRestorableTime: 2026-08-24 17:17:25.825000+00:00
   Endpoint: mbx-bnb-sre-vizzy.cluster-cvmjht5arg7h.ap-northeast-1.neptune.amazonaws.com
   Engine: neptune
   EngineMode: provisioned
@@ -38,7 +38,7 @@ specifics:
   HttpEndpointEnabled: false
   IAMDatabaseAuthenticationEnabled: true
   KmsKeyId: arn:aws:kms:ap-northeast-1:862793644923:key/4d70afbb-e9b9-4bb7-83f2-8de31f8a5460
-  LatestRestorableTime: 2026-08-25 01:27:46.090000+00:00
+  LatestRestorableTime: 2026-08-26 01:16:44.546000+00:00
   MasterUsername: admin
   MultiAZ: false
   NetworkType: IPV4
