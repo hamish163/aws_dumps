@@ -247,9 +247,12 @@ specifics:
     GroupName: mbx-bnb-perf-default
   SourceDestCheck: true
   State:
-    Code: 16
-    Name: running
-  StateTransitionReason: ''
+    Code: 80
+    Name: stopped
+  StateReason:
+    Code: Client.InstanceInitiatedShutdown
+    Message: 'Client.InstanceInitiatedShutdown: Instance initiated shutdown'
+  StateTransitionReason: User initiated
   SubnetId: subnet-0948699b8436c70dc
   Tags:
   - Key: Name

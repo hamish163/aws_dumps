@@ -142,7 +142,7 @@ specifics:
   - Key: mbx_host_index
     Value: '1'
   - Key: mbx_secret_store
-    Value: asm
+    Value: none
   - Key: team
     Value: mbx
   UsageOperation: RunInstances

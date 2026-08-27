@@ -17,9 +17,9 @@ specifics:
   - arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:loadbalancer/net/mbx-bnb-perf-fix-api-md-nlb/ee249bb67fa9b89d
   Matcher:
     HttpCode: '200'
-  Port: 9876
+  Port: 6789
   Protocol: TCP
-  TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-perf-fix-api-md-tg/accff18f58fb7db5
+  TargetGroupArn: arn:aws:elasticloadbalancing:ap-northeast-1:862793644923:targetgroup/mbx-bnb-perf-fix-api-md-tg/e812dc6053dd165e
   TargetGroupName: mbx-bnb-perf-fix-api-md-tg
   TargetType: instance
   UnhealthyThresholdCount: 2

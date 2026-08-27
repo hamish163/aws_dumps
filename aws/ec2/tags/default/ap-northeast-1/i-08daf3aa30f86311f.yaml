@@ -13,7 +13,7 @@ specifics:
   mbx_env_type: multi-node
   mbx_exchange_name: bnb
   mbx_host_index: '2'
-  mbx_secret_store: asm
+  mbx_secret_store: none
   team: mbx
 ...
 

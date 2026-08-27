@@ -61,11 +61,11 @@ specifics:
     PrivateDnsName: ip-10-200-20-177.ap-northeast-1.compute.internal
     PrivateIpAddress: 10.200.20.177
   - Primary: false
-    PrivateDnsName: ip-10-200-20-137.ap-northeast-1.compute.internal
-    PrivateIpAddress: 10.200.20.137
-  - Primary: false
     PrivateDnsName: ip-10-200-20-104.ap-northeast-1.compute.internal
     PrivateIpAddress: 10.200.20.104
+  - Primary: false
+    PrivateDnsName: ip-10-200-20-95.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.200.20.95
   RequesterManaged: false
   SourceDestCheck: true
   Status: in-use

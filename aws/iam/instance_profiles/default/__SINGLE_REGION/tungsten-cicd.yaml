@@ -19,9 +19,9 @@ specifics:
         Effect: Allow
         Principal:
           Service:
-          - ec2.amazonaws.com
-          - states.amazonaws.com
           - cloudformation.amazonaws.com
+          - states.amazonaws.com
+          - ec2.amazonaws.com
       Version: '2012-10-17'
     CreateDate: 2022-05-17 09:02:51+00:00
     Path: /mbx/devops/service/

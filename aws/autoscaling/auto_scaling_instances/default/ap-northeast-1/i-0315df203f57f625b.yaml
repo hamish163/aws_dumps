@@ -1,0 +1,20 @@
+---
+datatype: aws.autoscaling.auto_scaling_instances
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-0315df203f57f625b
+specifics:
+  AutoScalingGroupName: perf-load-generators-java-AutoScalingGroup-JQlmEewSPfvL
+  AvailabilityZone: ap-northeast-1c
+  HealthStatus: HEALTHY
+  InstanceId: i-0315df203f57f625b
+  InstanceType: c8g.8xlarge
+  LaunchTemplate:
+    LaunchTemplateId: lt-0539658a7d665115e
+    LaunchTemplateName: perf-load-generators-java-launch-template
+    Version: '1'
+  LifecycleState: InService
+  ProtectedFromScaleIn: false
+...
+

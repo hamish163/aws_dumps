@@ -1,0 +1,48 @@
+---
+datatype: aws.rds.db_cluster_snapshot
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: rds:mbx-bnb-perf-swapchop-db-c1-2026-08-26-14-00
+specifics:
+  AllocatedStorage: 1
+  AvailabilityZones:
+  - ap-northeast-1a
+  - ap-northeast-1c
+  - ap-northeast-1d
+  ClusterCreateTime: 2026-07-16 10:04:48.816000+00:00
+  DBClusterIdentifier: mbx-bnb-perf-swapchop-db-c1
+  DBClusterSnapshotArn: arn:aws:rds:ap-northeast-1:862793644923:cluster-snapshot:rds:mbx-bnb-perf-swapchop-db-c1-2026-08-26-14-00
+  DBClusterSnapshotIdentifier: rds:mbx-bnb-perf-swapchop-db-c1-2026-08-26-14-00
+  DbClusterResourceId: cluster-HVXQ6CCK6YQPDEP5LW2N7OXH2Q
+  Engine: aurora-mysql
+  EngineMode: provisioned
+  EngineVersion: 8.0.mysql_aurora.3.10.4
+  IAMDatabaseAuthenticationEnabled: false
+  KmsKeyId: arn:aws:kms:ap-northeast-1:862793644923:key/4d70afbb-e9b9-4bb7-83f2-8de31f8a5460
+  LicenseModel: aurora-mysql
+  MasterUsername: mbxprd
+  PercentProgress: 100
+  Port: 0
+  SnapshotCreateTime: 2026-08-26 14:01:23.973000+00:00
+  SnapshotType: automated
+  Status: available
+  StorageEncrypted: true
+  TagList:
+  - Key: biz
+    Value: mbx
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_secret_store
+    Value: none
+  - Key: cluster_group
+    Value: swapchop_c1
+  - Key: mbx_env_name
+    Value: perf
+  - Key: team
+    Value: mbx
+  - Key: Name
+    Value: mbx-bnb-perf-swapchop-db-c1
+  VpcId: vpc-013930e589c469574
+...
+

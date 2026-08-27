@@ -9,12 +9,12 @@ specifics:
   Arn: arn:aws:iam::aws:policy/SageMakerStudioAdminIAMConsolePolicy
   AttachmentCount: 0
   CreateDate: 2025-08-18 22:49:07+00:00
-  DefaultVersionId: v8
+  DefaultVersionId: v9
   IsAttachable: true
   Path: /
   PermissionsBoundaryUsageCount: 0
   PolicyId: ANPAZKAPJZG4FF4BJSUBG
   PolicyName: SageMakerStudioAdminIAMConsolePolicy
-  UpdateDate: 2026-03-27 17:42:13+00:00
+  UpdateDate: 2026-08-26 22:47:07+00:00
 ...
 

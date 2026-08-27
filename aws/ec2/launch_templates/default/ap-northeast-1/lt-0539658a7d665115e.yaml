@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.launch_templates
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: lt-0539658a7d665115e
+specifics:
+  CreateTime: 2026-08-26 20:54:13+00:00
+  CreatedBy: arn:aws:sts::862793644923:assumed-role/mbx-bnb-perf-jmeter/i-0b33cc07cb33cf9c3
+  DefaultVersionNumber: 1
+  LatestVersionNumber: 1
+  LaunchTemplateId: lt-0539658a7d665115e
+  LaunchTemplateName: perf-load-generators-java-launch-template
+...
+

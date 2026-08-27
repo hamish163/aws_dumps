@@ -110,7 +110,7 @@ specifics:
   - Key: jenkins_cloud_name
     Value: ec2-qa
   - Key: jenkins_node_expires_at
-    Value: '2026-08-26T02:48:57.760460728Z'
+    Value: '2026-08-27T03:48:57.772687718Z'
   - Key: jenkins_server_url
     Value: https://jenkins.bitdj.com/
   - Key: jenkins_slave_type

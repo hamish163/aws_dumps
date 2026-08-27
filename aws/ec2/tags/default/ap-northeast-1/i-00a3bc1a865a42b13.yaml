@@ -11,7 +11,7 @@ specifics:
   mbx_env_name: devops
   mbx_exchange_name: bnb
   mbx_host_index: '1'
-  mbx_secret_store: asm
+  mbx_secret_store: none
   team: mbx
 ...
 
