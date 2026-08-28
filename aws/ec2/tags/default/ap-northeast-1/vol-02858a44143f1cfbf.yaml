@@ -1,0 +1,16 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-02858a44143f1cfbf
+specifics:
+  Name: mbx-bnb-colo-perf-sandbox31
+  biz: mbx
+  mbx_application_name: mbx-sandbox
+  mbx_env_name: colo-perf
+  mbx_exchange_name: bnb
+  mbx_secret_store: none
+  team: mbx
+...
+

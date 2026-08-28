@@ -8,7 +8,7 @@ metadata:
 specifics:
   Name: tproxy-splicer51.colo-perf.bnb.mbx.
   ResourceRecords:
-  - Value: 10.170.39.22
+  - Value: 10.170.37.17
   TTL: 300
   Type: A
 ...

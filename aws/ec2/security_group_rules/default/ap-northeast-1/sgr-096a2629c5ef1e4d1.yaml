@@ -6,7 +6,7 @@ metadata:
   resourceid: sgr-096a2629c5ef1e4d1
 specifics:
   CidrIpv4: 10.66.224.0/19
-  Description: from colo-prod tracky slave (over colo-prod - tracky-prod vpc peering)
+  Description: from colo-prod tracky slave (over colo-tracky peering)
   FromPort: 5000
   GroupId: sg-051d10d7a77e36101
   GroupOwnerId: '862793644923'

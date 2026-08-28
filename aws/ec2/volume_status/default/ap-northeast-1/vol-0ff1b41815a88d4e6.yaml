@@ -14,7 +14,7 @@ specifics:
     - Name: io-enabled
       Status: passed
     - Name: io-performance
-      Status: not-applicable
+      Status: normal
     - Name: initialization-state
       Status: completed
     Status: ok

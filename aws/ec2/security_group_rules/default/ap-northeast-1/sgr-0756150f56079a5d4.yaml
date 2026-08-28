@@ -1,0 +1,22 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0756150f56079a5d4
+specifics:
+  Description: Allow tracky JP slave instances to reach the USA prod salt-master VPCe
+    endpoint (port 4506)
+  FromPort: 4506
+  GroupId: sg-043c486d030756434
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-01bef8cd9d9d04055
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-0756150f56079a5d4
+  Tags: []
+  ToPort: 4506
+...
+

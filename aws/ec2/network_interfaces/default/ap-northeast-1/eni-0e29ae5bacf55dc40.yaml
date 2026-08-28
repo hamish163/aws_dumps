@@ -1,0 +1,38 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-0e29ae5bacf55dc40
+specifics:
+  Attachment:
+    AttachmentId: ela-attach-0577c809abbf27776
+    DeleteOnTermination: false
+    DeviceIndex: 1
+    InstanceOwnerId: amazon-aws
+    Status: attached
+  AvailabilityZone: ap-northeast-1c
+  Description: VPC Endpoint Interface vpce-0c6a4cb9c795995bd
+  Groups:
+  - GroupId: sg-043c486d030756434
+    GroupName: prod-tracky-jp-vpce
+  InterfaceType: vpc_endpoint
+  Ipv6Addresses: []
+  MacAddress: 0a:b4:0e:89:d0:57
+  NetworkInterfaceId: eni-0e29ae5bacf55dc40
+  OwnerId: '862793644923'
+  PrivateDnsName: ip-172-27-37-155.ap-northeast-1.compute.internal
+  PrivateIpAddress: 172.27.37.155
+  PrivateIpAddresses:
+  - Primary: true
+    PrivateDnsName: ip-172-27-37-155.ap-northeast-1.compute.internal
+    PrivateIpAddress: 172.27.37.155
+  RequesterId: '727180483921'
+  RequesterManaged: true
+  SourceDestCheck: true
+  Status: in-use
+  SubnetId: subnet-0899be7b94796ea56
+  TagSet: []
+  VpcId: vpc-03f5d2495fd8d95a3
+...
+

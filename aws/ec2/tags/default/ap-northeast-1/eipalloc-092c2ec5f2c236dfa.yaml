@@ -1,0 +1,14 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eipalloc-092c2ec5f2c236dfa
+specifics:
+  Name: mbx-bnb-colo-perf-eip-az2
+  biz: mbx
+  mbx_env_name: colo-perf
+  mbx_exchange_name: bnb
+  team: mbx
+...
+

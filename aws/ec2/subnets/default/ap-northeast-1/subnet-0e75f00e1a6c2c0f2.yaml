@@ -1,0 +1,40 @@
+---
+datatype: aws.ec2.subnets
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: subnet-0e75f00e1a6c2c0f2
+specifics:
+  AssignIpv6AddressOnCreation: false
+  AvailabilityZone: ap-northeast-1c
+  AvailabilityZoneId: apne1-az1
+  AvailableIpAddressCount: 250
+  CidrBlock: 10.170.36.0/24
+  DefaultForAz: false
+  EnableDns64: false
+  Ipv6CidrBlockAssociationSet: []
+  Ipv6Native: false
+  MapCustomerOwnedIpOnLaunch: false
+  MapPublicIpOnLaunch: false
+  OwnerId: '862793644923'
+  PrivateDnsNameOptionsOnLaunch:
+    EnableResourceNameDnsAAAARecord: false
+    EnableResourceNameDnsARecord: false
+    HostnameType: ip-name
+  State: available
+  SubnetArn: arn:aws:ec2:ap-northeast-1:862793644923:subnet/subnet-0e75f00e1a6c2c0f2
+  SubnetId: subnet-0e75f00e1a6c2c0f2
+  Tags:
+  - Key: Name
+    Value: mbx-bnb-colo-perf-subnet-private4-az-1c
+  - Key: biz
+    Value: mbx
+  - Key: mbx_env_name
+    Value: colo-perf
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: team
+    Value: mbx
+  VpcId: vpc-0e8d78d562c500d57
+...
+

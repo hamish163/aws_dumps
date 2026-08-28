@@ -33,7 +33,7 @@ specifics:
   DbClusterResourceId: cluster-ZUDW2RIXWKPLXXPQ2YBAZOXCXM
   DeletionProtection: true
   DomainMemberships: []
-  EarliestRestorableTime: 2026-08-19 17:19:31.178000+00:00
+  EarliestRestorableTime: 2026-08-20 17:20:28.211000+00:00
   Endpoint: mbx-bnb-uat-spot-aqueduct-papers-db-c1.cluster-cvmjht5arg7h.ap-northeast-1.rds.amazonaws.com
   Engine: aurora-mysql
   EngineMode: provisioned
@@ -42,7 +42,7 @@ specifics:
   HttpEndpointEnabled: false
   IAMDatabaseAuthenticationEnabled: false
   KmsKeyId: arn:aws:kms:ap-northeast-1:862793644923:key/4d70afbb-e9b9-4bb7-83f2-8de31f8a5460
-  LatestRestorableTime: 2026-08-27 01:40:40.908000+00:00
+  LatestRestorableTime: 2026-08-28 01:29:17.230000+00:00
   LocalWriteForwardingStatus: disabled
   MasterUserSecret:
     KmsKeyId: arn:aws:kms:ap-northeast-1:862793644923:key/f9e1e3c6-619c-47d6-a17c-f83b8c436093

@@ -8,7 +8,7 @@ specifics:
   AssignIpv6AddressOnCreation: false
   AvailabilityZone: ap-northeast-1a
   AvailabilityZoneId: apne1-az4
-  AvailableIpAddressCount: 1717
+  AvailableIpAddressCount: 1716
   CidrBlock: 172.27.24.0/21
   DefaultForAz: false
   EnableDns64: false

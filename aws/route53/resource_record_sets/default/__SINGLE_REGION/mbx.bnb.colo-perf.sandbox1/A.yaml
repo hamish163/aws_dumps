@@ -8,7 +8,7 @@ metadata:
 specifics:
   Name: sandbox1.colo-perf.bnb.mbx.
   ResourceRecords:
-  - Value: 10.170.32.15
+  - Value: 10.170.32.19
   TTL: 300
   Type: A
 ...

@@ -12,6 +12,6 @@ specifics:
     PrivateZone: true
   Id: /hostedzone/Z092002810AUJT78JUNFQ
   Name: colo-perf.bnb.mbx.
-  ResourceRecordSetCount: 13
+  ResourceRecordSetCount: 8
 ...
 

@@ -9,12 +9,12 @@ specifics:
   Arn: arn:aws:iam::aws:policy/service-role/AWS_ConfigRole
   AttachmentCount: 0
   CreateDate: 2020-09-15 20:30:30+00:00
-  DefaultVersionId: v71
+  DefaultVersionId: v72
   IsAttachable: true
   Path: /service-role/
   PermissionsBoundaryUsageCount: 0
   PolicyId: ANPAZKAPJZG4PP7QZ4FBG
   PolicyName: AWS_ConfigRole
-  UpdateDate: 2026-07-30 23:27:21+00:00
+  UpdateDate: 2026-08-27 22:07:08+00:00
 ...
 

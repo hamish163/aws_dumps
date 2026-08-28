@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eipalloc-071f9e3e9465b59a7
+specifics:
+  Name: tracky-jp-slave1-usa-prod
+  biz: mbx
+  mbx_env_name: prod
+  mbx_exchange_name: bnb
+  sre-env: prod
+  team: sre
+...
+

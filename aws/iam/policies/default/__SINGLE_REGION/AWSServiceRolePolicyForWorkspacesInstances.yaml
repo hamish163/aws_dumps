@@ -9,12 +9,12 @@ specifics:
   Arn: arn:aws:iam::aws:policy/aws-service-role/AWSServiceRolePolicyForWorkspacesInstances
   AttachmentCount: 0
   CreateDate: 2025-06-11 20:37:06+00:00
-  DefaultVersionId: v3
+  DefaultVersionId: v4
   IsAttachable: true
   Path: /aws-service-role/
   PermissionsBoundaryUsageCount: 0
   PolicyId: ANPAZKAPJZG4GHC77ROUU
   PolicyName: AWSServiceRolePolicyForWorkspacesInstances
-  UpdateDate: 2026-06-29 23:42:20+00:00
+  UpdateDate: 2026-08-27 18:57:07+00:00
 ...
 

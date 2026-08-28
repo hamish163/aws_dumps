@@ -9,9 +9,15 @@ specifics:
   - AssociationState:
       State: associated
     Main: false
-    RouteTableAssociationId: rtbassoc-0d895953c30d1cc0c
+    RouteTableAssociationId: rtbassoc-0b3a992d61a2206da
     RouteTableId: rtb-04567ee1705a2c0c2
-    SubnetId: subnet-0491e190198498606
+    SubnetId: subnet-0f75c3196e61c665f
+  - AssociationState:
+      State: associated
+    Main: false
+    RouteTableAssociationId: rtbassoc-0c0294dcf0768ec12
+    RouteTableId: rtb-04567ee1705a2c0c2
+    SubnetId: subnet-03c14c23c8bc2179d
   OwnerId: '862793644923'
   PropagatingVgws: []
   RouteTableId: rtb-04567ee1705a2c0c2

@@ -9,9 +9,9 @@ specifics:
   - AssociationState:
       State: associated
     Main: false
-    RouteTableAssociationId: rtbassoc-077b812504919af84
+    RouteTableAssociationId: rtbassoc-0acc883c84a70d17d
     RouteTableId: rtb-0d5185e27df2e7e93
-    SubnetId: subnet-07e6fda239868c069
+    SubnetId: subnet-0e75f00e1a6c2c0f2
   OwnerId: '862793644923'
   PropagatingVgws: []
   RouteTableId: rtb-0d5185e27df2e7e93
@@ -40,8 +40,12 @@ specifics:
     Origin: CreateRoute
     State: active
     TransitGatewayId: tgw-094ec8a8749ab72d4
+  - DestinationCidrBlock: 10.0.0.0/8
+    Origin: CreateRoute
+    State: active
+    TransitGatewayId: tgw-094ec8a8749ab72d4
   - DestinationCidrBlock: 0.0.0.0/0
-    NatGatewayId: nat-0a7367ca6855c0008
+    NatGatewayId: nat-0251b16b19b1f9ab4
     Origin: CreateRoute
     State: active
   Tags:

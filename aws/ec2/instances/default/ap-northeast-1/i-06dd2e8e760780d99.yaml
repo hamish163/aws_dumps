@@ -163,7 +163,7 @@ specifics:
     CapacityReservationPreference: open
   ClientToken: terraform-20260623144541507700000001
   CpuOptions:
-    CoreCount: 48
+    CoreCount: 24
     ThreadsPerCore: 1
   CurrentInstanceBootMode: uefi
   EbsOptimized: true
@@ -178,8 +178,8 @@ specifics:
     Id: AIPA4RYUCHN57J4I6LEO3
   ImageId: ami-06903006eaf547859
   InstanceId: i-06dd2e8e760780d99
-  InstanceType: m8azn.12xlarge
-  LaunchTime: 2026-07-04 07:32:06+00:00
+  InstanceType: m8azn.6xlarge
+  LaunchTime: 2026-08-27 04:21:55+00:00
   MaintenanceOptions:
     AutoRecovery: default
   MetadataOptions:
@@ -247,12 +247,9 @@ specifics:
     GroupName: mbx-bnb-perf-default
   SourceDestCheck: true
   State:
-    Code: 80
-    Name: stopped
-  StateReason:
-    Code: Client.InstanceInitiatedShutdown
-    Message: 'Client.InstanceInitiatedShutdown: Instance initiated shutdown'
-  StateTransitionReason: User initiated
+    Code: 16
+    Name: running
+  StateTransitionReason: ''
   SubnetId: subnet-0948699b8436c70dc
   Tags:
   - Key: Name
