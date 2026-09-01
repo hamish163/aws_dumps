@@ -1,0 +1,19 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-04e59df9ba524a236
+specifics:
+  CidrIpv4: 10.170.32.0/21
+  Description: Allow traffic from colo-perf sandbox
+  FromPort: 4906
+  GroupId: sg-0f276e81ef8f77bf0
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-04e59df9ba524a236
+  Tags: []
+  ToPort: 4906
+...
+

@@ -6,10 +6,10 @@ metadata:
   resourceid: vol-05d1beba1ac67fe5d
 specifics:
   Attachments:
-  - AttachTime: 2026-08-27 13:15:57+00:00
+  - AttachTime: 2026-08-28 01:28:36+00:00
     DeleteOnTermination: false
     Device: /dev/sdf
-    InstanceId: i-0c4383475859b13db
+    InstanceId: i-06f374ec6bbdc98bd
     State: attached
     VolumeId: vol-05d1beba1ac67fe5d
   AvailabilityZone: ap-northeast-1c

@@ -102,9 +102,12 @@ specifics:
     GroupName: mbx-usa-prod-gw-monitoring
   SourceDestCheck: true
   State:
-    Code: 16
-    Name: running
-  StateTransitionReason: ''
+    Code: 80
+    Name: stopped
+  StateReason:
+    Code: Client.InstanceInitiatedShutdown
+    Message: 'Client.InstanceInitiatedShutdown: Instance initiated shutdown'
+  StateTransitionReason: User initiated
   SubnetId: subnet-02847a3b552ac096b
   Tags:
   - Key: Name

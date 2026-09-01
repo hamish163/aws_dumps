@@ -1,0 +1,58 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-0ad35969e1d433da0
+specifics:
+  Attachment:
+    AttachTime: 2026-09-01 01:09:04+00:00
+    AttachmentId: eni-attach-0245a99df043fc7d5
+    DeleteOnTermination: true
+    DeviceIndex: 0
+    InstanceId: i-01193401f7df6b59e
+    InstanceOwnerId: '862793644923'
+    NetworkCardIndex: 0
+    Status: attached
+  AvailabilityZone: ap-northeast-1c
+  Description: ''
+  Groups:
+  - GroupId: sg-0dcd16e585060d06c
+    GroupName: mbx-bnb-devops-monitoring
+  - GroupId: sg-0d9b8301e1041b123
+    GroupName: mbx-bnb-devops-jenkins_dev-ec2-dynamic-node
+  InterfaceType: interface
+  Ipv6Addresses: []
+  MacAddress: 0a:83:dd:ce:dc:3f
+  NetworkInterfaceId: eni-0ad35969e1d433da0
+  OwnerId: '862793644923'
+  PrivateDnsName: ip-10-200-20-238.ap-northeast-1.compute.internal
+  PrivateIpAddress: 10.200.20.238
+  PrivateIpAddresses:
+  - Primary: true
+    PrivateDnsName: ip-10-200-20-238.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.200.20.238
+  RequesterManaged: false
+  SourceDestCheck: true
+  Status: in-use
+  SubnetId: subnet-0b46f1b63e4b55f14
+  TagSet:
+  - Key: biz
+    Value: mbx
+  - Key: team
+    Value: mbx
+  - Key: Name
+    Value: mbx-bnb-devops-jenkins_dev-dynamic-agent-qa
+  - Key: jenkins-master
+    Value: mbx-bnb-devops-jenkins_dev
+  - Key: mbx_env_name
+    Value: devops
+  - Key: jenkins_cloud_name
+    Value: ec2-qa
+  - Key: jenkins_slave_type
+    Value: demand_tungsten-ci AL2023 HighEnd
+  - Key: jenkins_server_url
+    Value: https://jenkins.bitdj.com/
+  VpcId: vpc-07519eb63f1d932ac
+...
+

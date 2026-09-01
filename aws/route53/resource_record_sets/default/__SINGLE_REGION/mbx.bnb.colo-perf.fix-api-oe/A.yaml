@@ -1,0 +1,16 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx.bnb.colo-perf.fix-api-oe/A
+  single_region: true
+specifics:
+  AliasTarget:
+    DNSName: vpce-0cf457741fe4e5127-3fzqw3fr.vpce-svc-0f0490a71dcfce41f.ap-northeast-1.vpce.amazonaws.com.
+    EvaluateTargetHealth: false
+    HostedZoneId: Z2E726K9Y6RL4W
+  Name: fix-api-oe.colo-perf.bnb.mbx.
+  Type: A
+...
+

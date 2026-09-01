@@ -40,8 +40,8 @@ specifics:
     Id: AIPA4RYUCHN52OST3XZBP
   ImageId: ami-05557db9cca33c6c9
   InstanceId: i-059e1a0e2fcf343be
-  InstanceType: c7gn.8xlarge
-  LaunchTime: 2026-07-30 07:04:04+00:00
+  InstanceType: c8g.8xlarge
+  LaunchTime: 2026-08-28 08:18:49+00:00
   MaintenanceOptions:
     AutoRecovery: default
   MetadataOptions:

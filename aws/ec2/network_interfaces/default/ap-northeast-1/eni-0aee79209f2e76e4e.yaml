@@ -6,8 +6,8 @@ metadata:
   resourceid: eni-0aee79209f2e76e4e
 specifics:
   Attachment:
-    AttachTime: 2026-07-31 22:51:23+00:00
-    AttachmentId: eni-attach-03aede7ddb3393c5f
+    AttachTime: 2026-08-29 21:34:02+00:00
+    AttachmentId: eni-attach-0408bb535bbb2f5dd
     DeleteOnTermination: false
     DeviceIndex: 1
     InstanceOwnerId: '187810197338'

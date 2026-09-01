@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.network_interface_permissions
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-perm-06f9bf468d000e7de
+specifics:
+  AwsAccountId: '775156351080'
+  NetworkInterfaceId: eni-09273f83d0ecd0fcd
+  NetworkInterfacePermissionId: eni-perm-06f9bf468d000e7de
+  Permission: INSTANCE-ATTACH
+  PermissionState:
+    State: GRANTED
+...
+

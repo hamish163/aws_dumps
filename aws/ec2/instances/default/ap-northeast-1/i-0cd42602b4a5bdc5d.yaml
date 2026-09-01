@@ -47,7 +47,7 @@ specifics:
   ImageId: ami-08e3af699c9971cff
   InstanceId: i-0cd42602b4a5bdc5d
   InstanceType: c7i.large
-  LaunchTime: 2026-07-28 01:38:31+00:00
+  LaunchTime: 2026-08-31 01:19:21+00:00
   MaintenanceOptions:
     AutoRecovery: default
   MetadataOptions:

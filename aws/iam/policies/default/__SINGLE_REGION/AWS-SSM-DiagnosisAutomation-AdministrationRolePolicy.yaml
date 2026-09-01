@@ -9,12 +9,12 @@ specifics:
   Arn: arn:aws:iam::aws:policy/AWS-SSM-DiagnosisAutomation-AdministrationRolePolicy
   AttachmentCount: 0
   CreateDate: 2024-11-16 00:01:45+00:00
-  DefaultVersionId: v4
+  DefaultVersionId: v5
   IsAttachable: true
   Path: /
   PermissionsBoundaryUsageCount: 0
   PolicyId: ANPAZKAPJZG4APUPTIENG
   PolicyName: AWS-SSM-DiagnosisAutomation-AdministrationRolePolicy
-  UpdateDate: 2026-02-12 18:01:02+00:00
+  UpdateDate: 2026-08-29 00:47:07+00:00
 ...
 

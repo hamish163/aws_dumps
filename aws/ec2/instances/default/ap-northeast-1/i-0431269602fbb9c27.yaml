@@ -1,0 +1,84 @@
+---
+datatype: aws.ec2.instances
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: i-0431269602fbb9c27
+specifics:
+  AmiLaunchIndex: 0
+  Architecture: x86_64
+  BlockDeviceMappings: []
+  BootMode: uefi-preferred
+  CapacityReservationSpecification:
+    CapacityReservationPreference: open
+  ClientToken: 0f9ac19a-08b6-42cf-9ba3-756ddab134db
+  CpuOptions:
+    CoreCount: 24
+    ThreadsPerCore: 2
+  CurrentInstanceBootMode: uefi
+  EbsOptimized: false
+  EnaSupport: true
+  EnclaveOptions:
+    Enabled: false
+  HibernationOptions:
+    Configured: false
+  Hypervisor: xen
+  ImageId: ami-094f9c22b9c5348ca
+  InstanceId: i-0431269602fbb9c27
+  InstanceType: c8i.12xlarge
+  KeyName: mbx-bnb-devops-jenkins-dev-dynamic-nodes
+  LaunchTime: 2026-09-01 00:39:04+00:00
+  MaintenanceOptions:
+    AutoRecovery: default
+  MetadataOptions:
+    HttpEndpoint: enabled
+    HttpProtocolIpv6: disabled
+    HttpPutResponseHopLimit: 1
+    HttpTokens: optional
+    InstanceMetadataTags: disabled
+    State: pending
+  Monitoring:
+    State: enabled
+  NetworkInterfaces: []
+  Placement:
+    AvailabilityZone: ap-northeast-1c
+    GroupName: ''
+    Tenancy: default
+  PlatformDetails: Linux/UNIX
+  PrivateDnsName: ''
+  ProductCodes: []
+  PublicDnsName: ''
+  RootDeviceName: /dev/xvda
+  RootDeviceType: ebs
+  SecurityGroups: []
+  State:
+    Code: 48
+    Name: terminated
+  StateReason:
+    Code: Client.UserInitiatedShutdown
+    Message: 'Client.UserInitiatedShutdown: User initiated shutdown'
+  StateTransitionReason: User initiated (2026-09-01 00:54:21 GMT)
+  Tags:
+  - Key: Name
+    Value: mbx-bnb-devops-jenkins_dev-dynamic-agent-qa
+  - Key: biz
+    Value: mbx
+  - Key: jenkins-master
+    Value: mbx-bnb-devops-jenkins_dev
+  - Key: jenkins_cloud_name
+    Value: ec2-qa
+  - Key: jenkins_node_expires_at
+    Value: '2026-09-01T03:48:58.095930384Z'
+  - Key: jenkins_server_url
+    Value: https://jenkins.bitdj.com/
+  - Key: jenkins_slave_type
+    Value: demand_tungsten-ci AL2023 HighEnd
+  - Key: mbx_env_name
+    Value: devops
+  - Key: team
+    Value: mbx
+  UsageOperation: RunInstances
+  UsageOperationUpdateTime: 2026-09-01 00:39:04+00:00
+  VirtualizationType: hvm
+...
+

@@ -90,26 +90,23 @@ specifics:
       PrivateDnsName: ip-10-200-20-133.ap-northeast-1.compute.internal
       PrivateIpAddress: 10.200.20.133
     - Primary: false
-      PrivateDnsName: ip-10-200-20-121.ap-northeast-1.compute.internal
-      PrivateIpAddress: 10.200.20.121
+      PrivateDnsName: ip-10-200-20-73.ap-northeast-1.compute.internal
+      PrivateIpAddress: 10.200.20.73
     - Primary: false
-      PrivateDnsName: ip-10-200-20-74.ap-northeast-1.compute.internal
-      PrivateIpAddress: 10.200.20.74
+      PrivateDnsName: ip-10-200-20-171.ap-northeast-1.compute.internal
+      PrivateIpAddress: 10.200.20.171
     - Primary: false
-      PrivateDnsName: ip-10-200-20-47.ap-northeast-1.compute.internal
-      PrivateIpAddress: 10.200.20.47
+      PrivateDnsName: ip-10-200-20-154.ap-northeast-1.compute.internal
+      PrivateIpAddress: 10.200.20.154
     - Primary: false
-      PrivateDnsName: ip-10-200-20-223.ap-northeast-1.compute.internal
-      PrivateIpAddress: 10.200.20.223
+      PrivateDnsName: ip-10-200-20-252.ap-northeast-1.compute.internal
+      PrivateIpAddress: 10.200.20.252
     - Primary: false
-      PrivateDnsName: ip-10-200-20-205.ap-northeast-1.compute.internal
-      PrivateIpAddress: 10.200.20.205
+      PrivateDnsName: ip-10-200-20-208.ap-northeast-1.compute.internal
+      PrivateIpAddress: 10.200.20.208
     - Primary: false
-      PrivateDnsName: ip-10-200-20-242.ap-northeast-1.compute.internal
-      PrivateIpAddress: 10.200.20.242
-    - Primary: false
-      PrivateDnsName: ip-10-200-20-108.ap-northeast-1.compute.internal
-      PrivateIpAddress: 10.200.20.108
+      PrivateDnsName: ip-10-200-20-116.ap-northeast-1.compute.internal
+      PrivateIpAddress: 10.200.20.116
     SourceDestCheck: true
     Status: in-use
     SubnetId: subnet-0b46f1b63e4b55f14

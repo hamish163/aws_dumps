@@ -35,7 +35,7 @@ specifics:
   ImageId: ami-0b0820482bda609a1
   InstanceId: i-01288cd1cc7e51f9e
   InstanceType: c6i.xlarge
-  LaunchTime: 2026-08-27 13:55:25+00:00
+  LaunchTime: 2026-08-31 06:18:19+00:00
   MaintenanceOptions:
     AutoRecovery: default
   MetadataOptions:

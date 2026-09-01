@@ -1,0 +1,42 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-0462426aab46839bc
+specifics:
+  Attachment:
+    AttachTime: 2026-08-28 03:09:45+00:00
+    AttachmentId: eni-attach-09f38d069f440c83a
+    DeleteOnTermination: false
+    DeviceIndex: 1
+    InstanceOwnerId: '262658558519'
+    NetworkCardIndex: 0
+    Status: attached
+  AvailabilityZone: ap-northeast-1c
+  ConnectionTrackingConfiguration:
+    TcpEstablishedTimeout: 432000
+  Description: arn:aws:ecs:ap-northeast-1:862793644923:attachment/7daedde5-e588-4e31-b963-f5abc909e1a7
+  Groups:
+  - GroupId: sg-0a1f7d96bffa9d9bb
+    GroupName: mbx-bnb-perf-qa-thunder-api-task
+  InterfaceType: interface
+  Ipv6Addresses: []
+  MacAddress: 0a:15:25:3b:b1:3d
+  NetworkInterfaceId: eni-0462426aab46839bc
+  OwnerId: '862793644923'
+  PrivateDnsName: ip-10-170-20-102.ap-northeast-1.compute.internal
+  PrivateIpAddress: 10.170.20.102
+  PrivateIpAddresses:
+  - Primary: true
+    PrivateDnsName: ip-10-170-20-102.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.170.20.102
+  RequesterId: '578734482556'
+  RequesterManaged: true
+  SourceDestCheck: true
+  Status: in-use
+  SubnetId: subnet-0948699b8436c70dc
+  TagSet: []
+  VpcId: vpc-013930e589c469574
+...
+

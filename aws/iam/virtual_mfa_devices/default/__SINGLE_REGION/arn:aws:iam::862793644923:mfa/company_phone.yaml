@@ -11,7 +11,7 @@ specifics:
   User:
     Arn: arn:aws:iam::862793644923:user/weixing
     CreateDate: 2021-08-10 05:08:28+00:00
-    PasswordLastUsed: 2026-08-27 04:55:43+00:00
+    PasswordLastUsed: 2026-08-28 06:30:59+00:00
     Path: /
     UserId: AIDA4RYUCHN5SFPRLJK35
     UserName: weixing

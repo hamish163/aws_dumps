@@ -7,7 +7,7 @@ metadata:
   single_region: true
 specifics:
   Arn: arn:aws:iam::862793644923:policy/ro-s3-jenkins-uat
-  AttachmentCount: 73
+  AttachmentCount: 74
   CreateDate: 2024-09-13 08:02:18+00:00
   DefaultVersionId: v1
   IsAttachable: true

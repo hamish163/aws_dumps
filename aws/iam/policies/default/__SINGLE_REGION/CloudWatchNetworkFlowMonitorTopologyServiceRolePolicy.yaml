@@ -9,12 +9,12 @@ specifics:
   Arn: arn:aws:iam::aws:policy/aws-service-role/CloudWatchNetworkFlowMonitorTopologyServiceRolePolicy
   AttachmentCount: 0
   CreateDate: 2024-12-01 22:51:07+00:00
-  DefaultVersionId: v9
+  DefaultVersionId: v10
   IsAttachable: true
   Path: /aws-service-role/
   PermissionsBoundaryUsageCount: 0
   PolicyId: ANPAZKAPJZG4AP4XHASGC
   PolicyName: CloudWatchNetworkFlowMonitorTopologyServiceRolePolicy
-  UpdateDate: 2026-02-12 17:57:28+00:00
+  UpdateDate: 2026-09-01 01:47:07+00:00
 ...
 

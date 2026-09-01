@@ -1,0 +1,38 @@
+---
+datatype: aws.ec2.network_interfaces
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-02fff807cbddf43fc
+specifics:
+  Attachment:
+    AttachmentId: ela-attach-036c1bab70b6e017b
+    DeleteOnTermination: false
+    DeviceIndex: 1
+    InstanceOwnerId: amazon-aws
+    Status: attached
+  AvailabilityZone: ap-northeast-1a
+  Description: AWS Lambda VPC ENI-mbx-bnb-sre-vizzy-alerts
+  Groups:
+  - GroupId: sg-08038ff7cd6eb931e
+    GroupName: mbx-bnb-sre-vizzy-lambda
+  InterfaceType: lambda
+  Ipv6Addresses: []
+  MacAddress: 06:d2:9e:d4:f4:01
+  NetworkInterfaceId: eni-02fff807cbddf43fc
+  OwnerId: '862793644923'
+  PrivateDnsName: ip-10-240-8-249.ap-northeast-1.compute.internal
+  PrivateIpAddress: 10.240.8.249
+  PrivateIpAddresses:
+  - Primary: true
+    PrivateDnsName: ip-10-240-8-249.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.240.8.249
+  RequesterId: AROA4RYUCHN5ZMZL6TXHH:919980925139
+  RequesterManaged: false
+  SourceDestCheck: true
+  Status: in-use
+  SubnetId: subnet-092b2a8803fe80577
+  TagSet: []
+  VpcId: vpc-0ba76150fc7799f94
+...
+

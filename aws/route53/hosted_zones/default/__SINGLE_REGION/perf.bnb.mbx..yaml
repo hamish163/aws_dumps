@@ -12,6 +12,6 @@ specifics:
     PrivateZone: true
   Id: /hostedzone/Z038834823ZUJ0C8LCHUG
   Name: perf.bnb.mbx.
-  ResourceRecordSetCount: 202
+  ResourceRecordSetCount: 214
 ...
 

@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-012b6a3bfa3d574af
+specifics:
+  Description: Allow TCP traffic from blaster-swapchop-userdata SG on port 8340
+  FromPort: 8340
+  GroupId: sg-05c9e563309c087ce
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-0ffb0db8a0293ac85
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-012b6a3bfa3d574af
+  Tags: []
+  ToPort: 8340
+...
+

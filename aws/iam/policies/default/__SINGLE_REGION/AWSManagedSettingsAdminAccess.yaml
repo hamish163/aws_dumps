@@ -9,12 +9,12 @@ specifics:
   Arn: arn:aws:iam::aws:policy/AWSManagedSettingsAdminAccess
   AttachmentCount: 0
   CreateDate: 2026-07-22 01:27:25+00:00
-  DefaultVersionId: v6
+  DefaultVersionId: v7
   IsAttachable: true
   Path: /
   PermissionsBoundaryUsageCount: 0
   PolicyId: ANPAZKAPJZG4GA3LE2K77
   PolicyName: AWSManagedSettingsAdminAccess
-  UpdateDate: 2026-08-14 20:07:09+00:00
+  UpdateDate: 2026-09-01 00:37:08+00:00
 ...
 

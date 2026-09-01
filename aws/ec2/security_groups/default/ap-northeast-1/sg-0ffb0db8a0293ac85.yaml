@@ -1,0 +1,28 @@
+---
+datatype: aws.ec2.security_groups
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sg-0ffb0db8a0293ac85
+specifics:
+  Description: Managed by Terraform
+  GroupId: sg-0ffb0db8a0293ac85
+  GroupName: mbx-bnb-uat-blaster-swapchop-userdata
+  Tags:
+  - Key: Name
+    Value: mbx-bnb-uat-blaster-swapchop-userdata
+  - Key: mbx_application_name
+    Value: blaster-merge
+  - Key: mbx_env_name
+    Value: uat
+  - Key: biz
+    Value: mbx
+  - Key: mbx_exchange_name
+    Value: bnb
+  - Key: mbx_secret_store
+    Value: none
+  - Key: team
+    Value: mbx
+  VpcId: vpc-0b3ce57b4c748893b
+...
+

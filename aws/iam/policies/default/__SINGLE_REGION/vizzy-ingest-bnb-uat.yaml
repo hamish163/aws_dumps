@@ -7,7 +7,7 @@ metadata:
   single_region: true
 specifics:
   Arn: arn:aws:iam::862793644923:policy/vizzy-ingest-bnb-uat
-  AttachmentCount: 71
+  AttachmentCount: 72
   CreateDate: 2026-04-20 09:59:22+00:00
   DefaultVersionId: v1
   IsAttachable: true

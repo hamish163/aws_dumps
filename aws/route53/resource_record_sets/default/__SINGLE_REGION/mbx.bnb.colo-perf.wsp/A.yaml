@@ -1,0 +1,16 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx.bnb.colo-perf.wsp/A
+  single_region: true
+specifics:
+  AliasTarget:
+    DNSName: vpce-0038de974b36a915a-zgy6ody5.vpce-svc-0f132de33038f5d25.ap-northeast-1.vpce.amazonaws.com.
+    EvaluateTargetHealth: false
+    HostedZoneId: Z2E726K9Y6RL4W
+  Name: wsp.colo-perf.bnb.mbx.
+  Type: A
+...
+

@@ -12,6 +12,6 @@ specifics:
     PrivateZone: true
   Id: /hostedzone/Z0236498361WVJPGO4120
   Name: uat.bnb.mbx.
-  ResourceRecordSetCount: 137
+  ResourceRecordSetCount: 138
 ...
 

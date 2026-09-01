@@ -1,0 +1,15 @@
+---
+datatype: aws.ec2.network_interface_permissions
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-perm-086ce2fdf2844cca6
+specifics:
+  AwsAccountId: '235329362073'
+  NetworkInterfaceId: eni-071931079ff61e9ca
+  NetworkInterfacePermissionId: eni-perm-086ce2fdf2844cca6
+  Permission: EIP-ASSOCIATE
+  PermissionState:
+    State: GRANTED
+...
+
