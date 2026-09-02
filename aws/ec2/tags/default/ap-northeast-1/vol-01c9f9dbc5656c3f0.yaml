@@ -1,0 +1,17 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: vol-01c9f9dbc5656c3f0
+specifics:
+  Name: mbx-bnb-devops-jenkins_dev-dynamic-agent-qa
+  biz: mbx
+  jenkins-master: mbx-bnb-devops-jenkins_dev
+  jenkins_cloud_name: ec2-qa
+  jenkins_server_url: https://jenkins.bitdj.com/
+  jenkins_slave_type: demand_tungsten-ci AL2023 HighEnd
+  mbx_env_name: devops
+  team: mbx
+...
+

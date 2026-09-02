@@ -38,7 +38,11 @@ specifics:
   SourceDestCheck: false
   Status: in-use
   SubnetId: subnet-0e75f00e1a6c2c0f2
-  TagSet: []
+  TagSet:
+  - Key: role
+    Value: external
+  - Key: Name
+    Value: mbx-bnb-colo-perf-tproxy-splicer41-external
   VpcId: vpc-0e8d78d562c500d57
 ...
 

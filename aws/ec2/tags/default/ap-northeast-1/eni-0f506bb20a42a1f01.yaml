@@ -1,0 +1,11 @@
+---
+datatype: aws.ec2.tags
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: eni-0f506bb20a42a1f01
+specifics:
+  Name: mbx-bnb-colo-perf-tproxy-splicer41-external
+  role: external
+...
+

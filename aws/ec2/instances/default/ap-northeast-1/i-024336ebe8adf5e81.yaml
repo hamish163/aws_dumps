@@ -55,36 +55,6 @@ specifics:
     State: disabled
   NetworkInterfaces:
   - Attachment:
-      AttachTime: 2026-08-27 11:46:44+00:00
-      AttachmentId: eni-attach-0a97ca50d751e0cf4
-      DeleteOnTermination: false
-      DeviceIndex: 2
-      NetworkCardIndex: 0
-      Status: attached
-    Description: external interface for tproxy-splicer41
-    Groups:
-    - GroupId: sg-07da4f76c36556ca2
-      GroupName: mbx-bnb-colo-perf-default
-    - GroupId: sg-08e06c2fcca39d99b
-      GroupName: mbx-bnb-colo-perf-monitoring
-    - GroupId: sg-08e11fd2a63dc4af9
-      GroupName: mbx-bnb-colo-perf-tproxy-splicer
-    InterfaceType: interface
-    Ipv6Addresses: []
-    MacAddress: 0a:f3:df:08:c5:ed
-    NetworkInterfaceId: eni-0b00795fcdca52ab2
-    OwnerId: '862793644923'
-    PrivateDnsName: ip-10-170-34-23.ap-northeast-1.compute.internal
-    PrivateIpAddress: 10.170.34.23
-    PrivateIpAddresses:
-    - Primary: true
-      PrivateDnsName: ip-10-170-34-23.ap-northeast-1.compute.internal
-      PrivateIpAddress: 10.170.34.23
-    SourceDestCheck: false
-    Status: in-use
-    SubnetId: subnet-077a10faffc406d03
-    VpcId: vpc-0e8d78d562c500d57
-  - Attachment:
       AttachTime: 2026-08-27 11:46:31+00:00
       AttachmentId: eni-attach-0ba7bbbe2c5c6ce53
       DeleteOnTermination: true

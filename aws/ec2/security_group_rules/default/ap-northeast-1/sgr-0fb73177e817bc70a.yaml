@@ -1,0 +1,20 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-0fb73177e817bc70a
+specifics:
+  CidrIpv4: 10.170.16.0/20
+  Description: Return path from perf APIs via tproxy splicer re-originates from sandbox
+    IP
+  FromPort: 32768
+  GroupId: sg-06435c4ee717b3505
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  SecurityGroupRuleId: sgr-0fb73177e817bc70a
+  Tags: []
+  ToPort: 60999
+...
+

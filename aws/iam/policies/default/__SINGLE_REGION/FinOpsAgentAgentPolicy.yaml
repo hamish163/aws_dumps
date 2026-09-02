@@ -9,12 +9,12 @@ specifics:
   Arn: arn:aws:iam::aws:policy/FinOpsAgentAgentPolicy
   AttachmentCount: 0
   CreateDate: 2026-06-03 19:57:12+00:00
-  DefaultVersionId: v2
+  DefaultVersionId: v3
   IsAttachable: true
   Path: /
   PermissionsBoundaryUsageCount: 0
   PolicyId: ANPAZKAPJZG4KRTUHDRKJ
   PolicyName: FinOpsAgentAgentPolicy
-  UpdateDate: 2026-08-19 19:27:11+00:00
+  UpdateDate: 2026-09-01 16:27:06+00:00
 ...
 

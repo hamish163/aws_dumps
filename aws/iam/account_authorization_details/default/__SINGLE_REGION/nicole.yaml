@@ -42,5 +42,17 @@ specifics:
         Sid: VisualEditor0
       Version: '2012-10-17'
     PolicyName: AssumeRole
+  - PolicyDocument:
+      Statement:
+      - Action:
+        - '*'
+        Condition:
+          DateLessThan:
+            aws:TokenIssueTime: '2026-09-01T05:27:29.764Z'
+        Effect: Deny
+        Resource:
+        - '*'
+      Version: '2012-10-17'
+    PolicyName: AWSRevokeOlderSessions
 ...
 

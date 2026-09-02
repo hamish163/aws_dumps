@@ -45,7 +45,9 @@ specifics:
     State: active
     TransitGatewayId: tgw-094ec8a8749ab72d4
   - DestinationCidrBlock: 0.0.0.0/0
-    NatGatewayId: nat-0251b16b19b1f9ab4
+    InstanceId: i-024336ebe8adf5e81
+    InstanceOwnerId: '862793644923'
+    NetworkInterfaceId: eni-09781f571e3ea8090
     Origin: CreateRoute
     State: active
   Tags:

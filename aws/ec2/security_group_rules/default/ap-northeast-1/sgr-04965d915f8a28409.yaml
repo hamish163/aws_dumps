@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-04965d915f8a28409
+specifics:
+  Description: temparily enable sobs 5861
+  FromPort: 5861
+  GroupId: sg-0dd43a387e5b86c83
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-03966355c42114346
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-04965d915f8a28409
+  Tags: []
+  ToPort: 5861
+...
+

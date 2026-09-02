@@ -25,8 +25,8 @@ specifics:
   Port: 3306
   Region: apne-1
   RestoreWindow:
-    EarliestTime: 2026-08-24 17:20:23.587000+00:00
-    LatestTime: 2026-09-01 02:24:32.790000+00:00
+    EarliestTime: 2026-08-25 17:20:23.469000+00:00
+    LatestTime: 2026-09-02 02:04:49.189000+00:00
   Status: active
   StorageEncrypted: true
 ...

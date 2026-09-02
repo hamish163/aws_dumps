@@ -9,12 +9,12 @@ specifics:
   Arn: arn:aws:iam::aws:policy/AWSAccountSettingsManagementRole
   AttachmentCount: 0
   CreateDate: 2025-12-11 17:49:09+00:00
-  DefaultVersionId: v8
+  DefaultVersionId: v9
   IsAttachable: true
   Path: /
   PermissionsBoundaryUsageCount: 0
   PolicyId: ANPAZKAPJZG4CVFC7PYPE
   PolicyName: AWSAccountSettingsManagementRole
-  UpdateDate: 2026-08-26 01:07:19+00:00
+  UpdateDate: 2026-09-01 15:17:07+00:00
 ...
 

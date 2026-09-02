@@ -52,20 +52,23 @@ specifics:
     PrivateDnsName: ip-10-200-20-73.ap-northeast-1.compute.internal
     PrivateIpAddress: 10.200.20.73
   - Primary: false
-    PrivateDnsName: ip-10-200-20-171.ap-northeast-1.compute.internal
-    PrivateIpAddress: 10.200.20.171
+    PrivateDnsName: ip-10-200-20-56.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.200.20.56
   - Primary: false
-    PrivateDnsName: ip-10-200-20-154.ap-northeast-1.compute.internal
-    PrivateIpAddress: 10.200.20.154
+    PrivateDnsName: ip-10-200-20-101.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.200.20.101
   - Primary: false
-    PrivateDnsName: ip-10-200-20-252.ap-northeast-1.compute.internal
-    PrivateIpAddress: 10.200.20.252
+    PrivateDnsName: ip-10-200-20-22.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.200.20.22
   - Primary: false
-    PrivateDnsName: ip-10-200-20-208.ap-northeast-1.compute.internal
-    PrivateIpAddress: 10.200.20.208
+    PrivateDnsName: ip-10-200-20-254.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.200.20.254
   - Primary: false
-    PrivateDnsName: ip-10-200-20-116.ap-northeast-1.compute.internal
-    PrivateIpAddress: 10.200.20.116
+    PrivateDnsName: ip-10-200-20-72.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.200.20.72
+  - Primary: false
+    PrivateDnsName: ip-10-200-20-46.ap-northeast-1.compute.internal
+    PrivateIpAddress: 10.200.20.46
   RequesterManaged: false
   SourceDestCheck: true
   Status: in-use

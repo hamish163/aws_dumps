@@ -9,12 +9,12 @@ specifics:
   Arn: arn:aws:iam::aws:policy/AWSTransformLandingZoneAgentPolicy
   AttachmentCount: 0
   CreateDate: 2026-08-06 15:12:26+00:00
-  DefaultVersionId: v1
+  DefaultVersionId: v2
   IsAttachable: true
   Path: /
   PermissionsBoundaryUsageCount: 0
   PolicyId: ANPAZKAPJZG4DQL5AE6YX
   PolicyName: AWSTransformLandingZoneAgentPolicy
-  UpdateDate: 2026-08-06 15:12:26+00:00
+  UpdateDate: 2026-09-01 10:27:08+00:00
 ...
 
