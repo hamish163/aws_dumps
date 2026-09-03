@@ -8,7 +8,7 @@ specifics:
   AssignIpv6AddressOnCreation: false
   AvailabilityZone: ap-northeast-1a
   AvailabilityZoneId: apne1-az4
-  AvailableIpAddressCount: 38
+  AvailableIpAddressCount: 44
   CidrBlock: 10.200.19.0/24
   DefaultForAz: false
   EnableDns64: false

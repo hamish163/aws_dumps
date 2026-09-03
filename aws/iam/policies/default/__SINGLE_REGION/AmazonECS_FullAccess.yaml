@@ -9,12 +9,12 @@ specifics:
   Arn: arn:aws:iam::aws:policy/AmazonECS_FullAccess
   AttachmentCount: 0
   CreateDate: 2017-11-07 21:36:54+00:00
-  DefaultVersionId: v21
+  DefaultVersionId: v22
   IsAttachable: true
   Path: /
   PermissionsBoundaryUsageCount: 0
   PolicyId: ANPAJ7S7AN6YQPTJC7IFS
   PolicyName: AmazonECS_FullAccess
-  UpdateDate: 2024-08-13 19:39:37+00:00
+  UpdateDate: 2026-09-02 14:47:07+00:00
 ...
 

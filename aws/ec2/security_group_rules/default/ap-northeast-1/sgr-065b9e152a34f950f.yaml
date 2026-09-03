@@ -1,0 +1,21 @@
+---
+datatype: aws.ec2.security_group_rules
+metadata:
+  profile: default
+  region: ap-northeast-1
+  resourceid: sgr-065b9e152a34f950f
+specifics:
+  Description: Allow TCP traffic from AOR_RATS SG on port 9810
+  FromPort: 9810
+  GroupId: sg-08f55a26e7f6279e8
+  GroupOwnerId: '862793644923'
+  IpProtocol: tcp
+  IsEgress: false
+  ReferencedGroupInfo:
+    GroupId: sg-08b33ca8eabb11981
+    UserId: '862793644923'
+  SecurityGroupRuleId: sgr-065b9e152a34f950f
+  Tags: []
+  ToPort: 9810
+...
+

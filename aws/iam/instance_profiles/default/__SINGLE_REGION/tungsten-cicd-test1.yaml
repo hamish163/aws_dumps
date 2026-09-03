@@ -19,8 +19,8 @@ specifics:
         Effect: Allow
         Principal:
           Service:
-          - states.amazonaws.com
           - cloudformation.amazonaws.com
+          - states.amazonaws.com
           - ec2.amazonaws.com
       Version: '2012-10-17'
     CreateDate: 2024-03-28 10:16:02+00:00

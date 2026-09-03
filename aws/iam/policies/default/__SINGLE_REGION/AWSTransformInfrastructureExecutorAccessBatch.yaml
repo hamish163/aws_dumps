@@ -9,12 +9,12 @@ specifics:
   Arn: arn:aws:iam::aws:policy/AWSTransformInfrastructureExecutorAccessBatch
   AttachmentCount: 0
   CreateDate: 2026-07-20 20:12:13+00:00
-  DefaultVersionId: v2
+  DefaultVersionId: v3
   IsAttachable: true
   Path: /
   PermissionsBoundaryUsageCount: 0
   PolicyId: ANPAZKAPJZG4IFSDRNYQT
   PolicyName: AWSTransformInfrastructureExecutorAccessBatch
-  UpdateDate: 2026-07-28 15:42:28+00:00
+  UpdateDate: 2026-09-02 21:27:07+00:00
 ...
 

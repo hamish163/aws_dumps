@@ -9,7 +9,7 @@ specifics:
   biz: mbx
   jenkins-master: mbx-bnb-devops-jenkins_dev
   jenkins_cloud_name: ec2-qa
-  jenkins_node_expires_at: '2026-09-02T03:48:58.511053016Z'
+  jenkins_node_expires_at: '2026-09-03T03:48:57.963717978Z'
   jenkins_server_url: https://jenkins.bitdj.com/
   jenkins_slave_type: demand_podman
   mbx_env_name: devops

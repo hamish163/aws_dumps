@@ -1,0 +1,15 @@
+---
+datatype: aws.route53.resource_record_sets
+metadata:
+  profile: default
+  region: __SINGLE_REGION
+  resourceid: mbx.bnb.perf.kline-aor-push11/A
+  single_region: true
+specifics:
+  Name: kline-aor-push11.perf.bnb.mbx.
+  ResourceRecords:
+  - Value: 10.170.20.170
+  TTL: 300
+  Type: A
+...
+
